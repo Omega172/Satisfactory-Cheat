@@ -1,0 +1,45 @@
+﻿#pragma once
+
+/**
+ * Name: Satisfactory
+ * Version: Early_Access_CL#264901
+ */
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x01)
+#endif
+
+namespace CG
+{
+	// --------------------------------------------------
+	// # Classes
+	// --------------------------------------------------
+	/**
+	 * BlueprintGeneratedClass BP_GasPillar_01.BP_GasPillar_01_C
+	 * Size -> 0x0024 (FullSize[0x0408] - InheritedSize[0x03E4])
+	 */
+	class ABP_GasPillar_01_C : public ABP_GasPillar_C
+	{
+	public:
+		unsigned char                                              UnknownData_9B4X[0x4];                                   // 0x03E4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		struct FPointerToUberGraphFrame                            UberGraphFrame;                                          // 0x03E8(0x0008) ZeroConstructor, Transient, DuplicateTransient
+		class UParticleSystemComponent*                            mGas_VFX_01;                                             // 0x03F0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash
+		class UParticleSystemComponent*                            mGas_VFX_02;                                             // 0x03F8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash
+		class UParticleSystemComponent*                            mDroppingGas_VFX_01;                                     // 0x0400(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash
+
+	public:
+		void Stop_VFX();
+		void Start_VFX();
+		void GainedSignificance();
+		void LostSignificance();
+		void ReceiveDestroyed();
+		void PlayDestructEffects();
+		void ExecuteUbergraph_BP_GasPillar_01(int32_t EntryPoint);
+		static UClass* StaticClass();
+	};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif
