@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="GUI\GUI.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_demo.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_draw.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_impl_dx11.cpp">
+      <Filter>ImGUI\Backends</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_impl_dx12.cpp">
+      <Filter>ImGUI\Backends</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_impl_win32.cpp">
+      <Filter>ImGUI\Backends</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_tables.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_widgets.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Kiero\kiero.cpp">
+      <Filter>Kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\BasicTypes_Package.cpp">
+      <Filter>SDK\Packages</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\CoreUObject_Package.cpp">
+      <Filter>SDK\Packages</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\FactoryGame_Package.cpp">
+      <Filter>SDK\Packages</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Engine_Package.cpp">
+      <Filter>SDK\Packages</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Console\Console.cpp">
+      <Filter>Utils\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Logging\Logging.cpp">
+      <Filter>Utils\Logging</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Features\Feature.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Custom.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\GUI.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Watermark.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\D3D11\D3D11Hooks.h">
+      <Filter>Hooks\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\D3D12\D3D12Hooks.h">
+      <Filter>Hooks\D3D12</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imconfig.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_impl_dx11.h">
+      <Filter>ImGUI\Backends</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_impl_dx12.h">
+      <Filter>ImGUI\Backends</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_impl_win32.h">
+      <Filter>ImGUI\Backends</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_internal.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_rectpack.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_textedit.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_truetype.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\Unreal.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Kiero\kiero.h">
+      <Filter>Kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="Kiero\minhook\include\MinHook.h">
+      <Filter>Kiero\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Console\Console.h">
+      <Filter>Utils\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Logging\Logging.h">
+      <Filter>Utils\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Logging\Colors.hpp">
+      <Filter>Utils\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\Styles.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Features">
+      <UniqueIdentifier>{5ea59c63-3ecd-47c7-9c0b-062f0248b68e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{ccea3cd5-a2a2-48d9-93d1-4d57e6261510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{5c5630e8-2335-43cf-990d-3c3d847a1aa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\D3D11">
+      <UniqueIdentifier>{f222c073-e14d-4d2a-bcdb-07b244bc80c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\D3D12">
+      <UniqueIdentifier>{30fd2585-be9c-4bae-9d35-0d1eb5bf27b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI">
+      <UniqueIdentifier>{f94ec633-7985-4ad1-ad47-e699e1880eb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI\Backends">
+      <UniqueIdentifier>{99e51689-82e3-43ab-8d55-79d3af8737d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{35f3c074-6ff9-4dfd-ab4f-fb264a0ec681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kiero">
+      <UniqueIdentifier>{9b3bb35c-96d1-418e-a17e-dfd1df56cb30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kiero\MinHook">
+      <UniqueIdentifier>{1571a502-c1e2-41ed-9463-65f31605cade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{80ab635d-6756-4097-97e6-128ab38cdbfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Packages">
+      <UniqueIdentifier>{9f3e1fbe-89ed-4d04-85eb-007b5da6f412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{d547f0b4-d270-409b-8f81-56592c5a07f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Console">
+      <UniqueIdentifier>{72d5294a-0b73-4558-bd16-c6b623d37e6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Logging">
+      <UniqueIdentifier>{f08a9e59-aca5-4021-a74f-abce048b1498}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
