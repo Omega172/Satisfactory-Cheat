@@ -57,6 +57,7 @@
     <ClCompile Include="Features\ESP\ESP.cpp">
       <Filter>Features\ESP</Filter>
     </ClCompile>
+    <ClCompile Include="Features\PlayerMod\PlayerMod.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -135,6 +136,7 @@
     <ClInclude Include="Features\ESP\ESP.h">
       <Filter>Features\ESP</Filter>
     </ClInclude>
+    <ClInclude Include="Features\PlayerMod\PlayerMod.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Features">
@@ -184,6 +186,9 @@
     </Filter>
     <Filter Include="Features\ESP">
       <UniqueIdentifier>{2bd75ce7-25c1-4c82-bca1-65ea96fbeb82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\PlayerMod">
+      <UniqueIdentifier>{c2bdd2be-a157-4e85-952b-e7c3e9f584b1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

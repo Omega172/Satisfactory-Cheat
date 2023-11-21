@@ -64,7 +64,7 @@ private:
 
 inline void KeyBindToggle::HandleToggle() noexcept
 {
-    if (IsPressed())
+    if (IsDown())
         toggledOn = !toggledOn;
 }
 

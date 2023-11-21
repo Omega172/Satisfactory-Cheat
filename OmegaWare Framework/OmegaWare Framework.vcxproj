@@ -153,6 +153,7 @@
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="Features\ESP\ESP.cpp" />
+    <ClCompile Include="Features\PlayerMod\PlayerMod.cpp" />
     <ClCompile Include="GUI\GUI.cpp" />
     <ClCompile Include="ImGUI\imgui.cpp" />
     <ClCompile Include="ImGUI\imgui_demo.cpp" />
@@ -174,6 +175,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Features\ESP\ESP.h" />
+    <ClInclude Include="Features\PlayerMod\PlayerMod.h" />
     <ClInclude Include="Features\Feature.h" />
     <ClInclude Include="GUI\Custom.h" />
     <ClInclude Include="GUI\GUI.h" />

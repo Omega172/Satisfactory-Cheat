@@ -72,6 +72,7 @@ namespace Cheat
 		// https://stackoverflow.com/questions/16711697/is-there-any-use-for-unique-ptr-with-array
 		// Features
 		Features.push_back(std::make_unique<ESP>());
+		Features.push_back(std::make_unique<PlayerMod>());
 
 		for (size_t i = 0; i < Features.size(); i++)
 		{

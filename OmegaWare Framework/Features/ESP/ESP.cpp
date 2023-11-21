@@ -41,16 +41,10 @@ void ESP::Destroy()
 	if (!this->Initalized)
 		return;
 
-	// Reset any values to defaults;
+	// Reset any values to defaults
 
 	Utils::LogDebug(Utils::GetLocation(CurrentLoc), "Feature: ESP Destroyed");
 	this->Initalized = false;
-}
-
-void ESP::HandleKeys()
-{
-	if (!this->Initalized)
-		return;
 }
 
 void ESP::DrawMenuItems()
@@ -140,16 +134,6 @@ void ESP::Render()
 			continue;
 		}
 	}
-}
-
-void ESP::Run()
-{
-	if (!this->Initalized)
-		return;
-
-	Unreal* pUnreal = Cheat::unreal.get();
-	if (!pUnreal)
-		return;
 }
 
 void ESP::CreatureESP(CG::AFGCreature* Creature)

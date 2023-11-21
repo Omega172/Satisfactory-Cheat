@@ -102,6 +102,7 @@ namespace Cheat
 
 #include "Features/Feature.h"
 #include "Features/ESP/ESP.h"
+#include "Features/PlayerMod/PlayerMod.h"
 
 // https://stackoverflow.com/questions/13048301/pointer-to-array-of-base-class-populate-with-derived-class
 inline std::vector<std::unique_ptr<Feature>> Features;

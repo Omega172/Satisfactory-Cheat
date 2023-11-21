@@ -39,13 +39,13 @@ public:
 
 	void Destroy() override;
 
-	void HandleKeys() override;
+	void HandleKeys() override {};
 
 	void DrawMenuItems() override;
 
 	void Render() override;
 
-	void Run() override;
+	void Run() override {};
 
 private:
 	void DrawAllOrigins()

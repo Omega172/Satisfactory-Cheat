@@ -6,7 +6,7 @@
 
 # Plans:
 - [ ] Teleport
-- [ ] Speedhack
+- [X] Speedhack
 - [ ] Reach
 - [ ] Box ESP
 - [ ] Box ESP Flags (Ex. Alpha, Nuclear, Elite)
