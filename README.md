@@ -8,6 +8,8 @@
 - [ ] Teleport
 - [ ] Speedhack
 - [ ] Reach
-- [ ] ESP For Creatures
+- [ ] Box ESP
+- [ ] Box ESP Flags (Ex. Alpha, Nuclear, Elite)
+- [X] Name ESP
 
 - [ ] Possibly Glow ESP (Using the hologram texture if possible)
