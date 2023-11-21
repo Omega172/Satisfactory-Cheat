@@ -127,5 +127,14 @@ public:
 
 		return out;
 	}
+
+	static::CG::AFGCharacterPlayer* GetFGPlayer()
+	{
+		CG::APawn* AcknowledgedPawn = GetAcknowledgedPawn();
+		if (!AcknowledgedPawn)
+			return nullptr;
+
+		return reinterpret_cast<CG::AFGCharacterPlayer*>(AcknowledgedPawn);
+	}
 };
 #endif

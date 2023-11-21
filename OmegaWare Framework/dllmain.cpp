@@ -71,7 +71,7 @@ namespace Cheat
 
 		// https://stackoverflow.com/questions/16711697/is-there-any-use-for-unique-ptr-with-array
 		// Features
-		//Features.push_back(std::make_unique<ESP>());
+		Features.push_back(std::make_unique<ESP>());
 
 		for (size_t i = 0; i < Features.size(); i++)
 		{
@@ -120,15 +120,6 @@ namespace Cheat
 		}
 		else
 			Utils::LogDebug(Utils::GetLocation(CurrentLoc), Cheat::Title + ": Initalized");
-
-		/*
-		CG::APawn* AcknowledgedPawn = Cheat::unreal.get()->GetAcknowledgedPawn();
-		if (AcknowledgedPawn)
-		{
-			if (AcknowledgedPawn->IsA(CG::AFGCharacterPlayer::StaticClass()))
-				Utils::LogDebug(Utils::GetLocation(CurrentLoc), "LocalPlayer->AcknowledgedPawn == AFGCharacterPlayer");
-		}
-		*/
 
 		while (bShouldRun)
 		{

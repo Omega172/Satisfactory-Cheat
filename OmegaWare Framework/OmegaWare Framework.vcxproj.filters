@@ -54,6 +54,9 @@
     <ClCompile Include="Utils\Logging\Logging.cpp">
       <Filter>Utils\Logging</Filter>
     </ClCompile>
+    <ClCompile Include="Features\ESP\ESP.cpp">
+      <Filter>Features\ESP</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -129,6 +132,9 @@
     <ClInclude Include="ImGUI\Styles.h">
       <Filter>ImGUI</Filter>
     </ClInclude>
+    <ClInclude Include="Features\ESP\ESP.h">
+      <Filter>Features\ESP</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Features">
@@ -175,6 +181,9 @@
     </Filter>
     <Filter Include="Utils\Logging">
       <UniqueIdentifier>{f08a9e59-aca5-4021-a74f-abce048b1498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\ESP">
+      <UniqueIdentifier>{2bd75ce7-25c1-4c82-bca1-65ea96fbeb82}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

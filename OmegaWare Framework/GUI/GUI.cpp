@@ -57,28 +57,6 @@ void GUI::Render()
 	for (size_t i = 0; i < Features.size(); i++)
 	{
 		Features[i].get()->Render();
-
-		//std::thread thread(&Feature::Render, Features[i].get());
-		//thread.detach();
-	}
-
-	for (CG::AActor* Actor : pUnreal->Actors)
-	{
-		if (!Actor)
-			continue;
-
-		CG::USceneComponent* RootComponent = Actor->RootComponent;
-		if (!RootComponent)
-			continue;
-
-		CG::FVector Origin = RootComponent->RelativeLocation;
-		bool bValid = Origin.IsValid();
-
-		CG::FVector2D Screen = pUnreal->W2S(Origin);
-		if (Screen.IsValid())
-			continue;
-
-		ImGui::GetBackgroundDrawList()->AddText(Screen, White, Actor->GetName().c_str());
 	}
 
 	//
