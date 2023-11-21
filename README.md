@@ -7,7 +7,6 @@
 # Plans:
 - [X] Map Teleport (Done, but still investigating for potential crashes or issues)
 - [X] Speedhack
-- [ ] Reach
 - [X] Name ESP
 - [ ] Box ESP
 - [ ] Box ESP Flags (Ex. Alpha, Nuclear, Elite)
