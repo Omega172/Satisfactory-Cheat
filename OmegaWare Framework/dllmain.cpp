@@ -121,12 +121,14 @@ namespace Cheat
 		else
 			Utils::LogDebug(Utils::GetLocation(CurrentLoc), Cheat::Title + ": Initalized");
 
+		/*
 		CG::APawn* AcknowledgedPawn = Cheat::unreal.get()->GetAcknowledgedPawn();
 		if (AcknowledgedPawn)
 		{
 			if (AcknowledgedPawn->IsA(CG::AFGCharacterPlayer::StaticClass()))
 				Utils::LogDebug(Utils::GetLocation(CurrentLoc), "LocalPlayer->AcknowledgedPawn == AFGCharacterPlayer");
 		}
+		*/
 
 		while (bShouldRun)
 		{

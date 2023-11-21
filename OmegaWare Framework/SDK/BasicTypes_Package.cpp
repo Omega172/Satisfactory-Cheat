@@ -18,15 +18,22 @@ namespace CG
 	/**
 	 * Initialize SDK
 	 */
-	bool InitSdk(const std::wstring& moduleName, uintptr_t gObjectsOffset, uintptr_t gNamesOffset, uintptr_t gWorldOffset)
+	bool InitSdk(const std::wstring& moduleName, const std::wstring& moduleName2, uintptr_t gObjectsOffset, uintptr_t gNamesOffset, uintptr_t gWorldOffset)
 	{
 		auto mBaseAddress = reinterpret_cast<uintptr_t>(GetModuleHandleW(moduleName.c_str()));
 		if (!mBaseAddress)
 			return false;
 		
-		UObject::GObjects = reinterpret_cast<CG::TUObjectArray*>(mBaseAddress + gObjectsOffset);
-		FName::GNames = reinterpret_cast<CG::FNamePool*>(mBaseAddress + gNamesOffset);
-		UWorld::GWorld = reinterpret_cast<CG::UWorld**>(mBaseAddress + gWorldOffset);
+		auto mBaseAddress2 = reinterpret_cast<uintptr_t>(GetModuleHandleW(moduleName2.c_str()));
+		if (!mBaseAddress2)
+			return false;
+
+		uintptr_t* GObjectsOuter = reinterpret_cast<uintptr_t*>(mBaseAddress + gObjectsOffset);
+		uintptr_t* GNamesOuter = reinterpret_cast<uintptr_t*>(mBaseAddress + gNamesOffset);
+
+		UObject::GObjects = reinterpret_cast<CG::TUObjectArray*>(*GObjectsOuter);
+		FName::GNames = reinterpret_cast<CG::FNamePool*>(*GNamesOuter);
+		UWorld::GWorld = reinterpret_cast<CG::UWorld**>(mBaseAddress2 + gWorldOffset);
 		
 		return true;
 	}
@@ -36,7 +43,7 @@ namespace CG
 	 */
 	bool InitSdk()
 	{
-		return InitSdk(L"FactoryGame-Win64-Shipping.exe", 0x4CBE94E0, 0x4B7AD0C0, 0x48CA4828);
+		return InitSdk(L"FactoryGame-Core-Win64-Shipping.dll", L"FactoryGame-Engine-Win64-Shipping.dll", 0x6ED1B0, 0x74D118, 0x1CD4828);
 	}
 
 	// --------------------------------------------------

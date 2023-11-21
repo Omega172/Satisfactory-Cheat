@@ -62,6 +62,25 @@ void GUI::Render()
 		//thread.detach();
 	}
 
+	for (CG::AActor* Actor : pUnreal->Actors)
+	{
+		if (!Actor)
+			continue;
+
+		CG::USceneComponent* RootComponent = Actor->RootComponent;
+		if (!RootComponent)
+			continue;
+
+		CG::FVector Origin = RootComponent->RelativeLocation;
+		bool bValid = Origin.IsValid();
+
+		CG::FVector2D Screen = pUnreal->W2S(Origin);
+		if (Screen.IsValid())
+			continue;
+
+		ImGui::GetBackgroundDrawList()->AddText(Screen, White, Actor->GetName().c_str());
+	}
+
 	//
 	// End Other Render Stuff
 	//
