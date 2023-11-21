@@ -5,7 +5,7 @@
 - Use of the `FRAMEWORK_RENDER_D3D12` flag allows for DirectX 12 rendering but breaks the unloading of the cheat, which causes crashes when attempting to unload..
 
 # Plans:
-- [ ] Teleport
+- [X] Teleport (Done, but still investigating for potential crashes or issues)
 - [X] Speedhack
 - [ ] Reach
 - [ ] Box ESP

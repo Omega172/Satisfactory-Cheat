@@ -59,12 +59,12 @@ public:
 		return actors;
 	}
 
-	static CG::AGameStateBase* GetGameStateBase()
+	static CG::AFGGameState* GetGameState()
 	{
 		if (!(*CG::UWorld::GWorld))
 			return nullptr;
 
-		return (*CG::UWorld::GWorld)->GameState;
+		return reinterpret_cast<CG::AFGGameState*>((*CG::UWorld::GWorld)->GameState);
 	}
 	static CG::UGameInstance* GetGameInstance()
 	{

@@ -10,10 +10,13 @@ private:
 	KeyBindToggle SpeedHackKey = KeyBindToggle(ImGuiKey_V);
 	bool bSettingSpeedHackKey = false;
 	float fSpeedHackFactor = 10.f;
-
 	bool bSpeedSwitch = false;
 	float fOldSprintSpeed = 0;
 	float fOldAcceleration = 0;
+
+	KeyBind TeleportKey = KeyBind(ImGuiKey_T);
+	bool bSettingTeleportKey = false;
+	int iTeleportOffset = 50;
 
 public:
 	PlayerMod() {};
