@@ -9,11 +9,22 @@ private:
 	bool bESP = true;
 	int iESPDistance = 200;
 
-	bool bNameESP = true;
-
-	bool bBoxESP = false;
-
+	bool bIgnoreSpitters = false;
+	bool bIgnoreHogs = false;
+	bool bIgnoreSpiders = false;
 	bool bIgnoreHatchers = true;
+	bool bIgnoreExplodingBugs = false;
+	bool bIgnoreDoggo = false;
+	bool bIgnoreFrank = false;
+	bool bIgnoreBirb = false;
+
+	bool bBoxESP = true;
+	bool bBoxName = true;
+	bool bBoxCreatureSize = true;
+	bool bBoxTamed = true;
+	bool bBoxDistance = true;
+
+	bool bNameESP = true;
 
 	bool bESPDrawBones = false;
 	bool bESPBonesDot = true;
@@ -24,9 +35,18 @@ private:
 	CG::FName Root;
 
 	// Hostile
-	std::vector<CG::FName> Spitters;
-	std::vector<CG::FName> Hogs;
-	std::vector<CG::FName> Spiders;
+	std::vector<CG::FName> SpittersSmall;
+	std::vector<CG::FName> SpittersAlpha;
+
+	CG::FName Hog;
+	CG::FName CliffHog;
+	CG::FName AlphaHog;
+	CG::FName NuclearHog;
+
+	CG::FName SpiderChild;
+	CG::FName Spider;
+	CG::FName SpiderElite;
+
 	// Passive
 	CG::FName Doggo;
 	CG::FName Frank;
@@ -50,6 +70,10 @@ public:
 private:
 	void DrawAllOrigins()
 	{
+		Unreal* pUnreal = Cheat::unreal.get();
+		if (!pUnreal)
+			return;
+
 		for (auto& Actor : Cheat::unreal.get()->Actors)
 		{
 			if (!Actor)
@@ -61,7 +85,7 @@ private:
 
 			auto Origin = RootComponent->RelativeLocation;
 
-			CG::FVector2D Screen = Cheat::unreal.get()->W2S(Origin);
+			CG::FVector2D Screen = pUnreal->W2S(Origin);
 			if (Screen.IsValid())
 				continue;
 

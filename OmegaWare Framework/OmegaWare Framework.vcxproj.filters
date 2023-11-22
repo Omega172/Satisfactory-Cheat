@@ -58,6 +58,9 @@
       <Filter>Features\ESP</Filter>
     </ClCompile>
     <ClCompile Include="Features\PlayerMod\PlayerMod.cpp" />
+    <ClCompile Include="SDK\Char_SpaceRabbit_Package.cpp">
+      <Filter>SDK\Packages</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
