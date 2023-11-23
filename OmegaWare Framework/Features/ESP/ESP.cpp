@@ -29,6 +29,16 @@ bool ESP::Setup()
 	Frank = CG::FName("Char_SpaceGiraffe_C");
 	Birb = CG::FName("Char_NonFlyingBird_C");
 
+	/*
+	Other Mats:
+	Material MM_FactoryBaked.MM_FactoryBaked
+	Material MM_MeshImposter_Master.MM_MeshImposter_Master
+	Material Hologram_Simple.Hologram_Simple
+	Material Guideline.Guideline
+	*/
+
+	HologramMat = CG::UObject::FindObject<CG::UMaterial>("Material Hologram_Simple.Hologram_Simple");
+
 	this->Initalized = true;
 
 	Utils::LogDebug(Utils::GetLocation(CurrentLoc), "Feature: ESP Initalized");
@@ -173,7 +183,7 @@ void ESP::CreatureESP(CG::AFGCreature* Creature)
 	if (!FGPlayer)
 		return;
 
-	CG::USkeletalMeshComponent* Mesh = Creature->Mesh;
+	CG::USkeletalMeshComponent* Mesh = Creature->GetMainMesh(); // GetMesh3P
 	if (!Mesh)
 		return;
 

@@ -52,6 +52,8 @@ private:
 	CG::FName Frank;
 	CG::FName Birb;
 
+	CG::UMaterial* HologramMat;
+
 public:
 	ESP() {};
 
@@ -89,7 +91,7 @@ private:
 			if (Screen.IsValid())
 				continue;
 
-			ImGui::GetBackgroundDrawList()->AddText(Screen, White, Actor->GetName().c_str());
+			ImGui::OutlinedText(Screen, White, Actor->Name.GetName().c_str());
 		}
 	}
 
