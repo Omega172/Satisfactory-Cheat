@@ -70,6 +70,8 @@ public:
 	void Run() override {};
 
 private:
+	void TestFunc(CG::AFGBuildable* Hologram);
+
 	void DrawAllOrigins()
 	{
 		Unreal* pUnreal = Cheat::unreal.get();

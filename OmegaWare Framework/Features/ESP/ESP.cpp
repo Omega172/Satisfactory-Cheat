@@ -36,8 +36,9 @@ bool ESP::Setup()
 	Material Hologram_Simple.Hologram_Simple
 	Material Guideline.Guideline
 	*/
-
-	HologramMat = CG::UObject::FindObject<CG::UMaterial>("Material Hologram_Simple.Hologram_Simple");
+	
+	//CG::AFGHologram;
+	HologramMat = CG::UObject::FindObject<CG::UMaterial>("Material Hologram_Simple.Hologram_Simple"); // CG::AFGHologram
 
 	this->Initalized = true;
 
@@ -125,6 +126,42 @@ void ESP::DrawMenuItems()
 	ImGui::EndChild();
 }
 
+void ESP::TestFunc(CG::AFGBuildable* Hologram)
+{
+	CG::TArray<CG::UActorComponent*> Components = Hologram->K2_GetComponentsByClass(CG::UStaticMeshComponent::StaticClass());
+
+	for (int32_t i = 0; i < Components.Count(); i++)
+	{
+		if (!Components.IsValidIndex(i))
+			continue;
+
+		CG::UStaticMeshComponent* StaticMeshComponent = reinterpret_cast<CG::UStaticMeshComponent*>(Components[i]);
+		if (!StaticMeshComponent)
+			return;
+
+		//StaticMeshComponent->SetOverlayMaterial(HologramMat);
+
+		CG::TArray<CG::UMaterialInterface*> Materials = StaticMeshComponent->GetMaterials();
+
+		for (int32_t j = 0; j < Materials.Count(); j++)
+		{
+			if (!Materials.IsValidIndex(j))
+				continue;
+
+			CG::UMaterialInterface* Mat = Materials[j];
+			if (!Mat)
+				return;;
+
+			CG::UMaterial* BaseMaterial = Mat->GetBaseMaterial();
+			if (!BaseMaterial)
+				return;
+
+			//StaticMeshComponent->SetMaterial(i, HologramMat);
+		}
+	}
+}
+
+
 void ESP::Render()
 {
 	if (!this->Initalized || !this->bESP)
@@ -170,6 +207,9 @@ void ESP::Render()
 			BugsESP(reinterpret_cast<CG::AFGFlyingBabyCrab*>(Actor));
 			continue;
 		}
+
+		if (Actor->IsA(CG::AFGBuildable::StaticClass()))
+			TestFunc(reinterpret_cast<CG::AFGBuildable*>(Actor));
 	}
 }
 
@@ -186,6 +226,26 @@ void ESP::CreatureESP(CG::AFGCreature* Creature)
 	CG::USkeletalMeshComponent* Mesh = Creature->GetMainMesh(); // GetMesh3P
 	if (!Mesh)
 		return;
+
+	//Mesh->SetOverlayMaterial(HologramMat);
+
+	CG::TArray<CG::UMaterialInterface*> Materials = Mesh->GetMaterials();
+	for (int32_t i = 0; i < Materials.Count(); i++)
+	{
+		CG::UMaterialInterface* Material = Materials[i];
+		if (!Material)
+			continue;
+
+		CG::UMaterial* BaseMaterial = Material->GetBaseMaterial();
+		if (!BaseMaterial)
+			continue;
+
+		BaseMaterial->BlendMode = CG::EBlendMode::BLEND_Additive;
+		BaseMaterial->bDisableDepthTest = true;
+		BaseMaterial->AllowTranslucentCustomDepthWrites = true;
+		BaseMaterial->bIsBlendable = true;
+	}
+	Mesh->bRenderCustomDepth = 1;
 
 	CG::FVector WorldPos = Mesh->GetSocketLocation(Root);
 
