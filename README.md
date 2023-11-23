@@ -11,4 +11,4 @@
 - [X] Box ESP
 - [X] Box ESP Flags (Ex. Alpha, Nuclear, Elite)
 
-- [ ] Possibly Glow ESP (Using the hologram texture I don't think this is possible)
+- [ ] Possibly Glow ESP or Chams using the hologram texture (I don't think this is possible)
