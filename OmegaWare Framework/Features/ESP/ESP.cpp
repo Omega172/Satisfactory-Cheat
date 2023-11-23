@@ -196,9 +196,12 @@ void ESP::CreatureESP(CG::AFGCreature* Creature)
 				continue;
 
 			if (bESPBonesDot)
+			{
+				ImGui::GetBackgroundDrawList()->AddCircle(ScreenPos, 3.f, Black, 32);
 				ImGui::GetBackgroundDrawList()->AddCircle(ScreenPos, 1.f, White, 32);
+			}
 			else
-				ImGui::GetBackgroundDrawList()->AddText(ScreenPos, White, std::to_string(i).c_str());
+				ImGui::OutlinedText(ScreenPos, White, std::to_string(i).c_str());
 		}
 	}
 
@@ -341,79 +344,11 @@ void ESP::CreatureESP(CG::AFGCreature* Creature)
 		ImVec2 Screen = ScreenPos;
 
 		ImVec2 Pos = { Screen.x - (TextSize.x / 2), Screen.y - 7.f };
-		ImGui::GetBackgroundDrawList()->AddText(Pos, White, Name.c_str());
+		ImGui::OutlinedText(Pos, White, Name.c_str());
 	}
 
 	if (bBoxESP)
-	{
-		CG::FVector Origin, BoxExtent;
-		Creature->GetActorBounds(true, &Origin, &BoxExtent, false);
-
-		CG::FVector Head = { Origin.X, Origin.Y, Origin.Z + BoxExtent.Z };
-		CG::FVector Feet = { Origin.X, Origin.Y, Origin.Z - BoxExtent.Z };
-
-		CG::FVector2D HeadPos = pUnreal->W2S(Head);
-		CG::FVector2D FeetPos = pUnreal->W2S(Feet);
-
-		if (HeadPos.IsValid() || FeetPos.IsValid())
-			return;
-
-		const float Height = abs(FeetPos.Y - HeadPos.Y);
-		const float Width = Height * 0.6f;
-
-		CG::FVector2D TopLeft = { HeadPos.X - Width * 0.5f, HeadPos.Y };
-		CG::FVector2D DownRight = { HeadPos.X + Width * 0.5f, FeetPos.Y };
-
-		float h = DownRight.Y - TopLeft.Y;
-		float w = DownRight.X - TopLeft.X;
-
-		CG::FVector2D TopRight = CG::FVector2D(DownRight.X, TopLeft.Y);
-		CG::FVector2D DownLeft = CG::FVector2D(TopLeft.X, DownRight.Y);
-
-		ImGui::GetBackgroundDrawList()->AddRect(TopRight, DownLeft, Cyan);
-
-		if (bBoxName)
-		{
-			float val = TopLeft.X - TopRight.X;
-			ImVec2 Pos = CG::FVector2D(TopRight.X + (val / 2), TopLeft.Y);
-			Pos.x = Pos.x - (TextSize.x / 2);
-			Pos.y = Pos.y - 16.f; // TextSize.y = 14.f
-
-			ImGui::GetBackgroundDrawList()->AddText(Pos, White, Name.c_str());
-		}
-
-		if (bBoxCreatureSize || bBoxTamed)
-		{
-			ImVec2 Pos = TopRight;
-			Pos.x = Pos.x + 5.f;
-
-			if (bBoxCreatureSize)
-			{
-				ImGui::GetBackgroundDrawList()->AddText(Pos, Green, Size.c_str());
-				Pos.y = Pos.y + 16.f;
-			}
-
-			if (bBoxTamed && bIsTamed)
-				ImGui::GetBackgroundDrawList()->AddText(Pos, Gold, "Tamed");
-				
-		}
-
-		if (bBoxDistance)
-		{
-			std::stringstream ssDistance;
-			ssDistance << "[ " << std::to_string(Distance) << " ]";
-
-			std::string sDistance = ssDistance.str();
-			ImVec2 TextSize = ImGui::CalcTextSize(sDistance.c_str());
-
-			float val = DownLeft.X - DownRight.X;
-			ImVec2 Pos = CG::FVector2D(DownRight.X + (val / 2), DownLeft.Y);
-			Pos.x = Pos.x - (TextSize.x / 2);
-			Pos.y = Pos.y + 2.f; // TextSize.y = 14.f
-
-			ImGui::GetBackgroundDrawList()->AddText(Pos, White, sDistance.c_str());
-		}
-	}
+		DrawBox(Creature, Name, TextSize, Size, Distance, bIsTamed);
 }
 
 void ESP::HatcherESP(CG::AFGCrabHatcher* Hatcher)
@@ -445,9 +380,12 @@ void ESP::HatcherESP(CG::AFGCrabHatcher* Hatcher)
 	ImVec2 Screen = ScreenPos;
 	ImVec2 TextSize = ImGui::CalcTextSize(Name.c_str());
 
-	ImVec2 Pos = { Screen.x - 20.f, Screen.y - 7.f };
-	if (bNameESP)
-		ImGui::GetBackgroundDrawList()->AddText(Pos, White, Name.c_str());
+	ImVec2 Pos = { Screen.x - (TextSize.x / 2), Screen.y - 7.f };
+	if (bNameESP && !bBoxESP)
+		ImGui::OutlinedText(Pos, White, Name.c_str());
+
+	if (bBoxESP)
+		DrawBox(Hatcher, Name, TextSize, "Rooted", Distance, false);
 }
 
 void ESP::BugsESP(CG::AFGFlyingBabyCrab* Bug)
@@ -480,6 +418,9 @@ void ESP::BugsESP(CG::AFGFlyingBabyCrab* Bug)
 	ImVec2 TextSize = ImGui::CalcTextSize(Name.c_str());
 
 	ImVec2 Pos = { Screen.x - 36.5f, Screen.y - 7.f };
-	if (bNameESP)
-		ImGui::GetBackgroundDrawList()->AddText(Pos, White, Name.c_str());
+	if (bNameESP && !bBoxESP)
+		ImGui::OutlinedText(Pos, White, Name.c_str());
+
+	if (bBoxESP)
+		DrawBox(Bug, Name, TextSize, "Suicidal", Distance, false);
 }
