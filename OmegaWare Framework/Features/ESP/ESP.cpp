@@ -349,6 +349,9 @@ void ESP::CreatureESP(CG::AFGCreature* Creature)
 
 	if (bBoxESP)
 		DrawBox(Creature, Name, TextSize, Size, Distance, bIsTamed);
+
+	if (bAllDebug)
+		DrawDebugBox(Creature, Distance);
 }
 
 void ESP::HatcherESP(CG::AFGCrabHatcher* Hatcher)
@@ -386,6 +389,9 @@ void ESP::HatcherESP(CG::AFGCrabHatcher* Hatcher)
 
 	if (bBoxESP)
 		DrawBox(Hatcher, Name, TextSize, "Rooted", Distance, false);
+
+	if (bAllDebug)
+		DrawDebugBox(Hatcher, Distance);
 }
 
 void ESP::BugsESP(CG::AFGFlyingBabyCrab* Bug)
@@ -423,4 +429,7 @@ void ESP::BugsESP(CG::AFGFlyingBabyCrab* Bug)
 
 	if (bBoxESP)
 		DrawBox(Bug, Name, TextSize, "Suicidal", Distance, false);
+
+	if (bAllDebug)
+		DrawDebugBox(Bug, Distance);
 }

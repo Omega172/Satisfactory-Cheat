@@ -170,6 +170,67 @@ private:
 		}
 	}
 
+	void DrawDebugBox(CG::AActor* Actor, int Distance)
+	{
+		Unreal* pUnreal = Cheat::unreal.get();
+		if (!pUnreal)
+			return;
+
+		auto Pos = Actor->K2_GetActorLocation();
+
+		CG::FVector2D DrawPos = pUnreal->W2S(Pos);
+		if (DrawPos.IsValid())
+			return;
+
+		std::string Name = Actor->Name.GetName();
+		std::string PosString = "X: " + std::to_string(Pos.X) + " Y: " + std::to_string(Pos.Y) + " Z: " + std::to_string(Pos.Z);
+
+		ImVec2 NameSize = ImGui::CalcTextSize(Name.c_str());
+		ImVec2 PosSize = ImGui::CalcTextSize(PosString.c_str());
+
+		ImVec2 Size = NameSize;
+		
+		if (PosSize.x > NameSize.x)
+			Size = PosSize;
+
+		CG::USkeletalMeshComponent* Mesh = nullptr;
+		
+		if (Actor->IsA(CG::AFGCreature::StaticClass()))
+			Mesh = reinterpret_cast<CG::AFGCreature*>(Actor)->Mesh;
+
+		int NumRows = 3;
+		if (Mesh)
+			NumRows++;
+
+		ImColor Col = { 0.f, 0.f, 0.f, .5f };
+
+		ImVec2 Begin = { (float)DrawPos.X - (Size.x / 2), (float)DrawPos.Y + 50.f };
+		ImVec2 End = { Begin.x + Size.x, Begin.y + Size.y * NumRows };
+
+		auto pDL = ImGui::GetBackgroundDrawList();
+		int Row = 0;
+
+		pDL->AddLine(DrawPos, Begin, White);
+		pDL->AddRect(Begin, { End.x + 2, End.y }, White);
+		pDL->AddRectFilled(Begin, { End.x + 2, End.y }, Col);
+
+		pDL->AddText({ Begin.x + 2, Begin.y }, White, Name.c_str());
+		Row++;
+
+		pDL->AddText({ Begin.x + 2, Begin.y + Size.y * Row }, White, PosString.c_str());
+		Row++;
+
+		pDL->AddText({ Begin.x + 2, Begin.y + Size.y * Row }, White, (std::stringstream() << "Distance: " << Distance).str().c_str());
+		Row++;
+
+		if (Mesh)
+		{
+			std::string NumBones = "# of Bones: " + std::to_string(Mesh->GetNumBones());
+			pDL->AddText({ Begin.x + 2, Begin.y + Size.y * Row }, White, NumBones.c_str());
+			Row++;
+		}
+	}
+
 	void CreatureESP(CG::AFGCreature* Creature);
 
 	void HatcherESP(CG::AFGCrabHatcher* Hatcher);

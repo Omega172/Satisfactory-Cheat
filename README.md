@@ -8,7 +8,7 @@
 - [X] Map Teleport (Done, but still investigating for potential crashes or issues)
 - [X] Speedhack
 - [X] Name ESP
-- [ ] Box ESP
-- [ ] Box ESP Flags (Ex. Alpha, Nuclear, Elite)
+- [X] Box ESP
+- [X] Box ESP Flags (Ex. Alpha, Nuclear, Elite)
 
 - [ ] Possibly Glow ESP (Using the hologram texture if possible)
