@@ -228,7 +228,7 @@ void ESP::CreatureESP(CG::AFGCreature* Creature)
 		return;
 
 	//Mesh->SetOverlayMaterial(HologramMat);
-
+	/*
 	CG::TArray<CG::UMaterialInterface*> Materials = Mesh->GetMaterials();
 	for (int32_t i = 0; i < Materials.Count(); i++)
 	{
@@ -246,6 +246,7 @@ void ESP::CreatureESP(CG::AFGCreature* Creature)
 		BaseMaterial->bIsBlendable = true;
 	}
 	Mesh->bRenderCustomDepth = 1;
+	*/
 
 	CG::FVector WorldPos = Mesh->GetSocketLocation(Root);
 
