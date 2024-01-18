@@ -76,7 +76,7 @@ void ESP::DrawMenuItems()
 		{
 			ImGui::Selectable("Spitters", &bIgnoreSpitters);
 			ImGui::Selectable("Hogs", &bIgnoreHogs);
-			ImGui::Selectable("Spiders", bIgnoreSpiders);
+			ImGui::Selectable("Spiders", &bIgnoreSpiders);
 			ImGui::Selectable("Hatchers", &bIgnoreHatchers);
 			ImGui::Selectable("Exploding Bugs", &bIgnoreExplodingBugs);
 
