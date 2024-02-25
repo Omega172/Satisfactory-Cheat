@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPCA_EatCreatureFood.BPCA_EatCreatureFood_C.CanPerformAction
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 */
@@ -33,7 +33,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPCA_EatCreatureFood.BPCA_EatCreatureFood_C.OnFail_4FAD94544D2A6D37380427B7044188E7
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -55,7 +55,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPCA_EatCreatureFood.BPCA_EatCreatureFood_C.OnSuccess_4FAD94544D2A6D37380427B7044188E7
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -77,7 +77,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPCA_EatCreatureFood.BPCA_EatCreatureFood_C.PerformAction
 	 * 		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -96,7 +96,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPCA_EatCreatureFood.BPCA_EatCreatureFood_C.OnCreatureFoodQueryFinished
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -120,7 +120,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPCA_EatCreatureFood.BPCA_EatCreatureFood_C.MoveToFood
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -142,7 +142,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPCA_EatCreatureFood.BPCA_EatCreatureFood_C.EatFood
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -164,7 +164,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPCA_EatCreatureFood.BPCA_EatCreatureFood_C.CancelAction
 	 * 		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -183,7 +183,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPCA_EatCreatureFood.BPCA_EatCreatureFood_C.ActionTick
 	 * 		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -205,7 +205,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPCA_EatCreatureFood.BPCA_EatCreatureFood_C.CleanupAction
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -227,7 +227,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPCA_EatCreatureFood.BPCA_EatCreatureFood_C.ExecuteUbergraph_BPCA_EatCreatureFood
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:

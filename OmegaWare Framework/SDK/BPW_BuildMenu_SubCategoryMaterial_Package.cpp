@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_SubCategoryMaterial.BPW_BuildMenu_SubCategoryMaterial_C.UpdateMaterialText
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -31,7 +31,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_SubCategoryMaterial.BPW_BuildMenu_SubCategoryMaterial_C.SetSubCategory
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -55,7 +55,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_SubCategoryMaterial.BPW_BuildMenu_SubCategoryMaterial_C.OpenCloseMenu
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -77,7 +77,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_SubCategoryMaterial.BPW_BuildMenu_SubCategoryMaterial_C.GetMenuContent
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 */
@@ -98,7 +98,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_SubCategoryMaterial.BPW_BuildMenu_SubCategoryMaterial_C.OnMouseButtonUp
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -124,7 +124,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_SubCategoryMaterial.BPW_BuildMenu_SubCategoryMaterial_C.SetStyling
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -148,7 +148,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_SubCategoryMaterial.BPW_BuildMenu_SubCategoryMaterial_C.BndEvt__Button_76_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -167,7 +167,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_SubCategoryMaterial.BPW_BuildMenu_SubCategoryMaterial_C.BndEvt__Button_76_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -186,7 +186,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_SubCategoryMaterial.BPW_BuildMenu_SubCategoryMaterial_C.BndEvt__Button_76_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -205,7 +205,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_SubCategoryMaterial.BPW_BuildMenu_SubCategoryMaterial_C.SetupBindings
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -227,7 +227,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_SubCategoryMaterial.BPW_BuildMenu_SubCategoryMaterial_C.DefaultMaterialChanged
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -251,7 +251,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_SubCategoryMaterial.BPW_BuildMenu_SubCategoryMaterial_C.DefaultMaterialHovered
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -275,7 +275,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_SubCategoryMaterial.BPW_BuildMenu_SubCategoryMaterial_C.Destruct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 */
@@ -294,7 +294,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_SubCategoryMaterial.BPW_BuildMenu_SubCategoryMaterial_C.BndEvt__mMenuAnchor_K2Node_ComponentBoundEvent_4_OnMenuOpenChangedEvent__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -316,7 +316,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_SubCategoryMaterial.BPW_BuildMenu_SubCategoryMaterial_C.SetDefaultMaterialOnAll
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -338,7 +338,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_SubCategoryMaterial.BPW_BuildMenu_SubCategoryMaterial_C.ExecuteUbergraph_BPW_BuildMenu_SubCategoryMaterial
 	 * 		Flags  -> (Final)
 	 * Parameters:
@@ -360,7 +360,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_SubCategoryMaterial.BPW_BuildMenu_SubCategoryMaterial_C.OnSetDefaultMaterialOnAll__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -382,7 +382,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_SubCategoryMaterial.BPW_BuildMenu_SubCategoryMaterial_C.OnDefaultMaterialHovered__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -406,7 +406,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_SubCategoryMaterial.BPW_BuildMenu_SubCategoryMaterial_C.OnDefaultMaterialChanged__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 * Parameters:

@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -30,7 +30,7 @@ namespace CG
 		double                                                     mMaxScale;                                               // 0x02B8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		double                                                     mCenterSizeNormalized;                                   // 0x02C0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		int32_t                                                    mMaximumNumberOfSimultaneousObjects;                     // 0x02C8(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash
-		unsigned char                                              UnknownData_UZ9U[0x4];                                   // 0x02CC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_LH69[0x4];                                   // 0x02CC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TMap<class UBPW_WorldObjectHUDIndicator_Object_C*, struct FVector2D> mPotentialCenterObjects;                                 // 0x02D0(0x0050) Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference
 		class UBPW_WorldObjectHUDIndicator_Object_C*               mMostCenteredWidget;                                     // 0x0320(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash
 		double                                                     mUIScaling;                                              // 0x0328(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash

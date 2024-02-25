@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -31,7 +31,7 @@ namespace CG
 		double                                                     mCloudShadowIntensityInitial;                            // 0x0358(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		double                                                     mCloudShadowIntensityTarget;                             // 0x0360(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       bUsingVolumetricClouds;                                  // 0x0368(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_QMLD[0x7];                                   // 0x0369(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_Q650[0x7];                                   // 0x0369(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		double                                                     mTargetLightIntensityOverride;                           // 0x0370(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		double                                                     mInitialTargetLightIntensiyOverride;                     // 0x0378(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		double                                                     percentage;                                              // 0x0380(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash

@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -26,7 +26,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD1290E0
+	 * 		RVA    -> 0x71EEB90E0
 	 * 		Name   -> Function CinematicCamera.CameraRig_Rail.GetRailSplineComponent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -62,7 +62,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD1284E0
+	 * 		RVA    -> 0x71EEB84E0
 	 * 		Name   -> Function CinematicCamera.CineCameraActor.GetCineCameraComponent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -98,7 +98,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD129DC0
+	 * 		RVA    -> 0x71EEB9DC0
 	 * 		Name   -> Function CinematicCamera.CineCameraComponent.SetLensSettings
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -121,7 +121,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD129C50
+	 * 		RVA    -> 0x71EEB9C50
 	 * 		Name   -> Function CinematicCamera.CineCameraComponent.SetLensPresetByName
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -144,7 +144,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD129B30
+	 * 		RVA    -> 0x71EEB9B30
 	 * 		Name   -> Function CinematicCamera.CineCameraComponent.SetFocusSettings
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -167,7 +167,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD1299B0
+	 * 		RVA    -> 0x71EEB99B0
 	 * 		Name   -> Function CinematicCamera.CineCameraComponent.SetFilmbackPresetByName
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -190,7 +190,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD1298E0
+	 * 		RVA    -> 0x71EEB98E0
 	 * 		Name   -> Function CinematicCamera.CineCameraComponent.SetFilmback
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -213,7 +213,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD129470
+	 * 		RVA    -> 0x71EEB9470
 	 * 		Name   -> Function CinematicCamera.CineCameraComponent.SetCustomNearClippingPlane
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -236,7 +236,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD1293E0
+	 * 		RVA    -> 0x71EEB93E0
 	 * 		Name   -> Function CinematicCamera.CineCameraComponent.SetCurrentFocalLength
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -259,7 +259,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD129350
+	 * 		RVA    -> 0x71EEB9350
 	 * 		Name   -> Function CinematicCamera.CineCameraComponent.SetCurrentAperture
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -282,7 +282,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD1292A0
+	 * 		RVA    -> 0x71EEB92A0
 	 * 		Name   -> Function CinematicCamera.CineCameraComponent.SetCropSettings
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -305,7 +305,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD129130
+	 * 		RVA    -> 0x71EEB9130
 	 * 		Name   -> Function CinematicCamera.CineCameraComponent.SetCropPresetByName
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -328,7 +328,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD129100
+	 * 		RVA    -> 0x71EEB9100
 	 * 		Name   -> Function CinematicCamera.CineCameraComponent.GetVerticalFieldOfView
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -350,7 +350,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD129000
+	 * 		RVA    -> 0x71EEB9000
 	 * 		Name   -> Function CinematicCamera.CineCameraComponent.GetLensPresetsCopy
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 */
@@ -372,7 +372,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD128E70
+	 * 		RVA    -> 0x71EEB8E70
 	 * 		Name   -> Function CinematicCamera.CineCameraComponent.GetLensPresetName
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -394,7 +394,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD128CF0
+	 * 		RVA    -> 0x71EEB8CF0
 	 * 		Name   -> Function CinematicCamera.CineCameraComponent.GetHorizontalFieldOfView
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -416,7 +416,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD128C10
+	 * 		RVA    -> 0x71EEB8C10
 	 * 		Name   -> Function CinematicCamera.CineCameraComponent.GetFilmbackPresetsCopy
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 */
@@ -438,7 +438,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD128A80
+	 * 		RVA    -> 0x71EEB8A80
 	 * 		Name   -> Function CinematicCamera.CineCameraComponent.GetFilmbackPresetName
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -460,7 +460,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD1288A0
+	 * 		RVA    -> 0x71EEB88A0
 	 * 		Name   -> Function CinematicCamera.CineCameraComponent.GetDefaultFilmbackPresetName
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -482,7 +482,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD128690
+	 * 		RVA    -> 0x71EEB8690
 	 * 		Name   -> Function CinematicCamera.CineCameraComponent.GetCropPresetName
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -518,7 +518,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD129CF0
+	 * 		RVA    -> 0x71EEB9CF0
 	 * 		Name   -> Function CinematicCamera.CineCameraSettings.SetLensPresets
 	 * 		Flags  -> (Final, Native, Private, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -541,7 +541,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD129A60
+	 * 		RVA    -> 0x71EEB9A60
 	 * 		Name   -> Function CinematicCamera.CineCameraSettings.SetFilmbackPresets
 	 * 		Flags  -> (Final, Native, Private, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -564,7 +564,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD129800
+	 * 		RVA    -> 0x71EEB9800
 	 * 		Name   -> Function CinematicCamera.CineCameraSettings.SetDefaultLensPresetName
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable)
 	 * Parameters:
@@ -587,7 +587,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD1296C0
+	 * 		RVA    -> 0x71EEB96C0
 	 * 		Name   -> Function CinematicCamera.CineCameraSettings.SetDefaultLensFStop
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable)
 	 * Parameters:
@@ -610,7 +610,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD129760
+	 * 		RVA    -> 0x71EEB9760
 	 * 		Name   -> Function CinematicCamera.CineCameraSettings.SetDefaultLensFocalLength
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable)
 	 * Parameters:
@@ -633,7 +633,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD1295E0
+	 * 		RVA    -> 0x71EEB95E0
 	 * 		Name   -> Function CinematicCamera.CineCameraSettings.SetDefaultFilmbackPreset
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable)
 	 * Parameters:
@@ -656,7 +656,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD129500
+	 * 		RVA    -> 0x71EEB9500
 	 * 		Name   -> Function CinematicCamera.CineCameraSettings.SetDefaultCropPresetName
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable)
 	 * Parameters:
@@ -679,7 +679,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD1291D0
+	 * 		RVA    -> 0x71EEB91D0
 	 * 		Name   -> Function CinematicCamera.CineCameraSettings.SetCropPresets
 	 * 		Flags  -> (Final, Native, Private, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -702,7 +702,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD128EC0
+	 * 		RVA    -> 0x71EEB8EC0
 	 * 		Name   -> Function CinematicCamera.CineCameraSettings.GetLensPresetNames
 	 * 		Flags  -> (Final, Native, Private, Const)
 	 */
@@ -724,7 +724,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD128D20
+	 * 		RVA    -> 0x71EEB8D20
 	 * 		Name   -> Function CinematicCamera.CineCameraSettings.GetLensPresetByName
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -753,7 +753,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD128AD0
+	 * 		RVA    -> 0x71EEB8AD0
 	 * 		Name   -> Function CinematicCamera.CineCameraSettings.GetFilmbackPresetNames
 	 * 		Flags  -> (Final, Native, Private, Const)
 	 */
@@ -775,7 +775,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD128930
+	 * 		RVA    -> 0x71EEB8930
 	 * 		Name   -> Function CinematicCamera.CineCameraSettings.GetFilmbackPresetByName
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -804,7 +804,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD128760
+	 * 		RVA    -> 0x71EEB8760
 	 * 		Name   -> Function CinematicCamera.CineCameraSettings.GetCropPresetNames
 	 * 		Flags  -> (Final, Native, Private, Const)
 	 */
@@ -826,7 +826,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD128570
+	 * 		RVA    -> 0x71EEB8570
 	 * 		Name   -> Function CinematicCamera.CineCameraSettings.GetCropPresetByName
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -855,7 +855,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BD128500
+	 * 		RVA    -> 0x71EEB8500
 	 * 		Name   -> Function CinematicCamera.CineCameraSettings.GetCineCameraSettings
 	 * 		Flags  -> (Final, Native, Static, Private, BlueprintCallable)
 	 */

@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -34,7 +34,7 @@ namespace CG
 		class UWidgetSwitcher*                                     mSwitcher;                                               // 0x02D0(0x0008) BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash
 		class UFGServerObject*                                     mServer;                                                 // 0x02D8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
 		EServerComplexState                                        mState;                                                  // 0x02E0(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_TK4A[0x7];                                   // 0x02E1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_GTLV[0x7];                                   // 0x02E1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TMap<EServerComplexState, class UWidget*>                  mExceptions;                                             // 0x02E8(0x0050) Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference
 		EPrivilegeLevel                                            mMinimumTargetedPrivilage;                               // 0x0338(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 

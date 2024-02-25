@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.MouseMoveChecker
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -31,7 +31,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.SetSearchBarVisibility
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -53,7 +53,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.SetBlueprintRecipe
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -77,7 +77,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.Remove and Release All Childs from Category Container
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -96,7 +96,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.ScrollToEnd
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -115,7 +115,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.SetSubCategoryBottomOffset
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -137,7 +137,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.ScrollToTop
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -156,7 +156,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.GetScrollPosition
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 */
@@ -177,7 +177,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.Scroll To Position
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -201,7 +201,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.SetCustomisationRecipe
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -223,7 +223,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.SetSearchHint
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -245,7 +245,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.AnimateInfoBoxIcon
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -264,7 +264,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.SetInfoBoxCost
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -290,7 +290,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.SetCustomIconWidget
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -312,7 +312,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.SetInfoBoxIcon
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -334,7 +334,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.SetInfoBoxDescription
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -356,7 +356,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.SetInfoBoxName
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -378,7 +378,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.SetVisibleInfoboxElements
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -404,7 +404,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.ClearCategories
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -423,7 +423,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.SetInfoBoxVisibility
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -445,7 +445,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.Set Build Recipe
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -473,7 +473,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.AddCategory
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -495,7 +495,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.SetIsMouseBlockerActive
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -517,7 +517,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.IsSearchHovered
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 */
@@ -538,7 +538,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.GetSearchResultAt
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -562,7 +562,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.AddSearchResult
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -584,7 +584,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.InitSearch
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -603,7 +603,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.ClearAndHideSearchResults
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -622,7 +622,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.Remove and Release All Childs from Subcategory Container
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -641,7 +641,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.AddSubcategoryButton
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -665,7 +665,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.SetSearchText
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -687,7 +687,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.ClearSearchText
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -706,7 +706,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.SetUserFocusToSearch
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -725,7 +725,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.PreConstruct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -747,7 +747,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.BndEvt__mSearchBar_K2Node_ComponentBoundEvent_0_OnTextChanged__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -769,7 +769,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.BndEvt__mSearchBar_K2Node_ComponentBoundEvent_1_OnTextComitted__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -793,7 +793,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.BndEvt__mSearchBar_K2Node_ComponentBoundEvent_2_OnInputBoxFocusReceived__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -815,7 +815,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.CheckSearchResultHover
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -834,7 +834,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.BndEvt__BPW_BuildMenu_Browser_Widget_Scrollbox_K2Node_ComponentBoundEvent_3_OnObjectDropped__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -860,7 +860,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.BndEvt__BPW_BuildMenu_Browser_mCategoryDropArea_K2Node_ComponentBoundEvent_4_OnObjectDropped__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -888,7 +888,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.ExecuteUbergraph_BPW_BuildMenu_Browser
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:
@@ -910,7 +910,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.OnObjectDroppedInCategoryContainer__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -936,7 +936,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.OnObjectDroppedInSubcategoryContainer__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -962,7 +962,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.OnSearchComittedEnter__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -984,7 +984,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.OnDeselectFirstSearchResultIfOtherOptionIsHovered__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -1006,7 +1006,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.OnSearchInputBoxFocusReceived__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -1028,7 +1028,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.OnSearchTextComitted__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -1052,7 +1052,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BuildMenu_Browser.BPW_BuildMenu_Browser_C.OnSearchTextChanged__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 * Parameters:

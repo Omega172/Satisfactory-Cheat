@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -21,7 +21,7 @@ namespace CG
 	struct FImgMediaSourceCustomizationSequenceProxy
 	{
 	public:
-		unsigned char                                              UnknownData_G08L[0x1];                                   // 0x0000(0x0001) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_BCVB[0x1];                                   // 0x0000(0x0001) MISSED OFFSET (PADDING)
 	};
 
 }

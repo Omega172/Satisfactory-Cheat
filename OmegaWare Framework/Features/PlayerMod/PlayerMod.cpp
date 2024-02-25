@@ -1,62 +1,62 @@
-#include "pch.h"
+﻿#include "pch.h"
 #include "PlayerMod.h"
 
 bool PlayerMod::Setup()
 {
-	// Do any needed setup
+	std::vector<LocaleData> EnglishLocale = {
+		{ HASH("PLAYER_MODIFICATIONS"), "Player Modifications" },
+		{ HASH("SPEEDHACK"), "Speedhack:" },
+		{ HASH("SPEED_FACTOR"), "Speed Factor" },
+		{ HASH("TELEPORT_TEXT"), "Teleport to Highlighted Marker:" },
+		{ HASH("VERTICAL_OFFSET"), "Vertical Offset" },
+	};
+	if (!Cheat::localization->AddToLocale("ENG", EnglishLocale))
+		return false;
 
-	this->Initalized = true;
+	Cheat::localization->UpdateLocale();
 
-	Utils::LogDebug(Utils::GetLocation(CurrentLoc), "Feature: PlayerMod Initalized");
+	Utils::LogDebug(Utils::GetLocation(CurrentLoc), "Feature: PlayerMod Initialized");
 
-	return this->Initalized;
+	Initialized = true;
+	return Initialized;
 }
 
 void PlayerMod::Destroy()
 {
-	if (!this->Initalized)
+	if (!Initialized)
 		return;
 
 	// Reset any values to defaults
 
 	Utils::LogDebug(Utils::GetLocation(CurrentLoc), "Feature: ESP Destroyed");
-	this->Initalized = false;
+	Initialized = false;
 }
 
-void PlayerMod::DrawMenuItems()
+void PlayerMod::PopulateMenu()
 {
-	ImGui::SameLine();
+	Child* PlayerMod = new Child("Player Modifications", []() { return ImVec2(ImGui::GetContentRegionAvail().x, ImGui::GetContentRegionAvail().y); }, ImGuiChildFlags_Border);
+	PlayerMod->AddElement(new Text(Cheat::localization->Get("PLAYER_MODIFICATIONS")));
+	PlayerMod->AddElement(new Spacing());
+	PlayerMod->AddElement(new Text(Cheat::localization->Get("SPEEDHACK")));
+	PlayerMod->AddElement(new Hotkey("##SPEEDHACK_KEY", &SpeedHackKey), true);
+	PlayerMod->AddElement(new SliderFloat(Cheat::localization->Get("SPEED_FACTOR"), &fSpeedHackFactor, 1.f, 100.f));
+	PlayerMod->AddElement(new Text(Cheat::localization->Get("TELEPORT_TEXT")));
+	PlayerMod->AddElement(new Hotkey("##TP", &TeleportKey), true);
+	PlayerMod->AddElement(new SliderInt(Cheat::localization->Get("VERTICAL_OFFSET"), &iTeleportOffset, 0, 500));
 
-	ImGui::BeginChild("Player Modifications", ImVec2(ImGui::GetContentRegionAvail().x, ImGui::GetContentRegionAvail().y), true);
-	{
-		ImGui::Text("Player Modifications");
-		ImGui::Spacing();
-
-		ImGui::Text("Speedhack:");
-		ImGui::SameLine();
-		ImGui::Hotkey("#Speedhack", SpeedHackKey, &bSettingSpeedHackKey, { 0.f, 0.f });
-		ImGui::SliderFloat("Speed Factor", &fSpeedHackFactor, 1.f, 100.f);
-
-		ImGui::Text("Teleport to Highlighted Marker:");
-		ImGui::SameLine();
-		ImGui::Hotkey("#TP", TeleportKey, &bSettingTeleportKey, { 0.f, 0.f });
-		ImGui::SliderInt("Vertical Offset", &iTeleportOffset, 0, 500);
-	}
-	ImGui::EndChild();
+	Cheat::menu->AddElement(PlayerMod, true);
 }
 
-void PlayerMod::Run()
+void PlayerMod::HandleKeys()
 {
-	Unreal* pUnreal = Cheat::unreal.get();
-	if (!pUnreal)
-		return;
+	SpeedHackKey.HandleToggle();
 
-	CG::AFGCharacterPlayer* FGPlayer = pUnreal->GetFGPlayer();
-	if (!FGPlayer)
+	CG::AFGCharacterPlayer* FGPlayer = reinterpret_cast<CG::AFGCharacterPlayer*>(Cheat::unreal->GetAcknowledgedPawn());
+	if (!IsValidObjectPtr(FGPlayer))
 		return;
 
 	CG::UFGCharacterMovementComponent* MovementComponent = FGPlayer->GetFGMovementComponent();
-	if (!MovementComponent)
+	if (!IsValidObjectPtr(MovementComponent))
 		return;
 
 	if (SpeedHackKey.IsToggled())
@@ -93,9 +93,9 @@ void PlayerMod::Run()
 		bSpeedSwitch = false;
 	}
 
-	if (TeleportKey.IsDown())
+	if (TeleportKey.IsPressed())
 	{
-		CG::AFGGameState* GameState = Cheat::unreal.get()->GetGameState();
+		CG::AFGGameState* GameState = reinterpret_cast<CG::AFGGameState*>(Cheat::unreal->GetGameStateBase());
 		if (!GameState)
 			return;
 
@@ -128,4 +128,31 @@ void PlayerMod::Run()
 			}
 		}
 	}
+}
+
+void PlayerMod::SaveConfig()
+{
+	Cheat::config->PushEntry("SPEEDHACK_KEY", "int", std::to_string(SpeedHackKey.key));
+	Cheat::config->PushEntry("SPEED_FACTOR", "float", std::to_string(fSpeedHackFactor));
+	Cheat::config->PushEntry("TELEPORT_KEY", "int", std::to_string(TeleportKey.key));
+	Cheat::config->PushEntry("VERTICAL_OFFSET", "int", std::to_string(iTeleportOffset));
+}
+
+void PlayerMod::LoadConfig()
+{
+	ConfigEntry entry = Cheat::config->GetEntryByName("SPEEDHACK_KEY");
+	if (entry.Name == "SPEEDHACK_KEY")
+		SpeedHackKey.key = static_cast<ImGuiKey>(std::stoi(entry.Value));
+
+	entry = Cheat::config->GetEntryByName("SPEED_FACTOR");
+	if (entry.Name == "SPEED_FACTOR")
+		fSpeedHackFactor = std::stof(entry.Value);
+
+	entry = Cheat::config->GetEntryByName("TELEPORT_KEY");
+	if (entry.Name == "TELEPORT_KEY")
+		TeleportKey.key = static_cast<ImGuiKey>(std::stoi(entry.Value));
+
+	entry = Cheat::config->GetEntryByName("VERTICAL_OFFSET");
+	if (entry.Name == "VERTICAL_OFFSET")
+		iTeleportOffset = std::stoi(entry.Value);
 }

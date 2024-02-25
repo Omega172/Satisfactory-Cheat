@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -32,7 +32,7 @@ namespace CG
 	{
 	public:
 		bool                                                       bIsPassthrough;                                          // 0x1E48(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_LZ80[0x7];                                   // 0x1E49(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_L4QB[0x7];                                   // 0x1E49(0x0007) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -45,7 +45,7 @@ namespace CG
 	class USteamNetDriver : public UIpNetDriver
 	{
 	public:
-		unsigned char                                              UnknownData_C0FG[0x8];                                   // 0x0860(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_TXBC[0x8];                                   // 0x0860(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();

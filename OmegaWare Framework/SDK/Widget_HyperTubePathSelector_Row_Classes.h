@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -28,7 +28,7 @@ namespace CG
 		class UImage*                                              SelectedDestinationPointer;                              // 0x02A0(0x0008) BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash
 		struct FFGPipeHyperJunctionConnectionInfo                  ConnectionInfo;                                          // 0x02A8(0x0028) Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference
 		int32_t                                                    ConnectionIndex;                                         // 0x02D0(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_Y5ZO[0x4];                                   // 0x02D4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_94M8[0x4];                                   // 0x02D4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FFGPipeHyperConnectionHistoryEntry                  SelectedOutputConnection;                                // 0x02D8(0x0010) Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, ContainsInstancedReference
 
 	public:

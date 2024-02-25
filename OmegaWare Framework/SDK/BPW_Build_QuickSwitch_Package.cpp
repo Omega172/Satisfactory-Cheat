@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Build_QuickSwitch.BPW_Build_QuickSwitch_C.BuildBlueprintMenu
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -31,7 +31,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Build_QuickSwitch.BPW_Build_QuickSwitch_C.UpdateHintText
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -50,7 +50,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Build_QuickSwitch.BPW_Build_QuickSwitch_C.GetBlueprints
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -77,7 +77,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Build_QuickSwitch.BPW_Build_QuickSwitch_C.SetupBlueprints
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -96,7 +96,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Build_QuickSwitch.BPW_Build_QuickSwitch_C.GetCustomizerDescriptorText
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -118,7 +118,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Build_QuickSwitch.BPW_Build_QuickSwitch_C.PlayTapCategorySFX
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -140,7 +140,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Build_QuickSwitch.BPW_Build_QuickSwitch_C.PlayTapBuildmodeSFX
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -159,7 +159,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Build_QuickSwitch.BPW_Build_QuickSwitch_C.PlayFastSwitchMaterialSFX
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -178,7 +178,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Build_QuickSwitch.BPW_Build_QuickSwitch_C.SetCurrentMaterialRecipe
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -200,7 +200,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Build_QuickSwitch.BPW_Build_QuickSwitch_C.SetupMaterialDescriptors
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -219,7 +219,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Build_QuickSwitch.BPW_Build_QuickSwitch_C.OnMenuScrolled
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -241,7 +241,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Build_QuickSwitch.BPW_Build_QuickSwitch_C.OnRadialMenuClosed
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -263,7 +263,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Build_QuickSwitch.BPW_Build_QuickSwitch_C.OpenBuildModes
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -282,7 +282,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Build_QuickSwitch.BPW_Build_QuickSwitch_C.CloseQuickSwitch
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -304,7 +304,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Build_QuickSwitch.BPW_Build_QuickSwitch_C.SetupRecipes
 	 * 		Flags  -> (Private, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -323,7 +323,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Build_QuickSwitch.BPW_Build_QuickSwitch_C.GetItemRecipes
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -353,7 +353,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Build_QuickSwitch.BPW_Build_QuickSwitch_C.InpActEvt_IA_QuickSwitchMenuScrolledLeft_K2Node_EnhancedInputActionEvent_2
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -381,7 +381,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Build_QuickSwitch.BPW_Build_QuickSwitch_C.InpActEvt_IA_QuickSwitchMenuScrolledRight_K2Node_EnhancedInputActionEvent_1
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -409,7 +409,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Build_QuickSwitch.BPW_Build_QuickSwitch_C.BndEvt__Widget_RadialMenu_K2Node_ComponentBoundEvent_0_OnClose__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -431,7 +431,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Build_QuickSwitch.BPW_Build_QuickSwitch_C.Open
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -453,7 +453,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Build_QuickSwitch.BPW_Build_QuickSwitch_C.ShowRadialMenu
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -472,7 +472,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Build_QuickSwitch.BPW_Build_QuickSwitch_C.Destruct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 */
@@ -491,7 +491,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Build_QuickSwitch.BPW_Build_QuickSwitch_C.OpenWithBlueprints
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -513,7 +513,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Build_QuickSwitch.BPW_Build_QuickSwitch_C.ExecuteUbergraph_BPW_Build_QuickSwitch
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:
@@ -535,7 +535,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Build_QuickSwitch.BPW_Build_QuickSwitch_C.OnBlueprintClosed__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -557,7 +557,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Build_QuickSwitch.BPW_Build_QuickSwitch_C.OnBuildModeClosed__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -579,7 +579,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Build_QuickSwitch.BPW_Build_QuickSwitch_C.OnBuildingClose__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 * Parameters:

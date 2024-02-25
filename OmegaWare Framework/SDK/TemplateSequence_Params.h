@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -81,7 +81,7 @@ namespace CG
 	public:
 		class APlayerController*                                   PlayerController;                                        // 0x0000(0x0008)  (Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 		int32_t                                                    PPIndex;                                                 // 0x0008(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-		unsigned char                                              UnknownData_FMJL[0x4];                                   // 0x000C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY) ()
+		unsigned char                                              UnknownData_JDTU[0x4];                                   // 0x000C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY) ()
 		struct FPostProcessSettings                                OutPPSettings;                                           // 0x0010(0x06E0)  (Parm, OutParm, NativeAccessSpecifierPublic)
 		float                                                      OutPPBlendWeight;                                        // 0x06F0(0x0004)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 		bool                                                       ReturnValue;                                             // 0x06F4(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -94,7 +94,7 @@ namespace CG
 	{
 	public:
 		class APlayerController*                                   PlayerController;                                        // 0x0000(0x0008)  (Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-		unsigned char                                              UnknownData_X2VH[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY) ()
+		unsigned char                                              UnknownData_38DF[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY) ()
 		struct FMinimalViewInfo                                    ReturnValue;                                             // 0x0010(0x07C0)  (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
 	};
 
@@ -105,7 +105,7 @@ namespace CG
 	{
 	public:
 		class APlayerController*                                   PlayerController;                                        // 0x0000(0x0008)  (Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-		unsigned char                                              UnknownData_P9XV[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY) ()
+		unsigned char                                              UnknownData_RNSQ[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY) ()
 		struct FMinimalViewInfo                                    ReturnValue;                                             // 0x0010(0x07C0)  (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
 	};
 

@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCD280
+	 * 		RVA    -> 0x6F50CD280
 	 * 		Name   -> Function HeadMountedDisplay.HandKeypointConversion.Conv_HandKeypointToInt32
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -51,7 +51,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFD1530
+	 * 		RVA    -> 0x6F50D1530
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.UpdateExternalTrackingHMDPosition
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -74,7 +74,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFD13B0
+	 * 		RVA    -> 0x6F50D13B0
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.SetXRTimedInputActionDelegate
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -99,7 +99,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFD1320
+	 * 		RVA    -> 0x6F50D1320
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.SetXRDisconnectDelegate
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -122,7 +122,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFD1230
+	 * 		RVA    -> 0x6F50D1230
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.SetWorldToMetersScale
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -147,7 +147,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFD10F0
+	 * 		RVA    -> 0x6F50D10F0
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.SetTrackingOrigin
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -170,7 +170,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFD0F40
+	 * 		RVA    -> 0x6F50D0F40
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.SetSpectatorScreenTexture
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -193,7 +193,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFD0CB0
+	 * 		RVA    -> 0x6F50D0CB0
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.SetSpectatorScreenModeTexturePlusEyeLayout
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -228,7 +228,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFD0C40
+	 * 		RVA    -> 0x6F50D0C40
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.SetSpectatorScreenMode
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -251,7 +251,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFD0440
+	 * 		RVA    -> 0x6F50D0440
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.SetClippingPlanes
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -276,7 +276,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFD01E0
+	 * 		RVA    -> 0x6F50D01E0
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.ResetOrientationAndPosition
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -301,7 +301,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFD0150
+	 * 		RVA    -> 0x6F50D0150
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.IsSpectatorScreenModeControllable
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -323,7 +323,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCFDE0
+	 * 		RVA    -> 0x6F50CFDE0
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.IsInLowPersistenceMode
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -345,7 +345,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCFD80
+	 * 		RVA    -> 0x6F50CFD80
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.IsHeadMountedDisplayEnabled
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -367,7 +367,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCFD50
+	 * 		RVA    -> 0x6F50CFD50
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.IsHeadMountedDisplayConnected
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -389,7 +389,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCFC70
+	 * 		RVA    -> 0x6F50CFC70
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.IsDeviceTracking
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -414,7 +414,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCFBE0
+	 * 		RVA    -> 0x6F50CFBE0
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.HasValidTrackingPosition
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -436,7 +436,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCFBB0
+	 * 		RVA    -> 0x6F50CFBB0
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetXRSystemFlags
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -458,7 +458,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCFB00
+	 * 		RVA    -> 0x6F50CFB00
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetWorldToMetersScale
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -483,7 +483,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCF990
+	 * 		RVA    -> 0x6F50CF990
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetVRFocusState
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -511,7 +511,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCFA80
+	 * 		RVA    -> 0x6F50CFA80
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetVersionString
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -533,7 +533,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCF850
+	 * 		RVA    -> 0x6F50CF850
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetTrackingToWorldTransform
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -558,7 +558,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCF410
+	 * 		RVA    -> 0x6F50CF410
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetTrackingSensorParameters
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -612,7 +612,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCF290
+	 * 		RVA    -> 0x6F50CF290
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetTrackingOriginTransform
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -641,7 +641,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCF240
+	 * 		RVA    -> 0x6F50CF240
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetTrackingOrigin
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -663,7 +663,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCEFA0
+	 * 		RVA    -> 0x6F50CEFA0
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetPositionalTrackingCameraParameters
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -706,7 +706,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCEE20
+	 * 		RVA    -> 0x6F50CEE20
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetPlayAreaRect
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -736,7 +736,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCED40
+	 * 		RVA    -> 0x6F50CED40
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetPlayAreaBounds
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -761,7 +761,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCED10
+	 * 		RVA    -> 0x6F50CED10
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetPixelDensity
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -783,7 +783,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCEB20
+	 * 		RVA    -> 0x6F50CEB20
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetOrientationAndPosition
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -811,7 +811,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCEAD0
+	 * 		RVA    -> 0x6F50CEAD0
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetNumOfTrackingSensors
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -833,7 +833,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCE8B0
+	 * 		RVA    -> 0x6F50CE8B0
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetMotionControllerData
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -862,7 +862,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCE720
+	 * 		RVA    -> 0x6F50CE720
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetHMDWornState
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -884,7 +884,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCE670
+	 * 		RVA    -> 0x6F50CE670
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetHMDDeviceName
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -906,7 +906,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCE540
+	 * 		RVA    -> 0x6F50CE540
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetHMDData
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -933,7 +933,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCE300
+	 * 		RVA    -> 0x6F50CE300
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetDeviceWorldPose
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -971,7 +971,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCE0F0
+	 * 		RVA    -> 0x6F50CE0F0
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetDevicePose
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1007,7 +1007,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCDFD0
+	 * 		RVA    -> 0x6F50CDFD0
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetCurrentInteractionProfile
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1036,7 +1036,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCDB50
+	 * 		RVA    -> 0x6F50CDB50
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetControllerTransformForTime
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1095,7 +1095,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCD9C0
+	 * 		RVA    -> 0x6F50CD9C0
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.EnumerateTrackedDevices
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -1122,7 +1122,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCD680
+	 * 		RVA    -> 0x6F50CD680
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.EnableLowPersistenceMode
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -1145,7 +1145,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCD5F0
+	 * 		RVA    -> 0x6F50CD5F0
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.EnableHMD
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -1170,7 +1170,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCD5B0
+	 * 		RVA    -> 0x6F50CD5B0
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.DisconnectRemoteXRDevice
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 */
@@ -1190,7 +1190,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCD170
+	 * 		RVA    -> 0x6F50CD170
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.ConnectRemoteXRDevice
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -1217,7 +1217,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCD0A0
+	 * 		RVA    -> 0x6F50CD0A0
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.ConfigureGestures
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1242,7 +1242,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCD010
+	 * 		RVA    -> 0x6F50CD010
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.ClearXRTimedInputActionDelegate
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1265,7 +1265,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCCE90
+	 * 		RVA    -> 0x6F50CCE90
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.CalibrateExternalTrackingToHMD
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1288,7 +1288,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCCBF0
+	 * 		RVA    -> 0x6F50CCBF0
 	 * 		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.BreakKey
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -1341,7 +1341,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFD11B0
+	 * 		RVA    -> 0x6F50D11B0
 	 * 		Name   -> Function HeadMountedDisplay.MotionControllerComponent.SetTrackingSource
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1364,7 +1364,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFD1020
+	 * 		RVA    -> 0x6F50D1020
 	 * 		Name   -> Function HeadMountedDisplay.MotionControllerComponent.SetTrackingMotionSource
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1387,7 +1387,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFD0B70
+	 * 		RVA    -> 0x6F50D0B70
 	 * 		Name   -> Function HeadMountedDisplay.MotionControllerComponent.SetShowDeviceModel
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1410,7 +1410,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFD06B0
+	 * 		RVA    -> 0x6F50D06B0
 	 * 		Name   -> Function HeadMountedDisplay.MotionControllerComponent.SetDisplayModelSource
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1433,7 +1433,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFD0560
+	 * 		RVA    -> 0x6F50D0560
 	 * 		Name   -> Function HeadMountedDisplay.MotionControllerComponent.SetCustomDisplayMesh
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1456,7 +1456,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFD0370
+	 * 		RVA    -> 0x6F50D0370
 	 * 		Name   -> Function HeadMountedDisplay.MotionControllerComponent.SetAssociatedPlayerIndex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1479,7 +1479,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function HeadMountedDisplay.MotionControllerComponent.OnMotionControllerUpdated
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -1498,7 +1498,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFD01C0
+	 * 		RVA    -> 0x6F50D01C0
 	 * 		Name   -> Function HeadMountedDisplay.MotionControllerComponent.IsTracked
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1520,7 +1520,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCF800
+	 * 		RVA    -> 0x6F50CF800
 	 * 		Name   -> Function HeadMountedDisplay.MotionControllerComponent.GetTrackingSource
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1542,7 +1542,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCEC00
+	 * 		RVA    -> 0x6F50CEC00
 	 * 		Name   -> Function HeadMountedDisplay.MotionControllerComponent.GetParameterValue
 	 * 		Flags  -> (Final, Native, Protected, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1571,7 +1571,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCE750
+	 * 		RVA    -> 0x6F50CE750
 	 * 		Name   -> Function HeadMountedDisplay.MotionControllerComponent.GetHandJointPosition
 	 * 		Flags  -> (Final, Native, Protected, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1614,7 +1614,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFD07F0
+	 * 		RVA    -> 0x6F50D07F0
 	 * 		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.SetIsControllerMotionTrackingEnabledByDefault
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -1637,7 +1637,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFD0080
+	 * 		RVA    -> 0x6F50D0080
 	 * 		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.IsMotionTrackingEnabledForSource
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -1664,7 +1664,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCFFB0
+	 * 		RVA    -> 0x6F50CFFB0
 	 * 		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.IsMotionTrackingEnabledForDevice
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -1691,7 +1691,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCFF00
+	 * 		RVA    -> 0x6F50CFF00
 	 * 		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.IsMotionTrackingEnabledForComponent
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -1716,7 +1716,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCFED0
+	 * 		RVA    -> 0x6F50CFED0
 	 * 		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.IsMotionTrackedDeviceCountManagementNecessary
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -1738,7 +1738,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCFE00
+	 * 		RVA    -> 0x6F50CFE00
 	 * 		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.IsMotionSourceTracking
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -1765,7 +1765,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCEAA0
+	 * 		RVA    -> 0x6F50CEAA0
 	 * 		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.GetMotionTrackingEnabledControllerCount
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -1787,7 +1787,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCE880
+	 * 		RVA    -> 0x6F50CE880
 	 * 		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.GetMaximumMotionTrackedControllerCount
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -1809,7 +1809,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCDAE0
+	 * 		RVA    -> 0x6F50CDAE0
 	 * 		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.GetActiveTrackingSystemName
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 */
@@ -1831,7 +1831,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCD940
+	 * 		RVA    -> 0x6F50CD940
 	 * 		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.EnumerateMotionSources
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 */
@@ -1853,7 +1853,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCD870
+	 * 		RVA    -> 0x6F50CD870
 	 * 		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.EnableMotionTrackingOfSource
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -1880,7 +1880,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCD7A0
+	 * 		RVA    -> 0x6F50CD7A0
 	 * 		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.EnableMotionTrackingOfDevice
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -1907,7 +1907,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCD6F0
+	 * 		RVA    -> 0x6F50CD6F0
 	 * 		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.EnableMotionTrackingForComponent
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -1932,7 +1932,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCD4F0
+	 * 		RVA    -> 0x6F50CD4F0
 	 * 		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.DisableMotionTrackingOfSource
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -1957,7 +1957,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCD430
+	 * 		RVA    -> 0x6F50CD430
 	 * 		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.DisableMotionTrackingOfDevice
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -1982,7 +1982,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCD3B0
+	 * 		RVA    -> 0x6F50CD3B0
 	 * 		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.DisableMotionTrackingOfControllersForPlayer
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -2005,7 +2005,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCD390
+	 * 		RVA    -> 0x6F50CD390
 	 * 		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.DisableMotionTrackingOfAllControllers
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 */
@@ -2025,7 +2025,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCD300
+	 * 		RVA    -> 0x6F50CD300
 	 * 		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.DisableMotionTrackingForComponent
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -2076,7 +2076,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCC930
+	 * 		RVA    -> 0x6F50CC930
 	 * 		Name   -> Function HeadMountedDisplay.XRAssetFunctionLibrary.AddNamedDeviceVisualizationComponentBlocking
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2113,7 +2113,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCBF30
+	 * 		RVA    -> 0x6F50CBF30
 	 * 		Name   -> Function HeadMountedDisplay.XRAssetFunctionLibrary.AddDeviceVisualizationComponentBlocking
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2158,7 +2158,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCC5A0
+	 * 		RVA    -> 0x6F50CC5A0
 	 * 		Name   -> Function HeadMountedDisplay.AsyncTask_LoadXRDeviceVisComponent.AddNamedDeviceVisualizationComponentAsync
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2198,7 +2198,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCBA30
+	 * 		RVA    -> 0x6F50CBA30
 	 * 		Name   -> Function HeadMountedDisplay.AsyncTask_LoadXRDeviceVisComponent.AddDeviceVisualizationComponentAsync
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2247,7 +2247,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFD0910
+	 * 		RVA    -> 0x6F50D0910
 	 * 		Name   -> Function HeadMountedDisplay.XRDeviceVisualizationComponent.SetIsVisualizationActive
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2270,7 +2270,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFD0870
+	 * 		RVA    -> 0x6F50D0870
 	 * 		Name   -> Function HeadMountedDisplay.XRDeviceVisualizationComponent.SetIsRenderingActive
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2293,7 +2293,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFD0750
+	 * 		RVA    -> 0x6F50D0750
 	 * 		Name   -> Function HeadMountedDisplay.XRDeviceVisualizationComponent.SetDisplayModelSource
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2316,7 +2316,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFD05F0
+	 * 		RVA    -> 0x6F50D05F0
 	 * 		Name   -> Function HeadMountedDisplay.XRDeviceVisualizationComponent.SetCustomDisplayMesh
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2353,7 +2353,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFD14D0
+	 * 		RVA    -> 0x6F50D14D0
 	 * 		Name   -> Function HeadMountedDisplay.XRLoadingScreenFunctionLibrary.ShowLoadingScreen
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 */
@@ -2373,7 +2373,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFD09B0
+	 * 		RVA    -> 0x6F50D09B0
 	 * 		Name   -> Function HeadMountedDisplay.XRLoadingScreenFunctionLibrary.SetLoadingScreen
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2404,7 +2404,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCFC10
+	 * 		RVA    -> 0x6F50CFC10
 	 * 		Name   -> Function HeadMountedDisplay.XRLoadingScreenFunctionLibrary.HideLoadingScreen
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 */
@@ -2424,7 +2424,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCCFB0
+	 * 		RVA    -> 0x6F50CCFB0
 	 * 		Name   -> Function HeadMountedDisplay.XRLoadingScreenFunctionLibrary.ClearLoadingScreenSplashes
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 */
@@ -2444,7 +2444,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CFCC380
+	 * 		RVA    -> 0x6F50CC380
 	 * 		Name   -> Function HeadMountedDisplay.XRLoadingScreenFunctionLibrary.AddLoadingScreenSplash
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:

@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -204,7 +204,7 @@ namespace CG
 	struct FBodyInstanceCore
 	{
 	public:
-		unsigned char                                              UnknownData_ZN79[0x10];                                  // 0x0000(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_WLFD[0x10];                                  // 0x0000(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		bool                                                       bSimulatePhysics : 1;                                    // 0x0010(0x0001) BIT_FIELD Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bOverrideMass : 1;                                       // 0x0010(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bEnableGravity : 1;                                      // 0x0010(0x0001) BIT_FIELD Edit, BlueprintVisible, BlueprintReadOnly, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -212,7 +212,7 @@ namespace CG
 		bool                                                       bStartAwake : 1;                                         // 0x0010(0x0001) BIT_FIELD Edit, BlueprintVisible, BlueprintReadOnly, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bGenerateWakeEvents : 1;                                 // 0x0010(0x0001) BIT_FIELD Edit, BlueprintVisible, BlueprintReadOnly, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bUpdateMassWhenScaleChanges : 1;                         // 0x0010(0x0001) BIT_FIELD Edit, BlueprintVisible, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_PQBI[0x7];                                   // 0x0011(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_TXJ8[0x7];                                   // 0x0011(0x0007) MISSED OFFSET (PADDING)
 	};
 
 }

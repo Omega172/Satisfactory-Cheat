@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -461,7 +461,7 @@ namespace CG
 	{
 	public:
 		ERigElementType                                            Type;                                                    // 0x0000(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_3AQZ[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_2VVX[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FName                                                Name;                                                    // 0x0004(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -494,7 +494,7 @@ namespace CG
 	{
 	public:
 		struct FRigElementKey                                      Source;                                                  // 0x0000(0x000C) NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_9MVG[0x4];                                   // 0x000C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_7WS1[0x4];                                   // 0x000C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FRigElementKey>                              AffectedList;                                            // 0x0010(0x0010) ZeroConstructor, Protected, NativeAccessSpecifierProtected
 	};
 
@@ -532,18 +532,18 @@ namespace CG
 		int32_t                                                    TransformIndex;                                          // 0x0028(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FName                                                TransformName;                                           // 0x002C(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigElementType                                            ElementType;                                             // 0x0034(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_K5QM[0x3];                                   // 0x0035(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_KMTE[0x3];                                   // 0x0035(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FName                                                ElementName;                                             // 0x0038(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EControlRigComponentMapDirection                           Direction;                                               // 0x0040(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_6TNN[0xF];                                   // 0x0041(0x000F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_T8KS[0xF];                                   // 0x0041(0x000F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Offset;                                                  // 0x0050(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x00B0(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EControlRigComponentSpace                                  Space;                                                   // 0x00B4(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_PO11[0x3];                                   // 0x00B5(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_BPZT[0x3];                                   // 0x00B5(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class USceneComponent*                                     SceneComponent;                                          // 0x00B8(0x0008) ExportObject, ZeroConstructor, Transient, InstancedReference, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    ElementIndex;                                            // 0x00C0(0x0004) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    SubIndex;                                                // 0x00C4(0x0004) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_VMX9[0x8];                                   // 0x00C8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_9P3N[0x8];                                   // 0x00C8(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -555,9 +555,9 @@ namespace CG
 	public:
 		class FName                                                ShapeName;                                               // 0x0000(0x0008) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		unsigned char                                              StaticMesh[0x30];                                        // 0x0008(0x0030) UNKNOWN PROPERTY: SoftObjectProperty
-		unsigned char                                              UnknownData_VI3V[0x8];                                   // 0x0038(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_R0SR[0x8];                                   // 0x0038(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Transform;                                               // 0x0040(0x0060) Edit, BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_9XZK[0x10];                                  // 0x00A0(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_VN1Q[0x10];                                  // 0x00A0(0x0010) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -581,9 +581,9 @@ namespace CG
 	public:
 		struct FRigElementKey                                      Key;                                                     // 0x0000(0x000C) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		uint16_t                                                   Index;                                                   // 0x000C(0x0002) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_0AXQ[0x2];                                   // 0x000E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_V4FH[0x2];                                   // 0x000E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    ContainerVersion;                                        // 0x0010(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_806Z[0xC];                                   // 0x0014(0x000C) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_7OXO[0xC];                                   // 0x0014(0x000C) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -597,7 +597,7 @@ namespace CG
 		struct FTransform                                          GlobalTransform;                                         // 0x0020(0x0060) IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FTransform                                          LocalTransform;                                          // 0x0080(0x0060) IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      CurveValue;                                              // 0x00E0(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_3WKJ[0xC];                                   // 0x00E4(0x000C) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_6DS5[0xC];                                   // 0x00E4(0x000C) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -610,7 +610,7 @@ namespace CG
 		TArray<struct FRigPoseElement>                             Elements;                                                // 0x0000(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
 		int32_t                                                    HierarchyTopologyVersion;                                // 0x0010(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    PoseHash;                                                // 0x0014(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_UQVW[0x58];                                  // 0x0018(0x0058) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_11MW[0x58];                                  // 0x0018(0x0058) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -639,11 +639,11 @@ namespace CG
 		int32_t                                                    ParentControlIndex;                                      // 0x000C(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FName                                                ChannelTypeName;                                         // 0x0010(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bDoesHaveSpace;                                          // 0x0018(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8N8T[0x3];                                   // 0x0019(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_2X69[0x3];                                   // 0x0019(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    SpaceChannelIndex;                                       // 0x001C(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    MaskIndex;                                               // 0x0020(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    CategoryIndex;                                           // 0x0024(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_PP3X[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_PX5Z[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<uint32_t>                                           ConstraintsIndex;                                        // 0x0030(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
 	};
 
@@ -677,7 +677,7 @@ namespace CG
 	{
 	public:
 		EMovieSceneControlRigSpaceType                             SpaceType;                                               // 0x0000(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_EFES[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_BEJT[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigElementKey                                      ControlRigElement;                                       // 0x0004(0x000C) Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -691,7 +691,7 @@ namespace CG
 		TArray<struct FFrameNumber>                                KeyTimes;                                                // 0x0050(0x0010) ZeroConstructor, NativeAccessSpecifierPrivate
 		TArray<struct FMovieSceneControlRigSpaceBaseKey>           KeyValues;                                               // 0x0060(0x0010) ZeroConstructor, NativeAccessSpecifierPrivate
 		struct FMovieSceneKeyHandleMap                             KeyHandles;                                              // 0x0070(0x0088) Transient, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_UIOT[0x18];                                  // 0x00F8(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_TE4A[0x18];                                  // 0x00F8(0x0018) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -745,7 +745,7 @@ namespace CG
 		float                                                      Float32_3;                                               // 0x0078(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Float33_3;                                               // 0x007C(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bValid;                                                  // 0x0080(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_QVQZ[0x3];                                   // 0x0081(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_9YYU[0x3];                                   // 0x0081(0x0003) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -765,13 +765,13 @@ namespace CG
 	struct FRigControlCopy
 	{
 	public:
-		unsigned char                                              UnknownData_XTJE[0x10];                                  // 0x0000(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_VGGH[0x10];                                  // 0x0000(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FName                                                Name;                                                    // 0x0010(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigControlType                                            ControlType;                                             // 0x0018(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_MGBX[0x3];                                   // 0x0019(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_6XVR[0x3];                                   // 0x0019(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigControlValue                                    Value;                                                   // 0x001C(0x0084) NoDestructor, NativeAccessSpecifierPublic
 		struct FRigElementKey                                      ParentKey;                                               // 0x00A0(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_6E1N[0x4];                                   // 0x00AC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_NS7H[0x4];                                   // 0x00AC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          OffsetTransform;                                         // 0x00B0(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FTransform                                          ParentTransform;                                         // 0x0110(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FTransform                                          LocalTransform;                                          // 0x0170(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -786,7 +786,7 @@ namespace CG
 	{
 	public:
 		TArray<struct FRigControlCopy>                             CopyOfControls;                                          // 0x0000(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_1K6A[0x50];                                  // 0x0010(0x0050) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_A7FL[0x50];                                  // 0x0010(0x0050) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -796,16 +796,16 @@ namespace CG
 	struct FRigBaseElement
 	{
 	public:
-		unsigned char                                              UnknownData_TUDW[0x8];                                   // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_JQV1[0x8];                                   // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigElementKey                                      Key;                                                     // 0x0008(0x000C) Edit, BlueprintVisible, BlueprintReadOnly, EditConst, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_QM3K[0x4];                                   // 0x0014(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_DR6O[0x4];                                   // 0x0014(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FString                                              NameString;                                              // 0x0018(0x0010) ZeroConstructor, Transient, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		int32_t                                                    Index;                                                   // 0x0028(0x0004) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		int32_t                                                    SubIndex;                                                // 0x002C(0x0004) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bSelected;                                               // 0x0030(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_VLLS[0x3];                                   // 0x0031(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_DQFK[0x3];                                   // 0x0031(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    CreatedAtInstructionIndex;                               // 0x0034(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_4MKL[0xB8];                                  // 0x0038(0x00B8) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_S344[0xB8];                                  // 0x0038(0x00B8) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -816,7 +816,7 @@ namespace CG
 	{
 	public:
 		struct FTransform                                          Transform;                                               // 0x0000(0x0060) Edit, BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_4WBX[0x10];                                  // 0x0060(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_WC29[0x10];                                  // 0x0060(0x0010) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -849,7 +849,7 @@ namespace CG
 	{
 	public:
 		struct FRigCurrentAndInitialTransform                      Pose;                                                    // 0x00F0(0x01C0) Edit, BlueprintVisible, BlueprintReadOnly, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_N2JX[0x40];                                  // 0x02B0(0x0040) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_1RJD[0x40];                                  // 0x02B0(0x0040) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -859,7 +859,7 @@ namespace CG
 	struct FRigMultiParentElement : public FRigTransformElement
 	{
 	public:
-		unsigned char                                              UnknownData_VMAA[0x100];                                 // 0x02F0(0x0100) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_DKZ6[0x100];                                 // 0x02F0(0x0100) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -882,30 +882,30 @@ namespace CG
 	public:
 		ERigControlAnimationType                                   AnimationType;                                           // 0x0000(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigControlType                                            ControlType;                                             // 0x0001(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_V3LH[0x2];                                   // 0x0002(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_IKND[0x2];                                   // 0x0002(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FName                                                DisplayName;                                             // 0x0004(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigControlAxis                                            PrimaryAxis;                                             // 0x000C(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bIsCurve;                                                // 0x000D(0x0001) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_0F35[0x2];                                   // 0x000E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_S14E[0x2];                                   // 0x000E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FRigControlLimitEnabled>                     LimitEnabled;                                            // 0x0010(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		bool                                                       bDrawLimits;                                             // 0x0020(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_5OGX[0x3];                                   // 0x0021(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_GA6B[0x3];                                   // 0x0021(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigControlValue                                    MinimumValue;                                            // 0x0024(0x0084) BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FRigControlValue                                    MaximumValue;                                            // 0x00A8(0x0084) BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		bool                                                       bShapeVisible;                                           // 0x012C(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigControlVisibility                                      ShapeVisibility;                                         // 0x012D(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_TQOG[0x2];                                   // 0x012E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_IJX1[0x2];                                   // 0x012E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FName                                                ShapeName;                                               // 0x0130(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FLinearColor                                        ShapeColor;                                              // 0x0138(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bIsTransientControl;                                     // 0x0148(0x0001) BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_THJ0[0x7];                                   // 0x0149(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_8X2U[0x7];                                   // 0x0149(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UEnum*                                               ControlEnum;                                             // 0x0150(0x0008) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigControlElementCustomization                     Customization;                                           // 0x0158(0x0020) Edit, BlueprintVisible, BlueprintReadOnly, NativeAccessSpecifierPublic
 		TArray<struct FRigElementKey>                              DrivenControls;                                          // 0x0178(0x0010) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_DJ0L[0x10];                                  // 0x0188(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_0OGT[0x10];                                  // 0x0188(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		bool                                                       bGroupWithParentControl;                                 // 0x0198(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bRestrictSpaceSwitching;                                 // 0x0199(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_HN9F[0x6];                                   // 0x019A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_SG1R[0x6];                                   // 0x019A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<ERigControlTransformChannel>                        FilteredChannels;                                        // 0x01A0(0x0010) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NativeAccessSpecifierPublic
 	};
 
@@ -917,7 +917,7 @@ namespace CG
 	{
 	public:
 		EEulerRotationOrder                                        RotationOrder;                                           // 0x0000(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_HHWD[0x7];                                   // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_DNEV[0x7];                                   // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             Current;                                                 // 0x0008(0x0018) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             Initial;                                                 // 0x0020(0x0018) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
@@ -933,7 +933,7 @@ namespace CG
 		struct FRigCurrentAndInitialTransform                      Offset;                                                  // 0x05A0(0x01C0) Edit, BlueprintVisible, BlueprintReadOnly, NoDestructor, NativeAccessSpecifierPublic
 		struct FRigCurrentAndInitialTransform                      Shape;                                                   // 0x0760(0x01C0) Edit, BlueprintVisible, BlueprintReadOnly, NoDestructor, NativeAccessSpecifierPublic
 		struct FRigPreferredEulerAngles                            PreferredEulerAngles;                                    // 0x0920(0x0038) Edit, BlueprintVisible, BlueprintReadOnly, NoDestructor, Protected, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_46Q6[0x8];                                   // 0x0958(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_5SIO[0x8];                                   // 0x0958(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -945,11 +945,11 @@ namespace CG
 	public:
 		bool                                                       bAdditive;                                               // 0x0008(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bApplyBoneFilter;                                        // 0x0009(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_JCSK[0x6];                                   // 0x000A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_62CT[0x6];                                   // 0x000A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FInputBlendPose                                     BoneFilter;                                              // 0x0010(0x0010) NativeAccessSpecifierPublic
 		struct FMovieSceneFloatChannel                             Weight;                                                  // 0x0020(0x0110) NativeAccessSpecifierPublic
 		struct FMovieSceneEvaluationOperand                        Operand;                                                 // 0x0130(0x0014) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_26YX[0x4];                                   // 0x0144(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_JA1I[0x4];                                   // 0x0144(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -962,13 +962,13 @@ namespace CG
 		struct FRigElementKey                                      Key;                                                     // 0x0000(0x000C) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigTransformStackEntryType                                EntryType;                                               // 0x000C(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigTransformType                                          TransformType;                                           // 0x000D(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_416W[0x2];                                   // 0x000E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_V1CZ[0x2];                                   // 0x000E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          OldTransform;                                            // 0x0010(0x0060) IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FTransform                                          NewTransform;                                            // 0x0070(0x0060) IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bAffectChildren;                                         // 0x00D0(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_L4SZ[0x7];                                   // 0x00D1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ZTG8[0x7];                                   // 0x00D1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class FString>                                      Callstack;                                               // 0x00D8(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_W2CZ[0x8];                                   // 0x00E8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_8E2W[0x8];                                   // 0x00E8(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -978,7 +978,7 @@ namespace CG
 	struct FRigSingleParentElement : public FRigTransformElement
 	{
 	public:
-		unsigned char                                              UnknownData_TD3D[0x8];                                   // 0x02F0(0x0008) Fix size for supers
+		unsigned char                                              UnknownData_DEL8[0x8];                                   // 0x02F0(0x0008) Fix size for supers
 	};
 
 	/**
@@ -1000,7 +1000,7 @@ namespace CG
 	struct FRigElementParentConstraint
 	{
 	public:
-		unsigned char                                              UnknownData_HUDX[0x90];                                  // 0x0000(0x0090) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_N231[0x90];                                  // 0x0000(0x0090) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1011,7 +1011,7 @@ namespace CG
 	{
 	public:
 		ERigBoneType                                               BoneType;                                                // 0x02F8(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_AW8Y[0x7];                                   // 0x02F9(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_K66W[0x7];                                   // 0x02F9(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1028,7 +1028,7 @@ namespace CG
 	struct FRigCurveElement : public FRigBaseElement
 	{
 	public:
-		unsigned char                                              UnknownData_RUI3[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_WSH5[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1049,7 +1049,7 @@ namespace CG
 	{
 	public:
 		struct FRigRigidBodySettings                               Settings;                                                // 0x02F8(0x0004) Edit, BlueprintVisible, BlueprintReadOnly, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_4O7K[0x4];                                   // 0x02FC(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_YDLV[0x4];                                   // 0x02FC(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1059,8 +1059,8 @@ namespace CG
 	struct FRigReferenceElement : public FRigSingleParentElement
 	{
 	public:
-		unsigned char                                              UnknownData_BSTX[0x8];                                   // 0x02F8(0x0008) Fix Super Size
-		unsigned char                                              UnknownData_Y1XW[0x10];                                  // 0x0300(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_U3BD[0x8];                                   // 0x02F8(0x0008) Fix Super Size
+		unsigned char                                              UnknownData_OCAS[0x10];                                  // 0x0300(0x0010) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1071,7 +1071,7 @@ namespace CG
 	{
 	public:
 		struct FRigElementKey                                      Key;                                                     // 0x0000(0x000C) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_PQ2K[0x4];                                   // 0x000C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_LEZF[0x4];                                   // 0x000C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FString                                              Content;                                                 // 0x0010(0x0010) ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<struct FRigElementKey>                              Parents;                                                 // 0x0020(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
 		TArray<struct FRigElementWeight>                           ParentWeights;                                           // 0x0030(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
@@ -1099,7 +1099,7 @@ namespace CG
 	struct FControlRigExecuteContext : public FRigVMExecuteContext
 	{
 	public:
-		unsigned char                                              UnknownData_HV9Q[0x30];                                  // 0x00F0(0x0030) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_WRYB[0x30];                                  // 0x00F0(0x0030) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1123,7 +1123,7 @@ namespace CG
 	struct FRigUnitMutable : public FRigUnit
 	{
 	public:
-		unsigned char                                              UnknownData_2FBH[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_1Q2O[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FControlRigExecuteContext                           ExecuteContext;                                          // 0x0010(0x0120) Edit, BlueprintVisible, Transient, NativeAccessSpecifierPublic
 	};
 
@@ -1141,7 +1141,7 @@ namespace CG
 	struct FStructReference
 	{
 	public:
-		unsigned char                                              UnknownData_M068[0x8];                                   // 0x0000(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_Y2WC[0x8];                                   // 0x0000(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1177,16 +1177,16 @@ namespace CG
 		bool                                                       bTransferInputPose;                                      // 0x0069(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bTransferInputCurves;                                    // 0x006A(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bTransferPoseInGlobalSpace;                              // 0x006B(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_8REA[0x4];                                   // 0x006C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_1T0T[0x4];                                   // 0x006C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FBoneReference>                              InputBonesToTransfer;                                    // 0x0070(0x0010) Edit, ZeroConstructor, AdvancedDisplay, Protected, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_VF7M[0x1C0];                                 // 0x0080(0x01C0) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_MS4P[0x1C0];                                 // 0x0080(0x01C0) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TWeakObjectPtr<class UNodeMappingContainer>                NodeMappingContainer;                                    // 0x0240(0x0008) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		struct FControlRigIOSettings                               InputSettings;                                           // 0x0248(0x0002) Transient, NoDestructor, Protected, NativeAccessSpecifierProtected
 		struct FControlRigIOSettings                               OutputSettings;                                          // 0x024A(0x0002) Transient, NoDestructor, Protected, NativeAccessSpecifierProtected
 		bool                                                       bExecute;                                                // 0x024C(0x0001) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_CNKN[0xB];                                   // 0x024D(0x000B) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_770K[0xB];                                   // 0x024D(0x000B) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FControlRigAnimNodeEventName>                EventQueue;                                              // 0x0258(0x0010) Edit, ZeroConstructor, AdvancedDisplay, Protected, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_Z9SP[0x8];                                   // 0x0268(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_G5B9[0x8];                                   // 0x0268(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1202,16 +1202,16 @@ namespace CG
 		EAnimAlphaInputType                                        AlphaInputType;                                          // 0x0284(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		bool                                                       bAlphaBoolEnabled : 1;                                   // 0x0285(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		bool                                                       bSetRefPoseFromSkeleton : 1;                             // 0x0285(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_UC4K[0x2];                                   // 0x0286(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_KX8E[0x2];                                   // 0x0286(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FInputScaleBias                                     AlphaScaleBias;                                          // 0x0288(0x0008) Edit, NoDestructor, NativeAccessSpecifierPrivate
 		struct FInputAlphaBoolBlend                                AlphaBoolBlend;                                          // 0x0290(0x0048) Edit, NoDestructor, NativeAccessSpecifierPrivate
 		class FName                                                AlphaCurveName;                                          // 0x02D8(0x0008) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		struct FInputScaleBiasClamp                                AlphaScaleBiasClamp;                                     // 0x02E0(0x0030) Edit, NoDestructor, NativeAccessSpecifierPrivate
 		TMap<class FName, class FName>                             InputMapping;                                            // 0x0310(0x0050) NativeAccessSpecifierPrivate
 		TMap<class FName, class FName>                             OutputMapping;                                           // 0x0360(0x0050) NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_4KP3[0xB0];                                  // 0x03B0(0x00B0) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_FVK0[0xB0];                                  // 0x03B0(0x00B0) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    LODThreshold;                                            // 0x0460(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_M2VR[0xC];                                   // 0x0464(0x000C) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_JR3Z[0xC];                                   // 0x0464(0x000C) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1231,7 +1231,7 @@ namespace CG
 	struct FControlRigAnimInstanceProxy : public FAnimInstanceProxy
 	{
 	public:
-		unsigned char                                              UnknownData_HDTQ[0xA0];                                  // 0x0880(0x00A0) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_RKBI[0xA0];                                  // 0x0880(0x00A0) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1245,7 +1245,7 @@ namespace CG
 		class FName                                                ElementName;                                             // 0x0008(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigElementType                                            ElementType;                                             // 0x0010(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EControlRigComponentMapDirection                           Direction;                                               // 0x0011(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_YCNK[0x6];                                   // 0x0012(0x0006) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_UK2B[0x6];                                   // 0x0012(0x0006) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1277,7 +1277,7 @@ namespace CG
 	struct FControlShapeActorCreationParam
 	{
 	public:
-		unsigned char                                              UnknownData_B7OT[0x1D0];                                 // 0x0000(0x01D0) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_ZVUM[0x1D0];                                 // 0x0000(0x01D0) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1287,7 +1287,7 @@ namespace CG
 	struct FControlRigValidationContext
 	{
 	public:
-		unsigned char                                              UnknownData_YNVR[0x28];                                  // 0x0000(0x0028) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_3UEN[0x28];                                  // 0x0000(0x0028) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1297,11 +1297,11 @@ namespace CG
 	struct FCRSimContainer
 	{
 	public:
-		unsigned char                                              UnknownData_9H5V[0x8];                                   // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_C9RG[0x8];                                   // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      TimeStep;                                                // 0x0008(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      AccumulatedTime;                                         // 0x000C(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      TimeLeftForStep;                                         // 0x0010(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_XFA8[0x4];                                   // 0x0014(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_W6BD[0x4];                                   // 0x0014(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1325,10 +1325,10 @@ namespace CG
 	{
 	public:
 		ECRSimConstraintType                                       Type;                                                    // 0x0000(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_GQLB[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_RFMU[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    SubjectA;                                                // 0x0004(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    SubjectB;                                                // 0x0008(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_DWEK[0x4];                                   // 0x000C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_6SFH[0x4];                                   // 0x000C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             DataA;                                                   // 0x0010(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             DataB;                                                   // 0x0028(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
@@ -1341,11 +1341,11 @@ namespace CG
 	{
 	public:
 		ECRSimPointForceType                                       ForceType;                                               // 0x0000(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_TMH6[0x7];                                   // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_6SMN[0x7];                                   // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             Vector;                                                  // 0x0008(0x0018) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Coefficient;                                             // 0x0020(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bNormalize;                                              // 0x0024(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_9E95[0x3];                                   // 0x0025(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_VKCY[0x3];                                   // 0x0025(0x0003) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1357,14 +1357,14 @@ namespace CG
 	public:
 		struct FTransform                                          Transform;                                               // 0x0000(0x0060) Edit, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ECRSimSoftCollisionType                                    ShapeType;                                               // 0x0060(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_0ZSE[0x3];                                   // 0x0061(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_8M6U[0x3];                                   // 0x0061(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      MinimumDistance;                                         // 0x0064(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      MaximumDistance;                                         // 0x0068(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMAnimEasingType                                       FalloffType;                                             // 0x006C(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_29KY[0x3];                                   // 0x006D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_0D8B[0x3];                                   // 0x006D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Coefficient;                                             // 0x0070(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bInverted;                                               // 0x0074(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_2SZI[0xB];                                   // 0x0075(0x000B) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_3B7J[0xB];                                   // 0x0075(0x000B) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1393,7 +1393,7 @@ namespace CG
 		struct FConstraintOffset                                   ConstraintOffset;                                        // 0x0060(0x00C0) NoDestructor, NativeAccessSpecifierPublic
 		class FName                                                LinkedNode;                                              // 0x0120(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<struct FTransformConstraint>                        Constraints;                                             // 0x0128(0x0010) ZeroConstructor, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_6UAG[0x8];                                   // 0x0138(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_GB7I[0x8];                                   // 0x0138(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1413,10 +1413,10 @@ namespace CG
 	struct FRigElement
 	{
 	public:
-		unsigned char                                              UnknownData_57J1[0x8];                                   // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_X4OG[0x8];                                   // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FName                                                Name;                                                    // 0x0008(0x0008) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    Index;                                                   // 0x0010(0x0004) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_TPH7[0x4];                                   // 0x0014(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_MIXD[0x4];                                   // 0x0014(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1428,13 +1428,13 @@ namespace CG
 	public:
 		class FName                                                ParentName;                                              // 0x0018(0x0008) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    ParentIndex;                                             // 0x0020(0x0004) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_W8JP[0xC];                                   // 0x0024(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_0JBH[0xC];                                   // 0x0024(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          InitialTransform;                                        // 0x0030(0x0060) Edit, BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FTransform                                          GlobalTransform;                                         // 0x0090(0x0060) Edit, BlueprintVisible, BlueprintReadOnly, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FTransform                                          LocalTransform;                                          // 0x00F0(0x0060) Edit, BlueprintVisible, BlueprintReadOnly, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<int32_t>                                            Dependents;                                              // 0x0150(0x0010) ZeroConstructor, Transient, NativeAccessSpecifierPublic
 		ERigBoneType                                               Type;                                                    // 0x0160(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_77LE[0xF];                                   // 0x0161(0x000F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_I10Y[0xF];                                   // 0x0161(0x000F) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1455,13 +1455,13 @@ namespace CG
 	{
 	public:
 		ERigControlType                                            ControlType;                                             // 0x0018(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_2JCY[0x3];                                   // 0x0019(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_Q567[0x3];                                   // 0x0019(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FName                                                DisplayName;                                             // 0x001C(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FName                                                ParentName;                                              // 0x0024(0x0008) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    ParentIndex;                                             // 0x002C(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FName                                                SpaceName;                                               // 0x0030(0x0008) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    SpaceIndex;                                              // 0x0038(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_3Y9O[0x4];                                   // 0x003C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_RWKY[0x4];                                   // 0x003C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          OffsetTransform;                                         // 0x0040(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigControlValue                                    InitialValue;                                            // 0x00A0(0x0084) Edit, BlueprintVisible, BlueprintReadOnly, EditConst, NoDestructor, NativeAccessSpecifierPublic
 		struct FRigControlValue                                    Value;                                                   // 0x0124(0x0084) Edit, BlueprintVisible, BlueprintReadOnly, Transient, EditConst, NoDestructor, NativeAccessSpecifierPublic
@@ -1472,19 +1472,19 @@ namespace CG
 		bool                                                       bLimitRotation;                                          // 0x01AC(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bLimitScale;                                             // 0x01AD(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bDrawLimits;                                             // 0x01AE(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_I57S[0x1];                                   // 0x01AF(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_JS08[0x1];                                   // 0x01AF(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigControlValue                                    MinimumValue;                                            // 0x01B0(0x0084) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FRigControlValue                                    MaximumValue;                                            // 0x0234(0x0084) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		bool                                                       bGizmoEnabled;                                           // 0x02B8(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bGizmoVisible;                                           // 0x02B9(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_4SKQ[0x2];                                   // 0x02BA(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ZJ2J[0x2];                                   // 0x02BA(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FName                                                GizmoName;                                               // 0x02BC(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_T395[0xC];                                   // 0x02C4(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_72ME[0xC];                                   // 0x02C4(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          GizmoTransform;                                          // 0x02D0(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FLinearColor                                        GizmoColor;                                              // 0x0330(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<int32_t>                                            Dependents;                                              // 0x0340(0x0010) ZeroConstructor, Transient, NativeAccessSpecifierPublic
 		bool                                                       bIsTransientControl;                                     // 0x0350(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_FPM0[0x7];                                   // 0x0351(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_WG7V[0x7];                                   // 0x0351(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UEnum*                                               ControlEnum;                                             // 0x0358(0x0008) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -1506,7 +1506,7 @@ namespace CG
 	{
 	public:
 		float                                                      Value;                                                   // 0x0018(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_5G98[0x4];                                   // 0x001C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_L7RC[0x4];                                   // 0x001C(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1527,10 +1527,10 @@ namespace CG
 	{
 	public:
 		ERigSpaceType                                              SpaceType;                                               // 0x0018(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_E4KO[0x3];                                   // 0x0019(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_DDUX[0x3];                                   // 0x0019(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FName                                                ParentName;                                              // 0x001C(0x0008) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    ParentIndex;                                             // 0x0024(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ZTJ1[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_00JX[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          InitialTransform;                                        // 0x0030(0x0060) Edit, BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FTransform                                          LocalTransform;                                          // 0x0090(0x0060) Edit, BlueprintVisible, BlueprintReadOnly, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
@@ -1565,7 +1565,7 @@ namespace CG
 	struct FRigHierarchyRef
 	{
 	public:
-		unsigned char                                              UnknownData_8M2X[0x1];                                   // 0x0000(0x0001) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_GPCM[0x1];                                   // 0x0000(0x0001) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1575,7 +1575,7 @@ namespace CG
 	struct FRigControlModifiedContext
 	{
 	public:
-		unsigned char                                              UnknownData_O9AN[0x18];                                  // 0x0000(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_6H3P[0x18];                                  // 0x0000(0x0018) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1595,7 +1595,7 @@ namespace CG
 	struct FRigEventContext
 	{
 	public:
-		unsigned char                                              UnknownData_YYKV[0x28];                                  // 0x0000(0x0028) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_B75F[0x28];                                  // 0x0000(0x0028) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1605,10 +1605,10 @@ namespace CG
 	struct FRigBaseMetadata
 	{
 	public:
-		unsigned char                                              UnknownData_XDNV[0x10];                                  // 0x0000(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_F237[0x10];                                  // 0x0000(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FName                                                Name;                                                    // 0x0010(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		ERigMetadataType                                           Type;                                                    // 0x0018(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_7WBH[0xF];                                   // 0x0019(0x000F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_QZ12[0xF];                                   // 0x0019(0x000F) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1619,7 +1619,7 @@ namespace CG
 	{
 	public:
 		bool                                                       Value;                                                   // 0x0028(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_SIMM[0x7];                                   // 0x0029(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_7SAM[0x7];                                   // 0x0029(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1640,7 +1640,7 @@ namespace CG
 	{
 	public:
 		float                                                      Value;                                                   // 0x0028(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_MT8T[0x4];                                   // 0x002C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_IEDN[0x4];                                   // 0x002C(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1661,7 +1661,7 @@ namespace CG
 	{
 	public:
 		int32_t                                                    Value;                                                   // 0x0028(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_CJM0[0x4];                                   // 0x002C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_9ICS[0x4];                                   // 0x002C(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1741,7 +1741,7 @@ namespace CG
 	struct FRigQuatMetadata : public FRigBaseMetadata
 	{
 	public:
-		unsigned char                                              UnknownData_7QMD[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_OEFI[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FQuat                                               Value;                                                   // 0x0030(0x0020) IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 	};
 
@@ -1762,7 +1762,7 @@ namespace CG
 	struct FRigTransformMetadata : public FRigBaseMetadata
 	{
 	public:
-		unsigned char                                              UnknownData_6VXA[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_XICQ[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Value;                                                   // 0x0030(0x0060) IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 	};
 
@@ -1804,7 +1804,7 @@ namespace CG
 	{
 	public:
 		struct FRigElementKey                                      Value;                                                   // 0x0028(0x000C) NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_N7V1[0x4];                                   // 0x0034(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_GEGU[0x4];                                   // 0x0034(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1835,7 +1835,7 @@ namespace CG
 	{
 	public:
 		struct FPoseLink                                           InputPose;                                               // 0x0010(0x0010) NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_HJ9Z[0x10];                                  // 0x0020(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_G33Q[0x10];                                  // 0x0020(0x0010) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1845,7 +1845,7 @@ namespace CG
 	struct FControlRigLayerInstanceProxy : public FAnimInstanceProxy
 	{
 	public:
-		unsigned char                                              UnknownData_JZU6[0xA0];                                  // 0x0880(0x00A0) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_DNH7[0xA0];                                  // 0x0880(0x00A0) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1916,7 +1916,7 @@ namespace CG
 	struct FRigDispatch_AnimAttributeBase : public FRigDispatchFactory
 	{
 	public:
-		unsigned char                                              UnknownData_0VET[0x30];                                  // 0x0018(0x0030) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_PKPG[0x30];                                  // 0x0018(0x0030) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -1943,10 +1943,10 @@ namespace CG
 		struct FVector                                             Start;                                                   // 0x0008(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             End;                                                     // 0x0020(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ECollisionChannel                                          Channel;                                                 // 0x0038(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_LRRW[0x3];                                   // 0x0039(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ADBD[0x3];                                   // 0x0039(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Radius;                                                  // 0x003C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bHit;                                                    // 0x0040(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_R8TY[0x7];                                   // 0x0041(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_YKRB[0x7];                                   // 0x0041(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             HitLocation;                                             // 0x0048(0x0018) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             HitNormal;                                               // 0x0060(0x0018) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
@@ -1961,10 +1961,10 @@ namespace CG
 		struct FVector                                             Start;                                                   // 0x0008(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             End;                                                     // 0x0020(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ETraceTypeQuery                                            TraceChannel;                                            // 0x0038(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_K0P2[0x3];                                   // 0x0039(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_VYXM[0x3];                                   // 0x0039(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Radius;                                                  // 0x003C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bHit;                                                    // 0x0040(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_TQEC[0x7];                                   // 0x0041(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ZHP5[0x7];                                   // 0x0041(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             HitLocation;                                             // 0x0048(0x0018) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             HitNormal;                                               // 0x0060(0x0018) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
@@ -1981,7 +1981,7 @@ namespace CG
 		TArray<EObjectTypeQuery>                                   ObjectTypes;                                             // 0x0038(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		float                                                      Radius;                                                  // 0x0048(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bHit;                                                    // 0x004C(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_FMEP[0x3];                                   // 0x004D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_D6UW[0x3];                                   // 0x004D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             HitLocation;                                             // 0x0050(0x0018) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             HitNormal;                                               // 0x0068(0x0018) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
@@ -1999,7 +1999,7 @@ namespace CG
 		struct FTransform                                          Result;                                                  // 0x0110(0x0060) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FTransformFilter                                    Filter;                                                  // 0x0170(0x0009) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		bool                                                       bIsInitialized;                                          // 0x0179(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_KILA[0x6];                                   // 0x017A(0x0006) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_N69R[0x6];                                   // 0x017A(0x0006) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -2026,10 +2026,10 @@ namespace CG
 		float                                                      Thickness;                                               // 0x0178(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    Detail;                                                  // 0x017C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FName                                                Space;                                                   // 0x0180(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_0YIJ[0x8];                                   // 0x0188(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ZF3F[0x8];                                   // 0x0188(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          WorldOffset;                                             // 0x0190(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bEnabled;                                                // 0x01F0(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ZWDJ[0xF];                                   // 0x01F1(0x000F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_1NZV[0xF];                                   // 0x01F1(0x000F) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -2046,10 +2046,10 @@ namespace CG
 		float                                                      Thickness;                                               // 0x0178(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    Detail;                                                  // 0x017C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigElementKey                                      Space;                                                   // 0x0180(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_9CXL[0x4];                                   // 0x018C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_0S4Q[0x4];                                   // 0x018C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          WorldOffset;                                             // 0x0190(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bEnabled;                                                // 0x01F0(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_RYWU[0xF];                                   // 0x01F1(0x000F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_86ZX[0xF];                                   // 0x01F1(0x000F) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -2059,15 +2059,15 @@ namespace CG
 	struct FRigUnit_DebugHierarchy : public FRigVMFunction_DebugBase
 	{
 	public:
-		unsigned char                                              UnknownData_7BOD[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_6XXF[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FControlRigExecuteContext                           ExecuteContext;                                          // 0x0010(0x0120) Edit, BlueprintVisible, Transient, NativeAccessSpecifierPublic
 		float                                                      Scale;                                                   // 0x0130(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FLinearColor                                        Color;                                                   // 0x0134(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Thickness;                                               // 0x0144(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_TAR7[0x8];                                   // 0x0148(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_839D[0x8];                                   // 0x0148(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          WorldOffset;                                             // 0x0150(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bEnabled;                                                // 0x01B0(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_LB4T[0xF];                                   // 0x01B1(0x000F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_RQH9[0xF];                                   // 0x01B1(0x000F) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -2077,16 +2077,16 @@ namespace CG
 	struct FRigUnit_DebugPose : public FRigVMFunction_DebugBase
 	{
 	public:
-		unsigned char                                              UnknownData_5P0W[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_36KT[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FControlRigExecuteContext                           ExecuteContext;                                          // 0x0010(0x0120) Edit, BlueprintVisible, Transient, NativeAccessSpecifierPublic
 		struct FRigPose                                            Pose;                                                    // 0x0130(0x0070) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		float                                                      Scale;                                                   // 0x01A0(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FLinearColor                                        Color;                                                   // 0x01A4(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Thickness;                                               // 0x01B4(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_0U7R[0x8];                                   // 0x01B8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_8NK4[0x8];                                   // 0x01B8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          WorldOffset;                                             // 0x01C0(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bEnabled;                                                // 0x0220(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_IS2Z[0xF];                                   // 0x0221(0x000F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_74R6[0xF];                                   // 0x0221(0x000F) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -2104,12 +2104,12 @@ namespace CG
 	{
 	public:
 		int32_t                                                    NumberOfMeasurements;                                    // 0x0100(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_NQ0R[0x4];                                   // 0x0104(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_9QUN[0x4];                                   // 0x0104(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FString                                              Prefix;                                                  // 0x0108(0x0010) Edit, BlueprintVisible, ZeroConstructor, EditConst, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      AccumulatedTime;                                         // 0x0118(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    MeasurementsLeft;                                        // 0x011C(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bIsInitialized;                                          // 0x0120(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_6JT3[0xF];                                   // 0x0121(0x000F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_HG43[0xF];                                   // 0x0121(0x000F) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -2119,10 +2119,10 @@ namespace CG
 	struct FRigUnit_ConvertTransform : public FRigUnit
 	{
 	public:
-		unsigned char                                              UnknownData_LW76[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_BA3T[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Input;                                                   // 0x0010(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FEulerTransform                                     Result;                                                  // 0x0070(0x0048) BlueprintVisible, BlueprintReadOnly, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_A5Z7[0x8];                                   // 0x00B8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_0Y49[0x8];                                   // 0x00B8(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -2161,10 +2161,10 @@ namespace CG
 	struct FRigUnit_ConvertQuaternion : public FRigUnit
 	{
 	public:
-		unsigned char                                              UnknownData_7ZYN[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_EEQA[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FQuat                                               Input;                                                   // 0x0010(0x0020) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRotator                                            Result;                                                  // 0x0030(0x0018) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_72E5[0x8];                                   // 0x0048(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_AM8E[0x8];                                   // 0x0048(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -2207,10 +2207,10 @@ namespace CG
 	struct FRigUnit_ConvertQuaternionToVector : public FRigUnit
 	{
 	public:
-		unsigned char                                              UnknownData_I44C[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_YOIF[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FQuat                                               Input;                                                   // 0x0010(0x0020) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             Result;                                                  // 0x0030(0x0018) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ADJR[0x8];                                   // 0x0048(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_EQW3[0x8];                                   // 0x0048(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -2220,10 +2220,10 @@ namespace CG
 	struct FRigUnit_ToSwingAndTwist : public FRigUnit
 	{
 	public:
-		unsigned char                                              UnknownData_ENXJ[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_OFJ2[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FQuat                                               Input;                                                   // 0x0010(0x0020) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             TwistAxis;                                               // 0x0030(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_9WTB[0x8];                                   // 0x0048(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_EV7K[0x8];                                   // 0x0048(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FQuat                                               Swing;                                                   // 0x0050(0x0020) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FQuat                                               Twist;                                                   // 0x0070(0x0020) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
@@ -2238,7 +2238,7 @@ namespace CG
 		float                                                      Argument0;                                               // 0x0008(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Argument1;                                               // 0x000C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Result;                                                  // 0x0010(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_I6EZ[0x4];                                   // 0x0014(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_S5CS[0x4];                                   // 0x0014(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -2304,7 +2304,7 @@ namespace CG
 	struct FRigUnit_BinaryQuaternionOp : public FRigUnit
 	{
 	public:
-		unsigned char                                              UnknownData_AHQA[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_IJK9[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FQuat                                               Argument0;                                               // 0x0010(0x0020) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FQuat                                               Argument1;                                               // 0x0030(0x0020) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FQuat                                               Result;                                                  // 0x0050(0x0020) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -2324,7 +2324,7 @@ namespace CG
 	struct FRigUnit_UnaryQuaternionOp : public FRigUnit
 	{
 	public:
-		unsigned char                                              UnknownData_ONCF[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_F519[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FQuat                                               Argument;                                                // 0x0010(0x0020) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FQuat                                               Result;                                                  // 0x0030(0x0020) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
@@ -2343,11 +2343,11 @@ namespace CG
 	struct FRigUnit_QuaternionToAxisAndAngle : public FRigUnit
 	{
 	public:
-		unsigned char                                              UnknownData_EUIJ[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_43UY[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FQuat                                               Argument;                                                // 0x0010(0x0020) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             Axis;                                                    // 0x0030(0x0018) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Angle;                                                   // 0x0048(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_OUVZ[0x4];                                   // 0x004C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_2PP9[0x4];                                   // 0x004C(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -2359,7 +2359,7 @@ namespace CG
 	public:
 		struct FVector                                             Axis;                                                    // 0x0008(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Angle;                                                   // 0x0020(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_A0X6[0xC];                                   // 0x0024(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_X1BE[0xC];                                   // 0x0024(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FQuat                                               Result;                                                  // 0x0030(0x0020) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -2373,7 +2373,7 @@ namespace CG
 		struct FVector                                             Axis;                                                    // 0x0008(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FQuat                                               Argument;                                                // 0x0020(0x0020) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Angle;                                                   // 0x0040(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_UP8U[0xC];                                   // 0x0044(0x000C) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_Y1VH[0xC];                                   // 0x0044(0x000C) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -2383,7 +2383,7 @@ namespace CG
 	struct FRigUnit_BinaryTransformOp : public FRigUnit
 	{
 	public:
-		unsigned char                                              UnknownData_E417[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_C2YV[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Argument0;                                               // 0x0010(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FTransform                                          Argument1;                                               // 0x0070(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FTransform                                          Result;                                                  // 0x00D0(0x0060) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -2453,7 +2453,7 @@ namespace CG
 		struct FVector                                             Argument0;                                               // 0x0008(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             Argument1;                                               // 0x0020(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Result;                                                  // 0x0038(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_HKG9[0x4];                                   // 0x003C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_UAN5[0x4];                                   // 0x003C(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -2465,7 +2465,7 @@ namespace CG
 	public:
 		struct FRigVMFourPointBezier                               Bezier;                                                  // 0x0008(0x0060) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		float                                                      T;                                                       // 0x0068(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_9RSM[0x4];                                   // 0x006C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_BPZI[0x4];                                   // 0x006C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             Result;                                                  // 0x0070(0x0018) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             Tangent;                                                 // 0x0088(0x0018) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
@@ -2488,10 +2488,10 @@ namespace CG
 	{
 	public:
 		float                                                      Weight;                                                  // 0x0000(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_6NKJ[0xC];                                   // 0x0004(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_5ARS[0xC];                                   // 0x0004(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Transform;                                               // 0x0010(0x0060) Edit, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             AlignVector;                                             // 0x0070(0x0018) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_E5W2[0x8];                                   // 0x0088(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_RIBW[0x8];                                   // 0x0088(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -2514,7 +2514,7 @@ namespace CG
 		class FName                                                Joint;                                                   // 0x0130(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EAimMode                                                   AimMode;                                                 // 0x0138(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EAimMode                                                   UpMode;                                                  // 0x0139(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_BY9D[0x6];                                   // 0x013A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_KW50[0x6];                                   // 0x013A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             AimVector;                                               // 0x0140(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             UpVector;                                                // 0x0158(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<struct FAimTarget>                                  AimTargets;                                              // 0x0170(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
@@ -2530,15 +2530,15 @@ namespace CG
 	{
 	public:
 		class FName                                                Joint;                                                   // 0x0130(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_NX2A[0x8];                                   // 0x0138(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_X4B5[0x8];                                   // 0x0138(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Transform;                                               // 0x0140(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FTransformFilter                                    Filter;                                                  // 0x01A0(0x0009) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		EApplyTransformMode                                        ApplyTransformMode;                                      // 0x01A9(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ETransformSpaceMode                                        ApplyTransformSpace;                                     // 0x01AA(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_U77S[0x5];                                   // 0x01AB(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_RSYJ[0x5];                                   // 0x01AB(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          BaseTransform;                                           // 0x01B0(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FName                                                BaseJoint;                                               // 0x0210(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_UYYX[0x8];                                   // 0x0218(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_EGY9[0x8];                                   // 0x0218(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -2550,7 +2550,7 @@ namespace CG
 	public:
 		struct FTransform                                          Transform;                                               // 0x0000(0x0060) Edit, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x0060(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_W66P[0xC];                                   // 0x0064(0x000C) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_WBW3[0xC];                                   // 0x0064(0x000C) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -2560,7 +2560,7 @@ namespace CG
 	struct FRigUnit_BlendTransform : public FRigUnit
 	{
 	public:
-		unsigned char                                              UnknownData_PHFF[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_T2HT[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Source;                                                  // 0x0010(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<struct FBlendTarget>                                Targets;                                                 // 0x0070(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		struct FTransform                                          Result;                                                  // 0x0080(0x0060) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -2576,10 +2576,10 @@ namespace CG
 		class FName                                                Joint;                                                   // 0x0130(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ETransformGetterType                                       Type;                                                    // 0x0138(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ETransformSpaceMode                                        TransformSpace;                                          // 0x0139(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_97EG[0x6];                                   // 0x013A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_R2AH[0x6];                                   // 0x013A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          BaseTransform;                                           // 0x0140(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FName                                                BaseJoint;                                               // 0x01A0(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_FN8E[0x8];                                   // 0x01A8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_70C7[0x8];                                   // 0x01A8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Output;                                                  // 0x01B0(0x0060) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -2594,15 +2594,15 @@ namespace CG
 		class FName                                                EndJoint;                                                // 0x0138(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             PoleTarget;                                              // 0x0140(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Spin;                                                    // 0x0158(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_GHLP[0x4];                                   // 0x015C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_4JYU[0x4];                                   // 0x015C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          EndEffector;                                             // 0x0160(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      IKBlend;                                                 // 0x01C0(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_7PX5[0xC];                                   // 0x01C4(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_6XMJ[0xC];                                   // 0x01C4(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          StartJointFKTransform;                                   // 0x01D0(0x0060) Edit, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		struct FTransform                                          MidJointFKTransform;                                     // 0x0230(0x0060) Edit, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		struct FTransform                                          EndJointFKTransform;                                     // 0x0290(0x0060) Edit, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		float                                                      PreviousFKIKBlend;                                       // 0x02F0(0x0004) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_OQ0L[0xC];                                   // 0x02F4(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_K6YY[0xC];                                   // 0x02F4(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          StartJointIKTransform;                                   // 0x0300(0x0060) Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		struct FTransform                                          MidJointIKTransform;                                     // 0x0360(0x0060) Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		struct FTransform                                          EndJointIKTransform;                                     // 0x03C0(0x0060) Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
@@ -2612,7 +2612,7 @@ namespace CG
 		float                                                      UpperLimbLength;                                         // 0x042C(0x0004) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		float                                                      LowerLimbLength;                                         // 0x0430(0x0004) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		bool                                                       bIsInitialized;                                          // 0x0434(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_NVKT[0xB];                                   // 0x0435(0x000B) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_OFTM[0xB];                                   // 0x0435(0x000B) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -2636,7 +2636,7 @@ namespace CG
 	public:
 		class FName                                                InstructionName;                                         // 0x0130(0x0008) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FLinearColor                                        Color;                                                   // 0x0138(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_RYWL[0x8];                                   // 0x0148(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_VSCN[0x8];                                   // 0x0148(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -2648,7 +2648,7 @@ namespace CG
 	public:
 		class FName                                                InstructionName;                                         // 0x0130(0x0008) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Thickness;                                               // 0x0138(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_GPXZ[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_7SIX[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -2659,7 +2659,7 @@ namespace CG
 	{
 	public:
 		class FName                                                InstructionName;                                         // 0x0130(0x0008) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_W0U1[0x8];                                   // 0x0138(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ZS86[0x8];                                   // 0x0138(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Transform;                                               // 0x0140(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -2670,7 +2670,7 @@ namespace CG
 	struct FRigUnit_BeginExecution : public FRigUnit
 	{
 	public:
-		unsigned char                                              UnknownData_DVDS[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_TCKM[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FControlRigExecuteContext                           ExecuteContext;                                          // 0x0010(0x0120) Edit, BlueprintVisible, BlueprintReadOnly, Transient, NativeAccessSpecifierPublic
 	};
 
@@ -2698,7 +2698,7 @@ namespace CG
 		struct FRigElementKey                                      FirstItem;                                               // 0x0008(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigElementKey                                      LastItem;                                                // 0x0014(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       Reverse;                                                 // 0x0020(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_IO31[0x7];                                   // 0x0021(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_1SUR[0x7];                                   // 0x0021(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigElementKeyCollection                            Collection;                                              // 0x0028(0x0010) BlueprintVisible, BlueprintReadOnly, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -2712,7 +2712,7 @@ namespace CG
 		struct FRigElementKey                                      FirstItem;                                               // 0x0008(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigElementKey                                      LastItem;                                                // 0x0014(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       Reverse;                                                 // 0x0020(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_GTKB[0x7];                                   // 0x0021(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_XA9U[0x7];                                   // 0x0021(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FRigElementKey>                              Items;                                                   // 0x0028(0x0010) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NativeAccessSpecifierPublic
 	};
 
@@ -2725,7 +2725,7 @@ namespace CG
 	public:
 		class FName                                                PartialName;                                             // 0x0008(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigElementType                                            TypeToSearch;                                            // 0x0010(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_IH2D[0x7];                                   // 0x0011(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_EV4K[0x7];                                   // 0x0011(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigElementKeyCollection                            Collection;                                              // 0x0018(0x0010) BlueprintVisible, BlueprintReadOnly, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -2738,7 +2738,7 @@ namespace CG
 	public:
 		class FName                                                PartialName;                                             // 0x0008(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigElementType                                            TypeToSearch;                                            // 0x0010(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_GYJ0[0x7];                                   // 0x0011(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_SXTW[0x7];                                   // 0x0011(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FRigElementKey>                              Items;                                                   // 0x0018(0x0010) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NativeAccessSpecifierPublic
 	};
 
@@ -2753,7 +2753,7 @@ namespace CG
 		bool                                                       bIncludeParent;                                          // 0x0014(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bRecursive;                                              // 0x0015(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigElementType                                            TypeToSearch;                                            // 0x0016(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_MA1B[0x1];                                   // 0x0017(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_AG8R[0x1];                                   // 0x0017(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigElementKeyCollection                            Collection;                                              // 0x0018(0x0010) BlueprintVisible, BlueprintReadOnly, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -2768,7 +2768,7 @@ namespace CG
 		bool                                                       bIncludeParent;                                          // 0x0014(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bRecursive;                                              // 0x0015(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigElementType                                            TypeToSearch;                                            // 0x0016(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ICET[0x1];                                   // 0x0017(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ZMBS[0x1];                                   // 0x0017(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FRigElementKey>                              Items;                                                   // 0x0018(0x0010) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NativeAccessSpecifierPublic
 	};
 
@@ -2780,7 +2780,7 @@ namespace CG
 	{
 	public:
 		ERigElementType                                            TypeToSearch;                                            // 0x0008(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_YGGV[0x7];                                   // 0x0009(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_S9G9[0x7];                                   // 0x0009(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FRigElementKey>                              Items;                                                   // 0x0010(0x0010) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NativeAccessSpecifierPublic
 	};
 
@@ -2796,7 +2796,7 @@ namespace CG
 		class FName                                                New;                                                     // 0x0020(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       RemoveInvalidItems;                                      // 0x0028(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bAllowDuplicates;                                        // 0x0029(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_FSIF[0x6];                                   // 0x002A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_JJTI[0x6];                                   // 0x002A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigElementKeyCollection                            Collection;                                              // 0x0030(0x0010) BlueprintVisible, BlueprintReadOnly, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -2812,7 +2812,7 @@ namespace CG
 		class FName                                                New;                                                     // 0x0020(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       RemoveInvalidItems;                                      // 0x0028(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bAllowDuplicates;                                        // 0x0029(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_1APH[0x6];                                   // 0x002A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_1HUS[0x6];                                   // 0x002A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FRigElementKey>                              Result;                                                  // 0x0030(0x0010) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NativeAccessSpecifierPublic
 	};
 
@@ -2825,7 +2825,7 @@ namespace CG
 	public:
 		TArray<struct FRigElementKey>                              Items;                                                   // 0x0008(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		bool                                                       bAllowDuplicates;                                        // 0x0018(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_PCPW[0x7];                                   // 0x0019(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_VFG3[0x7];                                   // 0x0019(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigElementKeyCollection                            Collection;                                              // 0x0020(0x0010) BlueprintVisible, BlueprintReadOnly, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -2872,7 +2872,7 @@ namespace CG
 		struct FRigElementKeyCollection                            A;                                                       // 0x0008(0x0010) Edit, BlueprintVisible, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigElementKeyCollection                            B;                                                       // 0x0018(0x0010) Edit, BlueprintVisible, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bAllowDuplicates;                                        // 0x0028(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_PZ3R[0x7];                                   // 0x0029(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_SZN0[0x7];                                   // 0x0029(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigElementKeyCollection                            Collection;                                              // 0x0030(0x0010) BlueprintVisible, BlueprintReadOnly, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -2920,7 +2920,7 @@ namespace CG
 	public:
 		struct FRigElementKeyCollection                            Collection;                                              // 0x0008(0x0010) Edit, BlueprintVisible, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    Count;                                                   // 0x0018(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_HFUX[0x4];                                   // 0x001C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_DICD[0x4];                                   // 0x001C(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -2960,7 +2960,7 @@ namespace CG
 	public:
 		struct FRigElementKeyCollection                            Collection;                                              // 0x0008(0x0010) Edit, BlueprintVisible, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigElementKey                                      Item;                                                    // 0x0018(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_E2Y7[0x4];                                   // 0x0024(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_F4SZ[0x4];                                   // 0x0024(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigElementKeyCollection                            Result;                                                  // 0x0028(0x0010) BlueprintVisible, BlueprintReadOnly, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -2987,7 +2987,7 @@ namespace CG
 	public:
 		struct FRigElementKey                                      Child;                                                   // 0x0130(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigElementKey                                      Parent;                                                  // 0x013C(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_FABX[0x8];                                   // 0x0148(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_5P2W[0x8];                                   // 0x0148(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -2999,7 +2999,7 @@ namespace CG
 	public:
 		struct FRigElementKey                                      Child;                                                   // 0x0130(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigElementKey                                      Parent;                                                  // 0x013C(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8VVB[0x8];                                   // 0x0148(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_B0L1[0x8];                                   // 0x0148(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -3010,11 +3010,11 @@ namespace CG
 	{
 	public:
 		ERigSwitchParentMode                                       Mode;                                                    // 0x0130(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_4YS8[0x3];                                   // 0x0131(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_D1JE[0x3];                                   // 0x0131(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigElementKey                                      Child;                                                   // 0x0134(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigElementKey                                      Parent;                                                  // 0x0140(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bMaintainGlobal;                                         // 0x014C(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_09DE[0x3];                                   // 0x014D(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_OEUH[0x3];                                   // 0x014D(0x0003) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -3025,7 +3025,7 @@ namespace CG
 	{
 	public:
 		struct FRigElementKey                                      Child;                                                   // 0x0008(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_S5ER[0x4];                                   // 0x0014(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_QIZO[0x4];                                   // 0x0014(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FRigElementWeight>                           Weights;                                                 // 0x0018(0x0010) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NativeAccessSpecifierPublic
 		struct FRigElementKeyCollection                            Parents;                                                 // 0x0028(0x0010) BlueprintVisible, BlueprintReadOnly, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
@@ -3038,7 +3038,7 @@ namespace CG
 	{
 	public:
 		struct FRigElementKey                                      Child;                                                   // 0x0008(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_L6WT[0x4];                                   // 0x0014(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_696E[0x4];                                   // 0x0014(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FRigElementWeight>                           Weights;                                                 // 0x0018(0x0010) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NativeAccessSpecifierPublic
 		TArray<struct FRigElementKey>                              Parents;                                                 // 0x0028(0x0010) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NativeAccessSpecifierPublic
 	};
@@ -3051,7 +3051,7 @@ namespace CG
 	{
 	public:
 		struct FRigElementKey                                      Child;                                                   // 0x0130(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_2BAE[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_29R5[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FRigElementWeight>                           Weights;                                                 // 0x0140(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 	};
 
@@ -3071,7 +3071,7 @@ namespace CG
 	public:
 		class FName                                                Namespace;                                               // 0x0130(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bIncludeCurves;                                          // 0x0138(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_W7AY[0x7];                                   // 0x0139(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_2HJ1[0x7];                                   // 0x0139(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FRigElementKey>                              Items;                                                   // 0x0140(0x0010) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NativeAccessSpecifierPublic
 	};
 
@@ -3084,7 +3084,7 @@ namespace CG
 	public:
 		struct FRigElementKey                                      Item;                                                    // 0x0130(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bSuccess;                                                // 0x013C(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_48HD[0x3];                                   // 0x013D(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_GFXM[0x3];                                   // 0x013D(0x0003) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -3108,7 +3108,7 @@ namespace CG
 	public:
 		struct FTransform                                          Transform;                                               // 0x0150(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x01B0(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ZGA1[0xF];                                   // 0x01B1(0x000F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_G6MN[0xF];                                   // 0x01B1(0x000F) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -3120,7 +3120,7 @@ namespace CG
 	public:
 		struct FTransform                                          Transform;                                               // 0x0150(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x01B0(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_F77D[0xF];                                   // 0x01B1(0x000F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_AO8V[0xF];                                   // 0x01B1(0x000F) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -3130,7 +3130,7 @@ namespace CG
 	struct FRigUnit_HierarchyAddControl_Settings
 	{
 	public:
-		unsigned char                                              UnknownData_K36H[0x8];                                   // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_SF3N[0x8];                                   // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FName                                                DisplayName;                                             // 0x0008(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -3142,10 +3142,10 @@ namespace CG
 	{
 	public:
 		bool                                                       bVisible;                                                // 0x0000(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_2ERR[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_WS2X[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FName                                                Name;                                                    // 0x0004(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FLinearColor                                        Color;                                                   // 0x000C(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_5P1I[0x4];                                   // 0x001C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_MM14[0x4];                                   // 0x001C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Transform;                                               // 0x0020(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -3157,10 +3157,10 @@ namespace CG
 	{
 	public:
 		bool                                                       bIsProxy;                                                // 0x0000(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ZJZO[0x7];                                   // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_1JEK[0x7];                                   // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FRigElementKey>                              DrivenControls;                                          // 0x0008(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		ERigControlVisibility                                      ShapeVisibility;                                         // 0x0018(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_WKTA[0x7];                                   // 0x0019(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_9IWT[0x7];                                   // 0x0019(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -3171,11 +3171,11 @@ namespace CG
 	{
 	public:
 		struct FRigControlLimitEnabled                             Limit;                                                   // 0x0000(0x0002) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_V4H6[0x2];                                   // 0x0002(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_SJI3[0x2];                                   // 0x0002(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      MinValue;                                                // 0x0004(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      MaxValue;                                                // 0x0008(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bDrawLimits;                                             // 0x000C(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_BBQR[0x3];                                   // 0x000D(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_VVG5[0x3];                                   // 0x000D(0x0003) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -3186,9 +3186,9 @@ namespace CG
 	{
 	public:
 		ERigControlAxis                                            PrimaryAxis;                                             // 0x0010(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_DDU0[0x3];                                   // 0x0011(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_NF2D[0x3];                                   // 0x0011(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_HierarchyAddControlFloat_LimitSettings     Limits;                                                  // 0x0014(0x0010) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_KZU4[0xC];                                   // 0x0024(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_NUCM[0xC];                                   // 0x0024(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_HierarchyAddControl_ShapeSettings          Shape;                                                   // 0x0030(0x0080) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FRigUnit_HierarchyAddControl_ProxySettings          Proxy;                                                   // 0x00B0(0x0020) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 	};
@@ -3211,7 +3211,7 @@ namespace CG
 	{
 	public:
 		float                                                      InitialValue;                                            // 0x01B0(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_B1TM[0xC];                                   // 0x01B4(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_4CUZ[0xC];                                   // 0x01B4(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_HierarchyAddControlFloat_Settings          Settings;                                                // 0x01C0(0x00D0) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 	};
 
@@ -3223,11 +3223,11 @@ namespace CG
 	{
 	public:
 		struct FRigControlLimitEnabled                             Limit;                                                   // 0x0000(0x0002) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_E7G3[0x2];                                   // 0x0002(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_NDVU[0x2];                                   // 0x0002(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    MinValue;                                                // 0x0004(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    MaxValue;                                                // 0x0008(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bDrawLimits;                                             // 0x000C(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_TLUC[0x3];                                   // 0x000D(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_92EZ[0x3];                                   // 0x000D(0x0003) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -3238,9 +3238,9 @@ namespace CG
 	{
 	public:
 		ERigControlAxis                                            PrimaryAxis;                                             // 0x0010(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_GJWJ[0x3];                                   // 0x0011(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_2HFS[0x3];                                   // 0x0011(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_HierarchyAddControlInteger_LimitSettings   Limits;                                                  // 0x0014(0x0010) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8ZAF[0xC];                                   // 0x0024(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_L4C6[0xC];                                   // 0x0024(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_HierarchyAddControl_ShapeSettings          Shape;                                                   // 0x0030(0x0080) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FRigUnit_HierarchyAddControl_ProxySettings          Proxy;                                                   // 0x00B0(0x0020) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 	};
@@ -3253,7 +3253,7 @@ namespace CG
 	{
 	public:
 		int32_t                                                    InitialValue;                                            // 0x01B0(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_WS51[0xC];                                   // 0x01B4(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_578Z[0xC];                                   // 0x01B4(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_HierarchyAddControlInteger_Settings        Settings;                                                // 0x01C0(0x00D0) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 	};
 
@@ -3266,11 +3266,11 @@ namespace CG
 	public:
 		struct FRigControlLimitEnabled                             LimitX;                                                  // 0x0000(0x0002) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FRigControlLimitEnabled                             LimitY;                                                  // 0x0002(0x0002) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_QNGL[0x4];                                   // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_R3BM[0x4];                                   // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector2D                                           MinValue;                                                // 0x0008(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector2D                                           MaxValue;                                                // 0x0018(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bDrawLimits;                                             // 0x0028(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_C26O[0x7];                                   // 0x0029(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_AEWO[0x7];                                   // 0x0029(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -3281,9 +3281,9 @@ namespace CG
 	{
 	public:
 		ERigControlAxis                                            PrimaryAxis;                                             // 0x0010(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_I6G2[0x7];                                   // 0x0011(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_K2Z6[0x7];                                   // 0x0011(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_HierarchyAddControlVector2D_LimitSettings  Limits;                                                  // 0x0018(0x0030) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_JHQT[0x8];                                   // 0x0048(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_QP2B[0x8];                                   // 0x0048(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_HierarchyAddControl_ShapeSettings          Shape;                                                   // 0x0050(0x0080) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FRigUnit_HierarchyAddControl_ProxySettings          Proxy;                                                   // 0x00D0(0x0020) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		TArray<ERigControlTransformChannel>                        FilteredChannels;                                        // 0x00F0(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
@@ -3310,11 +3310,11 @@ namespace CG
 		struct FRigControlLimitEnabled                             LimitX;                                                  // 0x0000(0x0002) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FRigControlLimitEnabled                             LimitY;                                                  // 0x0002(0x0002) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FRigControlLimitEnabled                             LimitZ;                                                  // 0x0004(0x0002) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_Q1I4[0x2];                                   // 0x0006(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_Q4JH[0x2];                                   // 0x0006(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             MinValue;                                                // 0x0008(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             MaxValue;                                                // 0x0020(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bDrawLimits;                                             // 0x0038(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_GHSF[0x7];                                   // 0x0039(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_PMHW[0x7];                                   // 0x0039(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -3325,9 +3325,9 @@ namespace CG
 	{
 	public:
 		bool                                                       bIsPosition;                                             // 0x0010(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_C261[0x7];                                   // 0x0011(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_1K5G[0x7];                                   // 0x0011(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_HierarchyAddControlVector_LimitSettings    Limits;                                                  // 0x0018(0x0040) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_PM54[0x8];                                   // 0x0058(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_J2HT[0x8];                                   // 0x0058(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_HierarchyAddControl_ShapeSettings          Shape;                                                   // 0x0060(0x0080) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FRigUnit_HierarchyAddControl_ProxySettings          Proxy;                                                   // 0x00E0(0x0020) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		TArray<ERigControlTransformChannel>                        FilteredChannels;                                        // 0x0100(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
@@ -3341,7 +3341,7 @@ namespace CG
 	{
 	public:
 		struct FVector                                             InitialValue;                                            // 0x01B0(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_QEA9[0x8];                                   // 0x01C8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_QO44[0x8];                                   // 0x01C8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_HierarchyAddControlVector_Settings         Settings;                                                // 0x01D0(0x0110) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 	};
 
@@ -3355,11 +3355,11 @@ namespace CG
 		struct FRigControlLimitEnabled                             LimitPitch;                                              // 0x0000(0x0002) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FRigControlLimitEnabled                             LimitYaw;                                                // 0x0002(0x0002) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FRigControlLimitEnabled                             LimitRoll;                                               // 0x0004(0x0002) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_4B5F[0x2];                                   // 0x0006(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_BO09[0x2];                                   // 0x0006(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRotator                                            MinValue;                                                // 0x0008(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 		struct FRotator                                            MaxValue;                                                // 0x0020(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 		bool                                                       bDrawLimits;                                             // 0x0038(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8Q72[0x7];                                   // 0x0039(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_FR51[0x7];                                   // 0x0039(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -3383,7 +3383,7 @@ namespace CG
 	{
 	public:
 		struct FRotator                                            InitialValue;                                            // 0x01B0(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_JC99[0x8];                                   // 0x01C8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_BLHW[0x8];                                   // 0x01C8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_HierarchyAddControlRotator_Settings        Settings;                                                // 0x01D0(0x0100) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 	};
 
@@ -3420,7 +3420,7 @@ namespace CG
 		bool                                                       InitialValue;                                            // 0x0150(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       MinimumValue;                                            // 0x0151(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       MaximumValue;                                            // 0x0152(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_YF57[0xD];                                   // 0x0153(0x000D) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_0NLJ[0xD];                                   // 0x0153(0x000D) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -3433,7 +3433,7 @@ namespace CG
 		float                                                      InitialValue;                                            // 0x0150(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      MinimumValue;                                            // 0x0154(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      MaximumValue;                                            // 0x0158(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_K9VA[0x4];                                   // 0x015C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_LPIF[0x4];                                   // 0x015C(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -3446,7 +3446,7 @@ namespace CG
 		int32_t                                                    InitialValue;                                            // 0x0150(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    MinimumValue;                                            // 0x0154(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    MaximumValue;                                            // 0x0158(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_LYLB[0x4];                                   // 0x015C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_JEQX[0x4];                                   // 0x015C(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -3471,7 +3471,7 @@ namespace CG
 		struct FVector                                             InitialValue;                                            // 0x0150(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             MinimumValue;                                            // 0x0168(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             MaximumValue;                                            // 0x0180(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ZZ65[0x8];                                   // 0x0198(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_NQGM[0x8];                                   // 0x0198(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -3484,7 +3484,7 @@ namespace CG
 		struct FRotator                                            InitialValue;                                            // 0x0150(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 		struct FRotator                                            MinimumValue;                                            // 0x0168(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 		struct FRotator                                            MaximumValue;                                            // 0x0180(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_O0L0[0x8];                                   // 0x0198(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_09ZI[0x8];                                   // 0x0198(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -3495,7 +3495,7 @@ namespace CG
 	{
 	public:
 		struct FRigElementKey                                      Item;                                                    // 0x0008(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_VRDA[0xC];                                   // 0x0014(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_OSHW[0xC];                                   // 0x0014(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_HierarchyAddControl_ShapeSettings          Settings;                                                // 0x0020(0x0080) BlueprintVisible, BlueprintReadOnly, NoDestructor, NativeAccessSpecifierPublic
 	};
 
@@ -3507,7 +3507,7 @@ namespace CG
 	{
 	public:
 		struct FRigElementKey                                      Item;                                                    // 0x0130(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_6LME[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_VG6D[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_HierarchyAddControl_ShapeSettings          Settings;                                                // 0x0140(0x0080) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 	};
 
@@ -3548,7 +3548,7 @@ namespace CG
 		struct FRigElementKey                                      Child;                                                   // 0x0008(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bIncludeChild;                                           // 0x0014(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bReverse;                                                // 0x0015(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_SXSY[0x2];                                   // 0x0016(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_NVVP[0x2];                                   // 0x0016(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigElementKeyCollection                            Parents;                                                 // 0x0018(0x0010) BlueprintVisible, BlueprintReadOnly, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedChild;                                             // 0x0028(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigElementKeyCollection                            CachedParents;                                           // 0x0048(0x0010) HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -3564,7 +3564,7 @@ namespace CG
 		struct FRigElementKey                                      Child;                                                   // 0x0008(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bIncludeChild;                                           // 0x0014(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bReverse;                                                // 0x0015(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_WWX1[0x2];                                   // 0x0016(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_4ZCA[0x2];                                   // 0x0016(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FRigElementKey>                              Parents;                                                 // 0x0018(0x0010) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedChild;                                             // 0x0028(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigElementKeyCollection                            CachedParents;                                           // 0x0048(0x0010) HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -3580,7 +3580,7 @@ namespace CG
 		struct FRigElementKey                                      Parent;                                                  // 0x0008(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bIncludeParent;                                          // 0x0014(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bRecursive;                                              // 0x0015(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_HEPQ[0x2];                                   // 0x0016(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_BRDL[0x2];                                   // 0x0016(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigElementKeyCollection                            Children;                                                // 0x0018(0x0010) BlueprintVisible, BlueprintReadOnly, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedParent;                                            // 0x0028(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigElementKeyCollection                            CachedChildren;                                          // 0x0048(0x0010) HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -3595,7 +3595,7 @@ namespace CG
 	public:
 		struct FRigElementKey                                      Item;                                                    // 0x0008(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bIncludeItem;                                            // 0x0014(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_N0RL[0x3];                                   // 0x0015(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_BMIV[0x3];                                   // 0x0015(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigElementKeyCollection                            Siblings;                                                // 0x0018(0x0010) BlueprintVisible, BlueprintReadOnly, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedItem;                                              // 0x0028(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigElementKeyCollection                            CachedSiblings;                                          // 0x0048(0x0010) HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -3610,7 +3610,7 @@ namespace CG
 	public:
 		struct FRigElementKey                                      Item;                                                    // 0x0008(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bIncludeItem;                                            // 0x0014(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_9H91[0x3];                                   // 0x0015(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_FI6I[0x3];                                   // 0x0015(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FRigElementKey>                              Siblings;                                                // 0x0018(0x0010) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedItem;                                              // 0x0028(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigElementKeyCollection                            CachedSiblings;                                          // 0x0048(0x0010) HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -3625,7 +3625,7 @@ namespace CG
 	public:
 		bool                                                       Initial;                                                 // 0x0008(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigElementType                                            ElementType;                                             // 0x0009(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_I1OW[0x6];                                   // 0x000A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_JZEW[0x6];                                   // 0x000A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigElementKeyCollection                            ItemsToGet;                                              // 0x0010(0x0010) Edit, BlueprintVisible, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigPose                                            Pose;                                                    // 0x0020(0x0070) BlueprintVisible, BlueprintReadOnly, NativeAccessSpecifierPublic
 	};
@@ -3639,7 +3639,7 @@ namespace CG
 	public:
 		bool                                                       Initial;                                                 // 0x0008(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigElementType                                            ElementType;                                             // 0x0009(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_U43E[0x6];                                   // 0x000A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_HYBP[0x6];                                   // 0x000A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FRigElementKey>                              ItemsToGet;                                              // 0x0010(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		struct FRigPose                                            Pose;                                                    // 0x0020(0x0070) BlueprintVisible, BlueprintReadOnly, NativeAccessSpecifierPublic
 	};
@@ -3654,10 +3654,10 @@ namespace CG
 		struct FRigPose                                            Pose;                                                    // 0x0130(0x0070) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		ERigElementType                                            ElementType;                                             // 0x01A0(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x01A1(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_BUNV[0x6];                                   // 0x01A2(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ZH4P[0x6];                                   // 0x01A2(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigElementKeyCollection                            ItemsToSet;                                              // 0x01A8(0x0010) Edit, BlueprintVisible, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x01B8(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_51VZ[0x4];                                   // 0x01BC(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_0ZK6[0x4];                                   // 0x01BC(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -3670,10 +3670,10 @@ namespace CG
 		struct FRigPose                                            Pose;                                                    // 0x0130(0x0070) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		ERigElementType                                            ElementType;                                             // 0x01A0(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x01A1(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_M4UF[0x6];                                   // 0x01A2(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_CNFK[0x6];                                   // 0x01A2(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FRigElementKey>                              ItemsToSet;                                              // 0x01A8(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x01B8(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_Y8YL[0x4];                                   // 0x01BC(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_59KR[0x4];                                   // 0x01BC(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -3685,7 +3685,7 @@ namespace CG
 	public:
 		struct FRigPose                                            Pose;                                                    // 0x0008(0x0070) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		bool                                                       IsEmpty;                                                 // 0x0078(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_TDCX[0x7];                                   // 0x0079(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_QC47[0x7];                                   // 0x0079(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -3697,7 +3697,7 @@ namespace CG
 	public:
 		struct FRigPose                                            Pose;                                                    // 0x0008(0x0070) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		ERigElementType                                            ElementType;                                             // 0x0078(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_PR6B[0x7];                                   // 0x0079(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_49PL[0x7];                                   // 0x0079(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigElementKeyCollection                            Items;                                                   // 0x0080(0x0010) BlueprintVisible, BlueprintReadOnly, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -3710,7 +3710,7 @@ namespace CG
 	public:
 		struct FRigPose                                            Pose;                                                    // 0x0008(0x0070) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		ERigElementType                                            ElementType;                                             // 0x0078(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_7DH4[0x7];                                   // 0x0079(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ZF8J[0x7];                                   // 0x0079(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FRigElementKey>                              Items;                                                   // 0x0080(0x0010) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NativeAccessSpecifierPublic
 	};
 
@@ -3729,10 +3729,10 @@ namespace CG
 		float                                                      CurveThreshold;                                          // 0x00F4(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigElementType                                            ElementType;                                             // 0x00F8(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x00F9(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_N5Q8[0x6];                                   // 0x00FA(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_210K[0x6];                                   // 0x00FA(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigElementKeyCollection                            ItemsToCompare;                                          // 0x0100(0x0010) Edit, BlueprintVisible, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       PosesAreEqual;                                           // 0x0110(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_DTTZ[0x7];                                   // 0x0111(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_MFHC[0x7];                                   // 0x0111(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigElementKeyCollection                            ItemsWithDelta;                                          // 0x0118(0x0010) BlueprintVisible, BlueprintReadOnly, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -3747,12 +3747,12 @@ namespace CG
 		struct FRigElementKey                                      Item;                                                    // 0x0078(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x0084(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       Valid;                                                   // 0x0085(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_IBG9[0xA];                                   // 0x0086(0x000A) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_LF1G[0xA];                                   // 0x0086(0x000A) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Transform;                                               // 0x0090(0x0060) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      CurveValue;                                              // 0x00F0(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    CachedPoseElementIndex;                                  // 0x00F4(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    CachedPoseHash;                                          // 0x00F8(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_4682[0x4];                                   // 0x00FC(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_N426[0x4];                                   // 0x00FC(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -3765,7 +3765,7 @@ namespace CG
 		struct FRigPose                                            Pose;                                                    // 0x0008(0x0070) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x0078(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       Valid;                                                   // 0x0079(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_LB19[0x6];                                   // 0x007A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_M35Y[0x6];                                   // 0x007A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FTransform>                                  Transforms;                                              // 0x0080(0x0010) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NativeAccessSpecifierPublic
 	};
 
@@ -3779,7 +3779,7 @@ namespace CG
 		struct FRigPose                                            Pose;                                                    // 0x0008(0x0070) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		class FName                                                Curve;                                                   // 0x0078(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       Valid;                                                   // 0x0080(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_NCJ3[0x3];                                   // 0x0081(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_UO7B[0x3];                                   // 0x0081(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      CurveValue;                                              // 0x0084(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    CachedPoseElementIndex;                                  // 0x0088(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    CachedPoseHash;                                          // 0x008C(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -3795,7 +3795,7 @@ namespace CG
 		class FName                                                BlockToRun;                                              // 0x0130(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigPose                                            Pose;                                                    // 0x0138(0x0070) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		struct FRigElementKey                                      Item;                                                    // 0x01A8(0x000C) BlueprintVisible, BlueprintReadOnly, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_XAHW[0xC];                                   // 0x01B4(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_AXJ8[0xC];                                   // 0x01B4(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          GlobalTransform;                                         // 0x01C0(0x0060) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FTransform                                          LocalTransform;                                          // 0x0220(0x0060) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      CurveValue;                                              // 0x0280(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -3812,7 +3812,7 @@ namespace CG
 	struct FRigUnit_InteractionExecution : public FRigUnit
 	{
 	public:
-		unsigned char                                              UnknownData_378B[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_STAQ[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FControlRigExecuteContext                           ExecuteContext;                                          // 0x0010(0x0120) Edit, BlueprintVisible, BlueprintReadOnly, Transient, NativeAccessSpecifierPublic
 	};
 
@@ -3823,7 +3823,7 @@ namespace CG
 	struct FRigUnit_InverseExecution : public FRigUnit
 	{
 	public:
-		unsigned char                                              UnknownData_ZFOX[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_AOCV[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FControlRigExecuteContext                           ExecuteContext;                                          // 0x0010(0x0120) Edit, BlueprintVisible, BlueprintReadOnly, Transient, NativeAccessSpecifierPublic
 	};
 
@@ -3838,7 +3838,7 @@ namespace CG
 		bool                                                       bIsTranslating;                                          // 0x0009(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bIsRotating;                                             // 0x000A(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bIsScaling;                                              // 0x000B(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_U1DT[0x4];                                   // 0x000C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_GE1U[0x4];                                   // 0x000C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FRigElementKey>                              Items;                                                   // 0x0010(0x0010) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, NativeAccessSpecifierPublic
 	};
 
@@ -3865,7 +3865,7 @@ namespace CG
 	public:
 		struct FRigElementKey                                      Item;                                                    // 0x0008(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       Exists;                                                  // 0x0014(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8CG9[0x3];                                   // 0x0015(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_GUKK[0x3];                                   // 0x0015(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedIndex;                                             // 0x0018(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -3892,7 +3892,7 @@ namespace CG
 		struct FRigElementKey                                      A;                                                       // 0x0008(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigElementKey                                      B;                                                       // 0x0014(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       Result;                                                  // 0x0020(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_BLWG[0x7];                                   // 0x0021(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_KS6O[0x7];                                   // 0x0021(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -3905,7 +3905,7 @@ namespace CG
 		struct FRigElementKey                                      A;                                                       // 0x0008(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigElementKey                                      B;                                                       // 0x0014(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       Result;                                                  // 0x0020(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_W37G[0x7];                                   // 0x0021(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_AREV[0x7];                                   // 0x0021(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -3918,7 +3918,7 @@ namespace CG
 		struct FRigElementKey                                      A;                                                       // 0x0008(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigElementKey                                      B;                                                       // 0x0014(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       Result;                                                  // 0x0020(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_B2AT[0x7];                                   // 0x0021(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_93Q5[0x7];                                   // 0x0021(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -3931,7 +3931,7 @@ namespace CG
 		struct FRigElementKey                                      A;                                                       // 0x0008(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigElementKey                                      B;                                                       // 0x0014(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       Result;                                                  // 0x0020(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_VM52[0x7];                                   // 0x0021(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_7O8H[0x7];                                   // 0x0021(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -3943,7 +3943,7 @@ namespace CG
 	public:
 		struct FRigElementKey                                      Value;                                                   // 0x0008(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FName                                                Result;                                                  // 0x0014(0x0008) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_4Y42[0x4];                                   // 0x001C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_IJYO[0x4];                                   // 0x001C(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -3953,7 +3953,7 @@ namespace CG
 	struct FRigUnit_PrepareForExecution : public FRigUnit
 	{
 	public:
-		unsigned char                                              UnknownData_X2TX[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_HJLY[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FControlRigExecuteContext                           ExecuteContext;                                          // 0x0010(0x0120) Edit, BlueprintVisible, BlueprintReadOnly, Transient, NativeAccessSpecifierPublic
 	};
 
@@ -3964,7 +3964,7 @@ namespace CG
 	struct FRigUnit_SequenceExecution : public FRigUnit
 	{
 	public:
-		unsigned char                                              UnknownData_I9E8[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_AAS7[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FControlRigExecuteContext                           ExecuteContext;                                          // 0x0010(0x0120) Edit, BlueprintVisible, Transient, NativeAccessSpecifierPublic
 		struct FControlRigExecuteContext                           A;                                                       // 0x0130(0x0120) Edit, BlueprintVisible, BlueprintReadOnly, Transient, NativeAccessSpecifierPublic
 		struct FControlRigExecuteContext                           B;                                                       // 0x0250(0x0120) Edit, BlueprintVisible, BlueprintReadOnly, Transient, NativeAccessSpecifierPublic
@@ -3979,7 +3979,7 @@ namespace CG
 	struct FRigUnit_SequenceAggregate : public FRigUnit
 	{
 	public:
-		unsigned char                                              UnknownData_6C1I[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_8M6Y[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FControlRigExecuteContext                           ExecuteContext;                                          // 0x0010(0x0120) Edit, BlueprintVisible, Transient, NativeAccessSpecifierPublic
 		struct FControlRigExecuteContext                           A;                                                       // 0x0130(0x0120) Edit, BlueprintVisible, BlueprintReadOnly, Transient, NativeAccessSpecifierPublic
 		struct FControlRigExecuteContext                           B;                                                       // 0x0250(0x0120) Edit, BlueprintVisible, BlueprintReadOnly, Transient, NativeAccessSpecifierPublic
@@ -3993,14 +3993,14 @@ namespace CG
 	{
 	public:
 		class FName                                                bone;                                                    // 0x0130(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_4RE2[0x8];                                   // 0x0138(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_7Z1T[0x8];                                   // 0x0138(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Transform;                                               // 0x0140(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x01A0(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPostMultiply;                                           // 0x01A4(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x01A5(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_IIWK[0x2];                                   // 0x01A6(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_T5DY[0x2];                                   // 0x01A6(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedBone;                                              // 0x01A8(0x0020) Transient, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_M2S8[0x8];                                   // 0x01C8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_IP7W[0x8];                                   // 0x01C8(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -4011,7 +4011,7 @@ namespace CG
 	{
 	public:
 		struct FRigElementKey                                      Item;                                                    // 0x0008(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_E13Z[0x4];                                   // 0x0014(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_T2JE[0x4];                                   // 0x0014(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -4064,10 +4064,10 @@ namespace CG
 		class FName                                                Control;                                                 // 0x0008(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FName                                                Channel;                                                 // 0x0010(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bInitial;                                                // 0x0018(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ITCO[0x3];                                   // 0x0019(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_5EHW[0x3];                                   // 0x0019(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigElementKey                                      CachedChannelKey;                                        // 0x001C(0x000C) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    CachedChannelHash;                                       // 0x0028(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_E9U0[0x4];                                   // 0x002C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_QQ1G[0x4];                                   // 0x002C(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -4078,7 +4078,7 @@ namespace CG
 	{
 	public:
 		bool                                                       Value;                                                   // 0x0030(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_5XB7[0x7];                                   // 0x0031(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_RZKY[0x7];                                   // 0x0031(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -4089,7 +4089,7 @@ namespace CG
 	{
 	public:
 		float                                                      Value;                                                   // 0x0030(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_34VL[0x4];                                   // 0x0034(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_Y843[0x4];                                   // 0x0034(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -4100,7 +4100,7 @@ namespace CG
 	{
 	public:
 		int32_t                                                    Value;                                                   // 0x0030(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_P5FZ[0x4];                                   // 0x0034(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_IB6N[0x4];                                   // 0x0034(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -4161,7 +4161,7 @@ namespace CG
 	{
 	public:
 		bool                                                       Value;                                                   // 0x0150(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ZLFQ[0xF];                                   // 0x0151(0x000F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_81XF[0xF];                                   // 0x0151(0x000F) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -4172,7 +4172,7 @@ namespace CG
 	{
 	public:
 		float                                                      Value;                                                   // 0x0150(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_1QAS[0xC];                                   // 0x0154(0x000C) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_ISEN[0xC];                                   // 0x0154(0x000C) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -4183,7 +4183,7 @@ namespace CG
 	{
 	public:
 		int32_t                                                    Value;                                                   // 0x0150(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_3ZXI[0xC];                                   // 0x0154(0x000C) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_JX66[0xC];                                   // 0x0154(0x000C) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -4204,7 +4204,7 @@ namespace CG
 	{
 	public:
 		struct FVector                                             Value;                                                   // 0x0150(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_30Q0[0x8];                                   // 0x0168(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_5NF2[0x8];                                   // 0x0168(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -4215,7 +4215,7 @@ namespace CG
 	{
 	public:
 		struct FRotator                                            Value;                                                   // 0x0150(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_J56P[0x8];                                   // 0x0168(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_25RA[0x8];                                   // 0x0168(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -4237,7 +4237,7 @@ namespace CG
 	public:
 		class FName                                                bone;                                                    // 0x0008(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x0010(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_TGJG[0xF];                                   // 0x0011(0x000F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_YRAG[0xF];                                   // 0x0011(0x000F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Transform;                                               // 0x0020(0x0060) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedBone;                                              // 0x0080(0x0020) Transient, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
@@ -4251,7 +4251,7 @@ namespace CG
 	public:
 		class FName                                                Control;                                                 // 0x0008(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x0010(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_5NVK[0xF];                                   // 0x0011(0x000F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_EJMQ[0xF];                                   // 0x0011(0x000F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Transform;                                               // 0x0020(0x0060) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedControlIndex;                                      // 0x0080(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
@@ -4265,7 +4265,7 @@ namespace CG
 	public:
 		class FName                                                Control;                                                 // 0x0008(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       BoolValue;                                               // 0x0010(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_JVPP[0x7];                                   // 0x0011(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_0Z1A[0x7];                                   // 0x0011(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedControlIndex;                                      // 0x0018(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -4280,7 +4280,7 @@ namespace CG
 		float                                                      FloatValue;                                              // 0x0010(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Minimum;                                                 // 0x0014(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Maximum;                                                 // 0x0018(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_M703[0x4];                                   // 0x001C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_PSU2[0x4];                                   // 0x001C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedControlIndex;                                      // 0x0020(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -4295,7 +4295,7 @@ namespace CG
 		int32_t                                                    IntegerValue;                                            // 0x0010(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    Minimum;                                                 // 0x0014(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    Maximum;                                                 // 0x0018(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_K2DZ[0x4];                                   // 0x001C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_3J8Q[0x4];                                   // 0x001C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedControlIndex;                                      // 0x0020(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -4322,7 +4322,7 @@ namespace CG
 	public:
 		class FName                                                Control;                                                 // 0x0008(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x0010(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ZDQF[0x7];                                   // 0x0011(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_X9B5[0x7];                                   // 0x0011(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             Vector;                                                  // 0x0018(0x0018) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             Minimum;                                                 // 0x0030(0x0018) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             Maximum;                                                 // 0x0048(0x0018) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -4338,7 +4338,7 @@ namespace CG
 	public:
 		class FName                                                Control;                                                 // 0x0008(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x0010(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ZAEP[0x7];                                   // 0x0011(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_UQNP[0x7];                                   // 0x0011(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRotator                                            Rotator;                                                 // 0x0018(0x0018) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 		struct FRotator                                            Minimum;                                                 // 0x0030(0x0018) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 		struct FRotator                                            Maximum;                                                 // 0x0048(0x0018) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
@@ -4354,7 +4354,7 @@ namespace CG
 	public:
 		class FName                                                Control;                                                 // 0x0008(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x0010(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_KGBP[0xF];                                   // 0x0011(0x000F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ZPKE[0xF];                                   // 0x0011(0x000F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Transform;                                               // 0x0020(0x0060) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FTransform                                          Minimum;                                                 // 0x0080(0x0060) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FTransform                                          Maximum;                                                 // 0x00E0(0x0060) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -4370,7 +4370,7 @@ namespace CG
 	public:
 		class FName                                                Curve;                                                   // 0x0008(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       Valid;                                                   // 0x0010(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_BF2H[0x3];                                   // 0x0011(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_3PGU[0x3];                                   // 0x0011(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Value;                                                   // 0x0014(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedCurveIndex;                                        // 0x0018(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 	};
@@ -4384,7 +4384,7 @@ namespace CG
 	public:
 		class FName                                                bone;                                                    // 0x0008(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x0010(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_N6WC[0xF];                                   // 0x0011(0x000F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_X6SQ[0xF];                                   // 0x0011(0x000F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Transform;                                               // 0x0020(0x0060) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedBone;                                              // 0x0080(0x0020) Transient, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
@@ -4398,7 +4398,7 @@ namespace CG
 	public:
 		class FName                                                bone;                                                    // 0x0008(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FName                                                Space;                                                   // 0x0010(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_D183[0x8];                                   // 0x0018(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_QDN2[0x8];                                   // 0x0018(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Transform;                                               // 0x0020(0x0060) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedBone;                                              // 0x0080(0x0020) Transient, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedSpace;                                             // 0x00A0(0x0020) Transient, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -4413,10 +4413,10 @@ namespace CG
 	public:
 		struct FRigElementKey                                      Child;                                                   // 0x0008(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bChildInitial;                                           // 0x0014(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_08VW[0x3];                                   // 0x0015(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_JK4Y[0x3];                                   // 0x0015(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigElementKey                                      Parent;                                                  // 0x0018(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bParentInitial;                                          // 0x0024(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_IQN9[0xB];                                   // 0x0025(0x000B) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_Q5GJ[0xB];                                   // 0x0025(0x000B) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          RelativeTransform;                                       // 0x0030(0x0060) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedChild;                                             // 0x0090(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedParent;                                            // 0x00B0(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -4431,7 +4431,7 @@ namespace CG
 	public:
 		class FName                                                Space;                                                   // 0x0008(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       SpaceType;                                               // 0x0010(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_7WIW[0xF];                                   // 0x0011(0x000F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_N7Y3[0xF];                                   // 0x0011(0x000F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Transform;                                               // 0x0020(0x0060) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedSpaceIndex;                                        // 0x0080(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
@@ -4446,7 +4446,7 @@ namespace CG
 		struct FRigElementKey                                      Item;                                                    // 0x0008(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x0014(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bInitial;                                                // 0x0015(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_SMDB[0xA];                                   // 0x0016(0x000A) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_2AWF[0xA];                                   // 0x0016(0x000A) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Transform;                                               // 0x0020(0x0060) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedIndex;                                             // 0x0080(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
@@ -4461,7 +4461,7 @@ namespace CG
 		struct FRigElementKeyCollection                            Items;                                                   // 0x0008(0x0010) Edit, BlueprintVisible, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x0018(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bInitial;                                                // 0x0019(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_0E0L[0x6];                                   // 0x001A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_RGFM[0x6];                                   // 0x001A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FTransform>                                  Transforms;                                              // 0x0020(0x0010) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NativeAccessSpecifierPublic
 		TArray<struct FCachedRigElement>                           CachedIndex;                                             // 0x0030(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
 	};
@@ -4476,7 +4476,7 @@ namespace CG
 		TArray<struct FRigElementKey>                              Items;                                                   // 0x0008(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x0018(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bInitial;                                                // 0x0019(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_HCHF[0x6];                                   // 0x001A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_L990[0x6];                                   // 0x001A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FTransform>                                  Transforms;                                              // 0x0020(0x0010) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NativeAccessSpecifierPublic
 		TArray<struct FCachedRigElement>                           CachedIndex;                                             // 0x0030(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
 	};
@@ -4488,7 +4488,7 @@ namespace CG
 	struct FRigDispatch_MetadataBase : public FRigDispatchFactory
 	{
 	public:
-		unsigned char                                              UnknownData_W3A0[0x30];                                  // 0x0018(0x0030) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_76FL[0x30];                                  // 0x0018(0x0030) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -4515,9 +4515,9 @@ namespace CG
 		struct FRigElementKey                                      Item;                                                    // 0x0130(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FName                                                Name;                                                    // 0x013C(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       Removed;                                                 // 0x0144(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_4LI3[0x3];                                   // 0x0145(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_44DD[0x3];                                   // 0x0145(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedIndex;                                             // 0x0148(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_VZX8[0x8];                                   // 0x0168(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_3W62[0x8];                                   // 0x0168(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -4529,7 +4529,7 @@ namespace CG
 	public:
 		struct FRigElementKey                                      Item;                                                    // 0x0130(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       Removed;                                                 // 0x013C(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ILAF[0x3];                                   // 0x013D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_SVA0[0x3];                                   // 0x013D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedIndex;                                             // 0x0140(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -4544,7 +4544,7 @@ namespace CG
 		class FName                                                Name;                                                    // 0x0014(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigMetadataType                                           Type;                                                    // 0x001C(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       Found;                                                   // 0x001D(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_GXR4[0x2];                                   // 0x001E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_95VI[0x2];                                   // 0x001E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedIndex;                                             // 0x0020(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -4557,7 +4557,7 @@ namespace CG
 	public:
 		class FName                                                Name;                                                    // 0x0008(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigMetadataType                                           Type;                                                    // 0x0010(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_CHF0[0x7];                                   // 0x0011(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_2QCN[0x7];                                   // 0x0011(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FRigElementKey>                              Items;                                                   // 0x0018(0x0010) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NativeAccessSpecifierPublic
 	};
 
@@ -4569,7 +4569,7 @@ namespace CG
 	{
 	public:
 		struct FRigElementKey                                      Item;                                                    // 0x0008(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_AGJO[0x4];                                   // 0x0014(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_Q0FS[0x4];                                   // 0x0014(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class FName>                                        Tags;                                                    // 0x0018(0x0010) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedIndex;                                             // 0x0028(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
@@ -4583,9 +4583,9 @@ namespace CG
 	public:
 		struct FRigElementKey                                      Item;                                                    // 0x0130(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FName                                                Tag;                                                     // 0x013C(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_4CAP[0x4];                                   // 0x0144(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_HIBI[0x4];                                   // 0x0144(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedIndex;                                             // 0x0148(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_CQWJ[0x8];                                   // 0x0168(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_FDJB[0x8];                                   // 0x0168(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -4596,7 +4596,7 @@ namespace CG
 	{
 	public:
 		struct FRigElementKey                                      Item;                                                    // 0x0130(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_SGOA[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_XKJH[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class FName>                                        Tags;                                                    // 0x0140(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedIndex;                                             // 0x0150(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
@@ -4611,9 +4611,9 @@ namespace CG
 		struct FRigElementKey                                      Item;                                                    // 0x0130(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FName                                                Tag;                                                     // 0x013C(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       Removed;                                                 // 0x0144(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_5S64[0x3];                                   // 0x0145(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_WPBF[0x3];                                   // 0x0145(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedIndex;                                             // 0x0148(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ZC7U[0x8];                                   // 0x0168(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_A9J9[0x8];                                   // 0x0168(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -4626,7 +4626,7 @@ namespace CG
 		struct FRigElementKey                                      Item;                                                    // 0x0008(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FName                                                Tag;                                                     // 0x0014(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       Found;                                                   // 0x001C(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_B4EK[0x3];                                   // 0x001D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_5NJ6[0x3];                                   // 0x001D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedIndex;                                             // 0x0020(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -4638,10 +4638,10 @@ namespace CG
 	{
 	public:
 		struct FRigElementKey                                      Item;                                                    // 0x0008(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_QUK2[0x4];                                   // 0x0014(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_Z6XK[0x4];                                   // 0x0014(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class FName>                                        Tags;                                                    // 0x0018(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		bool                                                       Found;                                                   // 0x0028(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_N4LU[0x7];                                   // 0x0029(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_F1B9[0x7];                                   // 0x0029(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedIndex;                                             // 0x0030(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -4677,7 +4677,7 @@ namespace CG
 		TArray<struct FRigElementKey>                              Items;                                                   // 0x0008(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		TArray<class FName>                                        Tags;                                                    // 0x0018(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		bool                                                       Inclusive;                                               // 0x0028(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_7B5R[0x7];                                   // 0x0029(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_L6VC[0x7];                                   // 0x0029(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FRigElementKey>                              Result;                                                  // 0x0030(0x0010) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NativeAccessSpecifierPublic
 		TArray<struct FCachedRigElement>                           CachedIndices;                                           // 0x0040(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
 	};
@@ -4690,13 +4690,13 @@ namespace CG
 	{
 	public:
 		struct FRigElementKey                                      Item;                                                    // 0x0130(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_VH6A[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_YYPF[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          OffsetTransform;                                         // 0x0140(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x01A0(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x01A4(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_XMMI[0x3];                                   // 0x01A5(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_L29L[0x3];                                   // 0x01A5(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedIndex;                                             // 0x01A8(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_1MDB[0x8];                                   // 0x01C8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_ZOGW[0x8];                                   // 0x01C8(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -4711,13 +4711,13 @@ namespace CG
 		struct FRigElementKeyCollection                            Parents;                                                 // 0x0140(0x0010) Edit, BlueprintVisible, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FTransform                                          InitialGlobalTransform;                                  // 0x0150(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x01B0(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_R3YU[0xC];                                   // 0x01B4(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_RBSY[0xC];                                   // 0x01B4(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Transform;                                               // 0x01C0(0x0060) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       Switched;                                                // 0x0220(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_UHPB[0x7];                                   // 0x0221(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_QBAU[0x7];                                   // 0x0221(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedSubject;                                           // 0x0228(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedParent;                                            // 0x0248(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_QZ6Z[0x8];                                   // 0x0268(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_OFMH[0x8];                                   // 0x0268(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          RelativeOffset;                                          // 0x0270(0x0060) IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -4733,13 +4733,13 @@ namespace CG
 		TArray<struct FRigElementKey>                              Parents;                                                 // 0x0140(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		struct FTransform                                          InitialGlobalTransform;                                  // 0x0150(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x01B0(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_SFAU[0xC];                                   // 0x01B4(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_1MWA[0xC];                                   // 0x01B4(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Transform;                                               // 0x01C0(0x0060) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       Switched;                                                // 0x0220(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_CDYQ[0x7];                                   // 0x0221(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_NVAO[0x7];                                   // 0x0221(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedSubject;                                           // 0x0228(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedParent;                                            // 0x0248(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_PQ3N[0x8];                                   // 0x0268(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_M1SP[0x8];                                   // 0x0268(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          RelativeOffset;                                          // 0x0270(0x0060) IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -4752,13 +4752,13 @@ namespace CG
 	public:
 		struct FRigElementKey                                      Child;                                                   // 0x0008(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bChildInitial;                                           // 0x0014(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_XVLE[0x3];                                   // 0x0015(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_VXLI[0x3];                                   // 0x0015(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigElementKey                                      OldParent;                                               // 0x0018(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bOldParentInitial;                                       // 0x0024(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8JFQ[0x3];                                   // 0x0025(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_6PC3[0x3];                                   // 0x0025(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigElementKey                                      NewParent;                                               // 0x0028(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bNewParentInitial;                                       // 0x0034(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_A420[0xB];                                   // 0x0035(0x000B) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_IJRB[0xB];                                   // 0x0035(0x000B) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Transform;                                               // 0x0040(0x0060) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedChild;                                             // 0x00A0(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedOldParent;                                         // 0x00C0(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -4776,7 +4776,7 @@ namespace CG
 		bool                                                       bRecomputeGlobal;                                        // 0x013C(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bApplyToChildren;                                        // 0x013D(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bRecursive;                                              // 0x013E(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_TA55[0x1];                                   // 0x013F(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_G5ED[0x1];                                   // 0x013F(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedIndex;                                             // 0x0140(0x0020) Transient, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -4788,12 +4788,12 @@ namespace CG
 	{
 	public:
 		ERigEvent                                                  Event;                                                   // 0x0130(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_5YZD[0x3];                                   // 0x0131(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_HAPG[0x3];                                   // 0x0131(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigElementKey                                      Item;                                                    // 0x0134(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      OffsetInSeconds;                                         // 0x0140(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bEnable;                                                 // 0x0144(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bOnlyDuringInteraction;                                  // 0x0145(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_5JZD[0xA];                                   // 0x0146(0x000A) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_AVLQ[0xA];                                   // 0x0146(0x000A) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -4804,14 +4804,14 @@ namespace CG
 	{
 	public:
 		class FName                                                bone;                                                    // 0x0130(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_RKQO[0x8];                                   // 0x0138(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_1GDN[0x8];                                   // 0x0138(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Transform;                                               // 0x0140(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FTransform                                          Result;                                                  // 0x01A0(0x0060) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x0200(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x0201(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_6XWT[0x6];                                   // 0x0202(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_JGX5[0x6];                                   // 0x0202(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedBone;                                              // 0x0208(0x0020) Transient, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ZN7X[0x8];                                   // 0x0228(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_YB07[0x8];                                   // 0x0228(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -4822,13 +4822,13 @@ namespace CG
 	{
 	public:
 		class FName                                                bone;                                                    // 0x0130(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_CIAV[0x8];                                   // 0x0138(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_WL7K[0x8];                                   // 0x0138(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FQuat                                               Rotation;                                                // 0x0140(0x0020) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x0160(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_YPME[0x3];                                   // 0x0161(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_W74G[0x3];                                   // 0x0161(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Weight;                                                  // 0x0164(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x0168(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8I7M[0x7];                                   // 0x0169(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_40BY[0x7];                                   // 0x0169(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedBone;                                              // 0x0170(0x0020) Transient, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -4840,14 +4840,14 @@ namespace CG
 	{
 	public:
 		class FName                                                bone;                                                    // 0x0130(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_3BVL[0x8];                                   // 0x0138(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_HJ6Y[0x8];                                   // 0x0138(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Transform;                                               // 0x0140(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FTransform                                          Result;                                                  // 0x01A0(0x0060) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x0200(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_329A[0x3];                                   // 0x0201(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_GUA1[0x3];                                   // 0x0201(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Weight;                                                  // 0x0204(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x0208(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ZLNT[0x7];                                   // 0x0209(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_UJ3G[0x7];                                   // 0x0209(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedBone;                                              // 0x0210(0x0020) Transient, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -4861,10 +4861,10 @@ namespace CG
 		class FName                                                bone;                                                    // 0x0130(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             Translation;                                             // 0x0138(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x0150(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_257O[0x3];                                   // 0x0151(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ZHTR[0x3];                                   // 0x0151(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Weight;                                                  // 0x0154(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x0158(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_Y9AI[0x7];                                   // 0x0159(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_MMA8[0x7];                                   // 0x0159(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedBone;                                              // 0x0160(0x0020) Transient, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -4890,7 +4890,7 @@ namespace CG
 		class FName                                                Control;                                                 // 0x0130(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FLinearColor                                        Color;                                                   // 0x0138(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedControlIndex;                                      // 0x0148(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_9DIM[0x8];                                   // 0x0168(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_FIZK[0x8];                                   // 0x0168(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -4915,7 +4915,7 @@ namespace CG
 		class FName                                                Control;                                                 // 0x0130(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<struct FRigElementKey>                              Driven;                                                  // 0x0138(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedControlIndex;                                      // 0x0148(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8UFV[0x8];                                   // 0x0168(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_ZQLZ[0x8];                                   // 0x0168(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -4926,12 +4926,12 @@ namespace CG
 	{
 	public:
 		class FName                                                Control;                                                 // 0x0130(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_6FN6[0x8];                                   // 0x0138(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_UR7G[0x8];                                   // 0x0138(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Offset;                                                  // 0x0140(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x01A0(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_RLEZ[0x7];                                   // 0x01A1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_TIRZ[0x7];                                   // 0x01A1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedControlIndex;                                      // 0x01A8(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_1MDY[0x8];                                   // 0x01C8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_L8CT[0x8];                                   // 0x01C8(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -4954,7 +4954,7 @@ namespace CG
 	{
 	public:
 		class FName                                                Control;                                                 // 0x0130(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_QS0Q[0x8];                                   // 0x0138(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_DKLS[0x8];                                   // 0x0138(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Transform;                                               // 0x0140(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedControlIndex;                                      // 0x01A0(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
@@ -4968,7 +4968,7 @@ namespace CG
 	public:
 		class FName                                                Control;                                                 // 0x0130(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       BoolValue;                                               // 0x0138(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_A0NQ[0x7];                                   // 0x0139(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_KD56[0x7];                                   // 0x0139(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedControlIndex;                                      // 0x0140(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -4981,7 +4981,7 @@ namespace CG
 	public:
 		class FName                                                Control;                                                 // 0x0000(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       BoolValue;                                               // 0x0008(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_Z1EK[0x3];                                   // 0x0009(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_2ZMK[0x3];                                   // 0x0009(0x0003) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -5028,9 +5028,9 @@ namespace CG
 	public:
 		TArray<struct FRigUnit_SetMultiControlFloat_Entry>         Entries;                                                 // 0x0130(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x0140(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_46IE[0x4];                                   // 0x0144(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_NMKG[0x4];                                   // 0x0144(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FCachedRigElement>                           CachedControlIndices;                                    // 0x0148(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_CV6P[0x8];                                   // 0x0158(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_6M0Q[0x8];                                   // 0x0158(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -5066,9 +5066,9 @@ namespace CG
 	public:
 		TArray<struct FRigUnit_SetMultiControlInteger_Entry>       Entries;                                                 // 0x0130(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x0140(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_3307[0x4];                                   // 0x0144(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_86GZ[0x4];                                   // 0x0144(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FCachedRigElement>                           CachedControlIndices;                                    // 0x0148(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_QT6F[0x8];                                   // 0x0158(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_3CKF[0x8];                                   // 0x0158(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -5080,7 +5080,7 @@ namespace CG
 	public:
 		class FName                                                Control;                                                 // 0x0130(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x0138(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8K38[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_4G7F[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector2D                                           Vector;                                                  // 0x0140(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedControlIndex;                                      // 0x0150(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
@@ -5105,9 +5105,9 @@ namespace CG
 	public:
 		TArray<struct FRigUnit_SetMultiControlVector2D_Entry>      Entries;                                                 // 0x0130(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x0140(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_0BRI[0x4];                                   // 0x0144(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_IUWH[0x4];                                   // 0x0144(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FCachedRigElement>                           CachedControlIndices;                                    // 0x0148(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_N40J[0x8];                                   // 0x0158(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_FCI4[0x8];                                   // 0x0158(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -5119,10 +5119,10 @@ namespace CG
 	public:
 		class FName                                                Control;                                                 // 0x0130(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x0138(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_49JT[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_F661[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             Vector;                                                  // 0x0140(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x0158(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_9JK0[0x7];                                   // 0x0159(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_QPK2[0x7];                                   // 0x0159(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedControlIndex;                                      // 0x0160(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -5135,10 +5135,10 @@ namespace CG
 	public:
 		class FName                                                Control;                                                 // 0x0130(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x0138(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_WFPO[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_3DRJ[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRotator                                            Rotator;                                                 // 0x0140(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x0158(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_77K5[0x7];                                   // 0x0159(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_9GKM[0x7];                                   // 0x0159(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedControlIndex;                                      // 0x0160(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -5152,7 +5152,7 @@ namespace CG
 		class FName                                                Control;                                                 // 0x0000(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRotator                                            Rotator;                                                 // 0x0008(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x0020(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_BN7D[0x7];                                   // 0x0021(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_GFVJ[0x7];                                   // 0x0021(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -5164,9 +5164,9 @@ namespace CG
 	public:
 		TArray<struct FRigUnit_SetMultiControlRotator_Entry>       Entries;                                                 // 0x0130(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x0140(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_B2OG[0x4];                                   // 0x0144(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_9QQL[0x4];                                   // 0x0144(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FCachedRigElement>                           CachedControlIndices;                                    // 0x0148(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_LHIQ[0x8];                                   // 0x0158(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_MKGC[0x8];                                   // 0x0158(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -5178,12 +5178,12 @@ namespace CG
 	public:
 		class FName                                                Control;                                                 // 0x0130(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x0138(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_2URZ[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_SPL4[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Transform;                                               // 0x0140(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x01A0(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_1AS1[0x7];                                   // 0x01A1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_3OQ8[0x7];                                   // 0x01A1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedControlIndex;                                      // 0x01A8(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_Q17S[0x8];                                   // 0x01C8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_UELR[0x8];                                   // 0x01C8(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -5195,7 +5195,7 @@ namespace CG
 	public:
 		struct FRigElementKey                                      Item;                                                    // 0x0008(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bVisible;                                                // 0x0014(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_WIYU[0x3];                                   // 0x0015(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_B0GG[0x3];                                   // 0x0015(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedControlIndex;                                      // 0x0018(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -5207,12 +5207,12 @@ namespace CG
 	{
 	public:
 		struct FRigElementKey                                      Item;                                                    // 0x0130(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_JLPZ[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_350Q[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FString                                              Pattern;                                                 // 0x0140(0x0010) Edit, BlueprintVisible, ZeroConstructor, EditConst, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bVisible;                                                // 0x0150(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_UQLN[0x7];                                   // 0x0151(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_6G4X[0x7];                                   // 0x0151(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FCachedRigElement>                           CachedControlIndices;                                    // 0x0158(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_A6DO[0x8];                                   // 0x0168(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_ER8H[0x8];                                   // 0x0168(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -5224,7 +5224,7 @@ namespace CG
 	public:
 		class FName                                                Curve;                                                   // 0x0130(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Value;                                                   // 0x0138(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_JNLG[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_EX75[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedCurveIndex;                                        // 0x0140(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 	};
 
@@ -5240,10 +5240,10 @@ namespace CG
 		struct FTransform                                          Transform;                                               // 0x0140(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x01A0(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x01A4(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_93TV[0x3];                                   // 0x01A5(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_I5FM[0x3];                                   // 0x01A5(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedBone;                                              // 0x01A8(0x0020) Transient, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedSpaceIndex;                                        // 0x01C8(0x0020) Transient, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_D3QQ[0x8];                                   // 0x01E8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_O586[0x8];                                   // 0x01E8(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -5256,14 +5256,14 @@ namespace CG
 		struct FRigElementKey                                      Child;                                                   // 0x0130(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigElementKey                                      Parent;                                                  // 0x013C(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bParentInitial;                                          // 0x0148(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_UH0L[0x7];                                   // 0x0149(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_GZ0G[0x7];                                   // 0x0149(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Value;                                                   // 0x0150(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x01B0(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x01B4(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_J8X8[0x3];                                   // 0x01B5(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_54XQ[0x3];                                   // 0x01B5(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedChild;                                             // 0x01B8(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedParent;                                            // 0x01D8(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_0Z7B[0x8];                                   // 0x01F8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_FL74[0x8];                                   // 0x01F8(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -5276,11 +5276,11 @@ namespace CG
 		struct FRigElementKey                                      Child;                                                   // 0x0130(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigElementKey                                      Parent;                                                  // 0x013C(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bParentInitial;                                          // 0x0148(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_32RZ[0x7];                                   // 0x0149(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_49FP[0x7];                                   // 0x0149(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             Value;                                                   // 0x0150(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x0168(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x016C(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_BC3A[0x3];                                   // 0x016D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_6EMD[0x3];                                   // 0x016D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedChild;                                             // 0x0170(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedParent;                                            // 0x0190(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
@@ -5295,14 +5295,14 @@ namespace CG
 		struct FRigElementKey                                      Child;                                                   // 0x0130(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigElementKey                                      Parent;                                                  // 0x013C(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bParentInitial;                                          // 0x0148(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_BFX7[0x7];                                   // 0x0149(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_KZ9V[0x7];                                   // 0x0149(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FQuat                                               Value;                                                   // 0x0150(0x0020) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x0170(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x0174(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_PD48[0x3];                                   // 0x0175(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_S9P8[0x3];                                   // 0x0175(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedChild;                                             // 0x0178(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedParent;                                            // 0x0198(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_WVWE[0x8];                                   // 0x01B8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_JYR8[0x8];                                   // 0x01B8(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -5313,13 +5313,13 @@ namespace CG
 	{
 	public:
 		class FName                                                SpaceName;                                               // 0x0130(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_YSI5[0x8];                                   // 0x0138(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_RI76[0x8];                                   // 0x0138(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Transform;                                               // 0x0140(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FTransform                                          Result;                                                  // 0x01A0(0x0060) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x0200(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_OTA2[0x7];                                   // 0x0201(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_MS7O[0x7];                                   // 0x0201(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedSpaceIndex;                                        // 0x0208(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_PD6R[0x8];                                   // 0x0228(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_Z6HJ[0x8];                                   // 0x0228(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -5331,12 +5331,12 @@ namespace CG
 	public:
 		class FName                                                Space;                                                   // 0x0130(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x0138(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_UKTQ[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_AG3P[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Transform;                                               // 0x0140(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       SpaceType;                                               // 0x01A0(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_H8QR[0x7];                                   // 0x01A1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_KMAR[0x7];                                   // 0x01A1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedSpaceIndex;                                        // 0x01A8(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_TFFZ[0x8];                                   // 0x01C8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_30KF[0x8];                                   // 0x01C8(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -5349,13 +5349,13 @@ namespace CG
 		struct FRigElementKey                                      Item;                                                    // 0x0130(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x013C(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bInitial;                                                // 0x013D(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_MEBF[0x2];                                   // 0x013E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_QVUN[0x2];                                   // 0x013E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Value;                                                   // 0x0140(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x01A0(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x01A4(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_4PZX[0x3];                                   // 0x01A5(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_TBDM[0x3];                                   // 0x01A5(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedIndex;                                             // 0x01A8(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_BQQG[0x8];                                   // 0x01C8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_Q450[0x8];                                   // 0x01C8(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -5368,11 +5368,11 @@ namespace CG
 		struct FRigElementKey                                      Item;                                                    // 0x0130(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x013C(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bInitial;                                                // 0x013D(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_18BU[0x2];                                   // 0x013E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_33M2[0x2];                                   // 0x013E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             Value;                                                   // 0x0140(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x0158(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x015C(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_JZ3W[0x3];                                   // 0x015D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_9SZV[0x3];                                   // 0x015D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedIndex;                                             // 0x0160(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -5386,13 +5386,13 @@ namespace CG
 		struct FRigElementKey                                      Item;                                                    // 0x0130(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x013C(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bInitial;                                                // 0x013D(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_WCB5[0x2];                                   // 0x013E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_71SM[0x2];                                   // 0x013E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FQuat                                               Value;                                                   // 0x0140(0x0020) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x0160(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x0164(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_5GTB[0x3];                                   // 0x0165(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_SZ4E[0x3];                                   // 0x0165(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedIndex;                                             // 0x0168(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_7WS5[0x8];                                   // 0x0188(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_3HHQ[0x8];                                   // 0x0188(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -5405,11 +5405,11 @@ namespace CG
 		struct FRigElementKey                                      Item;                                                    // 0x0130(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x013C(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bInitial;                                                // 0x013D(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_YTAP[0x2];                                   // 0x013E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_9XYS[0x2];                                   // 0x013E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             Scale;                                                   // 0x0140(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x0158(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x015C(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_QWO4[0x3];                                   // 0x015D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_L8MU[0x3];                                   // 0x015D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   CachedIndex;                                             // 0x0160(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -5423,11 +5423,11 @@ namespace CG
 		struct FRigElementKeyCollection                            Items;                                                   // 0x0130(0x0010) Edit, BlueprintVisible, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x0140(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bInitial;                                                // 0x0141(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_CUUH[0x6];                                   // 0x0142(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_T7W8[0x6];                                   // 0x0142(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FTransform>                                  Transforms;                                              // 0x0148(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x0158(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x015C(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_F8TT[0x3];                                   // 0x015D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_148Y[0x3];                                   // 0x015D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FCachedRigElement>                           CachedIndex;                                             // 0x0160(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
 	};
 
@@ -5441,11 +5441,11 @@ namespace CG
 		TArray<struct FRigElementKey>                              Items;                                                   // 0x0130(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		ERigVMTransformSpace                                       Space;                                                   // 0x0140(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bInitial;                                                // 0x0141(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_KMT9[0x6];                                   // 0x0142(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_QOGN[0x6];                                   // 0x0142(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FTransform>                                  Transforms;                                              // 0x0148(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x0158(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x015C(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_SB4W[0x3];                                   // 0x015D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_EKBF[0x3];                                   // 0x015D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FCachedRigElement>                           CachedIndex;                                             // 0x0160(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
 	};
 
@@ -5458,7 +5458,7 @@ namespace CG
 	public:
 		class FName                                                Curve;                                                   // 0x0130(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedCurveIndex;                                        // 0x0138(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_N8WU[0x8];                                   // 0x0158(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_GOW9[0x8];                                   // 0x0158(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -5468,7 +5468,7 @@ namespace CG
 	struct FRigUnit_ToWorldSpace_Transform : public FRigUnit
 	{
 	public:
-		unsigned char                                              UnknownData_HEZO[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_S2CQ[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Value;                                                   // 0x0010(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FTransform                                          World;                                                   // 0x0070(0x0060) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
@@ -5480,7 +5480,7 @@ namespace CG
 	struct FRigUnit_ToRigSpace_Transform : public FRigUnit
 	{
 	public:
-		unsigned char                                              UnknownData_BS3V[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_LFUZ[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Value;                                                   // 0x0010(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FTransform                                          Global;                                                  // 0x0070(0x0060) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
@@ -5514,7 +5514,7 @@ namespace CG
 	struct FRigUnit_ToWorldSpace_Rotation : public FRigUnit
 	{
 	public:
-		unsigned char                                              UnknownData_EIFL[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_WIHM[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FQuat                                               Value;                                                   // 0x0010(0x0020) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FQuat                                               World;                                                   // 0x0030(0x0020) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
@@ -5526,7 +5526,7 @@ namespace CG
 	struct FRigUnit_ToRigSpace_Rotation : public FRigUnit
 	{
 	public:
-		unsigned char                                              UnknownData_D5ES[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_QH3M[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FQuat                                               Value;                                                   // 0x0010(0x0020) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FQuat                                               Global;                                                  // 0x0030(0x0020) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
@@ -5578,12 +5578,12 @@ namespace CG
 		struct FVector                                             WaveOffset;                                              // 0x0188(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             WaveNoise;                                               // 0x01A0(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMAnimEasingType                                       WaveEase;                                                // 0x01B8(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_BJN7[0x3];                                   // 0x01B9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_B2AS[0x3];                                   // 0x01B9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      WaveMinimum;                                             // 0x01BC(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      WaveMaximum;                                             // 0x01C0(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EEulerRotationOrder                                        RotationOrder;                                           // 0x01C4(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x01C5(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_7GXF[0x2];                                   // 0x01C6(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_DS8Y[0x2];                                   // 0x01C6(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_BoneHarmonics_WorkData                     WorkData;                                                // 0x01C8(0x0028) Transient, NativeAccessSpecifierPublic
 	};
 
@@ -5601,11 +5601,11 @@ namespace CG
 		struct FVector                                             WaveOffset;                                              // 0x0188(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             WaveNoise;                                               // 0x01A0(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMAnimEasingType                                       WaveEase;                                                // 0x01B8(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_XV56[0x3];                                   // 0x01B9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_0AHU[0x3];                                   // 0x01B9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      WaveMinimum;                                             // 0x01BC(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      WaveMaximum;                                             // 0x01C0(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EEulerRotationOrder                                        RotationOrder;                                           // 0x01C4(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8BEJ[0x3];                                   // 0x01C5(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_9DI1[0x3];                                   // 0x01C5(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_BoneHarmonics_WorkData                     WorkData;                                                // 0x01C8(0x0028) Transient, NativeAccessSpecifierPublic
 	};
 
@@ -5617,13 +5617,13 @@ namespace CG
 	{
 	public:
 		bool                                                       bEnabled;                                                // 0x0000(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ZKY8[0x7];                                   // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_EAK5[0x7];                                   // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             ReachTarget;                                             // 0x0008(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             ReachAxis;                                               // 0x0020(0x0018) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      ReachMinimum;                                            // 0x0038(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      ReachMaximum;                                            // 0x003C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMAnimEasingType                                       ReachEase;                                               // 0x0040(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_A6IW[0x7];                                   // 0x0041(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_X48P[0x7];                                   // 0x0041(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -5634,7 +5634,7 @@ namespace CG
 	{
 	public:
 		bool                                                       bEnabled;                                                // 0x0000(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_D5MJ[0x7];                                   // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_0FEY[0x7];                                   // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             WaveFrequency;                                           // 0x0008(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             WaveAmplitude;                                           // 0x0020(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             WaveOffset;                                              // 0x0038(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -5642,7 +5642,7 @@ namespace CG
 		float                                                      WaveMinimum;                                             // 0x0068(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      WaveMaximum;                                             // 0x006C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMAnimEasingType                                       WaveEase;                                                // 0x0070(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ATKG[0x7];                                   // 0x0071(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_RHMH[0x7];                                   // 0x0071(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -5653,7 +5653,7 @@ namespace CG
 	{
 	public:
 		bool                                                       bEnabled;                                                // 0x0000(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_1ZQV[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_VJEE[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      PendulumStiffness;                                       // 0x0004(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             PendulumGravity;                                         // 0x0008(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      PendulumBlend;                                           // 0x0020(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -5661,7 +5661,7 @@ namespace CG
 		float                                                      PendulumMinimum;                                         // 0x0028(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      PendulumMaximum;                                         // 0x002C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMAnimEasingType                                       PendulumEase;                                            // 0x0030(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_IXUJ[0x7];                                   // 0x0031(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_B8V4[0x7];                                   // 0x0031(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             UnwindAxis;                                              // 0x0038(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      UnwindMinimum;                                           // 0x0050(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      UnwindMaximum;                                           // 0x0054(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -5699,10 +5699,10 @@ namespace CG
 		struct FRuntimeFloatCurve                                  WaveCurve;                                               // 0x0210(0x0088) Edit, BlueprintVisible, EditConst, NativeAccessSpecifierPublic
 		struct FRigUnit_ChainHarmonics_Pendulum                    Pendulum;                                                // 0x0298(0x0058) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		bool                                                       bDrawDebug;                                              // 0x02F0(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_3WQK[0xF];                                   // 0x02F1(0x000F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_BJ2R[0xF];                                   // 0x02F1(0x000F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          DrawWorldOffset;                                         // 0x0300(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigUnit_ChainHarmonics_WorkData                    WorkData;                                                // 0x0360(0x0098) Transient, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_A86T[0x8];                                   // 0x03F8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_DKSC[0x8];                                   // 0x03F8(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -5713,17 +5713,17 @@ namespace CG
 	{
 	public:
 		struct FRigElementKey                                      ChainRoot;                                               // 0x0130(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_U92H[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_XMZU[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             Speed;                                                   // 0x0140(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigUnit_ChainHarmonics_Reach                       Reach;                                                   // 0x0158(0x0048) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FRigUnit_ChainHarmonics_Wave                        Wave;                                                    // 0x01A0(0x0078) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FRuntimeFloatCurve                                  WaveCurve;                                               // 0x0218(0x0088) Edit, BlueprintVisible, EditConst, NativeAccessSpecifierPublic
 		struct FRigUnit_ChainHarmonics_Pendulum                    Pendulum;                                                // 0x02A0(0x0058) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		bool                                                       bDrawDebug;                                              // 0x02F8(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_Z02A[0x7];                                   // 0x02F9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_O4UV[0x7];                                   // 0x02F9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          DrawWorldOffset;                                         // 0x0300(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigUnit_ChainHarmonics_WorkData                    WorkData;                                                // 0x0360(0x0098) Transient, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_6MGP[0x8];                                   // 0x03F8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_003S[0x8];                                   // 0x03F8(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -5734,13 +5734,13 @@ namespace CG
 	{
 	public:
 		float                                                      Weight;                                                  // 0x0000(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_50Z5[0x4];                                   // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_D6ZS[0x4];                                   // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             Axis;                                                    // 0x0008(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             Target;                                                  // 0x0020(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EControlRigVectorKind                                      Kind;                                                    // 0x0038(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_V1QV[0x3];                                   // 0x0039(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_UXF6[0x3];                                   // 0x0039(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FName                                                Space;                                                   // 0x003C(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_1FCH[0x4];                                   // 0x0044(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_4MDP[0x4];                                   // 0x0044(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -5751,11 +5751,11 @@ namespace CG
 	{
 	public:
 		float                                                      Weight;                                                  // 0x0000(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_SIKH[0x4];                                   // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_UOCG[0x4];                                   // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             Axis;                                                    // 0x0008(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             Target;                                                  // 0x0020(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EControlRigVectorKind                                      Kind;                                                    // 0x0038(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_YPPI[0x3];                                   // 0x0039(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_T43C[0x3];                                   // 0x0039(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigElementKey                                      Space;                                                   // 0x003C(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -5767,9 +5767,9 @@ namespace CG
 	{
 	public:
 		bool                                                       bEnabled;                                                // 0x0000(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_PRCJ[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_LD9K[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Scale;                                                   // 0x0004(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_BDMD[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_RJMT[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          WorldOffset;                                             // 0x0010(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -5780,18 +5780,18 @@ namespace CG
 	struct FRigUnit_AimBoneMath : public FRigUnit_HighlevelBase
 	{
 	public:
-		unsigned char                                              UnknownData_M6YT[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_KAOK[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          InputTransform;                                          // 0x0010(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigUnit_AimItem_Target                             Primary;                                                 // 0x0070(0x0048) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FRigUnit_AimItem_Target                             Secondary;                                               // 0x00B8(0x0048) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x0100(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_51YX[0xC];                                   // 0x0104(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_904D[0xC];                                   // 0x0104(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Result;                                                  // 0x0110(0x0060) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigUnit_AimBone_DebugSettings                      DebugSettings;                                           // 0x0170(0x0070) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   PrimaryCachedSpace;                                      // 0x01E0(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   SecondaryCachedSpace;                                    // 0x0200(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bIsInitialized;                                          // 0x0220(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_5FM7[0xF];                                   // 0x0221(0x000F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_1RHD[0xF];                                   // 0x0221(0x000F) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -5806,13 +5806,13 @@ namespace CG
 		struct FRigUnit_AimBone_Target                             Secondary;                                               // 0x0180(0x0048) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x01C8(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x01CC(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_K0K3[0x3];                                   // 0x01CD(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_P2QM[0x3];                                   // 0x01CD(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_AimBone_DebugSettings                      DebugSettings;                                           // 0x01D0(0x0070) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedBoneIndex;                                         // 0x0240(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   PrimaryCachedSpace;                                      // 0x0260(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   SecondaryCachedSpace;                                    // 0x0280(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bIsInitialized;                                          // 0x02A0(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8QH6[0xF];                                   // 0x02A1(0x000F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_6K2Q[0xF];                                   // 0x02A1(0x000F) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -5823,17 +5823,17 @@ namespace CG
 	{
 	public:
 		struct FRigElementKey                                      Item;                                                    // 0x0130(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_WXWC[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_FHI9[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_AimItem_Target                             Primary;                                                 // 0x0140(0x0048) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FRigUnit_AimItem_Target                             Secondary;                                               // 0x0188(0x0048) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x01D0(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_VT7X[0xC];                                   // 0x01D4(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_FTP1[0xC];                                   // 0x01D4(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_AimBone_DebugSettings                      DebugSettings;                                           // 0x01E0(0x0070) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedItem;                                              // 0x0250(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   PrimaryCachedSpace;                                      // 0x0270(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   SecondaryCachedSpace;                                    // 0x0290(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bIsInitialized;                                          // 0x02B0(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_A2LL[0xF];                                   // 0x02B1(0x000F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_4JPO[0xF];                                   // 0x02B1(0x000F) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -5845,7 +5845,7 @@ namespace CG
 	public:
 		struct FVector                                             Target;                                                  // 0x0000(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EControlRigVectorKind                                      Kind;                                                    // 0x0018(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_FYN8[0x3];                                   // 0x0019(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_MUPG[0x3];                                   // 0x0019(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigElementKey                                      Space;                                                   // 0x001C(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -5858,7 +5858,7 @@ namespace CG
 	public:
 		struct FRigUnit_AimBone_DebugSettings                      DebugSettings;                                           // 0x0000(0x0070) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		EEulerRotationOrder                                        RotationOrderForFilter;                                  // 0x0070(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_C9QK[0xF];                                   // 0x0071(0x000F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_99QM[0xF];                                   // 0x0071(0x000F) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -5886,15 +5886,15 @@ namespace CG
 		struct FVector                                             UpAxis;                                                  // 0x0158(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigUnit_AimConstraint_WorldUp                      WorldUp;                                                 // 0x0170(0x0028) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		TArray<struct FConstraintParent>                           Parents;                                                 // 0x0198(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_75O6[0x8];                                   // 0x01A8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_68S2[0x8];                                   // 0x01A8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_AimConstraint_AdvancedSettings             AdvancedSettings;                                        // 0x01B0(0x0080) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x0230(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_L11X[0x4];                                   // 0x0234(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_S7U1[0x4];                                   // 0x0234(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   WorldUpSpaceCache;                                       // 0x0238(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   ChildCache;                                              // 0x0258(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<struct FCachedRigElement>                           ParentCaches;                                            // 0x0278(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
 		bool                                                       bIsInitialized;                                          // 0x0288(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_CAFQ[0x7];                                   // 0x0289(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_V1Y2[0x7];                                   // 0x0289(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -5947,12 +5947,12 @@ namespace CG
 		float                                                      Weight;                                                  // 0x01A4(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    MaxIterations;                                           // 0x01A8(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bStartFromTail;                                          // 0x01AC(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_0HMJ[0x3];                                   // 0x01AD(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_I317[0x3];                                   // 0x01AD(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      BaseRotationLimit;                                       // 0x01B0(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_424D[0x4];                                   // 0x01B4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ZCMU[0x4];                                   // 0x01B4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FRigUnit_CCDIK_RotationLimit>                RotationLimits;                                          // 0x01B8(0x0010) Edit, BlueprintVisible, ZeroConstructor, EditConst, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x01C8(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8RO2[0x7];                                   // 0x01C9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_MTA3[0x7];                                   // 0x01C9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_CCDIK_WorkData                             WorkData;                                                // 0x01D0(0x0060) NativeAccessSpecifierPublic
 	};
 
@@ -5969,12 +5969,12 @@ namespace CG
 		float                                                      Weight;                                                  // 0x01A4(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    MaxIterations;                                           // 0x01A8(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bStartFromTail;                                          // 0x01AC(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ZNWG[0x3];                                   // 0x01AD(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_N9OC[0x3];                                   // 0x01AD(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      BaseRotationLimit;                                       // 0x01B0(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ZJR6[0x4];                                   // 0x01B4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_0L0P[0x4];                                   // 0x01B4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FRigUnit_CCDIK_RotationLimitPerItem>         RotationLimits;                                          // 0x01B8(0x0010) Edit, BlueprintVisible, ZeroConstructor, EditConst, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x01C8(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_E682[0x7];                                   // 0x01C9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_BNYO[0x7];                                   // 0x01C9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_CCDIK_WorkData                             WorkData;                                                // 0x01D0(0x0060) NativeAccessSpecifierPublic
 	};
 
@@ -5991,12 +5991,12 @@ namespace CG
 		float                                                      Weight;                                                  // 0x01A4(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    MaxIterations;                                           // 0x01A8(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bStartFromTail;                                          // 0x01AC(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_T17C[0x3];                                   // 0x01AD(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_T0UC[0x3];                                   // 0x01AD(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      BaseRotationLimit;                                       // 0x01B0(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_YWJF[0x4];                                   // 0x01B4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_KND4[0x4];                                   // 0x01B4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FRigUnit_CCDIK_RotationLimitPerItem>         RotationLimits;                                          // 0x01B8(0x0010) Edit, BlueprintVisible, ZeroConstructor, EditConst, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x01C8(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_AZMH[0x7];                                   // 0x01C9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_LQDH[0x7];                                   // 0x01C9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_CCDIK_WorkData                             WorkData;                                                // 0x01D0(0x0060) NativeAccessSpecifierPublic
 	};
 
@@ -6009,7 +6009,7 @@ namespace CG
 	public:
 		struct FQuat                                               Rotation;                                                // 0x0000(0x0020) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Ratio;                                                   // 0x0020(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_FQZM[0xC];                                   // 0x0024(0x000C) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_P4O4[0xC];                                   // 0x0024(0x000C) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -6037,10 +6037,10 @@ namespace CG
 		class FName                                                EndBone;                                                 // 0x0138(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<struct FRigUnit_DistributeRotation_Rotation>        Rotations;                                               // 0x0140(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		ERigVMAnimEasingType                                       RotationEaseType;                                        // 0x0150(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_STBD[0x3];                                   // 0x0151(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_3OQ6[0x3];                                   // 0x0151(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Weight;                                                  // 0x0154(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x0158(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_E66I[0x7];                                   // 0x0159(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_M1AG[0x7];                                   // 0x0159(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_DistributeRotation_WorkData                WorkData;                                                // 0x0160(0x0050) Transient, NativeAccessSpecifierPublic
 	};
 
@@ -6054,10 +6054,10 @@ namespace CG
 		struct FRigElementKeyCollection                            Items;                                                   // 0x0130(0x0010) Edit, BlueprintVisible, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<struct FRigUnit_DistributeRotation_Rotation>        Rotations;                                               // 0x0140(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		ERigVMAnimEasingType                                       RotationEaseType;                                        // 0x0150(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_EHLX[0x3];                                   // 0x0151(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_6DQP[0x3];                                   // 0x0151(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Weight;                                                  // 0x0154(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigUnit_DistributeRotation_WorkData                WorkData;                                                // 0x0158(0x0050) Transient, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_P0RT[0x8];                                   // 0x01A8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_H72U[0x8];                                   // 0x01A8(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -6070,10 +6070,10 @@ namespace CG
 		TArray<struct FRigElementKey>                              Items;                                                   // 0x0130(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		TArray<struct FRigUnit_DistributeRotation_Rotation>        Rotations;                                               // 0x0140(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		ERigVMAnimEasingType                                       RotationEaseType;                                        // 0x0150(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_JRLF[0x3];                                   // 0x0151(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_6TZ3[0x3];                                   // 0x0151(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Weight;                                                  // 0x0154(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigUnit_DistributeRotation_WorkData                WorkData;                                                // 0x0158(0x0050) Transient, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_LXK6[0x8];                                   // 0x01A8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_61TK[0x8];                                   // 0x01A8(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -6101,11 +6101,11 @@ namespace CG
 		float                                                      Precision;                                               // 0x01A0(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x01A4(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x01A8(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_COB4[0x3];                                   // 0x01A9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_C90E[0x3];                                   // 0x01A9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    MaxIterations;                                           // 0x01AC(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigUnit_FABRIK_WorkData                            WorkData;                                                // 0x01B0(0x0040) Transient, NativeAccessSpecifierPublic
 		bool                                                       bSetEffectorTransform;                                   // 0x01F0(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_WS57[0xF];                                   // 0x01F1(0x000F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_CILM[0xF];                                   // 0x01F1(0x000F) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -6120,11 +6120,11 @@ namespace CG
 		float                                                      Precision;                                               // 0x01A0(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x01A4(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x01A8(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_RPSY[0x3];                                   // 0x01A9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_2KSQ[0x3];                                   // 0x01A9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    MaxIterations;                                           // 0x01AC(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigUnit_FABRIK_WorkData                            WorkData;                                                // 0x01B0(0x0040) Transient, NativeAccessSpecifierPublic
 		bool                                                       bSetEffectorTransform;                                   // 0x01F0(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_C6KI[0xF];                                   // 0x01F1(0x000F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_NYS7[0xF];                                   // 0x01F1(0x000F) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -6139,11 +6139,11 @@ namespace CG
 		float                                                      Precision;                                               // 0x01A0(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x01A4(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x01A8(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_B2HI[0x3];                                   // 0x01A9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_WR1A[0x3];                                   // 0x01A9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    MaxIterations;                                           // 0x01AC(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigUnit_FABRIK_WorkData                            WorkData;                                                // 0x01B0(0x0040) Transient, NativeAccessSpecifierPublic
 		bool                                                       bSetEffectorTransform;                                   // 0x01F0(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_85RH[0xF];                                   // 0x01F1(0x000F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_L17Y[0xF];                                   // 0x01F1(0x000F) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -6155,7 +6155,7 @@ namespace CG
 	public:
 		struct FQuat                                               Rotation;                                                // 0x0000(0x0020) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Ratio;                                                   // 0x0020(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_Y9RH[0xC];                                   // 0x0024(0x000C) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_28VG[0xC];                                   // 0x0024(0x000C) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -6166,11 +6166,11 @@ namespace CG
 	{
 	public:
 		bool                                                       bEnabled;                                                // 0x0000(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_1UXX[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_CF7G[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Scale;                                                   // 0x0004(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FLinearColor                                        CurveColor;                                              // 0x0008(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FLinearColor                                        SegmentsColor;                                           // 0x0018(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_G2HC[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_8FXQ[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          WorldOffset;                                             // 0x0030(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -6182,7 +6182,7 @@ namespace CG
 	{
 	public:
 		float                                                      ChainLength;                                             // 0x0000(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_PGGI[0x4];                                   // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_EYFU[0x4];                                   // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FVector>                                     ItemPositions;                                           // 0x0008(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
 		TArray<float>                                              ItemSegments;                                            // 0x0018(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
 		TArray<struct FVector>                                     CurvePositions;                                          // 0x0028(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
@@ -6205,7 +6205,7 @@ namespace CG
 		class FName                                                EndBone;                                                 // 0x0138(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigVMFourPointBezier                               Bezier;                                                  // 0x0140(0x0060) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		EControlRigCurveAlignment                                  Alignment;                                               // 0x01A0(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_TOCU[0x3];                                   // 0x01A1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ECHE[0x3];                                   // 0x01A1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Minimum;                                                 // 0x01A4(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Maximum;                                                 // 0x01A8(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    SamplingPrecision;                                       // 0x01AC(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -6214,13 +6214,13 @@ namespace CG
 		struct FVector                                             PoleVectorPosition;                                      // 0x01E0(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<struct FRigUnit_FitChainToCurve_Rotation>           Rotations;                                               // 0x01F8(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		ERigVMAnimEasingType                                       RotationEaseType;                                        // 0x0208(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_65ZW[0x3];                                   // 0x0209(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_KLPY[0x3];                                   // 0x0209(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Weight;                                                  // 0x020C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x0210(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_X2AN[0xF];                                   // 0x0211(0x000F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_BJGQ[0xF];                                   // 0x0211(0x000F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_FitChainToCurve_DebugSettings              DebugSettings;                                           // 0x0220(0x0090) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FRigUnit_FitChainToCurve_WorkData                   WorkData;                                                // 0x02B0(0x0098) Transient, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_TE27[0x8];                                   // 0x0348(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_YIM0[0x8];                                   // 0x0348(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -6233,7 +6233,7 @@ namespace CG
 		struct FRigElementKeyCollection                            Items;                                                   // 0x0130(0x0010) Edit, BlueprintVisible, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigVMFourPointBezier                               Bezier;                                                  // 0x0140(0x0060) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		EControlRigCurveAlignment                                  Alignment;                                               // 0x01A0(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_RUGZ[0x3];                                   // 0x01A1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_A9S7[0x3];                                   // 0x01A1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Minimum;                                                 // 0x01A4(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Maximum;                                                 // 0x01A8(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    SamplingPrecision;                                       // 0x01AC(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -6242,13 +6242,13 @@ namespace CG
 		struct FVector                                             PoleVectorPosition;                                      // 0x01E0(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<struct FRigUnit_FitChainToCurve_Rotation>           Rotations;                                               // 0x01F8(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		ERigVMAnimEasingType                                       RotationEaseType;                                        // 0x0208(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_GJ46[0x3];                                   // 0x0209(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_Y2W5[0x3];                                   // 0x0209(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Weight;                                                  // 0x020C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x0210(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_RIG5[0xF];                                   // 0x0211(0x000F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_8RZ2[0xF];                                   // 0x0211(0x000F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_FitChainToCurve_DebugSettings              DebugSettings;                                           // 0x0220(0x0090) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FRigUnit_FitChainToCurve_WorkData                   WorkData;                                                // 0x02B0(0x0098) Transient, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_C92U[0x8];                                   // 0x0348(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_W0K2[0x8];                                   // 0x0348(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -6261,7 +6261,7 @@ namespace CG
 		TArray<struct FRigElementKey>                              Items;                                                   // 0x0130(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		struct FRigVMFourPointBezier                               Bezier;                                                  // 0x0140(0x0060) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		EControlRigCurveAlignment                                  Alignment;                                               // 0x01A0(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_A48I[0x3];                                   // 0x01A1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_PJFN[0x3];                                   // 0x01A1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Minimum;                                                 // 0x01A4(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Maximum;                                                 // 0x01A8(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    SamplingPrecision;                                       // 0x01AC(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -6270,13 +6270,13 @@ namespace CG
 		struct FVector                                             PoleVectorPosition;                                      // 0x01E0(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<struct FRigUnit_FitChainToCurve_Rotation>           Rotations;                                               // 0x01F8(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		ERigVMAnimEasingType                                       RotationEaseType;                                        // 0x0208(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_XGDK[0x3];                                   // 0x0209(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_HWNJ[0x3];                                   // 0x0209(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Weight;                                                  // 0x020C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x0210(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_6MYS[0xF];                                   // 0x0211(0x000F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_58U1[0xF];                                   // 0x0211(0x000F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_FitChainToCurve_DebugSettings              DebugSettings;                                           // 0x0220(0x0090) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FRigUnit_FitChainToCurve_WorkData                   WorkData;                                                // 0x02B0(0x0098) Transient, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_LY8K[0x8];                                   // 0x0348(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_VKKB[0x8];                                   // 0x0348(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -6287,7 +6287,7 @@ namespace CG
 	{
 	public:
 		class FName                                                bone;                                                    // 0x0000(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8PR8[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_4LVE[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Transform;                                               // 0x0010(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -6320,7 +6320,7 @@ namespace CG
 		float                                                      WeightMinimum;                                           // 0x0144(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      WeightMaximum;                                           // 0x0148(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EControlRigModifyBoneMode                                  Mode;                                                    // 0x014C(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_6SW6[0x3];                                   // 0x014D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_66DF[0x3];                                   // 0x014D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_ModifyBoneTransforms_WorkData              WorkData;                                                // 0x0150(0x0010) Transient, NativeAccessSpecifierPublic
 	};
 
@@ -6332,7 +6332,7 @@ namespace CG
 	{
 	public:
 		struct FRigElementKey                                      Item;                                                    // 0x0000(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_HD4Z[0x4];                                   // 0x000C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_S3TX[0x4];                                   // 0x000C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Transform;                                               // 0x0010(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -6348,7 +6348,7 @@ namespace CG
 		float                                                      WeightMinimum;                                           // 0x0144(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      WeightMaximum;                                           // 0x0148(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EControlRigModifyBoneMode                                  Mode;                                                    // 0x014C(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_JK09[0x3];                                   // 0x014D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_192W[0x3];                                   // 0x014D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_ModifyTransforms_WorkData                  WorkData;                                                // 0x0150(0x0010) Transient, NativeAccessSpecifierPublic
 	};
 
@@ -6359,7 +6359,7 @@ namespace CG
 	struct FRigUnit_MultiFABRIK_WorkData
 	{
 	public:
-		unsigned char                                              UnknownData_JG8U[0x68];                                  // 0x0000(0x0068) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_PL7K[0x68];                                  // 0x0000(0x0068) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -6384,12 +6384,12 @@ namespace CG
 		TArray<struct FRigUnit_MultiFABRIK_EndEffector>            Effectors;                                               // 0x0138(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		float                                                      Precision;                                               // 0x0148(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x014C(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_6SDX[0x3];                                   // 0x014D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_MTLE[0x3];                                   // 0x014D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    MaxIterations;                                           // 0x0150(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_3FZV[0x4];                                   // 0x0154(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_1HM4[0x4];                                   // 0x0154(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_MultiFABRIK_WorkData                       WorkData;                                                // 0x0158(0x0068) Transient, NativeAccessSpecifierPublic
 		bool                                                       bIsInitialized;                                          // 0x01C0(0x0001) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_XEY4[0xF];                                   // 0x01C1(0x000F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_W133[0xF];                                   // 0x01C1(0x000F) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -6400,7 +6400,7 @@ namespace CG
 	{
 	public:
 		float                                                      ChainLength;                                             // 0x0000(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_YXOP[0x4];                                   // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_F5O9[0x4];                                   // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<float>                                              ItemSegments;                                            // 0x0008(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
 		TArray<struct FCachedRigElement>                           CachedItems;                                             // 0x0018(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
 		TArray<struct FTransform>                                  Transforms;                                              // 0x0028(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
@@ -6418,7 +6418,7 @@ namespace CG
 		class FName                                                EndBone;                                                 // 0x0138(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      SlideAmount;                                             // 0x0140(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x0144(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_NVSD[0x3];                                   // 0x0145(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ACE0[0x3];                                   // 0x0145(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_SlideChain_WorkData                        WorkData;                                                // 0x0148(0x0048) Transient, NativeAccessSpecifierPublic
 	};
 
@@ -6432,7 +6432,7 @@ namespace CG
 		struct FRigElementKeyCollection                            Items;                                                   // 0x0130(0x0010) Edit, BlueprintVisible, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      SlideAmount;                                             // 0x0140(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x0144(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_6XMS[0x3];                                   // 0x0145(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_4FDS[0x3];                                   // 0x0145(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_SlideChain_WorkData                        WorkData;                                                // 0x0148(0x0048) Transient, NativeAccessSpecifierPublic
 	};
 
@@ -6446,7 +6446,7 @@ namespace CG
 		TArray<struct FRigElementKey>                              Items;                                                   // 0x0130(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		float                                                      SlideAmount;                                             // 0x0140(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x0144(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_9OF7[0x3];                                   // 0x0145(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_35AC[0x3];                                   // 0x0145(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_SlideChain_WorkData                        WorkData;                                                // 0x0148(0x0048) Transient, NativeAccessSpecifierPublic
 	};
 
@@ -6470,7 +6470,7 @@ namespace CG
 	struct FSphericalRegion
 	{
 	public:
-		unsigned char                                              UnknownData_YG04[0x14];                                  // 0x0000(0x0014) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_478J[0x14];                                  // 0x0000(0x0014) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -6483,7 +6483,7 @@ namespace CG
 		bool                                                       bDrawDebug;                                              // 0x0000(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bDraw2D;                                                 // 0x0001(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bDrawLocalAxes;                                          // 0x0002(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_GYP9[0x1];                                   // 0x0003(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_8GYO[0x1];                                   // 0x0003(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      DebugScale;                                              // 0x0004(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    DebugSegments;                                           // 0x0008(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      DebugThickness;                                          // 0x000C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -6506,7 +6506,7 @@ namespace CG
 		struct FRegionScaleFactors                                 FalloffRegionScaleFactors;                               // 0x0188(0x0010) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		bool                                                       FlipWidthScaling;                                        // 0x0198(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       FlipHeightScaling;                                       // 0x0199(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_Y0R7[0x2];                                   // 0x019A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_9LWB[0x2];                                   // 0x019A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigElementKey                                      OptionalParentItem;                                      // 0x019C(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FSphericalPoseReaderDebugSettings                   Debug;                                                   // 0x01A8(0x0010) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FSphericalRegion                                    InnerRegion;                                             // 0x01B8(0x0014) Transient, NoDestructor, NativeAccessSpecifierPublic
@@ -6518,7 +6518,7 @@ namespace CG
 		struct FTransform                                          LocalDriverTransformInit;                                // 0x0250(0x0060) IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             CachedRotationOffset;                                    // 0x02B0(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bCachedInitTransforms;                                   // 0x02C8(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_L7WW[0x7];                                   // 0x02C9(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_I0U0[0x7];                                   // 0x02C9(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -6529,10 +6529,10 @@ namespace CG
 	{
 	public:
 		bool                                                       bEnabled;                                                // 0x0000(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_24DS[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_HY2Q[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Scale;                                                   // 0x0004(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FLinearColor                                        Color;                                                   // 0x0008(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_QGIN[0x8];                                   // 0x0018(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_NOY7[0x8];                                   // 0x0018(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          WorldOffset;                                             // 0x0020(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -6567,20 +6567,20 @@ namespace CG
 		struct FVector                                             PoleVector;                                              // 0x0158(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bFlipPolePlane;                                          // 0x0170(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EControlRigVectorKind                                      PoleVectorKind;                                          // 0x0171(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_64SH[0x2];                                   // 0x0172(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_0RLP[0x2];                                   // 0x0172(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FName                                                PoleVectorSpace;                                         // 0x0174(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_7N7T[0x4];                                   // 0x017C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_46HE[0x4];                                   // 0x017C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             PrimaryAxis;                                             // 0x0180(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             SecondaryAxis;                                           // 0x0198(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bLiveSimulation;                                         // 0x01B0(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_9S1A[0x3];                                   // 0x01B1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_49JK[0x3];                                   // 0x01B1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    Iterations;                                              // 0x01B4(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bLimitLocalPosition;                                     // 0x01B8(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x01B9(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_AYSL[0x6];                                   // 0x01BA(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_06J8[0x6];                                   // 0x01BA(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_SpringIK_DebugSettings                     DebugSettings;                                           // 0x01C0(0x0080) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FRigUnit_SpringIK_WorkData                          WorkData;                                                // 0x0240(0x00B8) Transient, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_N25I[0x8];                                   // 0x02F8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_5JJ4[0x8];                                   // 0x02F8(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -6594,7 +6594,7 @@ namespace CG
 		float                                                      Weight;                                                  // 0x0060(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bMaintainOffset;                                         // 0x0064(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FTransformFilter                                    Filter;                                                  // 0x0065(0x0009) Edit, BlueprintVisible, EditConst, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_RVNA[0x2];                                   // 0x006E(0x0002) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_DW2H[0x2];                                   // 0x006E(0x0002) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -6617,12 +6617,12 @@ namespace CG
 	public:
 		class FName                                                bone;                                                    // 0x0130(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ETransformSpaceMode                                        BaseTransformSpace;                                      // 0x0138(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_6SO6[0x7];                                   // 0x0139(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_6NZ5[0x7];                                   // 0x0139(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          BaseTransform;                                           // 0x0140(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FName                                                BaseBone;                                                // 0x01A0(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<struct FConstraintTarget>                           Targets;                                                 // 0x01A8(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		bool                                                       bUseInitialTransforms;                                   // 0x01B8(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_E2EP[0x7];                                   // 0x01B9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_U055[0x7];                                   // 0x01B9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_TransformConstraint_WorkData               WorkData;                                                // 0x01C0(0x0060) Transient, NativeAccessSpecifierPrivate
 	};
 
@@ -6635,15 +6635,15 @@ namespace CG
 	public:
 		struct FRigElementKey                                      Item;                                                    // 0x0130(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ETransformSpaceMode                                        BaseTransformSpace;                                      // 0x013C(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_OLOH[0x3];                                   // 0x013D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ZPZV[0x3];                                   // 0x013D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          BaseTransform;                                           // 0x0140(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigElementKey                                      BaseItem;                                                // 0x01A0(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_YF72[0x4];                                   // 0x01AC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_GA31[0x4];                                   // 0x01AC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FConstraintTarget>                           Targets;                                                 // 0x01B0(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		bool                                                       bUseInitialTransforms;                                   // 0x01C0(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_AF9D[0x7];                                   // 0x01C1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_OP3S[0x7];                                   // 0x01C1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_TransformConstraint_WorkData               WorkData;                                                // 0x01C8(0x0060) Transient, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_X5VI[0x8];                                   // 0x0228(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_6X7J[0x8];                                   // 0x0228(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -6667,10 +6667,10 @@ namespace CG
 		struct FRigElementKey                                      Child;                                                   // 0x0130(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bMaintainOffset;                                         // 0x013C(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FTransformFilter                                    Filter;                                                  // 0x013D(0x0009) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_9EBU[0x2];                                   // 0x0146(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_FAJ8[0x2];                                   // 0x0146(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FConstraintParent>                           Parents;                                                 // 0x0148(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		struct FRigUnit_ParentConstraint_AdvancedSettings          AdvancedSettings;                                        // 0x0158(0x0002) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_TVY0[0x2];                                   // 0x015A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_3H95[0x2];                                   // 0x015A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Weight;                                                  // 0x015C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   ChildCache;                                              // 0x0160(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<struct FCachedRigElement>                           ParentCaches;                                            // 0x0180(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
@@ -6688,7 +6688,7 @@ namespace CG
 		struct FFilterOptionPerAxis                                Filter;                                                  // 0x013D(0x0003) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		TArray<struct FConstraintParent>                           Parents;                                                 // 0x0140(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x0150(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ZCOE[0xC];                                   // 0x0154(0x000C) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_6111[0xC];                                   // 0x0154(0x000C) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -6703,10 +6703,10 @@ namespace CG
 		struct FFilterOptionPerAxis                                Filter;                                                  // 0x013D(0x0003) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		TArray<struct FConstraintParent>                           Parents;                                                 // 0x0140(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x0150(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_LLFP[0x4];                                   // 0x0154(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_IO0C[0x4];                                   // 0x0154(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   ChildCache;                                              // 0x0158(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<struct FCachedRigElement>                           ParentCaches;                                            // 0x0178(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ANSA[0x8];                                   // 0x0188(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_0OQK[0x8];                                   // 0x0188(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -6732,9 +6732,9 @@ namespace CG
 		struct FFilterOptionPerAxis                                Filter;                                                  // 0x013D(0x0003) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		TArray<struct FConstraintParent>                           Parents;                                                 // 0x0140(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		struct FRigUnit_RotationConstraint_AdvancedSettings        AdvancedSettings;                                        // 0x0150(0x0002) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_UMGU[0x2];                                   // 0x0152(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_IZ1X[0x2];                                   // 0x0152(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Weight;                                                  // 0x0154(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_VDXF[0x8];                                   // 0x0158(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_HXFI[0x8];                                   // 0x0158(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -6749,11 +6749,11 @@ namespace CG
 		struct FFilterOptionPerAxis                                Filter;                                                  // 0x013D(0x0003) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		TArray<struct FConstraintParent>                           Parents;                                                 // 0x0140(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		struct FRigUnit_RotationConstraint_AdvancedSettings        AdvancedSettings;                                        // 0x0150(0x0002) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_RP5O[0x2];                                   // 0x0152(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_WE2G[0x2];                                   // 0x0152(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Weight;                                                  // 0x0154(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   ChildCache;                                              // 0x0158(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<struct FCachedRigElement>                           ParentCaches;                                            // 0x0178(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_YTJX[0x8];                                   // 0x0188(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_8KRN[0x8];                                   // 0x0188(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -6768,7 +6768,7 @@ namespace CG
 		struct FFilterOptionPerAxis                                Filter;                                                  // 0x013D(0x0003) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		TArray<struct FConstraintParent>                           Parents;                                                 // 0x0140(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x0150(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_2H62[0xC];                                   // 0x0154(0x000C) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_D57S[0xC];                                   // 0x0154(0x000C) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -6783,10 +6783,10 @@ namespace CG
 		struct FFilterOptionPerAxis                                Filter;                                                  // 0x013D(0x0003) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		TArray<struct FConstraintParent>                           Parents;                                                 // 0x0140(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x0150(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_BUBH[0x4];                                   // 0x0154(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_93EU[0x4];                                   // 0x0154(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCachedRigElement                                   ChildCache;                                              // 0x0158(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<struct FCachedRigElement>                           ParentCaches;                                            // 0x0178(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_O66T[0x8];                                   // 0x0188(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_1M0E[0x8];                                   // 0x0188(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -6813,10 +6813,10 @@ namespace CG
 		struct FVector                                             TwistAxis;                                               // 0x0140(0x0018) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             PoleAxis;                                                // 0x0158(0x0018) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMAnimEasingType                                       TwistEaseType;                                           // 0x0170(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_IGPT[0x3];                                   // 0x0171(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_3NN0[0x3];                                   // 0x0171(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Weight;                                                  // 0x0174(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x0178(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_FD39[0x7];                                   // 0x0179(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_94N5[0x7];                                   // 0x0179(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_TwistBones_WorkData                        WorkData;                                                // 0x0180(0x0030) Transient, NativeAccessSpecifierPublic
 	};
 
@@ -6831,10 +6831,10 @@ namespace CG
 		struct FVector                                             TwistAxis;                                               // 0x0140(0x0018) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             PoleAxis;                                                // 0x0158(0x0018) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMAnimEasingType                                       TwistEaseType;                                           // 0x0170(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_JY18[0x3];                                   // 0x0171(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_I41K[0x3];                                   // 0x0171(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Weight;                                                  // 0x0174(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x0178(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_I43N[0x7];                                   // 0x0179(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_LHYH[0x7];                                   // 0x0179(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_TwistBones_WorkData                        WorkData;                                                // 0x0180(0x0030) Transient, NativeAccessSpecifierPublic
 	};
 
@@ -6846,9 +6846,9 @@ namespace CG
 	{
 	public:
 		bool                                                       bEnabled;                                                // 0x0000(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_6XF1[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_RP3X[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Scale;                                                   // 0x0004(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_GOB9[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_U10E[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          WorldOffset;                                             // 0x0010(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -6862,25 +6862,25 @@ namespace CG
 		class FName                                                BoneA;                                                   // 0x0130(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FName                                                BoneB;                                                   // 0x0138(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FName                                                EffectorBone;                                            // 0x0140(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_40Q2[0x8];                                   // 0x0148(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_VPU6[0x8];                                   // 0x0148(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Effector;                                                // 0x0150(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             PrimaryAxis;                                             // 0x01B0(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             SecondaryAxis;                                           // 0x01C8(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      SecondaryAxisWeight;                                     // 0x01E0(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_1KUW[0x4];                                   // 0x01E4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_EUJJ[0x4];                                   // 0x01E4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             PoleVector;                                              // 0x01E8(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EControlRigVectorKind                                      PoleVectorKind;                                          // 0x0200(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_MO3F[0x3];                                   // 0x0201(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_DZFA[0x3];                                   // 0x0201(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FName                                                PoleVectorSpace;                                         // 0x0204(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bEnableStretch;                                          // 0x020C(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_CQ7K[0x3];                                   // 0x020D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_Y8MN[0x3];                                   // 0x020D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      StretchStartRatio;                                       // 0x0210(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      StretchMaximumRatio;                                     // 0x0214(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x0218(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      BoneALength;                                             // 0x021C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      BoneBLength;                                             // 0x0220(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x0224(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8LCG[0xB];                                   // 0x0225(0x000B) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_7Z6H[0xB];                                   // 0x0225(0x000B) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_TwoBoneIKSimple_DebugSettings              DebugSettings;                                           // 0x0230(0x0070) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedBoneAIndex;                                        // 0x02A0(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedBoneBIndex;                                        // 0x02C0(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -6898,25 +6898,25 @@ namespace CG
 		struct FRigElementKey                                      ItemA;                                                   // 0x0130(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigElementKey                                      ItemB;                                                   // 0x013C(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRigElementKey                                      EffectorItem;                                            // 0x0148(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_XUU2[0xC];                                   // 0x0154(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_A7QR[0xC];                                   // 0x0154(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Effector;                                                // 0x0160(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             PrimaryAxis;                                             // 0x01C0(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             SecondaryAxis;                                           // 0x01D8(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      SecondaryAxisWeight;                                     // 0x01F0(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_T3OP[0x4];                                   // 0x01F4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_D8F2[0x4];                                   // 0x01F4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             PoleVector;                                              // 0x01F8(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EControlRigVectorKind                                      PoleVectorKind;                                          // 0x0210(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_UWMI[0x3];                                   // 0x0211(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_0KPI[0x3];                                   // 0x0211(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigElementKey                                      PoleVectorSpace;                                         // 0x0214(0x000C) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bEnableStretch;                                          // 0x0220(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_B827[0x3];                                   // 0x0221(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_BFC5[0x3];                                   // 0x0221(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      StretchStartRatio;                                       // 0x0224(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      StretchMaximumRatio;                                     // 0x0228(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Weight;                                                  // 0x022C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      ItemALength;                                             // 0x0230(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      ItemBLength;                                             // 0x0234(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x0238(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_PK6D[0x7];                                   // 0x0239(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_IJUY[0x7];                                   // 0x0239(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_TwoBoneIKSimple_DebugSettings              DebugSettings;                                           // 0x0240(0x0070) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedItemAIndex;                                        // 0x02B0(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FCachedRigElement                                   CachedItemBIndex;                                        // 0x02D0(0x0020) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -6935,12 +6935,12 @@ namespace CG
 		struct FVector                                             PoleVector;                                              // 0x0020(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             Effector;                                                // 0x0038(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bEnableStretch;                                          // 0x0050(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ODRC[0x3];                                   // 0x0051(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_G4IE[0x3];                                   // 0x0051(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      StretchStartRatio;                                       // 0x0054(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      StretchMaximumRatio;                                     // 0x0058(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      BoneALength;                                             // 0x005C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      BoneBLength;                                             // 0x0060(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_BGC9[0x4];                                   // 0x0064(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_FY05[0x4];                                   // 0x0064(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             Elbow;                                                   // 0x0068(0x0018) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -6951,21 +6951,21 @@ namespace CG
 	struct FRigUnit_TwoBoneIKSimpleTransforms : public FRigUnit_HighlevelBase
 	{
 	public:
-		unsigned char                                              UnknownData_MYNU[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_17QJ[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Root;                                                    // 0x0010(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             PoleVector;                                              // 0x0070(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_SY4N[0x8];                                   // 0x0088(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_57MS[0x8];                                   // 0x0088(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Effector;                                                // 0x0090(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             PrimaryAxis;                                             // 0x00F0(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             SecondaryAxis;                                           // 0x0108(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      SecondaryAxisWeight;                                     // 0x0120(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bEnableStretch;                                          // 0x0124(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_Q9VO[0x3];                                   // 0x0125(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_Q6Z1[0x3];                                   // 0x0125(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      StretchStartRatio;                                       // 0x0128(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      StretchMaximumRatio;                                     // 0x012C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      BoneALength;                                             // 0x0130(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      BoneBLength;                                             // 0x0134(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_COP5[0x8];                                   // 0x0138(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_BF9K[0x8];                                   // 0x0138(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          Elbow;                                                   // 0x0140(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -6977,11 +6977,11 @@ namespace CG
 	{
 	public:
 		bool                                                       bEnabled;                                                // 0x0000(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ZPXU[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_IJIB[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Scale;                                                   // 0x0004(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      CollisionScale;                                          // 0x0008(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bDrawPointsAsSpheres;                                    // 0x000C(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ODR2[0x3];                                   // 0x000D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ZLL5[0x3];                                   // 0x000D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FLinearColor                                        Color;                                                   // 0x0010(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FTransform                                          WorldOffset;                                             // 0x0020(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
@@ -7023,20 +7023,20 @@ namespace CG
 		TArray<struct FCRSimSoftCollision>                         CollisionVolumes;                                        // 0x0130(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		float                                                      SimulatedStepsPerSecond;                                 // 0x0140(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERigVMSimPointIntegrateType                                IntegratorType;                                          // 0x0144(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_99K5[0x3];                                   // 0x0145(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_H8FC[0x3];                                   // 0x0145(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      VerletBlend;                                             // 0x0148(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_N2Y9[0x4];                                   // 0x014C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_83C4[0x4];                                   // 0x014C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FRigUnit_PointSimulation_BoneTarget>         BoneTargets;                                             // 0x0150(0x0010) Edit, BlueprintVisible, ZeroConstructor, EditConst, NativeAccessSpecifierPublic
 		bool                                                       bLimitLocalPosition;                                     // 0x0160(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x0161(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_P17I[0x6];                                   // 0x0162(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_9TMK[0x6];                                   // 0x0162(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             PrimaryAimAxis;                                          // 0x0168(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             SecondaryAimAxis;                                        // 0x0180(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_HWKX[0x8];                                   // 0x0198(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_FH07[0x8];                                   // 0x0198(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_PointSimulation_DebugSettings              DebugSettings;                                           // 0x01A0(0x0080) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FRigVMFourPointBezier                               Bezier;                                                  // 0x0220(0x0060) BlueprintVisible, BlueprintReadOnly, NoDestructor, NativeAccessSpecifierPublic
 		struct FRigUnit_PointSimulation_WorkData                   WorkData;                                                // 0x0280(0x0088) Transient, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_4GAY[0x8];                                   // 0x0308(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_L7XB[0x8];                                   // 0x0308(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -7053,7 +7053,7 @@ namespace CG
 		float                                                      Mass;                                                    // 0x0018(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Result;                                                  // 0x001C(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FFloatSpringState                                   SpringState;                                             // 0x0020(0x000C) NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_U93I[0x4];                                   // 0x002C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_D3NO[0x4];                                   // 0x002C(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -7068,7 +7068,7 @@ namespace CG
 		float                                                      Stiffness;                                               // 0x0038(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      CriticalDamping;                                         // 0x003C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Mass;                                                    // 0x0040(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8KBK[0x4];                                   // 0x0044(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_TYLA[0x4];                                   // 0x0044(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             Result;                                                  // 0x0048(0x0018) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVectorSpringState                                  SpringState;                                             // 0x0060(0x0038) NoDestructor, NativeAccessSpecifierPublic
 	};
@@ -7085,11 +7085,11 @@ namespace CG
 		float                                                      CriticalDamping;                                         // 0x0010(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Force;                                                   // 0x0014(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bUseCurrentInput;                                        // 0x0018(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_Q5FZ[0x3];                                   // 0x0019(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_0RLC[0x3];                                   // 0x0019(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Current;                                                 // 0x001C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      TargetVelocityAmount;                                    // 0x0020(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bInitializeFromTarget;                                   // 0x0024(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_UMGZ[0x3];                                   // 0x0025(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_X6JV[0x3];                                   // 0x0025(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Result;                                                  // 0x0028(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Velocity;                                                // 0x002C(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      SimulatedResult;                                         // 0x0030(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -7108,11 +7108,11 @@ namespace CG
 		float                                                      CriticalDamping;                                         // 0x0024(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             Force;                                                   // 0x0028(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bUseCurrentInput;                                        // 0x0040(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_JJQL[0x7];                                   // 0x0041(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_OB7K[0x7];                                   // 0x0041(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             Current;                                                 // 0x0048(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      TargetVelocityAmount;                                    // 0x0060(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bInitializeFromTarget;                                   // 0x0064(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_D2CB[0x3];                                   // 0x0065(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_PQJR[0x3];                                   // 0x0065(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             Result;                                                  // 0x0068(0x0018) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             Velocity;                                                // 0x0080(0x0018) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             SimulatedResult;                                         // 0x0098(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -7126,20 +7126,20 @@ namespace CG
 	struct FRigUnit_SpringInterpQuaternionV2 : public FRigVMFunction_SimBase
 	{
 	public:
-		unsigned char                                              UnknownData_4TE9[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_5MQR[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FQuat                                               Target;                                                  // 0x0010(0x0020) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Strength;                                                // 0x0030(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      CriticalDamping;                                         // 0x0034(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             Torque;                                                  // 0x0038(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bUseCurrentInput;                                        // 0x0050(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_OBJ7[0xF];                                   // 0x0051(0x000F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_XDO1[0xF];                                   // 0x0051(0x000F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FQuat                                               Current;                                                 // 0x0060(0x0020) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      TargetVelocityAmount;                                    // 0x0080(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bInitializeFromTarget;                                   // 0x0084(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_T68G[0xB];                                   // 0x0085(0x000B) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_CHYN[0xB];                                   // 0x0085(0x000B) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FQuat                                               Result;                                                  // 0x0090(0x0020) BlueprintVisible, BlueprintReadOnly, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             AngularVelocity;                                         // 0x00B0(0x0018) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_T682[0x8];                                   // 0x00C8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_86XC[0x8];                                   // 0x00C8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FQuat                                               SimulatedResult;                                         // 0x00D0(0x0020) IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FQuaternionSpringState                              SpringState;                                             // 0x00F0(0x0040) NoDestructor, NativeAccessSpecifierPublic
 	};

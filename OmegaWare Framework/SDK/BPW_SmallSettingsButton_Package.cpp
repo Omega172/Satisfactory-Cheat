@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_SmallSettingsButton.BPW_SmallSettingsButton_C.BndEvt__BPW_SmallSettingsButton_mButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -31,7 +31,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_SmallSettingsButton.BPW_SmallSettingsButton_C.ExecuteUbergraph_BPW_SmallSettingsButton
 	 * 		Flags  -> (Final)
 	 * Parameters:
@@ -53,7 +53,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_SmallSettingsButton.BPW_SmallSettingsButton_C.OnClicked__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 */

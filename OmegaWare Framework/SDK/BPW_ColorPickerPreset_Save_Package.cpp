@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ColorPickerPreset_Save.BPW_ColorPickerPreset_Save_C.GenerateUnavailableNames
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -31,7 +31,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ColorPickerPreset_Save.BPW_ColorPickerPreset_Save_C.OnSaveDialogeClosed
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -53,7 +53,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ColorPickerPreset_Save.BPW_ColorPickerPreset_Save_C.AttemptSave
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -72,7 +72,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ColorPickerPreset_Save.BPW_ColorPickerPreset_Save_C.SavePreset
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -91,7 +91,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ColorPickerPreset_Save.BPW_ColorPickerPreset_Save_C.GenerateTakenNames
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -110,7 +110,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ColorPickerPreset_Save.BPW_ColorPickerPreset_Save_C.GetText
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -134,7 +134,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ColorPickerPreset_Save.BPW_ColorPickerPreset_Save_C.GetShouldOkayBeEnabled
 	 * 		Flags  -> (Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -155,7 +155,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ColorPickerPreset_Save.BPW_ColorPickerPreset_Save_C.Construct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 */
@@ -174,7 +174,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ColorPickerPreset_Save.BPW_ColorPickerPreset_Save_C.PreConstruct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -196,7 +196,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ColorPickerPreset_Save.BPW_ColorPickerPreset_Save_C.BndEvt__Widget_Window_DarkMode_K2Node_ComponentBoundEvent_0_OnClose__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -215,7 +215,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ColorPickerPreset_Save.BPW_ColorPickerPreset_Save_C.BndEvt__mCancelButton_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -234,7 +234,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ColorPickerPreset_Save.BPW_ColorPickerPreset_Save_C.BndEvt__mSaveButton_K2Node_ComponentBoundEvent_2_OnClicked__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -253,7 +253,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ColorPickerPreset_Save.BPW_ColorPickerPreset_Save_C.BndEvt__mPresetName_K2Node_ComponentBoundEvent_3_OnEditableTextBoxChangedEvent__DelegateSignature
 	 * 		Flags  -> (HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -275,7 +275,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ColorPickerPreset_Save.BPW_ColorPickerPreset_Save_C.Destruct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 */
@@ -294,7 +294,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ColorPickerPreset_Save.BPW_ColorPickerPreset_Save_C.ExecuteUbergraph_BPW_ColorPickerPreset_Save
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:
@@ -316,7 +316,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ColorPickerPreset_Save.BPW_ColorPickerPreset_Save_C.mOnPresetSaved__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 * Parameters:

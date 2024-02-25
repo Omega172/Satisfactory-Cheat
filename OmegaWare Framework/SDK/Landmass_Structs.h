@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -46,7 +46,7 @@ namespace CG
 	{
 	public:
 		bool                                                       bBlurShape;                                              // 0x0000(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ZWZO[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_NYP6[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    Radius;                                                  // 0x0004(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -71,12 +71,12 @@ namespace CG
 	{
 	public:
 		bool                                                       bUseCurveChannel;                                        // 0x0000(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_YMD2[0x7];                                   // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_2UIV[0x7];                                   // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UCurveFloat*                                         ElevationCurveAsset;                                     // 0x0008(0x0008) Edit, BlueprintVisible, ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      ChannelEdgeOffset;                                       // 0x0010(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      ChannelDepth;                                            // 0x0014(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      CurveRampWidth;                                          // 0x0018(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_U6LF[0x4];                                   // 0x001C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_TF2M[0x4];                                   // 0x001C(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -131,7 +131,7 @@ namespace CG
 		struct FBrushEffectDisplacement                            Displacement;                                            // 0x0018(0x0028) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FBrushEffectSmoothBlending                          SmoothBlending;                                          // 0x0040(0x0008) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FBrushEffectTerracing                               Terracing;                                               // 0x0048(0x0014) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_VG4H[0x4];                                   // 0x005C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_OU5I[0x4];                                   // 0x005C(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -142,7 +142,7 @@ namespace CG
 	{
 	public:
 		EBrushFalloffMode                                          FalloffMode;                                             // 0x0000(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_IC7L[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_F0X9[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      FalloffAngle;                                            // 0x0004(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      FalloffWidth;                                            // 0x0008(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      EdgeOffset;                                              // 0x000C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -158,11 +158,11 @@ namespace CG
 	public:
 		EBrushBlendType                                            BlendMode;                                               // 0x0000(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bInvertShape;                                            // 0x0001(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_19I5[0x2];                                   // 0x0002(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_IAFF[0x2];                                   // 0x0002(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FLandmassFalloffSettings                            FalloffSettings;                                         // 0x0004(0x0014) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FLandmassBrushEffectsList                           Effects;                                                 // 0x0018(0x0060) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		int32_t                                                    Priority;                                                // 0x0078(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_G4M4[0x4];                                   // 0x007C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_CCKM[0x4];                                   // 0x007C(0x0004) MISSED OFFSET (PADDING)
 	};
 
 }

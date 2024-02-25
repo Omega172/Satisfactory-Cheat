@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_WeaponAimCircle.BPW_WeaponAimCircle_C.SetForcedVisibility
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -34,7 +34,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_WeaponAimCircle.BPW_WeaponAimCircle_C.ToggleVisibility
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -53,7 +53,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_WeaponAimCircle.BPW_WeaponAimCircle_C.GetTraceLocations
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -80,7 +80,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_WeaponAimCircle.BPW_WeaponAimCircle_C.Construct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 */
@@ -99,7 +99,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_WeaponAimCircle.BPW_WeaponAimCircle_C.Tick
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -123,7 +123,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_WeaponAimCircle.BPW_WeaponAimCircle_C.OnEquipmentUpdated
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -145,7 +145,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_WeaponAimCircle.BPW_WeaponAimCircle_C.ForceUpdateCrosshair
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -164,7 +164,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_WeaponAimCircle.BPW_WeaponAimCircle_C.OnBuildGunStateChanged
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -186,7 +186,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_WeaponAimCircle.BPW_WeaponAimCircle_C.OnCrosshairUpdated
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -212,7 +212,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_WeaponAimCircle.BPW_WeaponAimCircle_C.ExecuteUbergraph_BPW_WeaponAimCircle
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:

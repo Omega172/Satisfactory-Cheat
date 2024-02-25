@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -21,7 +21,7 @@ namespace CG
 	class UWidget_Codex_Container_C : public UWidget_UseableBase_C
 	{
 	public:
-		unsigned char                                              UnknownData_04LC[0x5];                                   // 0x0353(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_GVR0[0x5];                                   // 0x0353(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FPointerToUberGraphFrame                            UberGraphFrame;                                          // 0x0358(0x0008) ZeroConstructor, Transient, DuplicateTransient
 		class UWidget_Window_DarkMode_C*                           BPW_DarkMode;                                            // 0x0360(0x0008) BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash
 		class UWidget_SlidingTabs_C*                               BPW_SlidingTabs;                                         // 0x0368(0x0008) BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash
@@ -51,17 +51,17 @@ namespace CG
 		class UWidget_Scrollbox_C*                                 Widget_Scrollbox_C_2;                                    // 0x0428(0x0008) BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash
 		class UWidget_Window_ContentBackground_DarkMode_C*         Widget_Window_ContentBackground_DarkMode_2;              // 0x0430(0x0008) BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash
 		bool                                                       mMessageIsClicked;                                       // 0x0438(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash
-		unsigned char                                              UnknownData_ZZHE[0x7];                                   // 0x0439(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_4NXT[0x7];                                   // 0x0439(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class UWidget_Codex_MessageButton_C*>               mButtons;                                                // 0x0440(0x0010) Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference
 		class UClass*                                              mSelectedMessage;                                        // 0x0450(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
 		class UObject*                                             mActiveButton;                                           // 0x0458(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
 		EMessageType                                               mCurrentTab;                                             // 0x0460(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_PYGT[0x7];                                   // 0x0461(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_J206[0x7];                                   // 0x0461(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class UClass*>                                      mParts;                                                  // 0x0468(0x0010) Edit, BlueprintVisible, DisableEditOnInstance
 		TArray<class UClass*>                                      mSearchResults;                                          // 0x0478(0x0010) Edit, BlueprintVisible, DisableEditOnInstance
 		TArray<class UClass*>                                      mCurrentList;                                            // 0x0488(0x0010) Edit, BlueprintVisible, DisableEditOnInstance
 		bool                                                       mShowRecipeIngredientList;                               // 0x0498(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_7600[0x7];                                   // 0x0499(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_XTX2[0x7];                                   // 0x0499(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class UClass*>                                      mEquipment;                                              // 0x04A0(0x0010) Edit, BlueprintVisible, DisableEditOnInstance
 		TArray<class UClass*>                                      mBuildings;                                              // 0x04B0(0x0010) Edit, BlueprintVisible, DisableEditOnInstance
 		TArray<class UClass*>                                      mVehicles;                                               // 0x04C0(0x0010) Edit, BlueprintVisible, DisableEditOnInstance

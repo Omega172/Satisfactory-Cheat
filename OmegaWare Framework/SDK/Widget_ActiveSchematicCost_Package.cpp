@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_ActiveSchematicCost.Widget_ActiveSchematicCost_C.GetNumIngredientsPaidOff
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -36,7 +36,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_ActiveSchematicCost.Widget_ActiveSchematicCost_C.GetIngredient
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -60,7 +60,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_ActiveSchematicCost.Widget_ActiveSchematicCost_C.UpdateTimer
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -79,7 +79,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_ActiveSchematicCost.Widget_ActiveSchematicCost_C.Construct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 */
@@ -98,7 +98,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_ActiveSchematicCost.Widget_ActiveSchematicCost_C.Destruct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 */
@@ -117,7 +117,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_ActiveSchematicCost.Widget_ActiveSchematicCost_C.OnUpdateSlotSize
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -139,7 +139,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_ActiveSchematicCost.Widget_ActiveSchematicCost_C.ExecuteUbergraph_Widget_ActiveSchematicCost
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:

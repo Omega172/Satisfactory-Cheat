@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -23,7 +23,7 @@ namespace CG
 		auto mBaseAddress = reinterpret_cast<uintptr_t>(GetModuleHandleW(moduleName.c_str()));
 		if (!mBaseAddress)
 			return false;
-		
+
 		auto mBaseAddress2 = reinterpret_cast<uintptr_t>(GetModuleHandleW(moduleName2.c_str()));
 		if (!mBaseAddress2)
 			return false;
@@ -34,7 +34,7 @@ namespace CG
 		UObject::GObjects = reinterpret_cast<CG::TUObjectArray*>(*GObjectsOuter);
 		FName::GNames = reinterpret_cast<CG::FNamePool*>(*GNamesOuter);
 		UWorld::GWorld = reinterpret_cast<CG::UWorld**>(mBaseAddress2 + gWorldOffset);
-		
+
 		return true;
 	}
 

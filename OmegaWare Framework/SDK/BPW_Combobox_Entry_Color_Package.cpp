@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Combobox_Entry_Color.BPW_Combobox_Entry_Color_C.PreConstruct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -34,7 +34,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Combobox_Entry_Color.BPW_Combobox_Entry_Color_C.OnSelected
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -53,7 +53,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Combobox_Entry_Color.BPW_Combobox_Entry_Color_C.OnUnselected
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -72,7 +72,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Combobox_Entry_Color.BPW_Combobox_Entry_Color_C.BndEvt__mRemoveButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -91,7 +91,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Combobox_Entry_Color.BPW_Combobox_Entry_Color_C.Destruct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 */
@@ -110,7 +110,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Combobox_Entry_Color.BPW_Combobox_Entry_Color_C.ExecuteUbergraph_BPW_Combobox_Entry_Color
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:
@@ -132,7 +132,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_Combobox_Entry_Color.BPW_Combobox_Entry_Color_C.OnRemoved__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 * Parameters:

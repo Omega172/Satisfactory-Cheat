@@ -1,12 +1,8 @@
+// I made this forever ago. It's a simple console class that can be used to create a console window and hide it. It's useful for debugging and testing
+
 #pragma once
 #include <iostream>
 #include <format>
-
-#ifdef _WIN64
-inline bool bIs64Bit = true;
-#else
-inline bool bIs64Bit = false;
-#endif
 
 class Console
 {
@@ -17,6 +13,12 @@ private:
 	bool bAllocated = false;
 	bool bInitalized = false;
 	bool bVisible = false;
+
+#ifdef _WIN64
+	static constexpr bool bIs64Bit = true;
+#else
+	static constexpr bool bIs64Bit = true;
+#endif
 
 public:
 	Console(bool bVisibility, std::string sConsoleTitle = std::format("DEBUG CONSOLE | {}", (bIs64Bit) ? "x64" : "x32"));

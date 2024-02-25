@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -54,7 +54,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD459110
+	 * 		RVA    -> 0x7A2709110
 	 * 		Name   -> Function TypedElementFramework.TypedElementHandleLibrary.Release
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -79,7 +79,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD458E80
+	 * 		RVA    -> 0x7A2708E80
 	 * 		Name   -> Function TypedElementFramework.TypedElementHandleLibrary.NotEqual
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -106,7 +106,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD458BF0
+	 * 		RVA    -> 0x7A2708BF0
 	 * 		Name   -> Function TypedElementFramework.TypedElementHandleLibrary.IsSet
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -131,7 +131,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD457E50
+	 * 		RVA    -> 0x7A2707E50
 	 * 		Name   -> Function TypedElementFramework.TypedElementHandleLibrary.Equal
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -172,7 +172,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD459770
+	 * 		RVA    -> 0x7A2709770
 	 * 		Name   -> Function TypedElementFramework.TypedElementListLibrary.Shrink
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -195,7 +195,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD459500
+	 * 		RVA    -> 0x7A2709500
 	 * 		Name   -> Function TypedElementFramework.TypedElementListLibrary.Reset
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -218,7 +218,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD4593E0
+	 * 		RVA    -> 0x7A27093E0
 	 * 		Name   -> Function TypedElementFramework.TypedElementListLibrary.Reserve
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -243,7 +243,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD4591E0
+	 * 		RVA    -> 0x7A27091E0
 	 * 		Name   -> Function TypedElementFramework.TypedElementListLibrary.Remove
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -270,7 +270,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD458FB0
+	 * 		RVA    -> 0x7A2708FB0
 	 * 		Name   -> Function TypedElementFramework.TypedElementListLibrary.Num
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -295,7 +295,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD458CC0
+	 * 		RVA    -> 0x7A2708CC0
 	 * 		Name   -> Function TypedElementFramework.TypedElementListLibrary.IsValidIndex
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -322,7 +322,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD458A40
+	 * 		RVA    -> 0x7A2708A40
 	 * 		Name   -> Function TypedElementFramework.TypedElementListLibrary.HasElementsOfType
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -349,7 +349,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD458890
+	 * 		RVA    -> 0x7A2708890
 	 * 		Name   -> Function TypedElementFramework.TypedElementListLibrary.HasElements
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -376,7 +376,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD458430
+	 * 		RVA    -> 0x7A2708430
 	 * 		Name   -> Function TypedElementFramework.TypedElementListLibrary.GetElementInterface
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -405,7 +405,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD458240
+	 * 		RVA    -> 0x7A2708240
 	 * 		Name   -> Function TypedElementFramework.TypedElementListLibrary.GetElementHandles
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -432,7 +432,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD458060
+	 * 		RVA    -> 0x7A2708060
 	 * 		Name   -> Function TypedElementFramework.TypedElementListLibrary.GetElementHandleAt
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -459,7 +459,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD457D30
+	 * 		RVA    -> 0x7A2707D30
 	 * 		Name   -> Function TypedElementFramework.TypedElementListLibrary.Empty
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -484,7 +484,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD457BD0
+	 * 		RVA    -> 0x7A2707BD0
 	 * 		Name   -> Function TypedElementFramework.TypedElementListLibrary.CreateScriptElementList
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -509,7 +509,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD4579D0
+	 * 		RVA    -> 0x7A27079D0
 	 * 		Name   -> Function TypedElementFramework.TypedElementListLibrary.CountElementsOfType
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -536,7 +536,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD457820
+	 * 		RVA    -> 0x7A2707820
 	 * 		Name   -> Function TypedElementFramework.TypedElementListLibrary.CountElements
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -563,7 +563,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD4576C0
+	 * 		RVA    -> 0x7A27076C0
 	 * 		Name   -> Function TypedElementFramework.TypedElementListLibrary.Contains
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -590,7 +590,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD457590
+	 * 		RVA    -> 0x7A2707590
 	 * 		Name   -> Function TypedElementFramework.TypedElementListLibrary.Clone
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -615,7 +615,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD457410
+	 * 		RVA    -> 0x7A2707410
 	 * 		Name   -> Function TypedElementFramework.TypedElementListLibrary.AppendList
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -640,7 +640,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD4571D0
+	 * 		RVA    -> 0x7A27071D0
 	 * 		Name   -> Function TypedElementFramework.TypedElementListLibrary.Append
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -665,7 +665,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD456FD0
+	 * 		RVA    -> 0x7A2706FD0
 	 * 		Name   -> Function TypedElementFramework.TypedElementListLibrary.Add
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -720,7 +720,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD458770
+	 * 		RVA    -> 0x7A2708770
 	 * 		Name   -> Function TypedElementFramework.TypedElementRegistry.GetInstance
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -742,7 +742,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD458640
+	 * 		RVA    -> 0x7A2708640
 	 * 		Name   -> Function TypedElementFramework.TypedElementRegistry.GetElementInterface
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -783,7 +783,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD4595E0
+	 * 		RVA    -> 0x7A27095E0
 	 * 		Name   -> Function TypedElementFramework.TestTypedElementInterfaceA.SetDisplayName
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -812,7 +812,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD457F80
+	 * 		RVA    -> 0x7A2707F80
 	 * 		Name   -> Function TypedElementFramework.TestTypedElementInterfaceA.GetDisplayName
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -851,7 +851,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD4587C0
+	 * 		RVA    -> 0x7A27087C0
 	 * 		Name   -> Function TypedElementFramework.TestTypedElementInterfaceB.MarkAsTested
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -890,7 +890,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD4587C0
+	 * 		RVA    -> 0x7A27087C0
 	 * 		Name   -> Function TypedElementFramework.TestTypedElementInterfaceC.GetIsTested
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:

@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -31,11 +31,11 @@ namespace CG
 		class FScriptMulticastDelegate                             OnButtonUnhovered;                                       // 0x02D0(0x0010) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable
 		class FScriptMulticastDelegate                             OnButtonClicked;                                         // 0x02E0(0x0010) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable
 		bool                                                       mOverrideButtonFunctions;                                // 0x02F0(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash
-		unsigned char                                              UnknownData_O7CI[0x7];                                   // 0x02F1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_YMPV[0x7];                                   // 0x02F1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FScriptMulticastDelegate                             OnNoTabsGenerated;                                       // 0x02F8(0x0010) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable
 		class FScriptMulticastDelegate                             OnTabsGenerated;                                         // 0x0308(0x0010) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable
 		TArray<int32_t>                                            mHiddenTabIndexes;                                       // 0x0318(0x0010) Edit, BlueprintVisible, DisableEditOnInstance
-		unsigned char                                              UnknownData_ENIA[0x8];                                   // 0x0328(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_5J72[0x8];                                   // 0x0328(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FButtonStyle                                        ButtonStyle;                                             // 0x0330(0x03F0) Edit, BlueprintVisible
 
 	public:

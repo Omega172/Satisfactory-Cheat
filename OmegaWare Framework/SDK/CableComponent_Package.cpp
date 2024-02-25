@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -26,7 +26,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x478F187E0
+	 * 		RVA    -> 0x6EA2987E0
 	 * 		Name   -> Function CableComponent.CableComponent.SetAttachEndToComponent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -51,7 +51,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x478F186C0
+	 * 		RVA    -> 0x6EA2986C0
 	 * 		Name   -> Function CableComponent.CableComponent.SetAttachEndTo
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -78,7 +78,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x478F18610
+	 * 		RVA    -> 0x6EA298610
 	 * 		Name   -> Function CableComponent.CableComponent.GetCableParticleLocations
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -103,7 +103,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x478F18590
+	 * 		RVA    -> 0x6EA298590
 	 * 		Name   -> Function CableComponent.CableComponent.GetAttachedComponent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -125,7 +125,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x478F18550
+	 * 		RVA    -> 0x6EA298550
 	 * 		Name   -> Function CableComponent.CableComponent.GetAttachedActor
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */

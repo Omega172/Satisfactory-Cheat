@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.AnimGraph
 	 * 		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -36,7 +36,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.CalculateAnimGraphValues
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -55,7 +55,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.GetPlayerController
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -79,7 +79,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.IsEquipmentEquipped
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -105,7 +105,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.EvaluateGraphExposedInputs_ExecuteUbergraph_Anim_1p_AnimGraphNode_BlendListByBool_C2957A2C44BCC3C42E99D680B8F3C389
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -124,7 +124,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.EvaluateGraphExposedInputs_ExecuteUbergraph_Anim_1p_AnimGraphNode_TransitionResult_6F9A68224274B2983EAC60A19F403AD5
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -143,7 +143,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.EvaluateGraphExposedInputs_ExecuteUbergraph_Anim_1p_AnimGraphNode_BlendListByBool_1CBE353B41AD7C8C48AD63AA0F2A0F24
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -162,7 +162,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.EvaluateGraphExposedInputs_ExecuteUbergraph_Anim_1p_AnimGraphNode_TransitionResult_D1FB894940489DAA94E2D6B1B56A3055
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -181,7 +181,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.EvaluateGraphExposedInputs_ExecuteUbergraph_Anim_1p_AnimGraphNode_TransitionResult_232C08E247A32BFE800C00BD0C95AAA5
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -200,7 +200,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.EvaluateGraphExposedInputs_ExecuteUbergraph_Anim_1p_AnimGraphNode_TransitionResult_D6748B114588C5FF3C78BF82BE5CBF6A
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -219,7 +219,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.EvaluateGraphExposedInputs_ExecuteUbergraph_Anim_1p_AnimGraphNode_TransitionResult_E5B6CB40485259A214F224A8377EABCD
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -238,7 +238,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.EvaluateGraphExposedInputs_ExecuteUbergraph_Anim_1p_AnimGraphNode_TransitionResult_8F9EEE0B49AAF61FEC69B7B600820A93
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -257,7 +257,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.EvaluateGraphExposedInputs_ExecuteUbergraph_Anim_1p_AnimGraphNode_TransitionResult_7B548854446BFD3D01D3F8B0C2639C83
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -276,7 +276,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.EvaluateGraphExposedInputs_ExecuteUbergraph_Anim_1p_AnimGraphNode_TransitionResult_3DF2B0B447906DD7E43B3284E678C80C
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -295,7 +295,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.EvaluateGraphExposedInputs_ExecuteUbergraph_Anim_1p_AnimGraphNode_TransitionResult_3F16CD61487434C4A40869AB81296622
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -314,7 +314,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.EvaluateGraphExposedInputs_ExecuteUbergraph_Anim_1p_AnimGraphNode_TransitionResult_EDB707D244C1F051CFAE2B8050F37AB1
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -333,7 +333,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.EvaluateGraphExposedInputs_ExecuteUbergraph_Anim_1p_AnimGraphNode_TransitionResult_2B257D8F4D70905FB12FD48B45F636E2
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -352,7 +352,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.EvaluateGraphExposedInputs_ExecuteUbergraph_Anim_1p_AnimGraphNode_TransitionResult_F42B0E7546421589DCE77787D9CF7193
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -371,7 +371,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.EvaluateGraphExposedInputs_ExecuteUbergraph_Anim_1p_AnimGraphNode_TransitionResult_B5FC32BB4E4CCC4546313D8DA37AA8CA
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -390,7 +390,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.EvaluateGraphExposedInputs_ExecuteUbergraph_Anim_1p_AnimGraphNode_TransitionResult_C2567CF54BBB81C3CF94AE879F15FA63
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -409,7 +409,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.EvaluateGraphExposedInputs_ExecuteUbergraph_Anim_1p_AnimGraphNode_TransitionResult_AACAA52D49A3AA8F307990A1AAAEE275
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -428,7 +428,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.EvaluateGraphExposedInputs_ExecuteUbergraph_Anim_1p_AnimGraphNode_TransitionResult_E06F5E1B412E03A618C8DA9390B5A2D4
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -447,7 +447,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.EvaluateGraphExposedInputs_ExecuteUbergraph_Anim_1p_AnimGraphNode_TransitionResult_650862FA4B1F7229923D688CA2759DEF
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -466,7 +466,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.EvaluateGraphExposedInputs_ExecuteUbergraph_Anim_1p_AnimGraphNode_TransitionResult_5039F38743640F2D676C48BFB75282A9
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -485,7 +485,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.EvaluateGraphExposedInputs_ExecuteUbergraph_Anim_1p_AnimGraphNode_TransitionResult_176DE7604F47F97A838AC2B8BDE8AC97
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -504,7 +504,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.EvaluateGraphExposedInputs_ExecuteUbergraph_Anim_1p_AnimGraphNode_TransitionResult_37DAD723484CAF4506B71380789C3064
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -523,7 +523,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.EvaluateGraphExposedInputs_ExecuteUbergraph_Anim_1p_AnimGraphNode_TransitionResult_62F55133423E9C2053CAA09A7CE81877
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -542,7 +542,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.EvaluateGraphExposedInputs_ExecuteUbergraph_Anim_1p_AnimGraphNode_TransitionResult_116069884AD09F30082899AC7D4DF193
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -561,7 +561,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.BlueprintUpdateAnimation
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -583,7 +583,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.AnimNotify_EnteredIdleState
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -602,7 +602,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.AnimNotify_LeaveChangeDirection
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -621,7 +621,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.AnimNotify_EnterChangeDirection
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -640,7 +640,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.AnimNotify_LandImpact
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -659,7 +659,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.AnimNotify_StartSprint
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -678,7 +678,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.AnimNotify_StopSprint
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -697,7 +697,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.AnimNotify_FireProjectile
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -716,7 +716,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.AnimNotify_HideCurrentMagazine
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -735,7 +735,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.AnimNotify_ShowCurrentMagazine
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -754,7 +754,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.AnimNotify_HideEjectMagazine
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -773,7 +773,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.AnimNotify_PlayCurrentMagazineStingerAnim
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -792,7 +792,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.AnimNotify_StunSpearAttack
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -811,7 +811,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Anim_1p.Anim_1p_C.ExecuteUbergraph_Anim_1p
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:

@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Popup.Widget_Popup_C.CancelClicked
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -31,7 +31,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Popup.Widget_Popup_C.OkClicked
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -50,7 +50,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Popup.Widget_Popup_C.CheckButtonState
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -69,7 +69,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Popup.Widget_Popup_C.OnKeyUp
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -95,7 +95,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Popup.Widget_Popup_C.DoClosePopup
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -117,7 +117,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Popup.Widget_Popup_C.Init
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 */
@@ -136,7 +136,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Popup.Widget_Popup_C.Construct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 */
@@ -155,7 +155,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Popup.Widget_Popup_C.Tick
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -179,7 +179,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Popup.Widget_Popup_C.BndEvt__Widget_StandardButton_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -198,7 +198,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Popup.Widget_Popup_C.PreConstruct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -220,7 +220,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Popup.Widget_Popup_C.StartupTimer
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -239,7 +239,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Popup.Widget_Popup_C.ExecuteUbergraph_Widget_Popup
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:

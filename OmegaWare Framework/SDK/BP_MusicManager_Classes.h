@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -25,18 +25,18 @@ namespace CG
 		class FName                                                mOverworldState;                                         // 0x0070(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		double                                                     mPreviousCaveParameter;                                  // 0x0078(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mIsInCombatRelay;                                        // 0x0080(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_HOZQ[0x7];                                   // 0x0081(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_FGFW[0x7];                                   // 0x0081(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<bool>                                               mCombatStateBuffer;                                      // 0x0088(0x0010) Edit, BlueprintVisible, DisableEditOnInstance
 		bool                                                       mIsInCombat;                                             // 0x0098(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mCurrentySetCombat;                                      // 0x0099(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_KIQS[0x6];                                   // 0x009A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_NCRJ[0x6];                                   // 0x009A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTimerHandle                                        mCombatBufferTimer;                                      // 0x00A0(0x0008) Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
 		TMap<class FName, class FName>                             mHasVisitedAreaConverter;                                // 0x00A8(0x0050) Edit, BlueprintVisible, DisableEditOnInstance
 		class FName                                                mCachedVisitedArea;                                      // 0x00F8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		class FName                                                mCurrentVisitedArea;                                     // 0x0100(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mUpdateOnLoadedWorld;                                    // 0x0108(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mIsTimeBufferingNewArea;                                 // 0x0109(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_L392[0x6];                                   // 0x010A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_TB0W[0x6];                                   // 0x010A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UAkAudioEvent*                                       mWorldMusicEvent;                                        // 0x0110(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
 		TArray<class FString>                                      mBassStemName;                                           // 0x0118(0x0010) Edit, BlueprintVisible, DisableEditOnInstance
 		TArray<class FString>                                      mIntrStemName;                                           // 0x0128(0x0010) Edit, BlueprintVisible, DisableEditOnInstance

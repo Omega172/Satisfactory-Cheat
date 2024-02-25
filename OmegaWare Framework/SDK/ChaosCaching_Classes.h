@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -37,11 +37,11 @@ namespace CG
 		class UChaosCacheCollection*                               CacheCollection;                                         // 0x02F8(0x0008) Edit, ZeroConstructor, DisableEditOnTemplate, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ECacheMode                                                 CacheMode;                                               // 0x0300(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EStartMode                                                 StartMode;                                               // 0x0301(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_C4RP[0x2];                                   // 0x0302(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_NU1G[0x2];                                   // 0x0302(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      StartTime;                                               // 0x0304(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, Interp, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8WUX[0x8];                                   // 0x0308(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ERKA[0x8];                                   // 0x0308(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FObservedComponent>                          ObservedComponents;                                      // 0x0310(0x0010) Edit, ZeroConstructor, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_DGG1[0x80];                                  // 0x0320(0x0080) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_E6Q1[0x80];                                  // 0x0320(0x0080) MISSED OFFSET (PADDING)
 
 	public:
 		void TriggerComponentByCache(const class FName& InCacheName);
@@ -80,7 +80,7 @@ namespace CG
 		struct FCacheSpawnableTemplate                             Spawnable;                                               // 0x0140(0x00D0) Edit, EditConst, NoDestructor, NativeAccessSpecifierPrivate
 		struct FGuid                                               AdapterGuid;                                             // 0x0210(0x0010) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		int32_t                                                    Version;                                                 // 0x0220(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_ODAU[0x2C];                                  // 0x0224(0x002C) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_P23F[0x2C];                                  // 0x0224(0x002C) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -106,7 +106,7 @@ namespace CG
 	class UMovieSceneChaosCacheTrack : public UMovieSceneNameableTrack
 	{
 	public:
-		unsigned char                                              UnknownData_C0L2[0x8];                                   // 0x0098(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_9D58[0x8];                                   // 0x0098(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class UMovieSceneSection*>                          AnimationSections;                                       // 0x00A0(0x0010) ExportObject, ZeroConstructor, ContainsInstancedReference, UObjectWrapper, NativeAccessSpecifierPrivate
 
 	public:

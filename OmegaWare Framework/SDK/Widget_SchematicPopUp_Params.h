@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -30,7 +30,7 @@ namespace CG
 	struct UWidget_SchematicPopUp_C_GenerateSchematicRewardIcons_Params
 	{
 	public:
-		unsigned char                                              UnknownData_ZBSK[0x50];                                  // 0x0000(0x0050) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY) ()
+		unsigned char                                              UnknownData_OTFV[0x50];                                  // 0x0000(0x0050) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY) ()
 	};
 
 	/**
@@ -39,7 +39,7 @@ namespace CG
 	struct UWidget_SchematicPopUp_C_GetRelevantRewardData_Params
 	{
 	public:
-		unsigned char                                              UnknownData_3T9U[0x50];                                  // 0x0000(0x0050) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY) ()
+		unsigned char                                              UnknownData_SZX1[0x50];                                  // 0x0000(0x0050) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY) ()
 	};
 
 	/**
@@ -85,7 +85,7 @@ namespace CG
 	{
 	public:
 		int32_t                                                    EntryPoint;                                              // 0x0000(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-		unsigned char                                              UnknownData_M494[0x4];                                   // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY) ()
+		unsigned char                                              UnknownData_QWRS[0x4];                                   // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY) ()
 	};
 
 }

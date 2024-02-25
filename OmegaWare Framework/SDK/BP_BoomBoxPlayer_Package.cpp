@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BoomBoxPlayer.BP_BoomBoxPlayer_C.OnBusMeteringInfoUpdate
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -34,7 +34,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BoomBoxPlayer.BP_BoomBoxPlayer_C.PlayAnim
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -70,7 +70,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BoomBoxPlayer.BP_BoomBoxPlayer_C.IsUseable
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent, Const)
 	 */
@@ -91,7 +91,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BoomBoxPlayer.BP_BoomBoxPlayer_C.GetLookAtDecription
 	 * 		Flags  -> (Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 * Parameters:
@@ -117,7 +117,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BoomBoxPlayer.BP_BoomBoxPlayer_C.UpdateUseState
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -147,7 +147,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BoomBoxPlayer.BP_BoomBoxPlayer_C.Force Update Game UI
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -166,7 +166,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BoomBoxPlayer.BP_BoomBoxPlayer_C.PlayTurboBassEffects
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -188,7 +188,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BoomBoxPlayer.BP_BoomBoxPlayer_C.ReceiveBeginPlay
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -207,7 +207,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BoomBoxPlayer.BP_BoomBoxPlayer_C.PlayLoadTapeSequence
 	 * 		Flags  -> (BlueprintCosmetic, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -229,7 +229,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BoomBoxPlayer.BP_BoomBoxPlayer_C.PlaySwitchTapeSequence
 	 * 		Flags  -> (BlueprintCosmetic, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -251,7 +251,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BoomBoxPlayer.BP_BoomBoxPlayer_C.PlayNextSongSequence
 	 * 		Flags  -> (BlueprintCosmetic, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -273,7 +273,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BoomBoxPlayer.BP_BoomBoxPlayer_C.PlayPrevSongSequence
 	 * 		Flags  -> (BlueprintCosmetic, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -295,7 +295,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BoomBoxPlayer.BP_BoomBoxPlayer_C.PlayPlaySequence
 	 * 		Flags  -> (BlueprintCosmetic, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -317,7 +317,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BoomBoxPlayer.BP_BoomBoxPlayer_C.PlayStopSequence
 	 * 		Flags  -> (BlueprintCosmetic, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -339,7 +339,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BoomBoxPlayer.BP_BoomBoxPlayer_C.PlayTurboBassSequence
 	 * 		Flags  -> (BlueprintCosmetic, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -361,7 +361,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BoomBoxPlayer.BP_BoomBoxPlayer_C.PlayEquipEffects
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -383,7 +383,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BoomBoxPlayer.BP_BoomBoxPlayer_C.PlayStingerEffects
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -405,7 +405,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BoomBoxPlayer.BP_BoomBoxPlayer_C.OnUse
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -429,7 +429,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BoomBoxPlayer.BP_BoomBoxPlayer_C.StartIsLookedAt
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -453,7 +453,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BoomBoxPlayer.BP_BoomBoxPlayer_C.StopIsLookedAt
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -477,7 +477,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BoomBoxPlayer.BP_BoomBoxPlayer_C.CustomEvent_1
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -496,7 +496,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BoomBoxPlayer.BP_BoomBoxPlayer_C.OnPlaybackStateChanged
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -518,7 +518,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BoomBoxPlayer.BP_BoomBoxPlayer_C.ExecuteUbergraph_BP_BoomBoxPlayer
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:

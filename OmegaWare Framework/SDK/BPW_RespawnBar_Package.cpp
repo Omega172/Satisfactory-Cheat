@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_RespawnBar.BPW_RespawnBar_C.PlayReviveCompleteSFX
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -31,7 +31,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_RespawnBar.BPW_RespawnBar_C.StopReviveSFX
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -50,7 +50,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_RespawnBar.BPW_RespawnBar_C.PlayReviveSFX
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -69,7 +69,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_RespawnBar.BPW_RespawnBar_C.UpdateHeartbeatAmount
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -91,7 +91,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_RespawnBar.BPW_RespawnBar_C.SetRespawnAmount
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -113,7 +113,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_RespawnBar.BPW_RespawnBar_C.RespawnTick
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -132,7 +132,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_RespawnBar.BPW_RespawnBar_C.OnReviveStarted
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -154,7 +154,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_RespawnBar.BPW_RespawnBar_C.Construct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 */
@@ -173,7 +173,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_RespawnBar.BPW_RespawnBar_C.OnReviveEnded
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -195,7 +195,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_RespawnBar.BPW_RespawnBar_C.SetupBindings
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -214,7 +214,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_RespawnBar.BPW_RespawnBar_C.ExecuteUbergraph_BPW_RespawnBar
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:

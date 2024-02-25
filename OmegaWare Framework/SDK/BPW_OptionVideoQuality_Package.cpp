@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_OptionVideoQuality.BPW_OptionVideoQuality_C.UpdateOptionText
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -31,7 +31,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_OptionVideoQuality.BPW_OptionVideoQuality_C.UpdateSelectionValue
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -50,7 +50,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_OptionVideoQuality.BPW_OptionVideoQuality_C.HandleSelection
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -76,7 +76,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_OptionVideoQuality.BPW_OptionVideoQuality_C.OnInitValueController
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 */
@@ -95,7 +95,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_OptionVideoQuality.BPW_OptionVideoQuality_C.OnOptionValueUpdated
 	 * 		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -114,7 +114,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_OptionVideoQuality.BPW_OptionVideoQuality_C.ExecuteUbergraph_BPW_OptionVideoQuality
 	 * 		Flags  -> (Final)
 	 * Parameters:

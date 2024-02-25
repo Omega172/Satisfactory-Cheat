@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.SetLocalUserInfoBackend
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -34,7 +34,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.SetLocalUserInfo
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -56,7 +56,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.SetFriendPresence
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -78,7 +78,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.SetFriend
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -100,7 +100,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.SetTextColorAccordingToPresence
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 * Parameters:
@@ -126,7 +126,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.OnGetUserMenuContent
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 */
@@ -147,7 +147,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.CloseMenuAnchor
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -166,7 +166,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.OnlineStatusIndicatorColor_FromPresenceStatus
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 * Parameters:
@@ -192,7 +192,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.Visibile_IfIsInOnlineSession
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 * Parameters:
@@ -218,7 +218,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.__c5a94980-4239-c7ec-1eb0-5ba91417454b_SourceToDest
 	 * 		Flags  -> (HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 * Parameters:
@@ -242,7 +242,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.PresenceString_FromGameStatusAndRichPresence
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 * Parameters:
@@ -272,7 +272,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.ShowInviteToSessionButton_IfSessionAllowsIt
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 * Parameters:
@@ -298,7 +298,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.Join Button Visibility from Presence Joinability
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 * Parameters:
@@ -324,7 +324,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.UpdateNATWarningForClient
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -343,23 +343,23 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.Get Hosting NATIsse
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
-	 * 		ECachedNATType                                     hostNat                                                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	 * 		ECachedNATType                                     clientNat                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	 * 		ECachedNATType                                     HostNat                                                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	 * 		ECachedNATType                                     ClientNat                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	 * 		class FText                                        ToolTip                                                    (Parm, OutParm)
 	 */
-	void UWidget_FriendList_Item_C::GetHostingNATIsse(ECachedNATType hostNat, ECachedNATType clientNat, class FText* ToolTip)
+	void UWidget_FriendList_Item_C::GetHostingNATIsse(ECachedNATType HostNat, ECachedNATType ClientNat, class FText* ToolTip)
 	{
 		static UFunction* fn = nullptr;
 		if (!fn)
 			fn = UObject::FindObject<UFunction>("Function Widget_FriendList_Item.Widget_FriendList_Item_C.Get Hosting NATIsse");
 		
 		UWidget_FriendList_Item_C_GetHostingNATIsse_Params params {};
-		params.hostNat = hostNat;
-		params.clientNat = clientNat;
+		params.HostNat = HostNat;
+		params.ClientNat = ClientNat;
 		
 		auto flags = fn->FunctionFlags;
 		UObject::ProcessEvent(fn, &params);
@@ -371,7 +371,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.UpdateNATWarningForHost
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -390,7 +390,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.BndEvt__Widget_FriendList_Item_mFriendListButton_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -409,7 +409,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.On Invite To Session Clicked
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -428,7 +428,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.On Accept Invite Clicked
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -447,7 +447,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.On Join Game Clicked
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -466,7 +466,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.On Reject Invite Clicked
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -485,7 +485,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.BndEvt__Widget_FriendList_Item_mActionButtonsAnchor_K2Node_ComponentBoundEvent_0_OnMenuOpenChangedEvent__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -507,7 +507,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.Destruct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 */
@@ -526,7 +526,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.SelectionStateUpdate
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -548,7 +548,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.PreConstruct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -570,7 +570,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.OnMouseLeave
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -592,7 +592,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.OnMouseEnter
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -616,7 +616,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.OnListItemObjectSet
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -638,7 +638,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.ExecuteUbergraph_Widget_FriendList_Item
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:
@@ -660,7 +660,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.OnSessionDeselected__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 */
@@ -679,7 +679,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.OnButtonClicked__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 */
@@ -698,7 +698,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.OnSessionSelected__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -720,7 +720,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_FriendList_Item.Widget_FriendList_Item_C.OnActionButtonClicked__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 * Parameters:

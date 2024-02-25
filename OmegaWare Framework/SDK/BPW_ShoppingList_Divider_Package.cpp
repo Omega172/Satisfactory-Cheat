@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ShoppingList_Divider.BPW_ShoppingList_Divider_C.SetInfoWidgetClass
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -34,7 +34,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ShoppingList_Divider.BPW_ShoppingList_Divider_C.GetInfoWidget
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 */
@@ -55,7 +55,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ShoppingList_Divider.BPW_ShoppingList_Divider_C.Expand
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -74,7 +74,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ShoppingList_Divider.BPW_ShoppingList_Divider_C.CollapseOrHide
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -96,7 +96,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ShoppingList_Divider.BPW_ShoppingList_Divider_C.SetIsOpen
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -118,7 +118,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ShoppingList_Divider.BPW_ShoppingList_Divider_C.SetText
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -140,7 +140,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ShoppingList_Divider.BPW_ShoppingList_Divider_C.PreConstruct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -162,7 +162,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ShoppingList_Divider.BPW_ShoppingList_Divider_C.BndEvt__BPW_ShoppingList_Divider_mButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -181,7 +181,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ShoppingList_Divider.BPW_ShoppingList_Divider_C.BndEvt__BPW_ShoppingList_Divider_mButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -200,7 +200,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ShoppingList_Divider.BPW_ShoppingList_Divider_C.BndEvt__BPW_ShoppingList_Divider_mButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -219,7 +219,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ShoppingList_Divider.BPW_ShoppingList_Divider_C.BndEvt__BPW_ShoppingList_Divider_mInfoButon_K2Node_ComponentBoundEvent_3_OnButtonHoverEvent__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -238,7 +238,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ShoppingList_Divider.BPW_ShoppingList_Divider_C.BndEvt__BPW_ShoppingList_Divider_mInfoButon_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -257,7 +257,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ShoppingList_Divider.BPW_ShoppingList_Divider_C.ExecuteUbergraph_BPW_ShoppingList_Divider
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:
@@ -279,7 +279,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ShoppingList_Divider.BPW_ShoppingList_Divider_C.OnStateChanged__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 * Parameters:

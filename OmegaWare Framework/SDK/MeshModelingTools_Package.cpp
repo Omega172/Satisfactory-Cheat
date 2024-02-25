@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -782,7 +782,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63BE20
+	 * 		RVA    -> 0x6E66BBE20
 	 * 		Name   -> Function MeshModelingTools.PolyEditTopologyProperties.RegenerateExtraCorners
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -816,7 +816,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63BEE0
+	 * 		RVA    -> 0x6E66BBEE0
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions.SimplifyByGroups
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -836,7 +836,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63BE80
+	 * 		RVA    -> 0x6E66BBE80
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions.Retriangulate
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -856,7 +856,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63BDC0
+	 * 		RVA    -> 0x6E66BBDC0
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions.RecalcNormals
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -876,7 +876,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63BD60
+	 * 		RVA    -> 0x6E66BBD60
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions.PushPull
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -896,7 +896,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63BC40
+	 * 		RVA    -> 0x6E66BBC40
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions.Outset
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -916,7 +916,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63BBE0
+	 * 		RVA    -> 0x6E66BBBE0
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions.Offset
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -936,7 +936,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63BB80
+	 * 		RVA    -> 0x6E66BBB80
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions.Merge
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -956,7 +956,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63BB20
+	 * 		RVA    -> 0x6E66BBB20
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions.InSet
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -976,7 +976,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63BAC0
+	 * 		RVA    -> 0x6E66BBAC0
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions.InsertEdgeLoop
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -996,7 +996,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63BA60
+	 * 		RVA    -> 0x6E66BBA60
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions.InsertEdge
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1016,7 +1016,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63B940
+	 * 		RVA    -> 0x6E66BB940
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions.Flip
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1036,7 +1036,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63B880
+	 * 		RVA    -> 0x6E66BB880
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions.Extrude
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1056,7 +1056,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63B820
+	 * 		RVA    -> 0x6E66BB820
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions.Duplicate
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1076,7 +1076,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63B7C0
+	 * 		RVA    -> 0x6E66BB7C0
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions.Disconnect
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1096,7 +1096,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63B760
+	 * 		RVA    -> 0x6E66BB760
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions.Delete
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1116,7 +1116,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63B700
+	 * 		RVA    -> 0x6E66BB700
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions.Decompose
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1136,7 +1136,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63B6A0
+	 * 		RVA    -> 0x6E66BB6A0
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions.CutFaces
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1156,7 +1156,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63B520
+	 * 		RVA    -> 0x6E66BB520
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions.Bevel
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1190,7 +1190,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63BDC0
+	 * 		RVA    -> 0x6E66BBDC0
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions_Triangles.RecalcNormals
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1210,7 +1210,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63BD60
+	 * 		RVA    -> 0x6E66BBD60
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions_Triangles.PushPull
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1230,7 +1230,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63BD00
+	 * 		RVA    -> 0x6E66BBD00
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions_Triangles.Poke
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1250,7 +1250,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63BC40
+	 * 		RVA    -> 0x6E66BBC40
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions_Triangles.Outset
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1270,7 +1270,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63BBE0
+	 * 		RVA    -> 0x6E66BBBE0
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions_Triangles.Offset
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1290,7 +1290,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63BB20
+	 * 		RVA    -> 0x6E66BBB20
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions_Triangles.InSet
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1310,7 +1310,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63B940
+	 * 		RVA    -> 0x6E66BB940
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions_Triangles.Flip
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1330,7 +1330,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63B880
+	 * 		RVA    -> 0x6E66BB880
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions_Triangles.Extrude
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1350,7 +1350,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63B820
+	 * 		RVA    -> 0x6E66BB820
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions_Triangles.Duplicate
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1370,7 +1370,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63B7C0
+	 * 		RVA    -> 0x6E66BB7C0
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions_Triangles.Disconnect
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1390,7 +1390,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63B760
+	 * 		RVA    -> 0x6E66BB760
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions_Triangles.Delete
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1410,7 +1410,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63B6A0
+	 * 		RVA    -> 0x6E66BB6A0
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolActions_Triangles.CutFaces
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1444,7 +1444,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63BCA0
+	 * 		RVA    -> 0x6E66BBCA0
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolUVActions.PlanarProjection
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1478,7 +1478,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63C000
+	 * 		RVA    -> 0x6E66BC000
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolEdgeActions.Weld
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1498,7 +1498,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63BFA0
+	 * 		RVA    -> 0x6E66BBFA0
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolEdgeActions.Straighten
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1518,7 +1518,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63B8E0
+	 * 		RVA    -> 0x6E66BB8E0
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolEdgeActions.FillHole
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1538,7 +1538,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63B5E0
+	 * 		RVA    -> 0x6E66BB5E0
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolEdgeActions.Bridge
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1558,7 +1558,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63B580
+	 * 		RVA    -> 0x6E66BB580
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolEdgeActions.Bevel
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1592,7 +1592,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63C000
+	 * 		RVA    -> 0x6E66BC000
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolEdgeActions_Triangles.Weld
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1612,7 +1612,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63BF40
+	 * 		RVA    -> 0x6E66BBF40
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolEdgeActions_Triangles.Split
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1632,7 +1632,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63B9A0
+	 * 		RVA    -> 0x6E66BB9A0
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolEdgeActions_Triangles.Flip
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1652,7 +1652,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63B8E0
+	 * 		RVA    -> 0x6E66BB8E0
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolEdgeActions_Triangles.FillHole
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1672,7 +1672,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63B640
+	 * 		RVA    -> 0x6E66BB640
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolEdgeActions_Triangles.Collapse
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1706,7 +1706,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63B4C0
+	 * 		RVA    -> 0x6E66BB4C0
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolCancelAction.Done
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1740,7 +1740,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63B4C0
+	 * 		RVA    -> 0x6E66BB4C0
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolAcceptCancelAction.Cancel
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1760,7 +1760,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63B460
+	 * 		RVA    -> 0x6E66BB460
 	 * 		Name   -> Function MeshModelingTools.EditMeshPolygonsToolAcceptCancelAction.Apply
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1822,7 +1822,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63BA00
+	 * 		RVA    -> 0x6E66BBA00
 	 * 		Name   -> Function MeshModelingTools.ExistingMeshMaterialProperties.GetUVChannelNamesFunc
 	 * 		Flags  -> (Final, Native, Public, Const)
 	 */
@@ -1872,7 +1872,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63BA30
+	 * 		RVA    -> 0x6E66BBA30
 	 * 		Name   -> Function MeshModelingTools.MeshUVChannelProperties.GetUVChannelNamesFunc
 	 * 		Flags  -> (Final, Native, Public, Const)
 	 */
@@ -2202,7 +2202,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63B880
+	 * 		RVA    -> 0x6E66BB880
 	 * 		Name   -> Function MeshModelingTools.UVProjectionToolEditActions.Reset
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -2222,7 +2222,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63B4C0
+	 * 		RVA    -> 0x6E66BB4C0
 	 * 		Name   -> Function MeshModelingTools.UVProjectionToolEditActions.AutoFitAlign
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -2242,7 +2242,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F63B460
+	 * 		RVA    -> 0x6E66BB460
 	 * 		Name   -> Function MeshModelingTools.UVProjectionToolEditActions.AutoFit
 	 * 		Flags  -> (Final, Native, Public)
 	 */

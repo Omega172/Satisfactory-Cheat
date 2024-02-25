@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -51,7 +51,7 @@ namespace CG
 	struct FChaosHandlerSet
 	{
 	public:
-		unsigned char                                              UnknownData_YT4Q[0x8];                                   // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_XF3O[0x8];                                   // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		unsigned char                                              ChaosHandlers[0x50];                                     // 0x0008(0x0050) UNKNOWN PROPERTY: SetProperty
 	};
 
@@ -62,7 +62,7 @@ namespace CG
 	struct FBreakEventCallbackWrapper
 	{
 	public:
-		unsigned char                                              UnknownData_LJPB[0x40];                                  // 0x0000(0x0040) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_T2EH[0x40];                                  // 0x0000(0x0040) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -72,7 +72,7 @@ namespace CG
 	struct FRemovalEventCallbackWrapper
 	{
 	public:
-		unsigned char                                              UnknownData_X76V[0x40];                                  // 0x0000(0x0040) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_Y6B8[0x40];                                  // 0x0000(0x0040) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -82,7 +82,7 @@ namespace CG
 	struct FCrumblingEventCallbackWrapper
 	{
 	public:
-		unsigned char                                              UnknownData_W2RS[0x40];                                  // 0x0000(0x0040) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_UWJC[0x40];                                  // 0x0000(0x0040) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -120,7 +120,7 @@ namespace CG
 		float                                                      Mass;                                                    // 0x0068(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    Index;                                                   // 0x006C(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bFromCrumble;                                            // 0x0070(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_OTDF[0x7];                                   // 0x0071(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_IY0Z[0x7];                                   // 0x0071(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -136,7 +136,7 @@ namespace CG
 		struct FVector                                             LinearVelocity;                                          // 0x0040(0x0018) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             AngularVelocity;                                         // 0x0058(0x0018) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Mass;                                                    // 0x0070(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_BPYD[0x4];                                   // 0x0074(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_O8MG[0x4];                                   // 0x0074(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FBox                                                LocalBounds;                                             // 0x0078(0x0038) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 		TArray<int32_t>                                            Children;                                                // 0x00B0(0x0010) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NativeAccessSpecifierPublic
 	};
@@ -151,7 +151,7 @@ namespace CG
 		class UPrimitiveComponent*                                 Component;                                               // 0x0000(0x0008) BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             Location;                                                // 0x0008(0x0018) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Mass;                                                    // 0x0020(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_T21F[0x4];                                   // 0x0024(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_1XNU[0x4];                                   // 0x0024(0x0004) MISSED OFFSET (PADDING)
 	};
 
 }

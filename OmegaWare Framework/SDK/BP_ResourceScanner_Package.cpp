@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_ResourceScanner.BP_ResourceScanner_C.IsScannerWheelVisible
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -36,7 +36,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_ResourceScanner.BP_ResourceScanner_C.ShowResourceDescriptorSelectUI
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 */
@@ -55,7 +55,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_ResourceScanner.BP_ResourceScanner_C.CloseResourceDescriptorSelectUI
 	 * 		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -74,7 +74,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_ResourceScanner.BP_ResourceScanner_C.PlayClusterEffects
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -96,7 +96,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_ResourceScanner.BP_ResourceScanner_C.Event Play Pulse Effect
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -115,7 +115,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_ResourceScanner.BP_ResourceScanner_C.Event BuildgunVisibility
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -134,7 +134,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_ResourceScanner.BP_ResourceScanner_C.ExecuteUbergraph_BP_ResourceScanner
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:
@@ -156,7 +156,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_ResourceScanner.BP_ResourceScanner_C.OnClustersFound__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:

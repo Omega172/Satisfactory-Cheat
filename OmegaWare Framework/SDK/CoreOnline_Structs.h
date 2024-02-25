@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -49,7 +49,7 @@ namespace CG
 	struct FUniqueNetIdWrapper
 	{
 	public:
-		unsigned char                                              UnknownData_QCEA[0x1];                                   // 0x0000(0x0001) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_HV08[0x1];                                   // 0x0000(0x0001) MISSED OFFSET (PADDING)
 	};
 
 }

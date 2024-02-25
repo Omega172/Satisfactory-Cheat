@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A8EE390
+	 * 		RVA    -> 0x6EBE5E390
 	 * 		Name   -> Function AnimationSharing.AnimationSharingStateProcessor.ProcessActorState
 	 * 		Flags  -> (Native, Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -46,7 +46,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A8EE2B0
+	 * 		RVA    -> 0x6EBE5E2B0
 	 * 		Name   -> Function AnimationSharing.AnimationSharingStateProcessor.GetAnimationStateEnum
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 */
@@ -82,7 +82,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A8EE2E0
+	 * 		RVA    -> 0x6EBE5E2E0
 	 * 		Name   -> Function AnimationSharing.AnimSharingStateInstance.GetInstancedActors
 	 * 		Flags  -> (Final, Native, Protected, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -163,7 +163,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A8EE560
+	 * 		RVA    -> 0x6EBE5E560
 	 * 		Name   -> Function AnimationSharing.AnimationSharingManager.RegisterActorWithSkeletonBP
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -188,7 +188,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A8EE1F0
+	 * 		RVA    -> 0x6EBE5E1F0
 	 * 		Name   -> Function AnimationSharing.AnimationSharingManager.GetAnimationSharingManager
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -213,7 +213,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A8EE0E0
+	 * 		RVA    -> 0x6EBE5E0E0
 	 * 		Name   -> Function AnimationSharing.AnimationSharingManager.CreateAnimationSharingManager
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -240,7 +240,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A8EE0B0
+	 * 		RVA    -> 0x6EBE5E0B0
 	 * 		Name   -> Function AnimationSharing.AnimationSharingManager.AnimationSharingEnabled
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */

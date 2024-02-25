@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -32,9 +32,9 @@ namespace CG
 	class UDataflowEdNode : public UEdGraphNode
 	{
 	public:
-		unsigned char                                              UnknownData_GX3Q[0x20];                                  // 0x0098(0x0020) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_VOCM[0x20];                                  // 0x0098(0x0020) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		bool                                                       bRenderInAssetEditor;                                    // 0x00B8(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_OFP5[0x7];                                   // 0x00B9(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_RJFK[0x7];                                   // 0x00B9(0x0007) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -47,9 +47,9 @@ namespace CG
 	class UDataflow : public UEdGraph
 	{
 	public:
-		unsigned char                                              UnknownData_KKRR[0x28];                                  // 0x0060(0x0028) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_H1MM[0x28];                                  // 0x0060(0x0028) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		bool                                                       bActive;                                                 // 0x0088(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_163K[0x7];                                   // 0x0089(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_WZ5D[0x7];                                   // 0x0089(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class UObject*>                                     Targets;                                                 // 0x0090(0x0010) Edit, ZeroConstructor, AdvancedDisplay, UObjectWrapper, NativeAccessSpecifierPublic
 		class UMaterial*                                           Material;                                                // 0x00A0(0x0008) Edit, ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 

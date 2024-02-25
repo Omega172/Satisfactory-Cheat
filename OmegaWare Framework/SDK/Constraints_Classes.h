@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -36,7 +36,7 @@ namespace CG
 	public:
 		struct FConstraintTickFunction                             ConstraintTick;                                          // 0x0028(0x0040) NativeAccessSpecifierPublic
 		bool                                                       Active;                                                  // 0x0068(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_CAJD[0x7];                                   // 0x0069(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_RXR6[0x7];                                   // 0x0069(0x0007) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -51,7 +51,7 @@ namespace CG
 	public:
 		class FMulticastSparseDelegate                             OnConstraintAdded_BP;                                    // 0x0028(0x0001) InstancedReference, BlueprintAssignable, NoDestructor, NativeAccessSpecifierPublic
 		class FMulticastSparseDelegate                             OnConstraintRemoved_BP;                                  // 0x0029(0x0001) InstancedReference, BlueprintAssignable, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_DGU8[0xE];                                   // 0x002A(0x000E) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_SRXY[0xE];                                   // 0x002A(0x000E) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class UTickableConstraint*>                         Constraints;                                             // 0x0038(0x0010) ZeroConstructor, UObjectWrapper, NativeAccessSpecifierPrivate
 
 	public:
@@ -84,7 +84,7 @@ namespace CG
 	{
 	public:
 		struct FMovieSceneObjectBindingID                          ConstraintBindingID;                                     // 0x0028(0x0018) BlueprintVisible, BlueprintReadOnly, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_0O4R[0x18];                                  // 0x0040(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_HOYD[0x18];                                  // 0x0040(0x0018) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -114,11 +114,11 @@ namespace CG
 		class UTransformableHandle*                                ParentTRSHandle;                                         // 0x0070(0x0008) BlueprintVisible, ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class UTransformableHandle*                                ChildTRSHandle;                                          // 0x0078(0x0008) BlueprintVisible, ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bMaintainOffset;                                         // 0x0080(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_084T[0x3];                                   // 0x0081(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_Y3L4[0x3];                                   // 0x0081(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Weight;                                                  // 0x0084(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bDynamicOffset;                                          // 0x0088(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ETransformConstraintType                                   Type;                                                    // 0x0089(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_SNJ7[0x6];                                   // 0x008A(0x0006) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_UWWW[0x6];                                   // 0x008A(0x0006) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -131,10 +131,10 @@ namespace CG
 	class UTickableTranslationConstraint : public UTickableTransformConstraint
 	{
 	public:
-		unsigned char                                              UnknownData_49WE[0x8];                                   // 0x0090(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_7XSH[0x8];                                   // 0x0090(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             OffsetTranslation;                                       // 0x0098(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		struct FFilterOptionPerAxis                                AxisFilter;                                              // 0x00B0(0x0003) BlueprintVisible, NoDestructor, Protected, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_CIEI[0x5];                                   // 0x00B3(0x0005) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_O23T[0x5];                                   // 0x00B3(0x0005) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -147,10 +147,10 @@ namespace CG
 	class UTickableRotationConstraint : public UTickableTransformConstraint
 	{
 	public:
-		unsigned char                                              UnknownData_T3VP[0x10];                                  // 0x0090(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_OUEI[0x10];                                  // 0x0090(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FQuat                                               OffsetRotation;                                          // 0x00A0(0x0020) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		struct FFilterOptionPerAxis                                AxisFilter;                                              // 0x00C0(0x0003) BlueprintVisible, NoDestructor, Protected, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_Q71T[0xD];                                   // 0x00C3(0x000D) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_0X16[0xD];                                   // 0x00C3(0x000D) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -163,10 +163,10 @@ namespace CG
 	class UTickableScaleConstraint : public UTickableTransformConstraint
 	{
 	public:
-		unsigned char                                              UnknownData_A0S6[0x8];                                   // 0x0090(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_0VHY[0x8];                                   // 0x0090(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             OffsetScale;                                             // 0x0098(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		struct FFilterOptionPerAxis                                AxisFilter;                                              // 0x00B0(0x0003) BlueprintVisible, NoDestructor, Protected, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_OIVY[0x5];                                   // 0x00B3(0x0005) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_BJDX[0x5];                                   // 0x00B3(0x0005) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -179,11 +179,11 @@ namespace CG
 	class UTickableParentConstraint : public UTickableTransformConstraint
 	{
 	public:
-		unsigned char                                              UnknownData_R3ZD[0x10];                                  // 0x0090(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_M6JY[0x10];                                  // 0x0090(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          OffsetTransform;                                         // 0x00A0(0x0060) Edit, BlueprintVisible, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bScaling;                                                // 0x0100(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		struct FTransformFilter                                    TransformFilter;                                         // 0x0101(0x0009) BlueprintVisible, NoDestructor, Protected, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_NZU3[0x6];                                   // 0x010A(0x0006) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_6JIZ[0x6];                                   // 0x010A(0x0006) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();

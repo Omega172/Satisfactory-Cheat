@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -49,7 +49,7 @@ namespace CG
 		class UClass*                                              Class;                                                   // 0x0010(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EDataStreamSendStatus                                      DefaultSendStatus;                                       // 0x0018(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bAutoCreate;                                             // 0x0019(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_T3XO[0x6];                                   // 0x001A(0x0006) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_PORK[0x6];                                   // 0x001A(0x0006) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -98,7 +98,7 @@ namespace CG
 		class FName                                                ClassName;                                               // 0x0000(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		uint32_t                                                   PollFramePeriod;                                         // 0x0008(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bIncludeSubclasses;                                      // 0x000C(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8JZR[0x3];                                   // 0x000D(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_LNE8[0x3];                                   // 0x000D(0x0003) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -132,7 +132,7 @@ namespace CG
 	public:
 		class FName                                                ClassName;                                               // 0x0000(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bEnableDeltaCompression;                                 // 0x0008(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_VITI[0x3];                                   // 0x0009(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_000G[0x3];                                   // 0x0009(0x0003) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -144,7 +144,7 @@ namespace CG
 	public:
 		class FName                                                StructName;                                              // 0x0000(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bCanUseStructNetSerializer;                              // 0x0008(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_0QL9[0x3];                                   // 0x0009(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_JN2C[0x3];                                   // 0x0009(0x0003) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -154,7 +154,7 @@ namespace CG
 	struct FNetSerializerConfig
 	{
 	public:
-		unsigned char                                              UnknownData_QWQI[0x10];                                  // 0x0000(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_BHW4[0x10];                                  // 0x0000(0x0010) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -174,7 +174,7 @@ namespace CG
 		int8_t                                                     LowerBound;                                              // 0x0010(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int8_t                                                     UpperBound;                                              // 0x0011(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		unsigned char                                              BitCount;                                                // 0x0012(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_RKCS[0xD];                                   // 0x0013(0x000D) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_S7EQ[0xD];                                   // 0x0013(0x000D) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -187,7 +187,7 @@ namespace CG
 		int16_t                                                    LowerBound;                                              // 0x0010(0x0002) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int16_t                                                    UpperBound;                                              // 0x0012(0x0002) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		unsigned char                                              BitCount;                                                // 0x0014(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_5E1L[0xB];                                   // 0x0015(0x000B) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_HVGD[0xB];                                   // 0x0015(0x000B) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -200,7 +200,7 @@ namespace CG
 		int32_t                                                    LowerBound;                                              // 0x0010(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    UpperBound;                                              // 0x0014(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		unsigned char                                              BitCount;                                                // 0x0018(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_2UVD[0xF];                                   // 0x0019(0x000F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_VLE1[0xF];                                   // 0x0019(0x000F) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -213,7 +213,7 @@ namespace CG
 		int64_t                                                    LowerBound;                                              // 0x0010(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int64_t                                                    UpperBound;                                              // 0x0018(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		unsigned char                                              BitCount;                                                // 0x0020(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_2TXF[0xF];                                   // 0x0021(0x000F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_LY15[0xF];                                   // 0x0021(0x000F) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -226,7 +226,7 @@ namespace CG
 		unsigned char                                              LowerBound;                                              // 0x0010(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		unsigned char                                              UpperBound;                                              // 0x0011(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		unsigned char                                              BitCount;                                                // 0x0012(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_5XN1[0xD];                                   // 0x0013(0x000D) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_DR8X[0xD];                                   // 0x0013(0x000D) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -239,7 +239,7 @@ namespace CG
 		uint16_t                                                   LowerBound;                                              // 0x0010(0x0002) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		uint16_t                                                   UpperBound;                                              // 0x0012(0x0002) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		unsigned char                                              BitCount;                                                // 0x0014(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_R2HD[0xB];                                   // 0x0015(0x000B) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_J1JU[0xB];                                   // 0x0015(0x000B) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -252,7 +252,7 @@ namespace CG
 		uint32_t                                                   LowerBound;                                              // 0x0010(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		uint32_t                                                   UpperBound;                                              // 0x0014(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		unsigned char                                              BitCount;                                                // 0x0018(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_M710[0xF];                                   // 0x0019(0x000F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_2TG9[0xF];                                   // 0x0019(0x000F) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -265,7 +265,7 @@ namespace CG
 		uint64_t                                                   LowerBound;                                              // 0x0010(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		uint64_t                                                   UpperBound;                                              // 0x0018(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		unsigned char                                              BitCount;                                                // 0x0020(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_5WOG[0xF];                                   // 0x0021(0x000F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_CBTM[0xF];                                   // 0x0021(0x000F) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -297,7 +297,7 @@ namespace CG
 	{
 	public:
 		unsigned char                                              BitMask;                                                 // 0x0010(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_LBWQ[0x7];                                   // 0x0011(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_Z0QN[0x7];                                   // 0x0011(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -309,9 +309,9 @@ namespace CG
 	public:
 		uint16_t                                                   MaxElementCount;                                         // 0x0010(0x0002) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		uint16_t                                                   ElementCountBitCount;                                    // 0x0012(0x0002) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_BBEF[0x4];                                   // 0x0014(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_3DKM[0x4];                                   // 0x0014(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		unsigned char                                              Property[0x20];                                          // 0x0018(0x0020) UNKNOWN PROPERTY: FieldPathProperty
-		unsigned char                                              UnknownData_0HW8[0x8];                                   // 0x0038(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_UEL6[0x8];                                   // 0x0038(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -338,7 +338,7 @@ namespace CG
 		unsigned char                                              BitCount;                                                // 0x001A(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		unsigned char                                              AutonomousProxyValue;                                    // 0x001B(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		unsigned char                                              SimulatedProxyValue;                                     // 0x001C(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_1KQT[0xB];                                   // 0x001D(0x000B) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_EEOY[0xB];                                   // 0x001D(0x000B) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -370,7 +370,7 @@ namespace CG
 	{
 	public:
 		unsigned char                                              BitCount;                                                // 0x0010(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_RSMP[0x7];                                   // 0x0011(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_LBU9[0x7];                                   // 0x0011(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -383,7 +383,7 @@ namespace CG
 		int8_t                                                     LowerBound;                                              // 0x0010(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int8_t                                                     UpperBound;                                              // 0x0011(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		unsigned char                                              BitCount;                                                // 0x0012(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_4F3R[0x5];                                   // 0x0013(0x0005) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_DHAE[0x5];                                   // 0x0013(0x0005) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -396,7 +396,7 @@ namespace CG
 		int16_t                                                    LowerBound;                                              // 0x0010(0x0002) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int16_t                                                    UpperBound;                                              // 0x0012(0x0002) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		unsigned char                                              BitCount;                                                // 0x0014(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_EJ6K[0x3];                                   // 0x0015(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_AMF5[0x3];                                   // 0x0015(0x0003) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -409,7 +409,7 @@ namespace CG
 		int32_t                                                    LowerBound;                                              // 0x0010(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    UpperBound;                                              // 0x0014(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		unsigned char                                              BitCount;                                                // 0x0018(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_WMA9[0x7];                                   // 0x0019(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_IZ8Y[0x7];                                   // 0x0019(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -422,7 +422,7 @@ namespace CG
 		int64_t                                                    LowerBound;                                              // 0x0010(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int64_t                                                    UpperBound;                                              // 0x0018(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		unsigned char                                              BitCount;                                                // 0x0020(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_TZSJ[0x7];                                   // 0x0021(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_4CDV[0x7];                                   // 0x0021(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -433,7 +433,7 @@ namespace CG
 	{
 	public:
 		uint32_t                                                   ChangeMaskStorage[0x2];                                  // 0x0108(0x0008) ZeroConstructor, Transient, IsPlainOldData, RepSkip, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_YVVV[0x8];                                   // 0x0110(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_39F3[0x8];                                   // 0x0110(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -450,7 +450,7 @@ namespace CG
 	struct FStructNetSerializerConfig : public FNetSerializerConfig
 	{
 	public:
-		unsigned char                                              UnknownData_2SN7[0x8];                                   // 0x0010(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_5DZV[0x8];                                   // 0x0010(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -533,7 +533,7 @@ namespace CG
 	struct FPolymorphicStructNetSerializerConfig : public FNetSerializerConfig
 	{
 	public:
-		unsigned char                                              UnknownData_U3V8[0x18];                                  // 0x0010(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_BJ6X[0x18];                                  // 0x0010(0x0018) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -628,7 +628,7 @@ namespace CG
 	{
 	public:
 		unsigned char                                              BitCount;                                                // 0x0010(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_4WE2[0x7];                                   // 0x0011(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_7TDW[0x7];                                   // 0x0011(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -641,7 +641,7 @@ namespace CG
 		unsigned char                                              LowerBound;                                              // 0x0010(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		unsigned char                                              UpperBound;                                              // 0x0011(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		unsigned char                                              BitCount;                                                // 0x0012(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_R2TC[0x5];                                   // 0x0013(0x0005) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_ZPDF[0x5];                                   // 0x0013(0x0005) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -654,7 +654,7 @@ namespace CG
 		uint16_t                                                   LowerBound;                                              // 0x0010(0x0002) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		uint16_t                                                   UpperBound;                                              // 0x0012(0x0002) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		unsigned char                                              BitCount;                                                // 0x0014(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_9GWN[0x3];                                   // 0x0015(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_KDTS[0x3];                                   // 0x0015(0x0003) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -667,7 +667,7 @@ namespace CG
 		uint32_t                                                   LowerBound;                                              // 0x0010(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		uint32_t                                                   UpperBound;                                              // 0x0014(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		unsigned char                                              BitCount;                                                // 0x0018(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_WMRQ[0x7];                                   // 0x0019(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_5JHC[0x7];                                   // 0x0019(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -680,7 +680,7 @@ namespace CG
 		uint64_t                                                   LowerBound;                                              // 0x0010(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		uint64_t                                                   UpperBound;                                              // 0x0018(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		unsigned char                                              BitCount;                                                // 0x0020(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_0I5K[0x7];                                   // 0x0021(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_867M[0x7];                                   // 0x0021(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**

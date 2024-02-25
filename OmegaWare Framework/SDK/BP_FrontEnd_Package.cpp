@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_FrontEnd.BP_FrontEnd_C.CreatePopupWidget
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -36,7 +36,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_FrontEnd.BP_FrontEnd_C.ShouldShutdown
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -60,7 +60,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_FrontEnd.BP_FrontEnd_C.GetErrorButtonText
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -84,7 +84,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_FrontEnd.BP_FrontEnd_C.HasMoreErrors
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -108,7 +108,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_FrontEnd.BP_FrontEnd_C.ShouldShutdownAfterThisError
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -132,7 +132,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_FrontEnd.BP_FrontEnd_C.Internal_ShouldShowLogin
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -156,7 +156,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_FrontEnd.BP_FrontEnd_C.ShouldShowLogin
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 */
@@ -177,7 +177,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_FrontEnd.BP_FrontEnd_C.SetNextErrorMessage
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -199,7 +199,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_FrontEnd.BP_FrontEnd_C.GetNextErrorMessage
 	 * 		Flags  -> (Protected, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -223,7 +223,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_FrontEnd.BP_FrontEnd_C.Internal_ShowErrorMessage
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -247,7 +247,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_FrontEnd.BP_FrontEnd_C.Internal_ShouldShowMainMenu
 	 * 		Flags  -> (Protected, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -271,7 +271,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_FrontEnd.BP_FrontEnd_C.Internal_ShouldShowAlphaInfo
 	 * 		Flags  -> (Protected, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -295,7 +295,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_FrontEnd.BP_FrontEnd_C.ShouldShowErrorPopup
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 */
@@ -316,7 +316,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_FrontEnd.BP_FrontEnd_C.ShouldShowMainMenu
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 */
@@ -337,7 +337,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_FrontEnd.BP_FrontEnd_C.ShouldShowAlphaInfo
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 */
@@ -358,7 +358,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_FrontEnd.BP_FrontEnd_C.SetupMainMenu
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -377,7 +377,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_FrontEnd.BP_FrontEnd_C.BndEvt__Widget_ErrorMessage_K2Node_ComponentBoundEvent_0_mOnClicked__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -396,7 +396,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_FrontEnd.BP_FrontEnd_C.GetAndSetNewError
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -415,7 +415,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_FrontEnd.BP_FrontEnd_C.Construct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 */
@@ -434,7 +434,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_FrontEnd.BP_FrontEnd_C.ConditionallySetNewError
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -453,7 +453,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_FrontEnd.BP_FrontEnd_C.Destruct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 */
@@ -472,7 +472,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_FrontEnd.BP_FrontEnd_C.ClosePopup
 	 * 		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -491,7 +491,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_FrontEnd.BP_FrontEnd_C.ExecuteUbergraph_BP_FrontEnd
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:

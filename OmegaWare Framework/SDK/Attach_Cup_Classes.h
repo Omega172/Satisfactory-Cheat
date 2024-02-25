@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -21,7 +21,7 @@ namespace CG
 	class AAttach_Cup_C : public AFGEquipmentAttachment
 	{
 	public:
-		unsigned char                                              UnknownData_5M3I[0x8];                                   // 0x0338(0x0008) Fix Super Size
+		unsigned char                                              UnknownData_8T19[0x8];                                   // 0x0338(0x0008) Fix Super Size
 		struct FPointerToUberGraphFrame                            UberGraphFrame;                                          // 0x0340(0x0008) ZeroConstructor, Transient, DuplicateTransient
 		class UParticleSystemComponent*                            P_CoffeeCup_Steam;                                       // 0x0348(0x0008) BlueprintVisible, ZeroConstructor, InstancedReference, NonTransactional, NoDestructor, HasGetValueTypeHash
 		class USkeletalMeshComponent*                              SK_Cup;                                                  // 0x0350(0x0008) BlueprintVisible, ZeroConstructor, InstancedReference, NonTransactional, NoDestructor, HasGetValueTypeHash

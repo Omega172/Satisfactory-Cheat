@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -324,7 +324,7 @@ namespace CG
 	public:
 		TWeakObjectPtr<class UMaterialInterface>                   Value;                                                   // 0x0000(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bOverridesChildState;                                    // 0x0008(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_TJSA[0x3];                                   // 0x0009(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_G196[0x3];                                   // 0x0009(0x0003) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -337,7 +337,7 @@ namespace CG
 		struct FLinearColor                                        Value;                                                   // 0x0000(0x0010) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bHasValue;                                               // 0x0010(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bOverridesChildState;                                    // 0x0011(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_QVGX[0x2];                                   // 0x0012(0x0002) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_UOFP[0x2];                                   // 0x0012(0x0002) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -374,7 +374,7 @@ namespace CG
 	struct FBrushStampData
 	{
 	public:
-		unsigned char                                              UnknownData_SIX5[0x128];                                 // 0x0000(0x0128) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_KTYU[0x128];                                 // 0x0000(0x0128) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -385,7 +385,7 @@ namespace CG
 	{
 	public:
 		class UInputBehavior*                                      Behavior;                                                // 0x0000(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_4Y06[0x18];                                  // 0x0008(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_X0GX[0x18];                                  // 0x0008(0x0018) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -396,7 +396,7 @@ namespace CG
 	{
 	public:
 		class UInteractiveGizmo*                                   Gizmo;                                                   // 0x0000(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8VBS[0x28];                                  // 0x0008(0x0028) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_LAHW[0x28];                                  // 0x0008(0x0028) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -407,13 +407,13 @@ namespace CG
 	{
 	public:
 		bool                                                       bHit;                                                    // 0x0000(0x0001) BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_KCGA[0x7];                                   // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_XQDJ[0x7];                                   // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		double                                                     HitDepth;                                                // 0x0008(0x0008) BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             HitNormal;                                               // 0x0010(0x0018) BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bHasHitNormal;                                           // 0x0028(0x0001) BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ZJ8G[0x3];                                   // 0x0029(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_0G1O[0x3];                                   // 0x0029(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    HitIdentifier;                                           // 0x002C(0x0004) BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_M0YI[0x8];                                   // 0x0030(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_5DI8[0x8];                                   // 0x0030(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TWeakObjectPtr<class UObject>                              HitObject;                                               // 0x0038(0x0008) BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -426,7 +426,7 @@ namespace CG
 	public:
 		struct FRay                                                WorldRay;                                                // 0x0000(0x0030) BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 		bool                                                       bHas2D;                                                  // 0x0030(0x0001) BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_VAS3[0x7];                                   // 0x0031(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_XE9X[0x7];                                   // 0x0031(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector2D                                           ScreenPosition;                                          // 0x0038(0x0010) BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 

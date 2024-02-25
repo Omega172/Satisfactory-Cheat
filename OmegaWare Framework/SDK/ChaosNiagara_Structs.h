@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -124,7 +124,7 @@ namespace CG
 		int32_t                                                    ParticleID;                                              // 0x0068(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Time;                                                    // 0x006C(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    Type;                                                    // 0x0070(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_9WTZ[0x4];                                   // 0x0074(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_9F74[0x4];                                   // 0x0074(0x0004) MISSED OFFSET (PADDING)
 	};
 
 }

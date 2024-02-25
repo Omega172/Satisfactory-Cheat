@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -36,7 +36,7 @@ namespace CG
 	public:
 		class FString                                              ColorSpaceName;                                          // 0x0000(0x0010) Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    ColorSpaceIndex;                                         // 0x0010(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_47GB[0x4];                                   // 0x0014(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_PTLG[0x4];                                   // 0x0014(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FString                                              FamilyName;                                              // 0x0018(0x0010) Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -63,7 +63,7 @@ namespace CG
 		struct FOpenColorIOColorSpace                              DestinationColorSpace;                                   // 0x0030(0x0028) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		struct FOpenColorIODisplayView                             DestinationDisplayView;                                  // 0x0058(0x0020) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		EOpenColorIOViewTransformDirection                         DisplayViewDirection;                                    // 0x0078(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_MB25[0x1F];                                  // 0x0079(0x001F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_NAWS[0x1F];                                  // 0x0079(0x001F) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -74,7 +74,7 @@ namespace CG
 	{
 	public:
 		bool                                                       bIsEnabled;                                              // 0x0000(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_XGEA[0x7];                                   // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_GRX1[0x7];                                   // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FOpenColorIOColorConversionSettings                 ColorConfiguration;                                      // 0x0008(0x0098) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 	};
 

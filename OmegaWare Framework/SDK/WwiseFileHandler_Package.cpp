@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CCD8150
+	 * 		RVA    -> 0x6F4CE8150
 	 * 		Name   -> Function WwiseFileHandler.WwiseExternalSourceStatics.SetExternalSourceMediaWithIds
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -37,7 +37,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CCD7FB0
+	 * 		RVA    -> 0x6F4CE7FB0
 	 * 		Name   -> Function WwiseFileHandler.WwiseExternalSourceStatics.SetExternalSourceMediaByName
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -62,7 +62,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CCD7E60
+	 * 		RVA    -> 0x6F4CE7E60
 	 * 		Name   -> Function WwiseFileHandler.WwiseExternalSourceStatics.SetExternalSourceMediaById
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:

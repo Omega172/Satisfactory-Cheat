@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -40,7 +40,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AAA4FA0
+	 * 		RVA    -> 0x6F4374FA0
 	 * 		Name   -> Function RigVM.RigVM.SetParameterValueVector2D
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -67,7 +67,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AAA50E0
+	 * 		RVA    -> 0x6F43750E0
 	 * 		Name   -> Function RigVM.RigVM.SetParameterValueVector
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -94,7 +94,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AAA4DE0
+	 * 		RVA    -> 0x6F4374DE0
 	 * 		Name   -> Function RigVM.RigVM.SetParameterValueTransform
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -121,7 +121,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AAA4CA0
+	 * 		RVA    -> 0x6F4374CA0
 	 * 		Name   -> Function RigVM.RigVM.SetParameterValueString
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -148,7 +148,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AAA4B60
+	 * 		RVA    -> 0x6F4374B60
 	 * 		Name   -> Function RigVM.RigVM.SetParameterValueQuat
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -175,7 +175,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AAA4A20
+	 * 		RVA    -> 0x6F4374A20
 	 * 		Name   -> Function RigVM.RigVM.SetParameterValueName
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -202,7 +202,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AAA48F0
+	 * 		RVA    -> 0x6F43748F0
 	 * 		Name   -> Function RigVM.RigVM.SetParameterValueInt
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -229,7 +229,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AAA47C0
+	 * 		RVA    -> 0x6F43747C0
 	 * 		Name   -> Function RigVM.RigVM.SetParameterValueFloat
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -256,7 +256,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AAA4690
+	 * 		RVA    -> 0x6F4374690
 	 * 		Name   -> Function RigVM.RigVM.SetParameterValueDouble
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -283,7 +283,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AAA4550
+	 * 		RVA    -> 0x6F4374550
 	 * 		Name   -> Function RigVM.RigVM.SetParameterValueBool
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -310,7 +310,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AAA4500
+	 * 		RVA    -> 0x6F4374500
 	 * 		Name   -> Function RigVM.RigVM.GetStatistics
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -332,7 +332,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AAA4440
+	 * 		RVA    -> 0x6F4374440
 	 * 		Name   -> Function RigVM.RigVM.GetRigVMFunctionName
 	 * 		Flags  -> (Native, Public, Const)
 	 * Parameters:
@@ -357,7 +357,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AAA41E0
+	 * 		RVA    -> 0x6F43741E0
 	 * 		Name   -> Function RigVM.RigVM.GetParameterValueVector2D
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -384,7 +384,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AAA4300
+	 * 		RVA    -> 0x6F4374300
 	 * 		Name   -> Function RigVM.RigVM.GetParameterValueVector
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -411,7 +411,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AAA4040
+	 * 		RVA    -> 0x6F4374040
 	 * 		Name   -> Function RigVM.RigVM.GetParameterValueTransform
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -438,7 +438,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AAA3F10
+	 * 		RVA    -> 0x6F4373F10
 	 * 		Name   -> Function RigVM.RigVM.GetParameterValueString
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -465,7 +465,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AAA3DD0
+	 * 		RVA    -> 0x6F4373DD0
 	 * 		Name   -> Function RigVM.RigVM.GetParameterValueQuat
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -492,7 +492,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AAA3CD0
+	 * 		RVA    -> 0x6F4373CD0
 	 * 		Name   -> Function RigVM.RigVM.GetParameterValueName
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -519,7 +519,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AAA3BE0
+	 * 		RVA    -> 0x6F4373BE0
 	 * 		Name   -> Function RigVM.RigVM.GetParameterValueInt
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -546,7 +546,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AAA3AF0
+	 * 		RVA    -> 0x6F4373AF0
 	 * 		Name   -> Function RigVM.RigVM.GetParameterValueFloat
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -573,7 +573,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AAA3A00
+	 * 		RVA    -> 0x6F4373A00
 	 * 		Name   -> Function RigVM.RigVM.GetParameterValueDouble
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -600,7 +600,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AAA3910
+	 * 		RVA    -> 0x6F4373910
 	 * 		Name   -> Function RigVM.RigVM.GetParameterValueBool
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -627,7 +627,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AAA3860
+	 * 		RVA    -> 0x6F4373860
 	 * 		Name   -> Function RigVM.RigVM.Execute
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -652,7 +652,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AAA3770
+	 * 		RVA    -> 0x6F4373770
 	 * 		Name   -> Function RigVM.RigVM.AddRigVMFunction
 	 * 		Flags  -> (Native, Public, HasOutParms)
 	 * Parameters:
@@ -735,7 +735,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AB7C600
+	 * 		RVA    -> 0x6F444C600
 	 * 		Name   -> Function RigVM.RigVMUserWorkflowOptions.RequiresDialog
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -757,7 +757,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AB7C4B0
+	 * 		RVA    -> 0x6F444C4B0
 	 * 		Name   -> Function RigVM.RigVMUserWorkflowOptions.ReportWarning
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -780,7 +780,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AB7C410
+	 * 		RVA    -> 0x6F444C410
 	 * 		Name   -> Function RigVM.RigVMUserWorkflowOptions.ReportInfo
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -803,7 +803,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AB7C370
+	 * 		RVA    -> 0x6F444C370
 	 * 		Name   -> Function RigVM.RigVMUserWorkflowOptions.ReportError
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -826,7 +826,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AB7C340
+	 * 		RVA    -> 0x6F444C340
 	 * 		Name   -> Function RigVM.RigVMUserWorkflowOptions.IsValid
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -862,7 +862,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AB8ACB0
+	 * 		RVA    -> 0x6F445ACB0
 	 * 		Name   -> Function RigVM.RigVMHost.SupportsEvent
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -887,7 +887,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AB8ABD0
+	 * 		RVA    -> 0x6F445ABD0
 	 * 		Name   -> Function RigVM.RigVMHost.SetVariableFromString
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -914,7 +914,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AB8AB50
+	 * 		RVA    -> 0x6F445AB50
 	 * 		Name   -> Function RigVM.RigVMHost.SetFramesPerSecond
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -937,7 +937,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AB8AAD0
+	 * 		RVA    -> 0x6F445AAD0
 	 * 		Name   -> Function RigVM.RigVMHost.SetDeltaTime
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -960,7 +960,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AB8A9F0
+	 * 		RVA    -> 0x6F445A9F0
 	 * 		Name   -> Function RigVM.RigVMHost.SetAbsoluteTime
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -985,7 +985,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AB8A920
+	 * 		RVA    -> 0x6F445A920
 	 * 		Name   -> Function RigVM.RigVMHost.SetAbsoluteAndDeltaTime
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1010,7 +1010,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AB8A830
+	 * 		RVA    -> 0x6F445A830
 	 * 		Name   -> Function RigVM.RigVMHost.RequestRunOnceEvent
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1035,7 +1035,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AB8A810
+	 * 		RVA    -> 0x6F445A810
 	 * 		Name   -> Function RigVM.RigVMHost.RequestInit
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -1055,7 +1055,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AB8A760
+	 * 		RVA    -> 0x6F445A760
 	 * 		Name   -> Function RigVM.RigVMHost.RemoveRunOnceEvent
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1080,7 +1080,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AB8A550
+	 * 		RVA    -> 0x6F445A550
 	 * 		Name   -> Function RigVM.RigVMHost.GetVM
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -1102,7 +1102,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AB8A670
+	 * 		RVA    -> 0x6F445A670
 	 * 		Name   -> Function RigVM.RigVMHost.GetVariableType
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1127,7 +1127,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AB8A5C0
+	 * 		RVA    -> 0x6F445A5C0
 	 * 		Name   -> Function RigVM.RigVMHost.GetVariableAsString
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1152,7 +1152,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AB8A510
+	 * 		RVA    -> 0x6F445A510
 	 * 		Name   -> Function RigVM.RigVMHost.GetSupportedEvents
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1174,7 +1174,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AB8A490
+	 * 		RVA    -> 0x6F445A490
 	 * 		Name   -> Function RigVM.RigVMHost.GetScriptAccessibleVariables
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1196,7 +1196,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AB8A470
+	 * 		RVA    -> 0x6F445A470
 	 * 		Name   -> Function RigVM.RigVMHost.GetDeltaTime
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1218,7 +1218,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AB8A410
+	 * 		RVA    -> 0x6F445A410
 	 * 		Name   -> Function RigVM.RigVMHost.GetCurrentFramesPerSecond
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1240,7 +1240,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AB8A3F0
+	 * 		RVA    -> 0x6F445A3F0
 	 * 		Name   -> Function RigVM.RigVMHost.GetAbsoluteTime
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1262,7 +1262,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AB8A0F0
+	 * 		RVA    -> 0x6F445A0F0
 	 * 		Name   -> Function RigVM.RigVMHost.FindRigVMHosts
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -1289,7 +1289,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AB8A040
+	 * 		RVA    -> 0x6F445A040
 	 * 		Name   -> Function RigVM.RigVMHost.ExecuteEvent
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1314,7 +1314,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AB89F90
+	 * 		RVA    -> 0x6F4459F90
 	 * 		Name   -> Function RigVM.RigVMHost.Execute
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1339,7 +1339,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47AB89F60
+	 * 		RVA    -> 0x6F4459F60
 	 * 		Name   -> Function RigVM.RigVMHost.CanExecute
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */

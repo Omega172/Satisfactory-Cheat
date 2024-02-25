@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863D900
+	 * 		RVA    -> 0x7014BD900
 	 * 		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.SortTrailingEvents
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -39,7 +39,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863D7F0
+	 * 		RVA    -> 0x7014BD7F0
 	 * 		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.SortRemovalEvents
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -66,7 +66,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863D6E0
+	 * 		RVA    -> 0x7014BD6E0
 	 * 		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.SortCollisionEvents
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -93,7 +93,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863D5D0
+	 * 		RVA    -> 0x7014BD5D0
 	 * 		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.SortBreakingEvents
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -120,7 +120,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863D510
+	 * 		RVA    -> 0x7014BD510
 	 * 		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.SetTrailingEventRequestSettings
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -143,7 +143,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863D470
+	 * 		RVA    -> 0x7014BD470
 	 * 		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.SetTrailingEventEnabled
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -166,7 +166,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863D160
+	 * 		RVA    -> 0x7014BD160
 	 * 		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.SetRemovalEventRequestSettings
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -189,7 +189,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863D0C0
+	 * 		RVA    -> 0x7014BD0C0
 	 * 		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.SetRemovalEventEnabled
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -212,7 +212,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863CCC0
+	 * 		RVA    -> 0x7014BCCC0
 	 * 		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.SetCollisionEventRequestSettings
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -235,7 +235,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863CC20
+	 * 		RVA    -> 0x7014BCC20
 	 * 		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.SetCollisionEventEnabled
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -258,7 +258,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863CB60
+	 * 		RVA    -> 0x7014BCB60
 	 * 		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.SetBreakingEventRequestSettings
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -281,7 +281,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863CAC0
+	 * 		RVA    -> 0x7014BCAC0
 	 * 		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.SetBreakingEventEnabled
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -304,7 +304,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863C490
+	 * 		RVA    -> 0x7014BC490
 	 * 		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.RemoveGeometryCollectionActor
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -327,7 +327,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863B3B0
+	 * 		RVA    -> 0x7014BB3B0
 	 * 		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.RemoveChaosSolverActor
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -350,7 +350,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863C2B0
+	 * 		RVA    -> 0x7014BC2B0
 	 * 		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.IsEventListening
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -372,7 +372,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863B420
+	 * 		RVA    -> 0x7014BB420
 	 * 		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.AddGeometryCollectionActor
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -395,7 +395,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863B3B0
+	 * 		RVA    -> 0x7014BB3B0
 	 * 		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.AddChaosSolverActor
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -432,7 +432,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863C2E0
+	 * 		RVA    -> 0x7014BC2E0
 	 * 		Name   -> Function GeometryCollectionEngine.GeometryCollectionActor.RaycastSingle
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -491,7 +491,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863D210
+	 * 		RVA    -> 0x7014BD210
 	 * 		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.SetRestCollection
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -514,7 +514,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863D000
+	 * 		RVA    -> 0x7014BD000
 	 * 		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.SetNotifyRemovals
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -537,7 +537,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863CEE0
+	 * 		RVA    -> 0x7014BCEE0
 	 * 		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.SetNotifyCrumblings
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -562,7 +562,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863CE20
+	 * 		RVA    -> 0x7014BCE20
 	 * 		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.SetNotifyBreaks
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -585,7 +585,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863CD80
+	 * 		RVA    -> 0x7014BCD80
 	 * 		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.SetEnableDamageFromCollision
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -608,7 +608,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863C890
+	 * 		RVA    -> 0x7014BC890
 	 * 		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.SetAnchoredByTransformedBox
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -637,7 +637,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863C7B0
+	 * 		RVA    -> 0x7014BC7B0
 	 * 		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.SetAnchoredByIndex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -662,7 +662,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863C620
+	 * 		RVA    -> 0x7014BC620
 	 * 		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.SetAnchoredByBox
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -689,7 +689,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863C460
+	 * 		RVA    -> 0x7014BC460
 	 * 		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.RemoveAllAnchors
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -709,7 +709,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.ReceivePhysicsCollision
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -731,7 +731,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> DelegateFunction GeometryCollectionEngine.GeometryCollectionComponent.NotifyGeometryCollectionPhysicsStateChange__DelegateSignature
 	 * 		Flags  -> (MulticastDelegate, Public, Delegate)
 	 * Parameters:
@@ -753,7 +753,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> DelegateFunction GeometryCollectionEngine.GeometryCollectionComponent.NotifyGeometryCollectionPhysicsLoadingStateChange__DelegateSignature
 	 * 		Flags  -> (MulticastDelegate, Public, Delegate)
 	 * Parameters:
@@ -775,7 +775,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863C280
+	 * 		RVA    -> 0x7014BC280
 	 * 		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.GetRootIndex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -797,7 +797,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863C130
+	 * 		RVA    -> 0x7014BC130
 	 * 		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.GetMassAndExtents
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -827,7 +827,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863C0E0
+	 * 		RVA    -> 0x7014BC0E0
 	 * 		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.GetLocalBounds
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -849,7 +849,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863C040
+	 * 		RVA    -> 0x7014BC040
 	 * 		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.GetInitialLevel
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -874,7 +874,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863BFF0
+	 * 		RVA    -> 0x7014BBFF0
 	 * 		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.GetDebugInfo
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -896,7 +896,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863BF20
+	 * 		RVA    -> 0x7014BBF20
 	 * 		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.CrumbleCluster
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -919,7 +919,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863BEF0
+	 * 		RVA    -> 0x7014BBEF0
 	 * 		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.CrumbleActiveClusters
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -939,7 +939,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863BD30
+	 * 		RVA    -> 0x7014BBD30
 	 * 		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.ApplyPhysicsField
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -968,7 +968,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863BC40
+	 * 		RVA    -> 0x7014BBC40
 	 * 		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.ApplyLinearVelocity
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -993,7 +993,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863BB60
+	 * 		RVA    -> 0x7014BBB60
 	 * 		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.ApplyKinematicField
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1018,7 +1018,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863B960
+	 * 		RVA    -> 0x7014BB960
 	 * 		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.ApplyInternalStrain
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1051,7 +1051,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863B760
+	 * 		RVA    -> 0x7014BB760
 	 * 		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.ApplyExternalStrain
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1084,7 +1084,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863B670
+	 * 		RVA    -> 0x7014BB670
 	 * 		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.ApplyBreakingLinearVelocity
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1109,7 +1109,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863B670
+	 * 		RVA    -> 0x7014BB670
 	 * 		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.ApplyBreakingAngularVelocity
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1134,7 +1134,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48863B580
+	 * 		RVA    -> 0x7014BB580
 	 * 		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.ApplyAngularVelocity
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:

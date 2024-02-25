@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -42,9 +42,9 @@ namespace CG
 	{
 	public:
 		class UAudioBus*                                           AudioBus;                                                // 0x0028(0x0008) ZeroConstructor, Transient, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_AWFM[0x8];                                   // 0x0030(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_RRSE[0x8];                                   // 0x0030(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UAudioAnalyzerSubsystem*                             AudioAnalyzerSubsystem;                                  // 0x0038(0x0008) ZeroConstructor, Transient, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_V2GD[0x50];                                  // 0x0040(0x0050) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_LYZM[0x50];                                  // 0x0040(0x0050) MISSED OFFSET (PADDING)
 
 	public:
 		void StopAnalyzing(class UObject* WorldContextObject);
@@ -71,7 +71,7 @@ namespace CG
 	public:
 		class USoundWave*                                          Sound;                                                   // 0x0028(0x0008) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      DurationInSeconds;                                       // 0x0030(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_H27V[0x44];                                  // 0x0034(0x0044) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_GENC[0x44];                                  // 0x0034(0x0044) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -85,7 +85,7 @@ namespace CG
 	{
 	public:
 		TArray<class UAudioAnalyzer*>                              AudioAnalyzers;                                          // 0x0030(0x0010) ZeroConstructor, Transient, UObjectWrapper, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_65NO[0x10];                                  // 0x0040(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_JANA[0x10];                                  // 0x0040(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();

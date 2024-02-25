@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x478EE4150
+	 * 		RVA    -> 0x6EA264150
 	 * 		Name   -> Function CustomMeshComponent.CustomMeshComponent.SetCustomMeshTriangles
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -37,7 +37,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x478EE40F0
+	 * 		RVA    -> 0x6EA2640F0
 	 * 		Name   -> Function CustomMeshComponent.CustomMeshComponent.ClearCustomMeshTriangles
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -57,7 +57,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x478EE4040
+	 * 		RVA    -> 0x6EA264040
 	 * 		Name   -> Function CustomMeshComponent.CustomMeshComponent.AddCustomMeshTriangles
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:

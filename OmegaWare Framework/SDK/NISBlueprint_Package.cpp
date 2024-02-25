@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47F2329B0
+	 * 		RVA    -> 0x6F6E829B0
 	 * 		Name   -> Function NISBlueprint.NISLibrary.SetNISSharpness
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -35,7 +35,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47F232940
+	 * 		RVA    -> 0x6F6E82940
 	 * 		Name   -> Function NISBlueprint.NISLibrary.SetNISMode
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -58,7 +58,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47F2328B0
+	 * 		RVA    -> 0x6F6E828B0
 	 * 		Name   -> Function NISBlueprint.NISLibrary.SetNISCustomScreenPercentage
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -81,7 +81,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47F232600
+	 * 		RVA    -> 0x6F6E82600
 	 * 		Name   -> Function NISBlueprint.NISLibrary.IsNISSupported
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -103,7 +103,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47F232830
+	 * 		RVA    -> 0x6F6E82830
 	 * 		Name   -> Function NISBlueprint.NISLibrary.IsNISModeSupported
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -128,7 +128,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47F2327B0
+	 * 		RVA    -> 0x6F6E827B0
 	 * 		Name   -> Function NISBlueprint.NISLibrary.GetSupportedNISModes
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -150,7 +150,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47F2326C0
+	 * 		RVA    -> 0x6F6E826C0
 	 * 		Name   -> Function NISBlueprint.NISLibrary.GetNISScreenPercentageRange
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -178,7 +178,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47F232640
+	 * 		RVA    -> 0x6F6E82640
 	 * 		Name   -> Function NISBlueprint.NISLibrary.GetNISRecommendedScreenPercentage
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -203,7 +203,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47F232600
+	 * 		RVA    -> 0x6F6E82600
 	 * 		Name   -> Function NISBlueprint.NISLibrary.GetDefaultNISMode
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */

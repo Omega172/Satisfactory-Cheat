@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -37,7 +37,7 @@ namespace CG
 	public:
 		struct FVector                                             TangentX;                                                // 0x0000(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bFlipTangentY;                                           // 0x0018(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_RLN4[0x7];                                   // 0x0019(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_2N4H[0x7];                                   // 0x0019(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -51,7 +51,7 @@ namespace CG
 		struct FVector                                             Normal;                                                  // 0x0018(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FProcMeshTangent                                    Tangent;                                                 // 0x0030(0x0020) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FColor                                              Color;                                                   // 0x0050(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_F2DW[0x4];                                   // 0x0054(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_PSUY[0x4];                                   // 0x0054(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector2D                                           UV0;                                                     // 0x0058(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector2D                                           UV1;                                                     // 0x0068(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector2D                                           UV2;                                                     // 0x0078(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -70,7 +70,7 @@ namespace CG
 		struct FBox                                                SectionLocalBox;                                         // 0x0020(0x0038) ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 		bool                                                       bEnableCollision;                                        // 0x0058(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bSectionVisible;                                         // 0x0059(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_QH26[0x6];                                   // 0x005A(0x0006) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_WXXU[0x6];                                   // 0x005A(0x0006) MISSED OFFSET (PADDING)
 	};
 
 }

@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Build_DroneStation.Build_DroneStation_C.GetLookAtDecription
 	 * 		Flags  -> (Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 * Parameters:
@@ -38,7 +38,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Build_DroneStation.Build_DroneStation_C.GetDefaultRepresentationColor
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 */
@@ -59,7 +59,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Build_DroneStation.Build_DroneStation_C.LostSignificanceSound
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -78,7 +78,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Build_DroneStation.Build_DroneStation_C.GainSignificanceSound
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -97,7 +97,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Build_DroneStation.Build_DroneStation_C.PlaySFXTakeOffPlatform
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -119,7 +119,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Build_DroneStation.Build_DroneStation_C.PlaySFXDockingPlatform
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -141,7 +141,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Build_DroneStation.Build_DroneStation_C.SetText
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -163,7 +163,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Build_DroneStation.Build_DroneStation_C.StartTakeoffSequence
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -185,7 +185,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Build_DroneStation.Build_DroneStation_C.StartDockingSequence
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -207,7 +207,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Build_DroneStation.Build_DroneStation_C.OnDockingStateChanged
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -231,7 +231,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Build_DroneStation.Build_DroneStation_C.OnHasPowerChanged
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -253,7 +253,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Build_DroneStation.Build_DroneStation_C.StopProductionLoopEffects
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -275,7 +275,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Build_DroneStation.Build_DroneStation_C.StartProductionLoopEffects
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -297,7 +297,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Build_DroneStation.Build_DroneStation_C.LostSignificance
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 */
@@ -316,7 +316,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Build_DroneStation.Build_DroneStation_C.GainedSignificance
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 */
@@ -335,7 +335,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Build_DroneStation.Build_DroneStation_C.ReceiveBeginPlay
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -354,7 +354,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Build_DroneStation.Build_DroneStation_C.ReceiveEndPlay
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -376,7 +376,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Build_DroneStation.Build_DroneStation_C.ExecuteUbergraph_Build_DroneStation
 	 * 		Flags  -> (Final)
 	 * Parameters:

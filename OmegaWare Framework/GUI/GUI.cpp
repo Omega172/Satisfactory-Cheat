@@ -1,48 +1,82 @@
 #include "pch.h"
-
 #include "Watermark.h"
-
-#include <eh.h>
-#include <cmath>
-
-bool bWatermark = true;
-bool bWatermarkFPS = true;
 
 void GUI::Render()
 {
-	if (bWatermark)
-		showWatermark(bWatermarkFPS, Cheat::Title.c_str(), ImVec4(255, 255, 255, 255), ImVec4(255, 255, 255, 0));
+	if (!Cheat::bInitalized)
+		return;
+
+	if (!CurrentFont || !CurrentFontESP)
+	{
+		Utils::LogError(Utils::GetLocation(CurrentLoc), "CurrentFont or CurrentFontESP is nullptr");
+
+		Cheat::localization->SetLocale("ENG");
+	}
+
+	if (ImGui::IsKeyPressed(Cheat::keyMenuKey) || ImGui::IsKeyPressed(ImGuiKey_GamepadStart))
+	{
+		bMenuOpen = !bMenuOpen;
+		ImGui::GetIO().MouseDrawCursor = GUI::bMenuOpen;
+
+		if (ImGui::GetIO().MouseDrawCursor)
+			SetCursor(NULL);
+	}
+
+	if (ImGui::IsKeyPressed(Cheat::keyConsoleKey))
+		Cheat::console->ToggleVisibility();
+
+	if (ImGui::IsKeyPressed(Cheat::keyUnloadKey1) || ImGui::IsKeyPressed(Cheat::keyUnloadKey2))
+		Cheat::bShouldRun = false;
+
+	for (size_t i = 0; i < Features.size(); i++)
+	{
+		Features[i]->HandleKeys();
+	}
+
+	if (Cheat::bWatermark)
+		showWatermark(Cheat::bWatermarkFPS, Cheat::Title.c_str(), ImVec4(255, 255, 255, 255), ImVec4(255, 255, 255, 0));
 
 	if (bMenuOpen)
 	{
-		ImGui::SetNextWindowSize(ImVec2(WIDTH, HEIGHT));
-		ImGui::Begin(Cheat::Title.c_str(), NULL, ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoSavedSettings | ImGuiWindowFlags_NoCollapse);
-
-		ImGui::BeginChild("Cheat", ImVec2(ImGui::GetContentRegionAvail().x / 3, ImGui::GetContentRegionAvail().y), true);
-		{
-			ImGui::Text("Cheat");
-			ImGui::Spacing();
-
-			if (ImGui::Button("Unload"))
-				Cheat::bShouldRun = false;
-			ImGui::SameLine();
-			if (ImGui::Button(Cheat::console.get()->GetVisibility() ? "Hide Console" : "Show Console"))
-				Cheat::console.get()->ToggleVisibility();
-
-			//ImGui::Checkbox("Extra Debug Info", &bExtraDebug);
-
-			ImGui::Checkbox("Watermark", &bWatermark);
-			if (bWatermark)
-				ImGui::Checkbox("Watermark FPS", &bWatermarkFPS);
-		}
-		ImGui::EndChild();
+		Child* child = new Child("Cheat", []() { return ImVec2(ImGui::GetContentRegionAvail().x / 3, ImGui::GetContentRegionAvail().y / 2); }, ImGuiChildFlags_Border);
+		child->AddElement(new Text(Cheat::localization->Get("CHEAT")));
+		child->AddElement(new Spacing());
+		child->AddElement(new Button(Cheat::localization->Get("UNLOAD_BTN"), []() {
+			Cheat::bShouldRun = false;
+		}));
+		child->AddElement(new Button(Cheat::console->GetVisibility() ? Cheat::localization->Get("CONSOLE_HIDE") : Cheat::localization->Get("CONSOLE_SHOW"), []() {
+			Cheat::console->ToggleVisibility();
+		}), true);
+		child->AddElement(new Combo(Cheat::localization->Get("LANGUAGE"), Cheat::CurrentLocale.Name, NULL, []() {
+			for (LocalizationData Locale : Cheat::Locales)
+			{
+				bool bSelected = Cheat::CurrentLocale.LocaleCode == Locale.LocaleCode;
+				if (ImGui::Selectable(Locale.Name.c_str(), bSelected))
+				{
+					Cheat::CurrentLocale = Locale;
+					Cheat::localization->SetLocale(Locale.LocaleCode);
+				}
+				if (bSelected)
+					ImGui::SetItemDefaultFocus();
+			}
+		}));
+		child->AddElement(new Checkbox(Cheat::localization->Get("WATER_MARK"), &Cheat::bWatermark));
+		if (Cheat::bWatermark)
+			child->AddElement(new Checkbox(Cheat::localization->Get("WATER_MARK_FPS"), &Cheat::bWatermarkFPS));
+		child->AddElement(new Button(Cheat::localization->Get("SAVE_CONFIG"), []() {
+			Cheat::config->SaveConfig();
+		}));
+		child->AddElement(new Button(Cheat::localization->Get("LOAD_CONFIG"), []() {
+			Cheat::config->LoadConfig();
+		}), true);
+		Cheat::menu->AddElement(child);
 
 		for (size_t i = 0; i < Features.size(); i++)
 		{
-			Features[i].get()->DrawMenuItems();
+			Features[i]->PopulateMenu();
 		}
 
-		ImGui::End();
+		Cheat::menu->Render();
 	}
 
 	//
@@ -50,14 +84,13 @@ void GUI::Render()
 	//
 
 #if FRAMEWORK_UNREAL
-	auto pUnreal = Cheat::unreal.get();
-	pUnreal->RefreshActorList();
-#endif
-
+	Cheat::unreal->ActorLock.lock();
 	for (size_t i = 0; i < Features.size(); i++)
 	{
-		Features[i].get()->Render();
+		Features[i]->Render();
 	}
+	Cheat::unreal->ActorLock.unlock();
+#endif
 
 	//
 	// End Other Render Stuff

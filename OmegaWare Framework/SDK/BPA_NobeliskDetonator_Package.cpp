@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPA_NobeliskDetonator.BPA_NobeliskDetonator_C.AnimGraph
 	 * 		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -36,7 +36,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPA_NobeliskDetonator.BPA_NobeliskDetonator_C.AnimNotify_NobeliskDetonate
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -55,7 +55,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPA_NobeliskDetonator.BPA_NobeliskDetonator_C.AnimNotify_NobeliskThrowRelease
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -74,7 +74,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPA_NobeliskDetonator.BPA_NobeliskDetonator_C.BlueprintInitializeAnimation
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 */
@@ -93,7 +93,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPA_NobeliskDetonator.BPA_NobeliskDetonator_C.AnimNotify_HideCurrentMagazine
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -112,7 +112,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPA_NobeliskDetonator.BPA_NobeliskDetonator_C.AnimNotify_ShowCurrentMagazine
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -131,7 +131,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPA_NobeliskDetonator.BPA_NobeliskDetonator_C.AnimNotify_HideEjectMagazine
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -150,7 +150,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPA_NobeliskDetonator.BPA_NobeliskDetonator_C.ExecuteUbergraph_BPA_NobeliskDetonator
 	 * 		Flags  -> (Final)
 	 * Parameters:

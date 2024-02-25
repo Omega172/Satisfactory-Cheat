@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -34,7 +34,7 @@ namespace CG
 	class UFontBulkData : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_R4IP[0x50];                                  // 0x0028(0x0050) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_S15G[0x50];                                  // 0x0028(0x0050) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -77,7 +77,7 @@ namespace CG
 	class USlateWidgetStyleContainerBase : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_JK6P[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_UZM3[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();

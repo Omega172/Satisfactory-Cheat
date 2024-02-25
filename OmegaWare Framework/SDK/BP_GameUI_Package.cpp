@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.IsPlayerInventoryOpen
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -36,7 +36,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.GetHUDOverlayOfClass
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -65,7 +65,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OpenCodexOnItemDescriptor
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -87,7 +87,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.CreateAddonPlayerInventory
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -113,7 +113,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.GetEquipmentHUDParent
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -139,7 +139,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.FindWidgetToPop
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -163,7 +163,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.GetMessageBox
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -187,7 +187,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.GetShoppingList
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, Const)
 	 * Parameters:
@@ -211,7 +211,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OnShortcutPressed
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -235,7 +235,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.HandlePauseGamePressed
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 */
@@ -256,7 +256,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OnHiddenHUDModeUpdated
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -278,7 +278,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.ResetInteractionText
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -297,7 +297,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OnPlayerDeath
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -319,7 +319,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OnReviveEnded
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -341,7 +341,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OnReviveStarted
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -363,7 +363,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OnUsableActorUpdated
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -387,7 +387,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.GetAudioMessageSlot
 	 * 		Flags  -> (Event, Protected, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 */
@@ -408,7 +408,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.GetTutorialInfoSlot
 	 * 		Flags  -> (Event, Protected, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 */
@@ -429,7 +429,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.AddHUDNotification
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -451,7 +451,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.ShouldShowAutoSaveNotification
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 */
@@ -472,7 +472,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.PopWidget
 	 * 		Flags  -> (Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -496,7 +496,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OnPreviewKeyDown
 	 * 		Flags  -> (Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -522,7 +522,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.SetVersionLabelPosition
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -541,7 +541,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.SetExperimentalVisibility
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -560,7 +560,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.UpdatePartialPumpiModeUIVisibility
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -582,7 +582,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.PrePopWidget
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -604,7 +604,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.GetFGHud
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -628,7 +628,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.SetPrototypeVisibility
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -650,7 +650,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OnInventorySlotStackMove
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -674,7 +674,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.CreateAddOnPlayerInventoryInternal
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -700,7 +700,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.IsChatWindowVisible
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 */
@@ -721,7 +721,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.GetUIVisibility
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 */
@@ -742,7 +742,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.UpdateHUDPanelVisibility
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -764,7 +764,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.GetMessageNotifierVisibility
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 */
@@ -785,7 +785,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.UpdateHUDVisibility
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -804,7 +804,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.AddMessageNotification
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -826,7 +826,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.GetItemDropLocation
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -850,7 +850,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OnDrop
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -878,7 +878,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.RefreshInputMode
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -897,7 +897,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.CreatePopupWidget
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -921,7 +921,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.GetReloadRespawnText
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 */
@@ -942,7 +942,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.GetReloadRespawnTextVisibility
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 */
@@ -963,7 +963,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.PopAllWidgets_Internal
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -982,7 +982,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.DoesWidgetExist
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -1008,7 +1008,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.GetPlayerInteractionVisibility
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 */
@@ -1029,7 +1029,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.Destruct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 */
@@ -1048,7 +1048,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.ReceivedMessage
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -1070,7 +1070,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.HandleFocusLost
 	 * 		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -1089,7 +1089,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.AddPawnHUD
 	 * 		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -1111,7 +1111,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.RemovePawnHUD
 	 * 		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -1130,7 +1130,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.AddInteractWidget
 	 * 		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -1152,7 +1152,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OnPlayerBeginTypeMessage
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -1171,7 +1171,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.Construct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 */
@@ -1190,7 +1190,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OnChatMessageReceived
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -1209,7 +1209,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.ShowRespawnMessage
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -1228,7 +1228,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OnReceiveRadiationStart
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 */
@@ -1247,7 +1247,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OnReceiveRadiationStop
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 */
@@ -1266,7 +1266,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OnRadiationIntensityUpdated
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -1290,7 +1290,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.ForceStopRadiationUI
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -1309,7 +1309,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.PushWidget
 	 * 		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -1331,7 +1331,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.ShowDirectionalSubtitle
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -1359,7 +1359,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.StopSubtitle
 	 * 		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -1381,7 +1381,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.EventUpdateHUDScaling
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -1403,7 +1403,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OnResumeGame
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 */
@@ -1422,7 +1422,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.ShowQuickSearch
 	 * 		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -1441,7 +1441,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.CreateBreakNotification
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -1460,7 +1460,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.ClosePopup
 	 * 		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -1479,7 +1479,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.PopAllWidgets
 	 * 		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -1498,7 +1498,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OnInitialized
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 */
@@ -1517,7 +1517,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OnAutosaveStart
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -1539,7 +1539,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OnAutosaveFinished
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -1558,7 +1558,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.ResetInput
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -1577,7 +1577,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.ShowAttentionPing
 	 * 		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -1601,7 +1601,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.PushNotificationWidget
 	 * 		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -1623,7 +1623,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OnResearchCompleted
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -1645,7 +1645,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OnBeginTypeChat
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -1664,7 +1664,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.ReceiveShowTutorialHint
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -1683,7 +1683,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.ShowBasicNotification
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -1705,7 +1705,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.ShowInteractionText
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -1727,7 +1727,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.HideInteractionText
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -1746,7 +1746,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.SetupPawnBindings
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -1765,7 +1765,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.ShowBuildDisqualifier
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -1787,7 +1787,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OnDisqualifierDestroyed
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -1806,7 +1806,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OnPawnChanged
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -1828,7 +1828,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.BndEvt__mShoppingListWidget_K2Node_ComponentBoundEvent_0_OnToDoListOpen__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -1847,7 +1847,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.BndEvt__mShoppingListWidget_K2Node_ComponentBoundEvent_1_OnToDoListClosed__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -1866,7 +1866,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OnFactoryClipboardCopied
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -1890,7 +1890,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OnFactoryClipboardPasted
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -1914,7 +1914,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.AddWordObjectIndicatorWidget
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -1938,7 +1938,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.ClearHUDHints
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -1957,7 +1957,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.SetHUDHints
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -1979,7 +1979,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.ShowTextNotification
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -2001,7 +2001,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.AddHUDOverlay
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -2023,7 +2023,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OnUpdateHUD_ESlot
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -2045,7 +2045,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.CloseAllHUD_ESlots
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -2064,7 +2064,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OpenAllHUD_ESlots
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -2083,7 +2083,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OnPauseGame
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 */
@@ -2102,7 +2102,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.ForceUpdateEquipmentCrosshair
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -2121,7 +2121,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.ToggleInteractWidget
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -2145,7 +2145,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.OnToggleInteractWidget
 	 * 		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -2169,7 +2169,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_GameUI.BP_GameUI_C.ExecuteUbergraph_BP_GameUI
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:

@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BF4662D0
+	 * 		RVA    -> 0x72ADC62D0
 	 * 		Name   -> Function LensDistortion.LensDistortionBlueprintLibrary.NotEqual_CompareLensDistortionModels
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -39,7 +39,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BF466110
+	 * 		RVA    -> 0x72ADC6110
 	 * 		Name   -> Function LensDistortion.LensDistortionBlueprintLibrary.GetUndistortOverscanFactor
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -70,7 +70,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BF465FC0
+	 * 		RVA    -> 0x72ADC5FC0
 	 * 		Name   -> Function LensDistortion.LensDistortionBlueprintLibrary.EqualEqual_CompareLensDistortionModels
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -97,7 +97,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BF465CD0
+	 * 		RVA    -> 0x72ADC5CD0
 	 * 		Name   -> Function LensDistortion.LensDistortionBlueprintLibrary.DrawUVDisplacementToRenderTarget
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:

@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_Crate.BP_Crate_C.GetLookAtDecription
 	 * 		Flags  -> (Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 * Parameters:
@@ -38,7 +38,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_Crate.BP_Crate_C.GetDefaultRepresentationColor
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 */
@@ -59,7 +59,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_Crate.BP_Crate_C.StartIsLookedAt
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -83,7 +83,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_Crate.BP_Crate_C.StopIsLookedAt
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -107,7 +107,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_Crate.BP_Crate_C.OnUse
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -131,7 +131,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_Crate.BP_Crate_C.SwitchHUD
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -153,7 +153,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_Crate.BP_Crate_C.ExecuteUbergraph_BP_Crate
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:

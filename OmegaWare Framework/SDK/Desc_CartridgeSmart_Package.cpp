@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Desc_CartridgeSmart.Desc_CartridgeSmart_C.PlayEffects
 	 * 		Flags  -> (Event, Protected, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -34,7 +34,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Desc_CartridgeSmart.Desc_CartridgeSmart_C.ProcessHit
 	 * 		Flags  -> (Event, Protected, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -56,7 +56,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Desc_CartridgeSmart.Desc_CartridgeSmart_C.ExecuteUbergraph_Desc_CartridgeSmart
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:

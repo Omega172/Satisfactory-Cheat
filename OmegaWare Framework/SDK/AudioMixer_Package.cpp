@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -40,7 +40,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208ED10
+	 * 		RVA    -> 0x71C1AF020
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.TrimAudioCache
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -65,7 +65,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208EBD0
+	 * 		RVA    -> 0x71C1AEEE0
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.SwapAudioOutputDevice
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -92,7 +92,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208E6C0
+	 * 		RVA    -> 0x71C1AE9D0
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.StopRecordingOutput
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -127,7 +127,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208E410
+	 * 		RVA    -> 0x71C1AE720
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.StopAudioBus
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -152,7 +152,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208E310
+	 * 		RVA    -> 0x71C1AE620
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.StopAnalyzingOutput
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -177,7 +177,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208E190
+	 * 		RVA    -> 0x71C1AE4A0
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.StartRecordingOutput
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -204,7 +204,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208DE60
+	 * 		RVA    -> 0x71C1AE170
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.StartAudioBus
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -229,7 +229,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208DC30
+	 * 		RVA    -> 0x71C1ADF40
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.StartAnalyzingOutput
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -264,7 +264,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208D470
+	 * 		RVA    -> 0x71C1AD780
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.SetSubmixEffectChainOverride
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -293,7 +293,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208C5F0
+	 * 		RVA    -> 0x71C1AC900
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.SetBypassSourceEffectChainEntry
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -322,7 +322,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208C1A0
+	 * 		RVA    -> 0x71C1AC4B0
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.ResumeRecordingOutput
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -347,7 +347,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208BB30
+	 * 		RVA    -> 0x71C1ABE40
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.ReplaceSubmixEffect
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -376,7 +376,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208BB30
+	 * 		RVA    -> 0x71C1ABE40
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.ReplaceSoundEffectSubmix
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -405,7 +405,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208BA10
+	 * 		RVA    -> 0x71C1ABD20
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.RemoveSubmixEffectPresetAtIndex
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -432,7 +432,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208B8F0
+	 * 		RVA    -> 0x71C1ABC00
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.RemoveSubmixEffectPreset
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -459,7 +459,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208BA10
+	 * 		RVA    -> 0x71C1ABD20
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.RemoveSubmixEffectAtIndex
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -486,7 +486,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208B8F0
+	 * 		RVA    -> 0x71C1ABC00
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.RemoveSubmixEffect
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -513,7 +513,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208B6C0
+	 * 		RVA    -> 0x71C1AB9D0
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.RemoveSourceEffectFromPresetChain
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -540,7 +540,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208B550
+	 * 		RVA    -> 0x71C1AB860
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.RemoveMasterSubmixEffect
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -565,7 +565,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208B2F0
+	 * 		RVA    -> 0x71C1AB600
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.PrimeSoundForPlayback
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -590,7 +590,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208B270
+	 * 		RVA    -> 0x71C1AB580
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.PrimeSoundCueForPlayback
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -613,7 +613,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208B170
+	 * 		RVA    -> 0x71C1AB480
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.PauseRecordingOutput
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -638,7 +638,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208AE40
+	 * 		RVA    -> 0x71C1AB150
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.MakePresetSpectralAnalysisBandSettings
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -669,7 +669,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208AB20
+	 * 		RVA    -> 0x71C1AAE30
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.MakeMusicalSpectralAnalysisBandSettings
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -702,7 +702,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208A920
+	 * 		RVA    -> 0x71C1AAC30
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.MakeFullSpectrumSpectralAnalysisBandSettings
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -735,7 +735,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208A5C0
+	 * 		RVA    -> 0x71C1AA8D0
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.IsAudioBusActive
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -762,7 +762,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208A060
+	 * 		RVA    -> 0x71C1AA370
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.GetPhaseForFrequencies
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -793,7 +793,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C2089F10
+	 * 		RVA    -> 0x71C1AA220
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.GetNumberOfEntriesInSourceEffectChain
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -820,7 +820,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C2089C80
+	 * 		RVA    -> 0x71C1A9F90
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.GetMagnitudeForFrequencies
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -851,7 +851,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C20892F0
+	 * 		RVA    -> 0x71C1A9600
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.GetCurrentAudioOutputDeviceName
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -876,7 +876,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C2089170
+	 * 		RVA    -> 0x71C1A9480
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.GetAvailableAudioOutputDevices
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -901,7 +901,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C2088540
+	 * 		RVA    -> 0x71C1A8850
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.Conv_AudioOutputDeviceInfoToString
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -926,7 +926,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C2088470
+	 * 		RVA    -> 0x71C1A8780
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.ClearSubmixEffects
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -951,7 +951,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C2088340
+	 * 		RVA    -> 0x71C1A8650
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.ClearSubmixEffectChainOverride
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -978,7 +978,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C2088290
+	 * 		RVA    -> 0x71C1A85A0
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.ClearMasterSubmixEffects
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -1001,7 +1001,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C2087F70
+	 * 		RVA    -> 0x71C1A8280
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.AddSubmixEffect
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -1030,7 +1030,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C2087D40
+	 * 		RVA    -> 0x71C1A8050
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.AddSourceEffectToPresetChain
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -1057,7 +1057,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C2087B60
+	 * 		RVA    -> 0x71C1A7E70
 	 * 		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.AddMasterSubmixEffect
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -1110,7 +1110,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208E2F0
+	 * 		RVA    -> 0x71C1AE600
 	 * 		Name   -> Function AudioMixer.SynthComponent.Stop
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1130,7 +1130,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208DC10
+	 * 		RVA    -> 0x71C1ADF20
 	 * 		Name   -> Function AudioMixer.SynthComponent.Start
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1150,7 +1150,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208DB80
+	 * 		RVA    -> 0x71C1ADE90
 	 * 		Name   -> Function AudioMixer.SynthComponent.SetVolumeMultiplier
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1173,7 +1173,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208D620
+	 * 		RVA    -> 0x71C1AD930
 	 * 		Name   -> Function AudioMixer.SynthComponent.SetSubmixSend
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1198,7 +1198,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208CCC0
+	 * 		RVA    -> 0x71C1ACFD0
 	 * 		Name   -> Function AudioMixer.SynthComponent.SetOutputToBusOnly
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1221,7 +1221,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208C9F0
+	 * 		RVA    -> 0x71C1ACD00
 	 * 		Name   -> Function AudioMixer.SynthComponent.SetLowPassFilterFrequency
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1244,7 +1244,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208C950
+	 * 		RVA    -> 0x71C1ACC60
 	 * 		Name   -> Function AudioMixer.SynthComponent.SetLowPassFilterEnabled
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1267,7 +1267,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208A8B0
+	 * 		RVA    -> 0x71C1AABC0
 	 * 		Name   -> Function AudioMixer.SynthComponent.IsPlaying
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1289,7 +1289,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C2088F20
+	 * 		RVA    -> 0x71C1A9230
 	 * 		Name   -> Function AudioMixer.SynthComponent.FadeOut
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, Const)
 	 * Parameters:
@@ -1316,7 +1316,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C2088DA0
+	 * 		RVA    -> 0x71C1A90B0
 	 * 		Name   -> Function AudioMixer.SynthComponent.FadeIn
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, Const)
 	 * Parameters:
@@ -1345,7 +1345,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C2088160
+	 * 		RVA    -> 0x71C1A8470
 	 * 		Name   -> Function AudioMixer.SynthComponent.AdjustVolume
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, Const)
 	 * Parameters:
@@ -1386,7 +1386,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208CFA0
+	 * 		RVA    -> 0x71C1AD2B0
 	 * 		Name   -> Function AudioMixer.SubmixEffectDynamicsProcessorPreset.SetSettings
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1409,7 +1409,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208C840
+	 * 		RVA    -> 0x71C1ACB50
 	 * 		Name   -> Function AudioMixer.SubmixEffectDynamicsProcessorPreset.SetExternalSubmix
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1432,7 +1432,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208C2A0
+	 * 		RVA    -> 0x71C1AC5B0
 	 * 		Name   -> Function AudioMixer.SubmixEffectDynamicsProcessorPreset.SetAudioBus
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1455,7 +1455,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208BD60
+	 * 		RVA    -> 0x71C1AC070
 	 * 		Name   -> Function AudioMixer.SubmixEffectDynamicsProcessorPreset.ResetKey
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1489,7 +1489,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208D210
+	 * 		RVA    -> 0x71C1AD520
 	 * 		Name   -> Function AudioMixer.SubmixEffectSubmixEQPreset.SetSettings
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1526,7 +1526,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208D2C0
+	 * 		RVA    -> 0x71C1AD5D0
 	 * 		Name   -> Function AudioMixer.SubmixEffectReverbPreset.SetSettingsWithReverbEffect
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1553,7 +1553,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208D100
+	 * 		RVA    -> 0x71C1AD410
 	 * 		Name   -> Function AudioMixer.SubmixEffectReverbPreset.SetSettings
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1604,7 +1604,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208EE80
+	 * 		RVA    -> 0x71C1AF190
 	 * 		Name   -> Function AudioMixer.QuartzClockHandle.UnsubscribeFromTimeDivision
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1633,7 +1633,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208EDA0
+	 * 		RVA    -> 0x71C1AF0B0
 	 * 		Name   -> Function AudioMixer.QuartzClockHandle.UnsubscribeFromAllTimeDivisions
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1660,7 +1660,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208EA20
+	 * 		RVA    -> 0x71C1AED30
 	 * 		Name   -> Function AudioMixer.QuartzClockHandle.SubscribeToQuantizationEvent
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1691,7 +1691,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208E8E0
+	 * 		RVA    -> 0x71C1AEBF0
 	 * 		Name   -> Function AudioMixer.QuartzClockHandle.SubscribeToAllQuantizationEvents
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1720,7 +1720,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208E550
+	 * 		RVA    -> 0x71C1AE860
 	 * 		Name   -> Function AudioMixer.QuartzClockHandle.StopClock
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1749,7 +1749,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208DFB0
+	 * 		RVA    -> 0x71C1AE2C0
 	 * 		Name   -> Function AudioMixer.QuartzClockHandle.StartOtherClock
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1778,7 +1778,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208C090
+	 * 		RVA    -> 0x71C1AC3A0
 	 * 		Name   -> Function AudioMixer.QuartzClockHandle.StartClock
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1805,7 +1805,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208D940
+	 * 		RVA    -> 0x71C1ADC50
 	 * 		Name   -> Function AudioMixer.QuartzClockHandle.SetTicksPerSecond
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1838,7 +1838,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208D700
+	 * 		RVA    -> 0x71C1ADA10
 	 * 		Name   -> Function AudioMixer.QuartzClockHandle.SetThirtySecondNotesPerMinute
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1871,7 +1871,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208CD60
+	 * 		RVA    -> 0x71C1AD070
 	 * 		Name   -> Function AudioMixer.QuartzClockHandle.SetSecondsPerTick
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1904,7 +1904,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208CA80
+	 * 		RVA    -> 0x71C1ACD90
 	 * 		Name   -> Function AudioMixer.QuartzClockHandle.SetMillisecondsPerTick
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1937,7 +1937,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208C3B0
+	 * 		RVA    -> 0x71C1AC6C0
 	 * 		Name   -> Function AudioMixer.QuartzClockHandle.SetBeatsPerMinute
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1970,7 +1970,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208C090
+	 * 		RVA    -> 0x71C1AC3A0
 	 * 		Name   -> Function AudioMixer.QuartzClockHandle.ResumeClock
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1997,7 +1997,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208BEA0
+	 * 		RVA    -> 0x71C1AC1B0
 	 * 		Name   -> Function AudioMixer.QuartzClockHandle.ResetTransportQuantized
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2028,7 +2028,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208BDB0
+	 * 		RVA    -> 0x71C1AC0C0
 	 * 		Name   -> Function AudioMixer.QuartzClockHandle.ResetTransport
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2053,7 +2053,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208B060
+	 * 		RVA    -> 0x71C1AB370
 	 * 		Name   -> Function AudioMixer.QuartzClockHandle.PauseClock
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2080,7 +2080,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208A710
+	 * 		RVA    -> 0x71C1AAA20
 	 * 		Name   -> Function AudioMixer.QuartzClockHandle.IsClockRunning
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2105,7 +2105,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208A520
+	 * 		RVA    -> 0x71C1AA830
 	 * 		Name   -> Function AudioMixer.QuartzClockHandle.GetTicksPerSecond
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2130,7 +2130,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208A480
+	 * 		RVA    -> 0x71C1AA790
 	 * 		Name   -> Function AudioMixer.QuartzClockHandle.GetThirtySecondNotesPerMinute
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2155,7 +2155,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208A3E0
+	 * 		RVA    -> 0x71C1AA6F0
 	 * 		Name   -> Function AudioMixer.QuartzClockHandle.GetSecondsPerTick
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2180,7 +2180,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C2089E20
+	 * 		RVA    -> 0x71C1AA130
 	 * 		Name   -> Function AudioMixer.QuartzClockHandle.GetMillisecondsPerTick
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2205,7 +2205,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C20899B0
+	 * 		RVA    -> 0x71C1A9CC0
 	 * 		Name   -> Function AudioMixer.QuartzClockHandle.GetEstimatedRunTime
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2230,7 +2230,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C2089590
+	 * 		RVA    -> 0x71C1A98A0
 	 * 		Name   -> Function AudioMixer.QuartzClockHandle.GetDurationOfQuantizationTypeInSeconds
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2259,7 +2259,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C20894E0
+	 * 		RVA    -> 0x71C1A97F0
 	 * 		Name   -> Function AudioMixer.QuartzClockHandle.GetCurrentTimestamp
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2284,7 +2284,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C2089250
+	 * 		RVA    -> 0x71C1A9560
 	 * 		Name   -> Function AudioMixer.QuartzClockHandle.GetBeatsPerMinute
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2323,7 +2323,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208A900
+	 * 		RVA    -> 0x71C1AAC10
 	 * 		Name   -> Function AudioMixer.QuartzSubsystem.IsQuartzEnabled
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2345,7 +2345,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208A7B0
+	 * 		RVA    -> 0x71C1AAAC0
 	 * 		Name   -> Function AudioMixer.QuartzSubsystem.IsClockRunning
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2372,7 +2372,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208A340
+	 * 		RVA    -> 0x71C1AA650
 	 * 		Name   -> Function AudioMixer.QuartzSubsystem.GetRoundTripMinLatency
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2397,7 +2397,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208A2A0
+	 * 		RVA    -> 0x71C1AA5B0
 	 * 		Name   -> Function AudioMixer.QuartzSubsystem.GetRoundTripMaxLatency
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2422,7 +2422,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C208A200
+	 * 		RVA    -> 0x71C1AA510
 	 * 		Name   -> Function AudioMixer.QuartzSubsystem.GetRoundTripAverageLatency
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2447,7 +2447,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C2089BB0
+	 * 		RVA    -> 0x71C1A9EC0
 	 * 		Name   -> Function AudioMixer.QuartzSubsystem.GetHandleForClock
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2474,7 +2474,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C2089B00
+	 * 		RVA    -> 0x71C1A9E10
 	 * 		Name   -> Function AudioMixer.QuartzSubsystem.GetGameThreadToAudioRenderThreadMinLatency
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2499,7 +2499,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C2089B00
+	 * 		RVA    -> 0x71C1A9E10
 	 * 		Name   -> Function AudioMixer.QuartzSubsystem.GetGameThreadToAudioRenderThreadMaxLatency
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2524,7 +2524,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C2089A50
+	 * 		RVA    -> 0x71C1A9D60
 	 * 		Name   -> Function AudioMixer.QuartzSubsystem.GetGameThreadToAudioRenderThreadAverageLatency
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2549,7 +2549,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C20898A0
+	 * 		RVA    -> 0x71C1A9BB0
 	 * 		Name   -> Function AudioMixer.QuartzSubsystem.GetEstimatedClockRunTime
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2576,7 +2576,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C20896C0
+	 * 		RVA    -> 0x71C1A99D0
 	 * 		Name   -> Function AudioMixer.QuartzSubsystem.GetDurationOfQuantizationTypeInSeconds
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2607,7 +2607,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C20893D0
+	 * 		RVA    -> 0x71C1A96E0
 	 * 		Name   -> Function AudioMixer.QuartzSubsystem.GetCurrentClockTimestamp
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2634,7 +2634,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C2089110
+	 * 		RVA    -> 0x71C1A9420
 	 * 		Name   -> Function AudioMixer.QuartzSubsystem.GetAudioRenderThreadToGameThreadMinLatency
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2656,7 +2656,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C20890B0
+	 * 		RVA    -> 0x71C1A93C0
 	 * 		Name   -> Function AudioMixer.QuartzSubsystem.GetAudioRenderThreadToGameThreadMaxLatency
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2678,7 +2678,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C2089050
+	 * 		RVA    -> 0x71C1A9360
 	 * 		Name   -> Function AudioMixer.QuartzSubsystem.GetAudioRenderThreadToGameThreadAverageLatency
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2700,7 +2700,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C2088CA0
+	 * 		RVA    -> 0x71C1A8FB0
 	 * 		Name   -> Function AudioMixer.QuartzSubsystem.DoesClockExist
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2727,7 +2727,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C2088BA0
+	 * 		RVA    -> 0x71C1A8EB0
 	 * 		Name   -> Function AudioMixer.QuartzSubsystem.DeleteClockByName
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2752,7 +2752,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C2088A90
+	 * 		RVA    -> 0x71C1A8DA0
 	 * 		Name   -> Function AudioMixer.QuartzSubsystem.DeleteClockByHandle
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2779,7 +2779,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C2088660
+	 * 		RVA    -> 0x71C1A8970
 	 * 		Name   -> Function AudioMixer.QuartzSubsystem.CreateNewClock
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:

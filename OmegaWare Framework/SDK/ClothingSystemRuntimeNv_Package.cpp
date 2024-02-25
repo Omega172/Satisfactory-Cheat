@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -40,7 +40,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47E322F70
+	 * 		RVA    -> 0x6F5022F70
 	 * 		Name   -> Function ClothingSystemRuntimeNv.ClothingSimulationInteractorNv.SetAnimDriveDamperStiffness
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:

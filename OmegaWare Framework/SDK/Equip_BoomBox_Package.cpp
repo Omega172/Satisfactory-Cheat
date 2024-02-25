@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.GetShowInfoUntilFuelPercentIsFull
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -36,7 +36,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.GetOverwriteTickRate
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -60,7 +60,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.GetShowLowFuelWarning
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 */
@@ -81,7 +81,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.GetIsBoomBoxPlaying
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 */
@@ -102,7 +102,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.GetCurrentBoomBoxTape
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -126,7 +126,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.GetHUD_ESlotClass
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -150,7 +150,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.GetAmmoAmount
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -177,7 +177,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.GetUpdateOnTick
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 */
@@ -198,7 +198,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.GetAmmoDescriptor
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -222,7 +222,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.GetFuelDescriptor
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -246,7 +246,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.GetFuelPercent
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -270,7 +270,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.GetIsBurningFuel
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 */
@@ -291,7 +291,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.GetAlwaysShowContent
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 */
@@ -312,7 +312,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.GetHoverPackDistance
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -336,7 +336,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.GetHoverPackHasPower
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 */
@@ -357,7 +357,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.GetHoverPackMode
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -381,7 +381,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.GetObjectScannerTarget
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -405,7 +405,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.Easter Egg Morse Code
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -424,7 +424,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.FireEasterEgg
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -443,7 +443,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.PlayTapAnimation
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -462,7 +462,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.FireTurboBassLogic
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -481,7 +481,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.FireTurboBassEffects
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -500,7 +500,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.CurrentTapeChanged
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -522,7 +522,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.PlaybackPositionUpdate
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -546,7 +546,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.PlaybackStateChanged
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -568,7 +568,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.RepeatModeChanged
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -590,7 +590,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.CurrentSongChanged
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -614,7 +614,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.BoomBoxModeChanged
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -636,7 +636,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.WasEquipped
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -655,7 +655,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.WasUnEquipped
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -674,7 +674,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.AudioVolumeChanged
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -696,7 +696,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.OnMenuOpen
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -715,7 +715,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.OnBeginTurbobassSequence
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -734,7 +734,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Equip_BoomBox.Equip_BoomBox_C.ExecuteUbergraph_Equip_BoomBox
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:

@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -168,7 +168,7 @@ namespace CG
 	public:
 		struct FScriptTypedElementListProxy                        ElementList;                                             // 0x0000(0x0010)  (ConstParm, Parm, NativeAccessSpecifierPublic)
 		int32_t                                                    Index;                                                   // 0x0010(0x0004)  (ConstParm, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-		unsigned char                                              UnknownData_3JQF[0x4];                                   // 0x0014(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY) ()
+		unsigned char                                              UnknownData_RGE9[0x4];                                   // 0x0014(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY) ()
 		struct FScriptTypedElementHandle                           ReturnValue;                                             // 0x0018(0x0008)  (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
 	};
 

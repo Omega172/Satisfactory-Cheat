@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C88C0
+	 * 		RVA    -> 0x719DB88C0
 	 * 		Name   -> Function VariantManagerContent.LevelVariantSets.GetVariantSetByName
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -37,7 +37,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C8800
+	 * 		RVA    -> 0x719DB8800
 	 * 		Name   -> Function VariantManagerContent.LevelVariantSets.GetVariantSet
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -62,7 +62,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C8420
+	 * 		RVA    -> 0x719DB8420
 	 * 		Name   -> Function VariantManagerContent.LevelVariantSets.GetNumVariantSets
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -98,7 +98,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C9680
+	 * 		RVA    -> 0x719DB9680
 	 * 		Name   -> Function VariantManagerContent.LevelVariantSetsActor.SwitchOnVariantByName
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -125,7 +125,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C9550
+	 * 		RVA    -> 0x719DB9550
 	 * 		Name   -> Function VariantManagerContent.LevelVariantSetsActor.SwitchOnVariantByIndex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -152,7 +152,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C8D00
+	 * 		RVA    -> 0x719DB8D00
 	 * 		Name   -> Function VariantManagerContent.LevelVariantSetsActor.SetLevelVariantSets
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -175,7 +175,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C8340
+	 * 		RVA    -> 0x719DB8340
 	 * 		Name   -> Function VariantManagerContent.LevelVariantSetsActor.GetLevelVariantSets
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -228,7 +228,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C8980
+	 * 		RVA    -> 0x719DB8980
 	 * 		Name   -> Function VariantManagerContent.PropertyValue.HasRecordedData
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -250,7 +250,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C85D0
+	 * 		RVA    -> 0x719DB85D0
 	 * 		Name   -> Function VariantManagerContent.PropertyValue.GetPropertyTooltip
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -272,7 +272,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C8310
+	 * 		RVA    -> 0x719DB8310
 	 * 		Name   -> Function VariantManagerContent.PropertyValue.GetFullDisplayString
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -392,7 +392,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C89D0
+	 * 		RVA    -> 0x719DB89D0
 	 * 		Name   -> Function VariantManagerContent.SwitchActor.SelectOption
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -415,7 +415,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C8620
+	 * 		RVA    -> 0x719DB8620
 	 * 		Name   -> Function VariantManagerContent.SwitchActor.GetSelectedOption
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -437,7 +437,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C8460
+	 * 		RVA    -> 0x719DB8460
 	 * 		Name   -> Function VariantManagerContent.SwitchActor.GetOptions
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -473,7 +473,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C9530
+	 * 		RVA    -> 0x719DB9530
 	 * 		Name   -> Function VariantManagerContent.Variant.SwitchOn
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -493,7 +493,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C93D0
+	 * 		RVA    -> 0x719DB93D0
 	 * 		Name   -> Function VariantManagerContent.Variant.SetThumbnailFromTexture
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -516,7 +516,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C9250
+	 * 		RVA    -> 0x719DB9250
 	 * 		Name   -> Function VariantManagerContent.Variant.SetThumbnailFromFile
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -539,7 +539,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C9230
+	 * 		RVA    -> 0x719DB9230
 	 * 		Name   -> Function VariantManagerContent.Variant.SetThumbnailFromEditorViewport
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -559,7 +559,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C8DB0
+	 * 		RVA    -> 0x719DB8DB0
 	 * 		Name   -> Function VariantManagerContent.Variant.SetThumbnailFromCamera
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -590,7 +590,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C8BA0
+	 * 		RVA    -> 0x719DB8BA0
 	 * 		Name   -> Function VariantManagerContent.Variant.SetDisplayText
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -613,7 +613,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C8A60
+	 * 		RVA    -> 0x719DB8A60
 	 * 		Name   -> Function VariantManagerContent.Variant.SetDependency
 	 * 		Flags  -> (Final, Native, Public, HasOutParms)
 	 * Parameters:
@@ -640,7 +640,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C89A0
+	 * 		RVA    -> 0x719DB89A0
 	 * 		Name   -> Function VariantManagerContent.Variant.IsActive
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -662,7 +662,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C8640
+	 * 		RVA    -> 0x719DB8640
 	 * 		Name   -> Function VariantManagerContent.Variant.GetThumbnail
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -684,7 +684,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C8510
+	 * 		RVA    -> 0x719DB8510
 	 * 		Name   -> Function VariantManagerContent.Variant.GetParent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -706,7 +706,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C8400
+	 * 		RVA    -> 0x719DB8400
 	 * 		Name   -> Function VariantManagerContent.Variant.GetNumDependencies
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -728,7 +728,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C83E0
+	 * 		RVA    -> 0x719DB83E0
 	 * 		Name   -> Function VariantManagerContent.Variant.GetNumActors
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -750,7 +750,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C8270
+	 * 		RVA    -> 0x719DB8270
 	 * 		Name   -> Function VariantManagerContent.Variant.GetDisplayText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -772,7 +772,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C7FE0
+	 * 		RVA    -> 0x719DB7FE0
 	 * 		Name   -> Function VariantManagerContent.Variant.GetDependents
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -799,7 +799,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C7F00
+	 * 		RVA    -> 0x719DB7F00
 	 * 		Name   -> Function VariantManagerContent.Variant.GetDependency
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -824,7 +824,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C7E20
+	 * 		RVA    -> 0x719DB7E20
 	 * 		Name   -> Function VariantManagerContent.Variant.GetActor
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -849,7 +849,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C7D90
+	 * 		RVA    -> 0x719DB7D90
 	 * 		Name   -> Function VariantManagerContent.Variant.DeleteDependency
 	 * 		Flags  -> (Final, Native, Public)
 	 * Parameters:
@@ -872,7 +872,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C7C80
+	 * 		RVA    -> 0x719DB7C80
 	 * 		Name   -> Function VariantManagerContent.Variant.AddDependency
 	 * 		Flags  -> (Final, Native, Public, HasOutParms)
 	 * Parameters:
@@ -927,7 +927,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C9490
+	 * 		RVA    -> 0x719DB9490
 	 * 		Name   -> Function VariantManagerContent.VariantSet.SetThumbnailFromTexture
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -950,7 +950,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C9300
+	 * 		RVA    -> 0x719DB9300
 	 * 		Name   -> Function VariantManagerContent.VariantSet.SetThumbnailFromFile
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -973,7 +973,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C9230
+	 * 		RVA    -> 0x719DB9230
 	 * 		Name   -> Function VariantManagerContent.VariantSet.SetThumbnailFromEditorViewport
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -993,7 +993,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C9000
+	 * 		RVA    -> 0x719DB9000
 	 * 		Name   -> Function VariantManagerContent.VariantSet.SetThumbnailFromCamera
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1024,7 +1024,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C8C50
+	 * 		RVA    -> 0x719DB8C50
 	 * 		Name   -> Function VariantManagerContent.VariantSet.SetDisplayText
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1047,7 +1047,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C8740
+	 * 		RVA    -> 0x719DB8740
 	 * 		Name   -> Function VariantManagerContent.VariantSet.GetVariantByName
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -1072,7 +1072,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C8680
+	 * 		RVA    -> 0x719DB8680
 	 * 		Name   -> Function VariantManagerContent.VariantSet.GetVariant
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -1097,7 +1097,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C8660
+	 * 		RVA    -> 0x719DB8660
 	 * 		Name   -> Function VariantManagerContent.VariantSet.GetThumbnail
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1119,7 +1119,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C8570
+	 * 		RVA    -> 0x719DB8570
 	 * 		Name   -> Function VariantManagerContent.VariantSet.GetParent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -1141,7 +1141,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C8440
+	 * 		RVA    -> 0x719DB8440
 	 * 		Name   -> Function VariantManagerContent.VariantSet.GetNumVariants
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1163,7 +1163,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A83C82C0
+	 * 		RVA    -> 0x719DB82C0
 	 * 		Name   -> Function VariantManagerContent.VariantSet.GetDisplayText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */

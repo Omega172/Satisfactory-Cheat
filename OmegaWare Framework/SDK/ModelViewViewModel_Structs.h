@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -71,7 +71,7 @@ namespace CG
 	{
 	public:
 		TArray<struct FMVVMViewModelContextInstance>               ViewModelInstances;                                      // 0x0000(0x0010) ZeroConstructor, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_2KGH[0x18];                                  // 0x0010(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_7TKI[0x18];                                  // 0x0010(0x0018) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -98,7 +98,7 @@ namespace CG
 		class FName                                                PropertyName;                                            // 0x001C(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		bool                                                       bCreateInstance;                                         // 0x0024(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		bool                                                       bOptional;                                               // 0x0025(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_1SRG[0x2];                                   // 0x0026(0x0002) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_HLU2[0x2];                                   // 0x0026(0x0002) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -131,12 +131,12 @@ namespace CG
 	{
 	public:
 		struct FMVVMVCompiledFieldId                               FieldId;                                                 // 0x0000(0x0002) NoDestructor, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_N5KG[0x2];                                   // 0x0002(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_4L1A[0x2];                                   // 0x0002(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FName                                                SourcePropertyName;                                      // 0x0004(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		struct FMVVMVCompiledBinding                               Binding;                                                 // 0x000C(0x000C) NoDestructor, NativeAccessSpecifierPrivate
 		EMVVMExecutionMode                                         ExecutionMode;                                           // 0x0018(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		unsigned char                                              Flags;                                                   // 0x0019(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_KF6Y[0x2];                                   // 0x001A(0x0002) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_RRU7[0x2];                                   // 0x001A(0x0002) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -150,7 +150,7 @@ namespace CG
 		bool                                                       bIsObjectProperty : 1;                                   // 0x0002(0x0001) BIT_FIELD NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		bool                                                       bIsScriptStructProperty : 1;                             // 0x0002(0x0001) BIT_FIELD NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		bool                                                       bIsProperty : 1;                                         // 0x0002(0x0001) BIT_FIELD NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_DYGY[0x1];                                   // 0x0003(0x0001) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_9JMS[0x1];                                   // 0x0003(0x0001) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -174,9 +174,9 @@ namespace CG
 	struct FMVVMCompiledBindingLibrary
 	{
 	public:
-		unsigned char                                              UnknownData_169I[0x10];                                  // 0x0000(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_28FG[0x10];                                  // 0x0000(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class UFunction*>                                   LoadedFunctions;                                         // 0x0010(0x0010) ZeroConstructor, Transient, UObjectWrapper, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_1H12[0x10];                                  // 0x0020(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_K8QN[0x10];                                  // 0x0020(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FMVVMCompiledLoadedPropertyOrFunctionIndex>  FieldPaths;                                              // 0x0030(0x0010) ZeroConstructor, NativeAccessSpecifierPrivate
 		TArray<struct FMVVMVCompiledFields>                        CompiledFields;                                          // 0x0040(0x0010) ZeroConstructor, NativeAccessSpecifierPrivate
 		TArray<class FName>                                        CompiledFieldNames;                                      // 0x0050(0x0010) ZeroConstructor, NativeAccessSpecifierPrivate
@@ -203,7 +203,7 @@ namespace CG
 		bool                                                       bIsReadable;                                             // 0x0008(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		bool                                                       bIsWritable;                                             // 0x0009(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		bool                                                       bHasNotify;                                              // 0x000A(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_VT03[0x1];                                   // 0x000B(0x0001) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_DJG4[0x1];                                   // 0x000B(0x0001) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -213,7 +213,7 @@ namespace CG
 	struct FMVVMEventField
 	{
 	public:
-		unsigned char                                              UnknownData_NGX6[0x1];                                   // 0x0000(0x0001) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_2CJG[0x1];                                   // 0x0000(0x0001) MISSED OFFSET (PADDING)
 	};
 
 }

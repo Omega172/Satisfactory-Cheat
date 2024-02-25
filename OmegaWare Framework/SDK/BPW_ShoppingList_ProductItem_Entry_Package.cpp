@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ShoppingList_ProductItem_Entry.BPW_ShoppingList_ProductItem_Entry_C.SetAmount
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -34,7 +34,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ShoppingList_ProductItem_Entry.BPW_ShoppingList_ProductItem_Entry_C.SetName
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -56,7 +56,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ShoppingList_ProductItem_Entry.BPW_ShoppingList_ProductItem_Entry_C.BndEvt__BPW_ShoppingList_ProductItem_Entry_mAmountText_K2Node_ComponentBoundEvent_0_OnEditableTextCommittedEvent__DelegateSignature
 	 * 		Flags  -> (HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -80,7 +80,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ShoppingList_ProductItem_Entry.BPW_ShoppingList_ProductItem_Entry_C.Destruct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 */
@@ -99,7 +99,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ShoppingList_ProductItem_Entry.BPW_ShoppingList_ProductItem_Entry_C.ExecuteUbergraph_BPW_ShoppingList_ProductItem_Entry
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:
@@ -121,7 +121,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ShoppingList_ProductItem_Entry.BPW_ShoppingList_ProductItem_Entry_C.OnAmountChanged__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 * Parameters:

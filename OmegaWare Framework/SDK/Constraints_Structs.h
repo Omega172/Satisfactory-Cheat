@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -35,7 +35,7 @@ namespace CG
 	struct FConstraintTickFunction : public FTickFunction
 	{
 	public:
-		unsigned char                                              UnknownData_UBVC[0x18];                                  // 0x0028(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_I0QE[0x18];                                  // 0x0028(0x0018) MISSED OFFSET (PADDING)
 	};
 
 	/**

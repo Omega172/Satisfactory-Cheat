@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A9DDA40
+	 * 		RVA    -> 0x6EBF1DA40
 	 * 		Name   -> Function IKRig.IKGoalCreatorInterface.AddIKGoals
 	 * 		Flags  -> (Native, Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -51,7 +51,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A9DF7C0
+	 * 		RVA    -> 0x6EBF1F7C0
 	 * 		Name   -> Function IKRig.IKRigComponent.SetIKRigGoalTransform
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -80,7 +80,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A9DF550
+	 * 		RVA    -> 0x6EBF1F550
 	 * 		Name   -> Function IKRig.IKRigComponent.SetIKRigGoalPositionAndRotation
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -111,7 +111,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A9DF420
+	 * 		RVA    -> 0x6EBF1F420
 	 * 		Name   -> Function IKRig.IKRigComponent.SetIKRigGoal
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -134,7 +134,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A9DDB90
+	 * 		RVA    -> 0x6EBF1DB90
 	 * 		Name   -> Function IKRig.IKRigComponent.ClearAllGoals
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -266,7 +266,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A9DF9C0
+	 * 		RVA    -> 0x6EBF1F9C0
 	 * 		Name   -> Function IKRig.IKRetargeter.SetRootSettingsInRetargetProfile
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -293,7 +293,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A9DF2A0
+	 * 		RVA    -> 0x6EBF1F2A0
 	 * 		Name   -> Function IKRig.IKRetargeter.SetGlobalSettingsInRetargetProfile
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -320,7 +320,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A9DF0E0
+	 * 		RVA    -> 0x6EBF1F0E0
 	 * 		Name   -> Function IKRig.IKRetargeter.SetChainSpeedPlantSettingsInRetargetProfile
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -349,7 +349,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A9DEE80
+	 * 		RVA    -> 0x6EBF1EE80
 	 * 		Name   -> Function IKRig.IKRetargeter.SetChainSettingsInRetargetProfile
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -378,7 +378,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A9DEC70
+	 * 		RVA    -> 0x6EBF1EC70
 	 * 		Name   -> Function IKRig.IKRetargeter.SetChainIKSettingsInRetargetProfile
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -407,7 +407,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A9DEAC0
+	 * 		RVA    -> 0x6EBF1EAC0
 	 * 		Name   -> Function IKRig.IKRetargeter.SetChainFKSettingsInRetargetProfile
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -436,7 +436,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A9DE980
+	 * 		RVA    -> 0x6EBF1E980
 	 * 		Name   -> Function IKRig.IKRetargeter.GetRootSettingsFromRetargetProfile
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -463,7 +463,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A9DE7F0
+	 * 		RVA    -> 0x6EBF1E7F0
 	 * 		Name   -> Function IKRig.IKRetargeter.GetRootSettingsFromRetargetAsset
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -492,7 +492,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A9DE6F0
+	 * 		RVA    -> 0x6EBF1E6F0
 	 * 		Name   -> Function IKRig.IKRetargeter.GetGlobalSettingsFromRetargetProfile
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -519,7 +519,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A9DE540
+	 * 		RVA    -> 0x6EBF1E540
 	 * 		Name   -> Function IKRig.IKRetargeter.GetGlobalSettingsFromRetargetAsset
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -548,7 +548,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A9DE210
+	 * 		RVA    -> 0x6EBF1E210
 	 * 		Name   -> Function IKRig.IKRetargeter.GetChainUsingGoalFromRetargetAsset
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -575,7 +575,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A9DDFF0
+	 * 		RVA    -> 0x6EBF1DFF0
 	 * 		Name   -> Function IKRig.IKRetargeter.GetChainSettingsFromRetargetProfile
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -604,7 +604,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A9DDBC0
+	 * 		RVA    -> 0x6EBF1DBC0
 	 * 		Name   -> Function IKRig.IKRetargeter.GetChainSettingsFromRetargetAsset
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:

@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_DeathMarker.BP_DeathMarker_C.ShouldSave
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent, Const)
 	 */
@@ -33,7 +33,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_DeathMarker.BP_DeathMarker_C.GatherDependencies
 	 * 		Flags  -> (Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -57,7 +57,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_DeathMarker.BP_DeathMarker_C.NeedTransform
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 */
@@ -78,7 +78,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_DeathMarker.BP_DeathMarker_C.GetDefaultRepresentationColor
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 */
@@ -99,7 +99,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_DeathMarker.BP_DeathMarker_C.PostLoadGame
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -123,7 +123,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_DeathMarker.BP_DeathMarker_C.PostSaveGame
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -147,7 +147,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_DeathMarker.BP_DeathMarker_C.PreLoadGame
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -171,7 +171,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_DeathMarker.BP_DeathMarker_C.PreSaveGame
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -195,7 +195,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_DeathMarker.BP_DeathMarker_C.ReceiveBeginPlay
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -214,7 +214,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_DeathMarker.BP_DeathMarker_C.ReceiveDestroyed
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 */
@@ -233,7 +233,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_DeathMarker.BP_DeathMarker_C.BndEvt__Sphere_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature
 	 * 		Flags  -> (HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -265,7 +265,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_DeathMarker.BP_DeathMarker_C.ExecuteUbergraph_BP_DeathMarker
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:

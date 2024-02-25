@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -26,7 +26,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4AEB162E0
+	 * 		RVA    -> 0x71EF062E0
 	 * 		Name   -> Function OpenColorIO.OpenColorIOBlueprintLibrary.ApplyColorSpaceTransform
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -85,7 +85,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4AEB16C00
+	 * 		RVA    -> 0x71EF06C00
 	 * 		Name   -> Function OpenColorIO.OpenColorIOConfiguration.ReloadExistingColorspaces
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -119,7 +119,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4AEB16E60
+	 * 		RVA    -> 0x71EF06E60
 	 * 		Name   -> Function OpenColorIO.OpenColorIODisplayExtensionWrapper.SetSceneExtensionIsActiveFunctions
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -142,7 +142,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4AEB16D70
+	 * 		RVA    -> 0x71EF06D70
 	 * 		Name   -> Function OpenColorIO.OpenColorIODisplayExtensionWrapper.SetSceneExtensionIsActiveFunction
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -165,7 +165,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4AEB16C40
+	 * 		RVA    -> 0x71EF06C40
 	 * 		Name   -> Function OpenColorIO.OpenColorIODisplayExtensionWrapper.SetOpenColorIOConfiguration
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -188,7 +188,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4AEB16C20
+	 * 		RVA    -> 0x71EF06C20
 	 * 		Name   -> Function OpenColorIO.OpenColorIODisplayExtensionWrapper.RemoveSceneExtension
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -208,7 +208,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4AEB16B40
+	 * 		RVA    -> 0x71EF06B40
 	 * 		Name   -> Function OpenColorIO.OpenColorIODisplayExtensionWrapper.GetOpenColorIOConfiguration
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -230,7 +230,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4AEB16990
+	 * 		RVA    -> 0x71EF06990
 	 * 		Name   -> Function OpenColorIO.OpenColorIODisplayExtensionWrapper.CreateOpenColorIODisplayExtension
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -257,7 +257,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4AEB16880
+	 * 		RVA    -> 0x71EF06880
 	 * 		Name   -> Function OpenColorIO.OpenColorIODisplayExtensionWrapper.CreateInGameOpenColorIODisplayExtension
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:

@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -43,7 +43,7 @@ namespace CG
 		struct FItemAmount                                         mItemDescriptor;                                         // 0x0318(0x0010) Edit, BlueprintVisible, NoDestructor, ExposeOnSpawn
 		class UClass*                                              mRecipe;                                                 // 0x0328(0x0008) Edit, BlueprintVisible, ZeroConstructor, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash
 		bool                                                       mIsManufacturingStat;                                    // 0x0330(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash
-		unsigned char                                              UnknownData_QLNM[0x7];                                   // 0x0331(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_WKKE[0x7];                                   // 0x0331(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FText                                                mDescriptionText;                                        // 0x0338(0x0018) Edit, BlueprintVisible, ExposeOnSpawn
 		class FText                                                mTitleText;                                              // 0x0350(0x0018) Edit, BlueprintVisible, ExposeOnSpawn
 		int32_t                                                    mAlternateRecipeLimit;                                   // 0x0368(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash

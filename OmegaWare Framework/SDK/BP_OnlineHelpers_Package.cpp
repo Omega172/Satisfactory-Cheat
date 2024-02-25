@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_OnlineHelpers.BP_OnlineHelpers_C.IsFriendInSession
 	 * 		Flags  -> (Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -42,7 +42,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_OnlineHelpers.BP_OnlineHelpers_C.IsFriendInPublicSession
 	 * 		Flags  -> (Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -72,7 +72,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_OnlineHelpers.BP_OnlineHelpers_C.IsPresenceInPublicSession
 	 * 		Flags  -> (Static, Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -100,24 +100,24 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_OnlineHelpers.BP_OnlineHelpers_C.GetConnectingNatIssue
 	 * 		Flags  -> (Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
-	 * 		ECachedNATType                                     hostNat                                                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	 * 		ECachedNATType                                     clientNat                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	 * 		ECachedNATType                                     HostNat                                                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	 * 		ECachedNATType                                     ClientNat                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	 * 		class UObject*                                     __WorldContext                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 	 * 		class FText                                        ToolTip                                                    (Parm, OutParm)
 	 */
-	void UBP_OnlineHelpers_C::STATIC_GetConnectingNatIssue(ECachedNATType hostNat, ECachedNATType clientNat, class UObject* __WorldContext, class FText* ToolTip)
+	void UBP_OnlineHelpers_C::STATIC_GetConnectingNatIssue(ECachedNATType HostNat, ECachedNATType ClientNat, class UObject* __WorldContext, class FText* ToolTip)
 	{
 		static UFunction* fn = nullptr;
 		if (!fn)
 			fn = UObject::FindObject<UFunction>("Function BP_OnlineHelpers.BP_OnlineHelpers_C.GetConnectingNatIssue");
 		
 		UBP_OnlineHelpers_C_GetConnectingNatIssue_Params params {};
-		params.hostNat = hostNat;
-		params.clientNat = clientNat;
+		params.HostNat = HostNat;
+		params.ClientNat = ClientNat;
 		params.__WorldContext = __WorldContext;
 		
 		auto flags = fn->FunctionFlags;
@@ -130,24 +130,24 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_OnlineHelpers.BP_OnlineHelpers_C.IsNATIssue
 	 * 		Flags  -> (Static, Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
-	 * 		unsigned char                                      hostNat                                                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	 * 		unsigned char                                      clientNat                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	 * 		unsigned char                                      HostNat                                                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	 * 		unsigned char                                      ClientNat                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	 * 		class UObject*                                     __WorldContext                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 	 * 		bool                                               isIssue                                                    (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	 */
-	void UBP_OnlineHelpers_C::STATIC_IsNATIssue(unsigned char hostNat, unsigned char clientNat, class UObject* __WorldContext, bool* isIssue)
+	void UBP_OnlineHelpers_C::STATIC_IsNATIssue(unsigned char HostNat, unsigned char ClientNat, class UObject* __WorldContext, bool* isIssue)
 	{
 		static UFunction* fn = nullptr;
 		if (!fn)
 			fn = UObject::FindObject<UFunction>("Function BP_OnlineHelpers.BP_OnlineHelpers_C.IsNATIssue");
 		
 		UBP_OnlineHelpers_C_IsNATIssue_Params params {};
-		params.hostNat = hostNat;
-		params.clientNat = clientNat;
+		params.HostNat = HostNat;
+		params.ClientNat = ClientNat;
 		params.__WorldContext = __WorldContext;
 		
 		auto flags = fn->FunctionFlags;
@@ -160,7 +160,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_OnlineHelpers.BP_OnlineHelpers_C.IsInSession
 	 * 		Flags  -> (Static, Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -188,7 +188,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_OnlineHelpers.BP_OnlineHelpers_C.InsertionAddButton
 	 * 		Flags  -> (Static, Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -212,7 +212,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_OnlineHelpers.BP_OnlineHelpers_C.IsHost
 	 * 		Flags  -> (Static, Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -242,7 +242,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_OnlineHelpers.BP_OnlineHelpers_C.CanJoinInviteToSession
 	 * 		Flags  -> (Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -278,7 +278,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_OnlineHelpers.BP_OnlineHelpers_C.IsInThisGame
 	 * 		Flags  -> (Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -309,7 +309,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_OnlineHelpers.BP_OnlineHelpers_C.CanSendInvite
 	 * 		Flags  -> (Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -339,7 +339,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_OnlineHelpers.BP_OnlineHelpers_C.GetCompactPresence
 	 * 		Flags  -> (Static, Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -367,7 +367,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_OnlineHelpers.BP_OnlineHelpers_C.GetInvitePresence
 	 * 		Flags  -> (Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -397,7 +397,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_OnlineHelpers.BP_OnlineHelpers_C.GetFriendPresence
 	 * 		Flags  -> (Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -425,7 +425,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_OnlineHelpers.BP_OnlineHelpers_C.SessionVisibilityStringToEnum
 	 * 		Flags  -> (Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:

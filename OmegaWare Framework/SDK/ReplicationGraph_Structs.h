@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -44,9 +44,9 @@ namespace CG
 	struct FTearOffActorInfo
 	{
 	public:
-		unsigned char                                              UnknownData_80Z5[0x8];                                   // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_PW31[0x8];                                   // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class AActor*                                              Actor;                                                   // 0x0008(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_YLUI[0x8];                                   // 0x0010(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_Z3IK[0x8];                                   // 0x0010(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -74,7 +74,7 @@ namespace CG
 		uint16_t                                                   ReplicationPeriodFrame;                                  // 0x000C(0x0002) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		uint16_t                                                   FastPath_ReplicationPeriodFrame;                         // 0x000E(0x0002) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		uint16_t                                                   ActorChannelFrameTimeout;                                // 0x0010(0x0002) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_41KE[0x56];                                  // 0x0012(0x0056) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_OFT7[0x56];                                  // 0x0012(0x0056) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      CullDistance;                                            // 0x0068(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		float                                                      CullDistanceSquared;                                     // 0x006C(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 	};

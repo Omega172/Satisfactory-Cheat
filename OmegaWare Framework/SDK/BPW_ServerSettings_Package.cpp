@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ServerSettings.BPW_ServerSettings_C.Update Settings
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -31,7 +31,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ServerSettings.BPW_ServerSettings_C.BP_OnServerComplexStateChanged
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -55,7 +55,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ServerSettings.BPW_ServerSettings_C.BP_OnServerChanged
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -77,7 +77,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ServerSettings.BPW_ServerSettings_C.BndEvt__BPW_Server_ConnectionIsPossible_K2Node_ComponentBoundEvent_0_OnConnect__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -96,7 +96,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ServerSettings.BPW_ServerSettings_C.BndEvt__BPW_ServerAuthenticationRequired_K2Node_ComponentBoundEvent_1_OnAuthenticate__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -115,7 +115,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ServerSettings.BPW_ServerSettings_C.BndEvt__BPW_Server_ConnectionFailed_K2Node_ComponentBoundEvent_2_OnRetry__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -134,7 +134,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ServerSettings.BPW_ServerSettings_C.BP_OnServerBasicSettingsUpdate
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -158,7 +158,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ServerSettings.BPW_ServerSettings_C.BP_OnServerRenamed
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -182,7 +182,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ServerSettings.BPW_ServerSettings_C.BndEvt__Checkbox_AutoPause_K2Node_ComponentBoundEvent_3_OnCheckChanged__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -204,7 +204,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ServerSettings.BPW_ServerSettings_C.BndEvt__CheckBox_AutoSaveOnDisconnect_K2Node_ComponentBoundEvent_4_OnCheckChanged__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -226,7 +226,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ServerSettings.BPW_ServerSettings_C.BndEvt__Text_SessionName_K2Node_ComponentBoundEvent_5_OnEditableTextCommittedEvent__DelegateSignature
 	 * 		Flags  -> (HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -250,7 +250,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ServerSettings.BPW_ServerSettings_C.BndEvt__Button_ChangeAdminPass_K2Node_ComponentBoundEvent_6_OnButtonClickedEvent__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -269,7 +269,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ServerSettings.BPW_ServerSettings_C.BndEvt__Button_ChangePlayerPass_K2Node_ComponentBoundEvent_7_OnButtonClickedEvent__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -288,7 +288,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ServerSettings.BPW_ServerSettings_C.BndEvt__Text_ServerName_K2Node_ComponentBoundEvent_9_OnEditableTextCommittedEvent__DelegateSignature
 	 * 		Flags  -> (HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -312,7 +312,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_ServerSettings.BPW_ServerSettings_C.ExecuteUbergraph_BPW_ServerSettings
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:

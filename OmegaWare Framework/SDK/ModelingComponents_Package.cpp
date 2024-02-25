@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -110,7 +110,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4794422F0
+	 * 		RVA    -> 0x6EB3922F0
 	 * 		Name   -> Function ModelingComponents.MeshTopologySelectionMechanicProperties.SelectAll
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -130,7 +130,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479441FB0
+	 * 		RVA    -> 0x6EB391FB0
 	 * 		Name   -> Function ModelingComponents.MeshTopologySelectionMechanicProperties.InvertSelection
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -458,7 +458,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479442430
+	 * 		RVA    -> 0x6EB392430
 	 * 		Name   -> Function ModelingComponents.OctreeDynamicMeshComponent.SetDynamicMesh
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -523,7 +523,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479442BA0
+	 * 		RVA    -> 0x6EB392BA0
 	 * 		Name   -> Function ModelingComponents.PreviewGeometry.SetPointSetVisibility
 	 * 		Flags  -> (Final, Native, Public)
 	 * Parameters:
@@ -550,7 +550,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479442A30
+	 * 		RVA    -> 0x6EB392A30
 	 * 		Name   -> Function ModelingComponents.PreviewGeometry.SetPointSetMaterial
 	 * 		Flags  -> (Final, Native, Public)
 	 * Parameters:
@@ -577,7 +577,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4794428D0
+	 * 		RVA    -> 0x6EB3928D0
 	 * 		Name   -> Function ModelingComponents.PreviewGeometry.SetLineSetVisibility
 	 * 		Flags  -> (Final, Native, Public)
 	 * Parameters:
@@ -604,7 +604,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479442760
+	 * 		RVA    -> 0x6EB392760
 	 * 		Name   -> Function ModelingComponents.PreviewGeometry.SetLineSetMaterial
 	 * 		Flags  -> (Final, Native, Public)
 	 * Parameters:
@@ -631,7 +631,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4794423A0
+	 * 		RVA    -> 0x6EB3923A0
 	 * 		Name   -> Function ModelingComponents.PreviewGeometry.SetAllPointSetsMaterial
 	 * 		Flags  -> (Final, Native, Public)
 	 * Parameters:
@@ -654,7 +654,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479442310
+	 * 		RVA    -> 0x6EB392310
 	 * 		Name   -> Function ModelingComponents.PreviewGeometry.SetAllLineSetsMaterial
 	 * 		Flags  -> (Final, Native, Public)
 	 * Parameters:
@@ -677,7 +677,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4794421F0
+	 * 		RVA    -> 0x6EB3921F0
 	 * 		Name   -> Function ModelingComponents.PreviewGeometry.RemovePointSet
 	 * 		Flags  -> (Final, Native, Public)
 	 * Parameters:
@@ -704,7 +704,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4794420F0
+	 * 		RVA    -> 0x6EB3920F0
 	 * 		Name   -> Function ModelingComponents.PreviewGeometry.RemoveLineSet
 	 * 		Flags  -> (Final, Native, Public)
 	 * Parameters:
@@ -731,7 +731,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479442060
+	 * 		RVA    -> 0x6EB392060
 	 * 		Name   -> Function ModelingComponents.PreviewGeometry.RemoveAllPointSets
 	 * 		Flags  -> (Final, Native, Public)
 	 * Parameters:
@@ -754,7 +754,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479441FD0
+	 * 		RVA    -> 0x6EB391FD0
 	 * 		Name   -> Function ModelingComponents.PreviewGeometry.RemoveAllLineSets
 	 * 		Flags  -> (Final, Native, Public)
 	 * Parameters:
@@ -777,7 +777,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479441F90
+	 * 		RVA    -> 0x6EB391F90
 	 * 		Name   -> Function ModelingComponents.PreviewGeometry.GetActor
 	 * 		Flags  -> (Final, Native, Public, Const)
 	 */
@@ -799,7 +799,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479441E90
+	 * 		RVA    -> 0x6EB391E90
 	 * 		Name   -> Function ModelingComponents.PreviewGeometry.FindPointSet
 	 * 		Flags  -> (Final, Native, Public)
 	 * Parameters:
@@ -824,7 +824,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479441D90
+	 * 		RVA    -> 0x6EB391D90
 	 * 		Name   -> Function ModelingComponents.PreviewGeometry.FindLineSet
 	 * 		Flags  -> (Final, Native, Public)
 	 * Parameters:
@@ -849,7 +849,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479441D40
+	 * 		RVA    -> 0x6EB391D40
 	 * 		Name   -> Function ModelingComponents.PreviewGeometry.Disconnect
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -869,7 +869,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479441BE0
+	 * 		RVA    -> 0x6EB391BE0
 	 * 		Name   -> Function ModelingComponents.PreviewGeometry.CreateInWorld
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults)
 	 * Parameters:
@@ -894,7 +894,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479441B30
+	 * 		RVA    -> 0x6EB391B30
 	 * 		Name   -> Function ModelingComponents.PreviewGeometry.AddPointSet
 	 * 		Flags  -> (Final, Native, Public)
 	 * Parameters:
@@ -919,7 +919,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479441A80
+	 * 		RVA    -> 0x6EB391A80
 	 * 		Name   -> Function ModelingComponents.PreviewGeometry.AddLineSet
 	 * 		Flags  -> (Final, Native, Public)
 	 * Parameters:
@@ -1308,7 +1308,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4794ADA00
+	 * 		RVA    -> 0x6EB3FDA00
 	 * 		Name   -> Function ModelingComponents.ModelingObjectsCreationAPI.CreateTextureObject
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1333,7 +1333,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4794AD890
+	 * 		RVA    -> 0x6EB3FD890
 	 * 		Name   -> Function ModelingComponents.ModelingObjectsCreationAPI.CreateMeshObject
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1386,7 +1386,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4794ADCC0
+	 * 		RVA    -> 0x6EB3FDCC0
 	 * 		Name   -> Function ModelingComponents.CreateMeshObjectTypeProperties.ShouldShowPropertySet
 	 * 		Flags  -> (Final, Native, Public, Const)
 	 */
@@ -1408,7 +1408,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4794ADC40
+	 * 		RVA    -> 0x6EB3FDC40
 	 * 		Name   -> Function ModelingComponents.CreateMeshObjectTypeProperties.GetOutputTypeNamesFunc
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1430,7 +1430,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4794ADAE0
+	 * 		RVA    -> 0x6EB3FDAE0
 	 * 		Name   -> Function ModelingComponents.CreateMeshObjectTypeProperties.GetCurrentCreateMeshType
 	 * 		Flags  -> (Final, Native, Public, Const)
 	 */
@@ -1480,7 +1480,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4794ADB10
+	 * 		RVA    -> 0x6EB3FDB10
 	 * 		Name   -> Function ModelingComponents.PolygroupLayersProperties.GetGroupLayersFunc
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -1516,7 +1516,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4794ADB10
+	 * 		RVA    -> 0x6EB3FDB10
 	 * 		Name   -> Function ModelingComponents.WeightMapSetProperties.GetWeightMapsFunc
 	 * 		Flags  -> (Final, Native, Public)
 	 */

@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -21,7 +21,7 @@ namespace CG
 	class UWidget_SaveList_C : public UBP_MenuBase_C
 	{
 	public:
-		unsigned char                                              UnknownData_Z977[0x5];                                   // 0x02CB(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_U34E[0x5];                                   // 0x02CB(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FPointerToUberGraphFrame                            UberGraphFrame;                                          // 0x02D0(0x0008) ZeroConstructor, Transient, DuplicateTransient
 		class UWidget_FrontEnd_Button_C*                           mDeleteSaveButton;                                       // 0x02D8(0x0008) BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash
 		class UWidget_FrontEnd_Button_C*                           mSaveButton;                                             // 0x02E0(0x0008) BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash
@@ -37,7 +37,7 @@ namespace CG
 		unsigned char                                              mSaveManagerInterface[0x10];                             // 0x0340(0x0010) UNKNOWN PROPERTY: InterfaceProperty
 		TArray<struct FSessionSaveStruct>                          mCachedSessions;                                         // 0x0350(0x0010) Edit, BlueprintVisible, DisableEditOnInstance
 		int32_t                                                    mCurrentSessionIx;                                       // 0x0360(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_31S4[0x4];                                   // 0x0364(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_Z681[0x4];                                   // 0x0364(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FSaveHeader                                         mSelectedSaveHeader;                                     // 0x0368(0x00A8) Edit, BlueprintVisible, DisableEditOnInstance
 		class UFGSaveHeaderWrapper*                                mSelectedSaveRowObject;                                  // 0x0410(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, UObjectWrapper, HasGetValueTypeHash
 

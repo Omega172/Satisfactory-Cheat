@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -21,7 +21,7 @@ namespace CG
 	class ABP_Weapon_C : public AFGWeapon
 	{
 	public:
-		unsigned char                                              UnknownData_DH8G[0x8];                                   // 0x0578(0x0008) Fix Super Size
+		unsigned char                                              UnknownData_WCZI[0x8];                                   // 0x0578(0x0008) Fix Super Size
 		struct FPointerToUberGraphFrame                            UberGraphFrame;                                          // 0x0580(0x0008) ZeroConstructor, Transient, DuplicateTransient
 		class USceneComponent*                                     DefaultSceneRoot;                                        // 0x0588(0x0008) BlueprintVisible, ZeroConstructor, InstancedReference, NonTransactional, NoDestructor, HasGetValueTypeHash
 		struct FTimerHandle                                        mShowCycleAmmoRadialMenuTimer;                           // 0x0590(0x0008) Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash

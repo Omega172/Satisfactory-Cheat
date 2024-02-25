@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -34,7 +34,7 @@ namespace CG
 		class UAIPerceptionStimuliSourceComponent*                 AIPerceptionStimuliSource;                               // 0x0F40(0x0008) BlueprintVisible, ZeroConstructor, InstancedReference, NonTransactional, NoDestructor, HasGetValueTypeHash
 		float                                                      Timeline_0_NewTrack_0_B76C40B14E59156709A748B4B016AE20;  // 0x0F48(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		ETimelineDirection                                         Timeline_0__Direction_B76C40B14E59156709A748B4B016AE20;  // 0x0F4C(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_W9LQ[0x3];                                   // 0x0F4D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_GAY4[0x3];                                   // 0x0F4D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UTimelineComponent*                                  Timeline_1;                                              // 0x0F50(0x0008) BlueprintVisible, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash
 		class FScriptMulticastDelegate                             EventScrollDown;                                         // 0x0F58(0x0010) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable
 		class FScriptMulticastDelegate                             EventScroll;                                             // 0x0F68(0x0010) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable
@@ -59,7 +59,7 @@ namespace CG
 		double                                                     mSavedCameraFOV;                                         // 0x1038(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mIsFocusing;                                             // 0x1040(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mMuteOnOff;                                              // 0x1041(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_9IZO[0x6];                                   // 0x1042(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_U1QV[0x6];                                   // 0x1042(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		double                                                     mCameraDistanceDefault3P;                                // 0x1048(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		double                                                     mCameraDistanceFocus3P;                                  // 0x1050(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		double                                                     mFocusInterpolationSpeed;                                // 0x1058(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
@@ -74,19 +74,19 @@ namespace CG
 		class UClass*                                              mPlayerHUDClass;                                         // 0x10A0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
 		bool                                                       mFlashlightOn;                                           // 0x10A8(0x0001) Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, SaveGame, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mWaitingForPlayerState;                                  // 0x10A9(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_RF3W[0x6];                                   // 0x10AA(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_J7EE[0x6];                                   // 0x10AA(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class ULevelSequence*>                              mSequences;                                              // 0x10B0(0x0010) Edit, BlueprintVisible, DisableEditOnInstance
 		class ABP_InteractablesMarker_C*                           mInteractableMarker;                                     // 0x10C0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
 		class FName                                                mMineSection;                                            // 0x10C8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		class UFGCameraModifierLimitLook*                          mLookModifier;                                           // 0x10D0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
 		struct FDisabledInputGate                                  mLandingInputGate;                                       // 0x10D8(0x0002) Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor
-		unsigned char                                              UnknownData_6UJZ[0x6];                                   // 0x10DA(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_HKRH[0x6];                                   // 0x10DA(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class USkeletalMeshComponent*                              mEmoteBuildgun;                                          // 0x10E0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash
 		class UMaterialInstanceDynamic*                            mRadiationNoise;                                         // 0x10E8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
 		struct FTimerHandle                                        mWarningPopupTimer;                                      // 0x10F0(0x0008) Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
 		TArray<class FText>                                        mPlaytimeWarningMessages;                                // 0x10F8(0x0010) Edit, BlueprintVisible
 		int32_t                                                    mPlaytimeWarningMessageIndex;                            // 0x1108(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_SZEH[0x4];                                   // 0x110C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_5SGH[0x4];                                   // 0x110C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UCM_Slide_C*                                         mSlideCameraModifier;                                    // 0x1110(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
 		struct FTimerHandle                                        mClearSlideVelocityTimer;                                // 0x1118(0x0008) Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
 		class UStaticMeshComponent*                                mHypertube_VfxCap;                                       // 0x1120(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash
@@ -96,7 +96,7 @@ namespace CG
 		double                                                     mCurrentSpeedWindTimer;                                  // 0x1140(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		int32_t                                                    mLastSlideSurfaceType;                                   // 0x1148(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		class FName                                                mCurrentSlidingSurfaceType;                              // 0x114C(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_9GWN[0x4];                                   // 0x1154(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_1630[0x4];                                   // 0x1154(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTimerHandle                                        mClearTubeTravelUpdateTimer;                             // 0x1158(0x0008) Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
 		struct FVector                                             mLastFrameForwardDirection;                              // 0x1160(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		double                                                     mLastFrameDirectionDegrees;                              // 0x1178(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
@@ -110,12 +110,12 @@ namespace CG
 		struct FRotator                                            mLastFrameEndRotTube;                                    // 0x11C8(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor
 		class UAkComponent*                                        mSFXFastJUnction;                                        // 0x11E0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash
 		bool                                                       mPlaySpeedWind;                                          // 0x11E8(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_HL1P[0x7];                                   // 0x11E9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_WIII[0x7];                                   // 0x11E9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UAkComponent*                                        mIsZiplineTraveling;                                     // 0x11F0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash
 		class UParticleSystemComponent*                            mThirdPerson_ZiplineBurst_VFX;                           // 0x11F8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash
 		class UStaticMeshComponent*                                mHat;                                                    // 0x1200(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash
 		int32_t                                                    mEmoteIndex;                                             // 0x1208(0x0004) Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_BJ77[0x4];                                   // 0x120C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_6VHN[0x4];                                   // 0x120C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UAkComponent*                                        mSFXEmotePlaying;                                        // 0x1210(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash
 
 	public:

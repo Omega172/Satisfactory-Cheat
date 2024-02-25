@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -275,7 +275,7 @@ namespace CG
 		bool                                                       bCtrl : 1;                                               // 0x0018(0x0001) BIT_FIELD Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bAlt : 1;                                                // 0x0018(0x0001) BIT_FIELD Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bCmd : 1;                                                // 0x0018(0x0001) BIT_FIELD Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_TYG4[0x7];                                   // 0x0019(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_A8EF[0x7];                                   // 0x0019(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -297,7 +297,7 @@ namespace CG
 	{
 	public:
 		ECustomizedToolMenuVisibility                              Visibility;                                              // 0x0000(0x0001) ELEMENT_SIZE_MISMATCH ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_GEPT[0x3];                                   // 0x0001(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+		unsigned char                                              UnknownData_OROB[0x3];                                   // 0x0001(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	};
 
 	/**
@@ -308,7 +308,7 @@ namespace CG
 	{
 	public:
 		ECustomizedToolMenuVisibility                              Visibility;                                              // 0x0000(0x0001) ELEMENT_SIZE_MISMATCH ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_9QFG[0x3];                                   // 0x0001(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+		unsigned char                                              UnknownData_JBUF[0x3];                                   // 0x0001(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	};
 
 	/**
@@ -333,7 +333,7 @@ namespace CG
 		TMap<class FName, struct FCustomizedToolMenuSection>       Sections;                                                // 0x0058(0x0050) NativeAccessSpecifierPublic
 		TMap<class FName, struct FCustomizedToolMenuNameArray>     EntryOrder;                                              // 0x00A8(0x0050) NativeAccessSpecifierPublic
 		TArray<class FName>                                        SectionOrder;                                            // 0x00F8(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_B1D9[0xE8];                                  // 0x0108(0x00E8) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_QSB3[0xE8];                                  // 0x0108(0x00E8) MISSED OFFSET (PADDING)
 	};
 
 }

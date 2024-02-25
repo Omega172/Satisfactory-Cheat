@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -41,7 +41,7 @@ namespace CG
 	class UWidget : public UVisual
 	{
 	public:
-		unsigned char                                              UnknownData_1TN1[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_P978[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UPanelSlot*                                          Slot;                                                    // 0x0030(0x0008) Edit, BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, NoDestructor, TextExportTransient, PersistentInstance, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FScriptDelegate                                      bIsEnabledDelegate;                                      // 0x0038(0x0010) ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FText                                                ToolTipText;                                             // 0x0048(0x0018) Edit, BlueprintVisible, NativeAccessSpecifierPublic
@@ -60,14 +60,14 @@ namespace CG
 		EMouseCursor                                               Cursor;                                                  // 0x00E2(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EWidgetClipping                                            Clipping;                                                // 0x00E3(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ESlateVisibility                                           Visibility;                                              // 0x00E4(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_TJ96[0x3];                                   // 0x00E5(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_W6FC[0x3];                                   // 0x00E5(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      RenderOpacity;                                           // 0x00E8(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_BOIB[0x4];                                   // 0x00EC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_O1U7[0x4];                                   // 0x00EC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class USlateAccessibleWidgetData*                          AccessibleWidgetData;                                    // 0x00F0(0x0008) ExportObject, ZeroConstructor, InstancedReference, NoDestructor, PersistentInstance, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		class UWidgetNavigation*                                   Navigation;                                              // 0x00F8(0x0008) Edit, BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, NoDestructor, PersistentInstance, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_7L67[0x20];                                  // 0x0100(0x0020) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_XEDP[0x20];                                  // 0x0100(0x0020) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class UPropertyBinding*>                            NativeBindings;                                          // 0x0120(0x0010) ZeroConstructor, Transient, Protected, UObjectWrapper, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_CW40[0x20];                                  // 0x0130(0x0020) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_CKXZ[0x20];                                  // 0x0130(0x0020) MISSED OFFSET (PADDING)
 
 	public:
 		void SetVisibility(ESlateVisibility InVisibility);
@@ -153,7 +153,7 @@ namespace CG
 	{
 	public:
 		class FScriptMulticastDelegate                             BP_OnEntryGenerated;                                     // 0x0150(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, Protected, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_8733[0x10];                                  // 0x0160(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ZSVZ[0x10];                                  // 0x0160(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UClass*                                              EntryWidgetClass;                                        // 0x0170(0x0008) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		float                                                      WheelScrollMultiplier;                                   // 0x0178(0x0004) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bEnableScrollAnimation;                                  // 0x017C(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
@@ -162,10 +162,10 @@ namespace CG
 		bool                                                       bEnableFixedLineOffset;                                  // 0x017F(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		float                                                      FixedLineScrollOffset;                                   // 0x0180(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bAllowDragging;                                          // 0x0184(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_IHUV[0x3];                                   // 0x0185(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_XN35[0x3];                                   // 0x0185(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FScriptMulticastDelegate                             BP_OnEntryReleased;                                      // 0x0188(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPrivate
 		struct FUserWidgetPool                                     EntryWidgetPool;                                         // 0x0198(0x0088) Transient, ContainsInstancedReference, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_FBL1[0x48];                                  // 0x0220(0x0048) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_S5X0[0x48];                                  // 0x0220(0x0048) MISSED OFFSET (PADDING)
 
 	public:
 		void SetWheelScrollMultiplier(float NewWheelScrollMultiplier);
@@ -187,7 +187,7 @@ namespace CG
 	class UListView : public UListViewBase
 	{
 	public:
-		unsigned char                                              UnknownData_9A2W[0xD8];                                  // 0x0268(0x00D8) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_N60E[0xD8];                                  // 0x0268(0x00D8) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTableViewStyle                                     WidgetStyle;                                             // 0x0340(0x00E0) Edit, BlueprintVisible, BlueprintReadOnly, Protected, NativeAccessSpecifierProtected
 		struct FScrollBarStyle                                     ScrollBarStyle;                                          // 0x0420(0x0770) Edit, BlueprintVisible, BlueprintReadOnly, Protected, NativeAccessSpecifierProtected
 		EOrientation                                               Orientation;                                             // 0x0B90(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
@@ -195,12 +195,12 @@ namespace CG
 		EConsumeMouseWheel                                         ConsumeMouseWheel;                                       // 0x0B92(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bClearSelectionOnClick;                                  // 0x0B93(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bIsFocusable;                                            // 0x0B94(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_LEUC[0x3];                                   // 0x0B95(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_AHO6[0x3];                                   // 0x0B95(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      EntrySpacing;                                            // 0x0B98(0x0004) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bReturnFocusToSelection;                                 // 0x0B9C(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_T8TP[0x3];                                   // 0x0B9D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_B9QA[0x3];                                   // 0x0B9D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class UObject*>                                     ListItems;                                               // 0x0BA0(0x0010) ZeroConstructor, Transient, Protected, UObjectWrapper, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_EAAJ[0x10];                                  // 0x0BB0(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_1WO9[0x10];                                  // 0x0BB0(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FScriptMulticastDelegate                             BP_OnEntryInitialized;                                   // 0x0BC0(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPrivate
 		class FScriptMulticastDelegate                             BP_OnItemClicked;                                        // 0x0BD0(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPrivate
 		class FScriptMulticastDelegate                             BP_OnItemDoubleClicked;                                  // 0x0BE0(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPrivate
@@ -258,7 +258,7 @@ namespace CG
 		bool                                                       bCanChildrenBeAccessible;                                // 0x0028(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ESlateAccessibleBehavior                                   AccessibleBehavior;                                      // 0x0029(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ESlateAccessibleBehavior                                   AccessibleSummaryBehavior;                               // 0x002A(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_M387[0x5];                                   // 0x002B(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_1TZ6[0x5];                                   // 0x002B(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FText                                                AccessibleText;                                          // 0x0030(0x0018) NativeAccessSpecifierPublic
 		class FScriptDelegate                                      AccessibleTextDelegate;                                  // 0x0048(0x0010) ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FText                                                AccessibleSummaryText;                                   // 0x0058(0x0018) NativeAccessSpecifierPublic
@@ -285,19 +285,19 @@ namespace CG
 	class UUserWidget : public UWidget
 	{
 	public:
-		unsigned char                                              UnknownData_JT5B[0x8];                                   // 0x0150(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_1PCF[0x8];                                   // 0x0150(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FLinearColor                                        ColorAndOpacity;                                         // 0x0158(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FScriptDelegate                                      ColorAndOpacityDelegate;                                 // 0x0168(0x0010) ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FSlateColor                                         ForegroundColor;                                         // 0x0178(0x0014) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		class FScriptDelegate                                      ForegroundColorDelegate;                                 // 0x018C(0x0010) ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_CBSC[0x4];                                   // 0x019C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_0QS7[0x4];                                   // 0x019C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FScriptMulticastDelegate                             OnVisibilityChanged;                                     // 0x01A0(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_KWM2[0x18];                                  // 0x01B0(0x0018) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_LTHF[0x18];                                  // 0x01B0(0x0018) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMargin                                             padding;                                                 // 0x01C8(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 		int32_t                                                    Priority;                                                // 0x01D8(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bIsFocusable : 1;                                        // 0x01DC(0x0001) BIT_FIELD Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bStopAction : 1;                                         // 0x01DC(0x0001) BIT_FIELD Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_VX6N[0x3];                                   // 0x01DD(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_T0ZJ[0x3];                                   // 0x01DD(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class UUMGSequencePlayer*>                          ActiveSequencePlayers;                                   // 0x01E0(0x0010) ZeroConstructor, Transient, UObjectWrapper, NativeAccessSpecifierPublic
 		class UUMGSequenceTickManager*                             AnimationTickManager;                                    // 0x01F0(0x0008) ZeroConstructor, Transient, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<class UUMGSequencePlayer*>                          StoppedSequencePlayers;                                  // 0x01F8(0x0010) ZeroConstructor, Transient, UObjectWrapper, NativeAccessSpecifierPublic
@@ -306,12 +306,12 @@ namespace CG
 		class UWidgetTree*                                         WidgetTree;                                              // 0x0228(0x0008) ZeroConstructor, Transient, DuplicateTransient, NoDestructor, TextExportTransient, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bHasScriptImplementedTick : 1;                           // 0x0230(0x0001) BIT_FIELD NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bHasScriptImplementedPaint : 1;                          // 0x0230(0x0001) BIT_FIELD NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_EIXB[0x17];                                  // 0x0231(0x0017) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_63YA[0x17];                                  // 0x0231(0x0017) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		EWidgetTickFrequency                                       TickFrequency;                                           // 0x0248(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_P7H4[0x7];                                   // 0x0249(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_JE58[0x7];                                   // 0x0249(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UInputComponent*                                     InputComponent;                                          // 0x0250(0x0008) ExportObject, ZeroConstructor, Transient, InstancedReference, DuplicateTransient, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		TArray<struct FAnimationEventBinding>                      AnimationCallbacks;                                      // 0x0258(0x0010) ZeroConstructor, Transient, DuplicateTransient, ContainsInstancedReference, Protected, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_DS3X[0x18];                                  // 0x0268(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_X2CS[0x18];                                  // 0x0268(0x0018) MISSED OFFSET (PADDING)
 
 	public:
 		void UnregisterInputComponent();
@@ -439,7 +439,7 @@ namespace CG
 	class UWidgetFieldNotificationExtension : public UUserWidgetExtension
 	{
 	public:
-		unsigned char                                              UnknownData_XDPE[0x18];                                  // 0x0028(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_P83I[0x18];                                  // 0x0028(0x0018) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -480,9 +480,9 @@ namespace CG
 	class UMovieScene2DTransformSection : public UMovieSceneSection
 	{
 	public:
-		unsigned char                                              UnknownData_T2US[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_KNNP[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMovieScene2DTransformMask                          TransformMask;                                           // 0x00F8(0x0004) NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_DGZI[0x4];                                   // 0x00FC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_HK5M[0x4];                                   // 0x00FC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMovieSceneFloatChannel                             Translation[0x2];                                        // 0x0100(0x0220) NativeAccessSpecifierPublic
 		struct FMovieSceneFloatChannel                             Rotation;                                                // 0x0320(0x0110) NativeAccessSpecifierPublic
 		struct FMovieSceneFloatChannel                             Scale[0x2];                                              // 0x0430(0x0220) NativeAccessSpecifierPublic
@@ -519,7 +519,7 @@ namespace CG
 	class UMovieSceneMarginSection : public UMovieSceneSection
 	{
 	public:
-		unsigned char                                              UnknownData_S2VG[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_0DTA[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMovieSceneFloatChannel                             TopCurve;                                                // 0x00F8(0x0110) NativeAccessSpecifierPublic
 		struct FMovieSceneFloatChannel                             LeftCurve;                                               // 0x0208(0x0110) NativeAccessSpecifierPublic
 		struct FMovieSceneFloatChannel                             RightCurve;                                              // 0x0318(0x0110) NativeAccessSpecifierPublic
@@ -546,7 +546,7 @@ namespace CG
 	class UMovieSceneWidgetMaterialSystem : public UMovieSceneEntitySystem
 	{
 	public:
-		unsigned char                                              UnknownData_9ZSO[0x160];                                 // 0x0040(0x0160) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_TGPL[0x160];                                 // 0x0040(0x0160) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -559,7 +559,7 @@ namespace CG
 	class UMovieSceneWidgetMaterialTrack : public UMovieSceneMaterialTrack
 	{
 	public:
-		unsigned char                                              UnknownData_PVWQ[0x10];                                  // 0x00A8(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_6363[0x10];                                  // 0x00A8(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class FName>                                        BrushPropertyNamePath;                                   // 0x00B8(0x0010) ZeroConstructor, NativeAccessSpecifierPrivate
 		class FName                                                TrackName;                                               // 0x00C8(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 
@@ -574,11 +574,11 @@ namespace CG
 	class UUMGSequencePlayer : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_C2JY[0x1F8];                                 // 0x0028(0x01F8) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_5653[0x1F8];                                 // 0x0028(0x01F8) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UWidgetAnimation*                                    Animation;                                               // 0x0220(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_HM1V[0x8];                                   // 0x0228(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_VMW4[0x8];                                   // 0x0228(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMovieSceneRootEvaluationTemplateInstance           RootTemplateInstance;                                    // 0x0230(0x0088) NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_P1JE[0x80];                                  // 0x02B8(0x0080) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_J8WD[0x80];                                  // 0x02B8(0x0080) MISSED OFFSET (PADDING)
 
 	public:
 		void SetUserTag(const class FName& InUserTag);
@@ -595,7 +595,7 @@ namespace CG
 	public:
 		TMap<TWeakObjectPtr<class UUserWidget>, struct FSequenceTickManagerWidgetData> WeakUserWidgetData;                                      // 0x0028(0x0050) Transient, ContainsInstancedReference, NativeAccessSpecifierPrivate
 		class UMovieSceneEntitySystemLinker*                       Linker;                                                  // 0x0078(0x0008) ZeroConstructor, Transient, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_PAYW[0x40];                                  // 0x0080(0x0040) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_TS7H[0x40];                                  // 0x0080(0x0040) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -611,7 +611,7 @@ namespace CG
 		class UMovieScene*                                         MovieScene;                                              // 0x0068(0x0008) ExportObject, ZeroConstructor, InstancedReference, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<struct FWidgetAnimationBinding>                     AnimationBindings;                                       // 0x0070(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
 		bool                                                       bLegacyFinishOnStop;                                     // 0x0080(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_8A69[0x7];                                   // 0x0081(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_KAGL[0x7];                                   // 0x0081(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FString                                              DisplayLabel;                                            // 0x0088(0x0010) ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 
 	public:
@@ -647,7 +647,7 @@ namespace CG
 	{
 	public:
 		class FScriptMulticastDelegate                             Finished;                                                // 0x0028(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_3ABG[0x8];                                   // 0x0038(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_2XVR[0x8];                                   // 0x0038(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		class UWidgetAnimationPlayCallbackProxy* STATIC_CreatePlayAnimationTimeRangeProxyObject(class UUMGSequencePlayer** Result, class UUserWidget* Widget, class UWidgetAnimation* InAnimation, float StartAtTime, float EndAtTime, int32_t NumLoopsToPlay, EUMGSequencePlayMode PlayMode, float PlaybackSpeed);
@@ -688,7 +688,7 @@ namespace CG
 	class UBrushBinding : public UPropertyBinding
 	{
 	public:
-		unsigned char                                              UnknownData_OITP[0x8];                                   // 0x0070(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_UYXD[0x8];                                   // 0x0070(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		struct FSlateBrush GetValue();
@@ -702,7 +702,7 @@ namespace CG
 	class UCheckedStateBinding : public UPropertyBinding
 	{
 	public:
-		unsigned char                                              UnknownData_JQW6[0x8];                                   // 0x0070(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_P6CK[0x8];                                   // 0x0070(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		ECheckBoxState GetValue();
@@ -716,7 +716,7 @@ namespace CG
 	class UColorBinding : public UPropertyBinding
 	{
 	public:
-		unsigned char                                              UnknownData_BJZ9[0x8];                                   // 0x0070(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_OHQ1[0x8];                                   // 0x0070(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		struct FSlateColor GetSlateValue();
@@ -764,7 +764,7 @@ namespace CG
 	class UTextBinding : public UPropertyBinding
 	{
 	public:
-		unsigned char                                              UnknownData_S083[0x8];                                   // 0x0070(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_WBBF[0x8];                                   // 0x0070(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		class FText GetTextValue();
@@ -816,7 +816,7 @@ namespace CG
 	class UGameViewportSubsystem : public UEngineSubsystem
 	{
 	public:
-		unsigned char                                              UnknownData_8VU4[0x80];                                  // 0x0030(0x0080) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_A7OW[0x80];                                  // 0x0030(0x0080) MISSED OFFSET (PADDING)
 
 	public:
 		struct FGameViewportWidgetSlot STATIC_SetWidgetSlotPosition(const struct FGameViewportWidgetSlot& Slot, class UWidget* Widget, const struct FVector2D& Position, bool bRemoveDPIScale);
@@ -886,7 +886,7 @@ namespace CG
 	{
 	public:
 		TArray<class UPanelSlot*>                                  Slots;                                                   // 0x0150(0x0010) ExportObject, ZeroConstructor, ContainsInstancedReference, Protected, UObjectWrapper, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_5ESR[0x8];                                   // 0x0160(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_868J[0x8];                                   // 0x0160(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		bool RemoveChildAt(int32_t Index);
@@ -926,15 +926,15 @@ namespace CG
 		EHorizontalAlignment                                       HorizontalAlignment;                                     // 0x0178(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EVerticalAlignment                                         VerticalAlignment;                                       // 0x0179(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bApplyAlphaToBlur;                                       // 0x017A(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_QFQ9[0x1];                                   // 0x017B(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_W8ZM[0x1];                                   // 0x017B(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      BlurStrength;                                            // 0x017C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bOverrideAutoRadiusCalculation;                          // 0x0180(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_LZB6[0x3];                                   // 0x0181(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_BSDN[0x3];                                   // 0x0181(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    BlurRadius;                                              // 0x0184(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_0FHD[0x8];                                   // 0x0188(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_TI56[0x8];                                   // 0x0188(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector4                                            CornerRadius;                                            // 0x0190(0x0020) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FSlateBrush                                         LowQualityFallbackBrush;                                 // 0x01B0(0x00D0) Edit, BlueprintVisible, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_6NYG[0x10];                                  // 0x0280(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_6MRE[0x10];                                  // 0x0280(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		void SetVerticalAlignment(EVerticalAlignment InVerticalAlignment);
@@ -972,7 +972,7 @@ namespace CG
 		struct FMargin                                             padding;                                                 // 0x0038(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, NativeAccessSpecifierProtected
 		EHorizontalAlignment                                       HorizontalAlignment;                                     // 0x0048(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		EVerticalAlignment                                         VerticalAlignment;                                       // 0x0049(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_6Q2M[0x16];                                  // 0x004A(0x0016) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_NX52[0x16];                                  // 0x004A(0x0016) MISSED OFFSET (PADDING)
 
 	public:
 		void SetVerticalAlignment(EVerticalAlignment InVerticalAlignment);
@@ -991,23 +991,23 @@ namespace CG
 		EHorizontalAlignment                                       HorizontalAlignment;                                     // 0x0168(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EVerticalAlignment                                         VerticalAlignment;                                       // 0x0169(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bShowEffectWhenDisabled : 1;                             // 0x016A(0x0001) BIT_FIELD Edit, BlueprintVisible, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_VQ6Q[0x1];                                   // 0x016B(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_9FJU[0x1];                                   // 0x016B(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FLinearColor                                        ContentColorAndOpacity;                                  // 0x016C(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FScriptDelegate                                      ContentColorAndOpacityDelegate;                          // 0x017C(0x0010) ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FMargin                                             padding;                                                 // 0x018C(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_AMRJ[0x4];                                   // 0x019C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_M8Z0[0x4];                                   // 0x019C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FSlateBrush                                         Background;                                              // 0x01A0(0x00D0) Edit, BlueprintVisible, BlueprintReadOnly, NativeAccessSpecifierPublic
 		class FScriptDelegate                                      BackgroundDelegate;                                      // 0x0270(0x0010) ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FLinearColor                                        BrushColor;                                              // 0x0280(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FScriptDelegate                                      BrushColorDelegate;                                      // 0x0290(0x0010) ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector2D                                           DesiredSizeScale;                                        // 0x02A0(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bFlipForRightToLeftFlowDirection;                        // 0x02B0(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_E7B7[0x3];                                   // 0x02B1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_2JR9[0x3];                                   // 0x02B1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FScriptDelegate                                      OnMouseButtonDownEvent;                                  // 0x02B4(0x0010) Edit, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FScriptDelegate                                      OnMouseButtonUpEvent;                                    // 0x02C4(0x0010) Edit, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FScriptDelegate                                      OnMouseMoveEvent;                                        // 0x02D4(0x0010) Edit, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FScriptDelegate                                      OnMouseDoubleClickEvent;                                 // 0x02E4(0x0010) Edit, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_34S7[0x1C];                                  // 0x02F4(0x001C) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_58TW[0x1C];                                  // 0x02F4(0x001C) MISSED OFFSET (PADDING)
 
 	public:
 		void SetVerticalAlignment(EVerticalAlignment InVerticalAlignment);
@@ -1035,7 +1035,7 @@ namespace CG
 		struct FMargin                                             padding;                                                 // 0x0038(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, NativeAccessSpecifierProtected
 		EHorizontalAlignment                                       HorizontalAlignment;                                     // 0x0048(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		EVerticalAlignment                                         VerticalAlignment;                                       // 0x0049(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_60SE[0x16];                                  // 0x004A(0x0016) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_V3HD[0x16];                                  // 0x004A(0x0016) MISSED OFFSET (PADDING)
 
 	public:
 		void SetVerticalAlignment(EVerticalAlignment InVerticalAlignment);
@@ -1051,7 +1051,7 @@ namespace CG
 	class UButton : public UContentWidget
 	{
 	public:
-		unsigned char                                              UnknownData_URSS[0x8];                                   // 0x0168(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_I3AC[0x8];                                   // 0x0168(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FButtonStyle                                        WidgetStyle;                                             // 0x0170(0x03F0) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		struct FLinearColor                                        ColorAndOpacity;                                         // 0x0560(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FLinearColor                                        BackgroundColor;                                         // 0x0570(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -1059,13 +1059,13 @@ namespace CG
 		EButtonTouchMethod                                         TouchMethod;                                             // 0x0581(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EButtonPressMethod                                         PressMethod;                                             // 0x0582(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       IsFocusable;                                             // 0x0583(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_T7Z4[0x4];                                   // 0x0584(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_70SB[0x4];                                   // 0x0584(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FScriptMulticastDelegate                             OnClicked;                                               // 0x0588(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
 		class FScriptMulticastDelegate                             OnPressed;                                               // 0x0598(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
 		class FScriptMulticastDelegate                             OnReleased;                                              // 0x05A8(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
 		class FScriptMulticastDelegate                             OnHovered;                                               // 0x05B8(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
 		class FScriptMulticastDelegate                             OnUnhovered;                                             // 0x05C8(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_9QOY[0x18];                                  // 0x05D8(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_PTG7[0x18];                                  // 0x05D8(0x0018) MISSED OFFSET (PADDING)
 
 	public:
 		void SetTouchMethod(EButtonTouchMethod InTouchMethod);
@@ -1088,7 +1088,7 @@ namespace CG
 		struct FMargin                                             padding;                                                 // 0x0038(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 		EHorizontalAlignment                                       HorizontalAlignment;                                     // 0x0048(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EVerticalAlignment                                         VerticalAlignment;                                       // 0x0049(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_G94S[0x16];                                  // 0x004A(0x0016) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_YK0A[0x16];                                  // 0x004A(0x0016) MISSED OFFSET (PADDING)
 
 	public:
 		void SetVerticalAlignment(EVerticalAlignment InVerticalAlignment);
@@ -1104,7 +1104,7 @@ namespace CG
 	class UCanvasPanel : public UPanelWidget
 	{
 	public:
-		unsigned char                                              UnknownData_EDXW[0x10];                                  // 0x0168(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_XGZR[0x10];                                  // 0x0168(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		class UCanvasPanelSlot* AddChildToCanvas(class UWidget* Content);
@@ -1120,9 +1120,9 @@ namespace CG
 	public:
 		struct FAnchorData                                         LayoutData;                                              // 0x0038(0x0040) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		bool                                                       bAutoSize;                                               // 0x0078(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_7EI0[0x3];                                   // 0x0079(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_QVTC[0x3];                                   // 0x0079(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    ZOrder;                                                  // 0x007C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_M7G2[0x8];                                   // 0x0080(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_QNST[0x8];                                   // 0x0080(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		void SetZOrder(int32_t InZOrder);
@@ -1154,18 +1154,18 @@ namespace CG
 	{
 	public:
 		ECheckBoxState                                             CheckedState;                                            // 0x0168(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8KFT[0x3];                                   // 0x0169(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_TFHR[0x3];                                   // 0x0169(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FScriptDelegate                                      CheckedStateDelegate;                                    // 0x016C(0x0010) ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_FY8L[0x4];                                   // 0x017C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_87KI[0x4];                                   // 0x017C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCheckBoxStyle                                      WidgetStyle;                                             // 0x0180(0x0AD0) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		EHorizontalAlignment                                       HorizontalAlignment;                                     // 0x0C50(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EButtonClickMethod                                         ClickMethod;                                             // 0x0C51(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EButtonTouchMethod                                         TouchMethod;                                             // 0x0C52(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EButtonPressMethod                                         PressMethod;                                             // 0x0C53(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       IsFocusable;                                             // 0x0C54(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_36PT[0x3];                                   // 0x0C55(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_418Z[0x3];                                   // 0x0C55(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FScriptMulticastDelegate                             OnCheckStateChanged;                                     // 0x0C58(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_SRRW[0x18];                                  // 0x0C68(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_LFA7[0x18];                                  // 0x0C68(0x0018) MISSED OFFSET (PADDING)
 
 	public:
 		void SetTouchMethod(EButtonTouchMethod InTouchMethod);
@@ -1189,10 +1189,10 @@ namespace CG
 		int32_t                                                    NumberOfPieces;                                          // 0x0150(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Period;                                                  // 0x0154(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Radius;                                                  // 0x0158(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_J04H[0x4];                                   // 0x015C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_NJZI[0x4];                                   // 0x015C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FSlateBrush                                         Image;                                                   // 0x0160(0x00D0) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		bool                                                       bEnableRadius;                                           // 0x0230(0x0001) Edit, ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_UC2Y[0x1F];                                  // 0x0231(0x001F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_66KR[0x1F];                                  // 0x0231(0x001F) MISSED OFFSET (PADDING)
 
 	public:
 		void SetRadius(float InRadius);
@@ -1212,7 +1212,7 @@ namespace CG
 		TArray<class UObject*>                                     Items;                                                   // 0x08C0(0x0010) Edit, BlueprintVisible, ZeroConstructor, UObjectWrapper, NativeAccessSpecifierPublic
 		class FScriptDelegate                                      OnGenerateWidgetEvent;                                   // 0x08D0(0x0010) Edit, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bIsFocusable;                                            // 0x08E0(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_CQ2U[0x1F];                                  // 0x08E1(0x001F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_UMKL[0x1F];                                  // 0x08E1(0x001F) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1227,7 +1227,7 @@ namespace CG
 	public:
 		TArray<class FName>                                        Options;                                                 // 0x0150(0x0010) Edit, ZeroConstructor, NativeAccessSpecifierPrivate
 		class FName                                                SelectedOption;                                          // 0x0160(0x0008) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_C9I8[0x8];                                   // 0x0168(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_I815[0x8];                                   // 0x0168(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FComboBoxStyle                                      WidgetStyle;                                             // 0x0170(0x0660) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		struct FTableRowStyle                                      ItemStyle;                                               // 0x07D0(0x0D50) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		struct FScrollBarStyle                                     ScrollBarStyle;                                          // 0x1520(0x0770) Edit, BlueprintVisible, BlueprintReadOnly, NativeAccessSpecifierPublic
@@ -1237,13 +1237,13 @@ namespace CG
 		bool                                                       bHasDownArrow;                                           // 0x1CB8(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bEnableGamepadNavigationMode;                            // 0x1CB9(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bIsFocusable;                                            // 0x1CBA(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_3LMF[0x1];                                   // 0x1CBB(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_1BM7[0x1];                                   // 0x1CBB(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FScriptDelegate                                      OnGenerateContentWidget;                                 // 0x1CBC(0x0010) Edit, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FScriptDelegate                                      OnGenerateItemWidget;                                    // 0x1CCC(0x0010) Edit, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_UP41[0x4];                                   // 0x1CDC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_8T29[0x4];                                   // 0x1CDC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FScriptMulticastDelegate                             OnSelectionChanged;                                      // 0x1CE0(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
 		class FScriptMulticastDelegate                             OnOpening;                                               // 0x1CF0(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_F4LI[0x20];                                  // 0x1D00(0x0020) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_W3SK[0x20];                                  // 0x1D00(0x0020) MISSED OFFSET (PADDING)
 
 	public:
 		void SetSelectedOption(const class FName& Option);
@@ -1275,15 +1275,15 @@ namespace CG
 		float                                                      MaxListHeight;                                           // 0x1CA0(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       HasDownArrow;                                            // 0x1CA4(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       EnableGamepadNavigationMode;                             // 0x1CA5(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8WJ0[0x2];                                   // 0x1CA6(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_EXZV[0x2];                                   // 0x1CA6(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FSlateFontInfo                                      Font;                                                    // 0x1CA8(0x0058) Edit, BlueprintVisible, BlueprintReadOnly, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FSlateColor                                         ForegroundColor;                                         // 0x1D00(0x0014) Edit, BlueprintVisible, BlueprintReadOnly, NativeAccessSpecifierPublic
 		bool                                                       bIsFocusable;                                            // 0x1D14(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_34WF[0x3];                                   // 0x1D15(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_PDQN[0x3];                                   // 0x1D15(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FScriptDelegate                                      OnGenerateWidgetEvent;                                   // 0x1D18(0x0010) Edit, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FScriptMulticastDelegate                             OnSelectionChanged;                                      // 0x1D28(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
 		class FScriptMulticastDelegate                             OnOpening;                                               // 0x1D38(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_BWLP[0x58];                                  // 0x1D48(0x0058) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_KM0N[0x58];                                  // 0x1D48(0x0058) MISSED OFFSET (PADDING)
 
 	public:
 		void SetSelectedOption(const class FString& Option);
@@ -1315,14 +1315,14 @@ namespace CG
 		struct FVector2D                                           EntrySpacing;                                            // 0x0150(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		TArray<struct FVector2D>                                   SpacingPattern;                                          // 0x0160(0x0010) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Protected, NativeAccessSpecifierProtected
 		EDynamicBoxType                                            EntryBoxType;                                            // 0x0170(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_6BBW[0x3];                                   // 0x0171(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_BBPB[0x3];                                   // 0x0171(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FSlateChildSize                                     EntrySizeRule;                                           // 0x0174(0x0008) Edit, BlueprintVisible, BlueprintReadOnly, NoDestructor, Protected, NativeAccessSpecifierProtected
 		EHorizontalAlignment                                       EntryHorizontalAlignment;                                // 0x017C(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		EVerticalAlignment                                         EntryVerticalAlignment;                                  // 0x017D(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_IPDY[0x2];                                   // 0x017E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_MIN6[0x2];                                   // 0x017E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    MaxElementSize;                                          // 0x0180(0x0004) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		struct FRadialBoxSettings                                  RadialBoxSettings;                                       // 0x0184(0x0010) Edit, BlueprintVisible, NoDestructor, Protected, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_QQUT[0x14];                                  // 0x0194(0x0014) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_GOOG[0x14];                                  // 0x0194(0x0014) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FUserWidgetPool                                     EntryWidgetPool;                                         // 0x01A8(0x0088) Transient, ContainsInstancedReference, NativeAccessSpecifierPrivate
 
 	public:
@@ -1364,7 +1364,7 @@ namespace CG
 		struct FEditableTextStyle                                  WidgetStyle;                                             // 0x01A0(0x02F0) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		bool                                                       IsReadOnly;                                              // 0x0490(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       IsPassword;                                              // 0x0491(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_CE5F[0x2];                                   // 0x0492(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_AAN8[0x2];                                   // 0x0492(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      MinimumDesiredWidth;                                     // 0x0494(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       IsCaretMovedWhenGainFocus;                               // 0x0498(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       SelectAllTextWhenFocused;                                // 0x0499(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -1379,10 +1379,10 @@ namespace CG
 		ETextJustify                                               Justification;                                           // 0x04A2(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ETextOverflowPolicy                                        OverflowPolicy;                                          // 0x04A3(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FShapedTextOptions                                  ShapedTextOptions;                                       // 0x04A4(0x0003) Edit, BlueprintVisible, BlueprintReadOnly, NoDestructor, AdvancedDisplay, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_Y2WQ[0x1];                                   // 0x04A7(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_0WVK[0x1];                                   // 0x04A7(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FScriptMulticastDelegate                             OnTextChanged;                                           // 0x04A8(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
 		class FScriptMulticastDelegate                             OnTextCommitted;                                         // 0x04B8(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_SO5F[0x18];                                  // 0x04C8(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_JYGQ[0x18];                                  // 0x04C8(0x0018) MISSED OFFSET (PADDING)
 
 	public:
 		void SetTextOverflowPolicy(ETextOverflowPolicy InOverflowPolicy);
@@ -1413,13 +1413,13 @@ namespace CG
 	public:
 		class FText                                                Text;                                                    // 0x0150(0x0018) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		class FScriptDelegate                                      TextDelegate;                                            // 0x0168(0x0010) ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_QP91[0x8];                                   // 0x0178(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_F1FO[0x8];                                   // 0x0178(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FEditableTextBoxStyle                               WidgetStyle;                                             // 0x0180(0x0E80) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		class FText                                                HintText;                                                // 0x1000(0x0018) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		class FScriptDelegate                                      HintTextDelegate;                                        // 0x1018(0x0010) ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       IsReadOnly;                                              // 0x1028(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       IsPassword;                                              // 0x1029(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_5NBI[0x2];                                   // 0x102A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_UQ68[0x2];                                   // 0x102A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      MinimumDesiredWidth;                                     // 0x102C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       IsCaretMovedWhenGainFocus;                               // 0x1030(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       SelectAllTextWhenFocused;                                // 0x1031(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -1434,10 +1434,10 @@ namespace CG
 		ETextJustify                                               Justification;                                           // 0x103A(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ETextOverflowPolicy                                        OverflowPolicy;                                          // 0x103B(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FShapedTextOptions                                  ShapedTextOptions;                                       // 0x103C(0x0003) Edit, BlueprintVisible, BlueprintReadOnly, NoDestructor, AdvancedDisplay, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_5EIM[0x1];                                   // 0x103F(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_DYMC[0x1];                                   // 0x103F(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FScriptMulticastDelegate                             OnTextChanged;                                           // 0x1040(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
 		class FScriptMulticastDelegate                             OnTextCommitted;                                         // 0x1050(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_Q5A2[0x10];                                  // 0x1060(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_ZEKP[0x10];                                  // 0x1060(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		void SetTextOverflowPolicy(ETextOverflowPolicy InOverflowPolicy);
@@ -1463,20 +1463,20 @@ namespace CG
 	class UExpandableArea : public UWidget
 	{
 	public:
-		unsigned char                                              UnknownData_NYB4[0x10];                                  // 0x0150(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_9JXW[0x10];                                  // 0x0150(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FExpandableAreaStyle                                Style;                                                   // 0x0160(0x01C0) Edit, NativeAccessSpecifierPublic
 		struct FSlateBrush                                         BorderBrush;                                             // 0x0320(0x00D0) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		struct FSlateColor                                         BorderColor;                                             // 0x03F0(0x0014) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		bool                                                       bIsExpanded;                                             // 0x0404(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_MA9J[0x3];                                   // 0x0405(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_07B4[0x3];                                   // 0x0405(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      MaxHeight;                                               // 0x0408(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FMargin                                             HeaderPadding;                                           // 0x040C(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 		struct FMargin                                             AreaPadding;                                             // 0x041C(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_5Y4V[0x4];                                   // 0x042C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_CP0Z[0x4];                                   // 0x042C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FScriptMulticastDelegate                             OnExpansionChanged;                                      // 0x0430(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
 		class UWidget*                                             HeaderContent;                                           // 0x0440(0x0008) ExportObject, ZeroConstructor, InstancedReference, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UWidget*                                             BodyContent;                                             // 0x0448(0x0008) ExportObject, ZeroConstructor, InstancedReference, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_0KSO[0x10];                                  // 0x0450(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_884J[0x10];                                  // 0x0450(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		void SetIsExpanded_Animated(bool IsExpanded);
@@ -1494,7 +1494,7 @@ namespace CG
 	public:
 		TArray<float>                                              ColumnFill;                                              // 0x0168(0x0010) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NativeAccessSpecifierPublic
 		TArray<float>                                              RowFill;                                                 // 0x0178(0x0010) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_PJ76[0x10];                                  // 0x0188(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_RLHD[0x10];                                  // 0x0188(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		void SetRowFill(int32_t RowIndex, float Coefficient);
@@ -1513,14 +1513,14 @@ namespace CG
 		struct FMargin                                             padding;                                                 // 0x0038(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 		EHorizontalAlignment                                       HorizontalAlignment;                                     // 0x0048(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EVerticalAlignment                                         VerticalAlignment;                                       // 0x0049(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_M7E5[0x2];                                   // 0x004A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_7JO9[0x2];                                   // 0x004A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    Row;                                                     // 0x004C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    RowSpan;                                                 // 0x0050(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    Column;                                                  // 0x0054(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    ColumnSpan;                                              // 0x0058(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    Layer;                                                   // 0x005C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector2D                                           Nudge;                                                   // 0x0060(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_I8OS[0x8];                                   // 0x0070(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_79O2[0x8];                                   // 0x0070(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		void SetVerticalAlignment(EVerticalAlignment InVerticalAlignment);
@@ -1542,7 +1542,7 @@ namespace CG
 	class UHorizontalBox : public UPanelWidget
 	{
 	public:
-		unsigned char                                              UnknownData_WP5X[0x10];                                  // 0x0168(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_1EYO[0x10];                                  // 0x0168(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		class UHorizontalBoxSlot* AddChildToHorizontalBox(class UWidget* Content);
@@ -1556,12 +1556,12 @@ namespace CG
 	class UHorizontalBoxSlot : public UPanelSlot
 	{
 	public:
-		unsigned char                                              UnknownData_Y49S[0x8];                                   // 0x0038(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_IJAV[0x8];                                   // 0x0038(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FSlateChildSize                                     Size;                                                    // 0x0040(0x0008) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FMargin                                             padding;                                                 // 0x0048(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 		EHorizontalAlignment                                       HorizontalAlignment;                                     // 0x0058(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EVerticalAlignment                                         VerticalAlignment;                                       // 0x0059(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_DYGG[0x6];                                   // 0x005A(0x0006) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_RCY1[0x6];                                   // 0x005A(0x0006) MISSED OFFSET (PADDING)
 
 	public:
 		void SetVerticalAlignment(EVerticalAlignment InVerticalAlignment);
@@ -1583,9 +1583,9 @@ namespace CG
 		struct FLinearColor                                        ColorAndOpacity;                                         // 0x0230(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FScriptDelegate                                      ColorAndOpacityDelegate;                                 // 0x0240(0x0010) ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bFlipForRightToLeftFlowDirection;                        // 0x0250(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8RXL[0x3];                                   // 0x0251(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_QUFM[0x3];                                   // 0x0251(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FScriptDelegate                                      OnMouseButtonDownEvent;                                  // 0x0254(0x0010) Edit, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_QVSE[0x4C];                                  // 0x0264(0x004C) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_LFTN[0x4C];                                  // 0x0264(0x004C) MISSED OFFSET (PADDING)
 
 	public:
 		void SetOpacity(float InOpacity);
@@ -1620,11 +1620,11 @@ namespace CG
 		class FText                                                NoKeySpecifiedText;                                      // 0x08C8(0x0018) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		bool                                                       bAllowModifierKeys;                                      // 0x08E0(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bAllowGamepadKeys;                                       // 0x08E1(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_PKCE[0x6];                                   // 0x08E2(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_YD8C[0x6];                                   // 0x08E2(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FKey>                                        EscapeKeys;                                              // 0x08E8(0x0010) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NativeAccessSpecifierPublic
 		class FScriptMulticastDelegate                             OnKeySelected;                                           // 0x08F8(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
 		class FScriptMulticastDelegate                             OnIsSelectingKeyChanged;                                 // 0x0908(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8NJX[0x18];                                  // 0x0918(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_5257[0x18];                                  // 0x0918(0x0018) MISSED OFFSET (PADDING)
 
 	public:
 		void SetTextBlockVisibility(ESlateVisibility InVisibility);
@@ -1648,7 +1648,7 @@ namespace CG
 	{
 	public:
 		bool                                                       bCanCache;                                               // 0x0168(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_JANT[0x17];                                  // 0x0169(0x0017) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_0956[0x17];                                  // 0x0169(0x0017) MISSED OFFSET (PADDING)
 
 	public:
 		void SetCanCache(bool CanCache);
@@ -1671,9 +1671,9 @@ namespace CG
 		bool                                                       bFitInWindow;                                            // 0x0191(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       ShouldDeferPaintingAfterWindowContent;                   // 0x0192(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       UseApplicationMenuStack;                                 // 0x0193(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_HICM[0x4];                                   // 0x0194(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_25XQ[0x4];                                   // 0x0194(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FScriptMulticastDelegate                             OnMenuOpenChanged;                                       // 0x0198(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_6I77[0x10];                                  // 0x01A8(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_VNG9[0x10];                                  // 0x01A8(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		void ToggleOpen(bool bFocusOnOpen);
@@ -1700,7 +1700,7 @@ namespace CG
 		ETextJustify                                               Justification;                                           // 0x0153(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		ETextWrappingPolicy                                        WrappingPolicy;                                          // 0x0154(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       AutoWrapText : 1;                                        // 0x0155(0x0001) BIT_FIELD Edit, BlueprintVisible, BlueprintReadOnly, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_NM0I[0x2];                                   // 0x0156(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_CD6D[0x2];                                   // 0x0156(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      WrapTextAt;                                              // 0x0158(0x0004) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		struct FMargin                                             Margin;                                                  // 0x015C(0x0010) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, Protected, NativeAccessSpecifierProtected
 		float                                                      LineHeightPercentage;                                    // 0x016C(0x0004) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
@@ -1731,7 +1731,7 @@ namespace CG
 		EVirtualKeyboardDismissAction                              VirtualKeyboardDismissAction;                            // 0x04F7(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FScriptMulticastDelegate                             OnTextChanged;                                           // 0x04F8(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
 		class FScriptMulticastDelegate                             OnTextCommitted;                                         // 0x0508(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_394D[0x18];                                  // 0x0518(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_ZG8G[0x18];                                  // 0x0518(0x0018) MISSED OFFSET (PADDING)
 
 	public:
 		void SetWidgetStyle(const struct FTextBlockStyle& InWidgetStyle);
@@ -1764,10 +1764,10 @@ namespace CG
 		bool                                                       AllowContextMenu;                                        // 0x1031(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVirtualKeyboardOptions                             VirtualKeyboardOptions;                                  // 0x1032(0x0001) Edit, NoDestructor, AdvancedDisplay, NativeAccessSpecifierPublic
 		EVirtualKeyboardDismissAction                              VirtualKeyboardDismissAction;                            // 0x1033(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_101W[0x4];                                   // 0x1034(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_18CC[0x4];                                   // 0x1034(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FScriptMulticastDelegate                             OnTextChanged;                                           // 0x1038(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
 		class FScriptMulticastDelegate                             OnTextCommitted;                                         // 0x1048(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_JHAG[0x18];                                  // 0x1058(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_56YZ[0x18];                                  // 0x1058(0x0018) MISSED OFFSET (PADDING)
 
 	public:
 		void SetTextStyle(const struct FTextBlockStyle& InTextStyle);
@@ -1790,7 +1790,7 @@ namespace CG
 	class UNamedSlot : public UContentWidget
 	{
 	public:
-		unsigned char                                              UnknownData_KUG6[0x10];                                  // 0x0168(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_R8SH[0x10];                                  // 0x0168(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1813,7 +1813,7 @@ namespace CG
 	class UNativeWidgetHost : public UWidget
 	{
 	public:
-		unsigned char                                              UnknownData_NZS6[0x10];                                  // 0x0150(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_19RU[0x10];                                  // 0x0150(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1826,7 +1826,7 @@ namespace CG
 	class UOverlay : public UPanelWidget
 	{
 	public:
-		unsigned char                                              UnknownData_8W58[0x10];                                  // 0x0168(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_P0PI[0x10];                                  // 0x0168(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		bool ReplaceOverlayChildAt(int32_t Index, class UWidget* Content);
@@ -1841,11 +1841,11 @@ namespace CG
 	class UOverlaySlot : public UPanelSlot
 	{
 	public:
-		unsigned char                                              UnknownData_H238[0x8];                                   // 0x0038(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_4FW9[0x8];                                   // 0x0038(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMargin                                             padding;                                                 // 0x0040(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 		EHorizontalAlignment                                       HorizontalAlignment;                                     // 0x0050(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EVerticalAlignment                                         VerticalAlignment;                                       // 0x0051(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_1KRZ[0x6];                                   // 0x0052(0x0006) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_JXYY[0x6];                                   // 0x0052(0x0006) MISSED OFFSET (PADDING)
 
 	public:
 		void SetVerticalAlignment(EVerticalAlignment InVerticalAlignment);
@@ -1866,12 +1866,12 @@ namespace CG
 		EProgressBarFillType                                       BarFillType;                                             // 0x03E4(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EProgressBarFillStyle                                      BarFillStyle;                                            // 0x03E5(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bIsMarquee;                                              // 0x03E6(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_P1JB[0x1];                                   // 0x03E7(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ALZ5[0x1];                                   // 0x03E7(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector2D                                           BorderPadding;                                           // 0x03E8(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FScriptDelegate                                      PercentDelegate;                                         // 0x03F8(0x0010) ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FLinearColor                                        FillColorAndOpacity;                                     // 0x0408(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FScriptDelegate                                      FillColorAndOpacityDelegate;                             // 0x0418(0x0010) ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_VZFL[0x18];                                  // 0x0428(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_PLNG[0x18];                                  // 0x0428(0x0018) MISSED OFFSET (PADDING)
 
 	public:
 		void SetPercent(float InPercent);
@@ -1890,13 +1890,13 @@ namespace CG
 		bool                                                       bRetainRender;                                           // 0x0168(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       RenderOnInvalidation;                                    // 0x0169(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       RenderOnPhase;                                           // 0x016A(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_YVCB[0x1];                                   // 0x016B(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_59KI[0x1];                                   // 0x016B(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    Phase;                                                   // 0x016C(0x0004) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    PhaseCount;                                              // 0x0170(0x0004) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_HO3V[0x4];                                   // 0x0174(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_CM32[0x4];                                   // 0x0174(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UMaterialInterface*                                  EffectMaterial;                                          // 0x0178(0x0008) Edit, BlueprintVisible, ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class FName                                                TextureParameter;                                        // 0x0180(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_V45K[0x10];                                  // 0x0188(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_6J61[0x10];                                  // 0x0188(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		void SetTextureParameter(const class FName& TextureParameter);
@@ -1919,15 +1919,15 @@ namespace CG
 		class UDataTable*                                          TextStyleSet;                                            // 0x0188(0x0008) Edit, BlueprintVisible, ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		TArray<class UClass*>                                      DecoratorClasses;                                        // 0x0190(0x0010) Edit, ZeroConstructor, Protected, UObjectWrapper, NativeAccessSpecifierProtected
 		bool                                                       bOverrideDefaultStyle;                                   // 0x01A0(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_MG4O[0xF];                                   // 0x01A1(0x000F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_JF0N[0xF];                                   // 0x01A1(0x000F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTextBlockStyle                                     DefaultTextStyleOverride;                                // 0x01B0(0x0340) Edit, BlueprintVisible, Protected, NativeAccessSpecifierProtected
 		float                                                      MinDesiredWidth;                                         // 0x04F0(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		ETextTransformPolicy                                       TextTransformPolicy;                                     // 0x04F4(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		ETextOverflowPolicy                                        TextOverflowPolicy;                                      // 0x04F5(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_QZQ0[0xA];                                   // 0x04F6(0x000A) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_9JJL[0xA];                                   // 0x04F6(0x000A) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTextBlockStyle                                     DefaultTextStyle;                                        // 0x0500(0x0340) Transient, Protected, NativeAccessSpecifierProtected
 		TArray<class URichTextBlockDecorator*>                     InstanceDecorators;                                      // 0x0840(0x0010) ZeroConstructor, Transient, Protected, UObjectWrapper, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_TWIY[0x20];                                  // 0x0850(0x0020) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_22PW[0x20];                                  // 0x0850(0x0020) MISSED OFFSET (PADDING)
 
 	public:
 		void SetWrapTextAt(float InWrapTextAt);
@@ -1988,7 +1988,7 @@ namespace CG
 		bool                                                       PadRight;                                                // 0x0169(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       PadTop;                                                  // 0x016A(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       PadBottom;                                               // 0x016B(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_89EM[0x14];                                  // 0x016C(0x0014) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_05ZC[0x14];                                  // 0x016C(0x0014) MISSED OFFSET (PADDING)
 
 	public:
 		void SetSidesToPad(bool InPadLeft, bool InPadRight, bool InPadTop, bool InPadBottom);
@@ -2003,13 +2003,13 @@ namespace CG
 	{
 	public:
 		bool                                                       bIsTitleSafe;                                            // 0x0038(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_4J7Q[0x3];                                   // 0x0039(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_X76B[0x3];                                   // 0x0039(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMargin                                             SafeAreaScale;                                           // 0x003C(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 		EHorizontalAlignment                                       HAlign;                                                  // 0x004C(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EVerticalAlignment                                         VAlign;                                                  // 0x004D(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_4FOT[0x2];                                   // 0x004E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_33OW[0x2];                                   // 0x004E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMargin                                             padding;                                                 // 0x0050(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_RGT4[0x10];                                  // 0x0060(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_DBQN[0x10];                                  // 0x0060(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -2024,10 +2024,10 @@ namespace CG
 	public:
 		EStretch                                                   Stretch;                                                 // 0x0168(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EStretchDirection                                          StretchDirection;                                        // 0x0169(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_WJQP[0x2];                                   // 0x016A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_DLR5[0x2];                                   // 0x016A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      UserSpecifiedScale;                                      // 0x016C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       IgnoreInheritedScale;                                    // 0x0170(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_JNGL[0x17];                                  // 0x0171(0x0017) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_GDF1[0x17];                                  // 0x0171(0x0017) MISSED OFFSET (PADDING)
 
 	public:
 		void SetUserSpecifiedScale(float InUserSpecifiedScale);
@@ -2046,7 +2046,7 @@ namespace CG
 	public:
 		EHorizontalAlignment                                       HorizontalAlignment;                                     // 0x0038(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EVerticalAlignment                                         VerticalAlignment;                                       // 0x0039(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_BPAS[0x16];                                  // 0x003A(0x0016) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_YC28[0x16];                                  // 0x003A(0x0016) MISSED OFFSET (PADDING)
 
 	public:
 		void SetVerticalAlignment(EVerticalAlignment InVerticalAlignment);
@@ -2056,20 +2056,20 @@ namespace CG
 	};
 
 	/**
-	 * Class UMG.ScrollBar
+	 * Class UMG.Scrollbar
 	 * Size -> 0x07B0 (FullSize[0x0900] - InheritedSize[0x0150])
 	 */
-	class UScrollBar : public UWidget
+	class UScrollbar : public UWidget
 	{
 	public:
 		struct FScrollBarStyle                                     WidgetStyle;                                             // 0x0150(0x0770) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		bool                                                       bAlwaysShowScrollbar;                                    // 0x08C0(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bAlwaysShowScrollbarTrack;                               // 0x08C1(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EOrientation                                               Orientation;                                             // 0x08C2(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_H6VP[0x5];                                   // 0x08C3(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_WWOO[0x5];                                   // 0x08C3(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector2D                                           Thickness;                                               // 0x08C8(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FMargin                                             padding;                                                 // 0x08D8(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_S016[0x18];                                  // 0x08E8(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_MGAF[0x18];                                  // 0x08E8(0x0018) MISSED OFFSET (PADDING)
 
 	public:
 		void SetState(float InOffsetFraction, float InThumbSizeFraction);
@@ -2083,13 +2083,13 @@ namespace CG
 	class UScrollBox : public UPanelWidget
 	{
 	public:
-		unsigned char                                              UnknownData_VLT2[0x8];                                   // 0x0168(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_AXF6[0x8];                                   // 0x0168(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FScrollBoxStyle                                     WidgetStyle;                                             // 0x0170(0x0370) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		struct FScrollBarStyle                                     WidgetBarStyle;                                          // 0x04E0(0x0770) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		EOrientation                                               Orientation;                                             // 0x0C50(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ESlateVisibility                                           ScrollBarVisibility;                                     // 0x0C51(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EConsumeMouseWheel                                         ConsumeMouseWheel;                                       // 0x0C52(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_5KZ2[0x5];                                   // 0x0C53(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_VIAR[0x5];                                   // 0x0C53(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector2D                                           ScrollbarThickness;                                      // 0x0C58(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FMargin                                             ScrollbarPadding;                                        // 0x0C68(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 		bool                                                       AlwaysShowScrollbar;                                     // 0x0C78(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -2099,15 +2099,15 @@ namespace CG
 		bool                                                       FrontPadScrolling;                                       // 0x0C7C(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bAnimateWheelScrolling;                                  // 0x0C7D(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EDescendantScrollDestination                               NavigationDestination;                                   // 0x0C7E(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_BDX8[0x1];                                   // 0x0C7F(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_2UIU[0x1];                                   // 0x0C7F(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      NavigationScrollPadding;                                 // 0x0C80(0x0004) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EScrollWhenFocusChanges                                    ScrollWhenFocusChanges;                                  // 0x0C84(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bAllowRightClickDragScrolling;                           // 0x0C85(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_UZ7D[0x2];                                   // 0x0C86(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_XQ45[0x2];                                   // 0x0C86(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      WheelScrollMultiplier;                                   // 0x0C88(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_QS2I[0x4];                                   // 0x0C8C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_CYIW[0x4];                                   // 0x0C8C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FScriptMulticastDelegate                             OnUserScrolled;                                          // 0x0C90(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_GVJZ[0x20];                                  // 0x0CA0(0x0020) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_0DPE[0x20];                                  // 0x0CA0(0x0020) MISSED OFFSET (PADDING)
 
 	public:
 		void SetWheelScrollMultiplier(float NewWheelScrollMultiplier);
@@ -2144,7 +2144,7 @@ namespace CG
 		struct FMargin                                             padding;                                                 // 0x0040(0x0010) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 		EHorizontalAlignment                                       HorizontalAlignment;                                     // 0x0050(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EVerticalAlignment                                         VerticalAlignment;                                       // 0x0051(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_AA0U[0xE];                                   // 0x0052(0x000E) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_5V9A[0xE];                                   // 0x0052(0x000E) MISSED OFFSET (PADDING)
 
 	public:
 		void SetVerticalAlignment(EVerticalAlignment InVerticalAlignment);
@@ -2160,7 +2160,7 @@ namespace CG
 	class USizeBox : public UContentWidget
 	{
 	public:
-		unsigned char                                              UnknownData_Q7M1[0x10];                                  // 0x0168(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_5X8V[0x10];                                  // 0x0168(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      WidthOverride;                                           // 0x0178(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      HeightOverride;                                          // 0x017C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      MinDesiredWidth;                                         // 0x0180(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -2177,7 +2177,7 @@ namespace CG
 		bool                                                       bOverride_MaxDesiredHeight : 1;                          // 0x0198(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bOverride_MinAspectRatio : 1;                            // 0x0198(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bOverride_MaxAspectRatio : 1;                            // 0x0198(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_VIW2[0x7];                                   // 0x0199(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_M0Y1[0x7];                                   // 0x0199(0x0007) MISSED OFFSET (PADDING)
 
 	public:
 		void SetWidthOverride(float InWidthOverride);
@@ -2207,10 +2207,10 @@ namespace CG
 	{
 	public:
 		struct FMargin                                             padding;                                                 // 0x0038(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_V7ZM[0x10];                                  // 0x0048(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_JJIY[0x10];                                  // 0x0048(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		EHorizontalAlignment                                       HorizontalAlignment;                                     // 0x0058(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EVerticalAlignment                                         VerticalAlignment;                                       // 0x0059(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_E2FI[0x6];                                   // 0x005A(0x0006) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_Q80D[0x6];                                   // 0x005A(0x0006) MISSED OFFSET (PADDING)
 
 	public:
 		void SetVerticalAlignment(EVerticalAlignment InVerticalAlignment);
@@ -2230,10 +2230,10 @@ namespace CG
 		class FScriptDelegate                                      ValueDelegate;                                           // 0x0154(0x0010) ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      MinValue;                                                // 0x0164(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      MaxValue;                                                // 0x0168(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_VHAJ[0x4];                                   // 0x016C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_PVMT[0x4];                                   // 0x016C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FSliderStyle                                        WidgetStyle;                                             // 0x0170(0x0500) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		EOrientation                                               Orientation;                                             // 0x0670(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_C7BH[0x3];                                   // 0x0671(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_HIFZ[0x3];                                   // 0x0671(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FLinearColor                                        SliderBarColor;                                          // 0x0674(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FLinearColor                                        SliderHandleColor;                                       // 0x0684(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       IndentHandle;                                            // 0x0694(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -2242,13 +2242,13 @@ namespace CG
 		bool                                                       RequiresControllerLock;                                  // 0x0697(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      StepSize;                                                // 0x0698(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       IsFocusable;                                             // 0x069C(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_51JS[0x3];                                   // 0x069D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_LCMR[0x3];                                   // 0x069D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FScriptMulticastDelegate                             OnMouseCaptureBegin;                                     // 0x06A0(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
 		class FScriptMulticastDelegate                             OnMouseCaptureEnd;                                       // 0x06B0(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
 		class FScriptMulticastDelegate                             OnControllerCaptureBegin;                                // 0x06C0(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
 		class FScriptMulticastDelegate                             OnControllerCaptureEnd;                                  // 0x06D0(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
 		class FScriptMulticastDelegate                             OnValueChanged;                                          // 0x06E0(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_EYK1[0x10];                                  // 0x06F0(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_21QF[0x10];                                  // 0x06F0(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		void SetValue(float InValue);
@@ -2272,7 +2272,7 @@ namespace CG
 	{
 	public:
 		struct FVector2D                                           Size;                                                    // 0x0150(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_NKF8[0x10];                                  // 0x0160(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_81EY[0x10];                                  // 0x0160(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		void SetSize(const struct FVector2D& InSize);
@@ -2288,24 +2288,24 @@ namespace CG
 	public:
 		float                                                      Value;                                                   // 0x0150(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FScriptDelegate                                      ValueDelegate;                                           // 0x0154(0x0010) ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_0A6S[0xC];                                   // 0x0164(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_R6PF[0xC];                                   // 0x0164(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FSpinBoxStyle                                       WidgetStyle;                                             // 0x0170(0x0600) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		int32_t                                                    MinFractionalDigits;                                     // 0x0770(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    MaxFractionalDigits;                                     // 0x0774(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bAlwaysUsesDeltaSnap;                                    // 0x0778(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bEnableSlider;                                           // 0x0779(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_V7HM[0x2];                                   // 0x077A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_MS7V[0x2];                                   // 0x077A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Delta;                                                   // 0x077C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      SliderExponent;                                          // 0x0780(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_N1RP[0x4];                                   // 0x0784(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_5NMN[0x4];                                   // 0x0784(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FSlateFontInfo                                      Font;                                                    // 0x0788(0x0058) Edit, BlueprintVisible, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ETextJustify                                               Justification;                                           // 0x07E0(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_FHUF[0x3];                                   // 0x07E1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_916D[0x3];                                   // 0x07E1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      MinDesiredWidth;                                         // 0x07E4(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EVirtualKeyboardType                                       KeyboardType;                                            // 0x07E8(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       ClearKeyboardFocusOnCommit;                              // 0x07E9(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       SelectAllTextOnCommit;                                   // 0x07EA(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_3SLE[0x1];                                   // 0x07EB(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_O6TA[0x1];                                   // 0x07EB(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FSlateColor                                         ForegroundColor;                                         // 0x07EC(0x0014) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		class FScriptMulticastDelegate                             OnValueChanged;                                          // 0x0800(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
 		class FScriptMulticastDelegate                             OnValueCommitted;                                        // 0x0810(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
@@ -2315,12 +2315,12 @@ namespace CG
 		bool                                                       bOverride_MaxValue : 1;                                  // 0x0840(0x0001) BIT_FIELD Edit, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bOverride_MinSliderValue : 1;                            // 0x0840(0x0001) BIT_FIELD Edit, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bOverride_MaxSliderValue : 1;                            // 0x0840(0x0001) BIT_FIELD Edit, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_5QUC[0x3];                                   // 0x0841(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_FLMK[0x3];                                   // 0x0841(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      MinValue;                                                // 0x0844(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		float                                                      MaxValue;                                                // 0x0848(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		float                                                      MinSliderValue;                                          // 0x084C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		float                                                      MaxSliderValue;                                          // 0x0850(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_QHSF[0x1C];                                  // 0x0854(0x001C) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_KDX2[0x1C];                                  // 0x0854(0x001C) MISSED OFFSET (PADDING)
 
 	public:
 		void SetValue(float NewValue);
@@ -2360,7 +2360,7 @@ namespace CG
 	{
 	public:
 		EOrientation                                               Orientation;                                             // 0x0168(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_69QN[0x17];                                  // 0x0169(0x0017) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_33AG[0x17];                                  // 0x0169(0x0017) MISSED OFFSET (PADDING)
 
 	public:
 		bool ReplaceStackBoxChildAt(int32_t Index, class UWidget* Content);
@@ -2379,7 +2379,7 @@ namespace CG
 		struct FSlateChildSize                                     Size;                                                    // 0x0048(0x0008) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPrivate
 		EHorizontalAlignment                                       HorizontalAlignment;                                     // 0x0050(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		EVerticalAlignment                                         VerticalAlignment;                                       // 0x0051(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_01H1[0xE];                                   // 0x0052(0x000E) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_F0TP[0xE];                                   // 0x0052(0x000E) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -2396,9 +2396,9 @@ namespace CG
 		class FScriptDelegate                                      TextDelegate;                                            // 0x0188(0x0010) ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FSlateColor                                         ColorAndOpacity;                                         // 0x0198(0x0014) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		class FScriptDelegate                                      ColorAndOpacityDelegate;                                 // 0x01AC(0x0010) ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_4T99[0x4];                                   // 0x01BC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_RSHS[0x4];                                   // 0x01BC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FSlateFontInfo                                      Font;                                                    // 0x01C0(0x0058) Edit, BlueprintVisible, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_9TY0[0x8];                                   // 0x0218(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_FZ8W[0x8];                                   // 0x0218(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FSlateBrush                                         StrikeBrush;                                             // 0x0220(0x00D0) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		struct FVector2D                                           ShadowOffset;                                            // 0x02F0(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FLinearColor                                        ShadowColorAndOpacity;                                   // 0x0300(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -2408,7 +2408,7 @@ namespace CG
 		ETextTransformPolicy                                       TextTransformPolicy;                                     // 0x0325(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ETextOverflowPolicy                                        TextOverflowPolicy;                                      // 0x0326(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bSimpleTextMode;                                         // 0x0327(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_UKZP[0x18];                                  // 0x0328(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_W3J5[0x18];                                  // 0x0328(0x0018) MISSED OFFSET (PADDING)
 
 	public:
 		void SetTextTransformPolicy(ETextTransformPolicy InTransformPolicy);
@@ -2441,9 +2441,9 @@ namespace CG
 		bool                                                       bAnimateHorizontally;                                    // 0x0154(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bAnimateVertically;                                      // 0x0155(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bAnimateOpacity;                                         // 0x0156(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_SGUE[0x9];                                   // 0x0157(0x0009) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_DBX2[0x9];                                   // 0x0157(0x0009) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FSlateBrush                                         Image;                                                   // 0x0160(0x00D0) Edit, BlueprintVisible, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_5RS9[0x10];                                  // 0x0230(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_ARZO[0x10];                                  // 0x0230(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		void SetNumberOfPieces(int32_t InNumberOfPieces);
@@ -2464,7 +2464,7 @@ namespace CG
 		float                                                      EntryWidth;                                              // 0x0C34(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		EListItemAlignment                                         TileAlignment;                                           // 0x0C38(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bWrapHorizontalNavigation;                               // 0x0C39(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_9OQY[0x16];                                  // 0x0C3A(0x0016) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_37Z3[0x16];                                  // 0x0C3A(0x0016) MISSED OFFSET (PADDING)
 
 	public:
 		void SetEntryWidth(float NewWidth);
@@ -2481,10 +2481,10 @@ namespace CG
 	class UTreeView : public UListView
 	{
 	public:
-		unsigned char                                              UnknownData_GPB2[0x10];                                  // 0x0C30(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_EJE7[0x10];                                  // 0x0C30(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FScriptDelegate                                      BP_OnGetItemChildren;                                    // 0x0C40(0x0010) Edit, ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		class FScriptMulticastDelegate                             BP_OnItemExpansionChanged;                               // 0x0C50(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_4LRJ[0x30];                                  // 0x0C60(0x0030) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_UIS5[0x30];                                  // 0x0C60(0x0030) MISSED OFFSET (PADDING)
 
 	public:
 		void SetItemExpansion(class UObject* Item, bool bExpandItem);
@@ -2503,7 +2503,7 @@ namespace CG
 		struct FMargin                                             SlotPadding;                                             // 0x0168(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 		float                                                      MinDesiredSlotWidth;                                     // 0x0178(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      MinDesiredSlotHeight;                                    // 0x017C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_QG0Z[0x10];                                  // 0x0180(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_OJR1[0x10];                                  // 0x0180(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		void SetSlotPadding(const struct FMargin& InSlotPadding);
@@ -2522,10 +2522,10 @@ namespace CG
 	public:
 		EHorizontalAlignment                                       HorizontalAlignment;                                     // 0x0038(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EVerticalAlignment                                         VerticalAlignment;                                       // 0x0039(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_4GIM[0x2];                                   // 0x003A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_IZMB[0x2];                                   // 0x003A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    Row;                                                     // 0x003C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    Column;                                                  // 0x0040(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_YXY4[0xC];                                   // 0x0044(0x000C) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_FKPV[0xC];                                   // 0x0044(0x000C) MISSED OFFSET (PADDING)
 
 	public:
 		void SetVerticalAlignment(EVerticalAlignment InVerticalAlignment);
@@ -2542,7 +2542,7 @@ namespace CG
 	class UVerticalBox : public UPanelWidget
 	{
 	public:
-		unsigned char                                              UnknownData_JT5R[0x10];                                  // 0x0168(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_9MS6[0x10];                                  // 0x0168(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		class UVerticalBoxSlot* AddChildToVerticalBox(class UWidget* Content);
@@ -2560,7 +2560,7 @@ namespace CG
 		struct FMargin                                             padding;                                                 // 0x0040(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 		EHorizontalAlignment                                       HorizontalAlignment;                                     // 0x0050(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EVerticalAlignment                                         VerticalAlignment;                                       // 0x0051(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_REWE[0xE];                                   // 0x0052(0x000E) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_MVHA[0xE];                                   // 0x0052(0x000E) MISSED OFFSET (PADDING)
 
 	public:
 		void SetVerticalAlignment(EVerticalAlignment InVerticalAlignment);
@@ -2578,7 +2578,7 @@ namespace CG
 	{
 	public:
 		struct FLinearColor                                        BackgroundColor;                                         // 0x0168(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_32D6[0x40];                                  // 0x0178(0x0040) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_SDCL[0x40];                                  // 0x0178(0x0040) MISSED OFFSET (PADDING)
 
 	public:
 		class AActor* Spawn(class UClass* ActorClass);
@@ -2599,23 +2599,23 @@ namespace CG
 	public:
 		EWidgetSpace                                               Space;                                                   // 0x05A0(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		EWidgetTimingPolicy                                        TimingPolicy;                                            // 0x05A1(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_OF2N[0x6];                                   // 0x05A2(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_BQVM[0x6];                                   // 0x05A2(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UClass*                                              WidgetClass;                                             // 0x05A8(0x0008) Edit, ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		struct FIntPoint                                           DrawSize;                                                // 0x05B0(0x0008) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bManuallyRedraw;                                         // 0x05B8(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bRedrawRequested;                                        // 0x05B9(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_9VAO[0x2];                                   // 0x05BA(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_SVUG[0x2];                                   // 0x05BA(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      RedrawTime;                                              // 0x05BC(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_I0YH[0x8];                                   // 0x05C0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_G9W3[0x8];                                   // 0x05C0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FIntPoint                                           CurrentDrawSize;                                         // 0x05C8(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bDrawAtDesiredSize;                                      // 0x05D0(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_3IG0[0x7];                                   // 0x05D1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_VI1L[0x7];                                   // 0x05D1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector2D                                           Pivot;                                                   // 0x05D8(0x0010) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bReceiveHardwareInput;                                   // 0x05E8(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bWindowFocusable;                                        // 0x05E9(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		EWindowVisibility                                          WindowVisibility;                                        // 0x05EA(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bApplyGammaCorrection;                                   // 0x05EB(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_RAPZ[0x4];                                   // 0x05EC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_G7N9[0x4];                                   // 0x05EC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class ULocalPlayer*                                        OwnerPlayer;                                             // 0x05F0(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		struct FLinearColor                                        BackgroundColor;                                         // 0x05F8(0x0010) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		struct FLinearColor                                        TintColorAndOpacity;                                     // 0x0608(0x0010) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
@@ -2623,7 +2623,7 @@ namespace CG
 		EWidgetBlendMode                                           BlendMode;                                               // 0x061C(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bIsTwoSided;                                             // 0x061D(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       TickWhenOffscreen;                                       // 0x061E(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_35JZ[0x1];                                   // 0x061F(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_SQKT[0x1];                                   // 0x061F(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UBodySetup*                                          BodySetup;                                               // 0x0620(0x0008) ZeroConstructor, Transient, DuplicateTransient, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UMaterialInterface*                                  TranslucentMaterial;                                     // 0x0628(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UMaterialInterface*                                  TranslucentMaterial_OneSided;                            // 0x0630(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
@@ -2635,16 +2635,16 @@ namespace CG
 		class UMaterialInstanceDynamic*                            MaterialInstance;                                        // 0x0660(0x0008) ZeroConstructor, Transient, DuplicateTransient, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bAddedToScreen;                                          // 0x0668(0x0001) ZeroConstructor, Transient, DuplicateTransient, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bEditTimeUsable;                                         // 0x0669(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_D9AJ[0x2];                                   // 0x066A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_921X[0x2];                                   // 0x066A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FName                                                SharedLayerName;                                         // 0x066C(0x0008) Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		int32_t                                                    LayerZOrder;                                             // 0x0674(0x0004) Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		EWidgetGeometryMode                                        GeometryMode;                                            // 0x0678(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_UJWL[0x3];                                   // 0x0679(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_6ZOK[0x3];                                   // 0x0679(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      CylinderArcAngle;                                        // 0x067C(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		ETickMode                                                  TickMode;                                                // 0x0680(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_A0SR[0x2F];                                  // 0x0681(0x002F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_1AMI[0x2F];                                  // 0x0681(0x002F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UUserWidget*                                         Widget;                                                  // 0x06B0(0x0008) ExportObject, ZeroConstructor, Transient, InstancedReference, DuplicateTransient, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_L3WO[0x28];                                  // 0x06B8(0x0028) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_LBBA[0x28];                                  // 0x06B8(0x0028) MISSED OFFSET (PADDING)
 
 	public:
 		void SetWindowVisibility(EWindowVisibility InVisibility);
@@ -2696,20 +2696,20 @@ namespace CG
 	{
 	public:
 		class FScriptMulticastDelegate                             OnHoveredWidgetChanged;                                  // 0x02A0(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_11MC[0x10];                                  // 0x02B0(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_M58Y[0x10];                                  // 0x02B0(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    VirtualUserIndex;                                        // 0x02C0(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    PointerIndex;                                            // 0x02C4(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ECollisionChannel                                          TraceChannel;                                            // 0x02C8(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_O3TY[0x3];                                   // 0x02C9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_COW5[0x3];                                   // 0x02C9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      InteractionDistance;                                     // 0x02CC(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EWidgetInteractionSource                                   InteractionSource;                                       // 0x02D0(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bEnableHitTesting;                                       // 0x02D1(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bShowDebug;                                              // 0x02D2(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_WRJG[0x1];                                   // 0x02D3(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_PJ9D[0x1];                                   // 0x02D3(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      DebugSphereLineThickness;                                // 0x02D4(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      DebugLineThickness;                                      // 0x02D8(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FLinearColor                                        DebugColor;                                              // 0x02DC(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_VT56[0x7C];                                  // 0x02EC(0x007C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_GHSY[0x7C];                                  // 0x02EC(0x007C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FHitResult                                          CustomHitResult;                                         // 0x0368(0x00E8) Transient, IsPlainOldData, NoDestructor, ContainsInstancedReference, Protected, NativeAccessSpecifierProtected
 		struct FVector2D                                           LocalHitLocation;                                        // 0x0450(0x0010) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		struct FVector2D                                           LastLocalHitLocation;                                    // 0x0460(0x0010) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
@@ -2718,7 +2718,7 @@ namespace CG
 		bool                                                       bIsHoveredWidgetInteractable;                            // 0x0560(0x0001) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bIsHoveredWidgetFocusable;                               // 0x0561(0x0001) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bIsHoveredWidgetHitTestVisible;                          // 0x0562(0x0001) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_20LH[0xD];                                   // 0x0563(0x000D) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_I9OW[0xD];                                   // 0x0563(0x000D) MISSED OFFSET (PADDING)
 
 	public:
 		void SetFocus(class UWidget* FocusWidget);
@@ -2747,7 +2747,7 @@ namespace CG
 	{
 	public:
 		int32_t                                                    ActiveWidgetIndex;                                       // 0x0168(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_U4X9[0x14];                                  // 0x016C(0x0014) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_CWT2[0x14];                                  // 0x016C(0x0014) MISSED OFFSET (PADDING)
 
 	public:
 		void SetActiveWidgetIndex(int32_t Index);
@@ -2766,11 +2766,11 @@ namespace CG
 	class UWidgetSwitcherSlot : public UPanelSlot
 	{
 	public:
-		unsigned char                                              UnknownData_XUY5[0x8];                                   // 0x0038(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_VVBL[0x8];                                   // 0x0038(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMargin                                             padding;                                                 // 0x0040(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 		EHorizontalAlignment                                       HorizontalAlignment;                                     // 0x0050(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EVerticalAlignment                                         VerticalAlignment;                                       // 0x0051(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8HH8[0x6];                                   // 0x0052(0x0006) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_MZRI[0x6];                                   // 0x0052(0x0006) MISSED OFFSET (PADDING)
 
 	public:
 		void SetVerticalAlignment(EVerticalAlignment InVerticalAlignment);
@@ -2788,7 +2788,7 @@ namespace CG
 	public:
 		bool                                                       bWindowButtonsEnabled;                                   // 0x0168(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bDoubleClickTogglesFullscreen;                           // 0x0169(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_OC7S[0x1E];                                  // 0x016A(0x001E) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_TB9P[0x1E];                                  // 0x016A(0x001E) MISSED OFFSET (PADDING)
 
 	public:
 		void SetVerticalAlignment(EVerticalAlignment InVerticalAlignment);
@@ -2807,7 +2807,7 @@ namespace CG
 		struct FMargin                                             padding;                                                 // 0x0038(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, NativeAccessSpecifierProtected
 		EHorizontalAlignment                                       HorizontalAlignment;                                     // 0x0048(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		EVerticalAlignment                                         VerticalAlignment;                                       // 0x0049(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_Y1PZ[0x16];                                  // 0x004A(0x0016) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_4TE3[0x16];                                  // 0x004A(0x0016) MISSED OFFSET (PADDING)
 
 	public:
 		void SetVerticalAlignment(EVerticalAlignment InVerticalAlignment);
@@ -2828,7 +2828,7 @@ namespace CG
 		bool                                                       bExplicitWrapSize;                                       // 0x017C(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EHorizontalAlignment                                       HorizontalAlignment;                                     // 0x017D(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EOrientation                                               Orientation;                                             // 0x017E(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_DSAR[0x11];                                  // 0x017F(0x0011) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_JQAA[0x11];                                  // 0x017F(0x0011) MISSED OFFSET (PADDING)
 
 	public:
 		void SetInnerSlotPadding(const struct FVector2D& InPadding);
@@ -2850,7 +2850,7 @@ namespace CG
 		EVerticalAlignment                                         VerticalAlignment;                                       // 0x004D(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bFillEmptySpace;                                         // 0x004E(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bForceNewLine;                                           // 0x004F(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_90JZ[0x8];                                   // 0x0050(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_YZRA[0x8];                                   // 0x0050(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		void SetVerticalAlignment(EVerticalAlignment InVerticalAlignment);
@@ -2873,7 +2873,7 @@ namespace CG
 		class UObject*                                             Payload;                                                 // 0x0038(0x0008) Edit, BlueprintVisible, ZeroConstructor, NoDestructor, ExposeOnSpawn, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class UWidget*                                             DefaultDragVisual;                                       // 0x0040(0x0008) Edit, BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, NoDestructor, ExposeOnSpawn, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EDragPivot                                                 Pivot;                                                   // 0x0048(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_P99E[0x7];                                   // 0x0049(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_S5XQ[0x7];                                   // 0x0049(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector2D                                           Offset;                                                  // 0x0050(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, ExposeOnSpawn, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FScriptMulticastDelegate                             OnDrop;                                                  // 0x0060(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
 		class FScriptMulticastDelegate                             OnDragCancelled;                                         // 0x0070(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
@@ -2939,9 +2939,9 @@ namespace CG
 		class UWidgetTree*                                         WidgetTree;                                              // 0x0370(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		TArray<class UWidgetBlueprintGeneratedClassExtension*>     Extensions;                                              // 0x0378(0x0010) ExportObject, ZeroConstructor, ContainsInstancedReference, UObjectWrapper, NativeAccessSpecifierPrivate
 		TArray<struct FFieldNotificationId>                        FieldNotifyNames;                                        // 0x0388(0x0010) ZeroConstructor, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_PYIO[0x4];                                   // 0x0398(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_45JS[0x4];                                   // 0x0398(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		bool                                                       bClassRequiresNativeTick : 1;                            // 0x039C(0x0001) BIT_FIELD NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_1MPV[0x3];                                   // 0x039D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_EIY2[0x3];                                   // 0x039D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FDelegateRuntimeBinding>                     Bindings;                                                // 0x03A0(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
 		TArray<class UWidgetAnimation*>                            Animations;                                              // 0x03B0(0x0010) ZeroConstructor, UObjectWrapper, NativeAccessSpecifierPublic
 		TArray<class FName>                                        NamedSlots;                                              // 0x03C0(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
@@ -3056,7 +3056,7 @@ namespace CG
 	class UWidgetTree : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_GDC5[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_5O96[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UWidget*                                             RootWidget;                                              // 0x0030(0x0008) ExportObject, ZeroConstructor, InstancedReference, NoDestructor, PersistentInstance, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TMap<class FName, class UWidget*>                          NamedSlotBindings;                                       // 0x0038(0x0050) ExportObject, ContainsInstancedReference, UObjectWrapper, NativeAccessSpecifierPublic
 

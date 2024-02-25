@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E2FE0
+	 * 		RVA    -> 0x7713D2FE0
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.RemoveGameplayTag
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -41,7 +41,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E2EE0
+	 * 		RVA    -> 0x7713D2EE0
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.NotEqual_TagTag
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -68,7 +68,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E2D90
+	 * 		RVA    -> 0x7713D2D90
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.NotEqual_TagContainerTagContainer
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -95,7 +95,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E2BF0
+	 * 		RVA    -> 0x7713D2BF0
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.NotEqual_GameplayTagContainer
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -122,7 +122,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E2B20
+	 * 		RVA    -> 0x7713D2B20
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.NotEqual_GameplayTag
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -149,7 +149,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E29D0
+	 * 		RVA    -> 0x7713D29D0
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.MatchesTag
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -178,7 +178,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E2840
+	 * 		RVA    -> 0x7713D2840
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.MatchesAnyTags
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -207,7 +207,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E26E0
+	 * 		RVA    -> 0x7713D26E0
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.MakeLiteralGameplayTagContainer
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -232,7 +232,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E2650
+	 * 		RVA    -> 0x7713D2650
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.MakeLiteralGameplayTag
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -257,7 +257,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E2390
+	 * 		RVA    -> 0x7713D2390
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.MakeGameplayTagQuery
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -282,7 +282,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E2170
+	 * 		RVA    -> 0x7713D2170
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.MakeGameplayTagContainerFromTag
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -307,7 +307,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E1FB0
+	 * 		RVA    -> 0x7713D1FB0
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.MakeGameplayTagContainerFromArray
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -332,7 +332,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E1EB0
+	 * 		RVA    -> 0x7713D1EB0
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.IsTagQueryEmpty
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -357,7 +357,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E1E00
+	 * 		RVA    -> 0x7713D1E00
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.IsGameplayTagValid
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -382,7 +382,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E1C20
+	 * 		RVA    -> 0x7713D1C20
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.HasTag
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -411,7 +411,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E19E0
+	 * 		RVA    -> 0x7713D19E0
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.HasAnyTags
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -440,7 +440,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E1760
+	 * 		RVA    -> 0x7713D1760
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.HasAllTags
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -469,7 +469,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E1640
+	 * 		RVA    -> 0x7713D1640
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.HasAllMatchingGameplayTags
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -494,7 +494,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E14C0
+	 * 		RVA    -> 0x7713D14C0
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.GetTagName
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -519,7 +519,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E1340
+	 * 		RVA    -> 0x7713D1340
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.GetNumGameplayTagsInContainer
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -544,7 +544,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E1260
+	 * 		RVA    -> 0x7713D1260
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.GetDebugStringFromGameplayTagContainer
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -569,7 +569,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E11B0
+	 * 		RVA    -> 0x7713D11B0
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.GetDebugStringFromGameplayTag
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -594,7 +594,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E0FD0
+	 * 		RVA    -> 0x7713D0FD0
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.GetAllActorsOfClassMatchingTagQuery
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -625,7 +625,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E0E30
+	 * 		RVA    -> 0x7713D0E30
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.EqualEqual_GameplayTagContainer
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -652,7 +652,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E0D60
+	 * 		RVA    -> 0x7713D0D60
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.EqualEqual_GameplayTag
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -679,7 +679,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E0BC0
+	 * 		RVA    -> 0x7713D0BC0
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.DoesTagAssetInterfaceHaveTag
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -704,7 +704,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E0A30
+	 * 		RVA    -> 0x7713D0A30
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.DoesContainerMatchTagQuery
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -731,7 +731,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E0900
+	 * 		RVA    -> 0x7713D0900
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.BreakGameplayTagContainer
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -758,7 +758,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E07C0
+	 * 		RVA    -> 0x7713D07C0
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.AppendGameplayTagContainers
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -785,7 +785,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E06B0
+	 * 		RVA    -> 0x7713D06B0
 	 * 		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.AddGameplayTag
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -826,7 +826,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E1B80
+	 * 		RVA    -> 0x7713D1B80
 	 * 		Name   -> Function GameplayTags.GameplayTagAssetInterface.HasMatchingGameplayTag
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -851,7 +851,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E1900
+	 * 		RVA    -> 0x7713D1900
 	 * 		Name   -> Function GameplayTags.GameplayTagAssetInterface.HasAnyMatchingGameplayTags
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -876,7 +876,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E1560
+	 * 		RVA    -> 0x7713D1560
 	 * 		Name   -> Function GameplayTags.GameplayTagAssetInterface.HasAllMatchingGameplayTags
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -901,7 +901,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB6E1400
+	 * 		RVA    -> 0x7713D1400
 	 * 		Name   -> Function GameplayTags.GameplayTagAssetInterface.GetOwnedGameplayTags
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:

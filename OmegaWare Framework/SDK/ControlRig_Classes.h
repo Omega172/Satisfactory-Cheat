@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -21,20 +21,20 @@ namespace CG
 	class URigHierarchy : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_8XLW[0x60];                                  // 0x0028(0x0060) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_UVCE[0x60];                                  // 0x0028(0x0060) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		uint16_t                                                   TopologyVersion;                                         // 0x0088(0x0002) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		uint16_t                                                   MetadataVersion;                                         // 0x008A(0x0002) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		uint16_t                                                   MetadataTagVersion;                                      // 0x008C(0x0002) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		bool                                                       bEnableDirtyPropagation;                                 // 0x008E(0x0001) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_2GQX[0x99];                                  // 0x008F(0x0099) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_7KYR[0x99];                                  // 0x008F(0x0099) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    TransformStackIndex;                                     // 0x0128(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_V4N9[0x74];                                  // 0x012C(0x0074) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_2ANR[0x74];                                  // 0x012C(0x0074) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class URigHierarchyController*                             HierarchyController;                                     // 0x01A0(0x0008) ZeroConstructor, Transient, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_Z59N[0x58];                                  // 0x01A8(0x0058) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ZR0Q[0x58];                                  // 0x01A8(0x0058) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TMap<struct FRigElementKey, struct FRigElementKey>         PreviousNameMap;                                         // 0x0200(0x0050) NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_JWNZ[0x80];                                  // 0x0250(0x0080) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_IIRF[0x80];                                  // 0x0250(0x0080) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class URigHierarchy*                                       HierarchyForCacheValidation;                             // 0x02D0(0x0008) ZeroConstructor, Transient, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_MDBL[0x98];                                  // 0x02D8(0x0098) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_AV6W[0x98];                                  // 0x02D8(0x0098) MISSED OFFSET (PADDING)
 
 	public:
 		void UnsetCurveValueByIndex(int32_t InElementIndex, bool bSetupUndo);
@@ -214,22 +214,22 @@ namespace CG
 	class UControlRig : public URigVMHost
 	{
 	public:
-		unsigned char                                              UnknownData_RR5I[0x8];                                   // 0x0180(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_0ABG[0x8];                                   // 0x0180(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		ERigExecutionType                                          ExecutionType;                                           // 0x0188(0x0001) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_RJPR[0x3];                                   // 0x0189(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_WK5D[0x3];                                   // 0x0189(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigHierarchySettings                               HierarchySettings;                                       // 0x018C(0x0004) NoDestructor, NativeAccessSpecifierPublic
 		TMap<struct FRigElementKey, struct FRigControlElementCustomization> ControlCustomizations;                                   // 0x0190(0x0050) Protected, NativeAccessSpecifierProtected
 		class URigHierarchy*                                       DynamicHierarchy;                                        // 0x01E0(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		unsigned char                                              ShapeLibraries[0x10];                                    // 0x01E8(0x0010) UNKNOWN PROPERTY: ArrayProperty
-		unsigned char                                              UnknownData_HK5L[0x18];                                  // 0x01F8(0x0018) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_36IY[0x18];                                  // 0x01F8(0x0018) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UAnimationDataSourceRegistry*                        DataSourceRegistry;                                      // 0x0210(0x0008) ZeroConstructor, Transient, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_1YVP[0x90];                                  // 0x0218(0x0090) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_Y5L0[0x90];                                  // 0x0218(0x0090) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigInfluenceMapPerEvent                            Influences;                                              // 0x02A8(0x0060) NativeAccessSpecifierPrivate
 		class UControlRig*                                         InteractionRig;                                          // 0x0308(0x0008) BlueprintVisible, ZeroConstructor, Transient, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		class UClass*                                              InteractionRigClass;                                     // 0x0310(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, Transient, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_6JUA[0xC0];                                  // 0x0318(0x00C0) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_CMWC[0xC0];                                  // 0x0318(0x00C0) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FMulticastSparseDelegate                             OnControlSelected_BP;                                    // 0x03D8(0x0001) InstancedReference, BlueprintAssignable, NoDestructor, Protected, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_4IFP[0x1F];                                  // 0x03D9(0x001F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_LZDT[0x1F];                                  // 0x03D9(0x001F) MISSED OFFSET (PADDING)
 
 	public:
 		void SetInteractionRigClass(class UClass* InInteractionRigClass);
@@ -256,7 +256,7 @@ namespace CG
 	class UControlRigAnimInstance : public UAnimInstance
 	{
 	public:
-		unsigned char                                              UnknownData_QBTQ[0x8];                                   // 0x0348(0x0008) Fix Super Size
+		unsigned char                                              UnknownData_OYRA[0x8];                                   // 0x0348(0x0008) Fix Super Size
 
 	public:
 		static UClass* StaticClass();
@@ -289,7 +289,7 @@ namespace CG
 		TArray<struct FControlRigComponentMappedElement>           UserDefinedElements;                                     // 0x05D0(0x0010) Edit, ZeroConstructor, ContainsInstancedReference, NativeAccessSpecifierPublic
 		TArray<struct FControlRigComponentMappedElement>           MappedElements;                                          // 0x05E0(0x0010) Edit, ZeroConstructor, EditConst, ContainsInstancedReference, NativeAccessSpecifierPublic
 		bool                                                       bEnableLazyEvaluation;                                   // 0x05F0(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_TFAB[0x3];                                   // 0x05F1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_OTY9[0x3];                                   // 0x05F1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      LazyEvaluationPositionThreshold;                         // 0x05F4(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      LazyEvaluationRotationThreshold;                         // 0x05F8(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      LazyEvaluationScaleThreshold;                            // 0x05FC(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -299,9 +299,9 @@ namespace CG
 		bool                                                       bUpdateInEditor;                                         // 0x0603(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bDrawBones;                                              // 0x0604(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bShowDebugDrawing;                                       // 0x0605(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_2HSZ[0x2];                                   // 0x0606(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_7MVV[0x2];                                   // 0x0606(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UControlRig*                                         ControlRig;                                              // 0x0608(0x0008) ZeroConstructor, Transient, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_5NLZ[0xC0];                                  // 0x0610(0x00C0) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_VDKC[0xC0];                                  // 0x0610(0x00C0) MISSED OFFSET (PADDING)
 
 	public:
 		void Update(float DeltaTime);
@@ -365,11 +365,11 @@ namespace CG
 		class UClass*                                              ControlRigClass;                                         // 0x0300(0x0008) Edit, BlueprintVisible, ZeroConstructor, Interp, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bRefreshOnTick;                                          // 0x0308(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, Interp, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bIsSelectable;                                           // 0x0309(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, Interp, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_1LFU[0x6];                                   // 0x030A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_NZRB[0x6];                                   // 0x030A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UMaterialInterface*                                  MaterialOverride;                                        // 0x0310(0x0008) Edit, BlueprintVisible, ZeroConstructor, Interp, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FString                                              ColorParameter;                                          // 0x0318(0x0010) Edit, BlueprintVisible, ZeroConstructor, Interp, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bCastShadows;                                            // 0x0328(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, Interp, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_5IK7[0x7];                                   // 0x0329(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_47VR[0x7];                                   // 0x0329(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class USceneComponent*                                     ActorRootComponent;                                      // 0x0330(0x0008) ExportObject, ZeroConstructor, InstancedReference, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		unsigned char                                              ControlRig[0x30];                                        // 0x0338(0x0030) UNKNOWN PROPERTY: SoftObjectProperty
 		TArray<class FName>                                        ControlNames;                                            // 0x0368(0x0010) ZeroConstructor, Transient, NativeAccessSpecifierPrivate
@@ -399,10 +399,10 @@ namespace CG
 		class FName                                                ControlName;                                             // 0x0314(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FName                                                ShapeName;                                               // 0x031C(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FName                                                ColorParameterName;                                      // 0x0324(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_2M7H[0x10];                                  // 0x032C(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_YFB8[0x10];                                  // 0x032C(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		bool                                                       bSelected : 1;                                           // 0x033C(0x0001) BIT_FIELD BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		bool                                                       bHovered : 1;                                            // 0x033C(0x0001) BIT_FIELD BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_ISEB[0x3];                                   // 0x033D(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_1FG2[0x3];                                   // 0x033D(0x0003) MISSED OFFSET (PADDING)
 
 	public:
 		void SetSelected(bool bInSelected);
@@ -429,13 +429,13 @@ namespace CG
 	class UControlRigShapeLibrary : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_3VAZ[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_LYGY[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FControlRigShapeDefinition                          DefaultShape;                                            // 0x0030(0x00B0) Edit, NativeAccessSpecifierPublic
 		unsigned char                                              DefaultMaterial[0x30];                                   // 0x00E0(0x0030) UNKNOWN PROPERTY: SoftObjectProperty
 		unsigned char                                              XRayMaterial[0x30];                                      // 0x0110(0x0030) UNKNOWN PROPERTY: SoftObjectProperty
 		class FName                                                MaterialColorParameter;                                  // 0x0140(0x0008) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<struct FControlRigShapeDefinition>                  Shapes;                                                  // 0x0148(0x0010) Edit, ZeroConstructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_6B9L[0x18];                                  // 0x0158(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_8GOZ[0x18];                                  // 0x0158(0x0018) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -454,7 +454,7 @@ namespace CG
 		TArray<struct FControlRigTestDataFrame>                    OutputFrames;                                            // 0x00E8(0x0010) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, EditConst, NativeAccessSpecifierPublic
 		TArray<int32_t>                                            FramesToSkip;                                            // 0x00F8(0x0010) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NativeAccessSpecifierPublic
 		double                                                     Tolerance;                                               // 0x0108(0x0008) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_1WQ6[0x40];                                  // 0x0110(0x0040) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_2UP6[0x40];                                  // 0x0110(0x0040) MISSED OFFSET (PADDING)
 
 	public:
 		bool SetupReplay(class UControlRig* InControlRig, bool bGroundTruth);
@@ -477,7 +477,7 @@ namespace CG
 	{
 	public:
 		TArray<class UControlRigValidationPass*>                   Passes;                                                  // 0x0028(0x0010) ZeroConstructor, UObjectWrapper, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_H22I[0x30];                                  // 0x0038(0x0030) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_QW1E[0x30];                                  // 0x0038(0x0030) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -500,7 +500,7 @@ namespace CG
 	class UAdditiveControlRig : public UControlRig
 	{
 	public:
-		unsigned char                                              UnknownData_Y0TE[0x10];                                  // 0x03F8(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_A2AA[0x10];                                  // 0x03F8(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -515,7 +515,7 @@ namespace CG
 	public:
 		TArray<bool>                                               IsControlActive;                                         // 0x03F8(0x0010) ZeroConstructor, NativeAccessSpecifierPrivate
 		EControlRigFKRigExecuteMode                                ApplyMode;                                               // 0x0408(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_FZX0[0x2F];                                  // 0x0409(0x002F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_G6F0[0x2F];                                  // 0x0409(0x002F) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -529,9 +529,9 @@ namespace CG
 	{
 	public:
 		bool                                                       bReportWarningsAndErrors;                                // 0x0028(0x0001) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_O8LG[0x3];                                   // 0x0029(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_RCVE[0x3];                                   // 0x0029(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TWeakObjectPtr<class URigHierarchy>                        Hierarchy;                                               // 0x002C(0x0008) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_HH16[0x6C];                                  // 0x0034(0x006C) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_1FRN[0x6C];                                  // 0x0034(0x006C) MISSED OFFSET (PADDING)
 
 	public:
 		bool SetSelection(TArray<struct FRigElementKey> InKeys, bool bPrintPythonCommand);
@@ -573,7 +573,7 @@ namespace CG
 	class UControlRigLayerInstance : public UAnimInstance
 	{
 	public:
-		unsigned char                                              UnknownData_2C90[0x8];                                   // 0x0348(0x0008) Fix Super Size
+		unsigned char                                              UnknownData_97C3[0x8];                                   // 0x0348(0x0008) Fix Super Size
 
 	public:
 		static UClass* StaticClass();
@@ -602,7 +602,7 @@ namespace CG
 		unsigned char                                              LastExportedToAnimationSequence[0x30];                   // 0x0220(0x0030) UNKNOWN PROPERTY: SoftObjectProperty
 		unsigned char                                              LastExportedUsingSkeletalMesh[0x30];                     // 0x0250(0x0030) UNKNOWN PROPERTY: SoftObjectProperty
 		float                                                      LastExportedFrameRate;                                   // 0x0280(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, AssetRegistrySearchable, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_2IGF[0x4];                                   // 0x0284(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_UHX5[0x4];                                   // 0x0284(0x0004) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -615,19 +615,19 @@ namespace CG
 	class UMovieSceneControlRigParameterSection : public UMovieSceneParameterSection
 	{
 	public:
-		unsigned char                                              UnknownData_0V5K[0x48];                                  // 0x0158(0x0048) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_2NDS[0x48];                                  // 0x0158(0x0048) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UControlRig*                                         ControlRig;                                              // 0x01A0(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		class UClass*                                              ControlRigClass;                                         // 0x01A8(0x0008) Edit, ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<bool>                                               ControlsMask;                                            // 0x01B0(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
 		struct FMovieSceneTransformMask                            TransformMask;                                           // 0x01C0(0x0004) NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_PQWF[0x4];                                   // 0x01C4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_WHCT[0x4];                                   // 0x01C4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMovieSceneFloatChannel                             Weight;                                                  // 0x01C8(0x0110) NativeAccessSpecifierPublic
 		TMap<class FName, struct FChannelMapInfo>                  ControlChannelMap;                                       // 0x02D8(0x0050) NativeAccessSpecifierPublic
 		TArray<struct FEnumParameterNameAndCurve>                  EnumParameterNamesAndCurves;                             // 0x0328(0x0010) ZeroConstructor, Protected, NativeAccessSpecifierProtected
 		TArray<struct FIntegerParameterNameAndCurve>               IntegerParameterNamesAndCurves;                          // 0x0338(0x0010) ZeroConstructor, Protected, NativeAccessSpecifierProtected
 		TArray<struct FSpaceControlNameAndChannel>                 SpaceChannels;                                           // 0x0348(0x0010) ZeroConstructor, Protected, NativeAccessSpecifierProtected
 		TArray<struct FConstraintAndActiveChannel>                 ConstraintsChannels;                                     // 0x0358(0x0010) ZeroConstructor, Protected, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_KJ47[0x68];                                  // 0x0368(0x0068) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_D1IA[0x68];                                  // 0x0368(0x0068) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -640,7 +640,7 @@ namespace CG
 	class UMovieSceneControlRigParameterTrack : public UMovieSceneNameableTrack
 	{
 	public:
-		unsigned char                                              UnknownData_U1QD[0x40];                                  // 0x0098(0x0040) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_L0BU[0x40];                                  // 0x0098(0x0040) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UControlRig*                                         ControlRig;                                              // 0x00D8(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		class UMovieSceneSection*                                  SectionToKey;                                            // 0x00E0(0x0008) ExportObject, ZeroConstructor, InstancedReference, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		TArray<class UMovieSceneSection*>                          Sections;                                                // 0x00E8(0x0010) ExportObject, ZeroConstructor, ContainsInstancedReference, UObjectWrapper, NativeAccessSpecifierPrivate
@@ -701,7 +701,7 @@ namespace CG
 		class FString                                              LeftSide;                                                // 0x0038(0x0010) Edit, BlueprintVisible, ZeroConstructor, Config, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EAxis                                                      MirrorAxis;                                              // 0x0048(0x0001) Edit, BlueprintVisible, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EAxis                                                      AxisToFlip;                                              // 0x0049(0x0001) Edit, BlueprintVisible, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_UVSR[0x6];                                   // 0x004A(0x0006) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_VB9J[0x6];                                   // 0x004A(0x0006) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -731,7 +731,7 @@ namespace CG
 		bool                                                       bSnapPosition;                                           // 0x0029(0x0001) Edit, BlueprintVisible, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bSnapRotation;                                           // 0x002A(0x0001) Edit, BlueprintVisible, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bSnapScale;                                              // 0x002B(0x0001) Edit, BlueprintVisible, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_4I63[0x4];                                   // 0x002C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_N9KH[0x4];                                   // 0x002C(0x0004) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -760,7 +760,7 @@ namespace CG
 	{
 	public:
 		ERigTransformType                                          TransformType;                                           // 0x00B0(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_TZI8[0x7];                                   // 0x00B1(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_7H2I[0x7];                                   // 0x00B1(0x0007) MISSED OFFSET (PADDING)
 
 	public:
 		TArray<struct FRigVMUserWorkflow> ProvideWorkflows(class UObject* InSubject);
@@ -777,14 +777,14 @@ namespace CG
 		bool                                                       bCheckControls;                                          // 0x0028(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bCheckBones;                                             // 0x0029(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bCheckCurves;                                            // 0x002A(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_2OVQ[0x1];                                   // 0x002B(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_MQ6H[0x1];                                   // 0x002B(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      TranslationPrecision;                                    // 0x002C(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      RotationPrecision;                                       // 0x0030(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      ScalePrecision;                                          // 0x0034(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      CurvePrecision;                                          // 0x0038(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FName                                                EventNameA;                                              // 0x003C(0x0008) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		class FName                                                EventNameB;                                              // 0x0044(0x0008) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_C6FY[0x4];                                   // 0x004C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_PQBB[0x4];                                   // 0x004C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigPose                                            Pose;                                                    // 0x0050(0x0070) Transient, NativeAccessSpecifierPrivate
 
 	public:

@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.UpdateCreativeModeInfo
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -34,7 +34,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.ClearAndHideSearchResults
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -53,7 +53,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.OnSearchCreateResult
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -75,7 +75,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.GetHostName
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -99,7 +99,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.DeselectSessionIDButton
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -121,7 +121,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.OnSessionIDButtonClicked
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -143,7 +143,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.OnSessionIDFound
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -165,7 +165,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.ClearButtonSelection
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -184,7 +184,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.OnSessionQueried
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -206,7 +206,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.FindSessionId
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -228,7 +228,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.SetupButtonForJoinGame
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -256,7 +256,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.UpdateFriendsForJoinMenu
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -280,7 +280,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.UpdateFriendForJoinMenu
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -302,7 +302,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.ShowSessionInfoAnim
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -321,7 +321,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.SetSessionInfo
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -343,7 +343,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.ClearMultiplayerList
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -362,7 +362,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.PopulateMultiplayerList
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -386,7 +386,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.OnMenuEnter
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -408,7 +408,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.OnMenuExit
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -432,7 +432,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.OnSessionDeselected
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -451,7 +451,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.BndEvt__Widget_FrontEnd_Button_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -470,7 +470,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.OnJoinSessionNew
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -489,7 +489,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.OnNewSessionSelected
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -511,7 +511,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.HideSessionInfo
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -533,7 +533,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.OnJoinSession
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -555,7 +555,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.BndEvt__Widget_PlayMenu_JoinGame_Widget_InputBox_K2Node_ComponentBoundEvent_1_OnTextChanged__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -577,7 +577,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.BndEvt__Widget_PlayMenu_JoinGame_mSearchbar_K2Node_ComponentBoundEvent_2_OnTextComitted__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -601,7 +601,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.BndEvt__Widget_PlayMenu_JoinGame_ListView_FriendList_K2Node_ComponentBoundEvent_3_OnListItemSelectionChangedDynamic__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -625,7 +625,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.SessionFetchComplete
 	 * 		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -649,7 +649,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.BndEvt__Widget_PlayMenu_JoinGame_mSearchbar_K2Node_ComponentBoundEvent_4_OnClearTextClicked__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -668,7 +668,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayMenu_JoinGame.Widget_PlayMenu_JoinGame_C.ExecuteUbergraph_Widget_PlayMenu_JoinGame
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:

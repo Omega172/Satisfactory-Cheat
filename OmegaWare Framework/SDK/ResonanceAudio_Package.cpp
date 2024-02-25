@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -26,7 +26,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F80ADC0
+	 * 		RVA    -> 0x6E632ADC0
 	 * 		Name   -> Function ResonanceAudio.ResonanceAudioBlueprintFunctionLibrary.SetGlobalReverbPreset
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -49,7 +49,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F80ACF0
+	 * 		RVA    -> 0x6E632ACF0
 	 * 		Name   -> Function ResonanceAudio.ResonanceAudioBlueprintFunctionLibrary.GetGlobalReverbPreset
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 */
@@ -99,7 +99,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F80B330
+	 * 		RVA    -> 0x6E632B330
 	 * 		Name   -> Function ResonanceAudio.ResonanceAudioReverbPluginPreset.SetRoomRotation
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -122,7 +122,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F80B250
+	 * 		RVA    -> 0x6E632B250
 	 * 		Name   -> Function ResonanceAudio.ResonanceAudioReverbPluginPreset.SetRoomPosition
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -145,7 +145,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F80B1A0
+	 * 		RVA    -> 0x6E632B1A0
 	 * 		Name   -> Function ResonanceAudio.ResonanceAudioReverbPluginPreset.SetRoomMaterials
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -168,7 +168,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F80B0C0
+	 * 		RVA    -> 0x6E632B0C0
 	 * 		Name   -> Function ResonanceAudio.ResonanceAudioReverbPluginPreset.SetRoomDimensions
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -191,7 +191,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F80B020
+	 * 		RVA    -> 0x6E632B020
 	 * 		Name   -> Function ResonanceAudio.ResonanceAudioReverbPluginPreset.SetReverbTimeModifier
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -214,7 +214,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F80AF80
+	 * 		RVA    -> 0x6E632AF80
 	 * 		Name   -> Function ResonanceAudio.ResonanceAudioReverbPluginPreset.SetReverbGain
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -237,7 +237,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F80AEE0
+	 * 		RVA    -> 0x6E632AEE0
 	 * 		Name   -> Function ResonanceAudio.ResonanceAudioReverbPluginPreset.SetReverbBrightness
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -260,7 +260,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F80AE40
+	 * 		RVA    -> 0x6E632AE40
 	 * 		Name   -> Function ResonanceAudio.ResonanceAudioReverbPluginPreset.SetReflectionScalar
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -283,7 +283,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F80AD20
+	 * 		RVA    -> 0x6E632AD20
 	 * 		Name   -> Function ResonanceAudio.ResonanceAudioReverbPluginPreset.SetEnableRoomEffects
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -334,7 +334,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F80B4E0
+	 * 		RVA    -> 0x6E632B4E0
 	 * 		Name   -> Function ResonanceAudio.ResonanceAudioSpatializationSourceSettings.SetSoundSourceSpread
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -357,7 +357,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F80B410
+	 * 		RVA    -> 0x6E632B410
 	 * 		Name   -> Function ResonanceAudio.ResonanceAudioSpatializationSourceSettings.SetSoundSourceDirectivity
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:

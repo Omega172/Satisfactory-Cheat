@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -22,11 +22,11 @@ namespace CG
 	{
 	public:
 		class UPolyEditCommonProperties*                           CommonProperties;                                        // 0x0028(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_TKCF[0x10];                                  // 0x0030(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_70J4[0x10];                                  // 0x0030(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UMeshOpPreviewWithBackgroundCompute*                 Preview;                                                 // 0x0040(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_U48P[0x28];                                  // 0x0048(0x0028) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_CB78[0x28];                                  // 0x0048(0x0028) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UPolygonSelectionMechanic*                           SelectionMechanic;                                       // 0x0070(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_FKDO[0xA8];                                  // 0x0078(0x00A8) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_2TPB[0xA8];                                  // 0x0078(0x00A8) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -39,7 +39,7 @@ namespace CG
 	class UAddPrimitiveToolBuilder : public UInteractiveToolBuilder
 	{
 	public:
-		unsigned char                                              UnknownData_Y07S[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_QUY2[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -55,12 +55,12 @@ namespace CG
 		EMakeMeshPolygroupMode                                     PolygroupMode;                                           // 0x00A8(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EMakeMeshPlacementType                                     TargetSurface;                                           // 0x00A9(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EMakeMeshPivotLocation                                     PivotLocation;                                           // 0x00AA(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_SZZJ[0x1];                                   // 0x00AB(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_71ZA[0x1];                                   // 0x00AB(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Rotation;                                                // 0x00AC(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bAlignToNormal;                                          // 0x00B0(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bShowGizmo;                                              // 0x00B1(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bShowGizmoOptions;                                       // 0x00B2(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_BNGU[0x5];                                   // 0x00B3(0x0005) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_LG2E[0x5];                                   // 0x00B3(0x0005) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -92,14 +92,14 @@ namespace CG
 	{
 	public:
 		EProceduralRectType                                        RectangleType;                                           // 0x00B8(0x0001) ELEMENT_SIZE_MISMATCH Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_VY2B[0x3];                                   // 0x00B9(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+		unsigned char                                              UnknownData_ERLL[0x3];                                   // 0x00B9(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 		float                                                      Width;                                                   // 0x00BC(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Depth;                                                   // 0x00C0(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    WidthSubdivisions;                                       // 0x00C4(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    DepthSubdivisions;                                       // 0x00C8(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      CornerRadius;                                            // 0x00CC(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    CornerSlices;                                            // 0x00D0(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8O8L[0x4];                                   // 0x00D4(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_5R9B[0x4];                                   // 0x00D4(0x0004) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -113,12 +113,12 @@ namespace CG
 	{
 	public:
 		EProceduralDiscType                                        DiscType;                                                // 0x00B8(0x0001) ELEMENT_SIZE_MISMATCH Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_XGTK[0x3];                                   // 0x00B9(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+		unsigned char                                              UnknownData_78EI[0x3];                                   // 0x00B9(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 		float                                                      Radius;                                                  // 0x00BC(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    RadialSlices;                                            // 0x00C0(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    RadialSubdivisions;                                      // 0x00C4(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      HoleRadius;                                              // 0x00C8(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_7MXK[0x4];                                   // 0x00CC(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_G2IM[0x4];                                   // 0x00CC(0x0004) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -199,11 +199,11 @@ namespace CG
 	public:
 		float                                                      Radius;                                                  // 0x00B8(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EProceduralSphereType                                      SubdivisionType;                                         // 0x00BC(0x0001) ELEMENT_SIZE_MISMATCH Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_KTIU[0x3];                                   // 0x00BD(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+		unsigned char                                              UnknownData_9DQ6[0x3];                                   // 0x00BD(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 		int32_t                                                    Subdivisions;                                            // 0x00C0(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    HorizontalSlices;                                        // 0x00C4(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    VerticalSlices;                                          // 0x00C8(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_MIDV[0x4];                                   // 0x00CC(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_ZL4G[0x4];                                   // 0x00CC(0x0004) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -217,7 +217,7 @@ namespace CG
 	{
 	public:
 		EProceduralStairsType                                      StairsType;                                              // 0x00B8(0x0001) ELEMENT_SIZE_MISMATCH Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_OK8V[0x3];                                   // 0x00B9(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+		unsigned char                                              UnknownData_5OEL[0x3];                                   // 0x00B9(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 		int32_t                                                    NumSteps;                                                // 0x00BC(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      StepWidth;                                               // 0x00C0(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      StepHeight;                                              // 0x00C4(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -237,7 +237,7 @@ namespace CG
 	class UAddPrimitiveTool : public USingleClickTool
 	{
 	public:
-		unsigned char                                              UnknownData_RGEZ[0x18];                                  // 0x00A0(0x0018) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_59H5[0x18];                                  // 0x00A0(0x0018) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UCreateMeshObjectTypeProperties*                     OutputTypeProperties;                                    // 0x00B8(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UProceduralShapeToolProperties*                      ShapeSettings;                                           // 0x00C0(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UNewMeshMaterialProperties*                          MaterialProperties;                                      // 0x00C8(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
@@ -245,7 +245,7 @@ namespace CG
 		class UCombinedTransformGizmo*                             Gizmo;                                                   // 0x00D8(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UDragAlignmentMechanic*                              DragAlignmentMechanic;                                   // 0x00E0(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class FString                                              AssetName;                                               // 0x00E8(0x0010) ZeroConstructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_AHNY[0x40];                                  // 0x00F8(0x0040) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_TLXF[0x40];                                  // 0x00F8(0x0040) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -348,7 +348,7 @@ namespace CG
 	class UCombineMeshesToolBuilder : public UMultiSelectionMeshEditingToolBuilder
 	{
 	public:
-		unsigned char                                              UnknownData_7ILM[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_0X7X[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -362,9 +362,9 @@ namespace CG
 	{
 	public:
 		bool                                                       bIsDuplicateMode;                                        // 0x00A8(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_BFNQ[0x3];                                   // 0x00A9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_VGKZ[0x3];                                   // 0x00A9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		EBaseCreateFromSelectedTargetType                          OutputWriteTo;                                           // 0x00AC(0x0001) ELEMENT_SIZE_MISMATCH Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_VGAX[0x3];                                   // 0x00AD(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+		unsigned char                                              UnknownData_Y8MK[0x3];                                   // 0x00AD(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 		class FString                                              OutputNewName;                                           // 0x00B0(0x0010) Edit, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FString                                              OutputExistingName;                                      // 0x00C0(0x0010) Edit, ZeroConstructor, EditConst, HasGetValueTypeHash, NativeAccessSpecifierPublic
 
@@ -379,11 +379,11 @@ namespace CG
 	class UCombineMeshesTool : public UMultiSelectionMeshEditingTool
 	{
 	public:
-		unsigned char                                              UnknownData_NHZ9[0x8];                                   // 0x00B8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_XUPJ[0x8];                                   // 0x00B8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UCombineMeshesToolProperties*                        BasicProperties;                                         // 0x00C0(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UCreateMeshObjectTypeProperties*                     OutputTypeProperties;                                    // 0x00C8(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UOnAcceptHandleSourcesPropertiesBase*                HandleSourceProperties;                                  // 0x00D0(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_YT16[0x8];                                   // 0x00D8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_GOO1[0x8];                                   // 0x00D8(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -489,15 +489,15 @@ namespace CG
 		ECSGOperation                                              Operation;                                               // 0x00A8(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bTryFixHoles;                                            // 0x00A9(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bTryCollapseEdges;                                       // 0x00AA(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_G7NM[0x1];                                   // 0x00AB(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_J8E8[0x1];                                   // 0x00AB(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      WindingThreshold;                                        // 0x00AC(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bShowNewBoundaries;                                      // 0x00B0(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bShowSubtractedMesh;                                     // 0x00B1(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_12I6[0x2];                                   // 0x00B2(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_4HL2[0x2];                                   // 0x00B2(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      SubtractedMeshOpacity;                                   // 0x00B4(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FLinearColor                                        SubtractedMeshColor;                                     // 0x00B8(0x0010) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bUseFirstMeshMaterials;                                  // 0x00C8(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_U7VN[0x7];                                   // 0x00C9(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_A6G0[0x7];                                   // 0x00C9(0x0007) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -512,10 +512,10 @@ namespace CG
 	public:
 		ETrimOperation                                             WhichMesh;                                               // 0x00A8(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ETrimSide                                                  TrimSide;                                                // 0x00A9(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_I4U3[0x2];                                   // 0x00AA(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_J52I[0x2];                                   // 0x00AA(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      WindingThreshold;                                        // 0x00AC(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bShowTrimmingMesh;                                       // 0x00B0(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_MWF2[0x3];                                   // 0x00B1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_KTXH[0x3];                                   // 0x00B1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      OpacityOfTrimmingMesh;                                   // 0x00B4(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FLinearColor                                        ColorOfTrimmingMesh;                                     // 0x00B8(0x0010) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 
@@ -532,11 +532,11 @@ namespace CG
 	public:
 		class UCSGMeshesToolProperties*                            CSGProperties;                                           // 0x0100(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UTrimMeshesToolProperties*                           TrimProperties;                                          // 0x0108(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_9P19[0x10];                                  // 0x0110(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_0AW0[0x10];                                  // 0x0110(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class UPreviewMesh*>                                OriginalMeshPreviews;                                    // 0x0120(0x0010) ZeroConstructor, Protected, UObjectWrapper, NativeAccessSpecifierProtected
 		class UMaterialInstanceDynamic*                            PreviewsGhostMaterial;                                   // 0x0130(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class ULineSetComponent*                                   DrawnLineSet;                                            // 0x0138(0x0008) ExportObject, ZeroConstructor, InstancedReference, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_6X0O[0x18];                                  // 0x0140(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_7DVK[0x18];                                  // 0x0140(0x0018) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -549,7 +549,7 @@ namespace CG
 	class UCSGMeshesToolBuilder : public UBaseCreateFromSelectedToolBuilder
 	{
 	public:
-		unsigned char                                              UnknownData_27YT[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_66EM[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -564,11 +564,11 @@ namespace CG
 	public:
 		bool                                                       bTryFixHoles;                                            // 0x00A8(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bTryCollapseEdges;                                       // 0x00A9(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_41G8[0x2];                                   // 0x00AA(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_BAO0[0x2];                                   // 0x00AA(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      WindingThreshold;                                        // 0x00AC(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bShowNewBoundaries;                                      // 0x00B0(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bUseFirstMeshMaterials;                                  // 0x00B1(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_7N66[0x6];                                   // 0x00B2(0x0006) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_V3OW[0x6];                                   // 0x00B2(0x0006) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -583,9 +583,9 @@ namespace CG
 	public:
 		class UCutMeshWithMeshToolProperties*                      CutProperties;                                           // 0x0100(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UPreviewMesh*                                        IntersectPreviewMesh;                                    // 0x0108(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_PG4I[0x20];                                  // 0x0110(0x0020) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_5XIX[0x20];                                  // 0x0110(0x0020) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class ULineSetComponent*                                   DrawnLineSet;                                            // 0x0130(0x0008) ExportObject, ZeroConstructor, InstancedReference, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_CFAD[0x240];                                 // 0x0138(0x0240) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_T5NB[0x240];                                 // 0x0138(0x0240) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -623,18 +623,18 @@ namespace CG
 		double                                                     RevolveDegreesOffset;                                    // 0x00B8(0x0008) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		double                                                     StepsMaxDegrees;                                         // 0x00C0(0x0008) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bExplicitSteps;                                          // 0x00C8(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_3QLD[0x3];                                   // 0x00C9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ZAOZ[0x3];                                   // 0x00C9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    NumExplicitSteps;                                        // 0x00CC(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		double                                                     HeightOffsetPerDegree;                                   // 0x00D0(0x0008) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bReverseRevolutionDirection;                             // 0x00D8(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bFlipMesh;                                               // 0x00D9(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bSharpNormals;                                           // 0x00DA(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_MHJW[0x5];                                   // 0x00DB(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_H64A[0x5];                                   // 0x00DB(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		double                                                     SharpNormalsDegreeThreshold;                             // 0x00E0(0x0008) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPathAtMidpointOfStep;                                   // 0x00E8(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERevolvePropertiesPolygroupMode                            PolygroupMode;                                           // 0x00E9(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERevolvePropertiesQuadSplit                                QuadSplitMode;                                           // 0x00EA(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_SYYF[0x2D];                                  // 0x00EB(0x002D) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_ZWY6[0x2D];                                  // 0x00EB(0x002D) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -649,12 +649,12 @@ namespace CG
 	public:
 		ERevolvePropertiesCapFillMode                              CapFillMode;                                             // 0x0118(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bClosePathToAxis;                                        // 0x0119(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_GNKU[0x6];                                   // 0x011A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_OZI1[0x6];                                   // 0x011A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             DrawPlaneOrigin;                                         // 0x0120(0x0018) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRotator                                            DrawPlaneOrientation;                                    // 0x0138(0x0018) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 		bool                                                       bEnableSnapping;                                         // 0x0150(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bAllowedToEditDrawPlane;                                 // 0x0151(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_EVKR[0x6];                                   // 0x0152(0x0006) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_WEVD[0x6];                                   // 0x0152(0x0006) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -667,7 +667,7 @@ namespace CG
 	class URevolveOperatorFactory : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_RBT8[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_8BQC[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UDrawAndRevolveTool*                                 RevolveTool;                                             // 0x0030(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 
 	public:
@@ -681,14 +681,14 @@ namespace CG
 	class UDrawAndRevolveTool : public UInteractiveTool
 	{
 	public:
-		unsigned char                                              UnknownData_SHPA[0x90];                                  // 0x0098(0x0090) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_T38T[0x90];                                  // 0x0098(0x0090) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UCurveControlPointsMechanic*                         ControlPointsMechanic;                                   // 0x0128(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UConstructionPlaneMechanic*                          PlaneMechanic;                                           // 0x0130(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UCreateMeshObjectTypeProperties*                     OutputTypeProperties;                                    // 0x0138(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class URevolveToolProperties*                              Settings;                                                // 0x0140(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UNewMeshMaterialProperties*                          MaterialProperties;                                      // 0x0148(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UMeshOpPreviewWithBackgroundCompute*                 Preview;                                                 // 0x0150(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_LISK[0x8];                                   // 0x0158(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_H9ER[0x8];                                   // 0x0158(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -713,13 +713,13 @@ namespace CG
 	public:
 		EDrawPolygonDrawMode                                       PolygonDrawMode;                                         // 0x00A8(0x0001) Edit, ZeroConstructor, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bAllowSelfIntersections;                                 // 0x00A9(0x0001) Edit, ZeroConstructor, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_1K24[0x2];                                   // 0x00AA(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_NCFL[0x2];                                   // 0x00AA(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      FeatureSizeRatio;                                        // 0x00AC(0x0004) Edit, ZeroConstructor, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    RadialSlices;                                            // 0x00B0(0x0004) Edit, ZeroConstructor, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Distance;                                                // 0x00B4(0x0004) Edit, ZeroConstructor, EditConst, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bShowGridGizmo;                                          // 0x00B8(0x0001) Edit, ZeroConstructor, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EDrawPolygonExtrudeMode                                    ExtrudeMode;                                             // 0x00B9(0x0001) Edit, ZeroConstructor, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_7YZS[0x2];                                   // 0x00BA(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_U6BX[0x2];                                   // 0x00BA(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      ExtrudeHeight;                                           // 0x00BC(0x0004) Edit, ZeroConstructor, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 
 	public:
@@ -740,9 +740,9 @@ namespace CG
 		bool                                                       bSnapToAxes;                                             // 0x00AC(0x0001) Edit, ZeroConstructor, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bSnapToLengths;                                          // 0x00AD(0x0001) Edit, ZeroConstructor, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bSnapToSurfaces;                                         // 0x00AE(0x0001) Edit, ZeroConstructor, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_0D6P[0x1];                                   // 0x00AF(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_TGSZ[0x1];                                   // 0x00AF(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      SnapToSurfacesOffset;                                    // 0x00B0(0x0004) Edit, ZeroConstructor, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_74K8[0x4];                                   // 0x00B4(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_S7DP[0x4];                                   // 0x00B4(0x0004) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -755,18 +755,18 @@ namespace CG
 	class UDrawPolygonTool : public UInteractiveTool
 	{
 	public:
-		unsigned char                                              UnknownData_XVEK[0x8];                                   // 0x0098(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_G9JU[0x8];                                   // 0x0098(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UCreateMeshObjectTypeProperties*                     OutputTypeProperties;                                    // 0x00A0(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UDrawPolygonToolStandardProperties*                  PolygonProperties;                                       // 0x00A8(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UDrawPolygonToolSnapProperties*                      SnapProperties;                                          // 0x00B0(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UNewMeshMaterialProperties*                          MaterialProperties;                                      // 0x00B8(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_0INZ[0x90];                                  // 0x00C0(0x0090) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_YI39[0x90];                                  // 0x00C0(0x0090) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UPreviewMesh*                                        PreviewMesh;                                             // 0x0150(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_9MZ0[0x3D0];                                 // 0x0158(0x03D0) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_KYJG[0x3D0];                                 // 0x0158(0x03D0) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UPlaneDistanceFromHitMechanic*                       HeightMechanic;                                          // 0x0528(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UDragAlignmentMechanic*                              DragAlignmentMechanic;                                   // 0x0530(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UConstructionPlaneMechanic*                          PlaneMechanic;                                           // 0x0538(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_0AL1[0x10];                                  // 0x0540(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_DYP5[0x10];                                  // 0x0540(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -779,7 +779,7 @@ namespace CG
 	class UEditMeshPolygonsToolBuilder : public USingleTargetWithSelectionToolBuilder
 	{
 	public:
-		unsigned char                                              UnknownData_QQ91[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_8UPM[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -795,12 +795,12 @@ namespace CG
 		bool                                                       bShowWireframe;                                          // 0x00A8(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bShowSelectableCorners;                                  // 0x00A9(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bGizmoVisible;                                           // 0x00AA(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_KYOF[0x1];                                   // 0x00AB(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_C75D[0x1];                                   // 0x00AB(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		ELocalFrameMode                                            LocalFrameMode;                                          // 0x00AC(0x0001) ELEMENT_SIZE_MISMATCH Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_UIUC[0x3];                                   // 0x00AD(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+		unsigned char                                              UnknownData_SDJZ[0x3];                                   // 0x00AD(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 		bool                                                       bLockRotation;                                           // 0x00B0(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bLocalCoordSystem;                                       // 0x00B1(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ZIUE[0x6];                                   // 0x00B2(0x0006) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_3WLR[0x6];                                   // 0x00B2(0x0006) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -813,7 +813,7 @@ namespace CG
 	class UEditMeshPolygonsActionModeToolBuilder : public UEditMeshPolygonsToolBuilder
 	{
 	public:
-		unsigned char                                              UnknownData_FG1E[0x8];                                   // 0x0030(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_6UQ4[0x8];                                   // 0x0030(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -826,7 +826,7 @@ namespace CG
 	class UEditMeshPolygonsSelectionModeToolBuilder : public UEditMeshPolygonsToolBuilder
 	{
 	public:
-		unsigned char                                              UnknownData_O7NC[0x8];                                   // 0x0030(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_XB4D[0x8];                                   // 0x0030(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -839,7 +839,7 @@ namespace CG
 	class UEditMeshPolygonsToolActionPropertySet : public UInteractiveToolPropertySet
 	{
 	public:
-		unsigned char                                              UnknownData_M26B[0x8];                                   // 0x00A8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_W1ZJ[0x8];                                   // 0x00A8(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -853,7 +853,7 @@ namespace CG
 	{
 	public:
 		bool                                                       bAddExtraCorners;                                        // 0x00B0(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_9DFH[0x7];                                   // 0x00B1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_T8W7[0x7];                                   // 0x00B1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		double                                                     ExtraCornerAngleThresholdDegrees;                        // 0x00B8(0x0008) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 
 	public:
@@ -982,7 +982,7 @@ namespace CG
 	class UEditMeshPolygonsTool : public USingleTargetWithSelectionTool
 	{
 	public:
-		unsigned char                                              UnknownData_DLMU[0x20];                                  // 0x0110(0x0020) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_3EMF[0x20];                                  // 0x0110(0x0020) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UMeshOpPreviewWithBackgroundCompute*                 Preview;                                                 // 0x0130(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UPolyEditCommonProperties*                           CommonProps;                                             // 0x0138(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UEditMeshPolygonsToolActions*                        EditActions;                                             // 0x0140(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
@@ -1000,13 +1000,13 @@ namespace CG
 		class UPolyEditInsertEdgeActivity*                         InsertEdgeActivity;                                      // 0x01A0(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UPolyEditInsertEdgeLoopActivity*                     InsertEdgeLoopActivity;                                  // 0x01A8(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UPolyEditBevelEdgeActivity*                          BevelEdgeActivity;                                       // 0x01B0(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_NTVA[0x38];                                  // 0x01B8(0x0038) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_U5R6[0x38];                                  // 0x01B8(0x0038) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UPolyEditActivityContext*                            ActivityContext;                                         // 0x01F0(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UPolygonSelectionMechanic*                           SelectionMechanic;                                       // 0x01F8(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UDragAlignmentMechanic*                              DragAlignmentMechanic;                                   // 0x0200(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UCombinedTransformGizmo*                             TransformGizmo;                                          // 0x0208(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UTransformProxy*                                     TransformProxy;                                          // 0x0210(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_0T3Z[0x648];                                 // 0x0218(0x0648) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_98HX[0x648];                                 // 0x0218(0x0648) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1024,7 +1024,7 @@ namespace CG
 		bool                                                       bWorldSpaceUVScale;                                      // 0x00B4(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bShowWireframe;                                          // 0x00B5(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bShowExtendedOptions;                                    // 0x00B6(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_FPT7[0x1];                                   // 0x00B7(0x0001) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_M974[0x1];                                   // 0x00B7(0x0001) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1038,7 +1038,7 @@ namespace CG
 	{
 	public:
 		ESetMeshMaterialMode                                       MaterialMode;                                            // 0x00A8(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_6K7V[0x3];                                   // 0x00A9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_SA31[0x3];                                   // 0x00A9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      CheckerDensity;                                          // 0x00AC(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class UMaterialInterface*                                  OverrideMaterial;                                        // 0x00B0(0x0008) Edit, ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FString                                              UVChannel;                                               // 0x00B8(0x0010) Edit, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -1058,20 +1058,20 @@ namespace CG
 	{
 	public:
 		bool                                                       bShowWireframe;                                          // 0x00A8(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_4CNV[0x3];                                   // 0x00A9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ZX8Y[0x3];                                   // 0x00A9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		EMeshEditingMaterialModes                                  MaterialMode;                                            // 0x00AC(0x0001) ELEMENT_SIZE_MISMATCH Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_CZJL[0x3];                                   // 0x00AD(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+		unsigned char                                              UnknownData_CHDR[0x3];                                   // 0x00AD(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 		bool                                                       bFlatShading;                                            // 0x00B0(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_G4KK[0x3];                                   // 0x00B1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_03UC[0x3];                                   // 0x00B1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FLinearColor                                        Color;                                                   // 0x00B4(0x0010) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_EX5O[0x4];                                   // 0x00C4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_PMOI[0x4];                                   // 0x00C4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UTexture2D*                                          Image;                                                   // 0x00C8(0x0008) Edit, ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		double                                                     Opacity;                                                 // 0x00D0(0x0008) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FLinearColor                                        TransparentMaterialColor;                                // 0x00D8(0x0010) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bTwoSided;                                               // 0x00E8(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_JJNU[0x3];                                   // 0x00E9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_471C[0x3];                                   // 0x00E9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TWeakObjectPtr<class UMaterialInterface>                   CustomMaterial;                                          // 0x00EC(0x0008) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_WLQV[0x4];                                   // 0x00F4(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_UGV5[0x4];                                   // 0x00F4(0x0004) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1114,11 +1114,11 @@ namespace CG
 		class UPolygroupLayersProperties*                          PolygroupLayerProperties;                                // 0x00C8(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UExistingMeshMaterialProperties*                     MaterialSettings;                                        // 0x00D0(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bCreateUVLayoutViewOnSetup;                              // 0x00D8(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_SHXL[0x7];                                   // 0x00D9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_I17K[0x7];                                   // 0x00D9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UUVLayoutPreview*                                    UVLayoutView;                                            // 0x00E0(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class URecomputeUVsOpFactory*                              RecomputeUVsOpFactory;                                   // 0x00E8(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UMeshOpPreviewWithBackgroundCompute*                 Preview;                                                 // 0x00F0(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_CZT1[0x20];                                  // 0x00F8(0x0020) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_UDF1[0x20];                                  // 0x00F8(0x0020) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1144,10 +1144,10 @@ namespace CG
 	class UPolyEditBevelEdgeActivity : public UInteractiveToolActivity
 	{
 	public:
-		unsigned char                                              UnknownData_8J06[0x8];                                   // 0x0030(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_6VDN[0x8];                                   // 0x0030(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UPolyEditBevelEdgeProperties*                        BevelProperties;                                         // 0x0038(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class UPolyEditActivityContext*                            ActivityContext;                                         // 0x0040(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_WEQD[0xF8];                                  // 0x0048(0x00F8) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_ASHC[0xF8];                                  // 0x0048(0x00F8) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1161,9 +1161,9 @@ namespace CG
 	{
 	public:
 		EPolyEditCutPlaneOrientation                               Orientation;                                             // 0x00A8(0x0001) ELEMENT_SIZE_MISMATCH Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_2M4L[0x3];                                   // 0x00A9(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+		unsigned char                                              UnknownData_L6QL[0x3];                                   // 0x00A9(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 		bool                                                       bSnapToVertices;                                         // 0x00AC(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_GAEA[0x3];                                   // 0x00AD(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_9WVY[0x3];                                   // 0x00AD(0x0003) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1176,12 +1176,12 @@ namespace CG
 	class UPolyEditCutFacesActivity : public UInteractiveToolActivity
 	{
 	public:
-		unsigned char                                              UnknownData_EXYP[0x10];                                  // 0x0030(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_864U[0x10];                                  // 0x0030(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UPolyEditCutProperties*                              CutProperties;                                           // 0x0040(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UPolyEditPreviewMesh*                                EditPreview;                                             // 0x0048(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UCollectSurfacePathMechanic*                         SurfacePathMechanic;                                     // 0x0050(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UPolyEditActivityContext*                            ActivityContext;                                         // 0x0058(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_HS6X[0x60];                                  // 0x0060(0x0060) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_1T3S[0x60];                                  // 0x0060(0x0060) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1195,20 +1195,20 @@ namespace CG
 	{
 	public:
 		EPolyEditExtrudeDistanceMode                               DistanceMode;                                            // 0x00A8(0x0001) ELEMENT_SIZE_MISMATCH Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_SSW5[0x3];                                   // 0x00A9(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
-		unsigned char                                              UnknownData_H9E5[0x4];                                   // 0x00AC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_28N6[0x3];                                   // 0x00A9(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+		unsigned char                                              UnknownData_NSNW[0x4];                                   // 0x00AC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		double                                                     Distance;                                                // 0x00B0(0x0008) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EPolyEditExtrudeDirection                                  Direction;                                               // 0x00B8(0x0001) ELEMENT_SIZE_MISMATCH Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_HPZQ[0x3];                                   // 0x00B9(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+		unsigned char                                              UnknownData_M057[0x3];                                   // 0x00B9(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 		EPolyEditExtrudeDirection                                  MeasureDirection;                                        // 0x00BC(0x0001) ELEMENT_SIZE_MISMATCH Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_W9TO[0x3];                                   // 0x00BD(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+		unsigned char                                              UnknownData_VA3B[0x3];                                   // 0x00BD(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 		bool                                                       bShellsToSolids;                                         // 0x00C0(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_7E3V[0x3];                                   // 0x00C1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_O7N0[0x3];                                   // 0x00C1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		EPolyEditExtrudeModeOptions                                DirectionMode;                                           // 0x00C4(0x0001) ELEMENT_SIZE_MISMATCH Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_PYDG[0x3];                                   // 0x00C5(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+		unsigned char                                              UnknownData_6W8C[0x3];                                   // 0x00C5(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 		double                                                     MaxDistanceScaleFactor;                                  // 0x00C8(0x0008) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bUseColinearityForSettingBorderGroups;                   // 0x00D0(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_GGM2[0x7];                                   // 0x00D1(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_9CP0[0x7];                                   // 0x00D1(0x0007) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1222,19 +1222,19 @@ namespace CG
 	{
 	public:
 		EPolyEditExtrudeDistanceMode                               DistanceMode;                                            // 0x00A8(0x0001) ELEMENT_SIZE_MISMATCH Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_YTZ0[0x3];                                   // 0x00A9(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
-		unsigned char                                              UnknownData_9CJ1[0x4];                                   // 0x00AC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_SIR3[0x3];                                   // 0x00A9(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+		unsigned char                                              UnknownData_A84R[0x4];                                   // 0x00AC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		double                                                     Distance;                                                // 0x00B0(0x0008) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EPolyEditOffsetModeOptions                                 DirectionMode;                                           // 0x00B8(0x0001) ELEMENT_SIZE_MISMATCH Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_E5VW[0x3];                                   // 0x00B9(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
-		unsigned char                                              UnknownData_P4KY[0x4];                                   // 0x00BC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_0B6F[0x3];                                   // 0x00B9(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+		unsigned char                                              UnknownData_K5UZ[0x4];                                   // 0x00BC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		double                                                     MaxDistanceScaleFactor;                                  // 0x00C0(0x0008) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bShellsToSolids;                                         // 0x00C8(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ZB7B[0x3];                                   // 0x00C9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_AK62[0x3];                                   // 0x00C9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		EPolyEditExtrudeDirection                                  MeasureDirection;                                        // 0x00CC(0x0001) ELEMENT_SIZE_MISMATCH Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_A4KO[0x3];                                   // 0x00CD(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+		unsigned char                                              UnknownData_2RA3[0x3];                                   // 0x00CD(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 		bool                                                       bUseColinearityForSettingBorderGroups;                   // 0x00D0(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_7M4A[0x7];                                   // 0x00D1(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_8US8[0x7];                                   // 0x00D1(0x0007) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1248,19 +1248,19 @@ namespace CG
 	{
 	public:
 		EPolyEditExtrudeDistanceMode                               DistanceMode;                                            // 0x00A8(0x0001) ELEMENT_SIZE_MISMATCH Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_J2EU[0x3];                                   // 0x00A9(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
-		unsigned char                                              UnknownData_LHIW[0x4];                                   // 0x00AC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_A5DO[0x3];                                   // 0x00A9(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+		unsigned char                                              UnknownData_12XR[0x4];                                   // 0x00AC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		double                                                     Distance;                                                // 0x00B0(0x0008) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EPolyEditPushPullModeOptions                               DirectionMode;                                           // 0x00B8(0x0001) ELEMENT_SIZE_MISMATCH Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_6DGF[0x3];                                   // 0x00B9(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
-		unsigned char                                              UnknownData_V49N[0x4];                                   // 0x00BC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_FIN2[0x3];                                   // 0x00B9(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+		unsigned char                                              UnknownData_B2VF[0x4];                                   // 0x00BC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		double                                                     MaxDistanceScaleFactor;                                  // 0x00C0(0x0008) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bShellsToSolids;                                         // 0x00C8(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_M1RY[0x3];                                   // 0x00C9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_Z67O[0x3];                                   // 0x00C9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		EPolyEditExtrudeDirection                                  MeasureDirection;                                        // 0x00CC(0x0001) ELEMENT_SIZE_MISMATCH Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_4AQT[0x3];                                   // 0x00CD(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+		unsigned char                                              UnknownData_BXUR[0x3];                                   // 0x00CD(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 		bool                                                       bUseColinearityForSettingBorderGroups;                   // 0x00D0(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_SF1Z[0x7];                                   // 0x00D1(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_NWEV[0x7];                                   // 0x00D1(0x0007) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1273,13 +1273,13 @@ namespace CG
 	class UPolyEditExtrudeActivity : public UInteractiveToolActivity
 	{
 	public:
-		unsigned char                                              UnknownData_6A47[0x20];                                  // 0x0030(0x0020) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_BJLR[0x20];                                  // 0x0030(0x0020) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UPolyEditExtrudeProperties*                          ExtrudeProperties;                                       // 0x0050(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class UPolyEditOffsetProperties*                           OffsetProperties;                                        // 0x0058(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class UPolyEditPushPullProperties*                         PushPullProperties;                                      // 0x0060(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class UPlaneDistanceFromHitMechanic*                       ExtrudeHeightMechanic;                                   // 0x0068(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UPolyEditActivityContext*                            ActivityContext;                                         // 0x0070(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_IMUA[0x158];                                 // 0x0078(0x0158) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_R4XJ[0x158];                                 // 0x0078(0x0158) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1293,9 +1293,9 @@ namespace CG
 	{
 	public:
 		EGroupEdgeInsertionMode                                    InsertionMode;                                           // 0x00A8(0x0001) ELEMENT_SIZE_MISMATCH Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_USTR[0x3];                                   // 0x00A9(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+		unsigned char                                              UnknownData_MTK2[0x3];                                   // 0x00A9(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 		bool                                                       bContinuousInsertion;                                    // 0x00AC(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_0ANN[0x3];                                   // 0x00AD(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_8PJC[0x3];                                   // 0x00AD(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		double                                                     VertexTolerance;                                         // 0x00B0(0x0008) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 
 	public:
@@ -1309,10 +1309,10 @@ namespace CG
 	class UPolyEditInsertEdgeActivity : public UInteractiveToolActivity
 	{
 	public:
-		unsigned char                                              UnknownData_OHXT[0x18];                                  // 0x0030(0x0018) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ZALV[0x18];                                  // 0x0030(0x0018) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UGroupEdgeInsertionProperties*                       Settings;                                                // 0x0048(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UPolyEditActivityContext*                            ActivityContext;                                         // 0x0050(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_BXSR[0x418];                                 // 0x0058(0x0418) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_FQRN[0x418];                                 // 0x0058(0x0418) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1326,17 +1326,17 @@ namespace CG
 	{
 	public:
 		EEdgeLoopPositioningMode                                   PositionMode;                                            // 0x00A8(0x0001) ELEMENT_SIZE_MISMATCH Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_7NV7[0x3];                                   // 0x00A9(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+		unsigned char                                              UnknownData_FE0C[0x3];                                   // 0x00A9(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 		EEdgeLoopInsertionMode                                     InsertionMode;                                           // 0x00AC(0x0001) ELEMENT_SIZE_MISMATCH Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_LHUB[0x3];                                   // 0x00AD(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+		unsigned char                                              UnknownData_GK6H[0x3];                                   // 0x00AD(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 		int32_t                                                    NumLoops;                                                // 0x00B0(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8W4V[0x4];                                   // 0x00B4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_1ZIL[0x4];                                   // 0x00B4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		double                                                     ProportionOffset;                                        // 0x00B8(0x0008) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		double                                                     DistanceOffset;                                          // 0x00C0(0x0008) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bInteractive;                                            // 0x00C8(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bFlipOffsetDirection;                                    // 0x00C9(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bHighlightProblemGroups;                                 // 0x00CA(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_2YI7[0x5];                                   // 0x00CB(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_O6ZS[0x5];                                   // 0x00CB(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		double                                                     VertexTolerance;                                         // 0x00D0(0x0008) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 
 	public:
@@ -1350,10 +1350,10 @@ namespace CG
 	class UPolyEditInsertEdgeLoopActivity : public UInteractiveToolActivity
 	{
 	public:
-		unsigned char                                              UnknownData_4W6O[0x18];                                  // 0x0030(0x0018) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_DVZ0[0x18];                                  // 0x0030(0x0018) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UEdgeLoopInsertionProperties*                        Settings;                                                // 0x0048(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UPolyEditActivityContext*                            ActivityContext;                                         // 0x0050(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_CE1I[0x3A8];                                 // 0x0058(0x03A8) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_A6SA[0x3A8];                                 // 0x0058(0x03A8) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1368,11 +1368,11 @@ namespace CG
 	public:
 		float                                                      Softness;                                                // 0x00A8(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bBoundaryOnly;                                           // 0x00AC(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_GHJ0[0x3];                                   // 0x00AD(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_JUHX[0x3];                                   // 0x00AD(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      AreaScale;                                               // 0x00B0(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bReproject;                                              // 0x00B4(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bOutset;                                                 // 0x00B5(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_7P0K[0x2];                                   // 0x00B6(0x0002) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_JMGO[0x2];                                   // 0x00B6(0x0002) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1385,13 +1385,13 @@ namespace CG
 	class UPolyEditInsetOutsetActivity : public UInteractiveToolActivity
 	{
 	public:
-		unsigned char                                              UnknownData_CDK1[0x10];                                  // 0x0030(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_QNPU[0x10];                                  // 0x0030(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UPolyEditInsetOutsetProperties*                      Settings;                                                // 0x0040(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_XE5V[0x8];                                   // 0x0048(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_JOZN[0x8];                                   // 0x0048(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UPolyEditPreviewMesh*                                EditPreview;                                             // 0x0050(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class USpatialCurveDistanceMechanic*                       CurveDistMechanic;                                       // 0x0058(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UPolyEditActivityContext*                            ActivityContext;                                         // 0x0060(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_CHHK[0x8];                                   // 0x0068(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_2LYB[0x8];                                   // 0x0068(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1405,7 +1405,7 @@ namespace CG
 	{
 	public:
 		bool                                                       bShowMaterial;                                           // 0x00A8(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_RR3M[0x7];                                   // 0x00A9(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_MHG0[0x7];                                   // 0x00A9(0x0007) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1418,12 +1418,12 @@ namespace CG
 	class UPolyEditPlanarProjectionUVActivity : public UInteractiveToolActivity
 	{
 	public:
-		unsigned char                                              UnknownData_9H5E[0x10];                                  // 0x0030(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_O8NW[0x10];                                  // 0x0030(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UPolyEditSetUVProperties*                            SetUVProperties;                                         // 0x0040(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UPolyEditPreviewMesh*                                EditPreview;                                             // 0x0048(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UCollectSurfacePathMechanic*                         SurfacePathMechanic;                                     // 0x0050(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UPolyEditActivityContext*                            ActivityContext;                                         // 0x0058(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_7BEA[0x90];                                  // 0x0060(0x0090) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_JHO5[0x90];                                  // 0x0060(0x0090) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1451,9 +1451,9 @@ namespace CG
 		class UExistingMeshMaterialProperties*                     MaterialSettings;                                        // 0x00C8(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		TArray<class UMeshOpPreviewWithBackgroundCompute*>         Previews;                                                // 0x00D0(0x0010) ZeroConstructor, Protected, UObjectWrapper, NativeAccessSpecifierProtected
 		TArray<class UUVLayoutOperatorFactory*>                    Factories;                                               // 0x00E0(0x0010) ZeroConstructor, Protected, UObjectWrapper, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_NFXR[0x60];                                  // 0x00F0(0x0060) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_WF4C[0x60];                                  // 0x00F0(0x0060) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UUVLayoutPreview*                                    UVLayoutView;                                            // 0x0150(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_EVUS[0x8];                                   // 0x0158(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_VYNB[0x8];                                   // 0x0158(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1476,7 +1476,7 @@ namespace CG
 	class UUVProjectionToolEditActions : public UInteractiveToolPropertySet
 	{
 	public:
-		unsigned char                                              UnknownData_T2L8[0x8];                                   // 0x00A8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_D6P4[0x8];                                   // 0x00A8(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		void Reset();
@@ -1493,23 +1493,23 @@ namespace CG
 	{
 	public:
 		EUVProjectionMethod                                        ProjectionType;                                          // 0x00A8(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_BOCH[0x7];                                   // 0x00A9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_Q3GT[0x7];                                   // 0x00A9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             Dimensions;                                              // 0x00B0(0x0018) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bProportionalDimensions;                                 // 0x00C8(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_EDK0[0x3];                                   // 0x00C9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_F7DO[0x3];                                   // 0x00C9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		EUVProjectionToolInitializationMode                        Initialization;                                          // 0x00CC(0x0001) ELEMENT_SIZE_MISMATCH Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_7N0O[0x3];                                   // 0x00CD(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+		unsigned char                                              UnknownData_OUQW[0x3];                                   // 0x00CD(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 		float                                                      CylinderSplitAngle;                                      // 0x00D0(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      ExpMapNormalBlending;                                    // 0x00D4(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    ExpMapSmoothingSteps;                                    // 0x00D8(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      ExpMapSmoothingAlpha;                                    // 0x00DC(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Rotation;                                                // 0x00E0(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_L76O[0x4];                                   // 0x00E4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_33IY[0x4];                                   // 0x00E4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector2D                                           Scale;                                                   // 0x00E8(0x0010) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector2D                                           Translation;                                             // 0x00F8(0x0010) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             SavedDimensions;                                         // 0x0108(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bSavedProportionalDimensions;                            // 0x0120(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_32FI[0xF];                                   // 0x0121(0x000F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_4ATA[0xF];                                   // 0x0121(0x000F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          SavedTransform;                                          // 0x0130(0x0060) IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 
 	public:
@@ -1523,7 +1523,7 @@ namespace CG
 	class UUVProjectionOperatorFactory : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_XGQ6[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_AE3Q[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UUVProjectionTool*                                   Tool;                                                    // 0x0030(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 
 	public:
@@ -1547,9 +1547,9 @@ namespace CG
 		class UTransformProxy*                                     TransformProxy;                                          // 0x0148(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UUVProjectionOperatorFactory*                        OperatorFactory;                                         // 0x0150(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UPreviewGeometry*                                    EdgeRenderer;                                            // 0x0158(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_T21T[0x348];                                 // 0x0160(0x0348) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ZD65[0x348];                                 // 0x0160(0x0348) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class USingleClickInputBehavior*                           ClickToSetPlaneBehavior;                                 // 0x04A8(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_AJ7Y[0x10];                                  // 0x04B0(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_AUYQ[0x10];                                  // 0x04B0(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();

@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -85,7 +85,7 @@ namespace CG
 	{
 	public:
 		int32_t                                                    Version;                                                 // 0x0028(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_6F5V[0x4];                                   // 0x002C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_VKJO[0x4];                                   // 0x002C(0x0004) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -118,7 +118,7 @@ namespace CG
 	class USoundModulatorBase : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_Z5T5[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_RNCY[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -198,7 +198,7 @@ namespace CG
 	{
 	public:
 		EPcmBitDepthConversion                                     BitDepthConversion;                                      // 0x0030(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_0PMO[0x7];                                   // 0x0031(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_U5XU[0x7];                                   // 0x0031(0x0007) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();

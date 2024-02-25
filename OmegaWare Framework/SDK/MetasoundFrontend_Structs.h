@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -130,7 +130,7 @@ namespace CG
 	{
 	public:
 		EMetasoundFrontendLiteralType                              Type;                                                    // 0x0000(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_7GPY[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_5MYN[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    AsNumDefault;                                            // 0x0004(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		TArray<bool>                                               AsBoolean;                                               // 0x0008(0x0010) ZeroConstructor, NativeAccessSpecifierPrivate
 		TArray<int32_t>                                            AsInteger;                                               // 0x0018(0x0010) ZeroConstructor, NativeAccessSpecifierPrivate
@@ -186,7 +186,7 @@ namespace CG
 	struct FMetasoundFrontendNodeStyleDisplay
 	{
 	public:
-		unsigned char                                              UnknownData_Y8BR[0x1];                                   // 0x0000(0x0001) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_OM4F[0x1];                                   // 0x0000(0x0001) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -196,7 +196,7 @@ namespace CG
 	struct FMetasoundFrontendNodeStyle
 	{
 	public:
-		unsigned char                                              UnknownData_ONVN[0x1];                                   // 0x0000(0x0001) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_9DFA[0x1];                                   // 0x0000(0x0001) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -257,7 +257,7 @@ namespace CG
 	{
 	public:
 		bool                                                       bIsGraphEditable;                                        // 0x0000(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_YE3Q[0x7];                                   // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_IIH0[0x7];                                   // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FMetasoundFrontendEdgeStyle>                 EdgeStyles;                                              // 0x0008(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
 	};
 
@@ -280,7 +280,7 @@ namespace CG
 	struct FMetasoundFrontendVertexMetadata
 	{
 	public:
-		unsigned char                                              UnknownData_A861[0x1];                                   // 0x0000(0x0001) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_1OI3[0x1];                                   // 0x0000(0x0001) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -292,7 +292,7 @@ namespace CG
 	public:
 		struct FGuid                                               NodeID;                                                  // 0x0020(0x0010) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EMetasoundFrontendVertexAccessType                         AccessType;                                              // 0x0030(0x0001) ELEMENT_SIZE_MISMATCH ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_LSJ1[0x3];                                   // 0x0031(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+		unsigned char                                              UnknownData_R55F[0x3];                                   // 0x0031(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	};
 
 	/**
@@ -302,7 +302,7 @@ namespace CG
 	struct FMetasoundFrontendClassStyleDisplay
 	{
 	public:
-		unsigned char                                              UnknownData_9E4O[0x1];                                   // 0x0000(0x0001) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_R302[0x1];                                   // 0x0000(0x0001) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -312,7 +312,7 @@ namespace CG
 	struct FMetasoundFrontendClassInput : public FMetasoundFrontendClassVertex
 	{
 	public:
-		unsigned char                                              UnknownData_JSAS[0x4];                                   // 0x0034(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_4YBL[0x4];                                   // 0x0034(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMetasoundFrontendLiteral                           DefaultLiteral;                                          // 0x0038(0x0058) Edit, NativeAccessSpecifierPublic
 	};
 
@@ -323,7 +323,7 @@ namespace CG
 	struct FMetasoundFrontendClassVariable : public FMetasoundFrontendClassVertex
 	{
 	public:
-		unsigned char                                              UnknownData_GEX1[0x4];                                   // 0x0034(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_UFCM[0x4];                                   // 0x0034(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMetasoundFrontendLiteral                           DefaultLiteral;                                          // 0x0038(0x0058) Edit, NativeAccessSpecifierPublic
 	};
 
@@ -344,7 +344,7 @@ namespace CG
 		class FName                                                Name;                                                    // 0x0000(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FName                                                TypeName;                                                // 0x0008(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bIsRequired;                                             // 0x0010(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_GCJS[0x3];                                   // 0x0011(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_LX8M[0x3];                                   // 0x0011(0x0003) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -354,7 +354,7 @@ namespace CG
 	struct FMetasoundFrontendInterfaceStyle
 	{
 	public:
-		unsigned char                                              UnknownData_ZJB7[0x1];                                   // 0x0000(0x0001) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_XC1K[0x1];                                   // 0x0000(0x0001) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -404,7 +404,7 @@ namespace CG
 		EMetasoundFrontendClassType                                Type;                                                    // 0x0020(0x0001) Edit, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		bool                                                       bIsDeprecated;                                           // 0x0021(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		bool                                                       bAutoUpdateManagesInterface;                             // 0x0022(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_N085[0x1];                                   // 0x0023(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_FBOQ[0x1];                                   // 0x0023(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FGuid                                               ChangeID;                                                // 0x0024(0x0010) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 	};
 
@@ -415,7 +415,7 @@ namespace CG
 	struct FMetasoundFrontendClassStyle
 	{
 	public:
-		unsigned char                                              UnknownData_PAX2[0x1];                                   // 0x0000(0x0001) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_1EZU[0x1];                                   // 0x0000(0x0001) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -425,10 +425,10 @@ namespace CG
 	struct FMetasoundFrontendClass
 	{
 	public:
-		unsigned char                                              UnknownData_L3UG[0x8];                                   // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_CPKD[0x8];                                   // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FGuid                                               ID;                                                      // 0x0008(0x0010) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FMetasoundFrontendClassMetadata                     MetaData;                                                // 0x0018(0x0034) Edit, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_LPS7[0x4];                                   // 0x004C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_SCTC[0x4];                                   // 0x004C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMetasoundFrontendClassInterface                    Interface;                                               // 0x0050(0x0040) Edit, NativeAccessSpecifierPublic
 	};
 
@@ -440,7 +440,7 @@ namespace CG
 	{
 	public:
 		bool                                                       bIsPreset;                                               // 0x0000(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_SQCL[0x7];                                   // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_2K32[0x7];                                   // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		unsigned char                                              InputsInheritingDefault[0x50];                           // 0x0008(0x0050) UNKNOWN PROPERTY: SetProperty
 	};
 
@@ -472,7 +472,7 @@ namespace CG
 	struct FMetasoundFrontendDocument
 	{
 	public:
-		unsigned char                                              UnknownData_BGNY[0x10];                                  // 0x0000(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_UQGL[0x10];                                  // 0x0000(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMetasoundFrontendDocumentMetadata                  MetaData;                                                // 0x0010(0x0010) Edit, NoDestructor, NativeAccessSpecifierPublic
 		unsigned char                                              Interfaces[0x50];                                        // 0x0020(0x0050) UNKNOWN PROPERTY: SetProperty
 		struct FMetasoundFrontendGraphClass                        RootGraph;                                               // 0x0070(0x0118) Edit, NativeAccessSpecifierPublic

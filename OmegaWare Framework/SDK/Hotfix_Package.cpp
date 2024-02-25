@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4730E8BD0
+	 * 		RVA    -> 0x6E6EB8BD0
 	 * 		Name   -> Function Hotfix.OnlineHotfixManager.StartHotfixProcess
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */

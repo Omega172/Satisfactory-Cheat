@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4898BB890
+	 * 		RVA    -> 0x713BEB890
 	 * 		Name   -> Function GLTFExporter.GLTFExportOptions.ResetToDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -46,7 +46,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4898BB550
+	 * 		RVA    -> 0x713BEB550
 	 * 		Name   -> Function GLTFExporter.GLTFExporter.ExportToGLTF
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -191,7 +191,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4898BB900
+	 * 		RVA    -> 0x713BEB900
 	 * 		Name   -> Function GLTFExporter.GLTFProxyOptions.ResetToDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */

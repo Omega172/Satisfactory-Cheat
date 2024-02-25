@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStatePaint.BP_BuildGunStatePaint_C.OpenCustomiserUI
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -31,7 +31,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStatePaint.BP_BuildGunStatePaint_C.EndState
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 */
@@ -50,7 +50,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStatePaint.BP_BuildGunStatePaint_C.OnMaterialDescriptorChanged
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -72,7 +72,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStatePaint.BP_BuildGunStatePaint_C.OnPatternDescriptorChanged
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -94,7 +94,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStatePaint.BP_BuildGunStatePaint_C.OnSwatchDescriptorChanged
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -116,7 +116,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStatePaint.BP_BuildGunStatePaint_C.OnHitStatusChanged
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -144,7 +144,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStatePaint.BP_BuildGunStatePaint_C.SecondaryFire
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 */
@@ -163,7 +163,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStatePaint.BP_BuildGunStatePaint_C.BeginState
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 */
@@ -182,7 +182,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStatePaint.BP_BuildGunStatePaint_C.OnApplyCustomization
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -204,7 +204,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStatePaint.BP_BuildGunStatePaint_C.OnApplyCustomizationFailed
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 */
@@ -223,7 +223,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStatePaint.BP_BuildGunStatePaint_C.OnSkinDescriptorChanged
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -245,7 +245,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStatePaint.BP_BuildGunStatePaint_C.ExecuteUbergraph_BP_BuildGunStatePaint
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:
@@ -267,7 +267,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStatePaint.BP_BuildGunStatePaint_C.OnApplyCustomisationFailed__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 */
@@ -286,7 +286,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStatePaint.BP_BuildGunStatePaint_C.OnApplyCustomisation__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -308,7 +308,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStatePaint.BP_BuildGunStatePaint_C.OnBuildGunHitStatusChanged__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -336,7 +336,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStatePaint.BP_BuildGunStatePaint_C.OnCustomiserDescriptorChanged__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 * Parameters:

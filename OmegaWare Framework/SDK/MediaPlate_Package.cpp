@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -40,7 +40,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B07180
+	 * 		RVA    -> 0x6E7967180
 	 * 		Name   -> Function MediaPlate.MediaPlateComponent.SetPlayOnlyWhenVisible
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -63,7 +63,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B070F0
+	 * 		RVA    -> 0x6E79670F0
 	 * 		Name   -> Function MediaPlate.MediaPlateComponent.SetMeshRange
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -86,7 +86,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B07040
+	 * 		RVA    -> 0x6E7967040
 	 * 		Name   -> Function MediaPlate.MediaPlateComponent.SetLoop
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -109,7 +109,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B06F90
+	 * 		RVA    -> 0x6E7966F90
 	 * 		Name   -> Function MediaPlate.MediaPlateComponent.SetLetterboxAspectRatio
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -132,7 +132,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B06EF0
+	 * 		RVA    -> 0x6E7966EF0
 	 * 		Name   -> Function MediaPlate.MediaPlateComponent.SetIsAspectRatioAuto
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -155,7 +155,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B06E30
+	 * 		RVA    -> 0x6E7966E30
 	 * 		Name   -> Function MediaPlate.MediaPlateComponent.Seek
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -180,7 +180,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B06DE0
+	 * 		RVA    -> 0x6E7966DE0
 	 * 		Name   -> Function MediaPlate.MediaPlateComponent.Rewind
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -202,7 +202,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B06DA0
+	 * 		RVA    -> 0x6E7966DA0
 	 * 		Name   -> Function MediaPlate.MediaPlateComponent.Play
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -222,7 +222,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B06D60
+	 * 		RVA    -> 0x6E7966D60
 	 * 		Name   -> Function MediaPlate.MediaPlateComponent.Pause
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -242,7 +242,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B06D40
+	 * 		RVA    -> 0x6E7966D40
 	 * 		Name   -> Function MediaPlate.MediaPlateComponent.Open
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -262,7 +262,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B06C50
+	 * 		RVA    -> 0x6E7966C50
 	 * 		Name   -> Function MediaPlate.MediaPlateComponent.OnMediaOpened
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -285,7 +285,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B06C20
+	 * 		RVA    -> 0x6E7966C20
 	 * 		Name   -> Function MediaPlate.MediaPlateComponent.OnMediaEnd
 	 * 		Flags  -> (Final, Native, Private)
 	 */
@@ -305,7 +305,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B06C00
+	 * 		RVA    -> 0x6E7966C00
 	 * 		Name   -> Function MediaPlate.MediaPlateComponent.IsMediaPlatePlaying
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -327,7 +327,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B06BD0
+	 * 		RVA    -> 0x6E7966BD0
 	 * 		Name   -> Function MediaPlate.MediaPlateComponent.GetMeshRange
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -349,7 +349,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B06AB0
+	 * 		RVA    -> 0x6E7966AB0
 	 * 		Name   -> Function MediaPlate.MediaPlateComponent.GetMediaTexture
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -374,7 +374,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B06A90
+	 * 		RVA    -> 0x6E7966A90
 	 * 		Name   -> Function MediaPlate.MediaPlateComponent.GetMediaPlayer
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -396,7 +396,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B06A70
+	 * 		RVA    -> 0x6E7966A70
 	 * 		Name   -> Function MediaPlate.MediaPlateComponent.GetLoop
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -418,7 +418,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B06A50
+	 * 		RVA    -> 0x6E7966A50
 	 * 		Name   -> Function MediaPlate.MediaPlateComponent.GetLetterboxAspectRatio
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -440,7 +440,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B06A30
+	 * 		RVA    -> 0x6E7966A30
 	 * 		Name   -> Function MediaPlate.MediaPlateComponent.GetIsAspectRatioAuto
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -462,7 +462,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B069C0
+	 * 		RVA    -> 0x6E79669C0
 	 * 		Name   -> Function MediaPlate.MediaPlateComponent.Close
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */

@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x476FD65D0
+	 * 		RVA    -> 0x6E98565D0
 	 * 		Name   -> Function InstancedSplinesComponent.InstancedSplineMeshComponent.GetInstanceStartTangent
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -37,7 +37,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x476FD6520
+	 * 		RVA    -> 0x6E9856520
 	 * 		Name   -> Function InstancedSplinesComponent.InstancedSplineMeshComponent.GetInstanceStartPos
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -62,7 +62,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x476FD6470
+	 * 		RVA    -> 0x6E9856470
 	 * 		Name   -> Function InstancedSplinesComponent.InstancedSplineMeshComponent.GetInstanceEndTangent
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -87,7 +87,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x476FD63C0
+	 * 		RVA    -> 0x6E98563C0
 	 * 		Name   -> Function InstancedSplinesComponent.InstancedSplineMeshComponent.GetInstanceEndPos
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -112,7 +112,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x476FD6130
+	 * 		RVA    -> 0x6E9856130
 	 * 		Name   -> Function InstancedSplinesComponent.InstancedSplineMeshComponent.AddSplineInstance
 	 * 		Flags  -> (Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:

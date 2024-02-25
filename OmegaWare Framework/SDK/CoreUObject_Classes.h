@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -22,7 +22,7 @@ namespace CG
 	{
 	public:
 		static class TUObjectArray*                                GObjects;                                                // 0x0000(0x0008) PREDEFINED PROPERTY
-		void*                                                      VfTable;                                                 // 0x0000(0x0008) PRE-DEFINED PROPERTY
+		void**                                                     VfTable;                                                 // 0x0000(0x0008) PRE-DEFINED PROPERTY
 		int32_t                                                    Flags;                                                   // 0x0008(0x0004) PRE-DEFINED PROPERTY
 		int32_t                                                    InternalIndex;                                           // 0x000C(0x0004) PRE-DEFINED PROPERTY
 		class UClass*                                              Class;                                                   // 0x0010(0x0008) PRE-DEFINED PROPERTY
@@ -121,7 +121,7 @@ namespace CG
 	class UGCObjectReferencer : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_TS7C[0x18];                                  // 0x0028(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_68KL[0x18];                                  // 0x0028(0x0018) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -134,7 +134,7 @@ namespace CG
 	class UTextBuffer : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_D9P6[0x28];                                  // 0x0028(0x0028) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_H6CD[0x28];                                  // 0x0028(0x0028) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -185,7 +185,7 @@ namespace CG
 	class UScriptStruct : public UStruct
 	{
 	public:
-		unsigned char                                              UnknownData_GEA1[0x10];                                  // 0x00B0(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_L2A6[0x10];                                  // 0x00B0(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -198,7 +198,7 @@ namespace CG
 	class UPackage : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_EWOK[0x68];                                  // 0x0028(0x0068) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_PD3H[0x68];                                  // 0x0028(0x0068) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -211,7 +211,7 @@ namespace CG
 	class UClass : public UStruct
 	{
 	public:
-		unsigned char                                              UnknownData_UA10[0x170];                                 // 0x00B0(0x0170) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_KIFE[0x170];                                 // 0x00B0(0x0170) MISSED OFFSET (PADDING)
 
 	public:
 		template<typename T>
@@ -234,15 +234,15 @@ namespace CG
 		int32_t                                                    FunctionFlags;                                           // 0x00B0(0x0004) PRE-DEFINED PROPERTY
 		uint8_t                                                    NumParms;                                                // 0x00B4(0x0001) PRE-DEFINED PROPERTY
 		uint16_t                                                   ParmsSize;                                               // 0x00B5(0x0002) PRE-DEFINED PROPERTY
-		unsigned char                                              pad_YORXZH0US9[0x01];                                    // 0x00B7(0x0001) PRE-DEFINED PROPERTY
+		unsigned char                                              pad_NXDZKQY424[0x01];                                    // 0x00B7(0x0001) PRE-DEFINED PROPERTY
 		uint16_t                                                   ReturnValueOffset;                                       // 0x00B8(0x0002) PRE-DEFINED PROPERTY
 		uint16_t                                                   RPCId;                                                   // 0x00BA(0x0002) PRE-DEFINED PROPERTY
 		uint16_t                                                   RPCResponseId;                                           // 0x00BC(0x0002) PRE-DEFINED PROPERTY
-		unsigned char                                              pad_CG78LS83TJ[0x02];                                    // 0x00BE(0x0002) PRE-DEFINED PROPERTY
+		unsigned char                                              pad_DW5PQ7N2KE[0x02];                                    // 0x00BE(0x0002) PRE-DEFINED PROPERTY
 		class UProperty*                                           FirstPropertyToInit;                                     // 0x00C0(0x0008) PRE-DEFINED PROPERTY
 		class UFunction*                                           EventGraphFunction;                                      // 0x00C8(0x0008) PRE-DEFINED PROPERTY
 		int32_t                                                    EventGraphCallOffset;                                    // 0x00D0(0x0004) PRE-DEFINED PROPERTY
-		unsigned char                                              pad_6KPORC1W1V[0x04];                                    // 0x00D4(0x0004) PRE-DEFINED PROPERTY
+		unsigned char                                              pad_HFBASBU671[0x04];                                    // 0x00D4(0x0004) PRE-DEFINED PROPERTY
 		void*                                                      Func;                                                    // 0x00D8(0x0008) PRE-DEFINED PROPERTY
 
 	public:
@@ -266,7 +266,7 @@ namespace CG
 	class USparseDelegateFunction : public UDelegateFunction
 	{
 	public:
-		unsigned char                                              UnknownData_DJCC[0x10];                                  // 0x00E0(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_ZA7X[0x10];                                  // 0x00E0(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -279,7 +279,7 @@ namespace CG
 	class UDynamicClass : public UClass
 	{
 	public:
-		unsigned char                                              UnknownData_38TB[0x80];                                  // 0x0220(0x0080) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_Q4UI[0x80];                                  // 0x0220(0x0080) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -292,7 +292,7 @@ namespace CG
 	class UPackageMap : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_Z443[0xB8];                                  // 0x0028(0x00B8) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_WU80[0xB8];                                  // 0x0028(0x00B8) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -305,7 +305,7 @@ namespace CG
 	class UEnum : public UField
 	{
 	public:
-		unsigned char                                              UnknownData_M8JD[0x38];                                  // 0x0030(0x0038) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_V4XC[0x38];                                  // 0x0030(0x0038) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -328,7 +328,7 @@ namespace CG
 	class ULinkerPlaceholderClass : public UClass
 	{
 	public:
-		unsigned char                                              UnknownData_B0AT[0x1C0];                                 // 0x0220(0x01C0) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_Z493[0x1C0];                                 // 0x0220(0x01C0) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -341,7 +341,7 @@ namespace CG
 	class ULinkerPlaceholderExportObject : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_VG9M[0xD0];                                  // 0x0028(0x00D0) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_ZUL2[0xD0];                                  // 0x0028(0x00D0) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -354,7 +354,7 @@ namespace CG
 	class ULinkerPlaceholderFunction : public UFunction
 	{
 	public:
-		unsigned char                                              UnknownData_UGZC[0x1C0];                                 // 0x00E0(0x01C0) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_BPS2[0x1C0];                                 // 0x00E0(0x01C0) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -367,7 +367,7 @@ namespace CG
 	class UMetaData : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_7D2Y[0xA0];                                  // 0x0028(0x00A0) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_EZV5[0xA0];                                  // 0x0028(0x00A0) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -380,7 +380,7 @@ namespace CG
 	class UObjectRedirector : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_OBUB[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_O4LQ[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -393,7 +393,7 @@ namespace CG
 	class UProperty : public UField
 	{
 	public:
-		unsigned char                                              UnknownData_05H0[0x40];                                  // 0x0030(0x0040) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_HI8T[0x40];                                  // 0x0030(0x0040) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -406,7 +406,7 @@ namespace CG
 	class UEnumProperty : public UProperty
 	{
 	public:
-		unsigned char                                              UnknownData_D08Q[0x10];                                  // 0x0070(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_BA48[0x10];                                  // 0x0070(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -419,7 +419,7 @@ namespace CG
 	class UArrayProperty : public UProperty
 	{
 	public:
-		unsigned char                                              UnknownData_IHLG[0x8];                                   // 0x0070(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_THDZ[0x8];                                   // 0x0070(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -432,7 +432,7 @@ namespace CG
 	class UObjectPropertyBase : public UProperty
 	{
 	public:
-		unsigned char                                              UnknownData_60P7[0x8];                                   // 0x0070(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_9FJN[0x8];                                   // 0x0070(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -445,7 +445,7 @@ namespace CG
 	class UBoolProperty : public UProperty
 	{
 	public:
-		unsigned char                                              UnknownData_ILRO[0x8];                                   // 0x0070(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_WYMJ[0x8];                                   // 0x0070(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -468,7 +468,7 @@ namespace CG
 	class UByteProperty : public UNumericProperty
 	{
 	public:
-		unsigned char                                              UnknownData_5ENA[0x8];                                   // 0x0070(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_E92J[0x8];                                   // 0x0070(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -491,7 +491,7 @@ namespace CG
 	class UClassProperty : public UObjectProperty
 	{
 	public:
-		unsigned char                                              UnknownData_J79C[0x8];                                   // 0x0078(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_MORN[0x8];                                   // 0x0078(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -574,7 +574,7 @@ namespace CG
 	class UInterfaceProperty : public UProperty
 	{
 	public:
-		unsigned char                                              UnknownData_EJPG[0x8];                                   // 0x0070(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_GLLZ[0x8];                                   // 0x0070(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -597,7 +597,7 @@ namespace CG
 	class UMapProperty : public UProperty
 	{
 	public:
-		unsigned char                                              UnknownData_66ER[0x28];                                  // 0x0070(0x0028) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_I8A5[0x28];                                  // 0x0070(0x0028) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -610,7 +610,7 @@ namespace CG
 	class UMulticastDelegateProperty : public UDelegateProperty
 	{
 	public:
-		unsigned char                                              UnknownData_KXWV[0x8];                                   // 0x0070(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_RINH[0x8];                                   // 0x0070(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -653,7 +653,7 @@ namespace CG
 	class USetProperty : public UProperty
 	{
 	public:
-		unsigned char                                              UnknownData_KFGO[0x20];                                  // 0x0070(0x0020) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_G4MP[0x20];                                  // 0x0070(0x0020) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -676,7 +676,7 @@ namespace CG
 	class USoftClassProperty : public USoftObjectProperty
 	{
 	public:
-		unsigned char                                              UnknownData_9M4N[0x8];                                   // 0x0078(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_696E[0x8];                                   // 0x0078(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -699,7 +699,7 @@ namespace CG
 	class UStructProperty : public UProperty
 	{
 	public:
-		unsigned char                                              UnknownData_4YHI[0x8];                                   // 0x0070(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_61ZX[0x8];                                   // 0x0070(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -762,7 +762,7 @@ namespace CG
 	class UPropertyWrapper : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_26DP[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_WKUE[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();

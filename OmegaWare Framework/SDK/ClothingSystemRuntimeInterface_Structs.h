@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -69,7 +69,7 @@ namespace CG
 		TArray<struct FClothCollisionPrim_ConvexFace>              Faces;                                                   // 0x0000(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
 		TArray<struct FVector>                                     SurfacePoints;                                           // 0x0010(0x0010) ZeroConstructor, NativeAccessSpecifierPublic
 		int32_t                                                    BoneIndex;                                               // 0x0020(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_82HB[0x4];                                   // 0x0024(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_CNNN[0x4];                                   // 0x0024(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -80,11 +80,11 @@ namespace CG
 	{
 	public:
 		struct FVector                                             LocalPosition;                                           // 0x0000(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_LMTQ[0x8];                                   // 0x0018(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_EYCA[0x8];                                   // 0x0018(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FQuat                                               LocalRotation;                                           // 0x0020(0x0020) IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             HalfExtents;                                             // 0x0040(0x0018) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    BoneIndex;                                               // 0x0058(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_WB7E[0x4];                                   // 0x005C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_95PJ[0x4];                                   // 0x005C(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**

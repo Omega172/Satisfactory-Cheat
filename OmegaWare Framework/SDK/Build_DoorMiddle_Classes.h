@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -27,7 +27,7 @@ namespace CG
 		unsigned char                                              mOverlappedPawns[0x50];                                  // 0x0628(0x0050) UNKNOWN PROPERTY: SetProperty
 		EDoorState_EDoorState                                      mDoorState;                                              // 0x0678(0x0001) Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, RepNotify, NoDestructor, HasGetValueTypeHash
 		bool                                                       mIsSignifigant;                                          // 0x0679(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_9IRU[0x6];                                   // 0x067A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_E0YW[0x6];                                   // 0x067A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		unsigned char                                              mSignifigantOwners[0x50];                                // 0x0680(0x0050) UNKNOWN PROPERTY: SetProperty
 		double                                                     mDoorMovementSpeed;                                      // 0x06D0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		double                                                     mTimeUpdateInterval;                                     // 0x06D8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash

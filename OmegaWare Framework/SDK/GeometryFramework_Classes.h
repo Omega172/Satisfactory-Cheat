@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -51,23 +51,23 @@ namespace CG
 	class UBaseDynamicMeshComponent : public UMeshComponent
 	{
 	public:
-		unsigned char                                              UnknownData_O44F[0x20];                                  // 0x05A0(0x0020) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_DWXT[0x20];                                  // 0x05A0(0x0020) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		bool                                                       bExplicitShowWireframe;                                  // 0x05C0(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_PHS2[0x3];                                   // 0x05C1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_5GAP[0x3];                                   // 0x05C1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FLinearColor                                        WireframeColor;                                          // 0x05C4(0x0010) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EDynamicMeshComponentColorOverrideMode                     ColorMode;                                               // 0x05D4(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_CHM3[0x3];                                   // 0x05D5(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_MLHX[0x3];                                   // 0x05D5(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FColor                                              ConstantColor;                                           // 0x05D8(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bEnableFlatShading;                                      // 0x05DC(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bEnableViewModeOverrides;                                // 0x05DD(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_JDO2[0x2];                                   // 0x05DE(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_U7FN[0x2];                                   // 0x05DE(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UMaterialInterface*                                  OverrideRenderMaterial;                                  // 0x05E0(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UMaterialInterface*                                  SecondaryRenderMaterial;                                 // 0x05E8(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_DK8P[0x1];                                   // 0x05F0(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_FI6K[0x1];                                   // 0x05F0(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		bool                                                       bEnableRayTracing;                                       // 0x05F1(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8OEQ[0x6];                                   // 0x05F2(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_UTS5[0x6];                                   // 0x05F2(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class UMaterialInterface*>                          BaseMaterials;                                           // 0x05F8(0x0010) ZeroConstructor, UObjectWrapper, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_CC60[0x8];                                   // 0x0608(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_I02B[0x8];                                   // 0x0608(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		void SetViewModeOverridesEnabled(bool bEnabled);
@@ -105,19 +105,19 @@ namespace CG
 	{
 	public:
 		class UDynamicMesh*                                        MeshObject;                                              // 0x0610(0x0008) ExportObject, ZeroConstructor, InstancedReference, NoDestructor, Protected, PersistentInstance, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_MDTZ[0xF8];                                  // 0x0618(0x00F8) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_JB08[0xF8];                                  // 0x0618(0x00F8) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		EDynamicMeshComponentTangentsMode                          TangentsType;                                            // 0x0710(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_9H0W[0x3F];                                  // 0x0711(0x003F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_JLQ8[0x3F];                                  // 0x0711(0x003F) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		ECollisionTraceFlag                                        CollisionType;                                           // 0x0750(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bUseAsyncCooking;                                        // 0x0751(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bEnableComplexCollision;                                 // 0x0752(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bDeferCollisionUpdates;                                  // 0x0753(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_LAA7[0x4];                                   // 0x0754(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_88UQ[0x4];                                   // 0x0754(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UBodySetup*                                          MeshBodySetup;                                           // 0x0758(0x0008) ExportObject, ZeroConstructor, InstancedReference, NoDestructor, Protected, PersistentInstance, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_I8P4[0x38];                                  // 0x0760(0x0038) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_B7EQ[0x38];                                  // 0x0760(0x0038) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FKAggregateGeom                                     AggGeom;                                                 // 0x0798(0x0068) Edit, Protected, NativeAccessSpecifierProtected
 		TArray<class UBodySetup*>                                  AsyncBodySetupQueue;                                     // 0x0800(0x0010) ZeroConstructor, Transient, Protected, UObjectWrapper, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_V5I0[0x10];                                  // 0x0810(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_SODV[0x10];                                  // 0x0810(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		bool ValidateMaterialSlots(bool bCreateIfMissing, bool bDeleteExtraSlots);
@@ -141,7 +141,7 @@ namespace CG
 	public:
 		class UDynamicMeshComponent*                               DynamicMeshComponent;                                    // 0x02F8(0x0008) Edit, BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, EditConst, InstancedReference, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bEnableComputeMeshPool;                                  // 0x0300(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_M94H[0x7];                                   // 0x0301(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_TK8Q[0x7];                                   // 0x0301(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UDynamicMeshPool*                                    DynamicMeshPool;                                         // 0x0308(0x0008) ZeroConstructor, Transient, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 
 	public:
@@ -171,12 +171,12 @@ namespace CG
 	class UDynamicMesh : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_XJV5[0x48];                                  // 0x0028(0x0048) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_YCP2[0x48];                                  // 0x0028(0x0048) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FScriptMulticastDelegate                             MeshModifiedBPEvent;                                     // 0x0070(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_DLFS[0x20];                                  // 0x0080(0x0020) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_AORJ[0x20];                                  // 0x0080(0x0020) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UDynamicMeshGenerator*                               MeshGenerator;                                           // 0x00A0(0x0008) ExportObject, ZeroConstructor, InstancedReference, NoDestructor, Protected, PersistentInstance, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bEnableMeshGenerator;                                    // 0x00A8(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_Z0ZN[0x7];                                   // 0x00A9(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_AMNY[0x7];                                   // 0x00A9(0x0007) MISSED OFFSET (PADDING)
 
 	public:
 		class UDynamicMesh* ResetToCube();

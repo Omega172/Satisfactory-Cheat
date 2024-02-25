@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.OpenMenuAnchor
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 */
@@ -33,7 +33,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.DeselectButton
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -52,7 +52,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.GetManagedPlayerPresenceString
 	 * 		Flags  -> (Private, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 */
@@ -73,7 +73,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.GetManagedPlayerName
 	 * 		Flags  -> (Private, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 */
@@ -94,7 +94,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.GetManagedPlayerPing
 	 * 		Flags  -> (Private, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -118,7 +118,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.IsManagedPlayerServerAdmin
 	 * 		Flags  -> (Private, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 */
@@ -139,7 +139,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.UpdateSessionStatus
 	 * 		Flags  -> (Private, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -158,7 +158,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.UpdateFriendStatus
 	 * 		Flags  -> (Private, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -177,7 +177,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.QuerySession
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -196,7 +196,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.OnSessionQueried
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -218,7 +218,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.UpdateNATWarningForClient
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -237,23 +237,23 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.GetHostingNATIsse
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
-	 * 		ECachedNATType                                     hostNat                                                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	 * 		ECachedNATType                                     clientNat                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	 * 		ECachedNATType                                     HostNat                                                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	 * 		ECachedNATType                                     ClientNat                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	 * 		class FText                                        ToolTip                                                    (Parm, OutParm)
 	 */
-	void UWidget_Multiplayer_ListButton_C::GetHostingNATIsse(ECachedNATType hostNat, ECachedNATType clientNat, class FText* ToolTip)
+	void UWidget_Multiplayer_ListButton_C::GetHostingNATIsse(ECachedNATType HostNat, ECachedNATType ClientNat, class FText* ToolTip)
 	{
 		static UFunction* fn = nullptr;
 		if (!fn)
 			fn = UObject::FindObject<UFunction>("Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.GetHostingNATIsse");
 		
 		UWidget_Multiplayer_ListButton_C_GetHostingNATIsse_Params params {};
-		params.hostNat = hostNat;
-		params.clientNat = clientNat;
+		params.HostNat = HostNat;
+		params.ClientNat = ClientNat;
 		
 		auto flags = fn->FunctionFlags;
 		UObject::ProcessEvent(fn, &params);
@@ -265,7 +265,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.UpdateNATWarningForHost
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -284,7 +284,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.SetupForManagePlayers
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -306,7 +306,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.SetupForJoinInvite
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -330,7 +330,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.SetupForSendInvite
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -354,7 +354,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.SetupForJoinGame
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -378,7 +378,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.SetButtonColor
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -400,7 +400,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.ClearListSelection
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -419,7 +419,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.UpdateButton
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -438,7 +438,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.PreConstruct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -460,7 +460,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.BndEvt__mButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -479,7 +479,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.Construct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 */
@@ -498,7 +498,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.Event Show Player Kicked Feedback
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -517,7 +517,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.Destruct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 */
@@ -536,7 +536,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.OnSessionQueryFinished
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -555,7 +555,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.OnSessionQueryStarted
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -574,7 +574,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.OnMouseEnter
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -598,7 +598,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.OnMouseLeave
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -620,7 +620,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.On Player Kicked
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -639,7 +639,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.ExecuteUbergraph_Widget_Multiplayer_ListButton
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:
@@ -661,7 +661,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.OnSessionDeselected__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 */
@@ -680,7 +680,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.OnButtonClicked__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 */
@@ -699,7 +699,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.OnSessionSelected__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -721,7 +721,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_Multiplayer_ListButton.Widget_Multiplayer_ListButton_C.OnActionButtonClicked__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 * Parameters:

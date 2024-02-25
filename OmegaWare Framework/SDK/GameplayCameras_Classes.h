@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -31,14 +31,14 @@ namespace CG
 		float                                                      AnimBlendInTime;                                         // 0x0150(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      AnimBlendOutTime;                                        // 0x0154(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      RandomAnimSegmentDuration;                               // 0x0158(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_QVPD[0x4];                                   // 0x015C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_EHWV[0x4];                                   // 0x015C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UCameraAnimationSequence*                            AnimSequence;                                            // 0x0160(0x0008) Edit, ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bRandomAnimSegment : 1;                                  // 0x0168(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_KPX6[0x3];                                   // 0x0169(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_EMQO[0x3];                                   // 0x0169(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      OscillatorTimeRemaining;                                 // 0x016C(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_026O[0x70];                                  // 0x0170(0x0070) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_V0HC[0x70];                                  // 0x0170(0x0070) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class USequenceCameraShakePattern*                         SequenceShakePattern;                                    // 0x01E0(0x0008) ExportObject, ZeroConstructor, InstancedReference, NoDestructor, Protected, PersistentInstance, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_WDZ6[0x28];                                  // 0x01E8(0x0028) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_HKM2[0x28];                                  // 0x01E8(0x0028) MISSED OFFSET (PADDING)
 
 	public:
 		class ULegacyCameraShake* STATIC_StartLegacyCameraShakeFromSource(class APlayerCameraManager* PlayerCameraManager, class UClass* ShakeClass, class UCameraShakeSourceComponent* SourceComponent, float Scale, ECameraShakePlaySpace PlaySpace, const struct FRotator& UserPlaySpaceRot);
@@ -80,7 +80,7 @@ namespace CG
 	public:
 		TArray<struct FActiveCameraAnimationInfo>                  ActiveAnimations;                                        // 0x0048(0x0010) ZeroConstructor, Protected, NativeAccessSpecifierProtected
 		uint16_t                                                   NextInstanceSerialNumber;                                // 0x0058(0x0002) ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_IDG4[0x6];                                   // 0x005A(0x0006) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_SP4R[0x6];                                   // 0x005A(0x0006) MISSED OFFSET (PADDING)
 
 	public:
 		void StopCameraAnimation(const struct FCameraAnimationHandle& Handle, bool bImmediate);
@@ -115,7 +115,7 @@ namespace CG
 	{
 	public:
 		TArray<class UCameraShakePattern*>                         ChildPatterns;                                           // 0x0028(0x0010) Edit, ExportObject, ZeroConstructor, ContainsInstancedReference, UObjectWrapper, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_01W5[0x10];                                  // 0x0038(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_C6N6[0x10];                                  // 0x0038(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -128,7 +128,7 @@ namespace CG
 	class UDefaultCameraShakeBase : public UCameraShakeBase
 	{
 	public:
-		unsigned char                                              UnknownData_G1WM[0x4];                                   // 0x00EC(0x0004) Fix Super Size
+		unsigned char                                              UnknownData_C3CR[0x4];                                   // 0x00EC(0x0004) Fix Super Size
 
 	public:
 		static UClass* StaticClass();
@@ -159,7 +159,7 @@ namespace CG
 		float                                                      Duration;                                                // 0x0028(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      BlendInTime;                                             // 0x002C(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      BlendOutTime;                                            // 0x0030(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_0HHD[0x4];                                   // 0x0034(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_D7NQ[0x4];                                   // 0x0034(0x0004) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -183,7 +183,7 @@ namespace CG
 		struct FPerlinNoiseShaker                                  Yaw;                                                     // 0x0068(0x0008) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FPerlinNoiseShaker                                  Roll;                                                    // 0x0070(0x0008) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FPerlinNoiseShaker                                  FOV;                                                     // 0x0078(0x0008) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_U5NB[0x38];                                  // 0x0080(0x0038) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_M1NE[0x38];                                  // 0x0080(0x0038) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -196,7 +196,7 @@ namespace CG
 	class UTestCameraShake : public UCameraShakeBase
 	{
 	public:
-		unsigned char                                              UnknownData_8SIQ[0x4];                                   // 0x00EC(0x0004) Fix Super Size
+		unsigned char                                              UnknownData_BJ7L[0x4];                                   // 0x00EC(0x0004) Fix Super Size
 
 	public:
 		static UClass* StaticClass();
@@ -234,7 +234,7 @@ namespace CG
 		struct FWaveOscillator                                     Yaw;                                                     // 0x0078(0x000C) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FWaveOscillator                                     Roll;                                                    // 0x0084(0x000C) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FWaveOscillator                                     FOV;                                                     // 0x0090(0x000C) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_5QCX[0x3C];                                  // 0x009C(0x003C) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_K7QS[0x3C];                                  // 0x009C(0x003C) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();

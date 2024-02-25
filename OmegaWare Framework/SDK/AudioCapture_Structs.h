@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -26,7 +26,7 @@ namespace CG
 		int32_t                                                    InputChannels;                                           // 0x0020(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    PreferredSampleRate;                                     // 0x0024(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bSupportsHardwareAEC : 1;                                // 0x0028(0x0001) BIT_FIELD BlueprintVisible, BlueprintReadOnly, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_9THL[0x7];                                   // 0x0029(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_W2YH[0x7];                                   // 0x0029(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**

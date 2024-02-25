@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.UnbindMappingContexts
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -31,7 +31,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.SetupMappingContexts
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -50,7 +50,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.On Shortcut Pressed
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -76,7 +76,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.StopCollectBarSFX
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -95,7 +95,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.PlayCollectBarSFX
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -114,7 +114,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.OnShortcutPressed
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -136,7 +136,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.OnPickupToCollectStateUpdated
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -158,7 +158,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.UpdateCollectBarPercent
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -177,7 +177,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.OnToggleInteractUI
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -201,7 +201,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.OnToggleInventory
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -223,7 +223,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.SetImageVisibility
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -247,7 +247,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.OnDisabledInputGateChanged
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -269,7 +269,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.InpActEvt_IA_Player_HotbarShortcut1_K2Node_EnhancedInputActionEvent_10
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -297,7 +297,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.InpActEvt_IA_Player_HotbarShortcut2_K2Node_EnhancedInputActionEvent_9
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -325,7 +325,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.InpActEvt_IA_Player_HotbarShortcut3_K2Node_EnhancedInputActionEvent_8
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -353,7 +353,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.InpActEvt_IA_Player_HotbarShortcut4_K2Node_EnhancedInputActionEvent_7
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -381,7 +381,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.InpActEvt_IA_Player_HotbarShortcut5_K2Node_EnhancedInputActionEvent_6
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -409,7 +409,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.InpActEvt_IA_Player_HotbarShortcut6_K2Node_EnhancedInputActionEvent_5
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -437,7 +437,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.InpActEvt_IA_Player_HotbarShortcut7_K2Node_EnhancedInputActionEvent_4
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -465,7 +465,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.InpActEvt_IA_Player_HotbarShortcut8_K2Node_EnhancedInputActionEvent_3
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -493,7 +493,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.InpActEvt_IA_Player_HotbarShortcut9_K2Node_EnhancedInputActionEvent_2
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -521,7 +521,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.InpActEvt_IA_Player_HotbarShortcut10_K2Node_EnhancedInputActionEvent_1
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -549,7 +549,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.Construct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 */
@@ -568,7 +568,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.EventUpdateQuickslotBackgroundOpacity
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -590,7 +590,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.SetBuildgunMode
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -612,7 +612,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.Destruct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 */
@@ -631,7 +631,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.EventUpdateProgressionVisibility
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -653,7 +653,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.EventUpdatePhaseInfoVisibility
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -675,7 +675,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.OnUpdateHUD_ESlot
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -697,7 +697,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.OnOpenAllHUD_ESlots
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -716,7 +716,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.OnCloseAllHUD_ESlots
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -735,7 +735,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.ForceUpdateEquipmentCrosshair
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -754,7 +754,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Widget_PlayerHUD.Widget_PlayerHUD_C.ExecuteUbergraph_Widget_PlayerHUD
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:

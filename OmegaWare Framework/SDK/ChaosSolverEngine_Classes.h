@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -29,24 +29,24 @@ namespace CG
 		float                                                      ClusterConnectionFactor;                                 // 0x0370(0x0004) ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EClusterConnectionTypeEnum                                 ClusterUnionConnectionType;                              // 0x0374(0x0001) ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       DoGenerateCollisionData;                                 // 0x0375(0x0001) ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_9BM0[0x2];                                   // 0x0376(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_UMA6[0x2];                                   // 0x0376(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FSolverCollisionFilterSettings                      CollisionFilterSettings;                                 // 0x0378(0x0010) Deprecated, NoDestructor, NativeAccessSpecifierPublic
 		bool                                                       DoGenerateBreakingData;                                  // 0x0388(0x0001) ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_N0CG[0x3];                                   // 0x0389(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_DDU8[0x3];                                   // 0x0389(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FSolverBreakingFilterSettings                       BreakingFilterSettings;                                  // 0x038C(0x0010) Deprecated, NoDestructor, NativeAccessSpecifierPublic
 		bool                                                       DoGenerateTrailingData;                                  // 0x039C(0x0001) ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_FKI1[0x3];                                   // 0x039D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_EWXP[0x3];                                   // 0x039D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FSolverTrailingFilterSettings                       TrailingFilterSettings;                                  // 0x03A0(0x0010) Deprecated, NoDestructor, NativeAccessSpecifierPublic
 		float                                                      MassScale;                                               // 0x03B0(0x0004) ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bHasFloor;                                               // 0x03B4(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_060D[0x3];                                   // 0x03B5(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_BJA8[0x3];                                   // 0x03B5(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      FloorHeight;                                             // 0x03B8(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FChaosDebugSubstepControl                           ChaosDebugSubstepControl;                                // 0x03BC(0x0003) Edit, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_AENQ[0x1];                                   // 0x03BF(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_3AZ0[0x1];                                   // 0x03BF(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UBillboardComponent*                                 SpriteComponent;                                         // 0x03C0(0x0008) ExportObject, ZeroConstructor, InstancedReference, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_LCNZ[0x18];                                  // 0x03C8(0x0018) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_3Z0T[0x18];                                  // 0x03C8(0x0018) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UChaosGameplayEventDispatcher*                       GameplayEventDispatcherComponent;                        // 0x03E0(0x0008) ExportObject, ZeroConstructor, InstancedReference, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_PV4H[0x8];                                   // 0x03E8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_BIST[0x8];                                   // 0x03E8(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		void SetSolverActive(bool bActive);
@@ -61,7 +61,7 @@ namespace CG
 	class UChaosDebugDrawComponent : public UActorComponent
 	{
 	public:
-		unsigned char                                              UnknownData_72YJ[0x8];                                   // 0x00A0(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_8B7K[0x8];                                   // 0x00A0(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -74,7 +74,7 @@ namespace CG
 	class UChaosEventListenerComponent : public UActorComponent
 	{
 	public:
-		unsigned char                                              UnknownData_6UGB[0x8];                                   // 0x00A0(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_MUA9[0x8];                                   // 0x00A0(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -87,12 +87,12 @@ namespace CG
 	class UChaosGameplayEventDispatcher : public UChaosEventListenerComponent
 	{
 	public:
-		unsigned char                                              UnknownData_HP4E[0x110];                                 // 0x00A8(0x0110) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_WO86[0x110];                                 // 0x00A8(0x0110) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TMap<class UPrimitiveComponent*, struct FChaosHandlerSet>  CollisionEventRegistrations;                             // 0x01B8(0x0050) ContainsInstancedReference, NativeAccessSpecifierPrivate
 		TMap<class UPrimitiveComponent*, struct FBreakEventCallbackWrapper> BreakEventRegistrations;                                 // 0x0208(0x0050) ContainsInstancedReference, NativeAccessSpecifierPrivate
 		TMap<class UPrimitiveComponent*, struct FRemovalEventCallbackWrapper> RemovalEventRegistrations;                               // 0x0258(0x0050) ContainsInstancedReference, NativeAccessSpecifierPrivate
 		TMap<class UPrimitiveComponent*, struct FCrumblingEventCallbackWrapper> CrumblingEventRegistrations;                             // 0x02A8(0x0050) ContainsInstancedReference, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_T9SN[0x10];                                  // 0x02F8(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_B9I5[0x10];                                  // 0x02F8(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -136,7 +136,7 @@ namespace CG
 	class UChaosSolverSettings : public UDeveloperSettings
 	{
 	public:
-		unsigned char                                              UnknownData_8RL5[0x8];                                   // 0x0038(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_I0Z2[0x8];                                   // 0x0038(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FSoftClassPath                                      DefaultChaosSolverActorClass;                            // 0x0040(0x0020) Edit, ZeroConstructor, Config, NoClear, HasGetValueTypeHash, NativeAccessSpecifierPublic
 
 	public:

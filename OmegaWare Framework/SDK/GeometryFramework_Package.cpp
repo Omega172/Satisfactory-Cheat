@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -54,7 +54,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D6470
+	 * 		RVA    -> 0x6EB5B6470
 	 * 		Name   -> Function GeometryFramework.BaseDynamicMeshComponent.SetViewModeOverridesEnabled
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -77,7 +77,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D6350
+	 * 		RVA    -> 0x6EB5B6350
 	 * 		Name   -> Function GeometryFramework.BaseDynamicMeshComponent.SetShadowsEnabled
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -100,7 +100,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D62C0
+	 * 		RVA    -> 0x6EB5B62C0
 	 * 		Name   -> Function GeometryFramework.BaseDynamicMeshComponent.SetSecondaryRenderMaterial
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -123,7 +123,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D6230
+	 * 		RVA    -> 0x6EB5B6230
 	 * 		Name   -> Function GeometryFramework.BaseDynamicMeshComponent.SetSecondaryBuffersVisibility
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -146,7 +146,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D61A0
+	 * 		RVA    -> 0x6EB5B61A0
 	 * 		Name   -> Function GeometryFramework.BaseDynamicMeshComponent.SetOverrideRenderMaterial
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -169,7 +169,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D6110
+	 * 		RVA    -> 0x6EB5B6110
 	 * 		Name   -> Function GeometryFramework.BaseDynamicMeshComponent.SetEnableWireframeRenderPass
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -192,7 +192,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D6080
+	 * 		RVA    -> 0x6EB5B6080
 	 * 		Name   -> Function GeometryFramework.BaseDynamicMeshComponent.SetEnableRaytracing
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -215,7 +215,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D5FF0
+	 * 		RVA    -> 0x6EB5B5FF0
 	 * 		Name   -> Function GeometryFramework.BaseDynamicMeshComponent.SetEnableFlatShading
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -238,7 +238,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D5C80
+	 * 		RVA    -> 0x6EB5B5C80
 	 * 		Name   -> Function GeometryFramework.BaseDynamicMeshComponent.SetConstantOverrideColor
 	 * 		Flags  -> (Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -261,7 +261,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D5B10
+	 * 		RVA    -> 0x6EB5B5B10
 	 * 		Name   -> Function GeometryFramework.BaseDynamicMeshComponent.SetColorOverrideMode
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -284,7 +284,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D5700
+	 * 		RVA    -> 0x6EB5B5700
 	 * 		Name   -> Function GeometryFramework.BaseDynamicMeshComponent.HasOverrideRenderMaterial
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -309,7 +309,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D56D0
+	 * 		RVA    -> 0x6EB5B56D0
 	 * 		Name   -> Function GeometryFramework.BaseDynamicMeshComponent.GetViewModeOverridesEnabled
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -331,7 +331,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D5640
+	 * 		RVA    -> 0x6EB5B5640
 	 * 		Name   -> Function GeometryFramework.BaseDynamicMeshComponent.GetShadowsEnabled
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -353,7 +353,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D5610
+	 * 		RVA    -> 0x6EB5B5610
 	 * 		Name   -> Function GeometryFramework.BaseDynamicMeshComponent.GetSecondaryRenderMaterial
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -375,7 +375,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D55E0
+	 * 		RVA    -> 0x6EB5B55E0
 	 * 		Name   -> Function GeometryFramework.BaseDynamicMeshComponent.GetSecondaryBuffersVisibility
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -397,7 +397,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D5540
+	 * 		RVA    -> 0x6EB5B5540
 	 * 		Name   -> Function GeometryFramework.BaseDynamicMeshComponent.GetOverrideRenderMaterial
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -422,7 +422,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D5510
+	 * 		RVA    -> 0x6EB5B5510
 	 * 		Name   -> Function GeometryFramework.BaseDynamicMeshComponent.GetFlatShadingEnabled
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -444,7 +444,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D54E0
+	 * 		RVA    -> 0x6EB5B54E0
 	 * 		Name   -> Function GeometryFramework.BaseDynamicMeshComponent.GetEnableWireframeRenderPass
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -466,7 +466,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D54B0
+	 * 		RVA    -> 0x6EB5B54B0
 	 * 		Name   -> Function GeometryFramework.BaseDynamicMeshComponent.GetEnableRaytracing
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -488,7 +488,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D5460
+	 * 		RVA    -> 0x6EB5B5460
 	 * 		Name   -> Function GeometryFramework.BaseDynamicMeshComponent.GetDynamicMesh
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -510,7 +510,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D5420
+	 * 		RVA    -> 0x6EB5B5420
 	 * 		Name   -> Function GeometryFramework.BaseDynamicMeshComponent.GetConstantOverrideColor
 	 * 		Flags  -> (Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -532,7 +532,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D53C0
+	 * 		RVA    -> 0x6EB5B53C0
 	 * 		Name   -> Function GeometryFramework.BaseDynamicMeshComponent.GetColorOverrideMode
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -554,7 +554,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D51B0
+	 * 		RVA    -> 0x6EB5B51B0
 	 * 		Name   -> Function GeometryFramework.BaseDynamicMeshComponent.ClearSecondaryRenderMaterial
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -574,7 +574,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D5190
+	 * 		RVA    -> 0x6EB5B5190
 	 * 		Name   -> Function GeometryFramework.BaseDynamicMeshComponent.ClearOverrideRenderMaterial
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -608,7 +608,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D6590
+	 * 		RVA    -> 0x6EB5B6590
 	 * 		Name   -> Function GeometryFramework.DynamicMeshComponent.ValidateMaterialSlots
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -635,7 +635,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D6500
+	 * 		RVA    -> 0x6EB5B6500
 	 * 		Name   -> Function GeometryFramework.DynamicMeshComponent.UpdateCollision
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -658,7 +658,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D63E0
+	 * 		RVA    -> 0x6EB5B63E0
 	 * 		Name   -> Function GeometryFramework.DynamicMeshComponent.SetTangentsType
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -681,7 +681,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D5DF0
+	 * 		RVA    -> 0x6EB5B5DF0
 	 * 		Name   -> Function GeometryFramework.DynamicMeshComponent.SetDynamicMesh
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -704,7 +704,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D5D00
+	 * 		RVA    -> 0x6EB5B5D00
 	 * 		Name   -> Function GeometryFramework.DynamicMeshComponent.SetDeferredCollisionUpdatesEnabled
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -729,7 +729,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D5BA0
+	 * 		RVA    -> 0x6EB5B5BA0
 	 * 		Name   -> Function GeometryFramework.DynamicMeshComponent.SetComplexAsSimpleCollisionEnabled
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -754,7 +754,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D5670
+	 * 		RVA    -> 0x6EB5B5670
 	 * 		Name   -> Function GeometryFramework.DynamicMeshComponent.GetTangentsType
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -776,7 +776,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D5280
+	 * 		RVA    -> 0x6EB5B5280
 	 * 		Name   -> Function GeometryFramework.DynamicMeshComponent.EnableComplexAsSimpleCollision
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -796,7 +796,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D51D0
+	 * 		RVA    -> 0x6EB5B51D0
 	 * 		Name   -> Function GeometryFramework.DynamicMeshComponent.ConfigureMaterialSet
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -833,7 +833,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D5820
+	 * 		RVA    -> 0x6EB5B5820
 	 * 		Name   -> Function GeometryFramework.DynamicMeshActor.ReleaseComputeMesh
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -858,7 +858,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D57E0
+	 * 		RVA    -> 0x6EB5B57E0
 	 * 		Name   -> Function GeometryFramework.DynamicMeshActor.ReleaseAllComputeMeshes
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -878,7 +878,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D5490
+	 * 		RVA    -> 0x6EB5B5490
 	 * 		Name   -> Function GeometryFramework.DynamicMeshActor.GetDynamicMeshComponent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -900,7 +900,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D53F0
+	 * 		RVA    -> 0x6EB5B53F0
 	 * 		Name   -> Function GeometryFramework.DynamicMeshActor.GetComputeMeshPool
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -922,7 +922,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D52F0
+	 * 		RVA    -> 0x6EB5B52F0
 	 * 		Name   -> Function GeometryFramework.DynamicMeshActor.FreeAllComputeMeshes
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -942,7 +942,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D5120
+	 * 		RVA    -> 0x6EB5B5120
 	 * 		Name   -> Function GeometryFramework.DynamicMeshActor.AllocateComputeMesh
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -992,7 +992,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D59B0
+	 * 		RVA    -> 0x6EB5B59B0
 	 * 		Name   -> Function GeometryFramework.DynamicMesh.ResetToCube
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1014,7 +1014,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D5980
+	 * 		RVA    -> 0x6EB5B5980
 	 * 		Name   -> Function GeometryFramework.DynamicMesh.Reset
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1036,7 +1036,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D57A0
+	 * 		RVA    -> 0x6EB5B57A0
 	 * 		Name   -> Function GeometryFramework.DynamicMesh.IsEmpty
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1058,7 +1058,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D5690
+	 * 		RVA    -> 0x6EB5B5690
 	 * 		Name   -> Function GeometryFramework.DynamicMesh.GetTriangleCount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1094,7 +1094,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D5A00
+	 * 		RVA    -> 0x6EB5B5A00
 	 * 		Name   -> Function GeometryFramework.DynamicMeshPool.ReturnMesh
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1117,7 +1117,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D59E0
+	 * 		RVA    -> 0x6EB5B59E0
 	 * 		Name   -> Function GeometryFramework.DynamicMeshPool.ReturnAllMeshes
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1137,7 +1137,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D5950
+	 * 		RVA    -> 0x6EB5B5950
 	 * 		Name   -> Function GeometryFramework.DynamicMeshPool.RequestMesh
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1159,7 +1159,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A4D5360
+	 * 		RVA    -> 0x6EB5B5360
 	 * 		Name   -> Function GeometryFramework.DynamicMeshPool.FreeAllMeshes
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */

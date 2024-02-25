@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPHUDHelpers.BPHUDHelpers_C.Truncate Input Text
 	 * 		Flags  -> (Static, Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -40,7 +40,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPHUDHelpers.BPHUDHelpers_C.IsHiddenHUDModeActive
 	 * 		Flags  -> (Static, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -68,7 +68,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPHUDHelpers.BPHUDHelpers_C.GetAnyRecipeProduct
 	 * 		Flags  -> (Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -96,7 +96,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPHUDHelpers.BPHUDHelpers_C.GetCustomiserTypeFromCategory
 	 * 		Flags  -> (Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -124,7 +124,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPHUDHelpers.BPHUDHelpers_C.TruncateText
 	 * 		Flags  -> (Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -159,7 +159,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPHUDHelpers.BPHUDHelpers_C.DoesTextContainSearchWords
 	 * 		Flags  -> (Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -189,7 +189,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPHUDHelpers.BPHUDHelpers_C.GetDefaultRCO
 	 * 		Flags  -> (Static, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -217,7 +217,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPHUDHelpers.BPHUDHelpers_C.FindWidgetOfClass
 	 * 		Flags  -> (Static, Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -247,7 +247,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPHUDHelpers.BPHUDHelpers_C.GetFGHud
 	 * 		Flags  -> (Static, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -275,7 +275,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPHUDHelpers.BPHUDHelpers_C.ShowHideHUD
 	 * 		Flags  -> (Static, Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -303,7 +303,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPHUDHelpers.BPHUDHelpers_C.PopStackWidget
 	 * 		Flags  -> (Static, Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -329,7 +329,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPHUDHelpers.BPHUDHelpers_C.PushStackWidget
 	 * 		Flags  -> (Static, Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:

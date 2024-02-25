@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -37,7 +37,7 @@ namespace CG
 		struct FAnimNode_ModifyBone                                AnimGraphNode_ModifyBone_23;                             // 0x0D18(0x0128)
 		struct FAnimNode_TwoBoneIK                                 AnimGraphNode_TwoBoneIK_12;                              // 0x0E40(0x0280)
 		struct FAnimNode_ModifyBone                                AnimGraphNode_ModifyBone_22;                             // 0x10C0(0x0128)
-		unsigned char                                              UnknownData_3VI6[0x8];                                   // 0x11E8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_QADO[0x8];                                   // 0x11E8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FAnimNode_TwoBoneIK                                 AnimGraphNode_TwoBoneIK_11;                              // 0x11F0(0x0280)
 		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_35;                         // 0x1470(0x0108)
 		struct FAnimNode_SaveCachedPose                            AnimGraphNode_SaveCachedPose_34;                         // 0x1578(0x0108)
@@ -68,7 +68,7 @@ namespace CG
 		struct FAnimNode_StateResult                               AnimGraphNode_StateResult_90;                            // 0x20E0(0x0020)
 		struct FAnimNode_StateMachine                              AnimGraphNode_StateMachine_37;                           // 0x2100(0x00C8)
 		struct FAnimNode_CopyBone                                  AnimGraphNode_CopyBone_6;                                // 0x21C8(0x00F0)
-		unsigned char                                              UnknownData_J919[0x8];                                   // 0x22B8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_U42B[0x8];                                   // 0x22B8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FAnimNode_TwoBoneIK                                 AnimGraphNode_TwoBoneIK_10;                              // 0x22C0(0x0280)
 		struct FAnimNode_CopyBone                                  AnimGraphNode_CopyBone_5;                                // 0x2540(0x00F0)
 		struct FAnimNode_TwoBoneIK                                 AnimGraphNode_TwoBoneIK_9;                               // 0x2630(0x0280)
@@ -96,7 +96,7 @@ namespace CG
 		struct FAnimNode_ModifyBone                                AnimGraphNode_ModifyBone_17;                             // 0x3670(0x0128)
 		struct FAnimNode_ModifyBone                                AnimGraphNode_ModifyBone_16;                             // 0x3798(0x0128)
 		struct FAnimNode_ModifyBone                                AnimGraphNode_ModifyBone_15;                             // 0x38C0(0x0128)
-		unsigned char                                              UnknownData_Y7VX[0x8];                                   // 0x39E8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_SED5[0x8];                                   // 0x39E8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FAnimNode_TwoBoneIK                                 AnimGraphNode_TwoBoneIK_6;                               // 0x39F0(0x0280)
 		struct FAnimNode_TwoBoneIK                                 AnimGraphNode_TwoBoneIK_5;                               // 0x3C70(0x0280)
 		struct FAnimNode_ModifyBone                                AnimGraphNode_ModifyBone_14;                             // 0x3EF0(0x0128)
@@ -849,7 +849,7 @@ namespace CG
 		struct FAnimNode_ConvertComponentToLocalSpace              AnimGraphNode_ComponentToLocalSpace_3;                   // 0x14678(0x0020)
 		struct FAnimNode_ModifyBone                                AnimGraphNode_ModifyBone_2;                              // 0x14698(0x0128)
 		struct FAnimNode_SpringBone                                AnimGraphNode_SpringBone;                                // 0x147C0(0x0168)
-		unsigned char                                              UnknownData_ZLGY[0x8];                                   // 0x14928(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_IVTE[0x8];                                   // 0x14928(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FAnimNode_LookAt                                    AnimGraphNode_LookAt;                                    // 0x14930(0x0250)
 		struct FAnimNode_ConvertLocalToComponentSpace              AnimGraphNode_LocalToComponentSpace_2;                   // 0x14B80(0x0020)
 		struct FAnimNode_TwoBoneIK                                 AnimGraphNode_TwoBoneIK_2;                               // 0x14BA0(0x0280)
@@ -975,10 +975,10 @@ namespace CG
 		struct FAnimNode_SequencePlayer                            AnimGraphNode_SequencePlayer;                            // 0x17D80(0x0048)
 		class UFGCharacterMovementComponent*                       mCharacterMovementComponent;                             // 0x17DC8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash
 		EMovementMode                                              mMovementMode;                                           // 0x17DD0(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_MKR4[0x7];                                   // 0x17DD1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_5CI7[0x7];                                   // 0x17DD1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		double                                                     mDeltaTime;                                              // 0x17DD8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mStandingStill;                                          // 0x17DE0(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_8C1X[0x7];                                   // 0x17DE1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_NC4G[0x7];                                   // 0x17DE1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		double                                                     mDesiredDirection;                                       // 0x17DE8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		struct FVector                                             mVelocityLocalNormalizedLastTick;                        // 0x17DF0(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		double                                                     mChangeDirectionAngle;                                   // 0x17E08(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
@@ -986,13 +986,13 @@ namespace CG
 		bool                                                       mLeanAsDirectionChange;                                  // 0x17E18(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mPlayDirectionChange;                                    // 0x17E19(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mPlayStop;                                               // 0x17E1A(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_P83C[0x5];                                   // 0x17E1B(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_TKDW[0x5];                                   // 0x17E1B(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             mStandingStillLocation;                                  // 0x17E20(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		double                                                     mStandingStillLeanDirection;                             // 0x17E38(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		double                                                     mStandingStillLeanDistance;                              // 0x17E40(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mStandingStillLastTick;                                  // 0x17E48(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mPlayStopLean;                                           // 0x17E49(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_RSW9[0x6];                                   // 0x17E4A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_VRND[0x6];                                   // 0x17E4A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		double                                                     mStandingStillStopDirection;                             // 0x17E50(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		class USkeletalMeshComponent*                              mSkeletalmeshComponent;                                  // 0x17E58(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash
 		struct FTransform                                          mRootTransform;                                          // 0x17E60(0x0060) Edit, BlueprintVisible, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
@@ -1007,12 +1007,12 @@ namespace CG
 		double                                                     mSpeedLastTick;                                          // 0x17F60(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mFallSpeedIsFatal;                                       // 0x17F68(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mIsInVehicle;                                            // 0x17F69(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_U5CJ[0x6];                                   // 0x17F6A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_QOM5[0x6];                                   // 0x17F6A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class AFGDriveablePawn*                                    mDrivenVehicle;                                          // 0x17F70(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
 		class UAnimSequence*                                       mVehicleAnimation;                                       // 0x17F78(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
 		bool                                                       mIsPassengerSeat;                                        // 0x17F80(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		EVehicleAnimations                                         mVehicleAnimationEnum;                                   // 0x17F81(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_B63I[0x6];                                   // 0x17F82(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_U1TC[0x6];                                   // 0x17F82(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             mVehicleSteeringWheelLeft;                               // 0x17F88(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		struct FVector                                             mVehicleSteeringWheelRight;                              // 0x17FA0(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		double                                                     mVehicleSpeed;                                           // 0x17FB8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
@@ -1021,14 +1021,14 @@ namespace CG
 		double                                                     mTractorVelocityXYDiff;                                  // 0x17FE0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		double                                                     mTractorVelocityZDiff;                                   // 0x17FE8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mIsMontagePlaying;                                       // 0x17FF0(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_GDGE[0x7];                                   // 0x17FF1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_V882[0x7];                                   // 0x17FF1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRotator                                            mAG_PlevisRotationClamped;                               // 0x17FF8(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor
 		bool                                                       mAG_IsRunning;                                           // 0x18010(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mAG_IsJumping;                                           // 0x18011(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mAG_IsFalling;                                           // 0x18012(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mAG_IsSwimming;                                          // 0x18013(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mAG_IsWalking;                                           // 0x18014(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_EPOB[0x3];                                   // 0x18015(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_HHBL[0x3];                                   // 0x18015(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		double                                                     mAG_StandingStillLeanDistanceAlpha;                      // 0x18018(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mAG_HasPositiveVectorLength;                             // 0x18020(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mAG_HasNoAcceleration;                                   // 0x18021(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
@@ -1042,12 +1042,12 @@ namespace CG
 		struct FVector                                             mAG_IkFootLOffsetVector;                                 // 0x18040(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		struct FVector                                             mAG_IkFootROffsetVector;                                 // 0x18058(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mAG_UseFootIK;                                           // 0x18070(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_MHYJ[0x7];                                   // 0x18071(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ZXJN[0x7];                                   // 0x18071(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRotator                                            mAG_SpineSurfaceRotator;                                 // 0x18078(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor
 		double                                                     mAG_InvertedAimPitch;                                    // 0x18090(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mAG_UpperbodyBlend;                                      // 0x18098(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mAG_IsSprinting;                                         // 0x18099(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_YYCM[0x6];                                   // 0x1809A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_2GIE[0x6];                                   // 0x1809A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRotator                                            mAG_SprintPelvisRotator;                                 // 0x180A0(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor
 		double                                                     mAG_InvertedAimYaw;                                      // 0x180B8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		struct FVector                                             mAG_TractorSteeringWheelOffset;                          // 0x180C0(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
@@ -1058,7 +1058,7 @@ namespace CG
 		struct FRotator                                            mAG_ExplorerSteerSpineRotator;                           // 0x18138(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor
 		struct FRotator                                            mAG_ExplorerSpeedSpineRotator;                           // 0x18150(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor
 		bool                                                       mResourceScannerIK;                                      // 0x18168(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_2K75[0x7];                                   // 0x18169(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_B66Z[0x7];                                   // 0x18169(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<int32_t>                                            mListOfPlayedSounds;                                     // 0x18170(0x0010) Edit, BlueprintVisible, DisableEditOnInstance
 		int32_t                                                    mSoundToPlay;                                            // 0x18180(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		int32_t                                                    mNumSounds;                                              // 0x18184(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
@@ -1067,21 +1067,21 @@ namespace CG
 		bool                                                       mHasNobeliskAmmo;                                        // 0x1818A(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mIsCrouching;                                            // 0x1818B(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mIsSliding;                                              // 0x1818C(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_35JP[0x3];                                   // 0x1818D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_G7PA[0x3];                                   // 0x1818D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRotator                                            mSlideFloorAngle;                                        // 0x18190(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor
 		double                                                     mAG_SlidePlayRate;                                       // 0x181A8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mIsSpinEmotePlaying;                                     // 0x181B0(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mAG_SpinEmoteIK;                                         // 0x181B1(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		unsigned char                                              mCustomMovementMode;                                     // 0x181B2(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_60HK[0x5];                                   // 0x181B3(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_JKNI[0x5];                                   // 0x181B3(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRotator                                            mVehicleSteeringWheelRightRot;                           // 0x181B8(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor
 		struct FRotator                                            mVehicleSteeringWheelLeftRot;                            // 0x181D0(0x0018) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor
 		class UAnimSequence*                                       mAttachmentIdlePose;                                     // 0x181E8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
 		bool                                                       mParachuteDeployed;                                      // 0x181F0(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_RLHR[0x7];                                   // 0x181F1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_NM1S[0x7];                                   // 0x181F1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class ASkeletalMeshActor*                                  mSKCup;                                                  // 0x181F8(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
 		bool                                                       mAG_IsCustomMovementMode;                                // 0x18200(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_HKY9[0x7];                                   // 0x18201(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_15R2[0x7];                                   // 0x18201(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UAimOffsetBlendSpace*                                mAttachmentIdleAO;                                       // 0x18208(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
 		class UAnimSequence*                                       mAttachmentCrouchPose;                                   // 0x18210(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
 		class UAnimSequence*                                       mAttachmentSlidePose;                                    // 0x18218(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash

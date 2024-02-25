@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -21,7 +21,7 @@ namespace CG
 	class UCustomMeshComponent : public UMeshComponent
 	{
 	public:
-		unsigned char                                              UnknownData_UJWF[0x10];                                  // 0x05A0(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_IR1E[0x10];                                  // 0x05A0(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		bool SetCustomMeshTriangles(TArray<struct FCustomMeshTriangle> Triangles);

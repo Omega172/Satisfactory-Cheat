@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -96,7 +96,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1B9CA70
+	 * 		RVA    -> 0x72AF2CA70
 	 * 		Name   -> Function Foliage.FoliageStatistics.FoliageOverlappingSphereCount
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -127,7 +127,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1B9C8D0
+	 * 		RVA    -> 0x72AF2C8D0
 	 * 		Name   -> Function Foliage.FoliageStatistics.FoliageOverlappingBoxTransforms
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -158,7 +158,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1B9C770
+	 * 		RVA    -> 0x72AF2C770
 	 * 		Name   -> Function Foliage.FoliageStatistics.FoliageOverlappingBoxCount
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -215,7 +215,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1B9C410
+	 * 		RVA    -> 0x72AF2C410
 	 * 		Name   -> Function Foliage.InteractiveFoliageActor.CapsuleTouched
 	 * 		Flags  -> (Final, Native, Protected, HasOutParms)
 	 * Parameters:
@@ -290,7 +290,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1B9CC00
+	 * 		RVA    -> 0x72AF2CC00
 	 * 		Name   -> Function Foliage.ProceduralFoliageSpawner.Simulate
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:

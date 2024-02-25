@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C0853FF0
+	 * 		RVA    -> 0x773253FF0
 	 * 		Name   -> Function AudioLinkEngine.AudioLinkBlueprintInterface.StopLink
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -32,7 +32,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C0853F60
+	 * 		RVA    -> 0x773253F60
 	 * 		Name   -> Function AudioLinkEngine.AudioLinkBlueprintInterface.SetLinkSound
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -55,7 +55,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C0853ED0
+	 * 		RVA    -> 0x773253ED0
 	 * 		Name   -> Function AudioLinkEngine.AudioLinkBlueprintInterface.PlayLink
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -78,7 +78,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C0853EA0
+	 * 		RVA    -> 0x773253EA0
 	 * 		Name   -> Function AudioLinkEngine.AudioLinkBlueprintInterface.IsLinkPlaying
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */

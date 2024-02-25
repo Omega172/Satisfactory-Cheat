@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E5EC0
+	 * 		RVA    -> 0x6E6925EC0
 	 * 		Name   -> Function AudioWidgets.AudioMeter.SetMeterValueColor
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -35,7 +35,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E5E30
+	 * 		RVA    -> 0x6E6925E30
 	 * 		Name   -> Function AudioWidgets.AudioMeter.SetMeterScaleLabelColor
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -58,7 +58,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E5DA0
+	 * 		RVA    -> 0x6E6925DA0
 	 * 		Name   -> Function AudioWidgets.AudioMeter.SetMeterScaleColor
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -81,7 +81,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E5D10
+	 * 		RVA    -> 0x6E6925D10
 	 * 		Name   -> Function AudioWidgets.AudioMeter.SetMeterPeakColor
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -104,7 +104,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E5C80
+	 * 		RVA    -> 0x6E6925C80
 	 * 		Name   -> Function AudioWidgets.AudioMeter.SetMeterClippingColor
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -127,7 +127,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E5BD0
+	 * 		RVA    -> 0x6E6925BD0
 	 * 		Name   -> Function AudioWidgets.AudioMeter.SetMeterChannelInfo
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -150,7 +150,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E5B40
+	 * 		RVA    -> 0x6E6925B40
 	 * 		Name   -> Function AudioWidgets.AudioMeter.SetMeterBackgroundColor
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -173,7 +173,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E5960
+	 * 		RVA    -> 0x6E6925960
 	 * 		Name   -> Function AudioWidgets.AudioMeter.SetBackgroundColor
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -196,7 +196,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> DelegateFunction AudioWidgets.AudioMeter.GetMeterChannelInfo__DelegateSignature
 	 * 		Flags  -> (Public, Delegate)
 	 */
@@ -217,7 +217,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E5620
+	 * 		RVA    -> 0x6E6925620
 	 * 		Name   -> Function AudioWidgets.AudioMeter.GetMeterChannelInfo
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -253,7 +253,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E6DC0
+	 * 		RVA    -> 0x6E6926DC0
 	 * 		Name   -> Function AudioWidgets.AudioRadialSlider.SetWidgetLayout
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -276,7 +276,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E6BD0
+	 * 		RVA    -> 0x6E6926BD0
 	 * 		Name   -> Function AudioWidgets.AudioRadialSlider.SetValueTextReadOnly
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -299,7 +299,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E6A90
+	 * 		RVA    -> 0x6E6926A90
 	 * 		Name   -> Function AudioWidgets.AudioRadialSlider.SetUnitsTextReadOnly
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -322,7 +322,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E68B0
+	 * 		RVA    -> 0x6E69268B0
 	 * 		Name   -> Function AudioWidgets.AudioRadialSlider.SetUnitsText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -345,7 +345,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E66F0
+	 * 		RVA    -> 0x6E69266F0
 	 * 		Name   -> Function AudioWidgets.AudioRadialSlider.SetTextLabelBackgroundColor
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -368,7 +368,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E6570
+	 * 		RVA    -> 0x6E6926570
 	 * 		Name   -> Function AudioWidgets.AudioRadialSlider.SetSliderThickness
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -391,7 +391,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E64C0
+	 * 		RVA    -> 0x6E69264C0
 	 * 		Name   -> Function AudioWidgets.AudioRadialSlider.SetSliderProgressColor
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -414,7 +414,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E6360
+	 * 		RVA    -> 0x6E6926360
 	 * 		Name   -> Function AudioWidgets.AudioRadialSlider.SetSliderBarColor
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -437,7 +437,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E6170
+	 * 		RVA    -> 0x6E6926170
 	 * 		Name   -> Function AudioWidgets.AudioRadialSlider.SetShowUnitsText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -460,7 +460,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E5FF0
+	 * 		RVA    -> 0x6E6925FF0
 	 * 		Name   -> Function AudioWidgets.AudioRadialSlider.SetShowLabelOnlyOnHover
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -483,7 +483,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E5F50
+	 * 		RVA    -> 0x6E6925F50
 	 * 		Name   -> Function AudioWidgets.AudioRadialSlider.SetOutputRange
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -506,7 +506,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E5AA0
+	 * 		RVA    -> 0x6E6925AA0
 	 * 		Name   -> Function AudioWidgets.AudioRadialSlider.SetHandStartEndRatio
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -529,7 +529,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E59F0
+	 * 		RVA    -> 0x6E69259F0
 	 * 		Name   -> Function AudioWidgets.AudioRadialSlider.SetCenterBackgroundColor
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -552,7 +552,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E58A0
+	 * 		RVA    -> 0x6E69258A0
 	 * 		Name   -> Function AudioWidgets.AudioRadialSlider.GetSliderValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -577,7 +577,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E5720
+	 * 		RVA    -> 0x6E6925720
 	 * 		Name   -> Function AudioWidgets.AudioRadialSlider.GetOutputValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -644,7 +644,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E6D10
+	 * 		RVA    -> 0x6E6926D10
 	 * 		Name   -> Function AudioWidgets.AudioSliderBase.SetWidgetBackgroundColor
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -667,7 +667,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E6C70
+	 * 		RVA    -> 0x6E6926C70
 	 * 		Name   -> Function AudioWidgets.AudioSliderBase.SetValueTextReadOnly
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -690,7 +690,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E6B30
+	 * 		RVA    -> 0x6E6926B30
 	 * 		Name   -> Function AudioWidgets.AudioSliderBase.SetUnitsTextReadOnly
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -713,7 +713,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E69A0
+	 * 		RVA    -> 0x6E69269A0
 	 * 		Name   -> Function AudioWidgets.AudioSliderBase.SetUnitsText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -736,7 +736,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E67D0
+	 * 		RVA    -> 0x6E69267D0
 	 * 		Name   -> Function AudioWidgets.AudioSliderBase.SetTextLabelBackgroundColor
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -759,7 +759,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E6640
+	 * 		RVA    -> 0x6E6926640
 	 * 		Name   -> Function AudioWidgets.AudioSliderBase.SetSliderThumbColor
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -782,7 +782,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E6410
+	 * 		RVA    -> 0x6E6926410
 	 * 		Name   -> Function AudioWidgets.AudioSliderBase.SetSliderBarColor
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -805,7 +805,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E62B0
+	 * 		RVA    -> 0x6E69262B0
 	 * 		Name   -> Function AudioWidgets.AudioSliderBase.SetSliderBackgroundColor
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -828,7 +828,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E6210
+	 * 		RVA    -> 0x6E6926210
 	 * 		Name   -> Function AudioWidgets.AudioSliderBase.SetShowUnitsText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -851,7 +851,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E60B0
+	 * 		RVA    -> 0x6E69260B0
 	 * 		Name   -> Function AudioWidgets.AudioSliderBase.SetShowLabelOnlyOnHover
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -874,7 +874,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E5560
+	 * 		RVA    -> 0x6E6925560
 	 * 		Name   -> Function AudioWidgets.AudioSliderBase.GetSliderValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -899,7 +899,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E57E0
+	 * 		RVA    -> 0x6E69257E0
 	 * 		Name   -> Function AudioWidgets.AudioSliderBase.GetOutputValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -924,7 +924,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4727E5560
+	 * 		RVA    -> 0x6E6925560
 	 * 		Name   -> Function AudioWidgets.AudioSliderBase.GetLinValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:

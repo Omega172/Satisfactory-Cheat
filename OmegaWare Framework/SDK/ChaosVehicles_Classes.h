@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -23,10 +23,10 @@ namespace CG
 	public:
 		bool                                                       bReverseAsBrake : 1;                                     // 0x0160(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bThrottleAsBrake : 1;                                    // 0x0160(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_77WB[0x3];                                   // 0x0161(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_2DNH[0x3];                                   // 0x0161(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Mass;                                                    // 0x0164(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bEnableCenterOfMassOverride;                             // 0x0168(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_GL0O[0x7];                                   // 0x0169(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_LWEW[0x7];                                   // 0x0169(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             CenterOfMassOverride;                                    // 0x0170(0x0018) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      ChassisWidth;                                            // 0x0188(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      ChassisHeight;                                           // 0x018C(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -42,17 +42,17 @@ namespace CG
 		struct FVehicleTorqueControlConfig                         TorqueControl;                                           // 0x01E0(0x0040) Edit, NoDestructor, NativeAccessSpecifierPublic
 		struct FVehicleTargetRotationControlConfig                 TargetRotationControl;                                   // 0x0220(0x0058) Edit, NoDestructor, NativeAccessSpecifierPublic
 		struct FVehicleStabilizeControlConfig                      StabilizeControl;                                        // 0x0278(0x0018) Edit, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_X05L[0x4];                                   // 0x0290(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_N3I0[0x4];                                   // 0x0290(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		bool                                                       bRawHandbrakeInput : 1;                                  // 0x0294(0x0001) BIT_FIELD Transient, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bRawGearUpInput : 1;                                     // 0x0294(0x0001) BIT_FIELD Transient, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bRawGearDownInput : 1;                                   // 0x0294(0x0001) BIT_FIELD Transient, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_98R4[0x3];                                   // 0x0295(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_T7MK[0x3];                                   // 0x0295(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		bool                                                       bWasAvoidanceUpdated : 1;                                // 0x0298(0x0001) BIT_FIELD Transient, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_B4DS[0x3];                                   // 0x0299(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_3ZGD[0x3];                                   // 0x0299(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		bool                                                       bParkEnabled : 1;                                        // 0x029C(0x0001) BIT_FIELD Transient, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_1RGT[0x33];                                  // 0x029D(0x0033) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_HAQX[0x33];                                  // 0x029D(0x0033) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVehicleReplicatedState                             ReplicatedState;                                         // 0x02D0(0x0028) Net, Transient, NoDestructor, Protected, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_B98H[0x4];                                   // 0x02F8(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_CFLY[0x4];                                   // 0x02F8(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      RawSteeringInput;                                        // 0x02FC(0x0004) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		float                                                      RawThrottleInput;                                        // 0x0300(0x0004) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		float                                                      RawBrakeInput;                                           // 0x0304(0x0004) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
@@ -67,7 +67,7 @@ namespace CG
 		float                                                      YawInput;                                                // 0x0328(0x0004) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		float                                                      HandbrakeInput;                                          // 0x032C(0x0004) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bRequiresControllerForInputs;                            // 0x0330(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_ZUM8[0x3];                                   // 0x0331(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_C4CE[0x3];                                   // 0x0331(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      IdleBrakeInput;                                          // 0x0334(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		float                                                      StopThreshold;                                           // 0x0338(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		float                                                      WrongDirectionThreshold;                                 // 0x033C(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
@@ -78,9 +78,9 @@ namespace CG
 		struct FVehicleInputRateConfig                             PitchInputRate;                                          // 0x05A0(0x0098) Edit, AdvancedDisplay, Protected, NativeAccessSpecifierProtected
 		struct FVehicleInputRateConfig                             RollInputRate;                                           // 0x0638(0x0098) Edit, AdvancedDisplay, Protected, NativeAccessSpecifierProtected
 		struct FVehicleInputRateConfig                             YawInputRate;                                            // 0x06D0(0x0098) Edit, AdvancedDisplay, Protected, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_Z5LB[0x1A0];                                 // 0x0768(0x01A0) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ISTY[0x1A0];                                 // 0x0768(0x01A0) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class AController*                                         OverrideController;                                      // 0x0908(0x0008) Net, ZeroConstructor, Transient, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_FVGQ[0x20];                                  // 0x0910(0x0020) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_LTGC[0x20];                                  // 0x0910(0x0020) MISSED OFFSET (PADDING)
 
 	public:
 		void SetYawInput(float Yaw);
@@ -124,7 +124,7 @@ namespace CG
 	public:
 		class UStaticMesh*                                         CollisionMesh;                                           // 0x0028(0x0008) Edit, ZeroConstructor, DisableEditOnInstance, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EAxleType                                                  AxleType;                                                // 0x0030(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_MIC6[0x7];                                   // 0x0031(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_MLI6[0x7];                                   // 0x0031(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             Offset;                                                  // 0x0038(0x0018) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      WheelRadius;                                             // 0x0050(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      WheelWidth;                                              // 0x0054(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -141,10 +141,10 @@ namespace CG
 		bool                                                       bAffectedByEngine;                                       // 0x0077(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bABSEnabled;                                             // 0x0078(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bTractionControlEnabled;                                 // 0x0079(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_SHPG[0x2];                                   // 0x007A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_03UG[0x2];                                   // 0x007A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      MaxWheelspinRotation;                                    // 0x007C(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ETorqueCombineMethod                                       ExternalTorqueCombineMethod;                             // 0x0080(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_T9Y9[0x7];                                   // 0x0081(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_XZX4[0x7];                                   // 0x0081(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRuntimeFloatCurve                                  LateralSlipGraph;                                        // 0x0088(0x0088) Edit, NativeAccessSpecifierPublic
 		struct FVector                                             SuspensionAxis;                                          // 0x0110(0x0018) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             SuspensionForceOffset;                                   // 0x0128(0x0018) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -158,23 +158,23 @@ namespace CG
 		float                                                      RollbarScaling;                                          // 0x015C(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ESweepShape                                                SweepShape;                                              // 0x0160(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ESweepType                                                 SweepType;                                               // 0x0161(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_SVZH[0x2];                                   // 0x0162(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_RJSV[0x2];                                   // 0x0162(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      MaxBrakeTorque;                                          // 0x0164(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      MaxHandBrakeTorque;                                      // 0x0168(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_OWIC[0x4];                                   // 0x016C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_5RTD[0x4];                                   // 0x016C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UChaosWheeledVehicleMovementComponent*               VehicleComponent;                                        // 0x0170(0x0008) ExportObject, ZeroConstructor, Transient, InstancedReference, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    WheelIndex;                                              // 0x0178(0x0004) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      DebugLongSlip;                                           // 0x017C(0x0004) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      DebugLatSlip;                                            // 0x0180(0x0004) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      DebugNormalizedTireLoad;                                 // 0x0184(0x0004) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_QEGY[0x4];                                   // 0x0188(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_8002[0x4];                                   // 0x0188(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      DebugWheelTorque;                                        // 0x018C(0x0004) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      DebugLongForce;                                          // 0x0190(0x0004) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      DebugLatForce;                                           // 0x0194(0x0004) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             Location;                                                // 0x0198(0x0018) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             OldLocation;                                             // 0x01B0(0x0018) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             Velocity;                                                // 0x01C8(0x0018) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_67XV[0x100];                                 // 0x01E0(0x0100) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_LUU0[0x100];                                 // 0x01E0(0x0100) MISSED OFFSET (PADDING)
 
 	public:
 		bool IsInAir();
@@ -199,13 +199,13 @@ namespace CG
 		TArray<struct FChaosWheelSetup>                            WheelSetups;                                             // 0x0930(0x0010) Edit, ZeroConstructor, NativeAccessSpecifierPublic
 		struct FCollisionResponseContainer                         WheelTraceCollisionResponses;                            // 0x0940(0x0020) Edit, NoDestructor, NativeAccessSpecifierPublic
 		bool                                                       bMechanicalSimEnabled;                                   // 0x0960(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_4F2E[0x7];                                   // 0x0961(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_6ZPM[0x7];                                   // 0x0961(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVehicleEngineConfig                                EngineSetup;                                             // 0x0968(0x00C8) Edit, NativeAccessSpecifierPublic
 		struct FVehicleDifferentialConfig                          DifferentialSetup;                                       // 0x0A30(0x0010) Edit, NoDestructor, NativeAccessSpecifierPublic
 		struct FVehicleTransmissionConfig                          TransmissionSetup;                                       // 0x0A40(0x0070) Edit, NativeAccessSpecifierPublic
 		struct FVehicleSteeringConfig                              SteeringSetup;                                           // 0x0AB0(0x00D8) Edit, NativeAccessSpecifierPublic
 		TArray<class UChaosVehicleWheel*>                          Wheels;                                                  // 0x0B88(0x0010) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, DuplicateTransient, UObjectWrapper, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_16KL[0xB0];                                  // 0x0B98(0x00B0) Fix size for supers
+		unsigned char                                              UnknownData_T4HO[0xB0];                                  // 0x0B98(0x00B0) Fix size for supers
 
 	public:
 		void SetWheelSlipGraphMultiplier(int32_t WheelIndex, float Multiplier);
@@ -254,10 +254,10 @@ namespace CG
 	class UVehicleAnimationInstance : public UAnimInstance
 	{
 	public:
-		unsigned char                                              UnknownData_YB85[0x8];                                   // 0x0348(0x0008) Fix Super Size
-		unsigned char                                              UnknownData_VY48[0x8B0];                                 // 0x0350(0x08B0) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_G6EQ[0x8];                                   // 0x0348(0x0008) Fix Super Size
+		unsigned char                                              UnknownData_HTG0[0x8B0];                                 // 0x0350(0x08B0) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UChaosWheeledVehicleMovementComponent*               WheeledVehicleComponent;                                 // 0x0C00(0x0008) ExportObject, ZeroConstructor, Transient, InstancedReference, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_B4BI[0x8];                                   // 0x0C08(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_NQD0[0x8];                                   // 0x0C08(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		class AWheeledVehiclePawn* GetVehicle();

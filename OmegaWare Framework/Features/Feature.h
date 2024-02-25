@@ -4,7 +4,8 @@
 class Feature
 {
 private:
-	bool Initalized = false;
+	bool Initialized = false;
+	std::mutex Mutex; // Prevent problems with multithreading by using locks!
 
 public:
 	Feature() {};
@@ -18,12 +19,16 @@ public:
 	// Handle checking for any key/hotkey presses or holds needed for features
 	virtual void HandleKeys() = 0;
 
-	// This should be run in the ImGUI draw loop, used to draw anything to the menu
-	virtual void DrawMenuItems() = 0;
+	virtual void PopulateMenu() = 0;
 
-	// This should be run at the top of the ImGUI draw loop, used to render things like ESP, Tracers, and Debug Info
 	virtual void Render() = 0;
 
 	// This should be run in the feature loop, used to run any acutal feature code like setting a value for godmode
 	virtual void Run() = 0;
+
+	// Save the feature's config to the config file
+	virtual void SaveConfig() = 0;
+
+	// Load the feature's config from the config file
+	virtual void LoadConfig() = 0;
 };

@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A56310
+	 * 		RVA    -> 0x6E9506310
 	 * 		Name   -> Function DSTelemetry.DJSONArray.CreateJSONArray
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -37,7 +37,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A562E0
+	 * 		RVA    -> 0x6E95062E0
 	 * 		Name   -> Function DSTelemetry.DJSONArray.Clear
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -59,7 +59,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A56280
+	 * 		RVA    -> 0x6E9506280
 	 * 		Name   -> Function DSTelemetry.DJSONArray.AsString
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -81,7 +81,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A561C0
+	 * 		RVA    -> 0x6E95061C0
 	 * 		Name   -> Function DSTelemetry.DJSONArray.AddStringItem
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -106,7 +106,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A56080
+	 * 		RVA    -> 0x6E9506080
 	 * 		Name   -> Function DSTelemetry.DJSONArray.AddStringArrayItem
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -131,7 +131,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A55FE0
+	 * 		RVA    -> 0x6E9505FE0
 	 * 		Name   -> Function DSTelemetry.DJSONArray.AddJSONObjectItem
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -156,7 +156,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A55EE0
+	 * 		RVA    -> 0x6E9505EE0
 	 * 		Name   -> Function DSTelemetry.DJSONArray.AddJSONObjectArrayItem
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -181,7 +181,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A55E40
+	 * 		RVA    -> 0x6E9505E40
 	 * 		Name   -> Function DSTelemetry.DJSONArray.AddJSONArrayItem
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -206,7 +206,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A55D40
+	 * 		RVA    -> 0x6E9505D40
 	 * 		Name   -> Function DSTelemetry.DJSONArray.AddJSONArrayArrayItem
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -231,7 +231,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A55CA0
+	 * 		RVA    -> 0x6E9505CA0
 	 * 		Name   -> Function DSTelemetry.DJSONArray.AddIntegerItem
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -256,7 +256,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A55BA0
+	 * 		RVA    -> 0x6E9505BA0
 	 * 		Name   -> Function DSTelemetry.DJSONArray.AddIntegerArrayItem
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -281,7 +281,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A55B00
+	 * 		RVA    -> 0x6E9505B00
 	 * 		Name   -> Function DSTelemetry.DJSONArray.AddFloatItem
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -306,7 +306,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A55A00
+	 * 		RVA    -> 0x6E9505A00
 	 * 		Name   -> Function DSTelemetry.DJSONArray.AddFloatArrayItem
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -331,7 +331,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A559D0
+	 * 		RVA    -> 0x6E95059D0
 	 * 		Name   -> Function DSTelemetry.DJSONArray.AddEmptyItem
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -353,7 +353,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A55930
+	 * 		RVA    -> 0x6E9505930
 	 * 		Name   -> Function DSTelemetry.DJSONArray.AddBooleanItem
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -378,7 +378,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A55830
+	 * 		RVA    -> 0x6E9505830
 	 * 		Name   -> Function DSTelemetry.DJSONArray.AddBooleanArrayItem
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -417,7 +417,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A57AA0
+	 * 		RVA    -> 0x6E9507AA0
 	 * 		Name   -> Function DSTelemetry.DJSONObject.CreateJSONObject
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -442,7 +442,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A57A70
+	 * 		RVA    -> 0x6E9507A70
 	 * 		Name   -> Function DSTelemetry.DJSONObject.Clear
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -464,7 +464,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A57A10
+	 * 		RVA    -> 0x6E9507A10
 	 * 		Name   -> Function DSTelemetry.DJSONObject.AsString
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -486,7 +486,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A578D0
+	 * 		RVA    -> 0x6E95078D0
 	 * 		Name   -> Function DSTelemetry.DJSONObject.AddStringField
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -513,7 +513,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A57740
+	 * 		RVA    -> 0x6E9507740
 	 * 		Name   -> Function DSTelemetry.DJSONObject.AddStringArrayField
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -540,7 +540,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A57640
+	 * 		RVA    -> 0x6E9507640
 	 * 		Name   -> Function DSTelemetry.DJSONObject.AddJSONObjectField
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -567,7 +567,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A574E0
+	 * 		RVA    -> 0x6E95074E0
 	 * 		Name   -> Function DSTelemetry.DJSONObject.AddJSONObjectArrayField
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -594,7 +594,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A573E0
+	 * 		RVA    -> 0x6E95073E0
 	 * 		Name   -> Function DSTelemetry.DJSONObject.AddJSONArrayField
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -621,7 +621,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A57280
+	 * 		RVA    -> 0x6E9507280
 	 * 		Name   -> Function DSTelemetry.DJSONObject.AddJSONArrayArrayField
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -648,7 +648,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A57180
+	 * 		RVA    -> 0x6E9507180
 	 * 		Name   -> Function DSTelemetry.DJSONObject.AddIntegerField
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -675,7 +675,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A57020
+	 * 		RVA    -> 0x6E9507020
 	 * 		Name   -> Function DSTelemetry.DJSONObject.AddIntegerArrayField
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -702,7 +702,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A56F10
+	 * 		RVA    -> 0x6E9506F10
 	 * 		Name   -> Function DSTelemetry.DJSONObject.AddFloatField
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -729,7 +729,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A56DB0
+	 * 		RVA    -> 0x6E9506DB0
 	 * 		Name   -> Function DSTelemetry.DJSONObject.AddFloatArrayField
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -756,7 +756,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A56CF0
+	 * 		RVA    -> 0x6E9506CF0
 	 * 		Name   -> Function DSTelemetry.DJSONObject.AddEmptyField
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -781,7 +781,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A56BE0
+	 * 		RVA    -> 0x6E9506BE0
 	 * 		Name   -> Function DSTelemetry.DJSONObject.AddBooleanField
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -808,7 +808,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A56A80
+	 * 		RVA    -> 0x6E9506A80
 	 * 		Name   -> Function DSTelemetry.DJSONObject.AddBooleanArrayField
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -849,7 +849,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A59730
+	 * 		RVA    -> 0x6E9509730
 	 * 		Name   -> Function DSTelemetry.DSTelemetry.Terminate
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -869,7 +869,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A59610
+	 * 		RVA    -> 0x6E9509610
 	 * 		Name   -> Function DSTelemetry.DSTelemetry.SubmitString
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -896,7 +896,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A594F0
+	 * 		RVA    -> 0x6E95094F0
 	 * 		Name   -> Function DSTelemetry.DSTelemetry.SubmitSerialized
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -923,7 +923,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A593F0
+	 * 		RVA    -> 0x6E95093F0
 	 * 		Name   -> Function DSTelemetry.DSTelemetry.SubmitJSONObject
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -950,7 +950,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A592F0
+	 * 		RVA    -> 0x6E95092F0
 	 * 		Name   -> Function DSTelemetry.DSTelemetry.SubmitJSONArray
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -977,7 +977,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A591F0
+	 * 		RVA    -> 0x6E95091F0
 	 * 		Name   -> Function DSTelemetry.DSTelemetry.SubmitInteger
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1004,7 +1004,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A590F0
+	 * 		RVA    -> 0x6E95090F0
 	 * 		Name   -> Function DSTelemetry.DSTelemetry.SubmitFloat
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1031,7 +1031,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A59030
+	 * 		RVA    -> 0x6E9509030
 	 * 		Name   -> Function DSTelemetry.DSTelemetry.SubmitEmpty
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1056,7 +1056,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A58F30
+	 * 		RVA    -> 0x6E9508F30
 	 * 		Name   -> Function DSTelemetry.DSTelemetry.SubmitBoolean
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1083,7 +1083,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A58DF0
+	 * 		RVA    -> 0x6E9508DF0
 	 * 		Name   -> Function DSTelemetry.DSTelemetry.Start
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1110,7 +1110,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A58CD0
+	 * 		RVA    -> 0x6E9508CD0
 	 * 		Name   -> Function DSTelemetry.DSTelemetry.SetStateString
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1137,7 +1137,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A58BB0
+	 * 		RVA    -> 0x6E9508BB0
 	 * 		Name   -> Function DSTelemetry.DSTelemetry.SetStateSerialized
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1164,7 +1164,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A58AB0
+	 * 		RVA    -> 0x6E9508AB0
 	 * 		Name   -> Function DSTelemetry.DSTelemetry.SetStateJSONObject
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1191,7 +1191,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A589B0
+	 * 		RVA    -> 0x6E95089B0
 	 * 		Name   -> Function DSTelemetry.DSTelemetry.SetStateJSONArray
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1218,7 +1218,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A588B0
+	 * 		RVA    -> 0x6E95088B0
 	 * 		Name   -> Function DSTelemetry.DSTelemetry.SetStateInteger
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1245,7 +1245,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A587B0
+	 * 		RVA    -> 0x6E95087B0
 	 * 		Name   -> Function DSTelemetry.DSTelemetry.SetStateFloat
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1272,7 +1272,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A586F0
+	 * 		RVA    -> 0x6E95086F0
 	 * 		Name   -> Function DSTelemetry.DSTelemetry.SetStateEmpty
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1297,7 +1297,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A585F0
+	 * 		RVA    -> 0x6E95085F0
 	 * 		Name   -> Function DSTelemetry.DSTelemetry.SetStateBoolean
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1324,7 +1324,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A58530
+	 * 		RVA    -> 0x6E9508530
 	 * 		Name   -> Function DSTelemetry.DSTelemetry.SetOnlinePlatformUserID
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1349,7 +1349,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A58470
+	 * 		RVA    -> 0x6E9508470
 	 * 		Name   -> Function DSTelemetry.DSTelemetry.SetOnlinePlatformIdentifier
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1374,7 +1374,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A58450
+	 * 		RVA    -> 0x6E9508450
 	 * 		Name   -> Function DSTelemetry.DSTelemetry.Resume
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1394,7 +1394,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A58430
+	 * 		RVA    -> 0x6E9508430
 	 * 		Name   -> Function DSTelemetry.DSTelemetry.Pause
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1414,7 +1414,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A58400
+	 * 		RVA    -> 0x6E9508400
 	 * 		Name   -> Function DSTelemetry.DSTelemetry.IsTerminated
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1436,7 +1436,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A583D0
+	 * 		RVA    -> 0x6E95083D0
 	 * 		Name   -> Function DSTelemetry.DSTelemetry.IsPaused
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1458,7 +1458,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A583A0
+	 * 		RVA    -> 0x6E95083A0
 	 * 		Name   -> Function DSTelemetry.DSTelemetry.GetTelemetryInstanceID
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1480,7 +1480,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x474A58310
+	 * 		RVA    -> 0x6E9508310
 	 * 		Name   -> Function DSTelemetry.DSTelemetry.CreateTelemetry
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:

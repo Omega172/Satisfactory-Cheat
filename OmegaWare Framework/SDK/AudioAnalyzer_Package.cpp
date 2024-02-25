@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -40,7 +40,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x478F95EA0
+	 * 		RVA    -> 0x6EA315EA0
 	 * 		Name   -> Function AudioAnalyzer.AudioAnalyzer.StopAnalyzing
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -63,7 +63,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x478F95AB0
+	 * 		RVA    -> 0x6EA315AB0
 	 * 		Name   -> Function AudioAnalyzer.AudioAnalyzer.StartAnalyzing
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 	 * Parameters:

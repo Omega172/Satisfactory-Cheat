@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -98,7 +98,7 @@ namespace CG
 	{
 	public:
 		class FName                                                KeyName;                                                 // 0x0000(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_EAK1[0x10];                                  // 0x0008(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_77EC[0x10];                                  // 0x0008(0x0010) MISSED OFFSET (PADDING)
 	};
 
 }

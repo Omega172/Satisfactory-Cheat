@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C953C080
+	 * 		RVA    -> 0x76767C080
 	 * 		Name   -> Function StaticMeshDescription.StaticMeshDescription.SetVertexInstanceUV
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -39,7 +39,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C953BFA0
+	 * 		RVA    -> 0x76767BFA0
 	 * 		Name   -> Function StaticMeshDescription.StaticMeshDescription.SetPolygonGroupMaterialSlotName
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -64,7 +64,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C953BEC0
+	 * 		RVA    -> 0x76767BEC0
 	 * 		Name   -> Function StaticMeshDescription.StaticMeshDescription.GetVertexInstanceUV
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -91,7 +91,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C953BB60
+	 * 		RVA    -> 0x76767BB60
 	 * 		Name   -> Function StaticMeshDescription.StaticMeshDescription.CreateCube
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:

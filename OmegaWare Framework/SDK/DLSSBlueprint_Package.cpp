@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x482C93EE0
+	 * 		RVA    -> 0x6FA613EE0
 	 * 		Name   -> Function DLSSBlueprint.DLSSLibrary.SetDLSSSharpness
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -35,7 +35,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x482C93E20
+	 * 		RVA    -> 0x6FA613E20
 	 * 		Name   -> Function DLSSBlueprint.DLSSLibrary.SetDLSSMode
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -60,7 +60,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x482C93DC0
+	 * 		RVA    -> 0x6FA613DC0
 	 * 		Name   -> Function DLSSBlueprint.DLSSLibrary.QueryDLSSSupport
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -82,7 +82,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x482C93D90
+	 * 		RVA    -> 0x6FA613D90
 	 * 		Name   -> Function DLSSBlueprint.DLSSLibrary.IsDLSSSupported
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -104,7 +104,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x482C93C50
+	 * 		RVA    -> 0x6FA613C50
 	 * 		Name   -> Function DLSSBlueprint.DLSSLibrary.IsDLSSModeSupported
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -129,7 +129,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x482C93C20
+	 * 		RVA    -> 0x6FA613C20
 	 * 		Name   -> Function DLSSBlueprint.DLSSLibrary.IsDLSSEnabled
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -151,7 +151,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x482C93BB0
+	 * 		RVA    -> 0x6FA613BB0
 	 * 		Name   -> Function DLSSBlueprint.DLSSLibrary.IsDLAAEnabled
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -173,7 +173,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x482C93B30
+	 * 		RVA    -> 0x6FA613B30
 	 * 		Name   -> Function DLSSBlueprint.DLSSLibrary.GetSupportedDLSSModes
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -195,7 +195,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x482C93AD0
+	 * 		RVA    -> 0x6FA613AD0
 	 * 		Name   -> Function DLSSBlueprint.DLSSLibrary.GetDLSSSharpness
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -217,7 +217,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x482C939E0
+	 * 		RVA    -> 0x6FA6139E0
 	 * 		Name   -> Function DLSSBlueprint.DLSSLibrary.GetDLSSScreenPercentageRange
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -245,7 +245,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x482C93700
+	 * 		RVA    -> 0x6FA613700
 	 * 		Name   -> Function DLSSBlueprint.DLSSLibrary.GetDLSSModeInformation
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -289,7 +289,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x482C936D0
+	 * 		RVA    -> 0x6FA6136D0
 	 * 		Name   -> Function DLSSBlueprint.DLSSLibrary.GetDLSSMode
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -311,7 +311,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x482C935C0
+	 * 		RVA    -> 0x6FA6135C0
 	 * 		Name   -> Function DLSSBlueprint.DLSSLibrary.GetDLSSMinimumDriverVersion
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -339,7 +339,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x482C93B00
+	 * 		RVA    -> 0x6FA613B00
 	 * 		Name   -> Function DLSSBlueprint.DLSSLibrary.GetDefaultDLSSMode
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -361,7 +361,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x482C93540
+	 * 		RVA    -> 0x6FA613540
 	 * 		Name   -> Function DLSSBlueprint.DLSSLibrary.EnableDLSS
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -384,7 +384,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x482C934C0
+	 * 		RVA    -> 0x6FA6134C0
 	 * 		Name   -> Function DLSSBlueprint.DLSSLibrary.EnableDLAA
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, BlueprintCallable)
 	 * Parameters:

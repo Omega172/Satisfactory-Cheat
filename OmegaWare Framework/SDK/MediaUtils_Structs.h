@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -52,11 +52,11 @@ namespace CG
 	{
 	public:
 		struct FMediaPlayerTrackOptions                            Tracks;                                                  // 0x0000(0x001C) BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_POEB[0x4];                                   // 0x001C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_YLIL[0x4];                                   // 0x001C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTimespan                                           SeekTime;                                                // 0x0020(0x0008) BlueprintVisible, ZeroConstructor, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EMediaPlayerOptionBooleanOverride                          PlayOnOpen;                                              // 0x0028(0x0001) BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EMediaPlayerOptionBooleanOverride                          Loop;                                                    // 0x0029(0x0001) BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_XGFL[0x6];                                   // 0x002A(0x0006) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_7Y03[0x6];                                   // 0x002A(0x0006) MISSED OFFSET (PADDING)
 	};
 
 }

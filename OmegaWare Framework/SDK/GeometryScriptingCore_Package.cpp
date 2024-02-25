@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -26,7 +26,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792AC7D0
+	 * 		RVA    -> 0x6EB1FC7D0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_CollisionFunctions.SetStaticMeshCollisionFromMesh
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -57,7 +57,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792AC4F0
+	 * 		RVA    -> 0x6EB1FC4F0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_CollisionFunctions.SetStaticMeshCollisionFromComponent
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -86,7 +86,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A8130
+	 * 		RVA    -> 0x6EB1F8130
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_CollisionFunctions.SetDynamicMeshCollisionFromMesh
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -117,7 +117,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A0220
+	 * 		RVA    -> 0x6EB1F0220
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_CollisionFunctions.ResetDynamicMeshCollision
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -158,7 +158,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479280480
+	 * 		RVA    -> 0x6EB1D0480
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ContainmentFunctions.ComputeMeshSweptHull
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -196,7 +196,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479280200
+	 * 		RVA    -> 0x6EB1D0200
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ContainmentFunctions.ComputeMeshConvexHull
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -234,7 +234,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479280000
+	 * 		RVA    -> 0x6EB1D0000
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ContainmentFunctions.ComputeMeshConvexDecomposition
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -284,7 +284,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792ACDB0
+	 * 		RVA    -> 0x6EB1FCDB0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.SetVectorListItem
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -316,7 +316,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A7D20
+	 * 		RVA    -> 0x6EB1F7D20
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.SetUVListItem
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -348,7 +348,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792AC300
+	 * 		RVA    -> 0x6EB1FC300
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.SetScalarListItem
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -380,7 +380,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A8520
+	 * 		RVA    -> 0x6EB1F8520
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.SetIndexListItem
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -412,7 +412,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A7D20
+	 * 		RVA    -> 0x6EB1F7D20
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.SetColorListItem
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -444,7 +444,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479290E00
+	 * 		RVA    -> 0x6EB1E0E00
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.GetVectorListLength
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -469,7 +469,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479290CE0
+	 * 		RVA    -> 0x6EB1E0CE0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.GetVectorListLastIndex
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -494,7 +494,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929AC50
+	 * 		RVA    -> 0x6EB1EAC50
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.GetVectorListItem
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -525,7 +525,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479290E00
+	 * 		RVA    -> 0x6EB1E0E00
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.GetUVListLength
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -550,7 +550,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479290CE0
+	 * 		RVA    -> 0x6EB1E0CE0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.GetUVListLastIndex
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -575,7 +575,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929A880
+	 * 		RVA    -> 0x6EB1EA880
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.GetUVListItem
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -606,7 +606,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479290E00
+	 * 		RVA    -> 0x6EB1E0E00
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.GetTriangleListLength
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -631,7 +631,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479298F40
+	 * 		RVA    -> 0x6EB1E8F40
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.GetTriangleListLastTriangle
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -656,7 +656,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479298D60
+	 * 		RVA    -> 0x6EB1E8D60
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.GetTriangleListItem
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -687,7 +687,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479290E00
+	 * 		RVA    -> 0x6EB1E0E00
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.GetScalarListLength
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -712,7 +712,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479290CE0
+	 * 		RVA    -> 0x6EB1E0CE0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.GetScalarListLastIndex
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -737,7 +737,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479297800
+	 * 		RVA    -> 0x6EB1E7800
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.GetScalarListItem
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -768,7 +768,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792919B0
+	 * 		RVA    -> 0x6EB1E19B0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.GetIndexListLength
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -793,7 +793,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479291890
+	 * 		RVA    -> 0x6EB1E1890
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.GetIndexListLastIndex
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -818,7 +818,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792916A0
+	 * 		RVA    -> 0x6EB1E16A0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.GetIndexListItem
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -849,7 +849,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479290E00
+	 * 		RVA    -> 0x6EB1E0E00
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.GetColorListLength
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -874,7 +874,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479290CE0
+	 * 		RVA    -> 0x6EB1E0CE0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.GetColorListLastIndex
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -899,7 +899,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479290B10
+	 * 		RVA    -> 0x6EB1E0B10
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.GetColorListItem
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -930,7 +930,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928D980
+	 * 		RVA    -> 0x6EB1DD980
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.ExtractColorListChannels
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -963,7 +963,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928D550
+	 * 		RVA    -> 0x6EB1DD550
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.ExtractColorListChannel
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -992,7 +992,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928CAC0
+	 * 		RVA    -> 0x6EB1DCAC0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.DuplicateVectorList
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1019,7 +1019,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928C900
+	 * 		RVA    -> 0x6EB1DC900
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.DuplicateUVList
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1046,7 +1046,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928C740
+	 * 		RVA    -> 0x6EB1DC740
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.DuplicateScalarList
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1073,7 +1073,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928C570
+	 * 		RVA    -> 0x6EB1DC570
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.DuplicateIndexList
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1100,7 +1100,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928C3B0
+	 * 		RVA    -> 0x6EB1DC3B0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.DuplicateColorList
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1127,7 +1127,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479287830
+	 * 		RVA    -> 0x6EB1D7830
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.ConvertVectorListToArray
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1154,7 +1154,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479287690
+	 * 		RVA    -> 0x6EB1D7690
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.ConvertUVListToArray
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1181,7 +1181,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479287250
+	 * 		RVA    -> 0x6EB1D7250
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.ConvertTriangleListToArray
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1208,7 +1208,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479286D60
+	 * 		RVA    -> 0x6EB1D6D60
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.ConvertScalarListToArray
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1235,7 +1235,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479285050
+	 * 		RVA    -> 0x6EB1D5050
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.ConvertIndexListToArray
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1262,7 +1262,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479284920
+	 * 		RVA    -> 0x6EB1D4920
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.ConvertColorListToArray
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1289,7 +1289,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792847C0
+	 * 		RVA    -> 0x6EB1D47C0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.ConvertArrayToVectorList
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1316,7 +1316,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479284660
+	 * 		RVA    -> 0x6EB1D4660
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.ConvertArrayToUVList
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1343,7 +1343,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479284500
+	 * 		RVA    -> 0x6EB1D4500
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.ConvertArrayToTriangleList
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1370,7 +1370,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792843A0
+	 * 		RVA    -> 0x6EB1D43A0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.ConvertArrayToScalarList
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1397,7 +1397,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479284090
+	 * 		RVA    -> 0x6EB1D4090
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.ConvertArrayToIndexList
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1426,7 +1426,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479283F30
+	 * 		RVA    -> 0x6EB1D3F30
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.ConvertArrayToColorList
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1453,7 +1453,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927F7A0
+	 * 		RVA    -> 0x6EB1CF7A0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.ClearVectorList
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1480,7 +1480,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927F640
+	 * 		RVA    -> 0x6EB1CF640
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.ClearUVList
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1507,7 +1507,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927F520
+	 * 		RVA    -> 0x6EB1CF520
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.ClearScalarList
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1534,7 +1534,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927EF00
+	 * 		RVA    -> 0x6EB1CEF00
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.ClearIndexList
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1561,7 +1561,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927EDA0
+	 * 		RVA    -> 0x6EB1CEDA0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_ListUtilityFunctions.ClearColorList
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1602,7 +1602,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479297A00
+	 * 		RVA    -> 0x6EB1E7A00
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_StaticMeshFunctions.GetSectionMaterialListFromStaticMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1639,7 +1639,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792897E0
+	 * 		RVA    -> 0x6EB1D97E0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_StaticMeshFunctions.CopyMeshToStaticMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1676,7 +1676,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479289160
+	 * 		RVA    -> 0x6EB1D9160
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_StaticMeshFunctions.CopyMeshToSkeletalMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1713,7 +1713,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479288520
+	 * 		RVA    -> 0x6EB1D8520
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_StaticMeshFunctions.CopyMeshFromStaticMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1750,7 +1750,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479287FC0
+	 * 		RVA    -> 0x6EB1D7FC0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_StaticMeshFunctions.CopyMeshFromSkeletalMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1801,7 +1801,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929D5A0
+	 * 		RVA    -> 0x6EB1ED5A0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBakeFunctions.MakeBakeTypeVertexColor
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -1823,7 +1823,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929D460
+	 * 		RVA    -> 0x6EB1ED460
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBakeFunctions.MakeBakeTypeTexture
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -1850,7 +1850,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929D3B0
+	 * 		RVA    -> 0x6EB1ED3B0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBakeFunctions.MakeBakeTypeTangentNormal
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -1872,7 +1872,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929D300
+	 * 		RVA    -> 0x6EB1ED300
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBakeFunctions.MakeBakeTypePosition
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -1894,7 +1894,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929D250
+	 * 		RVA    -> 0x6EB1ED250
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBakeFunctions.MakeBakeTypeObjectNormal
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -1916,7 +1916,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929D0E0
+	 * 		RVA    -> 0x6EB1ED0E0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBakeFunctions.MakeBakeTypeMultiTexture
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -1943,7 +1943,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929D030
+	 * 		RVA    -> 0x6EB1ED030
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBakeFunctions.MakeBakeTypeMaterialID
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -1965,7 +1965,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929CF80
+	 * 		RVA    -> 0x6EB1ECF80
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBakeFunctions.MakeBakeTypeFaceNormal
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -1987,7 +1987,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929CD60
+	 * 		RVA    -> 0x6EB1ECD60
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBakeFunctions.MakeBakeTypeCurvature
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -2020,7 +2020,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929CBE0
+	 * 		RVA    -> 0x6EB1ECBE0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBakeFunctions.MakeBakeTypeBentNormal
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -2049,7 +2049,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929CA10
+	 * 		RVA    -> 0x6EB1ECA10
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBakeFunctions.MakeBakeTypeAmbientOcclusion
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -2080,7 +2080,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927E3F0
+	 * 		RVA    -> 0x6EB1CE3F0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBakeFunctions.BakeVertex
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2121,7 +2121,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927E020
+	 * 		RVA    -> 0x6EB1CE020
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBakeFunctions.BakeTextureFromRenderCaptures
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2156,7 +2156,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927D0F0
+	 * 		RVA    -> 0x6EB1CD0F0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBakeFunctions.BakeTexture
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2211,7 +2211,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792AD230
+	 * 		RVA    -> 0x6EB1FD230
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBasicEditFunctions.SetVertexPosition
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2246,7 +2246,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A7190
+	 * 		RVA    -> 0x6EB1F7190
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBasicEditFunctions.SetAllMeshVertexPositions
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -2275,7 +2275,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928C0A0
+	 * 		RVA    -> 0x6EB1DC0A0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBasicEditFunctions.DiscardMeshAttributes
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -2302,7 +2302,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928BE40
+	 * 		RVA    -> 0x6EB1DBE40
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBasicEditFunctions.DeleteVerticesFromMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2335,7 +2335,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928BCB0
+	 * 		RVA    -> 0x6EB1DBCB0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBasicEditFunctions.DeleteVertexFromMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2368,7 +2368,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928B800
+	 * 		RVA    -> 0x6EB1DB800
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBasicEditFunctions.DeleteTrianglesFromMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2401,7 +2401,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928B470
+	 * 		RVA    -> 0x6EB1DB470
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBasicEditFunctions.DeleteTriangleFromMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2434,7 +2434,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928B220
+	 * 		RVA    -> 0x6EB1DB220
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBasicEditFunctions.DeleteSelectedTrianglesFromMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2467,7 +2467,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47926FCF0
+	 * 		RVA    -> 0x6EB1BFCF0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBasicEditFunctions.AppendMeshTransformed
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2506,7 +2506,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47926F710
+	 * 		RVA    -> 0x6EB1BF710
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBasicEditFunctions.AppendMeshRepeated
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2545,7 +2545,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47926F260
+	 * 		RVA    -> 0x6EB1BF260
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBasicEditFunctions.AppendMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2580,7 +2580,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47926D710
+	 * 		RVA    -> 0x6EB1BD710
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBasicEditFunctions.AppendBuffersToMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2617,7 +2617,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47926D070
+	 * 		RVA    -> 0x6EB1BD070
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBasicEditFunctions.AddVerticesToMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2650,7 +2650,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47926CEC0
+	 * 		RVA    -> 0x6EB1BCEC0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBasicEditFunctions.AddVertexToMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2683,7 +2683,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47926C160
+	 * 		RVA    -> 0x6EB1BC160
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBasicEditFunctions.AddTriangleToMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2720,7 +2720,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47926C720
+	 * 		RVA    -> 0x6EB1BC720
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBasicEditFunctions.AddTrianglesToMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2771,7 +2771,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792ACFD0
+	 * 		RVA    -> 0x6EB1FCFD0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBoneWeightFunctions.SetVertexBoneWeights
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2806,7 +2806,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A7BD0
+	 * 		RVA    -> 0x6EB1F7BD0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBoneWeightFunctions.SetAllVertexBoneWeights
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2835,7 +2835,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929E670
+	 * 		RVA    -> 0x6EB1EE670
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBoneWeightFunctions.MeshHasBoneWeights
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -2866,7 +2866,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929E4B0
+	 * 		RVA    -> 0x6EB1EE4B0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBoneWeightFunctions.MeshCreateBoneWeights
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2899,7 +2899,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929AE50
+	 * 		RVA    -> 0x6EB1EAE50
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBoneWeightFunctions.GetVertexBoneWeights
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2935,7 +2935,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479292D90
+	 * 		RVA    -> 0x6EB1E2D90
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBoneWeightFunctions.GetMaxBoneWeightIndex
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2969,7 +2969,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479292910
+	 * 		RVA    -> 0x6EB1E2910
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBoneWeightFunctions.GetLargestVertexBoneWeight
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3005,7 +3005,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479281A30
+	 * 		RVA    -> 0x6EB1D1A30
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBoneWeightFunctions.ComputeSmoothBoneWeights
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -3052,7 +3052,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479279D80
+	 * 		RVA    -> 0x6EB1C9D80
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBooleanFunctions.ApplyMeshSelfUnion
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -3081,7 +3081,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792795E0
+	 * 		RVA    -> 0x6EB1C95E0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBooleanFunctions.ApplyMeshPlaneSlice
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -3112,7 +3112,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792791E0
+	 * 		RVA    -> 0x6EB1C91E0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBooleanFunctions.ApplyMeshPlaneCut
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -3143,7 +3143,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479278560
+	 * 		RVA    -> 0x6EB1C8560
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBooleanFunctions.ApplyMeshMirror
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -3174,7 +3174,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479276800
+	 * 		RVA    -> 0x6EB1C6800
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshBooleanFunctions.ApplyMeshBoolean
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -3225,7 +3225,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929DFC0
+	 * 		RVA    -> 0x6EB1EDFC0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshComparisonFunctions.MeasureDistancesBetweenMeshes
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3269,7 +3269,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929C3C0
+	 * 		RVA    -> 0x6EB1EC3C0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshComparisonFunctions.IsSameMeshAs
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3304,7 +3304,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929B930
+	 * 		RVA    -> 0x6EB1EB930
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshComparisonFunctions.IsIntersectingMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -3355,7 +3355,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792ADF80
+	 * 		RVA    -> 0x6EB1FDF80
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshDecompositionFunctions.SplitMeshByPolygroups
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3393,7 +3393,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792ADAC0
+	 * 		RVA    -> 0x6EB1FDAC0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshDecompositionFunctions.SplitMeshByMaterialIDs
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3429,7 +3429,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792AD6A0
+	 * 		RVA    -> 0x6EB1FD6A0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshDecompositionFunctions.SplitMeshByComponents
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3462,7 +3462,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479297E00
+	 * 		RVA    -> 0x6EB1E7E00
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshDecompositionFunctions.GetSubMeshFromMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3498,7 +3498,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792889E0
+	 * 		RVA    -> 0x6EB1D89E0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshDecompositionFunctions.CopyMeshToMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3532,7 +3532,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479288720
+	 * 		RVA    -> 0x6EB1D8720
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshDecompositionFunctions.CopyMeshSelectionToMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3586,7 +3586,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927BDA0
+	 * 		RVA    -> 0x6EB1CBDA0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshDeformFunctions.ApplyTwistWarpToMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -3621,7 +3621,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927A7F0
+	 * 		RVA    -> 0x6EB1CA7F0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshDeformFunctions.ApplyPerlinNoiseToMesh
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -3652,7 +3652,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479276060
+	 * 		RVA    -> 0x6EB1C6060
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshDeformFunctions.ApplyMathWarpToMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -3685,7 +3685,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479275CD0
+	 * 		RVA    -> 0x6EB1C5CD0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshDeformFunctions.ApplyIterativeSmoothingToMesh
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -3716,7 +3716,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479275870
+	 * 		RVA    -> 0x6EB1C5870
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshDeformFunctions.ApplyFlareWarpToMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -3753,7 +3753,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479274F90
+	 * 		RVA    -> 0x6EB1C4F90
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshDeformFunctions.ApplyDisplaceFromTextureMap
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -3788,7 +3788,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479274BA0
+	 * 		RVA    -> 0x6EB1C4BA0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshDeformFunctions.ApplyDisplaceFromPerVertexVectors
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3821,7 +3821,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792747A0
+	 * 		RVA    -> 0x6EB1C47A0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshDeformFunctions.ApplyBendWarpToMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -3870,7 +3870,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792ACBC0
+	 * 		RVA    -> 0x6EB1FCBC0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshMaterialFunctions.SetTriangleMaterialID
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3905,7 +3905,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792AC060
+	 * 		RVA    -> 0x6EB1FC060
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshMaterialFunctions.SetPolygroupMaterialID
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3944,7 +3944,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A8A80
+	 * 		RVA    -> 0x6EB1F8A80
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshMaterialFunctions.SetMaterialIDOnTriangles
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -3977,7 +3977,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A8700
+	 * 		RVA    -> 0x6EB1F8700
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshMaterialFunctions.SetMaterialIDForMeshSelection
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4010,7 +4010,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A75A0
+	 * 		RVA    -> 0x6EB1F75A0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshMaterialFunctions.SetAllTriangleMaterialIDs
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4041,7 +4041,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929F380
+	 * 		RVA    -> 0x6EB1EF380
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshMaterialFunctions.RemapMaterialIDs
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4072,7 +4072,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929A160
+	 * 		RVA    -> 0x6EB1EA160
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshMaterialFunctions.GetTrianglesByMaterialID
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -4105,7 +4105,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479299060
+	 * 		RVA    -> 0x6EB1E9060
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshMaterialFunctions.GetTriangleMaterialID
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -4136,7 +4136,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479292F90
+	 * 		RVA    -> 0x6EB1E2F90
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshMaterialFunctions.GetMaxMaterialID
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -4165,7 +4165,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479292B80
+	 * 		RVA    -> 0x6EB1E2B80
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshMaterialFunctions.GetMaterialIDsOfTriangles
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -4198,7 +4198,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928F8F0
+	 * 		RVA    -> 0x6EB1DF8F0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshMaterialFunctions.GetAllTriangleMaterialIDs
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -4230,7 +4230,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928CC80
+	 * 		RVA    -> 0x6EB1DCC80
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshMaterialFunctions.EnableMaterialIDs
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4257,7 +4257,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928B600
+	 * 		RVA    -> 0x6EB1DB600
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshMaterialFunctions.DeleteTrianglesByMaterialID
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -4292,7 +4292,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927FB80
+	 * 		RVA    -> 0x6EB1CFB80
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshMaterialFunctions.CompactMaterialIDs
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -4325,7 +4325,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927F020
+	 * 		RVA    -> 0x6EB1CF020
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshMaterialFunctions.ClearMaterialIDs
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4368,7 +4368,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927A040
+	 * 		RVA    -> 0x6EB1CA040
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshModelingFunctions.ApplyMeshShell
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4397,7 +4397,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792799F0
+	 * 		RVA    -> 0x6EB1C99F0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshModelingFunctions.ApplyMeshPolygroupBevel
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4426,7 +4426,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479278E70
+	 * 		RVA    -> 0x6EB1C8E70
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshModelingFunctions.ApplyMeshOffsetFaces
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4457,7 +4457,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479278C00
+	 * 		RVA    -> 0x6EB1C8C00
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshModelingFunctions.ApplyMeshOffset
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4486,7 +4486,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792781C0
+	 * 		RVA    -> 0x6EB1C81C0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshModelingFunctions.ApplyMeshLinearExtrudeFaces
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4517,7 +4517,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479277E40
+	 * 		RVA    -> 0x6EB1C7E40
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshModelingFunctions.ApplyMeshInsetOutsetFaces
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4548,7 +4548,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479277CC0
+	 * 		RVA    -> 0x6EB1C7CC0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshModelingFunctions.ApplyMeshExtrude_Compatibility_5p0
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4577,7 +4577,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792777F0
+	 * 		RVA    -> 0x6EB1C77F0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshModelingFunctions.ApplyMeshDuplicateFaces
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -4612,7 +4612,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479277490
+	 * 		RVA    -> 0x6EB1C7490
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshModelingFunctions.ApplyMeshDisconnectFaces
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4643,7 +4643,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479276450
+	 * 		RVA    -> 0x6EB1C6450
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshModelingFunctions.ApplyMeshBevelSelection
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4690,7 +4690,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792AFB10
+	 * 		RVA    -> 0x6EB1FFB10
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshNormalsFunctions.UpdateVertexNormal
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -4735,7 +4735,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792ABB30
+	 * 		RVA    -> 0x6EB1FBB30
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshNormalsFunctions.SetPerVertexNormals
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4762,7 +4762,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792AB920
+	 * 		RVA    -> 0x6EB1FB920
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshNormalsFunctions.SetPerFaceNormals
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4789,7 +4789,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792AA6D0
+	 * 		RVA    -> 0x6EB1FA6D0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshNormalsFunctions.SetMeshTriangleNormals
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -4824,7 +4824,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A9CD0
+	 * 		RVA    -> 0x6EB1F9CD0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshNormalsFunctions.SetMeshPerVertexTangents
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4855,7 +4855,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A98C0
+	 * 		RVA    -> 0x6EB1F98C0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshNormalsFunctions.SetMeshPerVertexNormals
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4884,7 +4884,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929F150
+	 * 		RVA    -> 0x6EB1EF150
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshNormalsFunctions.RecomputeNormals
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4913,7 +4913,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479293B20
+	 * 		RVA    -> 0x6EB1E3B20
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshNormalsFunctions.GetMeshPerVertexTangents
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -4953,7 +4953,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792938B0
+	 * 		RVA    -> 0x6EB1E38B0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshNormalsFunctions.GetMeshPerVertexNormals
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -4990,7 +4990,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479293300
+	 * 		RVA    -> 0x6EB1E3300
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshNormalsFunctions.GetMeshHasTangents
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -5021,7 +5021,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928F310
+	 * 		RVA    -> 0x6EB1DF310
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshNormalsFunctions.FlipNormals
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5048,7 +5048,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928C1A0
+	 * 		RVA    -> 0x6EB1DC1A0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshNormalsFunctions.DiscardTangents
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5075,7 +5075,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792820D0
+	 * 		RVA    -> 0x6EB1D20D0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshNormalsFunctions.ComputeTangents
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5104,7 +5104,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479281E10
+	 * 		RVA    -> 0x6EB1D1E10
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshNormalsFunctions.ComputeSplitNormals
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5135,7 +5135,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927CEE0
+	 * 		RVA    -> 0x6EB1CCEE0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshNormalsFunctions.AutoRepairNormals
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5176,7 +5176,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792ABD40
+	 * 		RVA    -> 0x6EB1FBD40
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPolygroupFunctions.SetPolygroupForMeshSelection
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -5215,7 +5215,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792AB3F0
+	 * 		RVA    -> 0x6EB1FB3F0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPolygroupFunctions.SetNumExtendedPolygroupLayers
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5244,7 +5244,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929A640
+	 * 		RVA    -> 0x6EB1EA640
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPolygroupFunctions.GetTrianglesInPolygroup
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -5277,7 +5277,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792997C0
+	 * 		RVA    -> 0x6EB1E97C0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPolygroupFunctions.GetTrianglePolygroupID
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -5310,7 +5310,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479296290
+	 * 		RVA    -> 0x6EB1E6290
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPolygroupFunctions.GetPolygroupIDsInMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -5341,7 +5341,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928FAE0
+	 * 		RVA    -> 0x6EB1DFAE0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPolygroupFunctions.GetAllTrianglePolygroupIDs
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -5372,7 +5372,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928CEA0
+	 * 		RVA    -> 0x6EB1DCEA0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPolygroupFunctions.EnablePolygroups
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5399,7 +5399,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928BA60
+	 * 		RVA    -> 0x6EB1DBA60
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPolygroupFunctions.DeleteTrianglesInPolygroup
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -5436,7 +5436,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479289FE0
+	 * 		RVA    -> 0x6EB1D9FE0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPolygroupFunctions.CopyPolygroupsLayer
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5467,7 +5467,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792873F0
+	 * 		RVA    -> 0x6EB1D73F0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPolygroupFunctions.ConvertUVIslandsToPolygroups
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5498,7 +5498,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479284AC0
+	 * 		RVA    -> 0x6EB1D4AC0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPolygroupFunctions.ConvertComponentsToPolygroups
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5527,7 +5527,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479281620
+	 * 		RVA    -> 0x6EB1D1620
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPolygroupFunctions.ComputePolygroupsFromPolygonDetection
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5566,7 +5566,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479281330
+	 * 		RVA    -> 0x6EB1D1330
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPolygroupFunctions.ComputePolygroupsFromAngleThreshold
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5599,7 +5599,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927F280
+	 * 		RVA    -> 0x6EB1CF280
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPolygroupFunctions.ClearPolygroups
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5644,7 +5644,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479273B80
+	 * 		RVA    -> 0x6EB1C3B80
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPrimitiveFunctions.AppendVoronoiDiagram2D
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -5679,7 +5679,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792738B0
+	 * 		RVA    -> 0x6EB1C38B0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPrimitiveFunctions.AppendTriangulatedPolygon
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -5714,7 +5714,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792734B0
+	 * 		RVA    -> 0x6EB1C34B0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPrimitiveFunctions.AppendTorus
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -5757,7 +5757,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479272FB0
+	 * 		RVA    -> 0x6EB1C2FB0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPrimitiveFunctions.AppendSweepPolyline
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -5804,7 +5804,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479272B40
+	 * 		RVA    -> 0x6EB1C2B40
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPrimitiveFunctions.AppendSweepPolygon
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -5849,7 +5849,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479272750
+	 * 		RVA    -> 0x6EB1C2750
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPrimitiveFunctions.AppendSpiralRevolvePolygon
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -5890,7 +5890,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479272410
+	 * 		RVA    -> 0x6EB1C2410
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPrimitiveFunctions.AppendSphereLatLong
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -5929,7 +5929,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479272090
+	 * 		RVA    -> 0x6EB1C2090
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPrimitiveFunctions.AppendSphereBox
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -5970,7 +5970,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479271C70
+	 * 		RVA    -> 0x6EB1C1C70
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPrimitiveFunctions.AppendSimpleSweptPolygon
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6013,7 +6013,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792718C0
+	 * 		RVA    -> 0x6EB1C18C0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPrimitiveFunctions.AppendSimpleExtrudePolygon
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6054,7 +6054,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479271130
+	 * 		RVA    -> 0x6EB1C1130
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPrimitiveFunctions.AppendRoundRectangleXY
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6097,7 +6097,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792714F0
+	 * 		RVA    -> 0x6EB1C14F0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPrimitiveFunctions.AppendRoundRectangle_Compatibility_5_1
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6140,7 +6140,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479270D90
+	 * 		RVA    -> 0x6EB1C0D90
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPrimitiveFunctions.AppendRevolvePolygon
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6179,7 +6179,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792709F0
+	 * 		RVA    -> 0x6EB1C09F0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPrimitiveFunctions.AppendRevolvePath
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6218,7 +6218,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479270360
+	 * 		RVA    -> 0x6EB1C0360
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPrimitiveFunctions.AppendRectangleXY
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6257,7 +6257,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792706A0
+	 * 		RVA    -> 0x6EB1C06A0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPrimitiveFunctions.AppendRectangle_Compatibility_5_1
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6296,7 +6296,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47926EED0
+	 * 		RVA    -> 0x6EB1BEED0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPrimitiveFunctions.AppendLinearStairs
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6337,7 +6337,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47926EB10
+	 * 		RVA    -> 0x6EB1BEB10
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPrimitiveFunctions.AppendDisc
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6380,7 +6380,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47926E740
+	 * 		RVA    -> 0x6EB1BE740
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPrimitiveFunctions.AppendCylinder
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6423,7 +6423,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47926E370
+	 * 		RVA    -> 0x6EB1BE370
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPrimitiveFunctions.AppendCurvedStairs
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6466,7 +6466,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47926DF60
+	 * 		RVA    -> 0x6EB1BDF60
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPrimitiveFunctions.AppendCone
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6511,7 +6511,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47926DBE0
+	 * 		RVA    -> 0x6EB1BDBE0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPrimitiveFunctions.AppendCapsule
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6552,7 +6552,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47926D310
+	 * 		RVA    -> 0x6EB1BD310
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshPrimitiveFunctions.AppendBox
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6611,7 +6611,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929C8D0
+	 * 		RVA    -> 0x6EB1EC8D0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.IsValidVertexID
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -6638,7 +6638,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929C790
+	 * 		RVA    -> 0x6EB1EC790
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.IsValidTriangleID
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -6665,7 +6665,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929B190
+	 * 		RVA    -> 0x6EB1EB190
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetVertexPosition
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -6696,7 +6696,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929B0A0
+	 * 		RVA    -> 0x6EB1EB0A0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetVertexCount
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -6721,7 +6721,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929AA50
+	 * 		RVA    -> 0x6EB1EAA50
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetUVSetBoundingBox
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -6755,7 +6755,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479299EE0
+	 * 		RVA    -> 0x6EB1E9EE0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetTriangleVertexColors
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6795,7 +6795,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479299C10
+	 * 		RVA    -> 0x6EB1E9C10
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetTriangleUVs
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -6835,7 +6835,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792999A0
+	 * 		RVA    -> 0x6EB1E99A0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetTrianglePositions
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -6873,7 +6873,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792991F0
+	 * 		RVA    -> 0x6EB1E91F0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetTriangleNormalTangents
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -6913,7 +6913,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479299540
+	 * 		RVA    -> 0x6EB1E9540
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetTriangleNormals
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6953,7 +6953,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479298BD0
+	 * 		RVA    -> 0x6EB1E8BD0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetTriangleIndices
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -6984,7 +6984,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479298A40
+	 * 		RVA    -> 0x6EB1E8A40
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetTriangleFaceNormal
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -7015,7 +7015,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479295800
+	 * 		RVA    -> 0x6EB1E5800
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetNumVertexIDs
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -7040,7 +7040,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479295710
+	 * 		RVA    -> 0x6EB1E5710
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetNumUVSets
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -7065,7 +7065,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479295620
+	 * 		RVA    -> 0x6EB1E5620
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetNumTriangleIDs
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -7090,7 +7090,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792954D0
+	 * 		RVA    -> 0x6EB1E54D0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetNumOpenBorderLoops
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -7119,7 +7119,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792953E0
+	 * 		RVA    -> 0x6EB1E53E0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetNumOpenBorderEdges
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -7144,7 +7144,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792952F0
+	 * 		RVA    -> 0x6EB1E52F0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetNumExtendedPolygroupLayers
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -7169,7 +7169,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479295200
+	 * 		RVA    -> 0x6EB1E5200
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetNumConnectedComponents
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -7194,7 +7194,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479294EB0
+	 * 		RVA    -> 0x6EB1E4EB0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetMeshVolumeArea
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -7224,7 +7224,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479293520
+	 * 		RVA    -> 0x6EB1E3520
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetMeshInfoString
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -7249,7 +7249,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479293210
+	 * 		RVA    -> 0x6EB1E3210
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetMeshHasAttributeSet
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -7274,7 +7274,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792930F0
+	 * 		RVA    -> 0x6EB1E30F0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetMeshBoundingBox
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -7299,7 +7299,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479292820
+	 * 		RVA    -> 0x6EB1E2820
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetIsDenseMesh
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -7324,7 +7324,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479292730
+	 * 		RVA    -> 0x6EB1E2730
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetIsClosedMesh
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -7349,7 +7349,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792924B0
+	 * 		RVA    -> 0x6EB1E24B0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetInterpolatedTriangleVertexColor
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -7387,7 +7387,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479292230
+	 * 		RVA    -> 0x6EB1E2230
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetInterpolatedTriangleUV
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -7425,7 +7425,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479292000
+	 * 		RVA    -> 0x6EB1E2000
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetInterpolatedTrianglePosition
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -7461,7 +7461,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479291D20
+	 * 		RVA    -> 0x6EB1E1D20
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetInterpolatedTriangleNormalTangents
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -7503,7 +7503,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479291AD0
+	 * 		RVA    -> 0x6EB1E1AD0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetInterpolatedTriangleNormal
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -7539,7 +7539,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792915B0
+	 * 		RVA    -> 0x6EB1E15B0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetHasVertexIDGaps
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -7564,7 +7564,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792914C0
+	 * 		RVA    -> 0x6EB1E14C0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetHasVertexColors
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -7589,7 +7589,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792913D0
+	 * 		RVA    -> 0x6EB1E13D0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetHasTriangleNormals
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -7614,7 +7614,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792912E0
+	 * 		RVA    -> 0x6EB1E12E0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetHasTriangleIDGaps
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -7639,7 +7639,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792911F0
+	 * 		RVA    -> 0x6EB1E11F0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetHasPolygroups
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -7664,7 +7664,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479291100
+	 * 		RVA    -> 0x6EB1E1100
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetHasMaterialIDs
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -7689,7 +7689,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928FEA0
+	 * 		RVA    -> 0x6EB1DFEA0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetAllVertexPositions
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -7723,7 +7723,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928FCD0
+	 * 		RVA    -> 0x6EB1DFCD0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetAllVertexIDs
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -7755,7 +7755,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928F6F0
+	 * 		RVA    -> 0x6EB1DF6F0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetAllTriangleIndices
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -7789,7 +7789,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928F520
+	 * 		RVA    -> 0x6EB1DF520
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.GetAllTriangleIDs
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -7821,7 +7821,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479282320
+	 * 		RVA    -> 0x6EB1D2320
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshQueryFunctions.ComputeTriangleBarycentricCoords
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -7880,7 +7880,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927C1A0
+	 * 		RVA    -> 0x6EB1CC1A0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_RemeshingFunctions.ApplyUniformRemesh
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -7925,7 +7925,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792B1CE0
+	 * 		RVA    -> 0x6EB201CE0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshRepairFunctions.WeldMeshEdges
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -7954,7 +7954,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792AD420
+	 * 		RVA    -> 0x6EB1FD420
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshRepairFunctions.SplitMeshBowties
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -7985,7 +7985,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A0420
+	 * 		RVA    -> 0x6EB1F0420
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshRepairFunctions.ResolveMeshTJunctions
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -8014,7 +8014,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929FE90
+	 * 		RVA    -> 0x6EB1EFE90
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshRepairFunctions.RepairMeshDegenerateGeometry
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -8043,7 +8043,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929F8B0
+	 * 		RVA    -> 0x6EB1EF8B0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshRepairFunctions.RemoveSmallComponents
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -8072,7 +8072,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929F630
+	 * 		RVA    -> 0x6EB1EF630
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshRepairFunctions.RemoveHiddenTriangles
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -8101,7 +8101,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928DF70
+	 * 		RVA    -> 0x6EB1DDF70
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshRepairFunctions.FillAllMeshHoles
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -8137,7 +8137,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927FDF0
+	 * 		RVA    -> 0x6EB1CFDF0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshRepairFunctions.CompactMesh
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -8178,7 +8178,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479282690
+	 * 		RVA    -> 0x6EB1D2690
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSamplingFunctions.ComputeVertexWeightedPointSampling
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -8221,7 +8221,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479280DF0
+	 * 		RVA    -> 0x6EB1D0DF0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSamplingFunctions.ComputePointSampling
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -8257,7 +8257,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479280770
+	 * 		RVA    -> 0x6EB1D0770
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSamplingFunctions.ComputeNonUniformPointSampling
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -8312,7 +8312,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A6CD0
+	 * 		RVA    -> 0x6EB1F6CD0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSelectionFunctions.SelectMeshElementsWithPlane
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -8351,7 +8351,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A6170
+	 * 		RVA    -> 0x6EB1F6170
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSelectionFunctions.SelectMeshElementsInSphere
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -8390,7 +8390,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A65C0
+	 * 		RVA    -> 0x6EB1F65C0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSelectionFunctions.SelectMeshElementsInsideMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -8433,7 +8433,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A5D80
+	 * 		RVA    -> 0x6EB1F5D80
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSelectionFunctions.SelectMeshElementsInBox
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -8470,7 +8470,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A58C0
+	 * 		RVA    -> 0x6EB1F58C0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSelectionFunctions.SelectMeshElementsByNormalAngle
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -8509,7 +8509,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929B320
+	 * 		RVA    -> 0x6EB1EB320
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSelectionFunctions.InvertMeshSelection
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -8542,7 +8542,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792948D0
+	 * 		RVA    -> 0x6EB1E48D0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSelectionFunctions.GetMeshSelectionInfo
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -8572,7 +8572,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928D340
+	 * 		RVA    -> 0x6EB1DD340
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSelectionFunctions.ExpandMeshSelectionToConnected
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -8605,7 +8605,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928D0B0
+	 * 		RVA    -> 0x6EB1DD0B0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSelectionFunctions.ExpandContractMeshSelection
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -8642,7 +8642,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928B0B0
+	 * 		RVA    -> 0x6EB1DB0B0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSelectionFunctions.DebugPrintMeshSelection
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -8667,7 +8667,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928AEE0
+	 * 		RVA    -> 0x6EB1DAEE0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSelectionFunctions.CreateSelectAllMeshSelection
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -8698,7 +8698,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792861D0
+	 * 		RVA    -> 0x6EB1D61D0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSelectionFunctions.ConvertMeshSelectionToIndexList
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -8734,7 +8734,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479285F20
+	 * 		RVA    -> 0x6EB1D5F20
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSelectionFunctions.ConvertMeshSelectionToIndexArray
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -8768,7 +8768,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479285CE0
+	 * 		RVA    -> 0x6EB1D5CE0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSelectionFunctions.ConvertMeshSelection
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -8803,7 +8803,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479285A60
+	 * 		RVA    -> 0x6EB1D5A60
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSelectionFunctions.ConvertIndexSetToMeshSelection
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -8834,7 +8834,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792851F0
+	 * 		RVA    -> 0x6EB1D51F0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSelectionFunctions.ConvertIndexListToMeshSelection
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -8867,7 +8867,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479284D10
+	 * 		RVA    -> 0x6EB1D4D10
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSelectionFunctions.ConvertIndexArrayToMeshSelection
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -8900,7 +8900,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927F910
+	 * 		RVA    -> 0x6EB1CF910
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSelectionFunctions.CombineMeshSelections
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -8945,7 +8945,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479294690
+	 * 		RVA    -> 0x6EB1E4690
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSelectionQueryFunctions.GetMeshSelectionBoundingBox
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -8981,7 +8981,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479294160
+	 * 		RVA    -> 0x6EB1E4160
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSelectionQueryFunctions.GetMeshSelectionBoundaryLoops
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -9037,7 +9037,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927BB00
+	 * 		RVA    -> 0x6EB1CBB00
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSimplifyFunctions.ApplySimplifyToVertexCount
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -9068,7 +9068,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927B860
+	 * 		RVA    -> 0x6EB1CB860
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSimplifyFunctions.ApplySimplifyToTriangleCount
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -9099,7 +9099,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927B5B0
+	 * 		RVA    -> 0x6EB1CB5B0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSimplifyFunctions.ApplySimplifyToTolerance
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -9130,7 +9130,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927B300
+	 * 		RVA    -> 0x6EB1CB300
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSimplifyFunctions.ApplySimplifyToPolygroupTopology
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -9161,7 +9161,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927B0C0
+	 * 		RVA    -> 0x6EB1CB0C0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSimplifyFunctions.ApplySimplifyToPlanar
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -9204,7 +9204,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A0120
+	 * 		RVA    -> 0x6EB1F0120
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSpatial.ResetBVH
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -9229,7 +9229,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929E800
+	 * 		RVA    -> 0x6EB1EE800
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSpatial.RebuildBVHForMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -9262,7 +9262,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929BE90
+	 * 		RVA    -> 0x6EB1EBE90
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSpatial.IsPointInsideMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -9302,7 +9302,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929B640
+	 * 		RVA    -> 0x6EB1EB640
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSpatial.IsBVHValidForMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -9335,7 +9335,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928EA50
+	 * 		RVA    -> 0x6EB1DEA50
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSpatial.FindNearestRayIntersectionWithMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -9377,7 +9377,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928E4E0
+	 * 		RVA    -> 0x6EB1DE4E0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSpatial.FindNearestPointOnMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -9417,7 +9417,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927E9D0
+	 * 		RVA    -> 0x6EB1CE9D0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSpatial.BuildBVHForMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -9462,7 +9462,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927C4A0
+	 * 		RVA    -> 0x6EB1CC4A0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSubdivideFunctions.ApplyUniformTessellation
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -9491,7 +9491,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927ABD0
+	 * 		RVA    -> 0x6EB1CABD0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSubdivideFunctions.ApplySelectiveTessellation
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -9526,7 +9526,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927A550
+	 * 		RVA    -> 0x6EB1CA550
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshSubdivideFunctions.ApplyPNTessellation
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -9571,7 +9571,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792AF8D0
+	 * 		RVA    -> 0x6EB1FF8D0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshTransformFunctions.TranslatePivotToLocation
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -9600,7 +9600,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792AF0B0
+	 * 		RVA    -> 0x6EB1FF0B0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshTransformFunctions.TranslateMeshSelection
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -9631,7 +9631,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792AEE70
+	 * 		RVA    -> 0x6EB1FEE70
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshTransformFunctions.TranslateMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -9660,7 +9660,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792AEC10
+	 * 		RVA    -> 0x6EB1FEC10
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshTransformFunctions.TransformMeshSelection
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -9691,7 +9691,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792AE8F0
+	 * 		RVA    -> 0x6EB1FE8F0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshTransformFunctions.TransformMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -9722,7 +9722,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A4F90
+	 * 		RVA    -> 0x6EB1F4F90
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshTransformFunctions.ScaleMeshSelection
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -9755,7 +9755,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A4CA0
+	 * 		RVA    -> 0x6EB1F4CA0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshTransformFunctions.ScaleMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -9788,7 +9788,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A0910
+	 * 		RVA    -> 0x6EB1F0910
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshTransformFunctions.RotateMeshSelection
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -9821,7 +9821,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A0680
+	 * 		RVA    -> 0x6EB1F0680
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshTransformFunctions.RotateMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -9866,7 +9866,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792AF400
+	 * 		RVA    -> 0x6EB1FF400
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshUVFunctions.TranslateMeshUVs
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -9899,7 +9899,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792AB620
+	 * 		RVA    -> 0x6EB1FB620
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshUVFunctions.SetNumUVSets
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -9928,7 +9928,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792AB150
+	 * 		RVA    -> 0x6EB1FB150
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshUVFunctions.SetMeshUVsFromPlanarProjection
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -9961,7 +9961,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792AAE60
+	 * 		RVA    -> 0x6EB1FAE60
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshUVFunctions.SetMeshUVsFromCylinderProjection
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -9996,7 +9996,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792AAB80
+	 * 		RVA    -> 0x6EB1FAB80
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshUVFunctions.SetMeshUVsFromBoxProjection
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -10031,7 +10031,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792AA920
+	 * 		RVA    -> 0x6EB1FA920
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshUVFunctions.SetMeshTriangleUVs
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -10068,7 +10068,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A5340
+	 * 		RVA    -> 0x6EB1F5340
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshUVFunctions.ScaleMeshUVs
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -10103,7 +10103,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A0CC0
+	 * 		RVA    -> 0x6EB1F0CC0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshUVFunctions.RotateMeshUVs
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -10138,7 +10138,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929FB00
+	 * 		RVA    -> 0x6EB1EFB00
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshUVFunctions.RepackMeshUVs
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -10169,7 +10169,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929EC20
+	 * 		RVA    -> 0x6EB1EEC20
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshUVFunctions.RecomputeMeshUVs
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -10202,7 +10202,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479294A60
+	 * 		RVA    -> 0x6EB1E4A60
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshUVFunctions.GetMeshUVSizeInfo
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -10254,7 +10254,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479293E50
+	 * 		RVA    -> 0x6EB1E3E50
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshUVFunctions.GetMeshPerVertexUVs
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -10296,7 +10296,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928A280
+	 * 		RVA    -> 0x6EB1DA280
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshUVFunctions.CopyUVSet
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -10327,7 +10327,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479289D70
+	 * 		RVA    -> 0x6EB1D9D70
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshUVFunctions.CopyMeshUVLayerToMesh
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -10369,7 +10369,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479288B60
+	 * 		RVA    -> 0x6EB1D8B60
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshUVFunctions.CopyMeshToMeshUVLayer
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -10413,7 +10413,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927CB30
+	 * 		RVA    -> 0x6EB1CCB30
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshUVFunctions.AutoGenerateXAtlasMeshUVs
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -10444,7 +10444,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927C6F0
+	 * 		RVA    -> 0x6EB1CC6F0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshUVFunctions.AutoGeneratePatchBuilderMeshUVs
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -10489,7 +10489,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792AA2E0
+	 * 		RVA    -> 0x6EB1FA2E0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshVertexColorFunctions.SetMeshSelectionVertexColor
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -10524,7 +10524,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A94B0
+	 * 		RVA    -> 0x6EB1F94B0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshVertexColorFunctions.SetMeshPerVertexColors
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -10553,7 +10553,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A91E0
+	 * 		RVA    -> 0x6EB1F91E0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshVertexColorFunctions.SetMeshConstantVertexColor
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -10586,7 +10586,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479293660
+	 * 		RVA    -> 0x6EB1E3660
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshVertexColorFunctions.GetMeshPerVertexColors
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -10623,7 +10623,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479286790
+	 * 		RVA    -> 0x6EB1D6790
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshVertexColorFunctions.ConvertMeshVertexColorsSRGBToLinear
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -10650,7 +10650,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479286580
+	 * 		RVA    -> 0x6EB1D6580
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshVertexColorFunctions.ConvertMeshVertexColorsLinearToSRGB
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -10691,7 +10691,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47927A2B0
+	 * 		RVA    -> 0x6EB1CA2B0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshVoxelFunctions.ApplyMeshSolidify
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -10720,7 +10720,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479278970
+	 * 		RVA    -> 0x6EB1C8970
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_MeshVoxelFunctions.ApplyMeshMorphology
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -10763,7 +10763,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A1240
+	 * 		RVA    -> 0x6EB1F1240
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_PolyPathFunctions.SampleSplineToTransforms
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -10799,7 +10799,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479296090
+	 * 		RVA    -> 0x6EB1E6090
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_PolyPathFunctions.GetPolyPathVertex
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -10830,7 +10830,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479295CC0
+	 * 		RVA    -> 0x6EB1E5CC0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_PolyPathFunctions.GetPolyPathTangent
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -10861,7 +10861,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479295BA0
+	 * 		RVA    -> 0x6EB1E5BA0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_PolyPathFunctions.GetPolyPathNumVertices
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -10886,7 +10886,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479295A80
+	 * 		RVA    -> 0x6EB1E5A80
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_PolyPathFunctions.GetPolyPathLastIndex
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -10911,7 +10911,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792958F0
+	 * 		RVA    -> 0x6EB1E58F0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_PolyPathFunctions.GetPolyPathArcLength
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -10936,7 +10936,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479295020
+	 * 		RVA    -> 0x6EB1E5020
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_PolyPathFunctions.GetNearestVertexIndex
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -10963,7 +10963,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928F020
+	 * 		RVA    -> 0x6EB1DF020
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_PolyPathFunctions.FlattenTo2DOnAxis
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -10990,7 +10990,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928AC90
+	 * 		RVA    -> 0x6EB1DAC90
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_PolyPathFunctions.CreateCirclePath3D
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -11019,7 +11019,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928AB00
+	 * 		RVA    -> 0x6EB1DAB00
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_PolyPathFunctions.CreateCirclePath2D
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -11048,7 +11048,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928A840
+	 * 		RVA    -> 0x6EB1DA840
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_PolyPathFunctions.CreateArcPath3D
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -11081,7 +11081,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928A5F0
+	 * 		RVA    -> 0x6EB1DA5F0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_PolyPathFunctions.CreateArcPath2D
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -11114,7 +11114,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479286F00
+	 * 		RVA    -> 0x6EB1D6F00
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_PolyPathFunctions.ConvertSplineToPolyPath
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -11143,7 +11143,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479286B40
+	 * 		RVA    -> 0x6EB1D6B40
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_PolyPathFunctions.ConvertPolyPathToArrayOfVector2D
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -11170,7 +11170,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792869A0
+	 * 		RVA    -> 0x6EB1D69A0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_PolyPathFunctions.ConvertPolyPathToArray
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -11197,7 +11197,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479284240
+	 * 		RVA    -> 0x6EB1D4240
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_PolyPathFunctions.ConvertArrayToPolyPath
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -11224,7 +11224,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479283DF0
+	 * 		RVA    -> 0x6EB1D3DF0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_PolyPathFunctions.ConvertArrayOfVector2DToPolyPath
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -11251,7 +11251,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479283BB0
+	 * 		RVA    -> 0x6EB1D3BB0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_PolyPathFunctions.Conv_GeometryScriptPolyPathToArrayOfVector2D
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11276,7 +11276,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479283A80
+	 * 		RVA    -> 0x6EB1D3A80
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_PolyPathFunctions.Conv_GeometryScriptPolyPathToArray
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11301,7 +11301,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479283930
+	 * 		RVA    -> 0x6EB1D3930
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_PolyPathFunctions.Conv_ArrayToGeometryScriptPolyPath
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11326,7 +11326,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479283820
+	 * 		RVA    -> 0x6EB1D3820
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_PolyPathFunctions.Conv_ArrayOfVector2DToGeometryScriptPolyPath
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11365,7 +11365,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A7F00
+	 * 		RVA    -> 0x6EB1F7F00
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_SceneUtilityFunctions.SetComponentMaterialList
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -11392,7 +11392,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928AEB0
+	 * 		RVA    -> 0x6EB1DAEB0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_SceneUtilityFunctions.CreateDynamicMeshPool
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 */
@@ -11414,7 +11414,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479287CE0
+	 * 		RVA    -> 0x6EB1D7CE0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_SceneUtilityFunctions.CopyMeshFromComponent
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -11454,7 +11454,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792879D0
+	 * 		RVA    -> 0x6EB1D79D0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_SceneUtilityFunctions.CopyCollisionMeshesFromObject
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -11510,7 +11510,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929DE50
+	 * 		RVA    -> 0x6EB1EDE50
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_TransformFunctions.MakeTransformFromZAxis
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11537,7 +11537,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929DC80
+	 * 		RVA    -> 0x6EB1EDC80
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_TransformFunctions.MakeTransformFromAxes
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11568,7 +11568,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479298330
+	 * 		RVA    -> 0x6EB1E8330
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_TransformFunctions.GetTransformAxisVector
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11595,7 +11595,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792981A0
+	 * 		RVA    -> 0x6EB1E81A0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_TransformFunctions.GetTransformAxisRay
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11622,7 +11622,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479298020
+	 * 		RVA    -> 0x6EB1E8020
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_TransformFunctions.GetTransformAxisPlane
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11663,7 +11663,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929DB10
+	 * 		RVA    -> 0x6EB1EDB10
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_RayFunctions.MakeRayFromPoints
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11690,7 +11690,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929D940
+	 * 		RVA    -> 0x6EB1ED940
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_RayFunctions.MakeRayFromPointDirection
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11719,7 +11719,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479298820
+	 * 		RVA    -> 0x6EB1E8820
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_RayFunctions.GetTransformedRay
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11748,7 +11748,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792975F0
+	 * 		RVA    -> 0x6EB1E75F0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_RayFunctions.GetRayStartEnd
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11782,7 +11782,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792973D0
+	 * 		RVA    -> 0x6EB1E73D0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_RayFunctions.GetRaySphereIntersection
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11818,7 +11818,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479297030
+	 * 		RVA    -> 0x6EB1E7030
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_RayFunctions.GetRaySegmentClosestPoint
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11857,7 +11857,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479296EF0
+	 * 		RVA    -> 0x6EB1E6EF0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_RayFunctions.GetRayPointDistance
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11884,7 +11884,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479296DC0
+	 * 		RVA    -> 0x6EB1E6DC0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_RayFunctions.GetRayPoint
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11911,7 +11911,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479296BD0
+	 * 		RVA    -> 0x6EB1E6BD0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_RayFunctions.GetRayPlaneIntersection
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11942,7 +11942,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479296AB0
+	 * 		RVA    -> 0x6EB1E6AB0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_RayFunctions.GetRayParameter
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11969,7 +11969,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479296750
+	 * 		RVA    -> 0x6EB1E6750
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_RayFunctions.GetRayLineClosestPoint
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12011,7 +12011,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792965C0
+	 * 		RVA    -> 0x6EB1E65C0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_RayFunctions.GetRayClosestPoint
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12038,7 +12038,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479296400
+	 * 		RVA    -> 0x6EB1E6400
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_RayFunctions.GetRayBoxIntersection
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12083,7 +12083,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792AE780
+	 * 		RVA    -> 0x6EB1FE780
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_BoxFunctions.TestPointInsideBox
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12112,7 +12112,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792AE5E0
+	 * 		RVA    -> 0x6EB1FE5E0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_BoxFunctions.TestBoxSphereIntersection
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12141,7 +12141,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792AE4B0
+	 * 		RVA    -> 0x6EB1FE4B0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_BoxFunctions.TestBoxBoxIntersection
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12168,7 +12168,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929D7B0
+	 * 		RVA    -> 0x6EB1ED7B0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_BoxFunctions.MakeBoxFromCenterSize
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12195,7 +12195,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47929D650
+	 * 		RVA    -> 0x6EB1ED650
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_BoxFunctions.MakeBoxFromCenterExtents
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12222,7 +12222,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792984B0
+	 * 		RVA    -> 0x6EB1E84B0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_BoxFunctions.GetTransformedBox
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12249,7 +12249,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479290F20
+	 * 		RVA    -> 0x6EB1E0F20
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_BoxFunctions.GetExpandedBox
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12276,7 +12276,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479290960
+	 * 		RVA    -> 0x6EB1E0960
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_BoxFunctions.GetBoxVolumeArea
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12306,7 +12306,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479290820
+	 * 		RVA    -> 0x6EB1E0820
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_BoxFunctions.GetBoxPointDistance
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12333,7 +12333,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479290560
+	 * 		RVA    -> 0x6EB1E0560
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_BoxFunctions.GetBoxFaceCenter
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12364,7 +12364,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479290390
+	 * 		RVA    -> 0x6EB1E0390
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_BoxFunctions.GetBoxCorner
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12391,7 +12391,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792901E0
+	 * 		RVA    -> 0x6EB1E01E0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_BoxFunctions.GetBoxCenterSize
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12421,7 +12421,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792900A0
+	 * 		RVA    -> 0x6EB1E00A0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_BoxFunctions.GetBoxBoxDistance
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12448,7 +12448,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928E2F0
+	 * 		RVA    -> 0x6EB1DE2F0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_BoxFunctions.FindClosestPointOnBox
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12479,7 +12479,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47928E150
+	 * 		RVA    -> 0x6EB1DE150
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_BoxFunctions.FindBoxBoxIntersection
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12524,7 +12524,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A1DF0
+	 * 		RVA    -> 0x6EB1F1DF0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_TextureMapFunctions.SampleTextureRenderTarget2DAtUVPositions
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -12557,7 +12557,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A1550
+	 * 		RVA    -> 0x6EB1F1550
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_TextureMapFunctions.SampleTexture2DAtUVPositions
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -12604,7 +12604,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792B18D0
+	 * 		RVA    -> 0x6EB2018D0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_VectorMathFunctions.VectorToScalar
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -12635,7 +12635,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792B1780
+	 * 		RVA    -> 0x6EB201780
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_VectorMathFunctions.VectorNormalizeInPlace
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -12662,7 +12662,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792B1430
+	 * 		RVA    -> 0x6EB201430
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_VectorMathFunctions.VectorLength
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -12687,7 +12687,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792B0FE0
+	 * 		RVA    -> 0x6EB200FE0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_VectorMathFunctions.VectorDot
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -12714,7 +12714,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792B0A90
+	 * 		RVA    -> 0x6EB200A90
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_VectorMathFunctions.VectorCross
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -12741,7 +12741,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792B0540
+	 * 		RVA    -> 0x6EB200540
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_VectorMathFunctions.VectorBlendInPlace
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -12772,7 +12772,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792AFF90
+	 * 		RVA    -> 0x6EB1FFF90
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_VectorMathFunctions.VectorBlend
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -12803,7 +12803,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A4890
+	 * 		RVA    -> 0x6EB1F4890
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_VectorMathFunctions.ScalarVectorMultiplyInPlace
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -12832,7 +12832,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A4400
+	 * 		RVA    -> 0x6EB1F4400
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_VectorMathFunctions.ScalarVectorMultiply
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -12861,7 +12861,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A3F60
+	 * 		RVA    -> 0x6EB1F3F60
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_VectorMathFunctions.ScalarMultiplyInPlace
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -12890,7 +12890,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A3A20
+	 * 		RVA    -> 0x6EB1F3A20
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_VectorMathFunctions.ScalarMultiply
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -12919,7 +12919,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A3820
+	 * 		RVA    -> 0x6EB1F3820
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_VectorMathFunctions.ScalarInvertInPlace
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -12950,7 +12950,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A3440
+	 * 		RVA    -> 0x6EB1F3440
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_VectorMathFunctions.ScalarInvert
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -12981,7 +12981,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A2EE0
+	 * 		RVA    -> 0x6EB1F2EE0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_VectorMathFunctions.ScalarBlendInPlace
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -13012,7 +13012,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792A28E0
+	 * 		RVA    -> 0x6EB1F28E0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_VectorMathFunctions.ScalarBlend
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -13043,7 +13043,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4792836E0
+	 * 		RVA    -> 0x6EB1D36E0
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_VectorMathFunctions.ConstantVectorMultiplyInPlace
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -13070,7 +13070,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479283360
+	 * 		RVA    -> 0x6EB1D3360
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_VectorMathFunctions.ConstantVectorMultiply
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -13097,7 +13097,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479283220
+	 * 		RVA    -> 0x6EB1D3220
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_VectorMathFunctions.ConstantScalarMultiplyInPlace
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -13124,7 +13124,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479282E40
+	 * 		RVA    -> 0x6EB1D2E40
 	 * 		Name   -> Function GeometryScriptingCore.GeometryScriptLibrary_VectorMathFunctions.ConstantScalarMultiply
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:

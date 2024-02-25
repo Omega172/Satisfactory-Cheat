@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPA_1pHoverPack.BPA_1pHoverPack_C.AnimGraph
 	 * 		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -36,7 +36,26 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
+	 * 		Name   -> Function BPA_1pHoverPack.BPA_1pHoverPack_C.CalculateAnimGraphValues
+	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+	 */
+	void UBPA_1pHoverPack_C::CalculateAnimGraphValues()
+	{
+		static UFunction* fn = nullptr;
+		if (!fn)
+			fn = UObject::FindObject<UFunction>("Function BPA_1pHoverPack.BPA_1pHoverPack_C.CalculateAnimGraphValues");
+		
+		UBPA_1pHoverPack_C_CalculateAnimGraphValues_Params params {};
+		
+		auto flags = fn->FunctionFlags;
+		UObject::ProcessEvent(fn, &params);
+		fn->FunctionFlags = flags;
+	}
+
+	/**
+	 * Function:
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPA_1pHoverPack.BPA_1pHoverPack_C.BlueprintUpdateAnimation
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -58,29 +77,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
-	 * 		Name   -> Function BPA_1pHoverPack.BPA_1pHoverPack_C.ToggleHovering
-	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
-	 * Parameters:
-	 * 		bool                                               HoveringActive                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	 */
-	void UBPA_1pHoverPack_C::ToggleHovering(bool HoveringActive)
-	{
-		static UFunction* fn = nullptr;
-		if (!fn)
-			fn = UObject::FindObject<UFunction>("Function BPA_1pHoverPack.BPA_1pHoverPack_C.ToggleHovering");
-		
-		UBPA_1pHoverPack_C_ToggleHovering_Params params {};
-		params.HoveringActive = HoveringActive;
-		
-		auto flags = fn->FunctionFlags;
-		UObject::ProcessEvent(fn, &params);
-		fn->FunctionFlags = flags;
-	}
-
-	/**
-	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPA_1pHoverPack.BPA_1pHoverPack_C.ExecuteUbergraph_BPA_1pHoverPack
 	 * 		Flags  -> (Final)
 	 * Parameters:

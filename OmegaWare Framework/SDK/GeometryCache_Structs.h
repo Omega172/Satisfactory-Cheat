@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -33,7 +33,7 @@ namespace CG
 	struct FTrackRenderData
 	{
 	public:
-		unsigned char                                              UnknownData_YK15[0xC0];                                  // 0x0000(0x00C0) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_VAJH[0xC0];                                  // 0x0000(0x00C0) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -43,7 +43,7 @@ namespace CG
 	struct FGeometryCacheMeshBatchInfo
 	{
 	public:
-		unsigned char                                              UnknownData_1U5H[0xC];                                   // 0x0000(0x000C) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_18Z0[0xC];                                   // 0x0000(0x000C) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -53,7 +53,7 @@ namespace CG
 	struct FGeometryCacheVertexInfo
 	{
 	public:
-		unsigned char                                              UnknownData_2Z4O[0x9];                                   // 0x0000(0x0009) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_C6ZS[0x9];                                   // 0x0000(0x0009) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -63,7 +63,7 @@ namespace CG
 	struct FGeometryCacheMeshData
 	{
 	public:
-		unsigned char                                              UnknownData_JCF3[0xC8];                                  // 0x0000(0x00C8) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_VY87[0xC8];                                  // 0x0000(0x00C8) MISSED OFFSET (PADDING)
 	};
 
 }

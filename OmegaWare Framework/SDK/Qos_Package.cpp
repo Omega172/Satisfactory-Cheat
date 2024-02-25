@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47369F000
+	 * 		RVA    -> 0x6E707F000
 	 * 		Name   -> Function Qos.QosBeaconClient.ServerQosRequest
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer, NetValidate)
 	 * Parameters:
@@ -35,7 +35,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47369EF70
+	 * 		RVA    -> 0x6E707EF70
 	 * 		Name   -> Function Qos.QosBeaconClient.ClientQosResponse
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetClient)
 	 * Parameters:

@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -26,7 +26,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736EAD40
+	 * 		RVA    -> 0x6E70CAD40
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingActorReferenceKey.SetValue
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -49,7 +49,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736EAAE0
+	 * 		RVA    -> 0x6E70CAAE0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingActorReferenceKey.SetTime
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -76,7 +76,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9760
+	 * 		RVA    -> 0x6E70C9760
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingActorReferenceKey.GetValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -98,7 +98,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E96C0
+	 * 		RVA    -> 0x6E70C96C0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingActorReferenceKey.GetTime
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -151,7 +151,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736EA130
+	 * 		RVA    -> 0x6E70CA130
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingActorReferenceChannel.SetDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -174,7 +174,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9EB0
+	 * 		RVA    -> 0x6E70C9EB0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingActorReferenceChannel.RemoveKey
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -197,7 +197,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9D50
+	 * 		RVA    -> 0x6E70C9D50
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingActorReferenceChannel.RemoveDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -217,7 +217,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9BB0
+	 * 		RVA    -> 0x6E70C9BB0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingActorReferenceChannel.HasDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -239,7 +239,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9320
+	 * 		RVA    -> 0x6E70C9320
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingActorReferenceChannel.GetKeys
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -261,7 +261,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9140
+	 * 		RVA    -> 0x6E70C9140
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingActorReferenceChannel.GetDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -283,7 +283,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E7D90
+	 * 		RVA    -> 0x6E70C7D90
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingActorReferenceChannel.AddKey
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -328,7 +328,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736EAE70
+	 * 		RVA    -> 0x6E70CAE70
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingBoolKey.SetValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -351,7 +351,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736EAAE0
+	 * 		RVA    -> 0x6E70CAAE0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingBoolKey.SetTime
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -378,7 +378,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9880
+	 * 		RVA    -> 0x6E70C9880
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingBoolKey.GetValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -400,7 +400,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E96C0
+	 * 		RVA    -> 0x6E70C96C0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingBoolKey.GetTime
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -439,7 +439,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736EA260
+	 * 		RVA    -> 0x6E70CA260
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingBoolChannel.SetDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -462,7 +462,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9EB0
+	 * 		RVA    -> 0x6E70C9EB0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingBoolChannel.RemoveKey
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -485,7 +485,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9DB0
+	 * 		RVA    -> 0x6E70C9DB0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingBoolChannel.RemoveDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -505,7 +505,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9C90
+	 * 		RVA    -> 0x6E70C9C90
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingBoolChannel.HasDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -527,7 +527,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9460
+	 * 		RVA    -> 0x6E70C9460
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingBoolChannel.GetNumKeys
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -549,7 +549,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9320
+	 * 		RVA    -> 0x6E70C9320
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingBoolChannel.GetKeys
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -571,7 +571,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E91E0
+	 * 		RVA    -> 0x6E70C91E0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingBoolChannel.GetDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -593,7 +593,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E8D40
+	 * 		RVA    -> 0x6E70C8D40
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingBoolChannel.EvaluateKeys
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -620,7 +620,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E8B00
+	 * 		RVA    -> 0x6E70C8B00
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingBoolChannel.ComputeEffectiveRange
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -642,7 +642,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E8030
+	 * 		RVA    -> 0x6E70C8030
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingBoolChannel.AddKey
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -687,7 +687,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736EAF80
+	 * 		RVA    -> 0x6E70CAF80
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingByteKey.SetValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -710,7 +710,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736EAAE0
+	 * 		RVA    -> 0x6E70CAAE0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingByteKey.SetTime
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -737,7 +737,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9950
+	 * 		RVA    -> 0x6E70C9950
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingByteKey.GetValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -759,7 +759,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E96C0
+	 * 		RVA    -> 0x6E70C96C0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingByteKey.GetTime
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -798,7 +798,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736EA330
+	 * 		RVA    -> 0x6E70CA330
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingByteChannel.SetDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -821,7 +821,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9EB0
+	 * 		RVA    -> 0x6E70C9EB0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingByteChannel.RemoveKey
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -844,7 +844,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9DB0
+	 * 		RVA    -> 0x6E70C9DB0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingByteChannel.RemoveDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -864,7 +864,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9C90
+	 * 		RVA    -> 0x6E70C9C90
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingByteChannel.HasDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -886,7 +886,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9320
+	 * 		RVA    -> 0x6E70C9320
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingByteChannel.GetKeys
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -908,7 +908,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E91E0
+	 * 		RVA    -> 0x6E70C91E0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingByteChannel.GetDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -930,7 +930,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E82B0
+	 * 		RVA    -> 0x6E70C82B0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingByteChannel.AddKey
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -977,7 +977,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736EB050
+	 * 		RVA    -> 0x6E70CB050
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleKey.SetValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1000,7 +1000,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736EAAE0
+	 * 		RVA    -> 0x6E70CAAE0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleKey.SetTime
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1027,7 +1027,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736EAA00
+	 * 		RVA    -> 0x6E70CAA00
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleKey.SetTangentWeightMode
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1050,7 +1050,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736EA920
+	 * 		RVA    -> 0x6E70CA920
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleKey.SetTangentMode
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1073,7 +1073,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736EA6C0
+	 * 		RVA    -> 0x6E70CA6C0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleKey.SetLeaveTangentWeight
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1096,7 +1096,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736EA5C0
+	 * 		RVA    -> 0x6E70CA5C0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleKey.SetLeaveTangent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1119,7 +1119,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736EA4E0
+	 * 		RVA    -> 0x6E70CA4E0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleKey.SetInterpolationMode
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1142,7 +1142,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736EA040
+	 * 		RVA    -> 0x6E70CA040
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleKey.SetArriveTangentWeight
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1165,7 +1165,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9F40
+	 * 		RVA    -> 0x6E70C9F40
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleKey.SetArriveTangent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1188,7 +1188,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9A40
+	 * 		RVA    -> 0x6E70C9A40
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleKey.GetValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1210,7 +1210,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E96C0
+	 * 		RVA    -> 0x6E70C96C0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleKey.GetTime
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1235,7 +1235,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9660
+	 * 		RVA    -> 0x6E70C9660
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleKey.GetTangentWeightMode
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1257,7 +1257,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9600
+	 * 		RVA    -> 0x6E70C9600
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleKey.GetTangentMode
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1279,7 +1279,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9400
+	 * 		RVA    -> 0x6E70C9400
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleKey.GetLeaveTangentWeight
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1301,7 +1301,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E93A0
+	 * 		RVA    -> 0x6E70C93A0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleKey.GetLeaveTangent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1323,7 +1323,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E92C0
+	 * 		RVA    -> 0x6E70C92C0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleKey.GetInterpolationMode
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1345,7 +1345,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E90E0
+	 * 		RVA    -> 0x6E70C90E0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleKey.GetArriveTangentWeight
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1367,7 +1367,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9080
+	 * 		RVA    -> 0x6E70C9080
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleKey.GetArriveTangent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1403,7 +1403,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736EA870
+	 * 		RVA    -> 0x6E70CA870
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleChannel.SetPreInfinityExtrapolation
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1426,7 +1426,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736EA7C0
+	 * 		RVA    -> 0x6E70CA7C0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleChannel.SetPostInfinityExtrapolation
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1449,7 +1449,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736EA400
+	 * 		RVA    -> 0x6E70CA400
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleChannel.SetDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1472,7 +1472,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9EB0
+	 * 		RVA    -> 0x6E70C9EB0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleChannel.RemoveKey
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1495,7 +1495,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9E30
+	 * 		RVA    -> 0x6E70C9E30
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleChannel.RemoveDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1515,7 +1515,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9CE0
+	 * 		RVA    -> 0x6E70C9CE0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleChannel.HasDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1537,7 +1537,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E95A0
+	 * 		RVA    -> 0x6E70C95A0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleChannel.GetPreInfinityExtrapolation
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1559,7 +1559,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9540
+	 * 		RVA    -> 0x6E70C9540
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleChannel.GetPostInfinityExtrapolation
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1581,7 +1581,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E94D0
+	 * 		RVA    -> 0x6E70C94D0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleChannel.GetNumKeys
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1603,7 +1603,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9320
+	 * 		RVA    -> 0x6E70C9320
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleChannel.GetKeys
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1625,7 +1625,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9240
+	 * 		RVA    -> 0x6E70C9240
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleChannel.GetDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1647,7 +1647,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E8EE0
+	 * 		RVA    -> 0x6E70C8EE0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleChannel.EvaluateKeys
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1674,7 +1674,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E8C20
+	 * 		RVA    -> 0x6E70C8C20
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleChannel.ComputeEffectiveRange
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1696,7 +1696,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E8580
+	 * 		RVA    -> 0x6E70C8580
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingDoubleChannel.AddKey
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1743,7 +1743,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736EB140
+	 * 		RVA    -> 0x6E70CB140
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingEventKey.SetValue
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1766,7 +1766,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736EAAE0
+	 * 		RVA    -> 0x6E70CAAE0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingEventKey.SetTime
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1793,7 +1793,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9AA0
+	 * 		RVA    -> 0x6E70C9AA0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingEventKey.GetValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1815,7 +1815,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E96C0
+	 * 		RVA    -> 0x6E70C96C0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingEventKey.GetTime
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1854,7 +1854,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9EB0
+	 * 		RVA    -> 0x6E70C9EB0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingEventChannel.RemoveKey
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1877,7 +1877,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9320
+	 * 		RVA    -> 0x6E70C9320
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingEventChannel.GetKeys
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1899,7 +1899,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E8860
+	 * 		RVA    -> 0x6E70C8860
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingEventChannel.AddKey
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1944,7 +1944,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FAB30
+	 * 		RVA    -> 0x6E70DAB30
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatKey.SetValue
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1967,7 +1967,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FAA00
+	 * 		RVA    -> 0x6E70DAA00
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatKey.SetTime
 	 * 		Flags  -> (Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1994,7 +1994,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FA970
+	 * 		RVA    -> 0x6E70DA970
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatKey.SetTangentWeightMode
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2017,7 +2017,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FA8E0
+	 * 		RVA    -> 0x6E70DA8E0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatKey.SetTangentMode
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2040,7 +2040,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F9570
+	 * 		RVA    -> 0x6E70D9570
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatKey.SetLeaveTangentWeight
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2063,7 +2063,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F94E0
+	 * 		RVA    -> 0x6E70D94E0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatKey.SetLeaveTangent
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2086,7 +2086,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F9450
+	 * 		RVA    -> 0x6E70D9450
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatKey.SetInterpolationMode
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2109,7 +2109,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F87D0
+	 * 		RVA    -> 0x6E70D87D0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatKey.SetArriveTangentWeight
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2132,7 +2132,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F8740
+	 * 		RVA    -> 0x6E70D8740
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatKey.SetArriveTangent
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2155,7 +2155,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F7730
+	 * 		RVA    -> 0x6E70D7730
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatKey.GetValue
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2177,7 +2177,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E96C0
+	 * 		RVA    -> 0x6E70C96C0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatKey.GetTime
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2202,7 +2202,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F74A0
+	 * 		RVA    -> 0x6E70D74A0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatKey.GetTangentWeightMode
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2224,7 +2224,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F7470
+	 * 		RVA    -> 0x6E70D7470
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatKey.GetTangentMode
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2246,7 +2246,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F6220
+	 * 		RVA    -> 0x6E70D6220
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatKey.GetLeaveTangentWeight
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2268,7 +2268,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F61E0
+	 * 		RVA    -> 0x6E70D61E0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatKey.GetLeaveTangent
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2290,7 +2290,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F61B0
+	 * 		RVA    -> 0x6E70D61B0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatKey.GetInterpolationMode
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2312,7 +2312,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F44A0
+	 * 		RVA    -> 0x6E70D44A0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatKey.GetArriveTangentWeight
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2334,7 +2334,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F4460
+	 * 		RVA    -> 0x6E70D4460
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatKey.GetArriveTangent
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2398,7 +2398,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F9C30
+	 * 		RVA    -> 0x6E70D9C30
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatChannel.SetPreInfinityExtrapolation
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2421,7 +2421,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F9B70
+	 * 		RVA    -> 0x6E70D9B70
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatChannel.SetPostInfinityExtrapolation
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2444,7 +2444,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F8950
+	 * 		RVA    -> 0x6E70D8950
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatChannel.SetDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2467,7 +2467,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9EB0
+	 * 		RVA    -> 0x6E70C9EB0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatChannel.RemoveKey
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2490,7 +2490,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F84F0
+	 * 		RVA    -> 0x6E70D84F0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatChannel.RemoveDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2510,7 +2510,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F7A90
+	 * 		RVA    -> 0x6E70D7A90
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatChannel.HasDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2532,7 +2532,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F6E40
+	 * 		RVA    -> 0x6E70D6E40
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatChannel.GetPreInfinityExtrapolation
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2554,7 +2554,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F6DC0
+	 * 		RVA    -> 0x6E70D6DC0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatChannel.GetPostInfinityExtrapolation
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2576,7 +2576,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F6500
+	 * 		RVA    -> 0x6E70D6500
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatChannel.GetNumKeys
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2598,7 +2598,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9320
+	 * 		RVA    -> 0x6E70C9320
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatChannel.GetKeys
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2620,7 +2620,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F58C0
+	 * 		RVA    -> 0x6E70D58C0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatChannel.GetDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2642,7 +2642,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F3750
+	 * 		RVA    -> 0x6E70D3750
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatChannel.EvaluateKeys
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2669,7 +2669,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F3590
+	 * 		RVA    -> 0x6E70D3590
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatChannel.ComputeEffectiveRange
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2691,7 +2691,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F29B0
+	 * 		RVA    -> 0x6E70D29B0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingFloatChannel.AddKey
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2738,7 +2738,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FABC0
+	 * 		RVA    -> 0x6E70DABC0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingIntegerKey.SetValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2761,7 +2761,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736EAAE0
+	 * 		RVA    -> 0x6E70CAAE0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingIntegerKey.SetTime
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2788,7 +2788,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F7770
+	 * 		RVA    -> 0x6E70D7770
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingIntegerKey.GetValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2810,7 +2810,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E96C0
+	 * 		RVA    -> 0x6E70C96C0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingIntegerKey.GetTime
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2849,7 +2849,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F8A70
+	 * 		RVA    -> 0x6E70D8A70
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingIntegerChannel.SetDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2872,7 +2872,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9EB0
+	 * 		RVA    -> 0x6E70C9EB0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingIntegerChannel.RemoveKey
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2895,7 +2895,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F85A0
+	 * 		RVA    -> 0x6E70D85A0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingIntegerChannel.RemoveDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2915,7 +2915,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F7B40
+	 * 		RVA    -> 0x6E70D7B40
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingIntegerChannel.HasDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2937,7 +2937,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9320
+	 * 		RVA    -> 0x6E70C9320
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingIntegerChannel.GetKeys
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2959,7 +2959,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F5990
+	 * 		RVA    -> 0x6E70D5990
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingIntegerChannel.GetDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2981,7 +2981,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F2B80
+	 * 		RVA    -> 0x6E70D2B80
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingIntegerChannel.AddKey
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -3026,7 +3026,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FAC90
+	 * 		RVA    -> 0x6E70DAC90
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingObjectPathKey.SetValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3049,7 +3049,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736EAAE0
+	 * 		RVA    -> 0x6E70CAAE0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingObjectPathKey.SetTime
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -3076,7 +3076,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F7860
+	 * 		RVA    -> 0x6E70D7860
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingObjectPathKey.GetValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3098,7 +3098,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E96C0
+	 * 		RVA    -> 0x6E70C96C0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingObjectPathKey.GetTime
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3137,7 +3137,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F8B40
+	 * 		RVA    -> 0x6E70D8B40
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingObjectPathChannel.SetDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3160,7 +3160,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9EB0
+	 * 		RVA    -> 0x6E70C9EB0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingObjectPathChannel.RemoveKey
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3183,7 +3183,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9D50
+	 * 		RVA    -> 0x6E70C9D50
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingObjectPathChannel.RemoveDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -3203,7 +3203,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F7BB0
+	 * 		RVA    -> 0x6E70D7BB0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingObjectPathChannel.HasDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3225,7 +3225,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9320
+	 * 		RVA    -> 0x6E70C9320
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingObjectPathChannel.GetKeys
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3247,7 +3247,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F5A10
+	 * 		RVA    -> 0x6E70D5A10
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingObjectPathChannel.GetDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3269,7 +3269,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F2E00
+	 * 		RVA    -> 0x6E70D2E00
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingObjectPathChannel.AddKey
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -3314,7 +3314,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FADA0
+	 * 		RVA    -> 0x6E70DADA0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingStringKey.SetValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3337,7 +3337,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736EAAE0
+	 * 		RVA    -> 0x6E70CAAE0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingStringKey.SetTime
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -3364,7 +3364,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F7970
+	 * 		RVA    -> 0x6E70D7970
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingStringKey.GetValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3386,7 +3386,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E96C0
+	 * 		RVA    -> 0x6E70C96C0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingStringKey.GetTime
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3425,7 +3425,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F8C00
+	 * 		RVA    -> 0x6E70D8C00
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingStringChannel.SetDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3448,7 +3448,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9EB0
+	 * 		RVA    -> 0x6E70C9EB0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingStringChannel.RemoveKey
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3471,7 +3471,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9E30
+	 * 		RVA    -> 0x6E70C9E30
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingStringChannel.RemoveDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -3491,7 +3491,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F7BF0
+	 * 		RVA    -> 0x6E70D7BF0
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingStringChannel.HasDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3513,7 +3513,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736E9320
+	 * 		RVA    -> 0x6E70C9320
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingStringChannel.GetKeys
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3535,7 +3535,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F5A40
+	 * 		RVA    -> 0x6E70D5A40
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingStringChannel.GetDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3557,7 +3557,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F3080
+	 * 		RVA    -> 0x6E70D3080
 	 * 		Name   -> Function SequencerScripting.MovieSceneScriptingStringChannel.AddKey
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -3602,7 +3602,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FA340
+	 * 		RVA    -> 0x6E70DA340
 	 * 		Name   -> Function SequencerScripting.MovieSceneBindingExtensions.SetSpawnableBindingID
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3627,7 +3627,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FA270
+	 * 		RVA    -> 0x6E70DA270
 	 * 		Name   -> Function SequencerScripting.MovieSceneBindingExtensions.SetSortingOrder
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3652,7 +3652,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F9A40
+	 * 		RVA    -> 0x6E70D9A40
 	 * 		Name   -> Function SequencerScripting.MovieSceneBindingExtensions.SetParent
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3677,7 +3677,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F97E0
+	 * 		RVA    -> 0x6E70D97E0
 	 * 		Name   -> Function SequencerScripting.MovieSceneBindingExtensions.SetName
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3702,7 +3702,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F8D50
+	 * 		RVA    -> 0x6E70D8D50
 	 * 		Name   -> Function SequencerScripting.MovieSceneBindingExtensions.SetDisplayName
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3727,7 +3727,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F8620
+	 * 		RVA    -> 0x6E70D8620
 	 * 		Name   -> Function SequencerScripting.MovieSceneBindingExtensions.RemoveTrack
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3752,7 +3752,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F80C0
+	 * 		RVA    -> 0x6E70D80C0
 	 * 		Name   -> Function SequencerScripting.MovieSceneBindingExtensions.Remove
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3775,7 +3775,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F7F20
+	 * 		RVA    -> 0x6E70D7F20
 	 * 		Name   -> Function SequencerScripting.MovieSceneBindingExtensions.MoveBindingContents
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3800,7 +3800,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F7DE0
+	 * 		RVA    -> 0x6E70D7DE0
 	 * 		Name   -> Function SequencerScripting.MovieSceneBindingExtensions.IsValid
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -3825,7 +3825,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F74D0
+	 * 		RVA    -> 0x6E70D74D0
 	 * 		Name   -> Function SequencerScripting.MovieSceneBindingExtensions.GetTracks
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3850,7 +3850,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F7070
+	 * 		RVA    -> 0x6E70D7070
 	 * 		Name   -> Function SequencerScripting.MovieSceneBindingExtensions.GetSortingOrder
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3875,7 +3875,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F6D00
+	 * 		RVA    -> 0x6E70D6D00
 	 * 		Name   -> Function SequencerScripting.MovieSceneBindingExtensions.GetPossessedObjectClass
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3900,7 +3900,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F6730
+	 * 		RVA    -> 0x6E70D6730
 	 * 		Name   -> Function SequencerScripting.MovieSceneBindingExtensions.GetParent
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3925,7 +3925,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F6650
+	 * 		RVA    -> 0x6E70D6650
 	 * 		Name   -> Function SequencerScripting.MovieSceneBindingExtensions.GetObjectTemplate
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3950,7 +3950,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F63C0
+	 * 		RVA    -> 0x6E70D63C0
 	 * 		Name   -> Function SequencerScripting.MovieSceneBindingExtensions.GetName
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3975,7 +3975,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F6110
+	 * 		RVA    -> 0x6E70D6110
 	 * 		Name   -> Function SequencerScripting.MovieSceneBindingExtensions.GetId
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -4000,7 +4000,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F5B40
+	 * 		RVA    -> 0x6E70D5B40
 	 * 		Name   -> Function SequencerScripting.MovieSceneBindingExtensions.GetDisplayName
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -4025,7 +4025,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F56A0
+	 * 		RVA    -> 0x6E70D56A0
 	 * 		Name   -> Function SequencerScripting.MovieSceneBindingExtensions.GetChildPossessables
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -4050,7 +4050,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F4010
+	 * 		RVA    -> 0x6E70D4010
 	 * 		Name   -> Function SequencerScripting.MovieSceneBindingExtensions.FindTracksByType
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -4077,7 +4077,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F3DF0
+	 * 		RVA    -> 0x6E70D3DF0
 	 * 		Name   -> Function SequencerScripting.MovieSceneBindingExtensions.FindTracksByExactType
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -4104,7 +4104,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F3320
+	 * 		RVA    -> 0x6E70D3320
 	 * 		Name   -> Function SequencerScripting.MovieSceneBindingExtensions.AddTrack
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -4145,7 +4145,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F4E20
+	 * 		RVA    -> 0x6E70D4E20
 	 * 		Name   -> Function SequencerScripting.MovieSceneEventTrackExtensions.GetBoundObjectPropertyClass
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -4170,7 +4170,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F2840
+	 * 		RVA    -> 0x6E70D2840
 	 * 		Name   -> Function SequencerScripting.MovieSceneEventTrackExtensions.AddEventTriggerSection
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4195,7 +4195,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F26D0
+	 * 		RVA    -> 0x6E70D26D0
 	 * 		Name   -> Function SequencerScripting.MovieSceneEventTrackExtensions.AddEventRepeaterSection
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4234,7 +4234,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F9360
+	 * 		RVA    -> 0x6E70D9360
 	 * 		Name   -> Function SequencerScripting.MovieSceneFolderExtensions.SetFolderName
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4261,7 +4261,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F9270
+	 * 		RVA    -> 0x6E70D9270
 	 * 		Name   -> Function SequencerScripting.MovieSceneFolderExtensions.SetFolderColor
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -4288,7 +4288,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F82A0
+	 * 		RVA    -> 0x6E70D82A0
 	 * 		Name   -> Function SequencerScripting.MovieSceneFolderExtensions.RemoveChildTrack
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4315,7 +4315,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F83C0
+	 * 		RVA    -> 0x6E70D83C0
 	 * 		Name   -> Function SequencerScripting.MovieSceneFolderExtensions.RemoveChildObjectBinding
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4342,7 +4342,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F82A0
+	 * 		RVA    -> 0x6E70D82A0
 	 * 		Name   -> Function SequencerScripting.MovieSceneFolderExtensions.RemoveChildMasterTrack
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4369,7 +4369,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F8180
+	 * 		RVA    -> 0x6E70D8180
 	 * 		Name   -> Function SequencerScripting.MovieSceneFolderExtensions.RemoveChildFolder
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4396,7 +4396,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F6050
+	 * 		RVA    -> 0x6E70D6050
 	 * 		Name   -> Function SequencerScripting.MovieSceneFolderExtensions.GetFolderName
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -4421,7 +4421,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F5FB0
+	 * 		RVA    -> 0x6E70D5FB0
 	 * 		Name   -> Function SequencerScripting.MovieSceneFolderExtensions.GetFolderColor
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -4446,7 +4446,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F5780
+	 * 		RVA    -> 0x6E70D5780
 	 * 		Name   -> Function SequencerScripting.MovieSceneFolderExtensions.GetChildTracks
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -4471,7 +4471,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F5450
+	 * 		RVA    -> 0x6E70D5450
 	 * 		Name   -> Function SequencerScripting.MovieSceneFolderExtensions.GetChildObjectBindings
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -4496,7 +4496,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F5310
+	 * 		RVA    -> 0x6E70D5310
 	 * 		Name   -> Function SequencerScripting.MovieSceneFolderExtensions.GetChildMasterTracks
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -4521,7 +4521,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F51C0
+	 * 		RVA    -> 0x6E70D51C0
 	 * 		Name   -> Function SequencerScripting.MovieSceneFolderExtensions.GetChildFolders
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -4546,7 +4546,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F2480
+	 * 		RVA    -> 0x6E70D2480
 	 * 		Name   -> Function SequencerScripting.MovieSceneFolderExtensions.AddChildTrack
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4573,7 +4573,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F25A0
+	 * 		RVA    -> 0x6E70D25A0
 	 * 		Name   -> Function SequencerScripting.MovieSceneFolderExtensions.AddChildObjectBinding
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4600,7 +4600,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F2480
+	 * 		RVA    -> 0x6E70D2480
 	 * 		Name   -> Function SequencerScripting.MovieSceneFolderExtensions.AddChildMasterTrack
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4627,7 +4627,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F2360
+	 * 		RVA    -> 0x6E70D2360
 	 * 		Name   -> Function SequencerScripting.MovieSceneFolderExtensions.AddChildFolder
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4668,7 +4668,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F9600
+	 * 		RVA    -> 0x6E70D9600
 	 * 		Name   -> Function SequencerScripting.MovieSceneMaterialTrackExtensions.SetMaterialIndex
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4693,7 +4693,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F6260
+	 * 		RVA    -> 0x6E70D6260
 	 * 		Name   -> Function SequencerScripting.MovieSceneMaterialTrackExtensions.GetMaterialIndex
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4732,7 +4732,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F96F0
+	 * 		RVA    -> 0x6E70D96F0
 	 * 		Name   -> Function SequencerScripting.MovieScenePrimitiveMaterialTrackExtensions.SetMaterialIndex
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4757,7 +4757,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F6310
+	 * 		RVA    -> 0x6E70D6310
 	 * 		Name   -> Function SequencerScripting.MovieScenePrimitiveMaterialTrackExtensions.GetMaterialIndex
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4796,7 +4796,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F9CF0
+	 * 		RVA    -> 0x6E70D9CF0
 	 * 		Name   -> Function SequencerScripting.MovieScenePropertyTrackExtensions.SetPropertyNameAndPath
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -4823,7 +4823,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F9950
+	 * 		RVA    -> 0x6E70D9950
 	 * 		Name   -> Function SequencerScripting.MovieScenePropertyTrackExtensions.SetObjectPropertyClass
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4848,7 +4848,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F8860
+	 * 		RVA    -> 0x6E70D8860
 	 * 		Name   -> Function SequencerScripting.MovieScenePropertyTrackExtensions.SetByteTrackEnum
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4873,7 +4873,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F7680
+	 * 		RVA    -> 0x6E70D7680
 	 * 		Name   -> Function SequencerScripting.MovieScenePropertyTrackExtensions.GetUniqueTrackName
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4898,7 +4898,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F6F90
+	 * 		RVA    -> 0x6E70D6F90
 	 * 		Name   -> Function SequencerScripting.MovieScenePropertyTrackExtensions.GetPropertyPath
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4923,7 +4923,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F6EC0
+	 * 		RVA    -> 0x6E70D6EC0
 	 * 		Name   -> Function SequencerScripting.MovieScenePropertyTrackExtensions.GetPropertyName
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4948,7 +4948,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F6590
+	 * 		RVA    -> 0x6E70D6590
 	 * 		Name   -> Function SequencerScripting.MovieScenePropertyTrackExtensions.GetObjectPropertyClass
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4973,7 +4973,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F4ED0
+	 * 		RVA    -> 0x6E70D4ED0
 	 * 		Name   -> Function SequencerScripting.MovieScenePropertyTrackExtensions.GetByteTrackEnum
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -5012,7 +5012,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FA780
+	 * 		RVA    -> 0x6E70DA780
 	 * 		Name   -> Function SequencerScripting.MovieSceneSectionExtensions.SetStartFrameSeconds
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5037,7 +5037,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FA600
+	 * 		RVA    -> 0x6E70DA600
 	 * 		Name   -> Function SequencerScripting.MovieSceneSectionExtensions.SetStartFrameBounded
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5062,7 +5062,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FA4B0
+	 * 		RVA    -> 0x6E70DA4B0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSectionExtensions.SetStartFrame
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5087,7 +5087,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FA070
+	 * 		RVA    -> 0x6E70DA070
 	 * 		Name   -> Function SequencerScripting.MovieSceneSectionExtensions.SetRangeSeconds
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5114,7 +5114,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F9E50
+	 * 		RVA    -> 0x6E70D9E50
 	 * 		Name   -> Function SequencerScripting.MovieSceneSectionExtensions.SetRange
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5141,7 +5141,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F9110
+	 * 		RVA    -> 0x6E70D9110
 	 * 		Name   -> Function SequencerScripting.MovieSceneSectionExtensions.SetEndFrameSeconds
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5166,7 +5166,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F8FA0
+	 * 		RVA    -> 0x6E70D8FA0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSectionExtensions.SetEndFrameBounded
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5191,7 +5191,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F8E50
+	 * 		RVA    -> 0x6E70D8E50
 	 * 		Name   -> Function SequencerScripting.MovieSceneSectionExtensions.SetEndFrame
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5216,7 +5216,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F7D30
+	 * 		RVA    -> 0x6E70D7D30
 	 * 		Name   -> Function SequencerScripting.MovieSceneSectionExtensions.HasStartFrame
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5241,7 +5241,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F7C80
+	 * 		RVA    -> 0x6E70D7C80
 	 * 		Name   -> Function SequencerScripting.MovieSceneSectionExtensions.HasEndFrame
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5266,7 +5266,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F7290
+	 * 		RVA    -> 0x6E70D7290
 	 * 		Name   -> Function SequencerScripting.MovieSceneSectionExtensions.GetStartFrameSeconds
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5291,7 +5291,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F7110
+	 * 		RVA    -> 0x6E70D7110
 	 * 		Name   -> Function SequencerScripting.MovieSceneSectionExtensions.GetStartFrame
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5316,7 +5316,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F6820
+	 * 		RVA    -> 0x6E70D6820
 	 * 		Name   -> Function SequencerScripting.MovieSceneSectionExtensions.GetParentSequenceFrame
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5345,7 +5345,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F5DD0
+	 * 		RVA    -> 0x6E70D5DD0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSectionExtensions.GetEndFrameSeconds
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5370,7 +5370,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F5C40
+	 * 		RVA    -> 0x6E70D5C40
 	 * 		Name   -> Function SequencerScripting.MovieSceneSectionExtensions.GetEndFrame
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5395,7 +5395,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F3990
+	 * 		RVA    -> 0x6E70D3990
 	 * 		Name   -> Function SequencerScripting.MovieSceneSectionExtensions.GetChannelsByType
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5422,7 +5422,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F4F90
+	 * 		RVA    -> 0x6E70D4F90
 	 * 		Name   -> Function SequencerScripting.MovieSceneSectionExtensions.GetChannels
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5447,7 +5447,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F4C20
+	 * 		RVA    -> 0x6E70D4C20
 	 * 		Name   -> Function SequencerScripting.MovieSceneSectionExtensions.GetAutoSizeStartFrameSeconds
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5472,7 +5472,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F4A60
+	 * 		RVA    -> 0x6E70D4A60
 	 * 		Name   -> Function SequencerScripting.MovieSceneSectionExtensions.GetAutoSizeStartFrame
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5497,7 +5497,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F4980
+	 * 		RVA    -> 0x6E70D4980
 	 * 		Name   -> Function SequencerScripting.MovieSceneSectionExtensions.GetAutoSizeHasStartFrame
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5522,7 +5522,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F48A0
+	 * 		RVA    -> 0x6E70D48A0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSectionExtensions.GetAutoSizeHasEndFrame
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5547,7 +5547,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F46A0
+	 * 		RVA    -> 0x6E70D46A0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSectionExtensions.GetAutoSizeEndFrameSeconds
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5572,7 +5572,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F44E0
+	 * 		RVA    -> 0x6E70D44E0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSectionExtensions.GetAutoSizeEndFrame
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5597,7 +5597,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F4230
+	 * 		RVA    -> 0x6E70D4230
 	 * 		Name   -> Function SequencerScripting.MovieSceneSectionExtensions.GetAllChannels
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5622,7 +5622,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736F3990
+	 * 		RVA    -> 0x6E70D3990
 	 * 		Name   -> Function SequencerScripting.MovieSceneSectionExtensions.FindChannelsByType
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5663,7 +5663,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473704B60
+	 * 		RVA    -> 0x6E70E4B60
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.SortMarkedFrames
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5686,7 +5686,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473704A80
+	 * 		RVA    -> 0x6E70E4A80
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.SetWorkRangeStart
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5711,7 +5711,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4737049A0
+	 * 		RVA    -> 0x6E70E49A0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.SetWorkRangeEnd
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5736,7 +5736,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4737048C0
+	 * 		RVA    -> 0x6E70E48C0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.SetViewRangeStart
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5761,7 +5761,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4737047E0
+	 * 		RVA    -> 0x6E70E47E0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.SetViewRangeEnd
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5786,7 +5786,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4737045A0
+	 * 		RVA    -> 0x6E70E45A0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.SetTickResolutionDirectly
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5811,7 +5811,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473704490
+	 * 		RVA    -> 0x6E70E4490
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.SetTickResolution
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5836,7 +5836,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473703FC0
+	 * 		RVA    -> 0x6E70E3FC0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.SetReadOnly
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5861,7 +5861,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473703E30
+	 * 		RVA    -> 0x6E70E3E30
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.SetPlaybackStartSeconds
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5886,7 +5886,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473703C70
+	 * 		RVA    -> 0x6E70E3C70
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.SetPlaybackStart
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5911,7 +5911,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473703AE0
+	 * 		RVA    -> 0x6E70E3AE0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.SetPlaybackEndSeconds
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5936,7 +5936,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473703920
+	 * 		RVA    -> 0x6E70E3920
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.SetPlaybackEnd
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5961,7 +5961,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4737036D0
+	 * 		RVA    -> 0x6E70E36D0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.SetMarkedFrame
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -5988,7 +5988,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4737035D0
+	 * 		RVA    -> 0x6E70E35D0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.SetEvaluationType
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6013,7 +6013,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473703250
+	 * 		RVA    -> 0x6E70E3250
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.SetDisplayRate
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6038,7 +6038,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473702F80
+	 * 		RVA    -> 0x6E70E2F80
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.SetClockSource
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6063,7 +6063,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473702DB0
+	 * 		RVA    -> 0x6E70E2DB0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.ResolveBindingID
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6090,7 +6090,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4737028E0
+	 * 		RVA    -> 0x6E70E28E0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.RemoveTrack
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6117,7 +6117,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473702A20
+	 * 		RVA    -> 0x6E70E2A20
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.RemoveRootFolderFromSequence
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6142,7 +6142,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4737028E0
+	 * 		RVA    -> 0x6E70E28E0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.RemoveMasterTrack
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6169,7 +6169,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473702560
+	 * 		RVA    -> 0x6E70E2560
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.MakeRangeSeconds
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6198,7 +6198,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4737023A0
+	 * 		RVA    -> 0x6E70E23A0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.MakeRange
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6227,7 +6227,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473701D00
+	 * 		RVA    -> 0x6E70E1D00
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.MakeBindingID
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -6256,7 +6256,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473701A90
+	 * 		RVA    -> 0x6E70E1A90
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.LocateBoundObjects
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -6285,7 +6285,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4737019F0
+	 * 		RVA    -> 0x6E70E19F0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.IsReadOnly
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6310,7 +6310,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4737017D0
+	 * 		RVA    -> 0x6E70E17D0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.GetWorkRangeStart
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -6335,7 +6335,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473701710
+	 * 		RVA    -> 0x6E70E1710
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.GetWorkRangeEnd
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -6360,7 +6360,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473701650
+	 * 		RVA    -> 0x6E70E1650
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.GetViewRangeStart
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -6385,7 +6385,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473701590
+	 * 		RVA    -> 0x6E70E1590
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.GetViewRangeEnd
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -6410,7 +6410,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4737013D0
+	 * 		RVA    -> 0x6E70E13D0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.GetTracks
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6435,7 +6435,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4737011C0
+	 * 		RVA    -> 0x6E70E11C0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.GetTimecodeSource
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6460,7 +6460,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4737010F0
+	 * 		RVA    -> 0x6E70E10F0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.GetTickResolution
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6485,7 +6485,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473700D30
+	 * 		RVA    -> 0x6E70E0D30
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.GetSpawnables
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6510,7 +6510,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4737009B0
+	 * 		RVA    -> 0x6E70E09B0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.GetRootFoldersInSequence
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -6535,7 +6535,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473700790
+	 * 		RVA    -> 0x6E70E0790
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.GetPossessables
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6560,7 +6560,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4737000F0
+	 * 		RVA    -> 0x6E70E00F0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.GetPortableBindingID
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -6589,7 +6589,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FFEC0
+	 * 		RVA    -> 0x6E70DFEC0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.GetPlaybackStartSeconds
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6614,7 +6614,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FFCF0
+	 * 		RVA    -> 0x6E70DFCF0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.GetPlaybackStart
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6639,7 +6639,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FFB90
+	 * 		RVA    -> 0x6E70DFB90
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.GetPlaybackRange
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6664,7 +6664,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FF960
+	 * 		RVA    -> 0x6E70DF960
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.GetPlaybackEndSeconds
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6689,7 +6689,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FF790
+	 * 		RVA    -> 0x6E70DF790
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.GetPlaybackEnd
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6714,7 +6714,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FF620
+	 * 		RVA    -> 0x6E70DF620
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.GetMovieScene
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6739,7 +6739,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FF460
+	 * 		RVA    -> 0x6E70DF460
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.GetMasterTracks
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6764,7 +6764,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FF270
+	 * 		RVA    -> 0x6E70DF270
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.GetMarkedFrames
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6789,7 +6789,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FF1B0
+	 * 		RVA    -> 0x6E70DF1B0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.GetEvaluationType
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -6814,7 +6814,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FEF40
+	 * 		RVA    -> 0x6E70DEF40
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.GetDisplayRate
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6839,7 +6839,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FED10
+	 * 		RVA    -> 0x6E70DED10
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.GetClockSource
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -6864,7 +6864,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FEB60
+	 * 		RVA    -> 0x6E70DEB60
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.GetBindings
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6889,7 +6889,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FEAA0
+	 * 		RVA    -> 0x6E70DEAA0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.GetBindingID
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -6914,7 +6914,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FE7C0
+	 * 		RVA    -> 0x6E70DE7C0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.FindTracksByType
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6941,7 +6941,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FE4E0
+	 * 		RVA    -> 0x6E70DE4E0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.FindTracksByExactType
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6968,7 +6968,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FE380
+	 * 		RVA    -> 0x6E70DE380
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.FindNextMarkedFrame
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6997,7 +6997,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FE0B0
+	 * 		RVA    -> 0x6E70DE0B0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.FindMasterTracksByType
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -7024,7 +7024,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FDE10
+	 * 		RVA    -> 0x6E70DDE10
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.FindMasterTracksByExactType
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -7051,7 +7051,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FDCF0
+	 * 		RVA    -> 0x6E70DDCF0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.FindMarkedFrameByLabel
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -7078,7 +7078,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FDBF0
+	 * 		RVA    -> 0x6E70DDBF0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.FindMarkedFrameByFrameNumber
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -7105,7 +7105,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FDA10
+	 * 		RVA    -> 0x6E70DDA10
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.FindBindingByName
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -7132,7 +7132,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FD850
+	 * 		RVA    -> 0x6E70DD850
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.FindBindingById
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -7159,7 +7159,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FD7A0
+	 * 		RVA    -> 0x6E70DD7A0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.DeleteMarkedFrames
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -7182,7 +7182,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FD6A0
+	 * 		RVA    -> 0x6E70DD6A0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.DeleteMarkedFrame
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -7207,7 +7207,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FCEF0
+	 * 		RVA    -> 0x6E70DCEF0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.AddTrack
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -7234,7 +7234,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FD520
+	 * 		RVA    -> 0x6E70DD520
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.AddSpawnableFromInstance
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -7261,7 +7261,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FD3A0
+	 * 		RVA    -> 0x6E70DD3A0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.AddSpawnableFromClass
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -7288,7 +7288,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FD1A0
+	 * 		RVA    -> 0x6E70DD1A0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.AddRootFolderToSequence
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -7315,7 +7315,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FD060
+	 * 		RVA    -> 0x6E70DD060
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.AddPossessable
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -7342,7 +7342,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FCEF0
+	 * 		RVA    -> 0x6E70DCEF0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.AddMasterTrack
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -7369,7 +7369,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FCDB0
+	 * 		RVA    -> 0x6E70DCDB0
 	 * 		Name   -> Function SequencerScripting.MovieSceneSequenceExtensions.AddMarkedFrame
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -7410,7 +7410,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4737046A0
+	 * 		RVA    -> 0x6E70E46A0
 	 * 		Name   -> Function SequencerScripting.MovieSceneTrackExtensions.SetTrackRowDisplayName
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -7437,7 +7437,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473704180
+	 * 		RVA    -> 0x6E70E4180
 	 * 		Name   -> Function SequencerScripting.MovieSceneTrackExtensions.SetSortingOrder
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -7462,7 +7462,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473704090
+	 * 		RVA    -> 0x6E70E4090
 	 * 		Name   -> Function SequencerScripting.MovieSceneTrackExtensions.SetSectionToKey
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -7487,7 +7487,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473703150
+	 * 		RVA    -> 0x6E70E3150
 	 * 		Name   -> Function SequencerScripting.MovieSceneTrackExtensions.SetDisplayName
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -7512,7 +7512,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473703080
+	 * 		RVA    -> 0x6E70E3080
 	 * 		Name   -> Function SequencerScripting.MovieSceneTrackExtensions.SetColorTint
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -7537,7 +7537,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473702C10
+	 * 		RVA    -> 0x6E70E2C10
 	 * 		Name   -> Function SequencerScripting.MovieSceneTrackExtensions.RemoveSection
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -7562,7 +7562,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4737012C0
+	 * 		RVA    -> 0x6E70E12C0
 	 * 		Name   -> Function SequencerScripting.MovieSceneTrackExtensions.GetTrackRowDisplayName
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -7589,7 +7589,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473700C70
+	 * 		RVA    -> 0x6E70E0C70
 	 * 		Name   -> Function SequencerScripting.MovieSceneTrackExtensions.GetSortingOrder
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -7614,7 +7614,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473700A70
+	 * 		RVA    -> 0x6E70E0A70
 	 * 		Name   -> Function SequencerScripting.MovieSceneTrackExtensions.GetSectionToKey
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -7639,7 +7639,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473700B30
+	 * 		RVA    -> 0x6E70E0B30
 	 * 		Name   -> Function SequencerScripting.MovieSceneTrackExtensions.GetSections
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -7664,7 +7664,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FEE70
+	 * 		RVA    -> 0x6E70DEE70
 	 * 		Name   -> Function SequencerScripting.MovieSceneTrackExtensions.GetDisplayName
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -7689,7 +7689,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FEDD0
+	 * 		RVA    -> 0x6E70DEDD0
 	 * 		Name   -> Function SequencerScripting.MovieSceneTrackExtensions.GetColorTint
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -7714,7 +7714,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FD2C0
+	 * 		RVA    -> 0x6E70DD2C0
 	 * 		Name   -> Function SequencerScripting.MovieSceneTrackExtensions.AddSection
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -7753,7 +7753,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473703830
+	 * 		RVA    -> 0x6E70E3830
 	 * 		Name   -> Function SequencerScripting.MovieSceneFloatVectorTrackExtensions.SetNumChannelsUsed
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -7778,7 +7778,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FF6E0
+	 * 		RVA    -> 0x6E70DF6E0
 	 * 		Name   -> Function SequencerScripting.MovieSceneFloatVectorTrackExtensions.GetNumChannelsUsed
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -7817,7 +7817,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473703830
+	 * 		RVA    -> 0x6E70E3830
 	 * 		Name   -> Function SequencerScripting.MovieSceneDoubleVectorTrackExtensions.SetNumChannelsUsed
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -7842,7 +7842,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FF6E0
+	 * 		RVA    -> 0x6E70DF6E0
 	 * 		Name   -> Function SequencerScripting.MovieSceneDoubleVectorTrackExtensions.GetNumChannelsUsed
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -7881,7 +7881,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473704340
+	 * 		RVA    -> 0x6E70E4340
 	 * 		Name   -> Function SequencerScripting.SequencerScriptingRangeExtensions.SetStartSeconds
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -7908,7 +7908,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473704250
+	 * 		RVA    -> 0x6E70E4250
 	 * 		Name   -> Function SequencerScripting.SequencerScriptingRangeExtensions.SetStartFrame
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -7935,7 +7935,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473703440
+	 * 		RVA    -> 0x6E70E3440
 	 * 		Name   -> Function SequencerScripting.SequencerScriptingRangeExtensions.SetEndSeconds
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -7962,7 +7962,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473703350
+	 * 		RVA    -> 0x6E70E3350
 	 * 		Name   -> Function SequencerScripting.SequencerScriptingRangeExtensions.SetEndFrame
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -7989,7 +7989,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473702D10
+	 * 		RVA    -> 0x6E70E2D10
 	 * 		Name   -> Function SequencerScripting.SequencerScriptingRangeExtensions.RemoveStart
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -8014,7 +8014,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473702840
+	 * 		RVA    -> 0x6E70E2840
 	 * 		Name   -> Function SequencerScripting.SequencerScriptingRangeExtensions.RemoveEnd
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -8039,7 +8039,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473701940
+	 * 		RVA    -> 0x6E70E1940
 	 * 		Name   -> Function SequencerScripting.SequencerScriptingRangeExtensions.HasStart
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -8064,7 +8064,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473701890
+	 * 		RVA    -> 0x6E70E1890
 	 * 		Name   -> Function SequencerScripting.SequencerScriptingRangeExtensions.HasEnd
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -8089,7 +8089,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473700FF0
+	 * 		RVA    -> 0x6E70E0FF0
 	 * 		Name   -> Function SequencerScripting.SequencerScriptingRangeExtensions.GetStartSeconds
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -8114,7 +8114,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473700F50
+	 * 		RVA    -> 0x6E70E0F50
 	 * 		Name   -> Function SequencerScripting.SequencerScriptingRangeExtensions.GetStartFrame
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -8139,7 +8139,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FF0B0
+	 * 		RVA    -> 0x6E70DF0B0
 	 * 		Name   -> Function SequencerScripting.SequencerScriptingRangeExtensions.GetEndSeconds
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -8164,7 +8164,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4736FF010
+	 * 		RVA    -> 0x6E70DF010
 	 * 		Name   -> Function SequencerScripting.SequencerScriptingRangeExtensions.GetEndFrame
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:

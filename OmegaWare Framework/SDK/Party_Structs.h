@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -276,7 +276,7 @@ namespace CG
 		int64_t                                                    RequestTime;                                             // 0x0030(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int64_t                                                    ResponseTime;                                            // 0x0038(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		unsigned char                                              DenialReason;                                            // 0x0040(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_9CZ3[0x7];                                   // 0x0041(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_TDYH[0x7];                                   // 0x0041(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -297,7 +297,7 @@ namespace CG
 	struct FOnlinePartyRepDataBase
 	{
 	public:
-		unsigned char                                              UnknownData_9JLA[0x18];                                  // 0x0000(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_GKXZ[0x18];                                  // 0x0000(0x0018) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -307,15 +307,15 @@ namespace CG
 	struct FPartyMemberRepData : public FOnlinePartyRepDataBase
 	{
 	public:
-		unsigned char                                              UnknownData_RD23[0x8];                                   // 0x0018(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_HCD7[0x8];                                   // 0x0018(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FPartyMemberPlatformData                            PlatformData;                                            // 0x0020(0x0098) NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_LCVM[0x90];                                  // 0x00B8(0x0090) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_UV9E[0x90];                                  // 0x00B8(0x0090) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		ECrossplayPreference                                       CrossplayPreference;                                     // 0x0148(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_4TPI[0x37];                                  // 0x0149(0x0037) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_MLPN[0x37];                                  // 0x0149(0x0037) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FString                                              JoinMethod;                                              // 0x0180(0x0010) ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_SZ8U[0x30];                                  // 0x0190(0x0030) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_HT9A[0x30];                                  // 0x0190(0x0030) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FPartyMemberJoinInProgressData                      JoinInProgressData;                                      // 0x01C0(0x0048) NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_YZ4G[0x60];                                  // 0x0208(0x0060) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_T5P2[0x60];                                  // 0x0208(0x0060) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -349,11 +349,11 @@ namespace CG
 	struct FPartyRepData : public FOnlinePartyRepDataBase
 	{
 	public:
-		unsigned char                                              UnknownData_SKCW[0x8];                                   // 0x0018(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_H775[0x8];                                   // 0x0018(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FPartyPrivacySettings                               PrivacySettings;                                         // 0x0020(0x0003) NoDestructor, Protected, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_NSCY[0x35];                                  // 0x0023(0x0035) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_62KW[0x35];                                  // 0x0023(0x0035) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FPartyPlatformSessionInfo>                   PlatformSessions;                                        // 0x0058(0x0010) ZeroConstructor, Protected, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_FZAA[0x18];                                  // 0x0068(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_AYTK[0x18];                                  // 0x0068(0x0018) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -364,9 +364,9 @@ namespace CG
 	{
 	public:
 		class USocialUser*                                         SocialUser;                                              // 0x0000(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_2336[0x10];                                  // 0x0008(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_4EFX[0x10];                                  // 0x0008(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class USocialChatChannel*>                          ListenChannels;                                          // 0x0018(0x0010) ZeroConstructor, UObjectWrapper, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_9HLA[0x18];                                  // 0x0028(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_PV74[0x18];                                  // 0x0028(0x0018) MISSED OFFSET (PADDING)
 	};
 
 }

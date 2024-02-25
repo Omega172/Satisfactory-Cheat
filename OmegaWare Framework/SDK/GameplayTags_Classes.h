@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -76,7 +76,7 @@ namespace CG
 	{
 	public:
 		class FString                                              UserDescription;                                         // 0x0028(0x0010) Edit, ZeroConstructor, DisableEditOnInstance, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_T2LZ[0x10];                                  // 0x0038(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_6PYZ[0x10];                                  // 0x0038(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UEditableGameplayTagQueryExpression*                 RootExpression;                                          // 0x0048(0x0008) Edit, ExportObject, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, PersistentInstance, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FGameplayTagQuery                                   TagQueryExportText_Helper;                               // 0x0050(0x0048) NativeAccessSpecifierPrivate
 
@@ -179,9 +179,9 @@ namespace CG
 	class UGameplayTagsManager : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_HTVK[0x138];                                 // 0x0028(0x0138) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_MYW9[0x138];                                 // 0x0028(0x0138) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TMap<class FName, struct FGameplayTagSource>               TagSources;                                              // 0x0160(0x0050) NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_8XNI[0x88];                                  // 0x01B0(0x0088) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_4L0N[0x88];                                  // 0x01B0(0x0088) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class UDataTable*>                                  GameplayTagTables;                                       // 0x0238(0x0010) ZeroConstructor, UObjectWrapper, NativeAccessSpecifierPrivate
 
 	public:
@@ -229,7 +229,7 @@ namespace CG
 		bool                                                       AllowEditorTagUnloading;                                 // 0x004B(0x0001) Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       AllowGameTagUnloading;                                   // 0x004C(0x0001) Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       FastReplication;                                         // 0x004D(0x0001) Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_LS7Z[0x2];                                   // 0x004E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_F0KD[0x2];                                   // 0x004E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FString                                              InvalidTagCharacters;                                    // 0x0050(0x0010) Edit, ZeroConstructor, Config, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<struct FGameplayTagCategoryRemap>                   CategoryRemapping;                                       // 0x0060(0x0010) Edit, ZeroConstructor, Config, NativeAccessSpecifierPublic
 		TArray<struct FSoftObjectPath>                             GameplayTagTableList;                                    // 0x0070(0x0010) Edit, ZeroConstructor, Config, NativeAccessSpecifierPublic

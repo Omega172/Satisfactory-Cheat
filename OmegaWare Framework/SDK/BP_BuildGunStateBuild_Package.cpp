@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStateBuild.BP_BuildGunStateBuild_C.PrimaryFire
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 */
@@ -31,7 +31,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStateBuild.BP_BuildGunStateBuild_C.EndState
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 */
@@ -50,7 +50,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStateBuild.BP_BuildGunStateBuild_C.BeginState
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 */
@@ -69,7 +69,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStateBuild.BP_BuildGunStateBuild_C.OnResetHologram
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -88,7 +88,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStateBuild.BP_BuildGunStateBuild_C.OnMultiStepPlacement
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -110,7 +110,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStateBuild.BP_BuildGunStateBuild_C.OpenBuildModeUI
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -129,7 +129,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStateBuild.BP_BuildGunStateBuild_C.OnRecipeSampled
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -151,7 +151,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStateBuild.BP_BuildGunStateBuild_C.ShowBuildModeSelectUI
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -170,7 +170,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStateBuild.BP_BuildGunStateBuild_C.CloseBuildModeSelectUI
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -189,7 +189,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStateBuild.BP_BuildGunStateBuild_C.OnZoopUpdated
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -215,7 +215,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStateBuild.BP_BuildGunStateBuild_C.SecondaryFire
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 */
@@ -234,7 +234,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStateBuild.BP_BuildGunStateBuild_C.Scroll
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -256,7 +256,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_BuildGunStateBuild.BP_BuildGunStateBuild_C.ExecuteUbergraph_BP_BuildGunStateBuild
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:

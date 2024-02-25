@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -34,8 +34,8 @@ namespace CG
 	class UDataflowComponent : public UPrimitiveComponent
 	{
 	public:
-		unsigned char                                              UnknownData_KXLI[0x8];                                   // 0x0568(0x0008) Fix Super Size
-		unsigned char                                              UnknownData_Q01B[0x140];                                 // 0x0570(0x0140) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_0Q1E[0x8];                                   // 0x0568(0x0008) Fix Super Size
+		unsigned char                                              UnknownData_UFVB[0x140];                                 // 0x0570(0x0140) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();

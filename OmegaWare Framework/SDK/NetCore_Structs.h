@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -174,7 +174,7 @@ namespace CG
 	public:
 		class FName                                                DataName;                                                // 0x0000(0x0008) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bEnabled;                                                // 0x0008(0x0001) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_0ZGD[0x3];                                   // 0x0009(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_B6Q8[0x3];                                   // 0x0009(0x0003) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -184,7 +184,7 @@ namespace CG
 	struct FStateStruct
 	{
 	public:
-		unsigned char                                              UnknownData_P8LG[0x8];                                   // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_51HS[0x8];                                   // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FString                                              StateName;                                               // 0x0008(0x0010) ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 	};
 
@@ -200,7 +200,7 @@ namespace CG
 		int16_t                                                    CooloffTime;                                             // 0x001A(0x0002) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int16_t                                                    AutoEscalateTime;                                        // 0x001C(0x0002) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int8_t                                                     HighestTimePeriod;                                       // 0x001E(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_4ZGH[0x1];                                   // 0x001F(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_7FRB[0x1];                                   // 0x001F(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<int8_t>                                             AllTimePeriods;                                          // 0x0020(0x0010) ZeroConstructor, Protected, NativeAccessSpecifierProtected
 	};
 
@@ -212,14 +212,14 @@ namespace CG
 	{
 	public:
 		bool                                                       bCloseConnection;                                        // 0x0030(0x0001) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_V8JW[0x1];                                   // 0x0031(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_4Q5D[0x1];                                   // 0x0031(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int16_t                                                    EscalateQuotaFaultsPerPeriod;                            // 0x0032(0x0002) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int8_t                                                     EscalateQuotaFaultPercentPerPeriod;                      // 0x0034(0x0001) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_9D1V[0x1];                                   // 0x0035(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_GGZP[0x1];                                   // 0x0035(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int16_t                                                    DescalateQuotaFaultsPerPeriod;                           // 0x0036(0x0002) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int8_t                                                     DescalateQuotaFaultPercentPerPeriod;                     // 0x0038(0x0001) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int8_t                                                     EscalateQuotaTimePeriod;                                 // 0x0039(0x0001) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_876V[0x6];                                   // 0x003A(0x0006) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_FDPO[0x6];                                   // 0x003A(0x0006) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -241,11 +241,11 @@ namespace CG
 	struct FFastArraySerializer
 	{
 	public:
-		unsigned char                                              UnknownData_27LH[0x54];                                  // 0x0000(0x0054) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_BK0W[0x54];                                  // 0x0000(0x0054) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    ArrayReplicationKey;                                     // 0x0054(0x0004) ZeroConstructor, IsPlainOldData, RepSkip, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_9REZ[0xA8];                                  // 0x0058(0x00A8) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_CC5Y[0xA8];                                  // 0x0058(0x00A8) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		EFastArraySerializerDeltaFlags                             DeltaFlags;                                              // 0x0100(0x0001) ZeroConstructor, Transient, IsPlainOldData, RepSkip, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_E9M9[0x7];                                   // 0x0101(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_X1KH[0x7];                                   // 0x0101(0x0007) MISSED OFFSET (PADDING)
 	};
 
 }

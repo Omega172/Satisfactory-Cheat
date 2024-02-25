@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -68,7 +68,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x478F5D830
+	 * 		RVA    -> 0x6EA2DD830
 	 * 		Name   -> Function AudioSynesthesia.ConstantQNRT.GetNormalizedChannelConstantQAtTime
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -97,7 +97,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x478F5D2E0
+	 * 		RVA    -> 0x6EA2DD2E0
 	 * 		Name   -> Function AudioSynesthesia.ConstantQNRT.GetChannelConstantQAtTime
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -182,7 +182,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x478F5DC90
+	 * 		RVA    -> 0x6EA2DDC90
 	 * 		Name   -> Function AudioSynesthesia.LoudnessNRT.GetNormalizedLoudnessAtTime
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -209,7 +209,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x478F5D970
+	 * 		RVA    -> 0x6EA2DD970
 	 * 		Name   -> Function AudioSynesthesia.LoudnessNRT.GetNormalizedChannelLoudnessAtTime
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -238,7 +238,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x478F5D740
+	 * 		RVA    -> 0x6EA2DD740
 	 * 		Name   -> Function AudioSynesthesia.LoudnessNRT.GetLoudnessAtTime
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -265,7 +265,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x478F5D420
+	 * 		RVA    -> 0x6EA2DD420
 	 * 		Name   -> Function AudioSynesthesia.LoudnessNRT.GetChannelLoudnessAtTime
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -350,7 +350,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x478F5DAA0
+	 * 		RVA    -> 0x6EA2DDAA0
 	 * 		Name   -> Function AudioSynesthesia.OnsetNRT.GetNormalizedChannelOnsetsBetweenTimes
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -384,7 +384,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x478F5D550
+	 * 		RVA    -> 0x6EA2DD550
 	 * 		Name   -> Function AudioSynesthesia.OnsetNRT.GetChannelOnsetsBetweenTimes
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -446,7 +446,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x478F5DD80
+	 * 		RVA    -> 0x6EA2DDD80
 	 * 		Name   -> Function AudioSynesthesia.SynesthesiaSpectrumAnalyzer.GetNumCenterFrequencies
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -468,7 +468,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x478F5D1E0
+	 * 		RVA    -> 0x6EA2DD1E0
 	 * 		Name   -> Function AudioSynesthesia.SynesthesiaSpectrumAnalyzer.GetCenterFrequencies
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:

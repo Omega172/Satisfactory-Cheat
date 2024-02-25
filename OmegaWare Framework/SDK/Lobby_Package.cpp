@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473135000
+	 * 		RVA    -> 0x6E6F25000
 	 * 		Name   -> Function Lobby.LobbyBeaconClient.ServerSetPartyOwner
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer, NetValidate)
 	 * Parameters:
@@ -37,7 +37,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473134FB0
+	 * 		RVA    -> 0x6E6F24FB0
 	 * 		Name   -> Function Lobby.LobbyBeaconClient.ServerNotifyJoiningServer
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer, NetValidate)
 	 */
@@ -57,7 +57,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473134D90
+	 * 		RVA    -> 0x6E6F24D90
 	 * 		Name   -> Function Lobby.LobbyBeaconClient.ServerLoginPlayer
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer, NetValidate)
 	 * Parameters:
@@ -84,7 +84,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473134BC0
+	 * 		RVA    -> 0x6E6F24BC0
 	 * 		Name   -> Function Lobby.LobbyBeaconClient.ServerKickPlayer
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer, NetValidate)
 	 * Parameters:
@@ -109,7 +109,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473134B70
+	 * 		RVA    -> 0x6E6F24B70
 	 * 		Name   -> Function Lobby.LobbyBeaconClient.ServerDisconnectFromLobby
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer, NetValidate)
 	 */
@@ -129,7 +129,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473134AB0
+	 * 		RVA    -> 0x6E6F24AB0
 	 * 		Name   -> Function Lobby.LobbyBeaconClient.ServerCheat
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Public, NetServer, NetValidate)
 	 * Parameters:
@@ -152,7 +152,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473134890
+	 * 		RVA    -> 0x6E6F24890
 	 * 		Name   -> Function Lobby.LobbyBeaconClient.ClientWasKicked
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetClient)
 	 * Parameters:
@@ -175,7 +175,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4731347F0
+	 * 		RVA    -> 0x6E6F247F0
 	 * 		Name   -> Function Lobby.LobbyBeaconClient.ClientSetInviteFlags
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Public, NetClient)
 	 * Parameters:
@@ -198,7 +198,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4731346A0
+	 * 		RVA    -> 0x6E6F246A0
 	 * 		Name   -> Function Lobby.LobbyBeaconClient.ClientPlayerLeft
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetClient)
 	 * Parameters:
@@ -221,7 +221,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4731344F0
+	 * 		RVA    -> 0x6E6F244F0
 	 * 		Name   -> Function Lobby.LobbyBeaconClient.ClientPlayerJoined
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetClient)
 	 * Parameters:
@@ -246,7 +246,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473134350
+	 * 		RVA    -> 0x6E6F24350
 	 * 		Name   -> Function Lobby.LobbyBeaconClient.ClientLoginComplete
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetClient)
 	 * Parameters:
@@ -271,7 +271,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473134330
+	 * 		RVA    -> 0x6E6F24330
 	 * 		Name   -> Function Lobby.LobbyBeaconClient.ClientJoinGame
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Public, NetClient)
 	 */
@@ -291,7 +291,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473134310
+	 * 		RVA    -> 0x6E6F24310
 	 * 		Name   -> Function Lobby.LobbyBeaconClient.ClientAckJoiningServer
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetClient)
 	 */
@@ -339,7 +339,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473134A20
+	 * 		RVA    -> 0x6E6F24A20
 	 * 		Name   -> Function Lobby.LobbyBeaconPlayerState.OnRep_UniqueId
 	 * 		Flags  -> (Final, Native, Protected)
 	 */
@@ -359,7 +359,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4731349C0
+	 * 		RVA    -> 0x6E6F249C0
 	 * 		Name   -> Function Lobby.LobbyBeaconPlayerState.OnRep_PartyOwner
 	 * 		Flags  -> (Final, Native, Protected)
 	 */
@@ -379,7 +379,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473134930
+	 * 		RVA    -> 0x6E6F24930
 	 * 		Name   -> Function Lobby.LobbyBeaconPlayerState.OnRep_InLobby
 	 * 		Flags  -> (Final, Native, Protected)
 	 */
@@ -413,7 +413,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473134A80
+	 * 		RVA    -> 0x6E6F24A80
 	 * 		Name   -> Function Lobby.LobbyBeaconState.OnRep_WaitForPlayersTimeRemaining
 	 * 		Flags  -> (Final, Native, Protected)
 	 */
@@ -433,7 +433,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473134990
+	 * 		RVA    -> 0x6E6F24990
 	 * 		Name   -> Function Lobby.LobbyBeaconState.OnRep_LobbyStarted
 	 * 		Flags  -> (Final, Native, Protected)
 	 */

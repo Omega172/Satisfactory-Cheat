@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A95D440
+	 * 		RVA    -> 0x6EBE9D440
 	 * 		Name   -> Function GameplayCameras.LegacyCameraShake.StartLegacyCameraShakeFromSource
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -47,7 +47,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A95D210
+	 * 		RVA    -> 0x6EBE9D210
 	 * 		Name   -> Function GameplayCameras.LegacyCameraShake.StartLegacyCameraShake
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -80,7 +80,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function GameplayCameras.LegacyCameraShake.ReceiveStopShake
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -102,7 +102,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function GameplayCameras.LegacyCameraShake.ReceivePlayShake
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -124,7 +124,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A95D1E0
+	 * 		RVA    -> 0x6EBE9D1E0
 	 * 		Name   -> Function GameplayCameras.LegacyCameraShake.ReceiveIsFinished
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent, Const)
 	 */
@@ -146,7 +146,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function GameplayCameras.LegacyCameraShake.BlueprintUpdateCameraShake
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -204,7 +204,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A95C1F0
+	 * 		RVA    -> 0x6EBE9C1F0
 	 * 		Name   -> Function GameplayCameras.LegacyCameraShakeFunctionLibrary.Conv_LegacyCameraShake
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -243,7 +243,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A95DBC0
+	 * 		RVA    -> 0x6EBE9DBC0
 	 * 		Name   -> Function GameplayCameras.CameraAnimationCameraModifier.StopCameraAnimation
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -268,7 +268,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A95D8D0
+	 * 		RVA    -> 0x6EBE9D8D0
 	 * 		Name   -> Function GameplayCameras.CameraAnimationCameraModifier.StopAllCameraAnimationsOf
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -293,7 +293,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A95D670
+	 * 		RVA    -> 0x6EBE9D670
 	 * 		Name   -> Function GameplayCameras.CameraAnimationCameraModifier.StopAllCameraAnimations
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -316,7 +316,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A95C910
+	 * 		RVA    -> 0x6EBE9C910
 	 * 		Name   -> Function GameplayCameras.CameraAnimationCameraModifier.PlayCameraAnimation
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -343,7 +343,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A95C620
+	 * 		RVA    -> 0x6EBE9C620
 	 * 		Name   -> Function GameplayCameras.CameraAnimationCameraModifier.IsCameraAnimationActive
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -368,7 +368,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A95C4B0
+	 * 		RVA    -> 0x6EBE9C4B0
 	 * 		Name   -> Function GameplayCameras.CameraAnimationCameraModifier.GetCameraAnimationCameraModifierFromPlayerController
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -393,7 +393,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A95C3D0
+	 * 		RVA    -> 0x6EBE9C3D0
 	 * 		Name   -> Function GameplayCameras.CameraAnimationCameraModifier.GetCameraAnimationCameraModifierFromID
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -420,7 +420,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A95C2F0
+	 * 		RVA    -> 0x6EBE9C2F0
 	 * 		Name   -> Function GameplayCameras.CameraAnimationCameraModifier.GetCameraAnimationCameraModifier
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -461,7 +461,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A95C130
+	 * 		RVA    -> 0x6EBE9C130
 	 * 		Name   -> Function GameplayCameras.GameplayCamerasFunctionLibrary.Conv_CameraShakePlaySpace
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -486,7 +486,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A95C130
+	 * 		RVA    -> 0x6EBE9C130
 	 * 		Name   -> Function GameplayCameras.GameplayCamerasFunctionLibrary.Conv_CameraAnimationPlaySpace
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -511,7 +511,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A95C050
+	 * 		RVA    -> 0x6EBE9C050
 	 * 		Name   -> Function GameplayCameras.GameplayCamerasFunctionLibrary.Conv_CameraAnimationCameraModifier
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -578,7 +578,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A95DCA0
+	 * 		RVA    -> 0x6EBE9DCA0
 	 * 		Name   -> Function GameplayCameras.GameplayCamerasSubsystem.StopCameraAnimation
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -605,7 +605,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A95D9B0
+	 * 		RVA    -> 0x6EBE9D9B0
 	 * 		Name   -> Function GameplayCameras.GameplayCamerasSubsystem.StopAllCameraAnimationsOf
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -632,7 +632,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A95D700
+	 * 		RVA    -> 0x6EBE9D700
 	 * 		Name   -> Function GameplayCameras.GameplayCamerasSubsystem.StopAllCameraAnimations
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -657,7 +657,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A95CCF0
+	 * 		RVA    -> 0x6EBE9CCF0
 	 * 		Name   -> Function GameplayCameras.GameplayCamerasSubsystem.PlayCameraAnimation
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -686,7 +686,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A95C700
+	 * 		RVA    -> 0x6EBE9C700
 	 * 		Name   -> Function GameplayCameras.GameplayCamerasSubsystem.IsCameraAnimationActive
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:

@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -22,7 +22,7 @@ namespace CG
 	{
 	public:
 		float                                                      LODBias;                                                 // 0x00A0(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_5FVB[0x24];                                  // 0x00A4(0x0024) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_EZ3N[0x24];                                  // 0x00A4(0x0024) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();

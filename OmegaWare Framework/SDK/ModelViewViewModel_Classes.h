@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -39,7 +39,7 @@ namespace CG
 	class UMVVMViewModelBase : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_8LAU[0x40];                                  // 0x0028(0x0040) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_0WAW[0x40];                                  // 0x0028(0x0040) MISSED OFFSET (PADDING)
 
 	public:
 		bool K2_SetPropertyValue(int32_t OldValue, int32_t NewValue);
@@ -75,7 +75,7 @@ namespace CG
 	{
 	public:
 		TArray<struct FFieldNotificationId>                        FieldNotifyNames;                                        // 0x0370(0x0010) ZeroConstructor, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_Z3A6[0x10];                                  // 0x0380(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_3BXX[0x10];                                  // 0x0380(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -89,7 +89,7 @@ namespace CG
 	{
 	public:
 		class UMVVMViewClass*                                      ClassExtension;                                          // 0x0028(0x0008) ExportObject, ZeroConstructor, Transient, InstancedReference, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_LABL[0x38];                                  // 0x0030(0x0038) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_O1OL[0x38];                                  // 0x0030(0x0038) MISSED OFFSET (PADDING)
 
 	public:
 		bool SetViewModel(const class FName& ViewModelName);
@@ -106,7 +106,7 @@ namespace CG
 		TArray<struct FMVVMViewClass_SourceCreator>                SourceCreators;                                          // 0x0028(0x0010) ZeroConstructor, NativeAccessSpecifierPrivate
 		TArray<struct FMVVMViewClass_CompiledBinding>              CompiledBindings;                                        // 0x0038(0x0010) ZeroConstructor, NativeAccessSpecifierPrivate
 		struct FMVVMCompiledBindingLibrary                         BindingLibrary;                                          // 0x0048(0x0060) NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_CN50[0x8];                                   // 0x00A8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_SYBE[0x8];                                   // 0x00A8(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -119,7 +119,7 @@ namespace CG
 	class UMVVMViewWorldSubsystem : public UTickableWorldSubsystem
 	{
 	public:
-		unsigned char                                              UnknownData_FXWY[0x60];                                  // 0x0040(0x0060) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_ABPU[0x60];                                  // 0x0040(0x0060) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();

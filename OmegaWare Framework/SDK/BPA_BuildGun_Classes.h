@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -21,7 +21,7 @@ namespace CG
 	class UBPA_BuildGun_C : public UAnimInstance
 	{
 	public:
-		unsigned char                                              UnknownData_QFW9[0x8];                                   // 0x0348(0x0008) Fix Super Size
+		unsigned char                                              UnknownData_0TAS[0x8];                                   // 0x0348(0x0008) Fix Super Size
 		struct FPointerToUberGraphFrame                            UberGraphFrame;                                          // 0x0350(0x0008) ZeroConstructor, Transient, DuplicateTransient
 		struct FAnimSubsystemInstance                              AnimBlueprintExtension_PropertyAccess;                   // 0x0358(0x0008)
 		struct FAnimSubsystemInstance                              AnimBlueprintExtension_Base;                             // 0x0360(0x0008)
@@ -60,7 +60,7 @@ namespace CG
 		struct FAnimNode_RefPose                                   AnimGraphNode_LocalRefPose;                              // 0x0A00(0x0010)
 		struct FAnimNode_StateResult                               AnimGraphNode_StateResult;                               // 0x0A10(0x0020)
 		struct FAnimNode_StateMachine                              AnimGraphNode_StateMachine;                              // 0x0A30(0x00C8)
-		unsigned char                                              UnknownData_QDLG[0x8];                                   // 0x0AF8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_LBBS[0x8];                                   // 0x0AF8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FAnimNode_RigidBody                                 AnimGraphNode_RigidBody;                                 // 0x0B00(0x09B0)
 		struct FAnimNode_ConvertComponentToLocalSpace              AnimGraphNode_ComponentToLocalSpace;                     // 0x14B0(0x0020)
 		double                                                     mSpeed;                                                  // 0x14D0(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash

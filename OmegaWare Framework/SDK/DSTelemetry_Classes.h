@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -21,7 +21,7 @@ namespace CG
 	class UDJSONArray : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_P7U7[0x10];                                  // 0x0028(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_RJMA[0x10];                                  // 0x0028(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		class UDJSONArray* STATIC_CreateJSONArray(class UObject* WorldContextObject);
@@ -50,7 +50,7 @@ namespace CG
 	class UDJSONObject : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_KDA5[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_JMWM[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		class UDJSONObject* STATIC_CreateJSONObject(class UObject* WorldContextObject);
@@ -79,7 +79,7 @@ namespace CG
 	class UDSTelemetry : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_4ANW[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_E3SG[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		void Terminate();

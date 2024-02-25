@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47F1BB830
+	 * 		RVA    -> 0x6F6E0B830
 	 * 		Name   -> Function ModelViewViewModel.MVVMSubsystem.K2_GetViewFromUserWidget
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -37,7 +37,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47F1BB690
+	 * 		RVA    -> 0x6F6E0B690
 	 * 		Name   -> Function ModelViewViewModel.MVVMSubsystem.K2_GetAvailableBindings
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -64,7 +64,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47F1BB4E0
+	 * 		RVA    -> 0x6F6E0B4E0
 	 * 		Name   -> Function ModelViewViewModel.MVVMSubsystem.K2_GetAvailableBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -93,7 +93,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47F1BB350
+	 * 		RVA    -> 0x6F6E0B350
 	 * 		Name   -> Function ModelViewViewModel.MVVMSubsystem.GetGlobalViewModelCollection
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -115,7 +115,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47F1BB070
+	 * 		RVA    -> 0x6F6E0B070
 	 * 		Name   -> Function ModelViewViewModel.MVVMSubsystem.DoesWidgetTreeContainedWidget
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -156,7 +156,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47F1BBA20
+	 * 		RVA    -> 0x6F6E0BA20
 	 * 		Name   -> Function ModelViewViewModel.MVVMViewModelBase.K2_SetPropertyValue
 	 * 		Flags  -> (Final, Native, Protected, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -183,7 +183,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47F1BB8D0
+	 * 		RVA    -> 0x6F6E0B8D0
 	 * 		Name   -> Function ModelViewViewModel.MVVMViewModelBase.K2_RemoveFieldValueChangedDelegate
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -208,7 +208,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47F1BB450
+	 * 		RVA    -> 0x6F6E0B450
 	 * 		Name   -> Function ModelViewViewModel.MVVMViewModelBase.K2_BroadcastFieldValueChanged
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -231,7 +231,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47F1BB370
+	 * 		RVA    -> 0x6F6E0B370
 	 * 		Name   -> Function ModelViewViewModel.MVVMViewModelBase.K2_AddFieldValueChangedDelegate
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -270,7 +270,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47F1BBD40
+	 * 		RVA    -> 0x6F6E0BD40
 	 * 		Name   -> Function ModelViewViewModel.MVVMViewModelCollectionObject.RemoveViewModel
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -295,7 +295,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47F1BBCA0
+	 * 		RVA    -> 0x6F6E0BCA0
 	 * 		Name   -> Function ModelViewViewModel.MVVMViewModelCollectionObject.RemoveAllViewModelInstance
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -320,7 +320,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47F1BB260
+	 * 		RVA    -> 0x6F6E0B260
 	 * 		Name   -> Function ModelViewViewModel.MVVMViewModelCollectionObject.FindViewModelInstance
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -345,7 +345,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47F1BB1B0
+	 * 		RVA    -> 0x6F6E0B1B0
 	 * 		Name   -> Function ModelViewViewModel.MVVMViewModelCollectionObject.FindFirstViewModelInstanceOfType
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -370,7 +370,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47F1BAF80
+	 * 		RVA    -> 0x6F6E0AF80
 	 * 		Name   -> Function ModelViewViewModel.MVVMViewModelCollectionObject.AddViewModelInstance
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -425,7 +425,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47F1BBDF0
+	 * 		RVA    -> 0x6F6E0BDF0
 	 * 		Name   -> Function ModelViewViewModel.MVVMView.SetViewModel
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:

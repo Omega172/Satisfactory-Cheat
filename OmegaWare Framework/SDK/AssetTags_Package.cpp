@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x472974460
+	 * 		RVA    -> 0x6E6AB4460
 	 * 		Name   -> Function AssetTags.AssetTagsSubsystem.K2_GetCollectionsContainingAsset
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -37,7 +37,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x472974360
+	 * 		RVA    -> 0x6E6AB4360
 	 * 		Name   -> Function AssetTags.AssetTagsSubsystem.GetCollectionsContainingAssetPtr
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -62,7 +62,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4729741B0
+	 * 		RVA    -> 0x6E6AB41B0
 	 * 		Name   -> Function AssetTags.AssetTagsSubsystem.GetCollectionsContainingAssetData
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -87,7 +87,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4729740B0
+	 * 		RVA    -> 0x6E6AB40B0
 	 * 		Name   -> Function AssetTags.AssetTagsSubsystem.GetCollectionsContainingAsset
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -112,7 +112,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x472974030
+	 * 		RVA    -> 0x6E6AB4030
 	 * 		Name   -> Function AssetTags.AssetTagsSubsystem.GetCollections
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -134,7 +134,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x472973ED0
+	 * 		RVA    -> 0x6E6AB3ED0
 	 * 		Name   -> Function AssetTags.AssetTagsSubsystem.GetAssetsInCollection
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -159,7 +159,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x472973E30
+	 * 		RVA    -> 0x6E6AB3E30
 	 * 		Name   -> Function AssetTags.AssetTagsSubsystem.CollectionExists
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:

@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -348,7 +348,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A8479E70
+	 * 		RVA    -> 0x71B489E70
 	 * 		Name   -> Function DatasmithContent.DatasmithContentBlueprintLibrary.GetDatasmithUserDataValuesForKey
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -377,7 +377,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A8479D30
+	 * 		RVA    -> 0x71B489D30
 	 * 		Name   -> Function DatasmithContent.DatasmithContentBlueprintLibrary.GetDatasmithUserDataValueForKey
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -406,7 +406,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A8479B50
+	 * 		RVA    -> 0x71B489B50
 	 * 		Name   -> Function DatasmithContent.DatasmithContentBlueprintLibrary.GetDatasmithUserDataKeysAndValuesForValue
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -438,7 +438,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A8479AC0
+	 * 		RVA    -> 0x71B489AC0
 	 * 		Name   -> Function DatasmithContent.DatasmithContentBlueprintLibrary.GetDatasmithUserData
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -505,7 +505,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4A847A010
+	 * 		RVA    -> 0x71B48A010
 	 * 		Name   -> Function DatasmithContent.DatasmithImportedSequencesActor.PlayLevelSequence
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:

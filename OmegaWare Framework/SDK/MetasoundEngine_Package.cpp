@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x476C2ABD0
+	 * 		RVA    -> 0x723FEAA70
 	 * 		Name   -> Function MetasoundEngine.MetasoundGeneratorHandle.CreateMetaSoundGeneratorHandle
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -37,7 +37,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x476C2A9F0
+	 * 		RVA    -> 0x723FEA890
 	 * 		Name   -> Function MetasoundEngine.MetasoundGeneratorHandle.ApplyParameterPack
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -118,7 +118,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x476C2ADE0
+	 * 		RVA    -> 0x723FEAC80
 	 * 		Name   -> Function MetasoundEngine.MetaSoundAssetSubsystem.UnregisterAssetClassesInDirectories
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -141,7 +141,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x476C2AD10
+	 * 		RVA    -> 0x723FEABB0
 	 * 		Name   -> Function MetasoundEngine.MetaSoundAssetSubsystem.RegisterAssetClassesInDirectories
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:

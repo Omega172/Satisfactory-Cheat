@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -47,7 +47,7 @@ namespace CG
 	class UEnhancedInputComponent : public UInputComponent
 	{
 	public:
-		unsigned char                                              UnknownData_5SAX[0x38];                                  // 0x0128(0x0038) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_N8FL[0x38];                                  // 0x0128(0x0038) MISSED OFFSET (PADDING)
 
 	public:
 		struct FInputActionValue GetBoundActionValue(class UInputAction* Action);
@@ -69,7 +69,7 @@ namespace CG
 		bool                                                       bShouldOnlyTriggerLastActionInChord : 1;                 // 0x0098(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bEnableWorldSubsystem : 1;                               // 0x0098(0x0001) BIT_FIELD Edit, Config, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bShouldLogAllWorldSubsystemInputs : 1;                   // 0x0098(0x0001) BIT_FIELD Edit, Config, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_TUVC[0x7];                                   // 0x0099(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_4F71[0x7];                                   // 0x0099(0x0007) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -126,7 +126,7 @@ namespace CG
 		unsigned char                                              InputData[0x10];                                         // 0x0040(0x0010) UNKNOWN PROPERTY: ArrayProperty
 		TArray<class UClass*>                                      InputDataClasses;                                        // 0x0050(0x0010) ZeroConstructor, Transient, Protected, UObjectWrapper, NativeAccessSpecifierProtected
 		bool                                                       bShouldLogMappingContextRedirects;                       // 0x0060(0x0001) Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_SE48[0x7];                                   // 0x0061(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_Y6EO[0x7];                                   // 0x0061(0x0007) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -168,7 +168,7 @@ namespace CG
 	class UEnhancedInputLocalPlayerSubsystem : public ULocalPlayerSubsystem
 	{
 	public:
-		unsigned char                                              UnknownData_YAKN[0x200];                                 // 0x0030(0x0200) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_KP45[0x200];                                 // 0x0030(0x0200) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FScriptMulticastDelegate                             ControlMappingsRebuiltDelegate;                          // 0x0230(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
 
 	public:
@@ -182,9 +182,9 @@ namespace CG
 	class UEnhancedInputWorldSubsystem : public UWorldSubsystem
 	{
 	public:
-		unsigned char                                              UnknownData_8RUL[0x200];                                 // 0x0030(0x0200) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_DM1S[0x200];                                 // 0x0030(0x0200) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UEnhancedPlayerInput*                                PlayerInput;                                             // 0x0230(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_6M13[0x10];                                  // 0x0238(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_FCFC[0x10];                                  // 0x0238(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<TWeakObjectPtr<class UInputComponent>>              CurrentInputStack;                                       // 0x0248(0x0010) ExportObject, ZeroConstructor, Transient, ContainsInstancedReference, Protected, UObjectWrapper, NativeAccessSpecifierProtected
 
 	public:
@@ -202,13 +202,13 @@ namespace CG
 	public:
 		TMap<class UInputMappingContext*, int32_t>                 AppliedInputContexts;                                    // 0x0498(0x0050) Transient, NativeAccessSpecifierPrivate
 		TArray<struct FEnhancedActionKeyMapping>                   EnhancedActionMappings;                                  // 0x04E8(0x0010) ZeroConstructor, Transient, ContainsInstancedReference, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_T5T6[0x50];                                  // 0x04F8(0x0050) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_1G17[0x50];                                  // 0x04F8(0x0050) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TMap<class UInputAction*, struct FInputActionInstance>     ActionInstanceData;                                      // 0x0548(0x0050) Transient, ContainsInstancedReference, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_Q0V4[0xB0];                                  // 0x0598(0x00B0) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_FBY7[0xB0];                                  // 0x0598(0x00B0) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TMap<struct FKey, struct FVector>                          KeysPressedThisTick;                                     // 0x0648(0x0050) Transient, NativeAccessSpecifierPrivate
 		TMap<class UInputAction*, struct FInjectedInputArray>      InputsInjectedThisTick;                                  // 0x0698(0x0050) Transient, NativeAccessSpecifierPrivate
 		unsigned char                                              LastInjectedActions[0x50];                               // 0x06E8(0x0050) UNKNOWN PROPERTY: SetProperty
-		unsigned char                                              UnknownData_OCAI[0x18];                                  // 0x0738(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_23O7[0x18];                                  // 0x0738(0x0018) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -226,7 +226,7 @@ namespace CG
 		bool                                                       bTriggerWhenPaused;                                      // 0x0049(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bReserveAllMappings;                                     // 0x004A(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EInputActionValueType                                      ValueType;                                               // 0x004B(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, AssetRegistrySearchable, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_KSQM[0x4];                                   // 0x004C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_09EK[0x4];                                   // 0x004C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class UInputTrigger*>                               Triggers;                                                // 0x0050(0x0010) Edit, BlueprintVisible, ExportObject, ZeroConstructor, ContainsInstancedReference, UObjectWrapper, NativeAccessSpecifierPublic
 		TArray<class UInputModifier*>                              Modifiers;                                               // 0x0060(0x0010) Edit, BlueprintVisible, ExportObject, ZeroConstructor, ContainsInstancedReference, UObjectWrapper, NativeAccessSpecifierPublic
 		class UPlayerMappableKeySettings*                          PlayerMappableKeySettings;                               // 0x0070(0x0008) Edit, BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, NoDestructor, PersistentInstance, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
@@ -289,7 +289,7 @@ namespace CG
 		float                                                      LowerThreshold;                                          // 0x0028(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      UpperThreshold;                                          // 0x002C(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EDeadZoneType                                              Type;                                                    // 0x0030(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_UNWL[0x7];                                   // 0x0031(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_LZPC[0x7];                                   // 0x0031(0x0007) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -328,7 +328,7 @@ namespace CG
 		bool                                                       bX;                                                      // 0x0028(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bY;                                                      // 0x0029(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bZ;                                                      // 0x002A(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_J3YV[0x5];                                   // 0x002B(0x0005) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_9K6M[0x5];                                   // 0x002B(0x0005) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -341,7 +341,7 @@ namespace CG
 	class UInputModifierSmooth : public UInputModifier
 	{
 	public:
-		unsigned char                                              UnknownData_I17B[0x30];                                  // 0x0028(0x0030) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_CVWX[0x30];                                  // 0x0028(0x0030) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -384,7 +384,7 @@ namespace CG
 	public:
 		float                                                      FOVScale;                                                // 0x0028(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EFOVScalingType                                            FOVScalingType;                                          // 0x002C(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_2QIM[0x3];                                   // 0x002D(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_TLLL[0x3];                                   // 0x002D(0x0003) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -408,7 +408,7 @@ namespace CG
 	{
 	public:
 		EInputAxisSwizzle                                          Order;                                                   // 0x0028(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_J56W[0x7];                                   // 0x0029(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_KOJ7[0x7];                                   // 0x0029(0x0007) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -423,7 +423,7 @@ namespace CG
 	public:
 		float                                                      ActuationThreshold;                                      // 0x0028(0x0004) Edit, BlueprintVisible, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bShouldAlwaysTick;                                       // 0x002C(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_YJPV[0x3];                                   // 0x002D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_J14X[0x3];                                   // 0x002D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FInputActionValue                                   LastValue;                                               // 0x0030(0x0020) BlueprintVisible, BlueprintReadOnly, NoDestructor, NativeAccessSpecifierPublic
 
 	public:
@@ -442,7 +442,7 @@ namespace CG
 	public:
 		float                                                      HeldDuration;                                            // 0x0050(0x0004) BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bAffectedByTimeDilation;                                 // 0x0054(0x0001) Edit, BlueprintVisible, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8G9A[0x3];                                   // 0x0055(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_9UQO[0x3];                                   // 0x0055(0x0003) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -485,10 +485,10 @@ namespace CG
 	class UInputTriggerHold : public UInputTriggerTimedBase
 	{
 	public:
-		unsigned char                                              UnknownData_2GNC[0x4];                                   // 0x0058(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_31NL[0x4];                                   // 0x0058(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      HoldTimeThreshold;                                       // 0x005C(0x0004) Edit, BlueprintVisible, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bIsOneShot;                                              // 0x0060(0x0001) Edit, BlueprintVisible, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_1PS8[0x7];                                   // 0x0061(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_67JK[0x7];                                   // 0x0061(0x0007) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -502,7 +502,7 @@ namespace CG
 	{
 	public:
 		float                                                      HoldTimeThreshold;                                       // 0x0058(0x0004) Edit, BlueprintVisible, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8EYL[0x4];                                   // 0x005C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_ZTUC[0x4];                                   // 0x005C(0x0004) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -516,7 +516,7 @@ namespace CG
 	{
 	public:
 		float                                                      TapReleaseTimeThreshold;                                 // 0x0058(0x0004) Edit, BlueprintVisible, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_2SXL[0x4];                                   // 0x005C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_I928[0x4];                                   // 0x005C(0x0004) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -529,9 +529,9 @@ namespace CG
 	class UInputTriggerPulse : public UInputTriggerTimedBase
 	{
 	public:
-		unsigned char                                              UnknownData_UFZ5[0x4];                                   // 0x0058(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_8OHZ[0x4];                                   // 0x0058(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		bool                                                       bTriggerOnStart;                                         // 0x005C(0x0001) Edit, BlueprintVisible, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8DVV[0x3];                                   // 0x005D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_85FJ[0x3];                                   // 0x005D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Interval;                                                // 0x0060(0x0004) Edit, BlueprintVisible, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    TriggerLimit;                                            // 0x0064(0x0004) Edit, BlueprintVisible, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 
@@ -588,7 +588,7 @@ namespace CG
 		class FName                                                ConfigName;                                              // 0x0030(0x0008) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class FText                                                ConfigDisplayName;                                       // 0x0038(0x0018) Edit, BlueprintVisible, BlueprintReadOnly, Protected, NativeAccessSpecifierProtected
 		bool                                                       bIsDeprecated;                                           // 0x0050(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_MP32[0x7];                                   // 0x0051(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_RY3X[0x7];                                   // 0x0051(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UObject*                                             MetaData;                                                // 0x0058(0x0008) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		TMap<class UInputMappingContext*, int32_t>                 Contexts;                                                // 0x0060(0x0050) Edit, BlueprintVisible, BlueprintReadOnly, Protected, NativeAccessSpecifierProtected
 

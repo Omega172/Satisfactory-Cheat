@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -40,7 +40,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4751E78A0
+	 * 		RVA    -> 0x6EA5978A0
 	 * 		Name   -> Function Niagara.NiagaraDataChannelReader.ReadVector4
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -67,7 +67,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4751E77C0
+	 * 		RVA    -> 0x6EA5977C0
 	 * 		Name   -> Function Niagara.NiagaraDataChannelReader.ReadVector2D
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -94,7 +94,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4751E7980
+	 * 		RVA    -> 0x6EA597980
 	 * 		Name   -> Function Niagara.NiagaraDataChannelReader.ReadVector
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -121,7 +121,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4751E76E0
+	 * 		RVA    -> 0x6EA5976E0
 	 * 		Name   -> Function Niagara.NiagaraDataChannelReader.ReadQuat
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -148,7 +148,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4751E7600
+	 * 		RVA    -> 0x6EA597600
 	 * 		Name   -> Function Niagara.NiagaraDataChannelReader.ReadLinearColor
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -175,7 +175,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4751E7530
+	 * 		RVA    -> 0x6EA597530
 	 * 		Name   -> Function Niagara.NiagaraDataChannelReader.ReadInt
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -202,7 +202,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4751E7460
+	 * 		RVA    -> 0x6EA597460
 	 * 		Name   -> Function Niagara.NiagaraDataChannelReader.ReadFloat
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -229,7 +229,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4751E7390
+	 * 		RVA    -> 0x6EA597390
 	 * 		Name   -> Function Niagara.NiagaraDataChannelReader.ReadBool
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -256,7 +256,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4751E7360
+	 * 		RVA    -> 0x6EA597360
 	 * 		Name   -> Function Niagara.NiagaraDataChannelReader.Num
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -278,7 +278,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4751E70E0
+	 * 		RVA    -> 0x6EA5970E0
 	 * 		Name   -> Function Niagara.NiagaraDataChannelReader.InitAccess
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -317,7 +317,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4751E8280
+	 * 		RVA    -> 0x6EA598280
 	 * 		Name   -> Function Niagara.NiagaraDataChannelWriter.WriteVector4
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -344,7 +344,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4751E8160
+	 * 		RVA    -> 0x6EA598160
 	 * 		Name   -> Function Niagara.NiagaraDataChannelWriter.WriteVector2D
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -371,7 +371,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4751E83D0
+	 * 		RVA    -> 0x6EA5983D0
 	 * 		Name   -> Function Niagara.NiagaraDataChannelWriter.WriteVector
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -398,7 +398,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4751E8020
+	 * 		RVA    -> 0x6EA598020
 	 * 		Name   -> Function Niagara.NiagaraDataChannelWriter.WriteSpawnInfo
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -425,7 +425,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4751E7EE0
+	 * 		RVA    -> 0x6EA597EE0
 	 * 		Name   -> Function Niagara.NiagaraDataChannelWriter.WriteQuat
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -452,7 +452,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4751E7DC0
+	 * 		RVA    -> 0x6EA597DC0
 	 * 		Name   -> Function Niagara.NiagaraDataChannelWriter.WriteLinearColor
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -479,7 +479,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4751E7CA0
+	 * 		RVA    -> 0x6EA597CA0
 	 * 		Name   -> Function Niagara.NiagaraDataChannelWriter.WriteInt
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -506,7 +506,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4751E7B80
+	 * 		RVA    -> 0x6EA597B80
 	 * 		Name   -> Function Niagara.NiagaraDataChannelWriter.WriteFloat
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -533,7 +533,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4751E7A60
+	 * 		RVA    -> 0x6EA597A60
 	 * 		Name   -> Function Niagara.NiagaraDataChannelWriter.WriteBool
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -560,7 +560,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4751E7360
+	 * 		RVA    -> 0x6EA597360
 	 * 		Name   -> Function Niagara.NiagaraDataChannelWriter.Num
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -582,7 +582,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4751E7180
+	 * 		RVA    -> 0x6EA597180
 	 * 		Name   -> Function Niagara.NiagaraDataChannelWriter.InitWrite
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -643,7 +643,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4751E70B0
+	 * 		RVA    -> 0x6EA5970B0
 	 * 		Name   -> Function Niagara.NiagaraDataChannelHandler.GetDataChannelWriter
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -665,7 +665,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4751E7080
+	 * 		RVA    -> 0x6EA597080
 	 * 		Name   -> Function Niagara.NiagaraDataChannelHandler.GetDataChannelReader
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1037,7 +1037,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4752B6170
+	 * 		RVA    -> 0x6EA666170
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceStaticMesh.OnSourceEndPlay
 	 * 		Flags  -> (Final, Native, Protected)
 	 * Parameters:
@@ -1076,7 +1076,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4752B6250
+	 * 		RVA    -> 0x6EA666250
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceUObjectPropertyReader.SetUObjectReaderPropertyRemap
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -1259,7 +1259,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534E9F0
+	 * 		RVA    -> 0x6EA6FE9F0
 	 * 		Name   -> Function Niagara.NiagaraActor.SetDestroyOnSystemFinish
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1282,7 +1282,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534E3C0
+	 * 		RVA    -> 0x6EA6FE3C0
 	 * 		Name   -> Function Niagara.NiagaraActor.OnNiagaraSystemFinished
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -1389,7 +1389,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x475350E10
+	 * 		RVA    -> 0x6EA700E10
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetVariableVec4
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1414,7 +1414,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x475350D20
+	 * 		RVA    -> 0x6EA700D20
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetVariableVec3
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1439,7 +1439,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x475350C40
+	 * 		RVA    -> 0x6EA700C40
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetVariableVec2
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1464,7 +1464,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x475350B70
+	 * 		RVA    -> 0x6EA700B70
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetVariableTextureRenderTarget
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1489,7 +1489,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x475350AA0
+	 * 		RVA    -> 0x6EA700AA0
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetVariableTexture
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1514,7 +1514,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753509D0
+	 * 		RVA    -> 0x6EA7009D0
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetVariableStaticMesh
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1539,7 +1539,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753508F0
+	 * 		RVA    -> 0x6EA7008F0
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetVariableQuat
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1564,7 +1564,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x475350800
+	 * 		RVA    -> 0x6EA700800
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetVariablePosition
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1589,7 +1589,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753501E0
+	 * 		RVA    -> 0x6EA7001E0
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetVariableObject
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1614,7 +1614,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753506F0
+	 * 		RVA    -> 0x6EA7006F0
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetVariableMatrix
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1639,7 +1639,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x475350620
+	 * 		RVA    -> 0x6EA700620
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetVariableMaterial
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1664,7 +1664,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x475350540
+	 * 		RVA    -> 0x6EA700540
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetVariableLinearColor
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1689,7 +1689,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x475350470
+	 * 		RVA    -> 0x6EA700470
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetVariableInt
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1714,7 +1714,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x475350390
+	 * 		RVA    -> 0x6EA700390
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetVariableFloat
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1739,7 +1739,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753502B0
+	 * 		RVA    -> 0x6EA7002B0
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetVariableBool
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1764,7 +1764,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753501E0
+	 * 		RVA    -> 0x6EA7001E0
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetVariableActor
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1789,7 +1789,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x475350130
+	 * 		RVA    -> 0x6EA700130
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetTickBehavior
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1812,7 +1812,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x475350070
+	 * 		RVA    -> 0x6EA700070
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetSystemFixedBounds
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1835,7 +1835,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534FF70
+	 * 		RVA    -> 0x6EA6FFF70
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetSimCache
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1860,7 +1860,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534FEE0
+	 * 		RVA    -> 0x6EA6FFEE0
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetSeekDelta
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1883,7 +1883,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534FE40
+	 * 		RVA    -> 0x6EA6FFE40
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetRenderingEnabled
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1906,7 +1906,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534FD90
+	 * 		RVA    -> 0x6EA6FFD90
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetRandomSeedOffset
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1929,7 +1929,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534FC70
+	 * 		RVA    -> 0x6EA6FFC70
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetPreviewLODDistance
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1956,7 +1956,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534FBB0
+	 * 		RVA    -> 0x6EA6FFBB0
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetPaused
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1979,7 +1979,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534FA70
+	 * 		RVA    -> 0x6EA6FFA70
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetNiagaraVariableVec4
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2004,7 +2004,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534F930
+	 * 		RVA    -> 0x6EA6FF930
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetNiagaraVariableVec3
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2029,7 +2029,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534F810
+	 * 		RVA    -> 0x6EA6FF810
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetNiagaraVariableVec2
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2054,7 +2054,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534F6E0
+	 * 		RVA    -> 0x6EA6FF6E0
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetNiagaraVariableQuat
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2079,7 +2079,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534F5A0
+	 * 		RVA    -> 0x6EA6FF5A0
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetNiagaraVariablePosition
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2104,7 +2104,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534EEE0
+	 * 		RVA    -> 0x6EA6FEEE0
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetNiagaraVariableObject
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2129,7 +2129,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534F460
+	 * 		RVA    -> 0x6EA6FF460
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetNiagaraVariableMatrix
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2154,7 +2154,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534F330
+	 * 		RVA    -> 0x6EA6FF330
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetNiagaraVariableLinearColor
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2179,7 +2179,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534F220
+	 * 		RVA    -> 0x6EA6FF220
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetNiagaraVariableInt
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2204,7 +2204,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534F100
+	 * 		RVA    -> 0x6EA6FF100
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetNiagaraVariableFloat
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2229,7 +2229,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534EFF0
+	 * 		RVA    -> 0x6EA6FEFF0
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetNiagaraVariableBool
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2254,7 +2254,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534EEE0
+	 * 		RVA    -> 0x6EA6FEEE0
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetNiagaraVariableActor
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2279,7 +2279,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534EE50
+	 * 		RVA    -> 0x6EA6FEE50
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetMaxSimTime
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2302,7 +2302,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534EDC0
+	 * 		RVA    -> 0x6EA6FEDC0
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetLockDesiredAgeDeltaTimeToSeekDelta
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2325,7 +2325,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534ECF0
+	 * 		RVA    -> 0x6EA6FECF0
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetGpuComputeDebug
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2348,7 +2348,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534EC40
+	 * 		RVA    -> 0x6EA6FEC40
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetForceSolo
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2371,7 +2371,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534EBA0
+	 * 		RVA    -> 0x6EA6FEBA0
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetForceLocalPlayerEffect
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2394,7 +2394,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534EA90
+	 * 		RVA    -> 0x6EA6FEA90
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetEmitterFixedBounds
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2419,7 +2419,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534E960
+	 * 		RVA    -> 0x6EA6FE960
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetDesiredAge
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2442,7 +2442,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534E8B0
+	 * 		RVA    -> 0x6EA6FE8B0
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetCustomTimeDilation
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2465,7 +2465,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534E820
+	 * 		RVA    -> 0x6EA6FE820
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetCanRenderWhileSeeking
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2488,7 +2488,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534E770
+	 * 		RVA    -> 0x6EA6FE770
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetAutoDestroy
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2511,7 +2511,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534E690
+	 * 		RVA    -> 0x6EA6FE690
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetAsset
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2536,7 +2536,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534E5C0
+	 * 		RVA    -> 0x6EA6FE5C0
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetAllowScalability
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2559,7 +2559,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534E540
+	 * 		RVA    -> 0x6EA6FE540
 	 * 		Name   -> Function Niagara.NiagaraComponent.SetAgeUpdateMode
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2582,7 +2582,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534E4B0
+	 * 		RVA    -> 0x6EA6FE4B0
 	 * 		Name   -> Function Niagara.NiagaraComponent.SeekToDesiredAge
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2605,7 +2605,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534E480
+	 * 		RVA    -> 0x6EA6FE480
 	 * 		Name   -> Function Niagara.NiagaraComponent.ResetSystem
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2625,7 +2625,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534E460
+	 * 		RVA    -> 0x6EA6FE460
 	 * 		Name   -> Function Niagara.NiagaraComponent.ReinitializeSystem
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2645,7 +2645,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534E340
+	 * 		RVA    -> 0x6EA6FE340
 	 * 		Name   -> Function Niagara.NiagaraComponent.IsPaused
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2667,7 +2667,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534E2F0
+	 * 		RVA    -> 0x6EA6FE2F0
 	 * 		Name   -> Function Niagara.NiagaraComponent.InitForPerformanceBaseline
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2687,7 +2687,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534E2D0
+	 * 		RVA    -> 0x6EA6FE2D0
 	 * 		Name   -> Function Niagara.NiagaraComponent.GetTickBehavior
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2709,7 +2709,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534E280
+	 * 		RVA    -> 0x6EA6FE280
 	 * 		Name   -> Function Niagara.NiagaraComponent.GetSystemFixedBounds
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2731,7 +2731,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534E260
+	 * 		RVA    -> 0x6EA6FE260
 	 * 		Name   -> Function Niagara.NiagaraComponent.GetSimCache
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2753,7 +2753,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534E240
+	 * 		RVA    -> 0x6EA6FE240
 	 * 		Name   -> Function Niagara.NiagaraComponent.GetSeekDelta
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2775,7 +2775,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534E220
+	 * 		RVA    -> 0x6EA6FE220
 	 * 		Name   -> Function Niagara.NiagaraComponent.GetRandomSeedOffset
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2797,7 +2797,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534E1F0
+	 * 		RVA    -> 0x6EA6FE1F0
 	 * 		Name   -> Function Niagara.NiagaraComponent.GetPreviewLODDistanceEnabled
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2819,7 +2819,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534E1B0
+	 * 		RVA    -> 0x6EA6FE1B0
 	 * 		Name   -> Function Niagara.NiagaraComponent.GetPreviewLODDistance
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2841,7 +2841,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534DD90
+	 * 		RVA    -> 0x6EA6FDD90
 	 * 		Name   -> Function Niagara.NiagaraComponent.GetNiagaraParticleValueVec3_DebugOnly
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2868,7 +2868,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534DFA0
+	 * 		RVA    -> 0x6EA6FDFA0
 	 * 		Name   -> Function Niagara.NiagaraComponent.GetNiagaraParticleValues_DebugOnly
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2895,7 +2895,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534DBC0
+	 * 		RVA    -> 0x6EA6FDBC0
 	 * 		Name   -> Function Niagara.NiagaraComponent.GetNiagaraParticlePositions_DebugOnly
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2920,7 +2920,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534DBA0
+	 * 		RVA    -> 0x6EA6FDBA0
 	 * 		Name   -> Function Niagara.NiagaraComponent.GetMaxSimTime
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2942,7 +2942,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534DB80
+	 * 		RVA    -> 0x6EA6FDB80
 	 * 		Name   -> Function Niagara.NiagaraComponent.GetLockDesiredAgeDeltaTimeToSeekDelta
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2964,7 +2964,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534DB50
+	 * 		RVA    -> 0x6EA6FDB50
 	 * 		Name   -> Function Niagara.NiagaraComponent.GetForceSolo
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2986,7 +2986,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534DB20
+	 * 		RVA    -> 0x6EA6FDB20
 	 * 		Name   -> Function Niagara.NiagaraComponent.GetForceLocalPlayerEffect
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3008,7 +3008,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534DA60
+	 * 		RVA    -> 0x6EA6FDA60
 	 * 		Name   -> Function Niagara.NiagaraComponent.GetEmitterFixedBounds
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3033,7 +3033,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534DA40
+	 * 		RVA    -> 0x6EA6FDA40
 	 * 		Name   -> Function Niagara.NiagaraComponent.GetDesiredAge
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3055,7 +3055,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534D960
+	 * 		RVA    -> 0x6EA6FD960
 	 * 		Name   -> Function Niagara.NiagaraComponent.GetDataInterface
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3080,7 +3080,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534D940
+	 * 		RVA    -> 0x6EA6FD940
 	 * 		Name   -> Function Niagara.NiagaraComponent.GetCustomTimeDilation
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3102,7 +3102,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534D920
+	 * 		RVA    -> 0x6EA6FD920
 	 * 		Name   -> Function Niagara.NiagaraComponent.GetAsset
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3124,7 +3124,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534D8F0
+	 * 		RVA    -> 0x6EA6FD8F0
 	 * 		Name   -> Function Niagara.NiagaraComponent.GetAllowScalability
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3146,7 +3146,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534D8D0
+	 * 		RVA    -> 0x6EA6FD8D0
 	 * 		Name   -> Function Niagara.NiagaraComponent.GetAgeUpdateMode
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3168,7 +3168,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534D8B0
+	 * 		RVA    -> 0x6EA6FD8B0
 	 * 		Name   -> Function Niagara.NiagaraComponent.ClearSystemFixedBounds
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -3188,7 +3188,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534D7E0
+	 * 		RVA    -> 0x6EA6FD7E0
 	 * 		Name   -> Function Niagara.NiagaraComponent.ClearSimCache
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3211,7 +3211,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534D750
+	 * 		RVA    -> 0x6EA6FD750
 	 * 		Name   -> Function Niagara.NiagaraComponent.ClearEmitterFixedBounds
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3234,7 +3234,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534D680
+	 * 		RVA    -> 0x6EA6FD680
 	 * 		Name   -> Function Niagara.NiagaraComponent.AdvanceSimulationByTime
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3259,7 +3259,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47534D570
+	 * 		RVA    -> 0x6EA6FD570
 	 * 		Name   -> Function Niagara.NiagaraComponent.AdvanceSimulation
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3354,7 +3354,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753D9B70
+	 * 		RVA    -> 0x6EA789B70
 	 * 		Name   -> Function Niagara.NiagaraDataChannelLibrary.GetNiagaraDataChannel
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -3535,7 +3535,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753DBB00
+	 * 		RVA    -> 0x6EA78BB00
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.SetNiagaraArrayVectorValue
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -3566,7 +3566,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753DB7D0
+	 * 		RVA    -> 0x6EA78B7D0
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.SetNiagaraArrayVector4Value
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -3597,7 +3597,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753DB6A0
+	 * 		RVA    -> 0x6EA78B6A0
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.SetNiagaraArrayVector4
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3624,7 +3624,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753DB4C0
+	 * 		RVA    -> 0x6EA78B4C0
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.SetNiagaraArrayVector2DValue
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -3655,7 +3655,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753DB390
+	 * 		RVA    -> 0x6EA78B390
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.SetNiagaraArrayVector2D
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3682,7 +3682,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753DB9D0
+	 * 		RVA    -> 0x6EA78B9D0
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.SetNiagaraArrayVector
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3709,7 +3709,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753DB1C0
+	 * 		RVA    -> 0x6EA78B1C0
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.SetNiagaraArrayUInt8Value
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -3740,7 +3740,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753DB090
+	 * 		RVA    -> 0x6EA78B090
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.SetNiagaraArrayUInt8
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3767,7 +3767,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753DAEA0
+	 * 		RVA    -> 0x6EA78AEA0
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.SetNiagaraArrayQuatValue
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -3798,7 +3798,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753DAD70
+	 * 		RVA    -> 0x6EA78AD70
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.SetNiagaraArrayQuat
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3825,7 +3825,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753DABB0
+	 * 		RVA    -> 0x6EA78ABB0
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.SetNiagaraArrayPositionValue
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -3856,7 +3856,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753DAA80
+	 * 		RVA    -> 0x6EA78AA80
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.SetNiagaraArrayPosition
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3883,7 +3883,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753DA8B0
+	 * 		RVA    -> 0x6EA78A8B0
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.SetNiagaraArrayInt32Value
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -3914,7 +3914,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753DA780
+	 * 		RVA    -> 0x6EA78A780
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.SetNiagaraArrayInt32
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3941,7 +3941,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753DA5B0
+	 * 		RVA    -> 0x6EA78A5B0
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.SetNiagaraArrayFloatValue
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -3972,7 +3972,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753DA480
+	 * 		RVA    -> 0x6EA78A480
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.SetNiagaraArrayFloat
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3999,7 +3999,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753DA2A0
+	 * 		RVA    -> 0x6EA78A2A0
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.SetNiagaraArrayColorValue
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -4030,7 +4030,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753DA170
+	 * 		RVA    -> 0x6EA78A170
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.SetNiagaraArrayColor
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -4057,7 +4057,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753D9F90
+	 * 		RVA    -> 0x6EA789F90
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.SetNiagaraArrayBoolValue
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -4088,7 +4088,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753D9E60
+	 * 		RVA    -> 0x6EA789E60
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.SetNiagaraArrayBool
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -4115,7 +4115,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753D9A20
+	 * 		RVA    -> 0x6EA789A20
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.GetNiagaraArrayVectorValue
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -4144,7 +4144,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753D9780
+	 * 		RVA    -> 0x6EA789780
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.GetNiagaraArrayVector4Value
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -4173,7 +4173,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753D9630
+	 * 		RVA    -> 0x6EA789630
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.GetNiagaraArrayVector4
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4200,7 +4200,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753D94F0
+	 * 		RVA    -> 0x6EA7894F0
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.GetNiagaraArrayVector2DValue
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -4229,7 +4229,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753D93A0
+	 * 		RVA    -> 0x6EA7893A0
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.GetNiagaraArrayVector2D
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4256,7 +4256,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753D98D0
+	 * 		RVA    -> 0x6EA7898D0
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.GetNiagaraArrayVector
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4283,7 +4283,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753D9260
+	 * 		RVA    -> 0x6EA789260
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.GetNiagaraArrayUInt8Value
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4312,7 +4312,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753D9110
+	 * 		RVA    -> 0x6EA789110
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.GetNiagaraArrayUInt8
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4339,7 +4339,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753D8FD0
+	 * 		RVA    -> 0x6EA788FD0
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.GetNiagaraArrayQuatValue
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -4368,7 +4368,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753D8E80
+	 * 		RVA    -> 0x6EA788E80
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.GetNiagaraArrayQuat
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4395,7 +4395,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753D8C20
+	 * 		RVA    -> 0x6EA788C20
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.GetNiagaraArrayPositionValue
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -4424,7 +4424,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753D8B00
+	 * 		RVA    -> 0x6EA788B00
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.GetNiagaraArrayPosition
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4451,7 +4451,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753D89C0
+	 * 		RVA    -> 0x6EA7889C0
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.GetNiagaraArrayInt32Value
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4480,7 +4480,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753D8870
+	 * 		RVA    -> 0x6EA788870
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.GetNiagaraArrayInt32
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4507,7 +4507,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753D8720
+	 * 		RVA    -> 0x6EA788720
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.GetNiagaraArrayFloatValue
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4536,7 +4536,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753D85D0
+	 * 		RVA    -> 0x6EA7885D0
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.GetNiagaraArrayFloat
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4563,7 +4563,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753D8490
+	 * 		RVA    -> 0x6EA788490
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.GetNiagaraArrayColorValue
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -4592,7 +4592,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753D8340
+	 * 		RVA    -> 0x6EA788340
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.GetNiagaraArrayColor
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4619,7 +4619,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753D8200
+	 * 		RVA    -> 0x6EA788200
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.GetNiagaraArrayBoolValue
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4648,7 +4648,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753D80B0
+	 * 		RVA    -> 0x6EA7880B0
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceArrayFunctionLibrary.GetNiagaraArrayBool
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4913,7 +4913,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4753D9D00
+	 * 		RVA    -> 0x6EA789D00
 	 * 		Name   -> Function Niagara.NiagaraParticleCallbackHandler.ReceiveParticleData
 	 * 		Flags  -> (Native, Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -4982,7 +4982,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4754206E0
+	 * 		RVA    -> 0x6EA7D06E0
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceGrid2DCollection.GetTextureSize
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -5012,7 +5012,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x475420400
+	 * 		RVA    -> 0x6EA7D0400
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceGrid2DCollection.GetRawTextureSize
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -5042,7 +5042,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4754202E0
+	 * 		RVA    -> 0x6EA7D02E0
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceGrid2DCollection.FillTexture2D
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5071,7 +5071,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47541FF50
+	 * 		RVA    -> 0x6EA7CFF50
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceGrid2DCollection.FillRawTexture2D
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -5147,7 +5147,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x475420820
+	 * 		RVA    -> 0x6EA7D0820
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceGrid3DCollection.GetTextureSize
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -5180,7 +5180,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x475420540
+	 * 		RVA    -> 0x6EA7D0540
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceGrid3DCollection.GetRawTextureSize
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -5213,7 +5213,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4754202E0
+	 * 		RVA    -> 0x6EA7D02E0
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceGrid3DCollection.FillVolumeTexture
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5242,7 +5242,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4754200D0
+	 * 		RVA    -> 0x6EA7D00D0
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceGrid3DCollection.FillRawVolumeTexture
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -5489,7 +5489,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47548AC00
+	 * 		RVA    -> 0x6EA83AC00
 	 * 		Name   -> Function Niagara.NiagaraDIRigidMeshCollisionFunctionLibrary.SetSourceActors
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -5530,7 +5530,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47548AB20
+	 * 		RVA    -> 0x6EA83AB20
 	 * 		Name   -> Function Niagara.NiagaraDataInterfaceSkeletalMesh.OnSourceEndPlay
 	 * 		Flags  -> (Final, Native, Protected)
 	 * Parameters:
@@ -5849,7 +5849,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47554A430
+	 * 		RVA    -> 0x6EA8FA430
 	 * 		Name   -> Function Niagara.NiagaraFunctionLibrary.SpawnSystemAttachedWithParams
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -5876,7 +5876,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x475549F20
+	 * 		RVA    -> 0x6EA8F9F20
 	 * 		Name   -> Function Niagara.NiagaraFunctionLibrary.SpawnSystemAttached
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -5919,7 +5919,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x475549E10
+	 * 		RVA    -> 0x6EA8F9E10
 	 * 		Name   -> Function Niagara.NiagaraFunctionLibrary.SpawnSystemAtLocationWithParams
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -5946,7 +5946,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755499E0
+	 * 		RVA    -> 0x6EA8F99E0
 	 * 		Name   -> Function Niagara.NiagaraFunctionLibrary.SpawnSystemAtLocation
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -5987,7 +5987,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755498B0
+	 * 		RVA    -> 0x6EA8F98B0
 	 * 		Name   -> Function Niagara.NiagaraFunctionLibrary.SetVolumeTextureObject
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6014,7 +6014,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755498B0
+	 * 		RVA    -> 0x6EA8F98B0
 	 * 		Name   -> Function Niagara.NiagaraFunctionLibrary.SetTextureObject
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6041,7 +6041,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755498B0
+	 * 		RVA    -> 0x6EA8F98B0
 	 * 		Name   -> Function Niagara.NiagaraFunctionLibrary.SetTexture2DArrayObject
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6068,7 +6068,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755495D0
+	 * 		RVA    -> 0x6EA8F95D0
 	 * 		Name   -> Function Niagara.NiagaraFunctionLibrary.SetSkeletalMeshDataInterfaceSamplingRegions
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -6095,7 +6095,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755492F0
+	 * 		RVA    -> 0x6EA8F92F0
 	 * 		Name   -> Function Niagara.NiagaraFunctionLibrary.SetSkeletalMeshDataInterfaceFilteredSockets
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -6122,7 +6122,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x475549010
+	 * 		RVA    -> 0x6EA8F9010
 	 * 		Name   -> Function Niagara.NiagaraFunctionLibrary.SetSkeletalMeshDataInterfaceFilteredBones
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -6149,7 +6149,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x475548F10
+	 * 		RVA    -> 0x6EA8F8F10
 	 * 		Name   -> Function Niagara.NiagaraFunctionLibrary.SetComponentNiagaraGPURayTracedCollisionGroup
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6176,7 +6176,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x475548F10
+	 * 		RVA    -> 0x6EA8F8F10
 	 * 		Name   -> Function Niagara.NiagaraFunctionLibrary.SetActorNiagaraGPURayTracedCollisionGroup
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6203,7 +6203,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x475548E60
+	 * 		RVA    -> 0x6EA8F8E60
 	 * 		Name   -> Function Niagara.NiagaraFunctionLibrary.ReleaseNiagaraGPURayTracedCollisionGroup
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6228,7 +6228,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x475548A60
+	 * 		RVA    -> 0x6EA8F8A60
 	 * 		Name   -> Function Niagara.NiagaraFunctionLibrary.OverrideSystemUserVariableStaticMeshComponent
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6255,7 +6255,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x475548660
+	 * 		RVA    -> 0x6EA8F8660
 	 * 		Name   -> Function Niagara.NiagaraFunctionLibrary.OverrideSystemUserVariableStaticMesh
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6282,7 +6282,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x475548270
+	 * 		RVA    -> 0x6EA8F8270
 	 * 		Name   -> Function Niagara.NiagaraFunctionLibrary.OverrideSystemUserVariableSkeletalMeshComponent
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6309,7 +6309,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x475548160
+	 * 		RVA    -> 0x6EA8F8160
 	 * 		Name   -> Function Niagara.NiagaraFunctionLibrary.GetNiagaraParameterCollection
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6336,7 +6336,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755480D0
+	 * 		RVA    -> 0x6EA8F80D0
 	 * 		Name   -> Function Niagara.NiagaraFunctionLibrary.AcquireNiagaraGPURayTracedCollisionGroup
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6417,7 +6417,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755A53A0
+	 * 		RVA    -> 0x6EA9553A0
 	 * 		Name   -> Function Niagara.NiagaraParameterCollectionInstance.SetVectorParameter
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6442,7 +6442,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755A5290
+	 * 		RVA    -> 0x6EA955290
 	 * 		Name   -> Function Niagara.NiagaraParameterCollectionInstance.SetVector4Parameter
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6467,7 +6467,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755A5190
+	 * 		RVA    -> 0x6EA955190
 	 * 		Name   -> Function Niagara.NiagaraParameterCollectionInstance.SetVector2DParameter
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6492,7 +6492,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755A5090
+	 * 		RVA    -> 0x6EA955090
 	 * 		Name   -> Function Niagara.NiagaraParameterCollectionInstance.SetQuatParameter
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6517,7 +6517,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755A4F10
+	 * 		RVA    -> 0x6EA954F10
 	 * 		Name   -> Function Niagara.NiagaraParameterCollectionInstance.SetIntParameter
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6542,7 +6542,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755A4E20
+	 * 		RVA    -> 0x6EA954E20
 	 * 		Name   -> Function Niagara.NiagaraParameterCollectionInstance.SetFloatParameter
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6567,7 +6567,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755A4D20
+	 * 		RVA    -> 0x6EA954D20
 	 * 		Name   -> Function Niagara.NiagaraParameterCollectionInstance.SetColorParameter
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6592,7 +6592,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755A4C30
+	 * 		RVA    -> 0x6EA954C30
 	 * 		Name   -> Function Niagara.NiagaraParameterCollectionInstance.SetBoolParameter
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6617,7 +6617,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755A49C0
+	 * 		RVA    -> 0x6EA9549C0
 	 * 		Name   -> Function Niagara.NiagaraParameterCollectionInstance.GetVectorParameter
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6642,7 +6642,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755A48F0
+	 * 		RVA    -> 0x6EA9548F0
 	 * 		Name   -> Function Niagara.NiagaraParameterCollectionInstance.GetVector4Parameter
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6667,7 +6667,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755A4830
+	 * 		RVA    -> 0x6EA954830
 	 * 		Name   -> Function Niagara.NiagaraParameterCollectionInstance.GetVector2DParameter
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6692,7 +6692,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755A4740
+	 * 		RVA    -> 0x6EA954740
 	 * 		Name   -> Function Niagara.NiagaraParameterCollectionInstance.GetQuatParameter
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6717,7 +6717,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755A45D0
+	 * 		RVA    -> 0x6EA9545D0
 	 * 		Name   -> Function Niagara.NiagaraParameterCollectionInstance.GetIntParameter
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6742,7 +6742,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755A4510
+	 * 		RVA    -> 0x6EA954510
 	 * 		Name   -> Function Niagara.NiagaraParameterCollectionInstance.GetFloatParameter
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6767,7 +6767,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755A4310
+	 * 		RVA    -> 0x6EA954310
 	 * 		Name   -> Function Niagara.NiagaraParameterCollectionInstance.GetColorParameter
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6792,7 +6792,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755A4250
+	 * 		RVA    -> 0x6EA954250
 	 * 		Name   -> Function Niagara.NiagaraParameterCollectionInstance.GetBoolParameter
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6845,7 +6845,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755A4C00
+	 * 		RVA    -> 0x6EA954C00
 	 * 		Name   -> Function Niagara.NiagaraBaselineController.OnTickTest
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 */
@@ -6867,7 +6867,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755A4B70
+	 * 		RVA    -> 0x6EA954B70
 	 * 		Name   -> Function Niagara.NiagaraBaselineController.OnOwnerTick
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -6890,7 +6890,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755A4AE0
+	 * 		RVA    -> 0x6EA954AE0
 	 * 		Name   -> Function Niagara.NiagaraBaselineController.OnEndTest
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -6913,7 +6913,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755A4AC0
+	 * 		RVA    -> 0x6EA954AC0
 	 * 		Name   -> Function Niagara.NiagaraBaselineController.OnBeginTest
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 */
@@ -6933,7 +6933,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755A4810
+	 * 		RVA    -> 0x6EA954810
 	 * 		Name   -> Function Niagara.NiagaraBaselineController.GetSystem
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -7011,7 +7011,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Niagara.NiagaraPreviewBase.SetSystem
 	 * 		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -7033,7 +7033,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Niagara.NiagaraPreviewBase.SetLabelText
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -7071,7 +7071,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755A4A90
+	 * 		RVA    -> 0x6EA954A90
 	 * 		Name   -> Function Niagara.NiagaraPreviewAxis.Num
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 */
@@ -7093,7 +7093,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755A40A0
+	 * 		RVA    -> 0x6EA9540A0
 	 * 		Name   -> Function Niagara.NiagaraPreviewAxis.ApplyToPreview
 	 * 		Flags  -> (Native, Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -7236,7 +7236,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755A5000
+	 * 		RVA    -> 0x6EA955000
 	 * 		Name   -> Function Niagara.NiagaraPreviewGrid.SetPaused
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7259,7 +7259,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755A4690
+	 * 		RVA    -> 0x6EA954690
 	 * 		Name   -> Function Niagara.NiagaraPreviewGrid.GetPreviews
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -7284,7 +7284,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755A4230
+	 * 		RVA    -> 0x6EA954230
 	 * 		Name   -> Function Niagara.NiagaraPreviewGrid.DeactivatePreviews
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -7304,7 +7304,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755A4010
+	 * 		RVA    -> 0x6EA954010
 	 * 		Name   -> Function Niagara.NiagaraPreviewGrid.ActivatePreviews
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7369,7 +7369,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755DC9D0
+	 * 		RVA    -> 0x6EA98C9D0
 	 * 		Name   -> Function Niagara.NiagaraScript.RaiseOnGPUCompilationComplete
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -7403,7 +7403,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755DD9C0
+	 * 		RVA    -> 0x6EA98D9C0
 	 * 		Name   -> Function Niagara.NiagaraSimCache.ReadVectorAttribute
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -7434,7 +7434,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755DD830
+	 * 		RVA    -> 0x6EA98D830
 	 * 		Name   -> Function Niagara.NiagaraSimCache.ReadVector4Attribute
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -7465,7 +7465,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755DD6A0
+	 * 		RVA    -> 0x6EA98D6A0
 	 * 		Name   -> Function Niagara.NiagaraSimCache.ReadVector2Attribute
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -7496,7 +7496,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755DD4C0
+	 * 		RVA    -> 0x6EA98D4C0
 	 * 		Name   -> Function Niagara.NiagaraSimCache.ReadQuatAttributeWithRebase
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -7529,7 +7529,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755DD2F0
+	 * 		RVA    -> 0x6EA98D2F0
 	 * 		Name   -> Function Niagara.NiagaraSimCache.ReadQuatAttribute
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -7562,7 +7562,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755DD070
+	 * 		RVA    -> 0x6EA98D070
 	 * 		Name   -> Function Niagara.NiagaraSimCache.ReadPositionAttributeWithRebase
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -7595,7 +7595,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755DCEA0
+	 * 		RVA    -> 0x6EA98CEA0
 	 * 		Name   -> Function Niagara.NiagaraSimCache.ReadPositionAttribute
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -7628,7 +7628,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755DCD10
+	 * 		RVA    -> 0x6EA98CD10
 	 * 		Name   -> Function Niagara.NiagaraSimCache.ReadIntAttribute
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -7659,7 +7659,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755DCB80
+	 * 		RVA    -> 0x6EA98CB80
 	 * 		Name   -> Function Niagara.NiagaraSimCache.ReadFloatAttribute
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -7690,7 +7690,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755DC9F0
+	 * 		RVA    -> 0x6EA98C9F0
 	 * 		Name   -> Function Niagara.NiagaraSimCache.ReadColorAttribute
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -7721,7 +7721,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755DC990
+	 * 		RVA    -> 0x6EA98C990
 	 * 		Name   -> Function Niagara.NiagaraSimCache.IsEmpty
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7743,7 +7743,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755DC950
+	 * 		RVA    -> 0x6EA98C950
 	 * 		Name   -> Function Niagara.NiagaraSimCache.IsCacheValid
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7765,7 +7765,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755DC930
+	 * 		RVA    -> 0x6EA98C930
 	 * 		Name   -> Function Niagara.NiagaraSimCache.GetStartSeconds
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7787,7 +7787,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755DC910
+	 * 		RVA    -> 0x6EA98C910
 	 * 		Name   -> Function Niagara.NiagaraSimCache.GetNumFrames
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7809,7 +7809,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755DC8F0
+	 * 		RVA    -> 0x6EA98C8F0
 	 * 		Name   -> Function Niagara.NiagaraSimCache.GetNumEmitters
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7831,7 +7831,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755DC870
+	 * 		RVA    -> 0x6EA98C870
 	 * 		Name   -> Function Niagara.NiagaraSimCache.GetEmitterNames
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7853,7 +7853,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755DC7B0
+	 * 		RVA    -> 0x6EA98C7B0
 	 * 		Name   -> Function Niagara.NiagaraSimCache.GetEmitterName
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -7878,7 +7878,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755DC790
+	 * 		RVA    -> 0x6EA98C790
 	 * 		Name   -> Function Niagara.NiagaraSimCache.GetAttributeCaptureMode
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7914,7 +7914,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> DelegateFunction Niagara.AsyncNiagaraCaptureSimCache.OnCaptureComplete__DelegateSignature
 	 * 		Flags  -> (MulticastDelegate, Public, Delegate)
 	 * Parameters:
@@ -7936,7 +7936,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755DC1B0
+	 * 		RVA    -> 0x6EA98C1B0
 	 * 		Name   -> Function Niagara.AsyncNiagaraCaptureSimCache.CaptureNiagaraSimCacheUntilComplete
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -7975,7 +7975,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755DBC20
+	 * 		RVA    -> 0x6EA98BC20
 	 * 		Name   -> Function Niagara.AsyncNiagaraCaptureSimCache.CaptureNiagaraSimCacheMultiFrame
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -8030,7 +8030,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755DC700
+	 * 		RVA    -> 0x6EA98C700
 	 * 		Name   -> Function Niagara.NiagaraSimCacheFunctionLibrary.CreateNiagaraSimCache
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -8055,7 +8055,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4755DB7E0
+	 * 		RVA    -> 0x6EA98B7E0
 	 * 		Name   -> Function Niagara.NiagaraSimCacheFunctionLibrary.CaptureNiagaraSimCacheImmediate
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:

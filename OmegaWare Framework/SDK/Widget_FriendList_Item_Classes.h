@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -40,7 +40,7 @@ namespace CG
 		class FText                                                mActionButtonText;                                       // 0x0310(0x0018) Edit, BlueprintVisible, DisableEditOnInstance
 		bool                                                       mHideActionButton;                                       // 0x0328(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mDisableActionButton;                                    // 0x0329(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_H613[0x6];                                   // 0x032A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_V8FN[0x6];                                   // 0x032A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FText                                                mActionButtonTooltip;                                    // 0x0330(0x0018) Edit, BlueprintVisible, DisableEditOnInstance
 		class FScriptMulticastDelegate                             OnSessionSelected;                                       // 0x0348(0x0010) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable
 		class FScriptMulticastDelegate                             OnButtonClicked;                                         // 0x0358(0x0010) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable
@@ -49,7 +49,7 @@ namespace CG
 		ECachedNATType                                             mNatType;                                                // 0x0379(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mIsHost;                                                 // 0x037A(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       mCareAboutNAT;                                           // 0x037B(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_ZQFM[0x4];                                   // 0x037C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_FZO6[0x4];                                   // 0x037C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UMaterialInstanceDynamic*                            mButtonMaterial;                                         // 0x0380(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
 		class UOnlineFriend*                                       mOnlineFriend;                                           // 0x0388(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
 		float                                                      Fill;                                                    // 0x0390(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
@@ -69,7 +69,7 @@ namespace CG
 		void ShowInviteToSessionButton_IfSessionAllowsIt(bool InSession, ESlateVisibility* Visibility);
 		void JoinButtonVisibilityfromPresenceJoinability(EOnlineUserPresenceJoinability PresenceJoinability, ESlateVisibility* ButtonVisibility);
 		void UpdateNATWarningForClient();
-		void GetHostingNATIsse(ECachedNATType hostNat, ECachedNATType clientNat, class FText* ToolTip);
+		void GetHostingNATIsse(ECachedNATType HostNat, ECachedNATType ClientNat, class FText* ToolTip);
 		void UpdateNATWarningForHost();
 		void BndEvt__Widget_FriendList_Item_mFriendListButton_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature();
 		void OnInviteToSessionClicked();

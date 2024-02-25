@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -80,7 +80,7 @@ namespace CG
 	{
 	public:
 		class UObject*                                             Owner;                                                   // 0x0000(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_XC8C[0x10];                                  // 0x0008(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_1E5A[0x10];                                  // 0x0008(0x0010) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -92,7 +92,7 @@ namespace CG
 	public:
 		class FString                                              AreaClassName;                                           // 0x0000(0x0010) ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    AreaID;                                                  // 0x0010(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_KPTS[0x4];                                   // 0x0014(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_JECH[0x4];                                   // 0x0014(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UClass*                                              AreaClass;                                               // 0x0018(0x0008) ZeroConstructor, Transient, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -132,7 +132,7 @@ namespace CG
 		bool                                                       bIsExcluded : 1;                                         // 0x0010(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bOverrideTravelCost : 1;                                 // 0x0010(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bOverrideEnteringCost : 1;                               // 0x0010(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ENKH[0x7];                                   // 0x0011(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_59XL[0x7];                                   // 0x0011(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -158,7 +158,7 @@ namespace CG
 		bool                                                       bNavFlag13 : 1;                                          // 0x0001(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bNavFlag14 : 1;                                          // 0x0001(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bNavFlag15 : 1;                                          // 0x0001(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_E6FK[0x2];                                   // 0x0002(0x0002) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_K7O1[0x2];                                   // 0x0002(0x0002) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -169,13 +169,13 @@ namespace CG
 	{
 	public:
 		bool                                                       bEnabled : 1;                                            // 0x0000(0x0001) BIT_FIELD Edit, Transient, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_2I7F[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_OX55[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FIntVector                                          TileCoordinate;                                          // 0x0004(0x000C) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bGenerateDebugTileOnly : 1;                              // 0x0010(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bCollisionGeometry : 1;                                  // 0x0010(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_OM5N[0x3];                                   // 0x0011(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_3BRF[0x3];                                   // 0x0011(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		EHeightFieldRenderMode                                     HeightFieldRenderMode;                                   // 0x0014(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_7DTI[0x3];                                   // 0x0015(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_MVIX[0x3];                                   // 0x0015(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		bool                                                       bHeightfieldFromRasterization : 1;                       // 0x0018(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bHeightfieldPostInclusionBoundsFiltering : 1;            // 0x0018(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bHeightfieldPostHeightFiltering : 1;                     // 0x0018(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -189,7 +189,7 @@ namespace CG
 		bool                                                       bTileCacheContours : 1;                                  // 0x0019(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bTileCachePolyMesh : 1;                                  // 0x0019(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bTileCacheDetailMesh : 1;                                // 0x0019(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_B0RH[0x2];                                   // 0x001A(0x0002) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_VJ9M[0x2];                                   // 0x001A(0x0002) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -210,7 +210,7 @@ namespace CG
 	struct FNavGraphEdge
 	{
 	public:
-		unsigned char                                              UnknownData_PCLB[0x18];                                  // 0x0000(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_BSWI[0x18];                                  // 0x0000(0x0018) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -221,7 +221,7 @@ namespace CG
 	{
 	public:
 		uint32_t                                                   NavLinkUserId;                                           // 0x0068(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_1B29[0x4];                                   // 0x006C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_IF33[0x4];                                   // 0x006C(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -245,7 +245,7 @@ namespace CG
 		int32_t                                                    TileNumberHardLimit;                                     // 0x002C(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERecastPartitioning                                        RegionPartitioning;                                      // 0x0030(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ERecastPartitioning                                        LayerPartitioning;                                       // 0x0031(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_SDV2[0x2];                                   // 0x0032(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_HYNO[0x2];                                   // 0x0032(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    RegionChunkSplits;                                       // 0x0034(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    LayerChunkSplits;                                        // 0x0038(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bSortNavigationAreasByCost : 1;                          // 0x003C(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -256,7 +256,7 @@ namespace CG
 		bool                                                       bFilterLowSpanFromTileCache : 1;                         // 0x003C(0x0001) BIT_FIELD Edit, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bFixedTilePoolSize : 1;                                  // 0x003C(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bIsWorldPartitioned : 1;                                 // 0x003C(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_7KYI[0x3];                                   // 0x003D(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_OUAW[0x3];                                   // 0x003D(0x0003) MISSED OFFSET (PADDING)
 	};
 
 }

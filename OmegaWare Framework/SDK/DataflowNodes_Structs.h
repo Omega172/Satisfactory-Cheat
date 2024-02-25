@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -24,7 +24,7 @@ namespace CG
 		class FName                                                PropertyName;                                            // 0x00E8(0x0008) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FName                                                KeyName;                                                 // 0x00F0(0x0008) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      ValueOut;                                                // 0x00F8(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_YEOK[0x4];                                   // 0x00FC(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_Q6SY[0x4];                                   // 0x00FC(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -71,7 +71,7 @@ namespace CG
 		class USkeletalMesh*                                       SkeletalMesh;                                            // 0x00F0(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    BoneIndexOut;                                            // 0x00F8(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FName                                                PropertyName;                                            // 0x00FC(0x0008) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_NQMI[0x4];                                   // 0x0104(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_O0YK[0x4];                                   // 0x0104(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -83,7 +83,7 @@ namespace CG
 	public:
 		class USkeletalMesh*                                       SkeletalMeshIn;                                          // 0x00E8(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    BoneIndexIn;                                             // 0x00F0(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_C346[0xC];                                   // 0x00F4(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_HXDB[0xC];                                   // 0x00F4(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          TransformOut;                                            // 0x0100(0x0060) IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 

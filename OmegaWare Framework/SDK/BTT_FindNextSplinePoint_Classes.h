@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -25,7 +25,7 @@ namespace CG
 		struct FBlackboardKeySelector                              SplineKey;                                               // 0x00B0(0x0028) Edit, BlueprintVisible
 		struct FBlackboardKeySelector                              MoveToKey;                                               // 0x00D8(0x0028) Edit, BlueprintVisible
 		bool                                                       ForceSucess;                                             // 0x0100(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_MBLA[0x7];                                   // 0x0101(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_RES6[0x7];                                   // 0x0101(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FBlackboardKeySelector                              SplineIndexKey;                                          // 0x0108(0x0028) Edit, BlueprintVisible
 
 	public:

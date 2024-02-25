@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -21,17 +21,17 @@ namespace CG
 	class ACameraRig_Crane : public AActor
 	{
 	public:
-		unsigned char                                              UnknownData_ZVEL[0x4];                                   // 0x02F8(0x0004) Fix Super Size
+		unsigned char                                              UnknownData_6MI3[0x4];                                   // 0x02F8(0x0004) Fix Super Size
 		float                                                      CraneYaw;                                                // 0x02FC(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, Interp, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      CraneArmLength;                                          // 0x0300(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, Interp, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bLockMountPitch;                                         // 0x0304(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, Interp, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bLockMountYaw;                                           // 0x0305(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, Interp, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_KWY0[0x2];                                   // 0x0306(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_V4SU[0x2];                                   // 0x0306(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class USceneComponent*                                     TransformComponent;                                      // 0x0308(0x0008) Edit, ExportObject, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		class USceneComponent*                                     CraneYawControl;                                         // 0x0310(0x0008) Edit, ExportObject, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		class USceneComponent*                                     CranePitchControl;                                       // 0x0318(0x0008) Edit, ExportObject, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		class USceneComponent*                                     CraneCameraMount;                                        // 0x0320(0x0008) Edit, ExportObject, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_KZB0[0x8];                                   // 0x0328(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_9RNZ[0x8];                                   // 0x0328(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -44,11 +44,11 @@ namespace CG
 	class ACameraRig_Rail : public AActor
 	{
 	public:
-		unsigned char                                              UnknownData_Q00H[0x8];                                   // 0x02F8(0x0008) Fix Super Size
+		unsigned char                                              UnknownData_GYN4[0x8];                                   // 0x02F8(0x0008) Fix Super Size
 		class USceneComponent*                                     TransformComponent;                                      // 0x0300(0x0008) Edit, ExportObject, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class USplineComponent*                                    RailSplineComponent;                                     // 0x0308(0x0008) Edit, ExportObject, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class USceneComponent*                                     RailCameraMount;                                         // 0x0310(0x0008) Edit, ExportObject, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_6E5R[0x8];                                   // 0x0318(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_N9IH[0x8];                                   // 0x0318(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		class USplineComponent* GetRailSplineComponent();
@@ -63,7 +63,7 @@ namespace CG
 	{
 	public:
 		struct FCameraLookatTrackingSettings                       LookatTrackingSettings;                                  // 0x0A00(0x0070) Edit, BlueprintVisible, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_V8TO[0x10];                                  // 0x0A70(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_RKRE[0x10];                                  // 0x0A70(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		class UCineCameraComponent* GetCineCameraComponent();
@@ -80,16 +80,16 @@ namespace CG
 		struct FCameraFilmbackSettings                             FilmbackSettings;                                        // 0x0A30(0x000C) Deprecated, NoDestructor, NativeAccessSpecifierPublic
 		struct FCameraFilmbackSettings                             Filmback;                                                // 0x0A3C(0x000C) Edit, BlueprintVisible, Interp, NoDestructor, NativeAccessSpecifierPublic
 		struct FCameraLensSettings                                 LensSettings;                                            // 0x0A48(0x001C) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_0CBY[0x4];                                   // 0x0A64(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_IHAD[0x4];                                   // 0x0A64(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCameraFocusSettings                                FocusSettings;                                           // 0x0A68(0x0068) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		struct FPlateCropSettings                                  CropSettings;                                            // 0x0AD0(0x0004) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		float                                                      CurrentFocalLength;                                      // 0x0AD4(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, Interp, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      CurrentAperture;                                         // 0x0AD8(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, Interp, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      CurrentFocusDistance;                                    // 0x0ADC(0x0004) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bOverride_CustomNearClippingPlane : 1;                   // 0x0AE0(0x0001) BIT_FIELD Edit, BlueprintVisible, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_DF24[0x3];                                   // 0x0AE1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_G6GU[0x3];                                   // 0x0AE1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      CustomNearClippingPlane;                                 // 0x0AE4(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, Interp, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_W20N[0x8];                                   // 0x0AE8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_6CIX[0x8];                                   // 0x0AE8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FNamedFilmbackPreset>                        FilmbackPresets;                                         // 0x0AF0(0x0010) ZeroConstructor, Config, Protected, NativeAccessSpecifierProtected
 		TArray<struct FNamedLensPreset>                            LensPresets;                                             // 0x0B00(0x0010) ZeroConstructor, Config, Protected, NativeAccessSpecifierProtected
 		class FString                                              DefaultFilmbackPresetName;                               // 0x0B10(0x0010) ZeroConstructor, Config, Deprecated, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
@@ -97,7 +97,7 @@ namespace CG
 		class FString                                              DefaultLensPresetName;                                   // 0x0B30(0x0010) ZeroConstructor, Config, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		float                                                      DefaultLensFocalLength;                                  // 0x0B40(0x0004) ZeroConstructor, Config, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		float                                                      DefaultLensFStop;                                        // 0x0B44(0x0004) ZeroConstructor, Config, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_HUCJ[0x8];                                   // 0x0B48(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_5PNR[0x8];                                   // 0x0B48(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		void SetLensSettings(const struct FCameraLensSettings& NewLensSettings);
@@ -136,7 +136,7 @@ namespace CG
 		TArray<struct FNamedFilmbackPreset>                        FilmbackPresets;                                         // 0x0070(0x0010) Edit, BlueprintVisible, ZeroConstructor, Config, NativeAccessSpecifierPublic
 		class FString                                              DefaultCropPresetName;                                   // 0x0080(0x0010) Edit, BlueprintVisible, ZeroConstructor, Config, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<struct FNamedPlateCropPreset>                       CropPresets;                                             // 0x0090(0x0010) Edit, BlueprintVisible, ZeroConstructor, Config, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_NBOJ[0x10];                                  // 0x00A0(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_014I[0x10];                                  // 0x00A0(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		void SetLensPresets(TArray<struct FNamedLensPreset> InLensPresets);

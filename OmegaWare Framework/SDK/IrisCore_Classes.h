@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -32,7 +32,7 @@ namespace CG
 	{
 	public:
 		TArray<struct FDataStreamDefinition>                       DataStreamDefinitions;                                   // 0x0028(0x0010) ZeroConstructor, Config, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_ABTV[0x8];                                   // 0x0038(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_OIF5[0x8];                                   // 0x0038(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -45,7 +45,7 @@ namespace CG
 	class UDataStreamManager : public UDataStream
 	{
 	public:
-		unsigned char                                              UnknownData_MW81[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_X8IW[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -98,7 +98,7 @@ namespace CG
 	class UIrisObjectReferencePackageMap : public UPackageMap
 	{
 	public:
-		unsigned char                                              UnknownData_X7YG[0x8];                                   // 0x00E0(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_XFFP[0x8];                                   // 0x00E0(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -121,7 +121,7 @@ namespace CG
 	class ULocationBasedNetObjectPrioritizer : public UNetObjectPrioritizer
 	{
 	public:
-		unsigned char                                              UnknownData_HQM6[0x38];                                  // 0x0028(0x0038) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_YUU1[0x38];                                  // 0x0028(0x0038) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -134,7 +134,7 @@ namespace CG
 	class UNetBlobHandler : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_HKV3[0x10];                                  // 0x0028(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_EEJM[0x10];                                  // 0x0028(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -181,12 +181,12 @@ namespace CG
 	{
 	public:
 		ENetObjectCountLimiterMode                                 Mode;                                                    // 0x0028(0x0001) ELEMENT_SIZE_MISMATCH ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_I3TO[0x3];                                   // 0x0029(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+		unsigned char                                              UnknownData_0T14[0x3];                                   // 0x0029(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 		uint32_t                                                   MaxObjectCount;                                          // 0x002C(0x0004) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Priority;                                                // 0x0030(0x0004) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      OwningConnectionPriority;                                // 0x0034(0x0004) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bEnableOwnedObjectsFastLane;                             // 0x0038(0x0001) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_FHEX[0x7];                                   // 0x0039(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_66HW[0x7];                                   // 0x0039(0x0007) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -199,7 +199,7 @@ namespace CG
 	class UNetObjectCountLimiter : public UNetObjectPrioritizer
 	{
 	public:
-		unsigned char                                              UnknownData_WBIW[0x68];                                  // 0x0028(0x0068) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_5L3N[0x68];                                  // 0x0028(0x0068) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -230,7 +230,7 @@ namespace CG
 		float                                                      CellSizeY;                                               // 0x0030(0x0004) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      MaxCullDistance;                                         // 0x0034(0x0004) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      DefaultCullDistance;                                     // 0x0038(0x0004) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_6IME[0x4];                                   // 0x003C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_PBJ6[0x4];                                   // 0x003C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             MinPos;                                                  // 0x0040(0x0018) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FVector                                             MaxPos;                                                  // 0x0058(0x0018) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 
@@ -245,7 +245,7 @@ namespace CG
 	class UNetObjectGridFilter : public UNetObjectFilter
 	{
 	public:
-		unsigned char                                              UnknownData_8VPQ[0xB0];                                  // 0x0028(0x00B0) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_PLO3[0xB0];                                  // 0x0028(0x00B0) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -271,7 +271,7 @@ namespace CG
 	class UNetRPCHandler : public UNetBlobHandler
 	{
 	public:
-		unsigned char                                              UnknownData_68AN[0x8];                                   // 0x0038(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_9J0T[0x8];                                   // 0x0038(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -284,7 +284,7 @@ namespace CG
 	class UNetTokenDataStream : public UDataStream
 	{
 	public:
-		unsigned char                                              UnknownData_TRXQ[0x50];                                  // 0x0028(0x0050) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_AWA8[0x50];                                  // 0x0028(0x0050) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -317,7 +317,7 @@ namespace CG
 	class UReplicationBridge : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_6A43[0xE8];                                  // 0x0028(0x00E8) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_7NHK[0xE8];                                  // 0x0028(0x00E8) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -330,7 +330,7 @@ namespace CG
 	class UObjectReplicationBridge : public UReplicationBridge
 	{
 	public:
-		unsigned char                                              UnknownData_N919[0x330];                                 // 0x0110(0x0330) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_7U0Y[0x330];                                 // 0x0110(0x0330) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -376,7 +376,7 @@ namespace CG
 	{
 	public:
 		uint32_t                                                   BitCountSplitThreshold;                                  // 0x0030(0x0004) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_XJUW[0x4];                                   // 0x0034(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_BPZ7[0x4];                                   // 0x0034(0x0004) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -389,7 +389,7 @@ namespace CG
 	class USequentialPartialNetBlobHandler : public UNetBlobHandler
 	{
 	public:
-		unsigned char                                              UnknownData_U9TB[0x10];                                  // 0x0038(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_KA2U[0x10];                                  // 0x0038(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -412,7 +412,7 @@ namespace CG
 	class UReplicationDataStream : public UDataStream
 	{
 	public:
-		unsigned char                                              UnknownData_1VKH[0x10];                                  // 0x0028(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_Q6X4[0x10];                                  // 0x0028(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -425,9 +425,9 @@ namespace CG
 	class UReplicationSystem : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_GYJZ[0x10];                                  // 0x0028(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_YDDV[0x10];                                  // 0x0028(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UReplicationBridge*                                  ReplicationBridge;                                       // 0x0038(0x0008) ZeroConstructor, Transient, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_TVHK[0x10];                                  // 0x0040(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_FX5M[0x10];                                  // 0x0040(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -445,7 +445,7 @@ namespace CG
 		float                                                      InnerPriority;                                           // 0x0030(0x0004) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      OuterPriority;                                           // 0x0034(0x0004) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      OutsidePriority;                                         // 0x0038(0x0004) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_WJTP[0x4];                                   // 0x003C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_7VBN[0x4];                                   // 0x003C(0x0004) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -458,7 +458,7 @@ namespace CG
 	class USphereNetObjectPrioritizer : public ULocationBasedNetObjectPrioritizer
 	{
 	public:
-		unsigned char                                              UnknownData_336X[0x8];                                   // 0x0060(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_4AU0[0x8];                                   // 0x0060(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -472,7 +472,7 @@ namespace CG
 	{
 	public:
 		float                                                      OwnerPriorityBoost;                                      // 0x0040(0x0004) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ZJ02[0x4];                                   // 0x0044(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_9JOO[0x4];                                   // 0x0044(0x0004) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -485,7 +485,7 @@ namespace CG
 	class USphereWithOwnerBoostNetObjectPrioritizer : public USphereNetObjectPrioritizer
 	{
 	public:
-		unsigned char                                              UnknownData_Y9MF[0x38];                                  // 0x0068(0x0038) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_RYN8[0x38];                                  // 0x0068(0x0038) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();

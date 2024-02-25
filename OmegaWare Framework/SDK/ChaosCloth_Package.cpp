@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -54,7 +54,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4882A0980
+	 * 		RVA    -> 0x7135A0980
 	 * 		Name   -> Function ChaosCloth.ChaosClothingInteractor.SetWind
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -83,7 +83,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4882A0840
+	 * 		RVA    -> 0x7135A0840
 	 * 		Name   -> Function ChaosCloth.ChaosClothingInteractor.SetVelocityScale
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -110,7 +110,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4882A0750
+	 * 		RVA    -> 0x7135A0750
 	 * 		Name   -> Function ChaosCloth.ChaosClothingInteractor.SetPressure
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -133,7 +133,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4882A0630
+	 * 		RVA    -> 0x7135A0630
 	 * 		Name   -> Function ChaosCloth.ChaosClothingInteractor.SetMaterialLinear
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -160,7 +160,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4882A0490
+	 * 		RVA    -> 0x7135A0490
 	 * 		Name   -> Function ChaosCloth.ChaosClothingInteractor.SetMaterial
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -187,7 +187,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4882A03C0
+	 * 		RVA    -> 0x7135A03C0
 	 * 		Name   -> Function ChaosCloth.ChaosClothingInteractor.SetLongRangeAttachmentLinear
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -212,7 +212,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4882A0280
+	 * 		RVA    -> 0x7135A0280
 	 * 		Name   -> Function ChaosCloth.ChaosClothingInteractor.SetLongRangeAttachment
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -237,7 +237,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4882A0130
+	 * 		RVA    -> 0x7135A0130
 	 * 		Name   -> Function ChaosCloth.ChaosClothingInteractor.SetGravity
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -264,7 +264,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4882A0060
+	 * 		RVA    -> 0x7135A0060
 	 * 		Name   -> Function ChaosCloth.ChaosClothingInteractor.SetDamping
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -289,7 +289,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48829FEF0
+	 * 		RVA    -> 0x71359FEF0
 	 * 		Name   -> Function ChaosCloth.ChaosClothingInteractor.SetCollision
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -318,7 +318,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48829FE60
+	 * 		RVA    -> 0x71359FE60
 	 * 		Name   -> Function ChaosCloth.ChaosClothingInteractor.SetBackstop
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -341,7 +341,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48829FDD0
+	 * 		RVA    -> 0x71359FDD0
 	 * 		Name   -> Function ChaosCloth.ChaosClothingInteractor.SetAnimDriveLinear
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -364,7 +364,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48829FC90
+	 * 		RVA    -> 0x71359FC90
 	 * 		Name   -> Function ChaosCloth.ChaosClothingInteractor.SetAnimDrive
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -389,7 +389,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48829FB50
+	 * 		RVA    -> 0x71359FB50
 	 * 		Name   -> Function ChaosCloth.ChaosClothingInteractor.SetAerodynamics
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -416,7 +416,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x48829FA70
+	 * 		RVA    -> 0x71359FA70
 	 * 		Name   -> Function ChaosCloth.ChaosClothingInteractor.ResetAndTeleport
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:

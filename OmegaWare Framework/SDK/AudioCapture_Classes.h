@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -21,7 +21,7 @@ namespace CG
 	class UAudioCapture : public UAudioGenerator
 	{
 	public:
-		unsigned char                                              UnknownData_V6ST[0x8];                                   // 0x00A8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_D0E6[0x8];                                   // 0x00A8(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		void StopCapturingAudio();
@@ -62,7 +62,7 @@ namespace CG
 	{
 	public:
 		int32_t                                                    JitterLatencyFrames;                                     // 0x0790(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_F9DO[0xBC];                                  // 0x0794(0x00BC) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_Y70Y[0xBC];                                  // 0x0794(0x00BC) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();

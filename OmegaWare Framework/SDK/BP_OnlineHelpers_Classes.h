@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -24,8 +24,8 @@ namespace CG
 		void STATIC_IsFriendInSession(const struct FFGOnlineFriend& Friend, class UObject* WorldContext, class UObject* __WorldContext, bool* Result);
 		void STATIC_IsFriendInPublicSession(const struct FFGOnlineFriend& Friend, class UObject* WorldContext, class UObject* __WorldContext, bool* Result);
 		void STATIC_IsPresenceInPublicSession(const struct FOnlinePresence& Presence, class UObject* __WorldContext, bool* Result);
-		void STATIC_GetConnectingNatIssue(ECachedNATType hostNat, ECachedNATType clientNat, class UObject* __WorldContext, class FText* ToolTip);
-		void STATIC_IsNATIssue(unsigned char hostNat, unsigned char clientNat, class UObject* __WorldContext, bool* isIssue);
+		void STATIC_GetConnectingNatIssue(ECachedNATType HostNat, ECachedNATType ClientNat, class UObject* __WorldContext, class FText* ToolTip);
+		void STATIC_IsNATIssue(unsigned char HostNat, unsigned char ClientNat, class UObject* __WorldContext, bool* isIssue);
 		void STATIC_IsInSession(const struct FOnlinePresence& Presence, class UObject* __WorldContext, bool* Result);
 		void STATIC_InsertionAddButton(class UPanelWidget* NewParam, class UObject* __WorldContext);
 		void STATIC_IsHost(class APlayerState* PlayerState, class APlayerController* OwningPlayer, class UObject* __WorldContext, bool* isOurself);

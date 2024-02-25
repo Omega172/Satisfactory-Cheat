@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ED0590
+	 * 		RVA    -> 0x76B710590
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.SetVertexPosition
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -37,7 +37,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ED0330
+	 * 		RVA    -> 0x76B710330
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.SetPolygonVertexInstances
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -62,7 +62,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ED0180
+	 * 		RVA    -> 0x76B710180
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.SetPolygonPolygonGroup
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -87,7 +87,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ED0080
+	 * 		RVA    -> 0x76B710080
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.ReversePolygonFacing
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -110,7 +110,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECFFE0
+	 * 		RVA    -> 0x76B70FFE0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.ReserveNewVertices
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -133,7 +133,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECFD60
+	 * 		RVA    -> 0x76B70FD60
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.ReserveNewVertexInstances
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -156,7 +156,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECFF40
+	 * 		RVA    -> 0x76B70FF40
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.ReserveNewTriangles
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -179,7 +179,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECFEA0
+	 * 		RVA    -> 0x76B70FEA0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.ReserveNewPolygons
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -202,7 +202,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECFE00
+	 * 		RVA    -> 0x76B70FE00
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.ReserveNewPolygonGroups
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -225,7 +225,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECFD60
+	 * 		RVA    -> 0x76B70FD60
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.ReserveNewEdges
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -248,7 +248,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECFC80
+	 * 		RVA    -> 0x76B70FC80
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.IsVertexValid
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -273,7 +273,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECFB70
+	 * 		RVA    -> 0x76B70FB70
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.IsVertexOrphaned
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -298,7 +298,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECFA90
+	 * 		RVA    -> 0x76B70FA90
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.IsVertexInstanceValid
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -323,7 +323,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECF9B0
+	 * 		RVA    -> 0x76B70F9B0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.IsTriangleValid
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -348,7 +348,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECF8A0
+	 * 		RVA    -> 0x76B70F8A0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.IsTrianglePartOfNgon
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -373,7 +373,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECF7C0
+	 * 		RVA    -> 0x76B70F7C0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.IsPolygonValid
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -398,7 +398,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECF6E0
+	 * 		RVA    -> 0x76B70F6E0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.IsPolygonGroupValid
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -423,7 +423,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECF6B0
+	 * 		RVA    -> 0x76B70F6B0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.IsEmpty
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -445,7 +445,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECF5D0
+	 * 		RVA    -> 0x76B70F5D0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.IsEdgeValid
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -470,7 +470,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECF410
+	 * 		RVA    -> 0x76B70F410
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.IsEdgeInternalToPolygon
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -497,7 +497,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECF300
+	 * 		RVA    -> 0x76B70F300
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.IsEdgeInternal
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -522,7 +522,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECF150
+	 * 		RVA    -> 0x76B70F150
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetVertexVertexInstances
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -549,7 +549,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECEF00
+	 * 		RVA    -> 0x76B70EF00
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetVertexPosition
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -574,7 +574,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECED50
+	 * 		RVA    -> 0x76B70ED50
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetVertexPairEdge
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -601,7 +601,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECEC20
+	 * 		RVA    -> 0x76B70EC20
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetVertexInstanceVertex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -626,7 +626,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECEA70
+	 * 		RVA    -> 0x76B70EA70
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetVertexInstancePairEdge
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -653,7 +653,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECE910
+	 * 		RVA    -> 0x76B70E910
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetVertexInstanceForTriangleVertex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -680,7 +680,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECE7B0
+	 * 		RVA    -> 0x76B70E7B0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetVertexInstanceForPolygonVertex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -707,7 +707,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECE770
+	 * 		RVA    -> 0x76B70E770
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetVertexInstanceCount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -729,7 +729,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECE5C0
+	 * 		RVA    -> 0x76B70E5C0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetVertexInstanceConnectedTriangles
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -756,7 +756,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECE450
+	 * 		RVA    -> 0x76B70E450
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetVertexInstanceConnectedPolygons
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -783,7 +783,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECE410
+	 * 		RVA    -> 0x76B70E410
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetVertexCount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -805,7 +805,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECE2A0
+	 * 		RVA    -> 0x76B70E2A0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetVertexConnectedTriangles
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -832,7 +832,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECE130
+	 * 		RVA    -> 0x76B70E130
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetVertexConnectedPolygons
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -859,7 +859,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECDF80
+	 * 		RVA    -> 0x76B70DF80
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetVertexConnectedEdges
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -886,7 +886,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECDE10
+	 * 		RVA    -> 0x76B70DE10
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetVertexAdjacentVertices
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -913,7 +913,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECDBC0
+	 * 		RVA    -> 0x76B70DBC0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetTriangleVertices
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -940,7 +940,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECD9A0
+	 * 		RVA    -> 0x76B70D9A0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetTriangleVertexInstances
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -967,7 +967,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECD7A0
+	 * 		RVA    -> 0x76B70D7A0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetTriangleVertexInstance
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -994,7 +994,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECD670
+	 * 		RVA    -> 0x76B70D670
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetTrianglePolygonGroup
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1019,7 +1019,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECD540
+	 * 		RVA    -> 0x76B70D540
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetTrianglePolygon
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1044,7 +1044,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECD2F0
+	 * 		RVA    -> 0x76B70D2F0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetTriangleEdges
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1071,7 +1071,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECD2B0
+	 * 		RVA    -> 0x76B70D2B0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetTriangleCount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1093,7 +1093,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECD140
+	 * 		RVA    -> 0x76B70D140
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetTriangleAdjacentTriangles
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1120,7 +1120,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECCFD0
+	 * 		RVA    -> 0x76B70CFD0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetPolygonVertices
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1147,7 +1147,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECCE00
+	 * 		RVA    -> 0x76B70CE00
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetPolygonVertexInstances
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1174,7 +1174,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECCC50
+	 * 		RVA    -> 0x76B70CC50
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetPolygonTriangles
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1201,7 +1201,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECCB20
+	 * 		RVA    -> 0x76B70CB20
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetPolygonPolygonGroup
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1226,7 +1226,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECC9B0
+	 * 		RVA    -> 0x76B70C9B0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetPolygonPerimeterEdges
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1253,7 +1253,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECC840
+	 * 		RVA    -> 0x76B70C840
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetPolygonInternalEdges
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1280,7 +1280,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECC690
+	 * 		RVA    -> 0x76B70C690
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetPolygonGroupPolygons
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1307,7 +1307,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECC650
+	 * 		RVA    -> 0x76B70C650
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetPolygonGroupCount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1329,7 +1329,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECC610
+	 * 		RVA    -> 0x76B70C610
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetPolygonCount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1351,7 +1351,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECC4A0
+	 * 		RVA    -> 0x76B70C4A0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetPolygonAdjacentPolygons
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1378,7 +1378,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECC390
+	 * 		RVA    -> 0x76B70C390
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetNumVertexVertexInstances
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1403,7 +1403,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECC280
+	 * 		RVA    -> 0x76B70C280
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetNumVertexInstanceConnectedTriangles
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1428,7 +1428,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECC130
+	 * 		RVA    -> 0x76B70C130
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetNumVertexInstanceConnectedPolygons
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1453,7 +1453,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECC020
+	 * 		RVA    -> 0x76B70C020
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetNumVertexConnectedTriangles
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1478,7 +1478,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECBED0
+	 * 		RVA    -> 0x76B70BED0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetNumVertexConnectedPolygons
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1503,7 +1503,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECBDC0
+	 * 		RVA    -> 0x76B70BDC0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetNumVertexConnectedEdges
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1528,7 +1528,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECBCA0
+	 * 		RVA    -> 0x76B70BCA0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetNumPolygonVertices
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1553,7 +1553,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECBB90
+	 * 		RVA    -> 0x76B70BB90
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetNumPolygonTriangles
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1578,7 +1578,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECBA80
+	 * 		RVA    -> 0x76B70BA80
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetNumPolygonInternalEdges
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1603,7 +1603,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECB970
+	 * 		RVA    -> 0x76B70B970
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetNumPolygonGroupPolygons
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1628,7 +1628,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECB860
+	 * 		RVA    -> 0x76B70B860
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetNumEdgeConnectedTriangles
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1653,7 +1653,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECB710
+	 * 		RVA    -> 0x76B70B710
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetNumEdgeConnectedPolygons
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1678,7 +1678,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECB4F0
+	 * 		RVA    -> 0x76B70B4F0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetEdgeVertices
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1705,7 +1705,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECB2E0
+	 * 		RVA    -> 0x76B70B2E0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetEdgeVertex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1732,7 +1732,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECB2A0
+	 * 		RVA    -> 0x76B70B2A0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetEdgeCount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1754,7 +1754,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECB0F0
+	 * 		RVA    -> 0x76B70B0F0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetEdgeConnectedTriangles
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1781,7 +1781,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECAF80
+	 * 		RVA    -> 0x76B70AF80
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.GetEdgeConnectedPolygons
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1808,7 +1808,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECAF10
+	 * 		RVA    -> 0x76B70AF10
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.Empty
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1828,7 +1828,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECADA0
+	 * 		RVA    -> 0x76B70ADA0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.DeleteVertexInstance
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1855,7 +1855,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECACA0
+	 * 		RVA    -> 0x76B70ACA0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.DeleteVertex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1878,7 +1878,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECAA70
+	 * 		RVA    -> 0x76B70AA70
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.DeleteTriangle
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1911,7 +1911,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECA970
+	 * 		RVA    -> 0x76B70A970
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.DeletePolygonGroup
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1934,7 +1934,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECA740
+	 * 		RVA    -> 0x76B70A740
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.DeletePolygon
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1967,7 +1967,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECA5D0
+	 * 		RVA    -> 0x76B70A5D0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.DeleteEdge
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1994,7 +1994,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECA4D0
+	 * 		RVA    -> 0x76B70A4D0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.CreateVertexWithID
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2017,7 +2017,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECA320
+	 * 		RVA    -> 0x76B70A320
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.CreateVertexInstanceWithID
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2042,7 +2042,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECA1C0
+	 * 		RVA    -> 0x76B70A1C0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.CreateVertexInstance
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2067,7 +2067,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1ECA180
+	 * 		RVA    -> 0x76B70A180
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.CreateVertex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2089,7 +2089,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1EC9EB0
+	 * 		RVA    -> 0x76B709EB0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.CreateTriangleWithID
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2120,7 +2120,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1EC9C40
+	 * 		RVA    -> 0x76B709C40
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.CreateTriangle
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2151,7 +2151,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1EC9970
+	 * 		RVA    -> 0x76B709970
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.CreatePolygonWithID
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2183,7 +2183,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1EC9870
+	 * 		RVA    -> 0x76B709870
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.CreatePolygonGroupWithID
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2206,7 +2206,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1EC9830
+	 * 		RVA    -> 0x76B709830
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.CreatePolygonGroup
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2228,7 +2228,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1EC95C0
+	 * 		RVA    -> 0x76B7095C0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.CreatePolygon
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2260,7 +2260,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1EC9380
+	 * 		RVA    -> 0x76B709380
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.CreateEdgeWithID
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2287,7 +2287,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1EC91B0
+	 * 		RVA    -> 0x76B7091B0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.CreateEdge
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2314,7 +2314,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C1EC90B0
+	 * 		RVA    -> 0x76B7090B0
 	 * 		Name   -> Function MeshDescription.MeshDescriptionBase.ComputePolygonTriangulation
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:

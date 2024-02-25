@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4771B8340
+	 * 		RVA    -> 0x6E9ED8370
 	 * 		Name   -> Function MetasoundFrontend.MetasoundParameterPack.SetTrigger
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -39,7 +39,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4771B8210
+	 * 		RVA    -> 0x6E9ED8240
 	 * 		Name   -> Function MetasoundFrontend.MetasoundParameterPack.SetString
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -68,7 +68,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4771B80F0
+	 * 		RVA    -> 0x6E9ED8120
 	 * 		Name   -> Function MetasoundFrontend.MetasoundParameterPack.SetInt
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -97,7 +97,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4771B7FD0
+	 * 		RVA    -> 0x6E9ED8000
 	 * 		Name   -> Function MetasoundFrontend.MetasoundParameterPack.SetFloat
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -126,7 +126,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4771B7E70
+	 * 		RVA    -> 0x6E9ED7EA0
 	 * 		Name   -> Function MetasoundFrontend.MetasoundParameterPack.SetBool
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -155,7 +155,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4771B7E40
+	 * 		RVA    -> 0x6E9ED7E70
 	 * 		Name   -> Function MetasoundFrontend.MetasoundParameterPack.MakeMetasoundParameterPack
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 */
@@ -177,7 +177,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4771B7DA0
+	 * 		RVA    -> 0x6E9ED7DD0
 	 * 		Name   -> Function MetasoundFrontend.MetasoundParameterPack.HasTrigger
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -202,7 +202,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4771B7D00
+	 * 		RVA    -> 0x6E9ED7D30
 	 * 		Name   -> Function MetasoundFrontend.MetasoundParameterPack.HasString
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -227,7 +227,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4771B7C60
+	 * 		RVA    -> 0x6E9ED7C90
 	 * 		Name   -> Function MetasoundFrontend.MetasoundParameterPack.HasInt
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -252,7 +252,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4771B7BC0
+	 * 		RVA    -> 0x6E9ED7BF0
 	 * 		Name   -> Function MetasoundFrontend.MetasoundParameterPack.HasFloat
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -277,7 +277,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4771B7B20
+	 * 		RVA    -> 0x6E9ED7B50
 	 * 		Name   -> Function MetasoundFrontend.MetasoundParameterPack.HasBool
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -302,7 +302,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4771B7A40
+	 * 		RVA    -> 0x6E9ED7A70
 	 * 		Name   -> Function MetasoundFrontend.MetasoundParameterPack.GetTrigger
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -331,7 +331,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4771B78D0
+	 * 		RVA    -> 0x6E9ED7900
 	 * 		Name   -> Function MetasoundFrontend.MetasoundParameterPack.GetString
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -360,7 +360,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4771B77F0
+	 * 		RVA    -> 0x6E9ED7820
 	 * 		Name   -> Function MetasoundFrontend.MetasoundParameterPack.GetInt
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -389,7 +389,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4771B7710
+	 * 		RVA    -> 0x6E9ED7740
 	 * 		Name   -> Function MetasoundFrontend.MetasoundParameterPack.GetFloat
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -418,7 +418,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4771B7630
+	 * 		RVA    -> 0x6E9ED7660
 	 * 		Name   -> Function MetasoundFrontend.MetasoundParameterPack.GetBool
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:

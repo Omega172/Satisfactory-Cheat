@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BF4B9580
+	 * 		RVA    -> 0x7F9809580
 	 * 		Name   -> Function GameplayTasks.GameplayTask.ReadyForActivation
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -32,7 +32,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> DelegateFunction GameplayTasks.GameplayTask.GenericGameplayTaskDelegate__DelegateSignature
 	 * 		Flags  -> (MulticastDelegate, Public, Delegate)
 	 */
@@ -51,7 +51,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BF4B9150
+	 * 		RVA    -> 0x7F9809150
 	 * 		Name   -> Function GameplayTasks.GameplayTask.EndTask
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -113,7 +113,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BF4B94D0
+	 * 		RVA    -> 0x7F98094D0
 	 * 		Name   -> Function GameplayTasks.GameplayTasksComponent.OnRep_SimulatedTasks
 	 * 		Flags  -> (Final, Native, Public, HasOutParms)
 	 * Parameters:
@@ -136,7 +136,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BF4B9270
+	 * 		RVA    -> 0x7F9809270
 	 * 		Name   -> Function GameplayTasks.GameplayTasksComponent.K2_RunGameplayTask
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -181,7 +181,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BF4B8F80
+	 * 		RVA    -> 0x7F9808F80
 	 * 		Name   -> Function GameplayTasks.GameplayTask_ClaimResource.ClaimResources
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -210,7 +210,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BF4B8E20
+	 * 		RVA    -> 0x7F9808E20
 	 * 		Name   -> Function GameplayTasks.GameplayTask_ClaimResource.ClaimResource
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -253,7 +253,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BF4B95A0
+	 * 		RVA    -> 0x7F98095A0
 	 * 		Name   -> Function GameplayTasks.GameplayTask_SpawnActor.SpawnActor
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -284,7 +284,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BF4B9190
+	 * 		RVA    -> 0x7F9809190
 	 * 		Name   -> Function GameplayTasks.GameplayTask_SpawnActor.FinishSpawningActor
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -309,7 +309,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BF4B8D30
+	 * 		RVA    -> 0x7F9808D30
 	 * 		Name   -> Function GameplayTasks.GameplayTask_SpawnActor.BeginSpawningActor
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -366,7 +366,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4BF4B9810
+	 * 		RVA    -> 0x7F9809810
 	 * 		Name   -> Function GameplayTasks.GameplayTask_WaitDelay.TaskWaitDelay
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -393,7 +393,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> DelegateFunction GameplayTasks.GameplayTask_WaitDelay.TaskDelayDelegate__DelegateSignature
 	 * 		Flags  -> (MulticastDelegate, Public, Delegate)
 	 */

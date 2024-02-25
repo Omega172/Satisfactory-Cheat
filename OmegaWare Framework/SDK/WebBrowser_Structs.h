@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -21,7 +21,7 @@ namespace CG
 	struct FWebJSCallbackBase
 	{
 	public:
-		unsigned char                                              UnknownData_MWP3[0x20];                                  // 0x0000(0x0020) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_W1PX[0x20];                                  // 0x0000(0x0020) MISSED OFFSET (PADDING)
 	};
 
 	/**

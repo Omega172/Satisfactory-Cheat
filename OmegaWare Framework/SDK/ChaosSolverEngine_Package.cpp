@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4AEB80BC0
+	 * 		RVA    -> 0x71A270BC0
 	 * 		Name   -> Function ChaosSolverEngine.ChaosSolverActor.SetSolverActive
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -35,7 +35,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4AEB80BA0
+	 * 		RVA    -> 0x71A270BA0
 	 * 		Name   -> Function ChaosSolverEngine.ChaosSolverActor.SetAsCurrentWorldSolver
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -125,7 +125,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4AEB809D0
+	 * 		RVA    -> 0x71A2709D0
 	 * 		Name   -> Function ChaosSolverEngine.ChaosSolverEngineBlueprintLibrary.ConvertPhysicsCollisionToHitResult
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:

@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -41,10 +41,10 @@ namespace CG
 	class UProceduralMeshComponent : public UMeshComponent
 	{
 	public:
-		unsigned char                                              UnknownData_G9SZ[0x8];                                   // 0x05A0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_0PGE[0x8];                                   // 0x05A0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		bool                                                       bUseComplexAsSimpleCollision;                            // 0x05A8(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bUseAsyncCooking;                                        // 0x05A9(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_QL1J[0x6];                                   // 0x05AA(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_GN12[0x6];                                   // 0x05AA(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UBodySetup*                                          ProcMeshBodySetup;                                       // 0x05B0(0x0008) ExportObject, ZeroConstructor, InstancedReference, NoDestructor, PersistentInstance, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<struct FProcMeshSection>                            ProcMeshSections;                                        // 0x05B8(0x0010) ZeroConstructor, NativeAccessSpecifierPrivate
 		TArray<struct FKConvexElem>                                CollisionConvexElems;                                    // 0x05C8(0x0010) ZeroConstructor, NativeAccessSpecifierPrivate

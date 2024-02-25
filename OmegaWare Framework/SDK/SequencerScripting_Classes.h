@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -21,7 +21,7 @@ namespace CG
 	class UMovieSceneScriptingKey : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_SNXB[0x18];                                  // 0x0028(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_LY37[0x18];                                  // 0x0028(0x0018) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -34,7 +34,7 @@ namespace CG
 	class UMovieSceneScriptingActorReferenceKey : public UMovieSceneScriptingKey
 	{
 	public:
-		unsigned char                                              UnknownData_7O8M[0x20];                                  // 0x0040(0x0020) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_0Q8T[0x20];                                  // 0x0040(0x0020) MISSED OFFSET (PADDING)
 
 	public:
 		void SetValue(const struct FMovieSceneObjectBindingID& InNewValue);
@@ -64,7 +64,7 @@ namespace CG
 	class UMovieSceneScriptingActorReferenceChannel : public UMovieSceneScriptingChannel
 	{
 	public:
-		unsigned char                                              UnknownData_F7SD[0x30];                                  // 0x0030(0x0030) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_FD52[0x30];                                  // 0x0030(0x0030) MISSED OFFSET (PADDING)
 
 	public:
 		void SetDefault(const struct FMovieSceneObjectBindingID& InDefaultValue);
@@ -84,7 +84,7 @@ namespace CG
 	class UMovieSceneScriptingBoolKey : public UMovieSceneScriptingKey
 	{
 	public:
-		unsigned char                                              UnknownData_G1K8[0x20];                                  // 0x0040(0x0020) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_0KCJ[0x20];                                  // 0x0040(0x0020) MISSED OFFSET (PADDING)
 
 	public:
 		void SetValue(bool InNewValue);
@@ -101,7 +101,7 @@ namespace CG
 	class UMovieSceneScriptingBoolChannel : public UMovieSceneScriptingChannel
 	{
 	public:
-		unsigned char                                              UnknownData_8VVW[0x30];                                  // 0x0030(0x0030) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_HAC1[0x30];                                  // 0x0030(0x0030) MISSED OFFSET (PADDING)
 
 	public:
 		void SetDefault(bool InDefaultValue);
@@ -124,7 +124,7 @@ namespace CG
 	class UMovieSceneScriptingByteKey : public UMovieSceneScriptingKey
 	{
 	public:
-		unsigned char                                              UnknownData_LDXD[0x20];                                  // 0x0040(0x0020) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_C5LI[0x20];                                  // 0x0040(0x0020) MISSED OFFSET (PADDING)
 
 	public:
 		void SetValue(unsigned char InNewValue);
@@ -141,7 +141,7 @@ namespace CG
 	class UMovieSceneScriptingByteChannel : public UMovieSceneScriptingChannel
 	{
 	public:
-		unsigned char                                              UnknownData_090R[0x30];                                  // 0x0030(0x0030) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_ALQR[0x30];                                  // 0x0030(0x0030) MISSED OFFSET (PADDING)
 
 	public:
 		void SetDefault(unsigned char InDefaultValue);
@@ -161,7 +161,7 @@ namespace CG
 	class UMovieSceneScriptingDoubleKey : public UMovieSceneScriptingKey
 	{
 	public:
-		unsigned char                                              UnknownData_41UK[0x20];                                  // 0x0040(0x0020) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_2TPC[0x20];                                  // 0x0040(0x0020) MISSED OFFSET (PADDING)
 
 	public:
 		void SetValue(double InNewValue);
@@ -192,7 +192,7 @@ namespace CG
 	class UMovieSceneScriptingDoubleChannel : public UMovieSceneScriptingChannel
 	{
 	public:
-		unsigned char                                              UnknownData_CYRC[0x30];                                  // 0x0030(0x0030) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_126D[0x30];                                  // 0x0030(0x0030) MISSED OFFSET (PADDING)
 
 	public:
 		void SetPreInfinityExtrapolation(ERichCurveExtrapolation InExtrapolation);
@@ -219,7 +219,7 @@ namespace CG
 	class UMovieSceneScriptingEventKey : public UMovieSceneScriptingKey
 	{
 	public:
-		unsigned char                                              UnknownData_Z25U[0x20];                                  // 0x0040(0x0020) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_0DBZ[0x20];                                  // 0x0040(0x0020) MISSED OFFSET (PADDING)
 
 	public:
 		void SetValue(const struct FMovieSceneEvent& InNewValue);
@@ -236,7 +236,7 @@ namespace CG
 	class UMovieSceneScriptingEventChannel : public UMovieSceneScriptingChannel
 	{
 	public:
-		unsigned char                                              UnknownData_CQSZ[0x30];                                  // 0x0030(0x0030) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_7DEE[0x30];                                  // 0x0030(0x0030) MISSED OFFSET (PADDING)
 
 	public:
 		void RemoveKey(class UMovieSceneScriptingKey* Key);
@@ -280,7 +280,7 @@ namespace CG
 	class UMovieSceneScriptingActualFloatKey : public UMovieSceneScriptingFloatKey
 	{
 	public:
-		unsigned char                                              UnknownData_9XMH[0x20];                                  // 0x0040(0x0020) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_4AQB[0x20];                                  // 0x0040(0x0020) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -293,7 +293,7 @@ namespace CG
 	class UMovieSceneScriptingDoubleAsFloatKey : public UMovieSceneScriptingFloatKey
 	{
 	public:
-		unsigned char                                              UnknownData_ZFA7[0x20];                                  // 0x0040(0x0020) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_K1UJ[0x20];                                  // 0x0040(0x0020) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -306,7 +306,7 @@ namespace CG
 	class UMovieSceneScriptingFloatChannel : public UMovieSceneScriptingChannel
 	{
 	public:
-		unsigned char                                              UnknownData_MVTN[0x50];                                  // 0x0030(0x0050) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_RD0B[0x50];                                  // 0x0030(0x0050) MISSED OFFSET (PADDING)
 
 	public:
 		void SetPreInfinityExtrapolation(ERichCurveExtrapolation InExtrapolation);
@@ -333,7 +333,7 @@ namespace CG
 	class UMovieSceneScriptingIntegerKey : public UMovieSceneScriptingKey
 	{
 	public:
-		unsigned char                                              UnknownData_Q2RJ[0x20];                                  // 0x0040(0x0020) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_WSTS[0x20];                                  // 0x0040(0x0020) MISSED OFFSET (PADDING)
 
 	public:
 		void SetValue(int32_t InNewValue);
@@ -350,7 +350,7 @@ namespace CG
 	class UMovieSceneScriptingIntegerChannel : public UMovieSceneScriptingChannel
 	{
 	public:
-		unsigned char                                              UnknownData_FCPD[0x30];                                  // 0x0030(0x0030) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_GFPP[0x30];                                  // 0x0030(0x0030) MISSED OFFSET (PADDING)
 
 	public:
 		void SetDefault(int32_t InDefaultValue);
@@ -370,7 +370,7 @@ namespace CG
 	class UMovieSceneScriptingObjectPathKey : public UMovieSceneScriptingKey
 	{
 	public:
-		unsigned char                                              UnknownData_JE9T[0x20];                                  // 0x0040(0x0020) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_JRZH[0x20];                                  // 0x0040(0x0020) MISSED OFFSET (PADDING)
 
 	public:
 		void SetValue(class UObject* InNewValue);
@@ -387,7 +387,7 @@ namespace CG
 	class UMovieSceneScriptingObjectPathChannel : public UMovieSceneScriptingChannel
 	{
 	public:
-		unsigned char                                              UnknownData_A9XG[0x30];                                  // 0x0030(0x0030) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_8F8Z[0x30];                                  // 0x0030(0x0030) MISSED OFFSET (PADDING)
 
 	public:
 		void SetDefault(class UObject* InDefaultValue);
@@ -407,7 +407,7 @@ namespace CG
 	class UMovieSceneScriptingStringKey : public UMovieSceneScriptingKey
 	{
 	public:
-		unsigned char                                              UnknownData_ZOUP[0x20];                                  // 0x0040(0x0020) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_GEBK[0x20];                                  // 0x0040(0x0020) MISSED OFFSET (PADDING)
 
 	public:
 		void SetValue(const class FString& InNewValue);
@@ -424,7 +424,7 @@ namespace CG
 	class UMovieSceneScriptingStringChannel : public UMovieSceneScriptingChannel
 	{
 	public:
-		unsigned char                                              UnknownData_8PZP[0x30];                                  // 0x0030(0x0030) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_957G[0x30];                                  // 0x0030(0x0030) MISSED OFFSET (PADDING)
 
 	public:
 		void SetDefault(const class FString& InDefaultValue);

@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -21,7 +21,7 @@ namespace CG
 	class ABuild_Blueprint_C : public AFGBuildable
 	{
 	public:
-		unsigned char                                              UnknownData_DXH7[0x8];                                   // 0x05D8(0x0008) Fix Super Size
+		unsigned char                                              UnknownData_QYF7[0x8];                                   // 0x05D8(0x0008) Fix Super Size
 
 	public:
 		static UClass* StaticClass();

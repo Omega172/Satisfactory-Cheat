@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPA_Boombox.BPA_Boombox_C.AnimGraph
 	 * 		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -36,7 +36,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPA_Boombox.BPA_Boombox_C.AnimNotify_LoadTape
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -55,7 +55,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPA_Boombox.BPA_Boombox_C.AnimNotify_UnloadTape
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -74,7 +74,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPA_Boombox.BPA_Boombox_C.AnimNotify_Play
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -93,7 +93,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPA_Boombox.BPA_Boombox_C.AnimNotify_Stop
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -112,7 +112,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPA_Boombox.BPA_Boombox_C.AnimNotify_Next
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -131,7 +131,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPA_Boombox.BPA_Boombox_C.AnimNotify_Previous
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -150,7 +150,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPA_Boombox.BPA_Boombox_C.BlueprintBeginPlay
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 */
@@ -169,7 +169,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPA_Boombox.BPA_Boombox_C.OnAnimationMondageEnded
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -193,7 +193,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPA_Boombox.BPA_Boombox_C.AnimNotify_TogglePlayback
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -212,7 +212,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPA_Boombox.BPA_Boombox_C.AnimNotify_Turbobass
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -231,7 +231,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPA_Boombox.BPA_Boombox_C.AnimNotify_SwitchTapeTexture
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -250,7 +250,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPA_Boombox.BPA_Boombox_C.BlueprintUpdateAnimation
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -272,7 +272,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPA_Boombox.BPA_Boombox_C.ExecuteUbergraph_BPA_Boombox
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:

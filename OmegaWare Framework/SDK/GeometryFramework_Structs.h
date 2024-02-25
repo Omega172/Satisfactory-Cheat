@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -90,7 +90,7 @@ namespace CG
 		EDynamicMeshChangeType                                     Type;                                                    // 0x0000(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EDynamicMeshAttributeChangeFlags                           Flags;                                                   // 0x0001(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bIsRevertChange;                                         // 0x0002(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_OPR0[0x1D];                                  // 0x0003(0x001D) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_52W5[0x1D];                                  // 0x0003(0x001D) MISSED OFFSET (PADDING)
 	};
 
 }

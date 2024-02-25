@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A011D10
+	 * 		RVA    -> 0x6F3F51D10
 	 * 		Name   -> Function ControlRig.RigHierarchy.UnsetCurveValueByIndex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -37,7 +37,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A011B40
+	 * 		RVA    -> 0x6F3F51B40
 	 * 		Name   -> Function ControlRig.RigHierarchy.UnsetCurveValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -62,7 +62,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A0119F0
+	 * 		RVA    -> 0x6F3F519F0
 	 * 		Name   -> Function ControlRig.RigHierarchy.SwitchToWorldSpace
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -91,7 +91,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A0117B0
+	 * 		RVA    -> 0x6F3F517B0
 	 * 		Name   -> Function ControlRig.RigHierarchy.SwitchToParent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -122,7 +122,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A011660
+	 * 		RVA    -> 0x6F3F51660
 	 * 		Name   -> Function ControlRig.RigHierarchy.SwitchToDefaultParent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -151,7 +151,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A011560
+	 * 		RVA    -> 0x6F3F51560
 	 * 		Name   -> Function ControlRig.RigHierarchy.SortKeys
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -176,7 +176,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A011310
+	 * 		RVA    -> 0x6F3F51310
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetVectorMetadata
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -205,7 +205,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A011080
+	 * 		RVA    -> 0x6F3F51080
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetVectorArrayMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -234,7 +234,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A010DB0
+	 * 		RVA    -> 0x6F3F50DB0
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetTransformMetadata
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -263,7 +263,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A010B20
+	 * 		RVA    -> 0x6F3F50B20
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetTransformArrayMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -292,7 +292,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A010A20
+	 * 		RVA    -> 0x6F3F50A20
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetTag
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -319,7 +319,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A0107D0
+	 * 		RVA    -> 0x6F3F507D0
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetRotatorMetadata
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -348,7 +348,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A010540
+	 * 		RVA    -> 0x6F3F50540
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetRotatorArrayMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -377,7 +377,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A0102F0
+	 * 		RVA    -> 0x6F3F502F0
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetRigElementKeyMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -406,7 +406,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A010060
+	 * 		RVA    -> 0x6F3F50060
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetRigElementKeyArrayMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -435,7 +435,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00FE10
+	 * 		RVA    -> 0x6F3F4FE10
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetQuatMetadata
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -464,7 +464,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00FB80
+	 * 		RVA    -> 0x6F3F4FB80
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetQuatArrayMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -493,7 +493,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00F980
+	 * 		RVA    -> 0x6F3F4F980
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetPose_ForBlueprint
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -516,7 +516,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00F7A0
+	 * 		RVA    -> 0x6F3F4F7A0
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetParentWeightArray
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -547,7 +547,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00F5A0
+	 * 		RVA    -> 0x6F3F4F5A0
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetParentWeight
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -580,7 +580,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00F360
+	 * 		RVA    -> 0x6F3F4F360
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetNameMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -609,7 +609,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00F0D0
+	 * 		RVA    -> 0x6F3F4F0D0
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetNameArrayMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -638,7 +638,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00EE00
+	 * 		RVA    -> 0x6F3F4EE00
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetLocalTransformByIndex
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -671,7 +671,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00EA00
+	 * 		RVA    -> 0x6F3F4EA00
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetLocalTransform
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -704,7 +704,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00E7C0
+	 * 		RVA    -> 0x6F3F4E7C0
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetLinearColorMetadata
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -733,7 +733,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00E530
+	 * 		RVA    -> 0x6F3F4E530
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetLinearColorArrayMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -762,7 +762,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00E2F0
+	 * 		RVA    -> 0x6F3F4E2F0
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetInt32Metadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -791,7 +791,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00E060
+	 * 		RVA    -> 0x6F3F4E060
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetInt32ArrayMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -820,7 +820,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00DD90
+	 * 		RVA    -> 0x6F3F4DD90
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetGlobalTransformByIndex
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -853,7 +853,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00D990
+	 * 		RVA    -> 0x6F3F4D990
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetGlobalTransform
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -886,7 +886,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00D750
+	 * 		RVA    -> 0x6F3F4D750
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetFloatMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -915,7 +915,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00D4C0
+	 * 		RVA    -> 0x6F3F4D4C0
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetFloatArrayMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -944,7 +944,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00D390
+	 * 		RVA    -> 0x6F3F4D390
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetCurveValueByIndex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -971,7 +971,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00D150
+	 * 		RVA    -> 0x6F3F4D150
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetCurveValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -998,7 +998,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00D050
+	 * 		RVA    -> 0x6F3F4D050
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetControlVisibilityByIndex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1023,7 +1023,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00CE80
+	 * 		RVA    -> 0x6F3F4CE80
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetControlVisibility
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1048,7 +1048,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00CC20
+	 * 		RVA    -> 0x6F3F4CC20
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetControlValueByIndex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1079,7 +1079,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00C870
+	 * 		RVA    -> 0x6F3F4C870
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetControlValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1110,7 +1110,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00C640
+	 * 		RVA    -> 0x6F3F4C640
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetControlShapeTransformByIndex
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1139,7 +1139,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00C2E0
+	 * 		RVA    -> 0x6F3F4C2E0
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetControlShapeTransform
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1168,7 +1168,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00C050
+	 * 		RVA    -> 0x6F3F4C050
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetControlSettingsByIndex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1199,7 +1199,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00BD00
+	 * 		RVA    -> 0x6F3F4BD00
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetControlSettings
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1230,7 +1230,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00BB50
+	 * 		RVA    -> 0x6F3F4BB50
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetControlPreferredRotatorByIndex
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1259,7 +1259,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00B8E0
+	 * 		RVA    -> 0x6F3F4B8E0
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetControlPreferredRotator
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1288,7 +1288,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00B620
+	 * 		RVA    -> 0x6F3F4B620
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetControlOffsetTransformByIndex
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1321,7 +1321,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00B240
+	 * 		RVA    -> 0x6F3F4B240
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetControlOffsetTransform
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1354,7 +1354,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00B000
+	 * 		RVA    -> 0x6F3F4B000
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetBoolMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1383,7 +1383,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00AD80
+	 * 		RVA    -> 0x6F3F4AD80
 	 * 		Name   -> Function ControlRig.RigHierarchy.SetBoolArrayMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1412,7 +1412,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00AC40
+	 * 		RVA    -> 0x6F3F4AC40
 	 * 		Name   -> Function ControlRig.RigHierarchy.SendAutoKeyEvent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1439,7 +1439,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00AC20
+	 * 		RVA    -> 0x6F3F4AC20
 	 * 		Name   -> Function ControlRig.RigHierarchy.ResetToDefault
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1459,7 +1459,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00ABA0
+	 * 		RVA    -> 0x6F3F4ABA0
 	 * 		Name   -> Function ControlRig.RigHierarchy.ResetPoseToInitial
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1482,7 +1482,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00AB80
+	 * 		RVA    -> 0x6F3F4AB80
 	 * 		Name   -> Function ControlRig.RigHierarchy.ResetCurveValues
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1502,7 +1502,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00AB60
+	 * 		RVA    -> 0x6F3F4AB60
 	 * 		Name   -> Function ControlRig.RigHierarchy.Reset
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1522,7 +1522,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00AA60
+	 * 		RVA    -> 0x6F3F4AA60
 	 * 		Name   -> Function ControlRig.RigHierarchy.RemoveMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1549,7 +1549,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00A9B0
+	 * 		RVA    -> 0x6F3F4A9B0
 	 * 		Name   -> Function ControlRig.RigHierarchy.RemoveAllMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1574,7 +1574,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00A990
+	 * 		RVA    -> 0x6F3F4A990
 	 * 		Name   -> Function ControlRig.RigHierarchy.Num
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1596,7 +1596,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00A710
+	 * 		RVA    -> 0x6F3F4A710
 	 * 		Name   -> Function ControlRig.RigHierarchy.MakeControlValueFromVector2D
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1621,7 +1621,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00A850
+	 * 		RVA    -> 0x6F3F4A850
 	 * 		Name   -> Function ControlRig.RigHierarchy.MakeControlValueFromVector
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1646,7 +1646,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00A590
+	 * 		RVA    -> 0x6F3F4A590
 	 * 		Name   -> Function ControlRig.RigHierarchy.MakeControlValueFromTransformNoScale
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -1671,7 +1671,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00A310
+	 * 		RVA    -> 0x6F3F4A310
 	 * 		Name   -> Function ControlRig.RigHierarchy.MakeControlValueFromTransform
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1696,7 +1696,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00A1A0
+	 * 		RVA    -> 0x6F3F4A1A0
 	 * 		Name   -> Function ControlRig.RigHierarchy.MakeControlValueFromRotator
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1721,7 +1721,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A00A0C0
+	 * 		RVA    -> 0x6F3F4A0C0
 	 * 		Name   -> Function ControlRig.RigHierarchy.MakeControlValueFromInt
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -1746,7 +1746,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A009F90
+	 * 		RVA    -> 0x6F3F49F90
 	 * 		Name   -> Function ControlRig.RigHierarchy.MakeControlValueFromFloat
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -1771,7 +1771,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A009DA0
+	 * 		RVA    -> 0x6F3F49DA0
 	 * 		Name   -> Function ControlRig.RigHierarchy.MakeControlValueFromEulerTransform
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -1796,7 +1796,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A009CB0
+	 * 		RVA    -> 0x6F3F49CB0
 	 * 		Name   -> Function ControlRig.RigHierarchy.MakeControlValueFromBool
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -1821,7 +1821,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A009C10
+	 * 		RVA    -> 0x6F3F49C10
 	 * 		Name   -> Function ControlRig.RigHierarchy.IsValidIndex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1846,7 +1846,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A009B50
+	 * 		RVA    -> 0x6F3F49B50
 	 * 		Name   -> Function ControlRig.RigHierarchy.IsSelectedByIndex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1871,7 +1871,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A0099C0
+	 * 		RVA    -> 0x6F3F499C0
 	 * 		Name   -> Function ControlRig.RigHierarchy.IsSelected
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1896,7 +1896,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A009910
+	 * 		RVA    -> 0x6F3F49910
 	 * 		Name   -> Function ControlRig.RigHierarchy.IsProcedural
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1921,7 +1921,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A0097F0
+	 * 		RVA    -> 0x6F3F497F0
 	 * 		Name   -> Function ControlRig.RigHierarchy.IsParentedTo
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1948,7 +1948,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A009720
+	 * 		RVA    -> 0x6F3F49720
 	 * 		Name   -> Function ControlRig.RigHierarchy.IsCurveValueSetByIndex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1973,7 +1973,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A009590
+	 * 		RVA    -> 0x6F3F49590
 	 * 		Name   -> Function ControlRig.RigHierarchy.IsCurveValueSet
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1998,7 +1998,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A009560
+	 * 		RVA    -> 0x6F3F49560
 	 * 		Name   -> Function ControlRig.RigHierarchy.IsControllerAvailable
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2020,7 +2020,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A009420
+	 * 		RVA    -> 0x6F3F49420
 	 * 		Name   -> Function ControlRig.RigHierarchy.HasTag
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2047,7 +2047,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A0091E0
+	 * 		RVA    -> 0x6F3F491E0
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetVectorMetadata
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2076,7 +2076,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A009100
+	 * 		RVA    -> 0x6F3F49100
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetVectorFromControlValue
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2101,7 +2101,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A008FC0
+	 * 		RVA    -> 0x6F3F48FC0
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetVectorArrayMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2128,7 +2128,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A008EF0
+	 * 		RVA    -> 0x6F3F48EF0
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetVector2DFromControlValue
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2153,7 +2153,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A008DC0
+	 * 		RVA    -> 0x6F3F48DC0
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetTransformNoScaleFromControlValue
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -2178,7 +2178,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A008AE0
+	 * 		RVA    -> 0x6F3F48AE0
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetTransformMetadata
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2207,7 +2207,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A008990
+	 * 		RVA    -> 0x6F3F48990
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetTransformFromControlValue
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2232,7 +2232,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A008850
+	 * 		RVA    -> 0x6F3F48850
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetTransformArrayMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2259,7 +2259,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A008750
+	 * 		RVA    -> 0x6F3F48750
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetTags
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2284,7 +2284,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A008670
+	 * 		RVA    -> 0x6F3F48670
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetSelectedKeys
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2309,7 +2309,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A008430
+	 * 		RVA    -> 0x6F3F48430
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetRotatorMetadata
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2338,7 +2338,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A008330
+	 * 		RVA    -> 0x6F3F48330
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetRotatorFromControlValue
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2363,7 +2363,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A0081F0
+	 * 		RVA    -> 0x6F3F481F0
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetRotatorArrayMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2390,7 +2390,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A008140
+	 * 		RVA    -> 0x6F3F48140
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetRootElementKeys
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2412,7 +2412,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A008060
+	 * 		RVA    -> 0x6F3F48060
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetRigidBodyKeys
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2437,7 +2437,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A007E30
+	 * 		RVA    -> 0x6F3F47E30
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetRigElementKeyMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2466,7 +2466,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A007CF0
+	 * 		RVA    -> 0x6F3F47CF0
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetRigElementKeyArrayMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2493,7 +2493,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A007C10
+	 * 		RVA    -> 0x6F3F47C10
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetReferenceKeys
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2518,7 +2518,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A0079E0
+	 * 		RVA    -> 0x6F3F479E0
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetQuatMetadata
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2547,7 +2547,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A0078A0
+	 * 		RVA    -> 0x6F3F478A0
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetQuatArrayMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2574,7 +2574,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A0077E0
+	 * 		RVA    -> 0x6F3F477E0
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetPreviousParent
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2599,7 +2599,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A007720
+	 * 		RVA    -> 0x6F3F47720
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetPreviousName
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2624,7 +2624,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A0075F0
+	 * 		RVA    -> 0x6F3F475F0
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetPose
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2649,7 +2649,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A007370
+	 * 		RVA    -> 0x6F3F47370
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetParentWeightArray
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2676,7 +2676,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A007210
+	 * 		RVA    -> 0x6F3F47210
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetParentWeight
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2705,7 +2705,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A007070
+	 * 		RVA    -> 0x6F3F47070
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetParentTransformByIndex
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2732,7 +2732,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A006E20
+	 * 		RVA    -> 0x6F3F46E20
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetParentTransform
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2759,7 +2759,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A0074B0
+	 * 		RVA    -> 0x6F3F474B0
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetParents
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2786,7 +2786,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A006D70
+	 * 		RVA    -> 0x6F3F46D70
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetNumberOfParents
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2811,7 +2811,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A006C90
+	 * 		RVA    -> 0x6F3F46C90
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetNullKeys
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2836,7 +2836,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A006A80
+	 * 		RVA    -> 0x6F3F46A80
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetNameMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2865,7 +2865,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A006940
+	 * 		RVA    -> 0x6F3F46940
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetNameArrayMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2892,7 +2892,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A006840
+	 * 		RVA    -> 0x6F3F46840
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetMetadataType
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -2919,7 +2919,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A006740
+	 * 		RVA    -> 0x6F3F46740
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetMetadataNames
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -2944,7 +2944,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A006580
+	 * 		RVA    -> 0x6F3F46580
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetLocalTransformByIndex
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2971,7 +2971,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A006300
+	 * 		RVA    -> 0x6F3F46300
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetLocalTransform
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2998,7 +2998,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A006170
+	 * 		RVA    -> 0x6F3F46170
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetLocalIndex_ForBlueprint
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3023,7 +3023,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A005FC0
+	 * 		RVA    -> 0x6F3F45FC0
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetLocalControlShapeTransformByIndex
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3050,7 +3050,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A005D60
+	 * 		RVA    -> 0x6F3F45D60
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetLocalControlShapeTransform
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3077,7 +3077,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A005B40
+	 * 		RVA    -> 0x6F3F45B40
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetLinearColorMetadata
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3106,7 +3106,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A005A00
+	 * 		RVA    -> 0x6F3F45A00
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetLinearColorArrayMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3133,7 +3133,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A0058C0
+	 * 		RVA    -> 0x6F3F458C0
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetKeys
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3158,7 +3158,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A0057F0
+	 * 		RVA    -> 0x6F3F457F0
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetKey
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3183,7 +3183,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A005740
+	 * 		RVA    -> 0x6F3F45740
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetIntFromControlValue
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -3208,7 +3208,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A005530
+	 * 		RVA    -> 0x6F3F45530
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetInt32Metadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3237,7 +3237,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A0053F0
+	 * 		RVA    -> 0x6F3F453F0
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetInt32ArrayMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3264,7 +3264,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A005280
+	 * 		RVA    -> 0x6F3F45280
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetIndex_ForBlueprint
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3289,7 +3289,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A0050C0
+	 * 		RVA    -> 0x6F3F450C0
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetGlobalTransformByIndex
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3316,7 +3316,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A004E40
+	 * 		RVA    -> 0x6F3F44E40
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetGlobalTransform
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3343,7 +3343,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A004C90
+	 * 		RVA    -> 0x6F3F44C90
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetGlobalControlShapeTransformByIndex
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3370,7 +3370,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A004A30
+	 * 		RVA    -> 0x6F3F44A30
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetGlobalControlShapeTransform
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3397,7 +3397,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A004880
+	 * 		RVA    -> 0x6F3F44880
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetGlobalControlOffsetTransformByIndex
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3424,7 +3424,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A004620
+	 * 		RVA    -> 0x6F3F44620
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetGlobalControlOffsetTransform
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3451,7 +3451,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A004420
+	 * 		RVA    -> 0x6F3F44420
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetFloatMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3480,7 +3480,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A004360
+	 * 		RVA    -> 0x6F3F44360
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetFloatFromControlValue
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -3505,7 +3505,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A004220
+	 * 		RVA    -> 0x6F3F44220
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetFloatArrayMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3532,7 +3532,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A004150
+	 * 		RVA    -> 0x6F3F44150
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetFirstParent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3557,7 +3557,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A004000
+	 * 		RVA    -> 0x6F3F44000
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetEulerTransformFromControlValue
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -3582,7 +3582,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A003F30
+	 * 		RVA    -> 0x6F3F43F30
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetDefaultParent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3607,7 +3607,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A003E60
+	 * 		RVA    -> 0x6F3F43E60
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetCurveValueByIndex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3632,7 +3632,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A003CD0
+	 * 		RVA    -> 0x6F3F43CD0
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetCurveValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3657,7 +3657,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A003C50
+	 * 		RVA    -> 0x6F3F43C50
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetCurveKeys
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3679,7 +3679,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A003A00
+	 * 		RVA    -> 0x6F3F43A00
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetControlValueByIndex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3706,7 +3706,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A003780
+	 * 		RVA    -> 0x6F3F43780
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetControlValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3733,7 +3733,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A003640
+	 * 		RVA    -> 0x6F3F43640
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetControlPreferredRotatorByIndex
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3760,7 +3760,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A003420
+	 * 		RVA    -> 0x6F3F43420
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetControlPreferredRotator
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3787,7 +3787,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A003BB0
+	 * 		RVA    -> 0x6F3F43BB0
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetController
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3812,7 +3812,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A003340
+	 * 		RVA    -> 0x6F3F43340
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetControlKeys
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3837,7 +3837,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A003200
+	 * 		RVA    -> 0x6F3F43200
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetChildren
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3864,7 +3864,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A002FF0
+	 * 		RVA    -> 0x6F3F42FF0
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetBoolMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3893,7 +3893,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A002EB0
+	 * 		RVA    -> 0x6F3F42EB0
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetBoolArrayMetadata
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3920,7 +3920,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A002DD0
+	 * 		RVA    -> 0x6F3F42DD0
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetBoneKeys
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3945,7 +3945,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A002CE0
+	 * 		RVA    -> 0x6F3F42CE0
 	 * 		Name   -> Function ControlRig.RigHierarchy.GetAllKeys_ForBlueprint
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3970,7 +3970,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A002B50
+	 * 		RVA    -> 0x6F3F42B50
 	 * 		Name   -> Function ControlRig.RigHierarchy.FindNull_ForBlueprintOnly
 	 * 		Flags  -> (Final, Native, Private, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3995,7 +3995,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A002950
+	 * 		RVA    -> 0x6F3F42950
 	 * 		Name   -> Function ControlRig.RigHierarchy.FindControl_ForBlueprintOnly
 	 * 		Flags  -> (Final, Native, Private, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -4020,7 +4020,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A002830
+	 * 		RVA    -> 0x6F3F42830
 	 * 		Name   -> Function ControlRig.RigHierarchy.FindBone_ForBlueprintOnly
 	 * 		Flags  -> (Final, Native, Private, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -4045,7 +4045,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A002660
+	 * 		RVA    -> 0x6F3F42660
 	 * 		Name   -> Function ControlRig.RigHierarchy.CopyPose
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4076,7 +4076,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A0025D0
+	 * 		RVA    -> 0x6F3F425D0
 	 * 		Name   -> Function ControlRig.RigHierarchy.CopyHierarchy
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4099,7 +4099,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A002460
+	 * 		RVA    -> 0x6F3F42460
 	 * 		Name   -> Function ControlRig.RigHierarchy.Contains_ForBlueprint
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -4152,7 +4152,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A091C70
+	 * 		RVA    -> 0x6F3FD1C70
 	 * 		Name   -> Function ControlRig.ControlRig.SetInteractionRigClass
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4175,7 +4175,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A091BE0
+	 * 		RVA    -> 0x6F3FD1BE0
 	 * 		Name   -> Function ControlRig.ControlRig.SetInteractionRig
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4198,7 +4198,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A0905B0
+	 * 		RVA    -> 0x6F3FD05B0
 	 * 		Name   -> Function ControlRig.ControlRig.SelectControl
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -4223,7 +4223,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A090530
+	 * 		RVA    -> 0x6F3FD0530
 	 * 		Name   -> Function ControlRig.ControlRig.RequestConstruction
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -4243,7 +4243,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> SparseDelegateFunction ControlRig.ControlRig.OnControlSelectedBP__DelegateSignature
 	 * 		Flags  -> (MulticastDelegate, Public, Delegate, HasOutParms)
 	 * Parameters:
@@ -4269,7 +4269,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08FDB0
+	 * 		RVA    -> 0x6F3FCFDB0
 	 * 		Name   -> Function ControlRig.ControlRig.IsControlSelected
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -4294,7 +4294,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08FB10
+	 * 		RVA    -> 0x6F3FCFB10
 	 * 		Name   -> Function ControlRig.ControlRig.GetInteractionRigClass
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -4316,7 +4316,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08FAF0
+	 * 		RVA    -> 0x6F3FCFAF0
 	 * 		Name   -> Function ControlRig.ControlRig.GetInteractionRig
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -4338,7 +4338,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08F840
+	 * 		RVA    -> 0x6F3FCF840
 	 * 		Name   -> Function ControlRig.ControlRig.GetHostingActor
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -4360,7 +4360,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08F820
+	 * 		RVA    -> 0x6F3FCF820
 	 * 		Name   -> Function ControlRig.ControlRig.GetHierarchy
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -4382,7 +4382,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08E7F0
+	 * 		RVA    -> 0x6F3FCE7F0
 	 * 		Name   -> Function ControlRig.ControlRig.FindControlRigs
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -4409,7 +4409,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08E660
+	 * 		RVA    -> 0x6F3FCE660
 	 * 		Name   -> Function ControlRig.ControlRig.CurrentControlSelection
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -4431,7 +4431,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08E580
+	 * 		RVA    -> 0x6F3FCE580
 	 * 		Name   -> Function ControlRig.ControlRig.CreateTransformableControlHandle
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -4458,7 +4458,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08E400
+	 * 		RVA    -> 0x6F3FCE400
 	 * 		Name   -> Function ControlRig.ControlRig.ClearControlSelection
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -4522,7 +4522,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A092320
+	 * 		RVA    -> 0x6F3FD2320
 	 * 		Name   -> Function ControlRig.ControlRigComponent.Update
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4545,7 +4545,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A091F10
+	 * 		RVA    -> 0x6F3FD1F10
 	 * 		Name   -> Function ControlRig.ControlRigComponent.SetObjectBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4568,7 +4568,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A091E20
+	 * 		RVA    -> 0x6F3FD1E20
 	 * 		Name   -> Function ControlRig.ControlRigComponent.SetMappedElements
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4591,7 +4591,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A0919A0
+	 * 		RVA    -> 0x6F3FD19A0
 	 * 		Name   -> Function ControlRig.ControlRigComponent.SetInitialSpaceTransform
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -4618,7 +4618,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A0917A0
+	 * 		RVA    -> 0x6F3FD17A0
 	 * 		Name   -> Function ControlRig.ControlRigComponent.SetInitialBoneTransform
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -4647,7 +4647,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A091480
+	 * 		RVA    -> 0x6F3FD1480
 	 * 		Name   -> Function ControlRig.ControlRigComponent.SetControlVector2D
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -4672,7 +4672,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A091240
+	 * 		RVA    -> 0x6F3FD1240
 	 * 		Name   -> Function ControlRig.ControlRigComponent.SetControlTransform
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -4699,7 +4699,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A091100
+	 * 		RVA    -> 0x6F3FD1100
 	 * 		Name   -> Function ControlRig.ControlRigComponent.SetControlScale
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -4726,7 +4726,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A090FC0
+	 * 		RVA    -> 0x6F3FD0FC0
 	 * 		Name   -> Function ControlRig.ControlRigComponent.SetControlRotator
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -4753,7 +4753,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A090F20
+	 * 		RVA    -> 0x6F3FD0F20
 	 * 		Name   -> Function ControlRig.ControlRigComponent.SetControlRigClass
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4776,7 +4776,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A090DE0
+	 * 		RVA    -> 0x6F3FD0DE0
 	 * 		Name   -> Function ControlRig.ControlRigComponent.SetControlPosition
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -4803,7 +4803,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A090C30
+	 * 		RVA    -> 0x6F3FD0C30
 	 * 		Name   -> Function ControlRig.ControlRigComponent.SetControlOffset
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -4830,7 +4830,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A090B60
+	 * 		RVA    -> 0x6F3FD0B60
 	 * 		Name   -> Function ControlRig.ControlRigComponent.SetControlInt
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4855,7 +4855,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A090A80
+	 * 		RVA    -> 0x6F3FD0A80
 	 * 		Name   -> Function ControlRig.ControlRigComponent.SetControlFloat
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4880,7 +4880,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A0909A0
+	 * 		RVA    -> 0x6F3FD09A0
 	 * 		Name   -> Function ControlRig.ControlRigComponent.SetControlBool
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4905,7 +4905,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A090750
+	 * 		RVA    -> 0x6F3FD0750
 	 * 		Name   -> Function ControlRig.ControlRigComponent.SetBoneTransform
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -4936,7 +4936,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A0906A0
+	 * 		RVA    -> 0x6F3FD06A0
 	 * 		Name   -> Function ControlRig.ControlRigComponent.SetBoneInitialTransformsFromSkeletalMesh
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4959,7 +4959,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A090230
+	 * 		RVA    -> 0x6F3FD0230
 	 * 		Name   -> Function ControlRig.ControlRigComponent.OnPreInitialize
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -4982,7 +4982,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A0901A0
+	 * 		RVA    -> 0x6F3FD01A0
 	 * 		Name   -> Function ControlRig.ControlRigComponent.OnPreForwardsSolve
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -5005,7 +5005,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A090110
+	 * 		RVA    -> 0x6F3FD0110
 	 * 		Name   -> Function ControlRig.ControlRigComponent.OnPreConstruction
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -5028,7 +5028,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A090080
+	 * 		RVA    -> 0x6F3FD0080
 	 * 		Name   -> Function ControlRig.ControlRigComponent.OnPostInitialize
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -5051,7 +5051,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08FFF0
+	 * 		RVA    -> 0x6F3FCFFF0
 	 * 		Name   -> Function ControlRig.ControlRigComponent.OnPostForwardsSolve
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -5074,7 +5074,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08FF60
+	 * 		RVA    -> 0x6F3FCFF60
 	 * 		Name   -> Function ControlRig.ControlRigComponent.OnPostConstruction
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -5097,7 +5097,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08FD90
+	 * 		RVA    -> 0x6F3FCFD90
 	 * 		Name   -> Function ControlRig.ControlRigComponent.Initialize
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -5117,7 +5117,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08FB90
+	 * 		RVA    -> 0x6F3FCFB90
 	 * 		Name   -> Function ControlRig.ControlRigComponent.GetSpaceTransform
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -5144,7 +5144,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08F9C0
+	 * 		RVA    -> 0x6F3FCF9C0
 	 * 		Name   -> Function ControlRig.ControlRigComponent.GetInitialSpaceTransform
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -5171,7 +5171,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08F890
+	 * 		RVA    -> 0x6F3FCF890
 	 * 		Name   -> Function ControlRig.ControlRigComponent.GetInitialBoneTransform
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -5198,7 +5198,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08F580
+	 * 		RVA    -> 0x6F3FCF580
 	 * 		Name   -> Function ControlRig.ControlRigComponent.GetElementNames
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -5223,7 +5223,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08F4E0
+	 * 		RVA    -> 0x6F3FCF4E0
 	 * 		Name   -> Function ControlRig.ControlRigComponent.GetControlVector2D
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -5248,7 +5248,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08F3B0
+	 * 		RVA    -> 0x6F3FCF3B0
 	 * 		Name   -> Function ControlRig.ControlRigComponent.GetControlTransform
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -5275,7 +5275,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08F2A0
+	 * 		RVA    -> 0x6F3FCF2A0
 	 * 		Name   -> Function ControlRig.ControlRigComponent.GetControlScale
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -5302,7 +5302,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08F160
+	 * 		RVA    -> 0x6F3FCF160
 	 * 		Name   -> Function ControlRig.ControlRigComponent.GetControlRotator
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -5329,7 +5329,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08F130
+	 * 		RVA    -> 0x6F3FCF130
 	 * 		Name   -> Function ControlRig.ControlRigComponent.GetControlRig
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -5351,7 +5351,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08F020
+	 * 		RVA    -> 0x6F3FCF020
 	 * 		Name   -> Function ControlRig.ControlRigComponent.GetControlPosition
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -5378,7 +5378,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08EEF0
+	 * 		RVA    -> 0x6F3FCEEF0
 	 * 		Name   -> Function ControlRig.ControlRigComponent.GetControlOffset
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -5405,7 +5405,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08EE50
+	 * 		RVA    -> 0x6F3FCEE50
 	 * 		Name   -> Function ControlRig.ControlRigComponent.GetControlInt
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -5430,7 +5430,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08EDB0
+	 * 		RVA    -> 0x6F3FCEDB0
 	 * 		Name   -> Function ControlRig.ControlRigComponent.GetControlFloat
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -5455,7 +5455,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08ED10
+	 * 		RVA    -> 0x6F3FCED10
 	 * 		Name   -> Function ControlRig.ControlRigComponent.GetControlBool
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -5480,7 +5480,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08EBE0
+	 * 		RVA    -> 0x6F3FCEBE0
 	 * 		Name   -> Function ControlRig.ControlRigComponent.GetBoneTransform
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -5507,7 +5507,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08EBA0
+	 * 		RVA    -> 0x6F3FCEBA0
 	 * 		Name   -> Function ControlRig.ControlRigComponent.GetAbsoluteTime
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -5529,7 +5529,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08E6E0
+	 * 		RVA    -> 0x6F3FCE6E0
 	 * 		Name   -> Function ControlRig.ControlRigComponent.DoesElementExist
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -5556,7 +5556,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08E430
+	 * 		RVA    -> 0x6F3FCE430
 	 * 		Name   -> Function ControlRig.ControlRigComponent.ClearMappedElements
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -5576,7 +5576,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08E370
+	 * 		RVA    -> 0x6F3FCE370
 	 * 		Name   -> Function ControlRig.ControlRigComponent.CanExecute
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -5598,7 +5598,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08E1B0
+	 * 		RVA    -> 0x6F3FCE1B0
 	 * 		Name   -> Function ControlRig.ControlRigComponent.AddMappedSkeletalMesh
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5625,7 +5625,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08E0C0
+	 * 		RVA    -> 0x6F3FCE0C0
 	 * 		Name   -> Function ControlRig.ControlRigComponent.AddMappedElements
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5648,7 +5648,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08DFD0
+	 * 		RVA    -> 0x6F3FCDFD0
 	 * 		Name   -> Function ControlRig.ControlRigComponent.AddMappedComponents
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5671,7 +5671,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08DF20
+	 * 		RVA    -> 0x6F3FCDF20
 	 * 		Name   -> Function ControlRig.ControlRigComponent.AddMappedCompleteSkeletalMesh
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5708,7 +5708,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A090560
+	 * 		RVA    -> 0x6F3FD0560
 	 * 		Name   -> Function ControlRig.ControlRigControlActor.ResetControlActor
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -5728,7 +5728,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A0904F0
+	 * 		RVA    -> 0x6F3FD04F0
 	 * 		Name   -> Function ControlRig.ControlRigControlActor.Refresh
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -5748,7 +5748,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08E3E0
+	 * 		RVA    -> 0x6F3FCE3E0
 	 * 		Name   -> Function ControlRig.ControlRigControlActor.Clear
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -5782,7 +5782,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A092030
+	 * 		RVA    -> 0x6F3FD2030
 	 * 		Name   -> Function ControlRig.ControlRigShapeActor.SetSelected
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5805,7 +5805,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A091FA0
+	 * 		RVA    -> 0x6F3FD1FA0
 	 * 		Name   -> Function ControlRig.ControlRigShapeActor.SetSelectable
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5828,7 +5828,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A091710
+	 * 		RVA    -> 0x6F3FD1710
 	 * 		Name   -> Function ControlRig.ControlRigShapeActor.SetHovered
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5851,7 +5851,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A0915F0
+	 * 		RVA    -> 0x6F3FD15F0
 	 * 		Name   -> Function ControlRig.ControlRigShapeActor.SetGlobalTransform
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -5874,7 +5874,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A091560
+	 * 		RVA    -> 0x6F3FD1560
 	 * 		Name   -> Function ControlRig.ControlRigShapeActor.SetEnabled
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5897,7 +5897,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function ControlRig.ControlRigShapeActor.OnTransformChanged
 	 * 		Flags  -> (Event, Public, HasOutParms, HasDefaults, BlueprintEvent)
 	 * Parameters:
@@ -5919,7 +5919,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function ControlRig.ControlRigShapeActor.OnSelectionChanged
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -5941,7 +5941,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function ControlRig.ControlRigShapeActor.OnManipulatingChanged
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -5963,7 +5963,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function ControlRig.ControlRigShapeActor.OnHoveredChanged
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -5985,7 +5985,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function ControlRig.ControlRigShapeActor.OnEnabledChanged
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -6007,7 +6007,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08FF30
+	 * 		RVA    -> 0x6F3FCFF30
 	 * 		Name   -> Function ControlRig.ControlRigShapeActor.IsSelectedInEditor
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6029,7 +6029,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08FE90
+	 * 		RVA    -> 0x6F3FCFE90
 	 * 		Name   -> Function ControlRig.ControlRigShapeActor.IsHovered
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6051,7 +6051,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08FE60
+	 * 		RVA    -> 0x6F3FCFE60
 	 * 		Name   -> Function ControlRig.ControlRigShapeActor.IsEnabled
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6073,7 +6073,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08F740
+	 * 		RVA    -> 0x6F3FCF740
 	 * 		Name   -> Function ControlRig.ControlRigShapeActor.GetGlobalTransform
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6123,7 +6123,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A0920C0
+	 * 		RVA    -> 0x6F3FD20C0
 	 * 		Name   -> Function ControlRig.ControlRigTestData.SetupReplay
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6150,7 +6150,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A090510
+	 * 		RVA    -> 0x6F3FD0510
 	 * 		Name   -> Function ControlRig.ControlRigTestData.ReleaseReplay
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -6170,7 +6170,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A0902C0
+	 * 		RVA    -> 0x6F3FD02C0
 	 * 		Name   -> Function ControlRig.ControlRigTestData.Record
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6197,7 +6197,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08FEF0
+	 * 		RVA    -> 0x6F3FCFEF0
 	 * 		Name   -> Function ControlRig.ControlRigTestData.IsReplaying
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6219,7 +6219,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08FEC0
+	 * 		RVA    -> 0x6F3FCFEC0
 	 * 		Name   -> Function ControlRig.ControlRigTestData.IsRecording
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6241,7 +6241,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08FCC0
+	 * 		RVA    -> 0x6F3FCFCC0
 	 * 		Name   -> Function ControlRig.ControlRigTestData.GetTimeRange
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -6266,7 +6266,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08FB30
+	 * 		RVA    -> 0x6F3FCFB30
 	 * 		Name   -> Function ControlRig.ControlRigTestData.GetPlaybackMode
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6288,7 +6288,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08F660
+	 * 		RVA    -> 0x6F3FCF660
 	 * 		Name   -> Function ControlRig.ControlRigTestData.GetFrameIndexForTime
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -6315,7 +6315,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A08E450
+	 * 		RVA    -> 0x6F3FCE450
 	 * 		Name   -> Function ControlRig.ControlRigTestData.CreateNewAsset
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -6412,7 +6412,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A170AD0
+	 * 		RVA    -> 0x6F40B0AD0
 	 * 		Name   -> Function ControlRig.RigHierarchyController.SetSelection
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -6439,7 +6439,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A1708F0
+	 * 		RVA    -> 0x6F40B08F0
 	 * 		Name   -> Function ControlRig.RigHierarchyController.SetParent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6472,7 +6472,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A170860
+	 * 		RVA    -> 0x6F40B0860
 	 * 		Name   -> Function ControlRig.RigHierarchyController.SetHierarchy
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6495,7 +6495,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A170600
+	 * 		RVA    -> 0x6F40B0600
 	 * 		Name   -> Function ControlRig.RigHierarchyController.SetDisplayName
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6528,7 +6528,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A170410
+	 * 		RVA    -> 0x6F40B0410
 	 * 		Name   -> Function ControlRig.RigHierarchyController.SetControlSettings
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -6557,7 +6557,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A1702C0
+	 * 		RVA    -> 0x6F40B02C0
 	 * 		Name   -> Function ControlRig.RigHierarchyController.SelectElement
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6586,7 +6586,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16FE60
+	 * 		RVA    -> 0x6F40AFE60
 	 * 		Name   -> Function ControlRig.RigHierarchyController.ReorderElement
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6617,7 +6617,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16FC80
+	 * 		RVA    -> 0x6F40AFC80
 	 * 		Name   -> Function ControlRig.RigHierarchyController.RenameElement
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6650,7 +6650,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16FAA0
+	 * 		RVA    -> 0x6F40AFAA0
 	 * 		Name   -> Function ControlRig.RigHierarchyController.RemoveParent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6683,7 +6683,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16F950
+	 * 		RVA    -> 0x6F40AF950
 	 * 		Name   -> Function ControlRig.RigHierarchyController.RemoveElement
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6712,7 +6712,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16F790
+	 * 		RVA    -> 0x6F40AF790
 	 * 		Name   -> Function ControlRig.RigHierarchyController.RemoveAllParents
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6743,7 +6743,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16F2F0
+	 * 		RVA    -> 0x6F40AF2F0
 	 * 		Name   -> Function ControlRig.RigHierarchyController.MirrorElements
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6776,7 +6776,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16F0C0
+	 * 		RVA    -> 0x6F40AF0C0
 	 * 		Name   -> Function ControlRig.RigHierarchyController.ImportFromText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6809,7 +6809,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16EBA0
+	 * 		RVA    -> 0x6F40AEBA0
 	 * 		Name   -> Function ControlRig.RigHierarchyController.ImportCurves
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6842,7 +6842,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16E8D0
+	 * 		RVA    -> 0x6F40AE8D0
 	 * 		Name   -> Function ControlRig.RigHierarchyController.ImportBones
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6879,7 +6879,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16E890
+	 * 		RVA    -> 0x6F40AE890
 	 * 		Name   -> Function ControlRig.RigHierarchyController.GetHierarchy
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6901,7 +6901,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16E540
+	 * 		RVA    -> 0x6F40AE540
 	 * 		Name   -> Function ControlRig.RigHierarchyController.GetControlSettings
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -6926,7 +6926,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16E3A0
+	 * 		RVA    -> 0x6F40AE3A0
 	 * 		Name   -> Function ControlRig.RigHierarchyController.ExportToText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -6951,7 +6951,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16E300
+	 * 		RVA    -> 0x6F40AE300
 	 * 		Name   -> Function ControlRig.RigHierarchyController.ExportSelectionToText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6973,7 +6973,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16DFF0
+	 * 		RVA    -> 0x6F40ADFF0
 	 * 		Name   -> Function ControlRig.RigHierarchyController.DuplicateElements
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7004,7 +7004,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16DE50
+	 * 		RVA    -> 0x6F40ADE50
 	 * 		Name   -> Function ControlRig.RigHierarchyController.DeselectElement
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7029,7 +7029,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16DDF0
+	 * 		RVA    -> 0x6F40ADDF0
 	 * 		Name   -> Function ControlRig.RigHierarchyController.ClearSelection
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -7051,7 +7051,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16DB10
+	 * 		RVA    -> 0x6F40ADB10
 	 * 		Name   -> Function ControlRig.RigHierarchyController.AddRigidBody
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -7086,7 +7086,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16D930
+	 * 		RVA    -> 0x6F40AD930
 	 * 		Name   -> Function ControlRig.RigHierarchyController.AddParent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7119,7 +7119,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16D660
+	 * 		RVA    -> 0x6F40AD660
 	 * 		Name   -> Function ControlRig.RigHierarchyController.AddNull
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -7154,7 +7154,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16D4C0
+	 * 		RVA    -> 0x6F40AD4C0
 	 * 		Name   -> Function ControlRig.RigHierarchyController.AddCurve
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7185,7 +7185,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16D110
+	 * 		RVA    -> 0x6F40AD110
 	 * 		Name   -> Function ControlRig.RigHierarchyController.AddControl_ForBlueprint
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7220,7 +7220,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16CE00
+	 * 		RVA    -> 0x6F40ACE00
 	 * 		Name   -> Function ControlRig.RigHierarchyController.AddBone
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -7257,7 +7257,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16CB30
+	 * 		RVA    -> 0x6F40ACB30
 	 * 		Name   -> Function ControlRig.RigHierarchyController.AddAnimationChannel_ForBlueprint
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7402,7 +7402,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A1701E0
+	 * 		RVA    -> 0x6F40B01E0
 	 * 		Name   -> Function ControlRig.ControlRigPoseAsset.SelectControls
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7427,7 +7427,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A170100
+	 * 		RVA    -> 0x6F40B0100
 	 * 		Name   -> Function ControlRig.ControlRigPoseAsset.SavePose
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7452,7 +7452,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A170010
+	 * 		RVA    -> 0x6F40B0010
 	 * 		Name   -> Function ControlRig.ControlRigPoseAsset.ReplaceControlName
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -7477,7 +7477,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16F570
+	 * 		RVA    -> 0x6F40AF570
 	 * 		Name   -> Function ControlRig.ControlRigPoseAsset.PastePose
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7504,7 +7504,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16E6D0
+	 * 		RVA    -> 0x6F40AE6D0
 	 * 		Name   -> Function ControlRig.ControlRigPoseAsset.GetCurrentPose
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -7531,7 +7531,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16E4C0
+	 * 		RVA    -> 0x6F40AE4C0
 	 * 		Name   -> Function ControlRig.ControlRigPoseAsset.GetControlNames
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7553,7 +7553,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16DF10
+	 * 		RVA    -> 0x6F40ADF10
 	 * 		Name   -> Function ControlRig.ControlRigPoseAsset.DoesMirrorMatch
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -7636,7 +7636,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16E280
+	 * 		RVA    -> 0x6F40AE280
 	 * 		Name   -> Function ControlRig.ControlRigWorkflowOptions.EnsureAtLeastOneRigElementSelected
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7672,7 +7672,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A16F6C0
+	 * 		RVA    -> 0x6F40AF6C0
 	 * 		Name   -> Function ControlRig.ControlRigTransformWorkflowOptions.ProvideWorkflows
 	 * 		Flags  -> (Final, Native, Public)
 	 * Parameters:

@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -40,9 +40,9 @@ namespace CG
 		float                                                      PermutationTimeOffset;                                   // 0x0350(0x0004) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		float                                                      PlayRate;                                                // 0x0354(0x0004) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bStateBool;                                              // 0x0358(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_X9G8[0x7];                                   // 0x0359(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_LRNF[0x7];                                   // 0x0359(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UAnimSharingInstance*                                Instance;                                                // 0x0360(0x0008) ZeroConstructor, Transient, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_2MH8[0x8];                                   // 0x0368(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_VMC0[0x8];                                   // 0x0368(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		void GetInstancedActors(TArray<class AActor*>* Actors);
@@ -60,7 +60,7 @@ namespace CG
 		TWeakObjectPtr<class USkeletalMeshComponent>               ToComponent;                                             // 0x0350(0x0008) Edit, BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, Transient, DisableEditOnInstance, InstancedReference, IsPlainOldData, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		float                                                      BlendTime;                                               // 0x0358(0x0004) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bBlendBool;                                              // 0x035C(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_EF8J[0x3];                                   // 0x035D(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_6B47[0x3];                                   // 0x035D(0x0003) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -77,7 +77,7 @@ namespace CG
 		TWeakObjectPtr<class UAnimSequence>                        AdditiveAnimation;                                       // 0x0350(0x0008) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		float                                                      Alpha;                                                   // 0x0358(0x0004) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		bool                                                       bStateBool;                                              // 0x035C(0x0001) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_IM7D[0x3];                                   // 0x035D(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_XB6F[0x3];                                   // 0x035D(0x0003) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -91,14 +91,14 @@ namespace CG
 	{
 	public:
 		TArray<class AActor*>                                      RegisteredActors;                                        // 0x0028(0x0010) Edit, ZeroConstructor, Transient, EditConst, UObjectWrapper, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_GGJW[0x50];                                  // 0x0038(0x0050) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_3OVG[0x50];                                  // 0x0038(0x0050) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UAnimationSharingStateProcessor*                     StateProcessor;                                          // 0x0088(0x0008) Edit, ZeroConstructor, Transient, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_B9C1[0x38];                                  // 0x0090(0x0038) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_AXO9[0x38];                                  // 0x0090(0x0038) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class UAnimSequence*>                               UsedAnimationSequences;                                  // 0x00C8(0x0010) Edit, ZeroConstructor, Transient, EditConst, UObjectWrapper, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_NUU3[0x10];                                  // 0x00D8(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_GIPQ[0x10];                                  // 0x00D8(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UEnum*                                               StateEnum;                                               // 0x00E8(0x0008) Edit, ZeroConstructor, Transient, EditConst, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class AActor*                                              SharingActor;                                            // 0x00F0(0x0008) Edit, ZeroConstructor, Transient, EditConst, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_MGHZ[0x28];                                  // 0x00F8(0x0028) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_0452[0x28];                                  // 0x00F8(0x0028) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -113,7 +113,7 @@ namespace CG
 	public:
 		TArray<class USkeleton*>                                   Skeletons;                                               // 0x0028(0x0010) ZeroConstructor, Transient, Protected, UObjectWrapper, NativeAccessSpecifierProtected
 		TArray<class UAnimSharingInstance*>                        PerSkeletonData;                                         // 0x0038(0x0010) Edit, ZeroConstructor, Transient, EditConst, Protected, UObjectWrapper, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_A0N1[0x40];                                  // 0x0048(0x0040) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_JYQV[0x40];                                  // 0x0048(0x0040) MISSED OFFSET (PADDING)
 
 	public:
 		void RegisterActorWithSkeletonBP(class AActor* InActor, class USkeleton* SharingSkeleton);

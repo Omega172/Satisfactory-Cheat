@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -22,7 +22,7 @@ namespace CG
 	{
 	public:
 		EClothMassMode                                             MassMode;                                                // 0x0028(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_JCUL[0x3];                                   // 0x0029(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_5SCC[0x3];                                   // 0x0029(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      UniformMass;                                             // 0x002C(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      TotalMass;                                               // 0x0030(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Density;                                                 // 0x0034(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -30,7 +30,7 @@ namespace CG
 		struct FChaosClothWeightedValue                            EdgeStiffnessWeighted;                                   // 0x003C(0x0008) Edit, NoDestructor, NativeAccessSpecifierPublic
 		struct FChaosClothWeightedValue                            BendingStiffnessWeighted;                                // 0x0044(0x0008) Edit, NoDestructor, NativeAccessSpecifierPublic
 		bool                                                       bUseBendingElements;                                     // 0x004C(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_H82F[0x3];                                   // 0x004D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_KOZK[0x3];                                   // 0x004D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      BucklingRatio;                                           // 0x0050(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FChaosClothWeightedValue                            BucklingStiffnessWeighted;                               // 0x0054(0x0008) Edit, NoDestructor, NativeAccessSpecifierPublic
 		struct FChaosClothWeightedValue                            AreaStiffnessWeighted;                                   // 0x005C(0x0008) Edit, NoDestructor, NativeAccessSpecifierPublic
@@ -38,28 +38,28 @@ namespace CG
 		struct FChaosClothWeightedValue                            TetherStiffness;                                         // 0x0068(0x0008) Edit, NoDestructor, NativeAccessSpecifierPublic
 		struct FChaosClothWeightedValue                            TetherScale;                                             // 0x0070(0x0008) Edit, NoDestructor, NativeAccessSpecifierPublic
 		bool                                                       bUseGeodesicDistance;                                    // 0x0078(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_MZ9Z[0x3];                                   // 0x0079(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_Z0L0[0x3];                                   // 0x0079(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      ShapeTargetStiffness;                                    // 0x007C(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      CollisionThickness;                                      // 0x0080(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      FrictionCoefficient;                                     // 0x0084(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bUseCCD;                                                 // 0x0088(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bUseSelfCollisions;                                      // 0x0089(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_9MIG[0x2];                                   // 0x008A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_WQ85[0x2];                                   // 0x008A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      SelfCollisionThickness;                                  // 0x008C(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      SelfCollisionFriction;                                   // 0x0090(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bUseSelfIntersections;                                   // 0x0094(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bUseLegacyBackstop;                                      // 0x0095(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_N3TF[0x2];                                   // 0x0096(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_CMW0[0x2];                                   // 0x0096(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      DampingCoefficient;                                      // 0x0098(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      LocalDampingCoefficient;                                 // 0x009C(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bUsePointBasedWindModel;                                 // 0x00A0(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_D08B[0x3];                                   // 0x00A1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_I2OY[0x3];                                   // 0x00A1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FChaosClothWeightedValue                            Drag;                                                    // 0x00A4(0x0008) Edit, NoDestructor, NativeAccessSpecifierPublic
 		struct FChaosClothWeightedValue                            Lift;                                                    // 0x00AC(0x0008) Edit, NoDestructor, NativeAccessSpecifierPublic
 		bool                                                       bUseGravityOverride;                                     // 0x00B4(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_7XHZ[0x3];                                   // 0x00B5(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_2YYY[0x3];                                   // 0x00B5(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      GravityScale;                                            // 0x00B8(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_2X32[0x4];                                   // 0x00BC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_PQFR[0x4];                                   // 0x00BC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             Gravity;                                                 // 0x00C0(0x0018) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FChaosClothWeightedValue                            Pressure;                                                // 0x00D8(0x0008) Edit, NoDestructor, NativeAccessSpecifierPublic
 		struct FChaosClothWeightedValue                            AnimDriveStiffness;                                      // 0x00E0(0x0008) Edit, NoDestructor, NativeAccessSpecifierPublic
@@ -70,7 +70,7 @@ namespace CG
 		bool                                                       bUseTetrahedralConstraints;                              // 0x0110(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bUseThinShellVolumeConstraints;                          // 0x0111(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bUseContinuousCollisionDetection;                        // 0x0112(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_T2JC[0x5];                                   // 0x0113(0x0005) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_E2YN[0x5];                                   // 0x0113(0x0005) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -88,7 +88,7 @@ namespace CG
 		int32_t                                                    SubdivisionCount;                                        // 0x0030(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bUseLocalSpaceSimulation;                                // 0x0034(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bUseXPBDConstraints;                                     // 0x0035(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_X2HZ[0x2];                                   // 0x0036(0x0002) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_AQ8V[0x2];                                   // 0x0036(0x0002) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -111,7 +111,7 @@ namespace CG
 	class UChaosClothingInteractor : public UClothingInteractor
 	{
 	public:
-		unsigned char                                              UnknownData_1MSI[0x10];                                  // 0x0030(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_KBFZ[0x10];                                  // 0x0030(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		void SetWind(const struct FVector2D& Drag, const struct FVector2D& Lift, float AirDensity, const struct FVector& WindVelocity);
@@ -139,7 +139,7 @@ namespace CG
 	class UChaosClothingSimulationInteractor : public UClothingSimulationInteractor
 	{
 	public:
-		unsigned char                                              UnknownData_HX43[0x10];                                  // 0x0090(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_HZZA[0x10];                                  // 0x0090(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();

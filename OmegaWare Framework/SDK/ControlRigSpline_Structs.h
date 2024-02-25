@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -34,7 +34,7 @@ namespace CG
 	struct FControlRigSplineImpl
 	{
 	public:
-		unsigned char                                              UnknownData_8YEU[0x58];                                  // 0x0000(0x0058) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_TS3B[0x58];                                  // 0x0000(0x0058) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -44,7 +44,7 @@ namespace CG
 	struct FControlRigSpline
 	{
 	public:
-		unsigned char                                              UnknownData_488T[0x18];                                  // 0x0000(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_LOUZ[0x18];                                  // 0x0000(0x0018) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -64,7 +64,7 @@ namespace CG
 		TArray<struct FVector>                                     Points;                                                  // 0x0008(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		ESplineType                                                SplineMode;                                              // 0x0018(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bClosed;                                                 // 0x0019(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_YTMC[0x2];                                   // 0x001A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_GEUE[0x2];                                   // 0x001A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    SamplesPerSegment;                                       // 0x001C(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Compression;                                             // 0x0020(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Stretch;                                                 // 0x0024(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -80,7 +80,7 @@ namespace CG
 	public:
 		TArray<struct FVector>                                     Points;                                                  // 0x0130(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		struct FControlRigSpline                                   Spline;                                                  // 0x0140(0x0018) Edit, BlueprintVisible, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_5CSA[0x8];                                   // 0x0158(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_E8IB[0x8];                                   // 0x0158(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -92,7 +92,7 @@ namespace CG
 	public:
 		struct FControlRigSpline                                   Spline;                                                  // 0x0008(0x0018) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		float                                                      U;                                                       // 0x0020(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_OKQW[0x4];                                   // 0x0024(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_Y8N2[0x4];                                   // 0x0024(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             Position;                                                // 0x0028(0x0018) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -119,7 +119,7 @@ namespace CG
 	public:
 		struct FControlRigSpline                                   Spline;                                                  // 0x0008(0x0018) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		float                                                      U;                                                       // 0x0020(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_EQQ9[0x4];                                   // 0x0024(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_X8SR[0x4];                                   // 0x0024(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             Tangent;                                                 // 0x0028(0x0018) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -145,7 +145,7 @@ namespace CG
 	public:
 		struct FControlRigSpline                                   Spline;                                                  // 0x0008(0x0018) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		float                                                      Length;                                                  // 0x0020(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_K7DQ[0x4];                                   // 0x0024(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_M1LD[0x4];                                   // 0x0024(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -158,7 +158,7 @@ namespace CG
 		struct FRigElementKeyCollection                            Items;                                                   // 0x0130(0x0010) Edit, BlueprintVisible, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FControlRigSpline                                   Spline;                                                  // 0x0140(0x0018) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		EControlRigCurveAlignment                                  Alignment;                                               // 0x0158(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_M9CS[0x3];                                   // 0x0159(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_LPYO[0x3];                                   // 0x0159(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Minimum;                                                 // 0x015C(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Maximum;                                                 // 0x0160(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    SamplingPrecision;                                       // 0x0164(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -167,13 +167,13 @@ namespace CG
 		struct FVector                                             PoleVectorPosition;                                      // 0x0198(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<struct FRigUnit_FitChainToCurve_Rotation>           Rotations;                                               // 0x01B0(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		ERigVMAnimEasingType                                       RotationEaseType;                                        // 0x01C0(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_EB98[0x3];                                   // 0x01C1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_W5OH[0x3];                                   // 0x01C1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Weight;                                                  // 0x01C4(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x01C8(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_OQ48[0x7];                                   // 0x01C9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_C38L[0x7];                                   // 0x01C9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_FitChainToCurve_DebugSettings              DebugSettings;                                           // 0x01D0(0x0090) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FRigUnit_FitChainToCurve_WorkData                   WorkData;                                                // 0x0260(0x0098) Transient, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_X97X[0x8];                                   // 0x02F8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_WFZ5[0x8];                                   // 0x02F8(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -186,7 +186,7 @@ namespace CG
 		TArray<struct FRigElementKey>                              Items;                                                   // 0x0130(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		struct FControlRigSpline                                   Spline;                                                  // 0x0140(0x0018) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		EControlRigCurveAlignment                                  Alignment;                                               // 0x0158(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_BSPK[0x3];                                   // 0x0159(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_WSGN[0x3];                                   // 0x0159(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Minimum;                                                 // 0x015C(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Maximum;                                                 // 0x0160(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    SamplingPrecision;                                       // 0x0164(0x0004) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -195,13 +195,13 @@ namespace CG
 		struct FVector                                             PoleVectorPosition;                                      // 0x0198(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<struct FRigUnit_FitChainToCurve_Rotation>           Rotations;                                               // 0x01B0(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		ERigVMAnimEasingType                                       RotationEaseType;                                        // 0x01C0(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_UFCI[0x3];                                   // 0x01C1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_I5TT[0x3];                                   // 0x01C1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      Weight;                                                  // 0x01C4(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPropagateToChildren;                                    // 0x01C8(0x0001) Edit, BlueprintVisible, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_MZAD[0x7];                                   // 0x01C9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_RU5U[0x7];                                   // 0x01C9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_FitChainToCurve_DebugSettings              DebugSettings;                                           // 0x01D0(0x0090) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		struct FRigUnit_FitChainToCurve_WorkData                   WorkData;                                                // 0x0260(0x0098) Transient, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_L4SS[0x8];                                   // 0x02F8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_KTXJ[0x8];                                   // 0x02F8(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -213,7 +213,7 @@ namespace CG
 	public:
 		struct FRigElementKeyCollection                            Items;                                                   // 0x0130(0x0010) Edit, BlueprintVisible, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FControlRigSpline                                   Spline;                                                  // 0x0140(0x0018) Edit, BlueprintVisible, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_840M[0x8];                                   // 0x0158(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_K6UY[0x8];                                   // 0x0158(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -225,7 +225,7 @@ namespace CG
 	public:
 		TArray<struct FRigElementKey>                              Items;                                                   // 0x0130(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		struct FControlRigSpline                                   Spline;                                                  // 0x0140(0x0018) Edit, BlueprintVisible, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_FO0Q[0x8];                                   // 0x0158(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_FFSP[0x8];                                   // 0x0158(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -238,7 +238,7 @@ namespace CG
 		struct FControlRigSpline                                   Spline;                                                  // 0x0008(0x0018) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		struct FVector                                             Position;                                                // 0x0020(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      U;                                                       // 0x0038(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_XS5U[0x4];                                   // 0x003C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_QJXT[0x4];                                   // 0x003C(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**

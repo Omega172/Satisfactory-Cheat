@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -38,9 +38,9 @@ namespace CG
 		EMediaTextureOutputFormat                                  OutputFormat;                                            // 0x01DF(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      CurrentAspectRatio;                                      // 0x01E0(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, IsPlainOldData, NoDestructor, TextExportTransient, HasGetValueTypeHash, NativeAccessSpecifierPublic, CPF_SkipSerialization
 		EMediaTextureOrientation                                   CurrentOrientation;                                      // 0x01E4(0x0001) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, IsPlainOldData, NoDestructor, TextExportTransient, HasGetValueTypeHash, NativeAccessSpecifierPublic, CPF_SkipSerialization
-		unsigned char                                              UnknownData_DII8[0x3];                                   // 0x01E5(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_L94Y[0x3];                                   // 0x01E5(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UMediaPlayer*                                        MediaPlayer;                                             // 0x01E8(0x0008) Edit, ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_0QYR[0xC0];                                  // 0x01F0(0x00C0) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_NX8Y[0xC0];                                  // 0x01F0(0x00C0) MISSED OFFSET (PADDING)
 
 	public:
 		void UpdateResource();
@@ -60,7 +60,7 @@ namespace CG
 	class UMediaSource : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_TIY6[0x58];                                  // 0x0028(0x0058) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_Y87Z[0x58];                                  // 0x0028(0x0058) MISSED OFFSET (PADDING)
 
 	public:
 		bool Validate();
@@ -94,7 +94,7 @@ namespace CG
 	public:
 		class FString                                              FilePath;                                                // 0x0088(0x0010) Edit, BlueprintVisible, ZeroConstructor, AssetRegistrySearchable, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       PrecacheFile;                                            // 0x0098(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_5IY9[0x17];                                  // 0x0099(0x0017) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_EHD5[0x17];                                  // 0x0099(0x0017) MISSED OFFSET (PADDING)
 
 	public:
 		void SetFilePath(const class FString& Path);
@@ -152,20 +152,20 @@ namespace CG
 		struct FTimespan                                           CacheBehindGame;                                         // 0x00C8(0x0008) BlueprintVisible, ZeroConstructor, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       NativeAudioOut;                                          // 0x00D0(0x0001) BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       PlayOnOpen;                                              // 0x00D1(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_MHIW[0x2];                                   // 0x00D2(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_VRTC[0x2];                                   // 0x00D2(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		bool                                                       Shuffle : 1;                                             // 0x00D4(0x0001) BIT_FIELD Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       Loop : 1;                                                // 0x00D4(0x0001) BIT_FIELD Edit, BlueprintVisible, BlueprintReadOnly, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_FZVU[0x3];                                   // 0x00D5(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_UGB0[0x3];                                   // 0x00D5(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UMediaPlaylist*                                      Playlist;                                                // 0x00D8(0x0008) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		int32_t                                                    PlaylistIndex;                                           // 0x00E0(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_LVET[0x4];                                   // 0x00E4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_M4OQ[0x4];                                   // 0x00E4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTimespan                                           TimeDelay;                                               // 0x00E8(0x0008) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		float                                                      HorizontalFieldOfView;                                   // 0x00F0(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		float                                                      VerticalFieldOfView;                                     // 0x00F4(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		struct FRotator                                            ViewRotation;                                            // 0x00F8(0x0018) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_INXC[0x28];                                  // 0x0110(0x0028) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_KK3Z[0x28];                                  // 0x0110(0x0028) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FGuid                                               PlayerGuid;                                              // 0x0138(0x0010) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_557Q[0x8];                                   // 0x0148(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_1LSV[0x8];                                   // 0x0148(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		bool SupportsSeeking();
@@ -286,14 +286,14 @@ namespace CG
 	{
 	public:
 		EMediaSoundChannels                                        Channels;                                                // 0x0790(0x0001) ELEMENT_SIZE_MISMATCH Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_NE32[0x3];                                   // 0x0791(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+		unsigned char                                              UnknownData_0TVB[0x3];                                   // 0x0791(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 		bool                                                       DynamicRateAdjustment;                                   // 0x0794(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_DDVD[0x3];                                   // 0x0795(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_XIRW[0x3];                                   // 0x0795(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      RateAdjustmentFactor;                                    // 0x0798(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FFloatRange                                         RateAdjustmentRange;                                     // 0x079C(0x0010) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_5A6A[0x4];                                   // 0x07AC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_KHT3[0x4];                                   // 0x07AC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UMediaPlayer*                                        MediaPlayer;                                             // 0x07B0(0x0008) Edit, ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_MTJG[0xB8];                                  // 0x07B8(0x00B8) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_HZIG[0xB8];                                  // 0x07B8(0x00B8) MISSED OFFSET (PADDING)
 
 	public:
 		void SetSpectralAnalysisSettings(TArray<float> InFrequenciesToAnalyze, EMediaSoundComponentFFTSize InFFTSize);
@@ -343,11 +343,11 @@ namespace CG
 	{
 	public:
 		bool                                                       bUseTimeSynchronization;                                 // 0x0088(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_JQ4Y[0x3];                                   // 0x0089(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ZXSL[0x3];                                   // 0x0089(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    FrameDelay;                                              // 0x008C(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		double                                                     TimeDelay;                                               // 0x0090(0x0008) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bAutoDetectInput;                                        // 0x0098(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_3X5C[0x7];                                   // 0x0099(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_ZWVD[0x7];                                   // 0x0099(0x0007) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();

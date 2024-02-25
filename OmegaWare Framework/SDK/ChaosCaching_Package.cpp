@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -26,7 +26,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x49E73EC50
+	 * 		RVA    -> 0x7138EEC50
 	 * 		Name   -> Function ChaosCaching.ChaosCacheManager.TriggerComponentByCache
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -49,7 +49,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x49E73EBC0
+	 * 		RVA    -> 0x7138EEBC0
 	 * 		Name   -> Function ChaosCaching.ChaosCacheManager.TriggerComponent
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -72,7 +72,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x49E73EBA0
+	 * 		RVA    -> 0x7138EEBA0
 	 * 		Name   -> Function ChaosCaching.ChaosCacheManager.TriggerAll
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 */
@@ -92,7 +92,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x49E73EB10
+	 * 		RVA    -> 0x7138EEB10
 	 * 		Name   -> Function ChaosCaching.ChaosCacheManager.SetStartTime
 	 * 		Flags  -> (Final, Native, Public)
 	 * Parameters:
@@ -115,7 +115,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x49E73EA80
+	 * 		RVA    -> 0x7138EEA80
 	 * 		Name   -> Function ChaosCaching.ChaosCacheManager.ResetSingleTransform
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -138,7 +138,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x49E73EA60
+	 * 		RVA    -> 0x7138EEA60
 	 * 		Name   -> Function ChaosCaching.ChaosCacheManager.ResetAllComponentTransforms
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */

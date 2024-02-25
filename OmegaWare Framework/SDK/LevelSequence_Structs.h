@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -21,7 +21,7 @@ namespace CG
 	struct FLevelSequenceObjectReferenceMap
 	{
 	public:
-		unsigned char                                              UnknownData_N0AS[0x50];                                  // 0x0000(0x0050) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_4OK3[0x50];                                  // 0x0000(0x0050) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -66,7 +66,7 @@ namespace CG
 	{
 	public:
 		TLazyObjectPtr<class UObject>                              ObjectOrOwner;                                           // 0x0000(0x001C) IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_Y4KM[0x4];                                   // 0x001C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ICM2[0x4];                                   // 0x001C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FString                                              ComponentName;                                           // 0x0020(0x0010) ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		TWeakObjectPtr<class UObject>                              CachedComponent;                                         // 0x0030(0x0008) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 	};
@@ -118,7 +118,7 @@ namespace CG
 		unsigned char                                              CameraComponent[0x30];                                   // 0x0070(0x0030) UNKNOWN PROPERTY: SoftObjectProperty
 		class ULevelSequence*                                      ActiveShot;                                              // 0x00A0(0x0008) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, EditConst, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FMovieSceneSequenceID                               ShotID;                                                  // 0x00A8(0x0004) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_P4CN[0x4];                                   // 0x00AC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_CGJ1[0x4];                                   // 0x00AC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FString                                              MasterName;                                              // 0x00B0(0x0010) ZeroConstructor, Deprecated, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		struct FQualifiedFrameTime                                 MasterTime;                                              // 0x00C0(0x0010) Deprecated, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 	};
@@ -130,7 +130,7 @@ namespace CG
 	struct FLevelSequenceLegacyObjectReference
 	{
 	public:
-		unsigned char                                              UnknownData_88RE[0x20];                                  // 0x0000(0x0020) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_YJJ8[0x20];                                  // 0x0000(0x0020) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -140,7 +140,7 @@ namespace CG
 	struct FBoundActorProxy
 	{
 	public:
-		unsigned char                                              UnknownData_FS5S[0x1];                                   // 0x0000(0x0001) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_4K79[0x1];                                   // 0x0000(0x0001) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -150,7 +150,7 @@ namespace CG
 	struct FLevelSequenceSnapshotSettings
 	{
 	public:
-		unsigned char                                              UnknownData_9530[0x1];                                   // 0x0000(0x0001) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_7UWD[0x1];                                   // 0x0000(0x0001) MISSED OFFSET (PADDING)
 	};
 
 }

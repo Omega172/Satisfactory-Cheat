@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -21,7 +21,7 @@ namespace CG
 	class UMeshDescriptionBase : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_0PWH[0x2C8];                                 // 0x0028(0x02C8) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_OGNS[0x2C8];                                 // 0x0028(0x02C8) MISSED OFFSET (PADDING)
 
 	public:
 		void SetVertexPosition(const struct FVertexID& VertexID, const struct FVector& Position);

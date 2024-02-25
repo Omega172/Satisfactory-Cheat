@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -24,7 +24,7 @@ namespace CG
 		class FString                                              CurrentChatRoomId;                                       // 0x0028(0x0010) ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		int32_t                                                    MaxChatRoomRetries;                                      // 0x0038(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		int32_t                                                    NumChatRoomRetries;                                      // 0x003C(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_6UIY[0x18];                                  // 0x0040(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_M4S5[0x18];                                  // 0x0040(0x0018) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -37,10 +37,10 @@ namespace CG
 	class USocialManager : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_BOMA[0x28];                                  // 0x0028(0x0028) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_7JII[0x28];                                  // 0x0028(0x0028) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class USocialToolkit*>                              SocialToolkits;                                          // 0x0050(0x0010) ZeroConstructor, UObjectWrapper, NativeAccessSpecifierPrivate
 		class USocialDebugTools*                                   SocialDebugTools;                                        // 0x0060(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_91EC[0x140];                                 // 0x0068(0x0140) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_G4D5[0x140];                                 // 0x0068(0x0140) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -53,13 +53,13 @@ namespace CG
 	class USocialToolkit : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_U8YJ[0x40];                                  // 0x0028(0x0040) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_GJAK[0x40];                                  // 0x0028(0x0040) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class USocialUser*                                         LocalUser;                                               // 0x0068(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		TArray<class USocialUser*>                                 AllUsers;                                                // 0x0070(0x0010) ZeroConstructor, UObjectWrapper, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_WN1U[0x50];                                  // 0x0080(0x0050) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_HSVY[0x50];                                  // 0x0080(0x0050) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TWeakObjectPtr<class ULocalPlayer>                         LocalPlayerOwner;                                        // 0x00D0(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		class USocialChatManager*                                  SocialChatManager;                                       // 0x00D8(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_JJX5[0x1C8];                                 // 0x00E0(0x01C8) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_GWYV[0x1C8];                                 // 0x00E0(0x01C8) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -72,14 +72,14 @@ namespace CG
 	class USocialChatManager : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_I3FQ[0x50];                                  // 0x0028(0x0050) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_O6XN[0x50];                                  // 0x0028(0x0050) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TMap<TWeakObjectPtr<class USocialUser>, class USocialPrivateMessageChannel*> DirectChannelsByTargetUser;                              // 0x0078(0x0050) UObjectWrapper, NativeAccessSpecifierPrivate
 		TMap<class FString, class USocialChatRoom*>                ChatRoomsById;                                           // 0x00C8(0x0050) UObjectWrapper, NativeAccessSpecifierPrivate
 		TMap<class FString, class USocialReadOnlyChatChannel*>     ReadOnlyChannelsByDisplayName;                           // 0x0118(0x0050) UObjectWrapper, NativeAccessSpecifierPrivate
 		bool                                                       bEnableChatSlashCommands;                                // 0x0168(0x0001) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_W7ED[0x7];                                   // 0x0169(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_P8YT[0x7];                                   // 0x0169(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TMap<struct FUniqueNetIdRepl, class USocialGroupChannel*>  GroupChannels;                                           // 0x0170(0x0050) UObjectWrapper, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_F63R[0x60];                                  // 0x01C0(0x0060) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_YJWI[0x60];                                  // 0x01C0(0x0060) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -92,7 +92,7 @@ namespace CG
 	class USocialChatChannel : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_911U[0xC0];                                  // 0x0028(0x00C0) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_GW1L[0xC0];                                  // 0x0028(0x00C0) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -105,7 +105,7 @@ namespace CG
 	class USocialChatRoom : public USocialChatChannel
 	{
 	public:
-		unsigned char                                              UnknownData_ZJLW[0x10];                                  // 0x00E8(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_LUBN[0x10];                                  // 0x00E8(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -122,7 +122,7 @@ namespace CG
 		struct FUniqueNetIdRepl                                    GroupId;                                                 // 0x0030(0x0030) HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		class FText                                                DisplayName;                                             // 0x0060(0x0018) NativeAccessSpecifierPrivate
 		TArray<class USocialUser*>                                 Members;                                                 // 0x0078(0x0010) ZeroConstructor, UObjectWrapper, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_KNT6[0x10];                                  // 0x0088(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_32FB[0x10];                                  // 0x0088(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -168,26 +168,26 @@ namespace CG
 	class USocialParty : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_RMZ1[0x38];                                  // 0x0028(0x0038) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_44IM[0x38];                                  // 0x0028(0x0038) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UClass*                                              ReservationBeaconClientClass;                            // 0x0060(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		class UClass*                                              SpectatorBeaconClientClass;                              // 0x0068(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_6VY4[0x10];                                  // 0x0070(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_H1I1[0x10];                                  // 0x0070(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FUniqueNetIdRepl                                    OwningLocalUserId;                                       // 0x0080(0x0030) HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		struct FUniqueNetIdRepl                                    CurrentLeaderId;                                         // 0x00B0(0x0030) HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		TMap<struct FUniqueNetIdRepl, class UPartyMember*>         PartyMembersById;                                        // 0x00E0(0x0050) UObjectWrapper, NativeAccessSpecifierPrivate
 		bool                                                       bEnableAutomaticPartyRejoin;                             // 0x0130(0x0001) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_IVT6[0x57];                                  // 0x0131(0x0057) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_V93R[0x57];                                  // 0x0131(0x0057) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		double                                                     PlatformUserInviteCooldown;                              // 0x0188(0x0008) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		double                                                     PrimaryUserInviteCooldown;                               // 0x0190(0x0008) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_EP3M[0x74];                                  // 0x0198(0x0074) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_J07H[0x74];                                  // 0x0198(0x0074) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TWeakObjectPtr<class APartyBeaconClient>                   ReservationBeaconClient;                                 // 0x020C(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_0N4P[0x8];                                   // 0x0214(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_DP3V[0x8];                                   // 0x0214(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TWeakObjectPtr<class ASpectatorBeaconClient>               SpectatorBeaconClient;                                   // 0x021C(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_XBM8[0x2C];                                  // 0x0224(0x002C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_Q0M8[0x2C];                                  // 0x0224(0x002C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      JoinInProgressTimerRate;                                 // 0x0250(0x0004) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		int32_t                                                    JoinInProgressRequestTimeout;                            // 0x0254(0x0004) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		int32_t                                                    JoinInProgressResponseTimeout;                           // 0x0258(0x0004) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_ZR72[0x124];                                 // 0x025C(0x0124) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_68J6[0x124];                                 // 0x025C(0x0124) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -200,9 +200,9 @@ namespace CG
 	class UPartyMember : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_JIVQ[0x48];                                  // 0x0028(0x0048) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_BK2K[0x48];                                  // 0x0028(0x0048) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class USocialUser*                                         SocialUser;                                              // 0x0070(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_8E7W[0x98];                                  // 0x0078(0x0098) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_83GU[0x98];                                  // 0x0078(0x0098) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -215,7 +215,7 @@ namespace CG
 	class USocialDebugTools : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_Q5CW[0x60];                                  // 0x0028(0x0060) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_1IC4[0x60];                                  // 0x0028(0x0060) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -237,7 +237,7 @@ namespace CG
 		float                                                      UserListAutoUpdateRate;                                  // 0x0040(0x0004) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		int32_t                                                    MinNicknameLength;                                       // 0x0044(0x0004) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		int32_t                                                    MaxNicknameLength;                                       // 0x0048(0x0004) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_WXX3[0x4];                                   // 0x004C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_JLP6[0x4];                                   // 0x004C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FSocialPlatformDescription>                  SocialPlatformDescriptions;                              // 0x0050(0x0010) ZeroConstructor, Config, NativeAccessSpecifierPrivate
 		TArray<class FName>                                        SonyOSSNames;                                            // 0x0060(0x0010) ZeroConstructor, Config, NativeAccessSpecifierPrivate
 
@@ -252,7 +252,7 @@ namespace CG
 	class USocialUser : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_D6TH[0x1A8];                                 // 0x0028(0x01A8) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_IGUB[0x1A8];                                 // 0x0028(0x01A8) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();

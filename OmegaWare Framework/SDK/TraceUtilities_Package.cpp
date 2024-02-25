@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F7E2060
+	 * 		RVA    -> 0x6E62E2060
 	 * 		Name   -> Function TraceUtilities.TraceUtilLibrary.TraceMarkRegionStart
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -35,7 +35,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F7E2060
+	 * 		RVA    -> 0x6E62E2060
 	 * 		Name   -> Function TraceUtilities.TraceUtilLibrary.TraceMarkRegionEnd
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -58,7 +58,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F7E2060
+	 * 		RVA    -> 0x6E62E2060
 	 * 		Name   -> Function TraceUtilities.TraceUtilLibrary.TraceBookmark
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -81,7 +81,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F7E1F80
+	 * 		RVA    -> 0x6E62E1F80
 	 * 		Name   -> Function TraceUtilities.TraceUtilLibrary.ToggleChannel
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -108,7 +108,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F7E1F50
+	 * 		RVA    -> 0x6E62E1F50
 	 * 		Name   -> Function TraceUtilities.TraceUtilLibrary.StopTracing
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 */
@@ -130,7 +130,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F7E1E20
+	 * 		RVA    -> 0x6E62E1E20
 	 * 		Name   -> Function TraceUtilities.TraceUtilLibrary.StartTraceToFile
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -157,7 +157,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F7E1E20
+	 * 		RVA    -> 0x6E62E1E20
 	 * 		Name   -> Function TraceUtilities.TraceUtilLibrary.StartTraceSendTo
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -184,7 +184,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F7E1DF0
+	 * 		RVA    -> 0x6E62E1DF0
 	 * 		Name   -> Function TraceUtilities.TraceUtilLibrary.ResumeTracing
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 */
@@ -206,7 +206,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F7E1DC0
+	 * 		RVA    -> 0x6E62E1DC0
 	 * 		Name   -> Function TraceUtilities.TraceUtilLibrary.PauseTracing
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 */
@@ -228,7 +228,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F7E1D90
+	 * 		RVA    -> 0x6E62E1D90
 	 * 		Name   -> Function TraceUtilities.TraceUtilLibrary.IsTracing
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 */
@@ -250,7 +250,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F7E1D00
+	 * 		RVA    -> 0x6E62E1D00
 	 * 		Name   -> Function TraceUtilities.TraceUtilLibrary.IsChannelEnabled
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -275,7 +275,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F7E1C80
+	 * 		RVA    -> 0x6E62E1C80
 	 * 		Name   -> Function TraceUtilities.TraceUtilLibrary.GetEnabledChannels
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 */
@@ -297,7 +297,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x46F7E1C00
+	 * 		RVA    -> 0x6E62E1C00
 	 * 		Name   -> Function TraceUtilities.TraceUtilLibrary.GetAllChannels
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 */

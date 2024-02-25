@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC7AB40
+	 * 		RVA    -> 0x6F4C8AB40
 	 * 		Name   -> Function WwiseResourceLoader.WwiseEventInfoLibrary.SetWwiseShortId
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -39,7 +39,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC7A6F0
+	 * 		RVA    -> 0x6F4C8A6F0
 	 * 		Name   -> Function WwiseResourceLoader.WwiseEventInfoLibrary.SetWwiseName
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -66,7 +66,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC7A470
+	 * 		RVA    -> 0x6F4C8A470
 	 * 		Name   -> Function WwiseResourceLoader.WwiseEventInfoLibrary.SetWwiseGuid
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -93,7 +93,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC7A340
+	 * 		RVA    -> 0x6F4C8A340
 	 * 		Name   -> Function WwiseResourceLoader.WwiseEventInfoLibrary.SetSwitchContainerLoading
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -120,7 +120,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC7A110
+	 * 		RVA    -> 0x6F4C8A110
 	 * 		Name   -> Function WwiseResourceLoader.WwiseEventInfoLibrary.SetHardCodedSoundBankShortId
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -147,7 +147,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC79EC0
+	 * 		RVA    -> 0x6F4C89EC0
 	 * 		Name   -> Function WwiseResourceLoader.WwiseEventInfoLibrary.SetDestroyOptions
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -174,7 +174,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC79790
+	 * 		RVA    -> 0x6F4C89790
 	 * 		Name   -> Function WwiseResourceLoader.WwiseEventInfoLibrary.MakeStruct
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -209,7 +209,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC795B0
+	 * 		RVA    -> 0x6F4C895B0
 	 * 		Name   -> Function WwiseResourceLoader.WwiseEventInfoLibrary.GetWwiseShortId
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -234,7 +234,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC79350
+	 * 		RVA    -> 0x6F4C89350
 	 * 		Name   -> Function WwiseResourceLoader.WwiseEventInfoLibrary.GetWwiseName
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -259,7 +259,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC79200
+	 * 		RVA    -> 0x6F4C89200
 	 * 		Name   -> Function WwiseResourceLoader.WwiseEventInfoLibrary.GetWwiseGuid
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -284,7 +284,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC79150
+	 * 		RVA    -> 0x6F4C89150
 	 * 		Name   -> Function WwiseResourceLoader.WwiseEventInfoLibrary.GetSwitchContainerLoading
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -309,7 +309,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC79010
+	 * 		RVA    -> 0x6F4C89010
 	 * 		Name   -> Function WwiseResourceLoader.WwiseEventInfoLibrary.GetHardCodedSoundBankShortId
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -334,7 +334,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC78EC0
+	 * 		RVA    -> 0x6F4C88EC0
 	 * 		Name   -> Function WwiseResourceLoader.WwiseEventInfoLibrary.GetDestroyOptions
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -359,7 +359,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC78670
+	 * 		RVA    -> 0x6F4C88670
 	 * 		Name   -> Function WwiseResourceLoader.WwiseEventInfoLibrary.BreakStruct
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -415,7 +415,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC7AC60
+	 * 		RVA    -> 0x6F4C8AC60
 	 * 		Name   -> Function WwiseResourceLoader.WwiseGroupValueInfoLibrary.SetWwiseShortId
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -442,7 +442,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC7A870
+	 * 		RVA    -> 0x6F4C8A870
 	 * 		Name   -> Function WwiseResourceLoader.WwiseGroupValueInfoLibrary.SetWwiseName
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -469,7 +469,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC79FF0
+	 * 		RVA    -> 0x6F4C89FF0
 	 * 		Name   -> Function WwiseResourceLoader.WwiseGroupValueInfoLibrary.SetGroupShortId
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -496,7 +496,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC79D80
+	 * 		RVA    -> 0x6F4C89D80
 	 * 		Name   -> Function WwiseResourceLoader.WwiseGroupValueInfoLibrary.SetAssetGuid
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -523,7 +523,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC799F0
+	 * 		RVA    -> 0x6F4C899F0
 	 * 		Name   -> Function WwiseResourceLoader.WwiseGroupValueInfoLibrary.MakeStruct
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -554,7 +554,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC79650
+	 * 		RVA    -> 0x6F4C89650
 	 * 		Name   -> Function WwiseResourceLoader.WwiseGroupValueInfoLibrary.GetWwiseShortId
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -579,7 +579,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC79420
+	 * 		RVA    -> 0x6F4C89420
 	 * 		Name   -> Function WwiseResourceLoader.WwiseGroupValueInfoLibrary.GetWwiseName
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -604,7 +604,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC78F70
+	 * 		RVA    -> 0x6F4C88F70
 	 * 		Name   -> Function WwiseResourceLoader.WwiseGroupValueInfoLibrary.GetGroupShortId
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -629,7 +629,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC78E20
+	 * 		RVA    -> 0x6F4C88E20
 	 * 		Name   -> Function WwiseResourceLoader.WwiseGroupValueInfoLibrary.GetAssetGuid
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -654,7 +654,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC78980
+	 * 		RVA    -> 0x6F4C88980
 	 * 		Name   -> Function WwiseResourceLoader.WwiseGroupValueInfoLibrary.BreakStruct
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -704,7 +704,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC7AD80
+	 * 		RVA    -> 0x6F4C8AD80
 	 * 		Name   -> Function WwiseResourceLoader.WwiseObjectInfoLibrary.SetWwiseShortId
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -731,7 +731,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC7A9E0
+	 * 		RVA    -> 0x6F4C8A9E0
 	 * 		Name   -> Function WwiseResourceLoader.WwiseObjectInfoLibrary.SetWwiseName
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -758,7 +758,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC7A5C0
+	 * 		RVA    -> 0x6F4C8A5C0
 	 * 		Name   -> Function WwiseResourceLoader.WwiseObjectInfoLibrary.SetWwiseGuid
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -785,7 +785,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC7A230
+	 * 		RVA    -> 0x6F4C8A230
 	 * 		Name   -> Function WwiseResourceLoader.WwiseObjectInfoLibrary.SetHardCodedSoundBankShortId
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -812,7 +812,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC79BB0
+	 * 		RVA    -> 0x6F4C89BB0
 	 * 		Name   -> Function WwiseResourceLoader.WwiseObjectInfoLibrary.MakeStruct
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -843,7 +843,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC796F0
+	 * 		RVA    -> 0x6F4C896F0
 	 * 		Name   -> Function WwiseResourceLoader.WwiseObjectInfoLibrary.GetWwiseShortId
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -868,7 +868,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC794F0
+	 * 		RVA    -> 0x6F4C894F0
 	 * 		Name   -> Function WwiseResourceLoader.WwiseObjectInfoLibrary.GetWwiseName
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -893,7 +893,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC792B0
+	 * 		RVA    -> 0x6F4C892B0
 	 * 		Name   -> Function WwiseResourceLoader.WwiseObjectInfoLibrary.GetWwiseGuid
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -918,7 +918,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC790B0
+	 * 		RVA    -> 0x6F4C890B0
 	 * 		Name   -> Function WwiseResourceLoader.WwiseObjectInfoLibrary.GetHardCodedSoundBankShortId
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -943,7 +943,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47CC78BD0
+	 * 		RVA    -> 0x6F4C88BD0
 	 * 		Name   -> Function WwiseResourceLoader.WwiseObjectInfoLibrary.BreakStruct
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:

@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -26,7 +26,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5C6E0
+	 * 		RVA    -> 0x6F6D4C6E0
 	 * 		Name   -> Function OnlineIntegration.CommonSessionSubsystem.RespondToGameInvite
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -53,7 +53,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5BF70
+	 * 		RVA    -> 0x6F6D4BF70
 	 * 		Name   -> Function OnlineIntegration.CommonSessionSubsystem.JoinFriendGame
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -78,7 +78,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5BED0
+	 * 		RVA    -> 0x6F6D4BED0
 	 * 		Name   -> Function OnlineIntegration.CommonSessionSubsystem.IsValidSession
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -103,7 +103,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5BD00
+	 * 		RVA    -> 0x6F6D4BD00
 	 * 		Name   -> Function OnlineIntegration.CommonSessionSubsystem.InviteFriendToGameSession
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -126,7 +126,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5B6F0
+	 * 		RVA    -> 0x6F6D4B6F0
 	 * 		Name   -> Function OnlineIntegration.CommonSessionSubsystem.GetStringAttributeFromSession
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -153,7 +153,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5B250
+	 * 		RVA    -> 0x6F6D4B250
 	 * 		Name   -> Function OnlineIntegration.CommonSessionSubsystem.GetIntAttributeFromSession
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -180,7 +180,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5B160
+	 * 		RVA    -> 0x6F6D4B160
 	 * 		Name   -> Function OnlineIntegration.CommonSessionSubsystem.GetDoubleAttributeFromSession
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -207,7 +207,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5B020
+	 * 		RVA    -> 0x6F6D4B020
 	 * 		Name   -> Function OnlineIntegration.CommonSessionSubsystem.GetBoolAttributeFromSession
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -234,7 +234,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5AEB0
+	 * 		RVA    -> 0x6F6D4AEB0
 	 * 		Name   -> Function OnlineIntegration.CommonSessionSubsystem.FetchSessionById
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -261,7 +261,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5AD00
+	 * 		RVA    -> 0x6F6D4AD00
 	 * 		Name   -> Function OnlineIntegration.CommonSessionSubsystem.CreateSessionJoiningSequence
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -288,7 +288,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5AB60
+	 * 		RVA    -> 0x6F6D4AB60
 	 * 		Name   -> Function OnlineIntegration.CommonSessionSubsystem.CreateSessionCreationSequence
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -313,7 +313,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5AA20
+	 * 		RVA    -> 0x6F6D4AA20
 	 * 		Name   -> Function OnlineIntegration.CommonSessionSubsystem.CleanUpSessions
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -347,7 +347,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5C040
+	 * 		RVA    -> 0x6F6D4C040
 	 * 		Name   -> Function OnlineIntegration.CommonSessionStatics.JoinSession
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -374,7 +374,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5ADD0
+	 * 		RVA    -> 0x6F6D4ADD0
 	 * 		Name   -> Function OnlineIntegration.CommonSessionStatics.FetchFriendSession
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -413,7 +413,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5C650
+	 * 		RVA    -> 0x6F6D4C650
 	 * 		Name   -> Function OnlineIntegration.CommonUserStatusWidget.OnCommonUserInitializeComplete
 	 * 		Flags  -> (Final, Native, Protected)
 	 * Parameters:
@@ -450,7 +450,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5CE00
+	 * 		RVA    -> 0x6F6D4CE00
 	 * 		Name   -> Function OnlineIntegration.CommonUserSubsystem.WhenLocalUserInfoIsCreated
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -475,7 +475,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5CC60
+	 * 		RVA    -> 0x6F6D4CC60
 	 * 		Name   -> Function OnlineIntegration.CommonUserSubsystem.TryToLogOutUser
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -502,7 +502,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5CD40
+	 * 		RVA    -> 0x6F6D4CD40
 	 * 		Name   -> Function OnlineIntegration.CommonUserSubsystem.TryToLoginForOnlinePlay
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -527,7 +527,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5CA80
+	 * 		RVA    -> 0x6F6D4CA80
 	 * 		Name   -> Function OnlineIntegration.CommonUserSubsystem.TryToInitializeUser
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -552,7 +552,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5C960
+	 * 		RVA    -> 0x6F6D4C960
 	 * 		Name   -> Function OnlineIntegration.CommonUserSubsystem.TryToInitializeForLocalPlay
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -581,7 +581,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5C930
+	 * 		RVA    -> 0x6F6D4C930
 	 * 		Name   -> Function OnlineIntegration.CommonUserSubsystem.ShouldWaitForStartInput
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -603,7 +603,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5C800
+	 * 		RVA    -> 0x6F6D4C800
 	 * 		Name   -> Function OnlineIntegration.CommonUserSubsystem.SetMaxLocalPlayers
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -626,7 +626,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5C120
+	 * 		RVA    -> 0x6F6D4C120
 	 * 		Name   -> Function OnlineIntegration.CommonUserSubsystem.ListenForLoginKeyInput
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -653,7 +653,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5BBB0
+	 * 		RVA    -> 0x6F6D4BBB0
 	 * 		Name   -> Function OnlineIntegration.CommonUserSubsystem.GetUserInfoForUniqueNetId
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, Const)
 	 * Parameters:
@@ -678,7 +678,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5BB20
+	 * 		RVA    -> 0x6F6D4BB20
 	 * 		Name   -> Function OnlineIntegration.CommonUserSubsystem.GetUserInfoForPlatformUser
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, Const)
 	 * Parameters:
@@ -703,7 +703,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5BA80
+	 * 		RVA    -> 0x6F6D4BA80
 	 * 		Name   -> Function OnlineIntegration.CommonUserSubsystem.GetUserInfoForLocalPlayerIndex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, Const)
 	 * Parameters:
@@ -728,7 +728,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5B9E0
+	 * 		RVA    -> 0x6F6D4B9E0
 	 * 		Name   -> Function OnlineIntegration.CommonUserSubsystem.GetUserInfoForLocalPlayer
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, Const)
 	 * Parameters:
@@ -753,7 +753,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5B950
+	 * 		RVA    -> 0x6F6D4B950
 	 * 		Name   -> Function OnlineIntegration.CommonUserSubsystem.GetUserInfoForInputDevice
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, Const)
 	 * Parameters:
@@ -778,7 +778,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5B8B0
+	 * 		RVA    -> 0x6F6D4B8B0
 	 * 		Name   -> Function OnlineIntegration.CommonUserSubsystem.GetUserInfoForControllerId
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, Const)
 	 * Parameters:
@@ -803,7 +803,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5B6C0
+	 * 		RVA    -> 0x6F6D4B6C0
 	 * 		Name   -> Function OnlineIntegration.CommonUserSubsystem.GetNumLocalPlayers
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -825,7 +825,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5B4B0
+	 * 		RVA    -> 0x6F6D4B4B0
 	 * 		Name   -> Function OnlineIntegration.CommonUserSubsystem.GetMaxLocalPlayers
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -847,7 +847,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5AA40
+	 * 		RVA    -> 0x6F6D4AA40
 	 * 		Name   -> Function OnlineIntegration.CommonUserSubsystem.CreateAuthenticationSequence
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -900,7 +900,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5CDE0
+	 * 		RVA    -> 0x6F6D4CDE0
 	 * 		Name   -> Function OnlineIntegration.LocalUserInfo.UnlinkExternalAccount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -920,7 +920,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5C4A0
+	 * 		RVA    -> 0x6F6D4C4A0
 	 * 		Name   -> Function OnlineIntegration.LocalUserInfo.LogoutExternalAccount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -943,7 +943,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5C480
+	 * 		RVA    -> 0x6F6D4C480
 	 * 		Name   -> Function OnlineIntegration.LocalUserInfo.LoginExternalAccount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -963,7 +963,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5BDE0
+	 * 		RVA    -> 0x6F6D4BDE0
 	 * 		Name   -> Function OnlineIntegration.LocalUserInfo.IsLoggedIn
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -988,7 +988,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5B800
+	 * 		RVA    -> 0x6F6D4B800
 	 * 		Name   -> Function OnlineIntegration.LocalUserInfo.GetUnmappedContextNickname
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1013,7 +1013,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5B4E0
+	 * 		RVA    -> 0x6F6D4B4E0
 	 * 		Name   -> Function OnlineIntegration.LocalUserInfo.GetNetId
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1038,7 +1038,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5B400
+	 * 		RVA    -> 0x6F6D4B400
 	 * 		Name   -> Function OnlineIntegration.LocalUserInfo.GetMappedContextNickname
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1063,7 +1063,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5B370
+	 * 		RVA    -> 0x6F6D4B370
 	 * 		Name   -> Function OnlineIntegration.LocalUserInfo.GetLoginStatus
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1088,7 +1088,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5B110
+	 * 		RVA    -> 0x6F6D4B110
 	 * 		Name   -> Function OnlineIntegration.LocalUserInfo.GetDebugString
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1110,7 +1110,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5AB30
+	 * 		RVA    -> 0x6F6D4AB30
 	 * 		Name   -> Function OnlineIntegration.LocalUserInfo.CreateFriendList
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1188,7 +1188,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5AA00
+	 * 		RVA    -> 0x6F6D4AA00
 	 * 		Name   -> Function OnlineIntegration.OnlineFriend.RejectGameInvite
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1208,7 +1208,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5AA00
+	 * 		RVA    -> 0x6F6D4AA00
 	 * 		Name   -> Function OnlineIntegration.OnlineFriend.JoinGame
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1228,7 +1228,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5BEA0
+	 * 		RVA    -> 0x6F6D4BEA0
 	 * 		Name   -> Function OnlineIntegration.OnlineFriend.IsPresenceJoinable
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1250,7 +1250,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5BE70
+	 * 		RVA    -> 0x6F6D4BE70
 	 * 		Name   -> Function OnlineIntegration.OnlineFriend.IsPlayingThisGame
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1272,7 +1272,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5BDB0
+	 * 		RVA    -> 0x6F6D4BDB0
 	 * 		Name   -> Function OnlineIntegration.OnlineFriend.IsEffectivelyOnline
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1294,7 +1294,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5BD90
+	 * 		RVA    -> 0x6F6D4BD90
 	 * 		Name   -> Function OnlineIntegration.OnlineFriend.InviteToSession
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1314,7 +1314,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5B340
+	 * 		RVA    -> 0x6F6D4B340
 	 * 		Name   -> Function OnlineIntegration.OnlineFriend.GetLocalUserInfo
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1336,7 +1336,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5AFF0
+	 * 		RVA    -> 0x6F6D4AFF0
 	 * 		Name   -> Function OnlineIntegration.OnlineFriend.GetAdvertisedNATType
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1358,7 +1358,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5AA00
+	 * 		RVA    -> 0x6F6D4AA00
 	 * 		Name   -> Function OnlineIntegration.OnlineFriend.AcceptGameInvite
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1392,7 +1392,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5C890
+	 * 		RVA    -> 0x6F6D4C890
 	 * 		Name   -> Function OnlineIntegration.OnlineFriendList.SetSearchTerm
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1415,7 +1415,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5C5B0
+	 * 		RVA    -> 0x6F6D4C5B0
 	 * 		Name   -> Function OnlineIntegration.OnlineFriendList.MatchesFilters
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1440,7 +1440,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5C530
+	 * 		RVA    -> 0x6F6D4C530
 	 * 		Name   -> Function OnlineIntegration.OnlineFriendList.MakeContextRelevant
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1505,7 +1505,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC8A370
+	 * 		RVA    -> 0x6F6D7A370
 	 * 		Name   -> Function OnlineIntegration.OnlineIntegrationSubsystem.ShouldWaitForStartInput
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1527,7 +1527,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC8A070
+	 * 		RVA    -> 0x6F6D7A070
 	 * 		Name   -> Function OnlineIntegration.OnlineIntegrationSubsystem.HasTraitTag
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1552,7 +1552,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC8A040
+	 * 		RVA    -> 0x6F6D7A040
 	 * 		Name   -> Function OnlineIntegration.OnlineIntegrationSubsystem.GetUserManager
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1574,7 +1574,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC8A010
+	 * 		RVA    -> 0x6F6D7A010
 	 * 		Name   -> Function OnlineIntegration.OnlineIntegrationSubsystem.GetSessionManager
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1610,7 +1610,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC8A290
+	 * 		RVA    -> 0x6F6D7A290
 	 * 		Name   -> Function OnlineIntegration.OnlineSessionInfoViewModel.SetSessionHandle
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1635,7 +1635,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC5AA00
+	 * 		RVA    -> 0x6F6D4AA00
 	 * 		Name   -> Function OnlineIntegration.OnlineSessionInfoViewModel.InvitePressed
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1655,7 +1655,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC8A140
+	 * 		RVA    -> 0x6F6D7A140
 	 * 		Name   -> Function OnlineIntegration.OnlineSessionInfoViewModel.InviteFriend
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1692,7 +1692,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47EC8A1D0
+	 * 		RVA    -> 0x6F6D7A1D0
 	 * 		Name   -> Function OnlineIntegration.OnlineModelConversionFunctionLibrary.MakeBrushFromPlayerAvatar
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:

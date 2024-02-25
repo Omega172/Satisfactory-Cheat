@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function MovieRenderPipelineSettings.MoviePipelineBurnInWidget.OnOutputFrameStarted
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -62,7 +62,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47397A320
+	 * 		RVA    -> 0x6E769A320
 	 * 		Name   -> Function MovieRenderPipelineSettings.MoviePipelineConsoleVariableSetting.UpdateConsoleVariableEnableState
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -89,7 +89,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47397A220
+	 * 		RVA    -> 0x6E769A220
 	 * 		Name   -> Function MovieRenderPipelineSettings.MoviePipelineConsoleVariableSetting.RemoveConsoleVariable
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -116,7 +116,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47397A0E0
+	 * 		RVA    -> 0x6E769A0E0
 	 * 		Name   -> Function MovieRenderPipelineSettings.MoviePipelineConsoleVariableSetting.GetConsoleVariables
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -138,7 +138,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473979FE0
+	 * 		RVA    -> 0x6E7699FE0
 	 * 		Name   -> Function MovieRenderPipelineSettings.MoviePipelineConsoleVariableSetting.AddOrUpdateConsoleVariable
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -165,7 +165,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473979E70
+	 * 		RVA    -> 0x6E7699E70
 	 * 		Name   -> Function MovieRenderPipelineSettings.MoviePipelineConsoleVariableSetting.AddConsoleVariable
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:

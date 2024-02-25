@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_PassengerSeat.BP_PassengerSeat_C.InpActEvt_Use_K2Node_InputActionEvent_1
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -34,7 +34,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_PassengerSeat.BP_PassengerSeat_C.UpdateCamera
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -53,7 +53,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_PassengerSeat.BP_PassengerSeat_C.ReceivePossessed
 	 * 		Flags  -> (BlueprintAuthorityOnly, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -75,7 +75,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_PassengerSeat.BP_PassengerSeat_C.ReceiveUnpossessed
 	 * 		Flags  -> (BlueprintAuthorityOnly, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -97,7 +97,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_PassengerSeat.BP_PassengerSeat_C.Server_Leave
 	 * 		Flags  -> (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
 	 */
@@ -116,7 +116,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_PassengerSeat.BP_PassengerSeat_C.ExecuteUbergraph_BP_PassengerSeat
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:

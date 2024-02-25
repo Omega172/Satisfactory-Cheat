@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -22,7 +22,7 @@ namespace CG
 	{
 	public:
 		class FString                                              JsonString;                                              // 0x0000(0x0010) Edit, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_KTZR[0x10];                                  // 0x0010(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_CIQE[0x10];                                  // 0x0010(0x0010) MISSED OFFSET (PADDING)
 	};
 
 }

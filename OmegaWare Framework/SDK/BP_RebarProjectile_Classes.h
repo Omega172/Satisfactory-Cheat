@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -21,7 +21,7 @@ namespace CG
 	class ABP_RebarProjectile_C : public AFGProjectile
 	{
 	public:
-		unsigned char                                              UnknownData_9BMH[0x8];                                   // 0x05D8(0x0008) Fix Super Size
+		unsigned char                                              UnknownData_3MWB[0x8];                                   // 0x05D8(0x0008) Fix Super Size
 		struct FPointerToUberGraphFrame                            UberGraphFrame;                                          // 0x05E0(0x0008) ZeroConstructor, Transient, DuplicateTransient
 		class UNiagaraComponent*                                   Niagara;                                                 // 0x05E8(0x0008) BlueprintVisible, ZeroConstructor, InstancedReference, NonTransactional, NoDestructor, HasGetValueTypeHash
 		class UStaticMeshComponent*                                Rebar;                                                   // 0x05F0(0x0008) BlueprintVisible, ZeroConstructor, InstancedReference, NonTransactional, NoDestructor, HasGetValueTypeHash

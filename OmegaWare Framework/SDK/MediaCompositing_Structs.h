@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -24,7 +24,7 @@ namespace CG
 		class UMediaSource*                                        MediaSource;                                             // 0x0038(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		struct FFrameNumber                                        SectionStartFrame;                                       // 0x0040(0x0004) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		bool                                                       bLoop;                                                   // 0x0044(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_53ZA[0x3];                                   // 0x0045(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_EZPM[0x3];                                   // 0x0045(0x0003) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -38,13 +38,13 @@ namespace CG
 		class UMediaSource*                                        MediaSource;                                             // 0x0008(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FMovieSceneObjectBindingID                          MediaSourceProxy;                                        // 0x0010(0x0018) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		int32_t                                                    MediaSourceProxyIndex;                                   // 0x0028(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_B2W6[0x4];                                   // 0x002C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_65FA[0x4];                                   // 0x002C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UMediaTexture*                                       MediaTexture;                                            // 0x0030(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class UMediaPlayer*                                        MediaPlayer;                                             // 0x0038(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FFrameNumber                                        SectionStartFrame;                                       // 0x0040(0x0004) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FFrameNumber                                        SectionEndFrame;                                         // 0x0044(0x0004) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bLooping;                                                // 0x0048(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_TLRL[0x3];                                   // 0x0049(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_T0OS[0x3];                                   // 0x0049(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FFrameNumber                                        StartFrameOffset;                                        // 0x004C(0x0004) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FMovieSceneFloatChannel                             ProxyTextureBlend;                                       // 0x0050(0x0110) NativeAccessSpecifierPublic
 	};

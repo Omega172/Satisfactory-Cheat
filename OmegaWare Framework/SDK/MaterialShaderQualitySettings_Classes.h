@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -22,7 +22,7 @@ namespace CG
 	{
 	public:
 		struct FMaterialQualityOverrides                           QualityOverrides[0x4];                                   // 0x0028(0x0020) Edit, Config, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_HOQK[0x10];                                  // 0x0048(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_3BHD[0x10];                                  // 0x0048(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();

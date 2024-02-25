@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -21,7 +21,7 @@ namespace CG
 	class UAudioLinkSettingsAbstract : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_KNNU[0x10];                                  // 0x0028(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_1X06[0x10];                                  // 0x0028(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();

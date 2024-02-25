@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -28,8 +28,7 @@ namespace CG
 	 * RigVMMemoryStorageGeneratorClass SK_Tractor_CtrlRig.RigVMMemory_Literal
 	 * Size -> 0x0900 (FullSize[0x0928] - InheritedSize[0x0028])
 	 */
-	/*
-	class URigVMMemory_Literal : public URigVMMemoryStorage
+	class cURigVMMemory_Literal : public URigVMMemoryStorage
 	{
 	public:
 		struct FRigElementKey                                      RigVMModel___RotationConstraintLocalSpaceOffset_Child__Const; // 0x0028(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
@@ -37,107 +36,105 @@ namespace CG
 		struct FFilterOptionPerAxis                                RigVMModel___RotationConstraintLocalSpaceOffset_Filter__Const; // 0x0035(0x0003) Edit, EditConst, NonTransactional, NoDestructor
 		TArray<struct FConstraintParent>                           RigVMModel___RotationConstraintLocalSpaceOffset_Parents__Const; // 0x0038(0x0010) Edit, EditConst, NonTransactional
 		struct FRigUnit_RotationConstraint_AdvancedSettings        RigVMModel___RotationConstraintLocalSpaceOffset_AdvancedSettings__Const; // 0x0048(0x0002) Edit, EditConst, NonTransactional, NoDestructor
-		unsigned char                                              UnknownData_GXFV[0x2];                                   // 0x004A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_2SGI[0x2];                                   // 0x004A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      RigVMModel___RotationConstraintLocalSpaceOffset_Weight__Const; // 0x004C(0x0004) Edit, ZeroConstructor, EditConst, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash
 		struct FRigElementKey                                      RigVMModel___AimItem_Item__Const;                        // 0x0050(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_YLX8[0x4];                                   // 0x005C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_XSTS[0x4];                                   // 0x005C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_AimItem_Target                             RigVMModel___AimItem_Primary__Const;                     // 0x0060(0x0048) Edit, EditConst, NonTransactional, NoDestructor
 		struct FRigUnit_AimItem_Target                             RigVMModel___AimItem_Secondary__Const;                   // 0x00A8(0x0048) Edit, EditConst, NonTransactional, NoDestructor
 		struct FRigUnit_AimBone_DebugSettings                      RigVMModel___AimItem_DebugSettings__Const;               // 0x00F0(0x0070) Edit, EditConst, NonTransactional, NoDestructor
 		struct FRigElementKey                                      RigVMModel___PositionConstraintLocalSpaceOffset_5_2_1_Child__Const; // 0x0160(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_CCJ0[0x4];                                   // 0x016C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_XP1N[0x4];                                   // 0x016C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FConstraintParent>                           RigVMModel___PositionConstraintLocalSpaceOffset_5_2_1_Parents__Const; // 0x0170(0x0010) Edit, EditConst, NonTransactional
 		struct FRigElementKey                                      RigVMModel___PositionConstraintLocalSpaceOffset_Child__Const; // 0x0180(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
 		struct FRigElementKey                                      RigVMModel___AimItem_1_Item__Const;                      // 0x018C(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
 		struct FRigUnit_AimItem_Target                             RigVMModel___AimItem_1_Primary__Const;                   // 0x0198(0x0048) Edit, EditConst, NonTransactional, NoDestructor
 		struct FRigElementKey                                      RigVMModel___AimItem_2_Item__Const;                      // 0x01E0(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_3AE2[0x4];                                   // 0x01EC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_C5D3[0x4];                                   // 0x01EC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_AimItem_Target                             RigVMModel___AimItem_2_Primary__Const;                   // 0x01F0(0x0048) Edit, EditConst, NonTransactional, NoDestructor
 		struct FRigElementKey                                      RigVMModel___PositionConstraintLocalSpaceOffset_2_Child__Const; // 0x0238(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_143Z[0x4];                                   // 0x0244(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_3ZFB[0x4];                                   // 0x0244(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FConstraintParent>                           RigVMModel___PositionConstraintLocalSpaceOffset_2_Parents__Const; // 0x0248(0x0010) Edit, EditConst, NonTransactional
 		struct FRigUnit_AimItem_Target                             RigVMModel___AimItem_3_Primary__Const;                   // 0x0258(0x0048) Edit, EditConst, NonTransactional, NoDestructor
 		struct FRigElementKey                                      RigVMModel___AimItem_3_3_Item__Const;                    // 0x02A0(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_4AOU[0x4];                                   // 0x02AC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_3DGI[0x4];                                   // 0x02AC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_AimItem_Target                             RigVMModel___AimItem_3_3_Primary__Const;                 // 0x02B0(0x0048) Edit, EditConst, NonTransactional, NoDestructor
 		struct FRigElementKey                                      RigVMModel___RotationConstraintLocalSpaceOffset_2_Child__Const; // 0x02F8(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_X5FS[0x4];                                   // 0x0304(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_0LO7[0x4];                                   // 0x0304(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FConstraintParent>                           RigVMModel___RotationConstraintLocalSpaceOffset_2_Parents__Const; // 0x0308(0x0010) Edit, EditConst, NonTransactional
 		struct FRigElementKey                                      RigVMModel___AimItem_4_Item__Const;                      // 0x0318(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_K6E9[0x4];                                   // 0x0324(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_F0NY[0x4];                                   // 0x0324(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_AimItem_Target                             RigVMModel___AimItem_4_Primary__Const;                   // 0x0328(0x0048) Edit, EditConst, NonTransactional, NoDestructor
 		struct FRigElementKey                                      RigVMModel___PositionConstraintLocalSpaceOffset_5_2_Child__Const; // 0x0370(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_5R82[0x4];                                   // 0x037C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_HY5O[0x4];                                   // 0x037C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FConstraintParent>                           RigVMModel___PositionConstraintLocalSpaceOffset_5_2_Parents__Const; // 0x0380(0x0010) Edit, EditConst, NonTransactional
 		struct FRigElementKey                                      RigVMModel___PositionConstraintLocalSpaceOffset_3_Child__Const; // 0x0390(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
 		struct FRigElementKey                                      RigVMModel___AimItem_1_1_Item__Const;                    // 0x039C(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
 		struct FRigUnit_AimItem_Target                             RigVMModel___AimItem_1_1_Primary__Const;                 // 0x03A8(0x0048) Edit, EditConst, NonTransactional, NoDestructor
 		struct FRigElementKey                                      RigVMModel___AimItem_2_1_Item__Const;                    // 0x03F0(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_SSB6[0x4];                                   // 0x03FC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_A0OH[0x4];                                   // 0x03FC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_AimItem_Target                             RigVMModel___AimItem_2_1_Primary__Const;                 // 0x0400(0x0048) Edit, EditConst, NonTransactional, NoDestructor
 		struct FRigElementKey                                      RigVMModel___PositionConstraintLocalSpaceOffset_2_1_Child__Const; // 0x0448(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_F1CQ[0x4];                                   // 0x0454(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_3P5J[0x4];                                   // 0x0454(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FConstraintParent>                           RigVMModel___PositionConstraintLocalSpaceOffset_2_1_Parents__Const; // 0x0458(0x0010) Edit, EditConst, NonTransactional
 		struct FRigUnit_AimItem_Target                             RigVMModel___AimItem_3_1_Primary__Const;                 // 0x0468(0x0048) Edit, EditConst, NonTransactional, NoDestructor
 		struct FRigElementKey                                      RigVMModel___AimItem_3_3_1_Item__Const;                  // 0x04B0(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_J5LV[0x4];                                   // 0x04BC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_P35B[0x4];                                   // 0x04BC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_AimItem_Target                             RigVMModel___AimItem_3_3_1_Primary__Const;               // 0x04C0(0x0048) Edit, EditConst, NonTransactional, NoDestructor
 		struct FRigElementKey                                      RigVMModel___RotationConstraintLocalSpaceOffset_1_Child__Const; // 0x0508(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_FTS7[0x4];                                   // 0x0514(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_4CRB[0x4];                                   // 0x0514(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FConstraintParent>                           RigVMModel___RotationConstraintLocalSpaceOffset_1_Parents__Const; // 0x0518(0x0010) Edit, EditConst, NonTransactional
 		struct FRigElementKey                                      RigVMModel___AimItem_5_Item__Const;                      // 0x0528(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_FVC2[0x4];                                   // 0x0534(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_HACC[0x4];                                   // 0x0534(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_AimItem_Target                             RigVMModel___AimItem_5_Primary__Const;                   // 0x0538(0x0048) Edit, EditConst, NonTransactional, NoDestructor
 		struct FRigElementKey                                      RigVMModel___PositionConstraintLocalSpaceOffset_5_Child__Const; // 0x0580(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_Q7QQ[0x4];                                   // 0x058C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_UAAE[0x4];                                   // 0x058C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FConstraintParent>                           RigVMModel___PositionConstraintLocalSpaceOffset_5_Parents__Const; // 0x0590(0x0010) Edit, EditConst, NonTransactional
 		struct FRigElementKey                                      RigVMModel___PositionConstraintLocalSpaceOffset_4_Child__Const; // 0x05A0(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
 		struct FRigElementKey                                      RigVMModel___AimItem_1_2_Item__Const;                    // 0x05AC(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
 		struct FRigUnit_AimItem_Target                             RigVMModel___AimItem_1_2_Primary__Const;                 // 0x05B8(0x0048) Edit, EditConst, NonTransactional, NoDestructor
 		struct FRigElementKey                                      RigVMModel___AimItem_2_2_Item__Const;                    // 0x0600(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_JMEH[0x4];                                   // 0x060C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_4UK4[0x4];                                   // 0x060C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_AimItem_Target                             RigVMModel___AimItem_2_2_Primary__Const;                 // 0x0610(0x0048) Edit, EditConst, NonTransactional, NoDestructor
 		struct FRigElementKey                                      RigVMModel___PositionConstraintLocalSpaceOffset_2_2_Child__Const; // 0x0658(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_AC9Q[0x4];                                   // 0x0664(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_FFO2[0x4];                                   // 0x0664(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FConstraintParent>                           RigVMModel___PositionConstraintLocalSpaceOffset_2_2_Parents__Const; // 0x0668(0x0010) Edit, EditConst, NonTransactional
 		struct FRigUnit_AimItem_Target                             RigVMModel___AimItem_3_2_Primary__Const;                 // 0x0678(0x0048) Edit, EditConst, NonTransactional, NoDestructor
 		struct FRigElementKey                                      RigVMModel___AimItem_3_3_2_Item__Const;                  // 0x06C0(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_067T[0x4];                                   // 0x06CC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_V8D9[0x4];                                   // 0x06CC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_AimItem_Target                             RigVMModel___AimItem_3_3_2_Primary__Const;               // 0x06D0(0x0048) Edit, EditConst, NonTransactional, NoDestructor
 		struct FRigElementKey                                      RigVMModel___RotationConstraintLocalSpaceOffset_2_1_Child__Const; // 0x0718(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_N4WF[0x4];                                   // 0x0724(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_H3F5[0x4];                                   // 0x0724(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FConstraintParent>                           RigVMModel___RotationConstraintLocalSpaceOffset_2_1_Parents__Const; // 0x0728(0x0010) Edit, EditConst, NonTransactional
 		struct FRigElementKey                                      RigVMModel___AimItem_4_1_Item__Const;                    // 0x0738(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_FIQK[0x4];                                   // 0x0744(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_VWTQ[0x4];                                   // 0x0744(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_AimItem_Target                             RigVMModel___AimItem_4_1_Primary__Const;                 // 0x0748(0x0048) Edit, EditConst, NonTransactional, NoDestructor
 		struct FRigElementKey                                      RigVMModel___PositionConstraintLocalSpaceOffset_5_1_Child__Const; // 0x0790(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_FY9M[0x4];                                   // 0x079C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_9ZP0[0x4];                                   // 0x079C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FConstraintParent>                           RigVMModel___PositionConstraintLocalSpaceOffset_5_1_Parents__Const; // 0x07A0(0x0010) Edit, EditConst, NonTransactional
 		struct FRigElementKey                                      RigVMModel___PositionConstraintLocalSpaceOffset_3_1_Child__Const; // 0x07B0(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
 		struct FRigElementKey                                      RigVMModel___AimItem_1_1_1_Item__Const;                  // 0x07BC(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
 		struct FRigUnit_AimItem_Target                             RigVMModel___AimItem_1_1_1_Primary__Const;               // 0x07C8(0x0048) Edit, EditConst, NonTransactional, NoDestructor
 		struct FRigElementKey                                      RigVMModel___AimItem_2_1_1_Item__Const;                  // 0x0810(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_ZTDB[0x4];                                   // 0x081C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_DSXV[0x4];                                   // 0x081C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_AimItem_Target                             RigVMModel___AimItem_2_1_1_Primary__Const;               // 0x0820(0x0048) Edit, EditConst, NonTransactional, NoDestructor
 		struct FRigElementKey                                      RigVMModel___PositionConstraintLocalSpaceOffset_2_1_1_Child__Const; // 0x0868(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_KC2O[0x4];                                   // 0x0874(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_SG6K[0x4];                                   // 0x0874(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FConstraintParent>                           RigVMModel___PositionConstraintLocalSpaceOffset_2_1_1_Parents__Const; // 0x0878(0x0010) Edit, EditConst, NonTransactional
 		struct FRigUnit_AimItem_Target                             RigVMModel___AimItem_3_1_1_Primary__Const;               // 0x0888(0x0048) Edit, EditConst, NonTransactional, NoDestructor
 		struct FRigElementKey                                      RigVMModel___AimItem_3_3_1_1_Item__Const;                // 0x08D0(0x000C) Edit, EditConst, NonTransactional, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_BEL5[0x4];                                   // 0x08DC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_KOT0[0x4];                                   // 0x08DC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigUnit_AimItem_Target                             RigVMModel___AimItem_3_3_1_1_Primary__Const;             // 0x08E0(0x0048) Edit, EditConst, NonTransactional, NoDestructor
 
 	public:
 		static UClass* StaticClass();
 	};
-	*/
 
 	/**
 	 * RigVMMemoryStorageGeneratorClass SK_Tractor_CtrlRig.RigVMMemory_Work
 	 * Size -> 0x0780 (FullSize[0x07A8] - InheritedSize[0x0028])
 	 */
-	/*
-	class URigVMMemory_Work : public URigVMMemoryStorage
+	class cURigVMMemory_Work : public URigVMMemoryStorage
 	{
 	public:
 		TArray<struct FCachedRigElement>                           RigVMModel___RotationConstraintLocalSpaceOffset_ChildCache; // 0x0028(0x0010) Edit, EditConst, NonTransactional
@@ -264,7 +261,7 @@ namespace CG
 	public:
 		static UClass* StaticClass();
 	};
-	*/
+
 }
 
 #ifdef _MSC_VER

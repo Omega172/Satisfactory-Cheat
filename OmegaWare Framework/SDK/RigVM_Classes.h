@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -31,9 +31,9 @@ namespace CG
 	class URigVMBlueprintGeneratedClass : public UBlueprintGeneratedClass
 	{
 	public:
-		unsigned char                                              UnknownData_Q2QG[0x8];                                   // 0x0370(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_3HDZ[0x8];                                   // 0x0370(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigVMGraphFunctionStore                            GraphFunctionStore;                                      // 0x0378(0x0020) NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_IA0J[0x8];                                   // 0x0398(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_5XD7[0x8];                                   // 0x0398(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -49,20 +49,20 @@ namespace CG
 		class URigVMMemoryStorage*                                 WorkMemoryStorageObject;                                 // 0x0028(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class URigVMMemoryStorage*                                 LiteralMemoryStorageObject;                              // 0x0030(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class URigVMMemoryStorage*                                 DebugMemoryStorageObject;                                // 0x0038(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_BBGD[0x20];                                  // 0x0040(0x0020) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_8BL1[0x20];                                  // 0x0040(0x0020) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigVMByteCode                                      ByteCodeStorage;                                         // 0x0060(0x0090) HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_EEL7[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_8YSB[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigVMInstructionArray                              Instructions;                                            // 0x00F8(0x0010) Transient, NativeAccessSpecifierPrivate
 		struct FRigVMExtendedExecuteContext                        Context;                                                 // 0x0108(0x0108) Transient, Protected, NativeAccessSpecifierProtected
 		uint32_t                                                   NumExecutions;                                           // 0x0210(0x0004) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_BUVC[0x4];                                   // 0x0214(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_FR0J[0x4];                                   // 0x0214(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class FName>                                        FunctionNamesStorage;                                    // 0x0218(0x0010) ZeroConstructor, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_TN6D[0x38];                                  // 0x0228(0x0038) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_8XPQ[0x38];                                  // 0x0228(0x0038) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FRigVMParameter>                             Parameters;                                              // 0x0260(0x0010) ZeroConstructor, NativeAccessSpecifierPrivate
 		TMap<class FName, int32_t>                                 ParametersNameMap;                                       // 0x0270(0x0050) NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_F9AU[0xE8];                                  // 0x02C0(0x00E8) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_1LWU[0xE8];                                  // 0x02C0(0x00E8) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class URigVM*                                              DeferredVMToCopy;                                        // 0x03A8(0x0008) ZeroConstructor, Transient, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_OS6T[0x40];                                  // 0x03B0(0x0040) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_DXIM[0x40];                                  // 0x03B0(0x0040) MISSED OFFSET (PADDING)
 
 	public:
 		void SetParameterValueVector2D(const class FName& InParameterName, const struct FVector2D& InValue, int32_t InArrayIndex);
@@ -99,7 +99,7 @@ namespace CG
 	class URigVMMemoryStorageGeneratorClass : public UClass
 	{
 	public:
-		unsigned char                                              UnknownData_TV8B[0x40];                                  // 0x0220(0x0040) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_I93S[0x40];                                  // 0x0220(0x0040) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -122,7 +122,7 @@ namespace CG
 	class URigVMNativized : public URigVM
 	{
 	public:
-		unsigned char                                              UnknownData_IF03[0x28];                                  // 0x03F0(0x0028) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_GFGT[0x28];                                  // 0x03F0(0x0028) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -137,7 +137,7 @@ namespace CG
 	public:
 		class UObject*                                             Subject;                                                 // 0x0028(0x0008) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		struct FRigVMUserWorkflow                                  Workflow;                                                // 0x0030(0x0058) Edit, BlueprintVisible, BlueprintReadOnly, DisableEditOnInstance, ContainsInstancedReference, Protected, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_RXFS[0x10];                                  // 0x0088(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_08HE[0x10];                                  // 0x0088(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		bool RequiresDialog();
@@ -155,16 +155,16 @@ namespace CG
 	class URigVMHost : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_ZEJA[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_Q7SX[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRigVMRuntimeSettings                               VMRuntimeSettings;                                       // 0x0030(0x0018) NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_62MI[0x10];                                  // 0x0048(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_PTTE[0x10];                                  // 0x0048(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class URigVM*                                              VM;                                                      // 0x0058(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		struct FRigVMDrawContainer                                 DrawContainer;                                           // 0x0060(0x0018) NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_4X30[0x18];                                  // 0x0078(0x0018) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_EITC[0x18];                                  // 0x0078(0x0018) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class FName>                                        EventQueue;                                              // 0x0090(0x0010) ZeroConstructor, Transient, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_DRBJ[0x90];                                  // 0x00A0(0x0090) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_KGQ7[0x90];                                  // 0x00A0(0x0090) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class UAssetUserData*>                              AssetUserData;                                           // 0x0130(0x0010) Edit, ExportObject, ZeroConstructor, ContainsInstancedReference, AdvancedDisplay, Protected, UObjectWrapper, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_HGAW[0x40];                                  // 0x0140(0x0040) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_OTFU[0x40];                                  // 0x0140(0x0040) MISSED OFFSET (PADDING)
 
 	public:
 		bool SupportsEvent(const class FName& InEventName);

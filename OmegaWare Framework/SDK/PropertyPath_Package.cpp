@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C50796A0
+	 * 		RVA    -> 0x72D0096A0
 	 * 		Name   -> Function PropertyPath.PropertyPathTestObject.SetStructRef
 	 * 		Flags  -> (Final, Native, Public)
 	 * Parameters:
@@ -35,7 +35,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C5079510
+	 * 		RVA    -> 0x72D009510
 	 * 		Name   -> Function PropertyPath.PropertyPathTestObject.SetStructConstRef
 	 * 		Flags  -> (Final, Native, Public)
 	 * Parameters:
@@ -58,7 +58,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C5079380
+	 * 		RVA    -> 0x72D009380
 	 * 		Name   -> Function PropertyPath.PropertyPathTestObject.SetStruct
 	 * 		Flags  -> (Final, Native, Public)
 	 * Parameters:
@@ -81,7 +81,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C50792F0
+	 * 		RVA    -> 0x72D0092F0
 	 * 		Name   -> Function PropertyPath.PropertyPathTestObject.SetFloat
 	 * 		Flags  -> (Final, Native, Public)
 	 * Parameters:
@@ -104,7 +104,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C50792C0
+	 * 		RVA    -> 0x72D0092C0
 	 * 		Name   -> Function PropertyPath.PropertyPathTestObject.GetStructRef
 	 * 		Flags  -> (Final, Native, Public, Const)
 	 */
@@ -126,7 +126,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C5079290
+	 * 		RVA    -> 0x72D009290
 	 * 		Name   -> Function PropertyPath.PropertyPathTestObject.GetStructConstRef
 	 * 		Flags  -> (Final, Native, Public, Const)
 	 */
@@ -148,7 +148,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C5079120
+	 * 		RVA    -> 0x72D009120
 	 * 		Name   -> Function PropertyPath.PropertyPathTestObject.GetStruct
 	 * 		Flags  -> (Final, Native, Public, Const)
 	 */
@@ -170,7 +170,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C50790F0
+	 * 		RVA    -> 0x72D0090F0
 	 * 		Name   -> Function PropertyPath.PropertyPathTestObject.GetFloat
 	 * 		Flags  -> (Final, Native, Public, Const)
 	 */

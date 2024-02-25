@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479C43F40
+	 * 		RVA    -> 0x6EA523F40
 	 * 		Name   -> Function NiagaraAnimNotifies.AnimNotifyState_TimedNiagaraEffect.GetSpawnedEffect
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, Const)
 	 * Parameters:
@@ -51,7 +51,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479C43EA0
+	 * 		RVA    -> 0x6EA523EA0
 	 * 		Name   -> Function NiagaraAnimNotifies.AnimNotifyState_TimedNiagaraEffectAdvanced.GetNotifyProgress
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, Const)
 	 * Parameters:
@@ -90,7 +90,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479C440E0
+	 * 		RVA    -> 0x6EA5240E0
 	 * 		Name   -> Function NiagaraAnimNotifies.AnimNotify_PlayNiagaraEffect.GetSpawnedEffect
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, Const)
 	 */

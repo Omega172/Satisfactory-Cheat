@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x476B52450
+	 * 		RVA    -> 0x727322450
 	 * 		Name   -> Function XeSSBlueprint.XeSSBlueprintLibrary.SetXeSSQualityMode
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -35,7 +35,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x476B52430
+	 * 		RVA    -> 0x727322430
 	 * 		Name   -> Function XeSSBlueprint.XeSSBlueprintLibrary.IsXeSSSupported
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -57,7 +57,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x476B52350
+	 * 		RVA    -> 0x727322350
 	 * 		Name   -> Function XeSSBlueprint.XeSSBlueprintLibrary.GetXeSSQualityModeInformation
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -86,7 +86,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x476B52320
+	 * 		RVA    -> 0x727322320
 	 * 		Name   -> Function XeSSBlueprint.XeSSBlueprintLibrary.GetXeSSQualityMode
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -108,7 +108,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x476B522A0
+	 * 		RVA    -> 0x7273222A0
 	 * 		Name   -> Function XeSSBlueprint.XeSSBlueprintLibrary.GetSupportedXeSSQualityModes
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -130,7 +130,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x476B52210
+	 * 		RVA    -> 0x727322210
 	 * 		Name   -> Function XeSSBlueprint.XeSSBlueprintLibrary.GetDefaultXeSSQualityMode
 	 * 		Flags  -> (Final, RequiredAPI, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:

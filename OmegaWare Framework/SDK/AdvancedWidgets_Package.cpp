@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x472891500
+	 * 		RVA    -> 0x6E69D1500
 	 * 		Name   -> Function AdvancedWidgets.RadialSlider.SetValueTags
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -35,7 +35,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x472891470
+	 * 		RVA    -> 0x6E69D1470
 	 * 		Name   -> Function AdvancedWidgets.RadialSlider.SetValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -58,7 +58,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4728913D0
+	 * 		RVA    -> 0x6E69D13D0
 	 * 		Name   -> Function AdvancedWidgets.RadialSlider.SetUseVerticalDrag
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -81,7 +81,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x472891340
+	 * 		RVA    -> 0x6E69D1340
 	 * 		Name   -> Function AdvancedWidgets.RadialSlider.SetStepSize
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -104,7 +104,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x472891250
+	 * 		RVA    -> 0x6E69D1250
 	 * 		Name   -> Function AdvancedWidgets.RadialSlider.SetSliderRange
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -127,7 +127,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4728911C0
+	 * 		RVA    -> 0x6E69D11C0
 	 * 		Name   -> Function AdvancedWidgets.RadialSlider.SetSliderProgressColor
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -150,7 +150,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x472891100
+	 * 		RVA    -> 0x6E69D1100
 	 * 		Name   -> Function AdvancedWidgets.RadialSlider.SetSliderHandleStartAngle
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -173,7 +173,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x472891040
+	 * 		RVA    -> 0x6E69D1040
 	 * 		Name   -> Function AdvancedWidgets.RadialSlider.SetSliderHandleEndAngle
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -196,7 +196,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x472890FB0
+	 * 		RVA    -> 0x6E69D0FB0
 	 * 		Name   -> Function AdvancedWidgets.RadialSlider.SetSliderHandleColor
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -219,7 +219,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x472890F20
+	 * 		RVA    -> 0x6E69D0F20
 	 * 		Name   -> Function AdvancedWidgets.RadialSlider.SetSliderBarColor
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -242,7 +242,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x472890E80
+	 * 		RVA    -> 0x6E69D0E80
 	 * 		Name   -> Function AdvancedWidgets.RadialSlider.SetShowSliderHandle
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -265,7 +265,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x472890DE0
+	 * 		RVA    -> 0x6E69D0DE0
 	 * 		Name   -> Function AdvancedWidgets.RadialSlider.SetShowSliderHand
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -288,7 +288,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x472890D50
+	 * 		RVA    -> 0x6E69D0D50
 	 * 		Name   -> Function AdvancedWidgets.RadialSlider.SetLocked
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -311,7 +311,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x472890C60
+	 * 		RVA    -> 0x6E69D0C60
 	 * 		Name   -> Function AdvancedWidgets.RadialSlider.SetHandStartEndRatio
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -334,7 +334,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x472890BD0
+	 * 		RVA    -> 0x6E69D0BD0
 	 * 		Name   -> Function AdvancedWidgets.RadialSlider.SetCustomDefaultValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -357,7 +357,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x472890B40
+	 * 		RVA    -> 0x6E69D0B40
 	 * 		Name   -> Function AdvancedWidgets.RadialSlider.SetCenterBackgroundColor
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -380,7 +380,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x472890AA0
+	 * 		RVA    -> 0x6E69D0AA0
 	 * 		Name   -> Function AdvancedWidgets.RadialSlider.SetAngularOffset
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -403,7 +403,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x472890A50
+	 * 		RVA    -> 0x6E69D0A50
 	 * 		Name   -> Function AdvancedWidgets.RadialSlider.GetValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -425,7 +425,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x472890A00
+	 * 		RVA    -> 0x6E69D0A00
 	 * 		Name   -> Function AdvancedWidgets.RadialSlider.GetNormalizedSliderHandlePosition
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -447,7 +447,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4728909B0
+	 * 		RVA    -> 0x6E69D09B0
 	 * 		Name   -> Function AdvancedWidgets.RadialSlider.GetCustomDefaultValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */

@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -21,7 +21,7 @@ namespace CG
 	class UWidget_LoadSession_C : public UBP_MenuBase_C
 	{
 	public:
-		unsigned char                                              UnknownData_JF19[0x5];                                   // 0x02CB(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_LXVA[0x5];                                   // 0x02CB(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FPointerToUberGraphFrame                            UberGraphFrame;                                          // 0x02D0(0x0008) ZeroConstructor, Transient, DuplicateTransient
 		class UWidgetAnimation*                                    ShowDeleteSessionButton;                                 // 0x02D8(0x0008) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, RepSkip, NoDestructor, HasGetValueTypeHash
 		class UWidgetAnimation*                                    ShowLoadDeleteButtons;                                   // 0x02E0(0x0008) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, RepSkip, NoDestructor, HasGetValueTypeHash
@@ -43,11 +43,11 @@ namespace CG
 		TArray<struct FSaveHeader>                                 mCachedSaves;                                            // 0x0440(0x0010) Edit, BlueprintVisible, DisableEditOnInstance
 		unsigned char                                              mSaveManagerInterface[0x10];                             // 0x0450(0x0010) UNKNOWN PROPERTY: InterfaceProperty
 		ELoadSession_MenuTypes                                     mMenuType;                                               // 0x0460(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash
-		unsigned char                                              UnknownData_VXHU[0x7];                                   // 0x0461(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_HE1F[0x7];                                   // 0x0461(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		unsigned char                                              mUploadDestination[0x10];                                // 0x0468(0x0010) UNKNOWN PROPERTY: InterfaceProperty
 		TArray<struct FSessionSaveStruct>                          mCachedSessions;                                         // 0x0478(0x0010) Edit, BlueprintVisible, DisableEditOnInstance
 		int32_t                                                    mCurrentSessionIx;                                       // 0x0488(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
-		unsigned char                                              UnknownData_R5TD[0x4];                                   // 0x048C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_C37I[0x4];                                   // 0x048C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UFGSessionSaveStructWrapper*                         mSelectedSessionObject;                                  // 0x0490(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, UObjectWrapper, HasGetValueTypeHash
 		class UFGSaveHeaderWrapper*                                mSelectedSaveObject;                                     // 0x0498(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, UObjectWrapper, HasGetValueTypeHash
 		bool                                                       mGameModesEnabled;                                       // 0x04A0(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash

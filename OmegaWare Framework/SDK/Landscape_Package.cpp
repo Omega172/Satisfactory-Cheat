@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -40,7 +40,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C34E1BE0
+	 * 		RVA    -> 0x71E141BE0
 	 * 		Name   -> Function Landscape.LandscapeProxy.SetVirtualTextureRenderPassType
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -63,7 +63,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C34E1B00
+	 * 		RVA    -> 0x71E141B00
 	 * 		Name   -> Function Landscape.LandscapeProxy.SetLandscapeMaterialVectorParameterValue
 	 * 		Flags  -> (Final, RequiredAPI, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -88,7 +88,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C34E1A30
+	 * 		RVA    -> 0x71E141A30
 	 * 		Name   -> Function Landscape.LandscapeProxy.SetLandscapeMaterialTextureParameterValue
 	 * 		Flags  -> (Final, RequiredAPI, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -113,7 +113,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C34E1950
+	 * 		RVA    -> 0x71E141950
 	 * 		Name   -> Function Landscape.LandscapeProxy.SetLandscapeMaterialScalarParameterValue
 	 * 		Flags  -> (Final, RequiredAPI, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -138,7 +138,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C34E1830
+	 * 		RVA    -> 0x71E141830
 	 * 		Name   -> Function Landscape.LandscapeProxy.LandscapeExportHeightmapToRenderTarget
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -167,7 +167,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C34E1800
+	 * 		RVA    -> 0x71E141800
 	 * 		Name   -> Function Landscape.LandscapeProxy.GetLandscapeActor
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -189,7 +189,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C34E1770
+	 * 		RVA    -> 0x71E141770
 	 * 		Name   -> Function Landscape.LandscapeProxy.EditorSetLandscapeMaterial
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -212,7 +212,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C34E13C0
+	 * 		RVA    -> 0x71E1413C0
 	 * 		Name   -> Function Landscape.LandscapeProxy.EditorApplySpline
 	 * 		Flags  -> (Final, RequiredAPI, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -257,7 +257,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C34E1330
+	 * 		RVA    -> 0x71E141330
 	 * 		Name   -> Function Landscape.LandscapeProxy.ChangeLODDistanceFactor
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -280,7 +280,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C34E12A0
+	 * 		RVA    -> 0x71E1412A0
 	 * 		Name   -> Function Landscape.LandscapeProxy.ChangeComponentScreenSizeToUseSubSections
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -317,7 +317,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C3489940
+	 * 		RVA    -> 0x71E0E9940
 	 * 		Name   -> Function Landscape.Landscape.RenderHeightmap
 	 * 		Flags  -> (Final, RequiredAPI, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -372,7 +372,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C3489B80
+	 * 		RVA    -> 0x71E0E9B80
 	 * 		Name   -> Function Landscape.LandscapeComponent.SetLODBias
 	 * 		Flags  -> (Final, RequiredAPI, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -395,7 +395,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C3489AF0
+	 * 		RVA    -> 0x71E0E9AF0
 	 * 		Name   -> Function Landscape.LandscapeComponent.SetForcedLOD
 	 * 		Flags  -> (Final, RequiredAPI, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -418,7 +418,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C3489870
+	 * 		RVA    -> 0x71E0E9870
 	 * 		Name   -> Function Landscape.LandscapeComponent.GetMaterialInstanceDynamic
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -443,7 +443,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C3489780
+	 * 		RVA    -> 0x71E0E9780
 	 * 		Name   -> Function Landscape.LandscapeComponent.EditorGetPaintLayerWeightByNameAtLocation
 	 * 		Flags  -> (Final, RequiredAPI, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -470,7 +470,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C3489690
+	 * 		RVA    -> 0x71E0E9690
 	 * 		Name   -> Function Landscape.LandscapeComponent.EditorGetPaintLayerWeightAtLocation
 	 * 		Flags  -> (Final, RequiredAPI, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -567,7 +567,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C3489910
+	 * 		RVA    -> 0x71E0E9910
 	 * 		Name   -> Function Landscape.LandscapeHeightfieldCollisionComponent.GetRenderComponent
 	 * 		Flags  -> (Final, RequiredAPI, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -687,7 +687,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C348DAE0
+	 * 		RVA    -> 0x71E0EDAE0
 	 * 		Name   -> Function Landscape.LandscapeSplinesComponent.GetSplineMeshComponents
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -835,7 +835,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C34AEB90
+	 * 		RVA    -> 0x71E10EB90
 	 * 		Name   -> Function Landscape.LandscapeBlueprintBrushBase.RequestLandscapeUpdate
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -858,7 +858,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C34AEA60
+	 * 		RVA    -> 0x71E10EA60
 	 * 		Name   -> Function Landscape.LandscapeBlueprintBrushBase.Render
 	 * 		Flags  -> (Native, Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -887,7 +887,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C34AE8A0
+	 * 		RVA    -> 0x71E10E8A0
 	 * 		Name   -> Function Landscape.LandscapeBlueprintBrushBase.Initialize
 	 * 		Flags  -> (Native, Event, Public, HasOutParms, HasDefaults, BlueprintEvent)
 	 * Parameters:
@@ -914,7 +914,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function Landscape.LandscapeBlueprintBrushBase.GetBlueprintRenderDependencies
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:

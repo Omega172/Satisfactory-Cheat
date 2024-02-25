@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_HUD.BP_HUD_C.IsInventoryOpen
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -36,7 +36,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_HUD.BP_HUD_C.SetupFrontEnd
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -55,7 +55,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_HUD.BP_HUD_C.ToggleInventoryUI
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -74,7 +74,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_HUD.BP_HUD_C.OpenInventoryUI
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -93,7 +93,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_HUD.BP_HUD_C.OpenInteractUI
 	 * 		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -117,7 +117,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_HUD.BP_HUD_C.RemovePawnHUD
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -136,7 +136,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_HUD.BP_HUD_C.AddEquipmentHUD
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -160,7 +160,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_HUD.BP_HUD_C.RemoveEquipmentHUD
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -182,7 +182,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_HUD.BP_HUD_C.CloseInteractUIIfOpen
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -201,7 +201,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_HUD.BP_HUD_C.NotifyHitFeedbackNormal
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -225,7 +225,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_HUD.BP_HUD_C.NotifyHitFeedbackWeakSpot
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -249,7 +249,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BP_HUD.BP_HUD_C.ExecuteUbergraph_BP_HUD
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:

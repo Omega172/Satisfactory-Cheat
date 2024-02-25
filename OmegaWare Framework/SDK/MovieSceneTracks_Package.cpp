@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneTransformOrigin.BP_GetTransformOrigin
 	 * 		Flags  -> (Event, Protected, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 */
@@ -145,7 +145,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C017E650
+	 * 		RVA    -> 0x71699E650
 	 * 		Name   -> Function MovieSceneTracks.MovieScene3DConstraintSection.SetConstraintBindingID
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -168,7 +168,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C017E310
+	 * 		RVA    -> 0x71699E310
 	 * 		Name   -> Function MovieSceneTracks.MovieScene3DConstraintSection.GetConstraintBindingID
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -274,7 +274,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C017EC30
+	 * 		RVA    -> 0x71699EC30
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneAudioSection.SetStartOffset
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -297,7 +297,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C017EB90
+	 * 		RVA    -> 0x71699EB90
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneAudioSection.SetSound
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -320,7 +320,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C017E520
+	 * 		RVA    -> 0x71699E520
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneAudioSection.GetStartOffset
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -342,7 +342,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C017E500
+	 * 		RVA    -> 0x71699E500
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneAudioSection.GetSound
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -406,7 +406,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C017E590
+	 * 		RVA    -> 0x71699E590
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneCameraCutSection.SetCameraBindingID
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -429,7 +429,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C017E2E0
+	 * 		RVA    -> 0x71699E2E0
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneCameraCutSection.GetCameraBindingID
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -507,7 +507,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C017EAE0
+	 * 		RVA    -> 0x71699EAE0
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneCinematicShotSection.SetShotDisplayName
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -530,7 +530,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C017E460
+	 * 		RVA    -> 0x71699E460
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneCinematicShotSection.GetShotDisplayName
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -594,7 +594,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C017E9C0
+	 * 		RVA    -> 0x71699E9C0
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneCVarSection.SetFromString
 	 * 		Flags  -> (Final, RequiredAPI, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -617,7 +617,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C017E540
+	 * 		RVA    -> 0x71699E540
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneCVarSection.GetString
 	 * 		Flags  -> (Final, RequiredAPI, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -653,7 +653,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C017EA60
+	 * 		RVA    -> 0x71699EA60
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneDataLayerSection.SetPrerollState
 	 * 		Flags  -> (Final, RequiredAPI, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -676,7 +676,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C017E930
+	 * 		RVA    -> 0x71699E930
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneDataLayerSection.SetFlushOnUnload
 	 * 		Flags  -> (Final, RequiredAPI, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -699,7 +699,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C017E8B0
+	 * 		RVA    -> 0x71699E8B0
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneDataLayerSection.SetDesiredState
 	 * 		Flags  -> (Final, RequiredAPI, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -722,7 +722,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C017E800
+	 * 		RVA    -> 0x71699E800
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneDataLayerSection.SetDataLayers
 	 * 		Flags  -> (Final, Native, Private, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -745,7 +745,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C017E710
+	 * 		RVA    -> 0x71699E710
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneDataLayerSection.SetDataLayerAssets
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -768,7 +768,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C017E440
+	 * 		RVA    -> 0x71699E440
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneDataLayerSection.GetPrerollState
 	 * 		Flags  -> (Final, RequiredAPI, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -790,7 +790,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C017E420
+	 * 		RVA    -> 0x71699E420
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneDataLayerSection.GetFlushOnUnload
 	 * 		Flags  -> (Final, RequiredAPI, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -812,7 +812,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C017E400
+	 * 		RVA    -> 0x71699E400
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneDataLayerSection.GetDesiredState
 	 * 		Flags  -> (Final, RequiredAPI, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -834,7 +834,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C017E3D0
+	 * 		RVA    -> 0x71699E3D0
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneDataLayerSection.GetDataLayers
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -856,7 +856,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C017E340
+	 * 		RVA    -> 0x71699E340
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneDataLayerSection.GetDataLayerAssets
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1018,7 +1018,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C0206550
+	 * 		RVA    -> 0x716A26550
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneLevelVisibilitySection.SetVisibility
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1041,7 +1041,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C02064A0
+	 * 		RVA    -> 0x716A264A0
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneLevelVisibilitySection.SetLevelNames
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1064,7 +1064,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C0205800
+	 * 		RVA    -> 0x716A25800
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneLevelVisibilitySection.GetVisibility
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1086,7 +1086,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C0205680
+	 * 		RVA    -> 0x716A25680
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneLevelVisibilitySection.GetLevelNames
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1150,7 +1150,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C0206400
+	 * 		RVA    -> 0x716A26400
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneParameterSection.RemoveVectorParameter
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1175,7 +1175,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C0206360
+	 * 		RVA    -> 0x716A26360
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneParameterSection.RemoveVector2DParameter
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1200,7 +1200,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C0206270
+	 * 		RVA    -> 0x716A26270
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneParameterSection.RemoveTransformParameter
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1225,7 +1225,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C02061D0
+	 * 		RVA    -> 0x716A261D0
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneParameterSection.RemoveScalarParameter
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1250,7 +1250,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C02060E0
+	 * 		RVA    -> 0x716A260E0
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneParameterSection.RemoveColorParameter
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1275,7 +1275,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C0206040
+	 * 		RVA    -> 0x716A26040
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneParameterSection.RemoveBoolParameter
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1300,7 +1300,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C02056B0
+	 * 		RVA    -> 0x716A256B0
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneParameterSection.GetParameterNames
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1320,7 +1320,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C0205540
+	 * 		RVA    -> 0x716A25540
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneParameterSection.AddVectorParameterKey
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1347,7 +1347,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C0205420
+	 * 		RVA    -> 0x716A25420
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneParameterSection.AddVector2DParameterKey
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1374,7 +1374,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C0205280
+	 * 		RVA    -> 0x716A25280
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneParameterSection.AddTransformParameterKey
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1401,7 +1401,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C0205160
+	 * 		RVA    -> 0x716A25160
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneParameterSection.AddScalarParameterKey
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1428,7 +1428,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C0205040
+	 * 		RVA    -> 0x716A25040
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneParameterSection.AddColorParameterKey
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1455,7 +1455,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C0204F20
+	 * 		RVA    -> 0x716A24F20
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneParameterSection.AddBoolParameterKey
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2182,7 +2182,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C0205E00
+	 * 		RVA    -> 0x716A25E00
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneAsyncAction_SequencePrediction.PredictWorldTransformAtTime
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -2211,7 +2211,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C0205C30
+	 * 		RVA    -> 0x716A25C30
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneAsyncAction_SequencePrediction.PredictWorldTransformAtFrame
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -2240,7 +2240,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C02059F0
+	 * 		RVA    -> 0x716A259F0
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneAsyncAction_SequencePrediction.PredictLocalTransformAtTime
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -2269,7 +2269,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C0205820
+	 * 		RVA    -> 0x716A25820
 	 * 		Name   -> Function MovieSceneTracks.MovieSceneAsyncAction_SequencePrediction.PredictLocalTransformAtFrame
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:

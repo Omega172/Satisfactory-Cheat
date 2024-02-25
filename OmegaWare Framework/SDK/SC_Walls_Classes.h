@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -18,7 +18,7 @@ namespace CG
 	 * BlueprintGeneratedClass SC_Walls.SC_Walls_C
 	 * Size -> 0x0000 (FullSize[0x0120] - InheritedSize[0x0120])
 	 */
-	class USC_Walls_C : public UFGSchematicCategory
+	class USC_Walls_C : public UFGBuildSubCategory
 	{
 	public:
 		static UClass* StaticClass();

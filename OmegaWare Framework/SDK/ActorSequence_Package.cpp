@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -26,7 +26,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479B74550
+	 * 		RVA    -> 0x6EA3D4550
 	 * 		Name   -> Function ActorSequence.ActorSequenceComponent.StopSequence
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -46,7 +46,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479B74520
+	 * 		RVA    -> 0x6EA3D4520
 	 * 		Name   -> Function ActorSequence.ActorSequenceComponent.PlaySequence
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -66,7 +66,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479B744F0
+	 * 		RVA    -> 0x6EA3D44F0
 	 * 		Name   -> Function ActorSequence.ActorSequenceComponent.PauseSequence
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */

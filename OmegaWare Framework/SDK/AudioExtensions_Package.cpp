@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -68,7 +68,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4D61DB0D0
+	 * 		RVA    -> 0x7725EB0D0
 	 * 		Name   -> Function AudioExtensions.AudioParameterControllerInterface.SetTriggerParameter
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -91,7 +91,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4D61DAFE0
+	 * 		RVA    -> 0x7725EAFE0
 	 * 		Name   -> Function AudioExtensions.AudioParameterControllerInterface.SetStringParameter
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -116,7 +116,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4D61DAEC0
+	 * 		RVA    -> 0x7725EAEC0
 	 * 		Name   -> Function AudioExtensions.AudioParameterControllerInterface.SetStringArrayParameter
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -141,7 +141,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4D61DAD60
+	 * 		RVA    -> 0x7725EAD60
 	 * 		Name   -> Function AudioExtensions.AudioParameterControllerInterface.SetParameters_Blueprint
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -164,7 +164,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4D61DAC90
+	 * 		RVA    -> 0x7725EAC90
 	 * 		Name   -> Function AudioExtensions.AudioParameterControllerInterface.SetObjectParameter
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -189,7 +189,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4D61DAB90
+	 * 		RVA    -> 0x7725EAB90
 	 * 		Name   -> Function AudioExtensions.AudioParameterControllerInterface.SetObjectArrayParameter
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -214,7 +214,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4D61DAAC0
+	 * 		RVA    -> 0x7725EAAC0
 	 * 		Name   -> Function AudioExtensions.AudioParameterControllerInterface.SetIntParameter
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -239,7 +239,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4D61DA9C0
+	 * 		RVA    -> 0x7725EA9C0
 	 * 		Name   -> Function AudioExtensions.AudioParameterControllerInterface.SetIntArrayParameter
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -264,7 +264,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4D61DA8E0
+	 * 		RVA    -> 0x7725EA8E0
 	 * 		Name   -> Function AudioExtensions.AudioParameterControllerInterface.SetFloatParameter
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -289,7 +289,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4D61DA7E0
+	 * 		RVA    -> 0x7725EA7E0
 	 * 		Name   -> Function AudioExtensions.AudioParameterControllerInterface.SetFloatArrayParameter
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -314,7 +314,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4D61DA700
+	 * 		RVA    -> 0x7725EA700
 	 * 		Name   -> Function AudioExtensions.AudioParameterControllerInterface.SetBoolParameter
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -339,7 +339,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4D61DA600
+	 * 		RVA    -> 0x7725EA600
 	 * 		Name   -> Function AudioExtensions.AudioParameterControllerInterface.SetBoolArrayParameter
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -364,7 +364,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4D61DA5E0
+	 * 		RVA    -> 0x7725EA5E0
 	 * 		Name   -> Function AudioExtensions.AudioParameterControllerInterface.ResetParameters
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */

@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -34,10 +34,10 @@ namespace CG
 	class UStatePerObjectConfig : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_NEEQ[0x28];                                  // 0x0028(0x0028) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_UZ41[0x28];                                  // 0x0028(0x0028) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FString                                              PerObjectConfigSection;                                  // 0x0050(0x0010) ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		bool                                                       bEnabled;                                                // 0x0060(0x0001) ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_26EI[0x7];                                   // 0x0061(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_VH70[0x7];                                   // 0x0061(0x0007) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -51,7 +51,7 @@ namespace CG
 	{
 	public:
 		TArray<class FString>                                      EscalationSeverity;                                      // 0x0068(0x0010) ZeroConstructor, Config, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_DNWG[0x10];                                  // 0x0078(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_576W[0x10];                                  // 0x0078(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();

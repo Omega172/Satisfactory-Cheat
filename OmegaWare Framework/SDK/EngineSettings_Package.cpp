@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -26,7 +26,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CFEC49C0
+	 * 		RVA    -> 0x7A64449C0
 	 * 		Name   -> Function EngineSettings.GameMapsSettings.SetSkipAssigningGamepadToPlayer1
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -49,7 +49,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CFEC49A0
+	 * 		RVA    -> 0x7A64449A0
 	 * 		Name   -> Function EngineSettings.GameMapsSettings.GetSkipAssigningGamepadToPlayer1
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -71,7 +71,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CFEC4930
+	 * 		RVA    -> 0x7A6444930
 	 * 		Name   -> Function EngineSettings.GameMapsSettings.GetGameMapsSettings
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */

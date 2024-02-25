@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -32,7 +32,7 @@ namespace CG
 	struct FDataflowConnection
 	{
 	public:
-		unsigned char                                              UnknownData_DYMT[0x40];                                  // 0x0000(0x0040) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_EVP4[0x40];                                  // 0x0000(0x0040) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -42,7 +42,7 @@ namespace CG
 	struct FDataflowInput : public FDataflowConnection
 	{
 	public:
-		unsigned char                                              UnknownData_NAP2[0x8];                                   // 0x0040(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_3N74[0x8];                                   // 0x0040(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -52,7 +52,7 @@ namespace CG
 	struct FDataflowOutput : public FDataflowConnection
 	{
 	public:
-		unsigned char                                              UnknownData_U73Y[0x28];                                  // 0x0040(0x0028) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_YEOI[0x28];                                  // 0x0040(0x0028) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -62,9 +62,9 @@ namespace CG
 	struct FDataflowNode
 	{
 	public:
-		unsigned char                                              UnknownData_E7MK[0xC8];                                  // 0x0000(0x00C8) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_6CL2[0xC8];                                  // 0x0000(0x00C8) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		bool                                                       bActive;                                                 // 0x00C8(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_0C8W[0x1F];                                  // 0x00C9(0x001F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_E51T[0x1F];                                  // 0x00C9(0x001F) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -74,7 +74,7 @@ namespace CG
 	struct FDataflowSelection
 	{
 	public:
-		unsigned char                                              UnknownData_TMZF[0x20];                                  // 0x0000(0x0020) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_YUGE[0x20];                                  // 0x0000(0x0020) MISSED OFFSET (PADDING)
 	};
 
 	/**

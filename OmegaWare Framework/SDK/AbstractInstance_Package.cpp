@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -26,7 +26,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4789BC140
+	 * 		RVA    -> 0x6E988C140
 	 * 		Name   -> Function AbstractInstance.AbstractInstanceInterface.PostLazySpawnInstances
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 */
@@ -46,7 +46,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4789BBFE0
+	 * 		RVA    -> 0x6E988BFE0
 	 * 		Name   -> Function AbstractInstance.AbstractInstanceInterface.GetLightweightInstanceActorTransform
 	 * 		Flags  -> (Native, Event, Public, HasDefaults, BlueprintEvent, Const)
 	 */
@@ -68,7 +68,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4789BBD80
+	 * 		RVA    -> 0x6E988BD80
 	 * 		Name   -> Function AbstractInstance.AbstractInstanceInterface.GetActorLightweightInstanceData
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 */
@@ -90,7 +90,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4789BBD30
+	 * 		RVA    -> 0x6E988BD30
 	 * 		Name   -> Function AbstractInstance.AbstractInstanceInterface.DoesContainLightweightInstances
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 */
@@ -126,7 +126,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4789BC220
+	 * 		RVA    -> 0x6E988C220
 	 * 		Name   -> Function AbstractInstance.AbstractInstanceManager.ResolveHit
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -155,7 +155,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4789BC160
+	 * 		RVA    -> 0x6E988C160
 	 * 		Name   -> Function AbstractInstance.AbstractInstanceManager.RemoveInstance
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -180,7 +180,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4789BC070
+	 * 		RVA    -> 0x6E988C070
 	 * 		Name   -> Function AbstractInstance.AbstractInstanceManager.GetOwnerByHandle
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -205,7 +205,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4789BBF50
+	 * 		RVA    -> 0x6E988BF50
 	 * 		Name   -> Function AbstractInstance.AbstractInstanceManager.GetInstanceManager
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -230,7 +230,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4789BBE20
+	 * 		RVA    -> 0x6E988BE20
 	 * 		Name   -> Function AbstractInstance.AbstractInstanceManager.GetHandleInfo
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -259,7 +259,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4789BBD60
+	 * 		RVA    -> 0x6E988BD60
 	 * 		Name   -> Function AbstractInstance.AbstractInstanceManager.DrawDebug
 	 * 		Flags  -> (Final, Native, Private)
 	 */

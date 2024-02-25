@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -21,7 +21,7 @@ namespace CG
 	class UDeveloperSettings : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_DMZ9[0x10];                                  // 0x0028(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_Z61G[0x10];                                  // 0x0028(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -44,7 +44,7 @@ namespace CG
 	class UPlatformSettings : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_8MA8[0x18];                                  // 0x0028(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_6GMX[0x18];                                  // 0x0028(0x0018) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -58,7 +58,7 @@ namespace CG
 	{
 	public:
 		TMap<class UClass*, struct FPlatformSettingsInstances>     SettingsMap;                                             // 0x0028(0x0050) Transient, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_VY0S[0x8];                                   // 0x0078(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_YD3R[0x8];                                   // 0x0078(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();

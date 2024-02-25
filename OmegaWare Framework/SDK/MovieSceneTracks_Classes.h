@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -43,7 +43,7 @@ namespace CG
 	{
 	public:
 		float                                                      FloatProperty;                                           // 0x0028(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_XYD3[0x4];                                   // 0x002C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_OUKK[0x4];                                   // 0x002C(0x0004) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -97,7 +97,7 @@ namespace CG
 	class UMovieSceneInterrogatedPropertyInstantiatorSystem : public UMovieSceneEntityInstantiatorSystem
 	{
 	public:
-		unsigned char                                              UnknownData_1WZR[0x1B0];                                 // 0x0040(0x01B0) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_SWSA[0x1B0];                                 // 0x0040(0x01B0) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -136,7 +136,7 @@ namespace CG
 	class UMovieScene3DAttachSection : public UMovieScene3DConstraintSection
 	{
 	public:
-		unsigned char                                              UnknownData_JFYK[0x8];                                   // 0x0118(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_QDKO[0x8];                                   // 0x0118(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FName                                                AttachSocketName;                                        // 0x0120(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FName                                                AttachComponentName;                                     // 0x0128(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EAttachmentRule                                            AttachmentLocationRule;                                  // 0x0130(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -145,7 +145,7 @@ namespace CG
 		EDetachmentRule                                            DetachmentLocationRule;                                  // 0x0133(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EDetachmentRule                                            DetachmentRotationRule;                                  // 0x0134(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EDetachmentRule                                            DetachmentScaleRule;                                     // 0x0135(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_6N0Y[0x2];                                   // 0x0136(0x0002) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_DB9A[0x2];                                   // 0x0136(0x0002) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -161,11 +161,11 @@ namespace CG
 		struct FMovieSceneFloatChannel                             TimingCurve;                                             // 0x0118(0x0110) NativeAccessSpecifierPublic
 		EMovieScene3DPathSection_Axis                              FrontAxisEnum;                                           // 0x0228(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EMovieScene3DPathSection_Axis                              UpAxisEnum;                                              // 0x0229(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_OG7B[0x2];                                   // 0x022A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_PB37[0x2];                                   // 0x022A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		bool                                                       bFollow : 1;                                             // 0x022C(0x0001) BIT_FIELD Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bReverse : 1;                                            // 0x022C(0x0001) BIT_FIELD Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bForceUpright : 1;                                       // 0x022C(0x0001) BIT_FIELD Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_IRBD[0x3];                                   // 0x022D(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_IW4Y[0x3];                                   // 0x022D(0x0003) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -191,9 +191,9 @@ namespace CG
 	class UMovieScene3DTransformSection : public UMovieSceneSection
 	{
 	public:
-		unsigned char                                              UnknownData_QKRD[0x40];                                  // 0x00F0(0x0040) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_M6WG[0x40];                                  // 0x00F0(0x0040) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMovieSceneTransformMask                            TransformMask;                                           // 0x0130(0x0004) NoDestructor, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_XDVR[0x4];                                   // 0x0134(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_6RZR[0x4];                                   // 0x0134(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMovieSceneDoubleChannel                            Translation[0x3];                                        // 0x0138(0x0348) NativeAccessSpecifierPrivate
 		struct FMovieSceneDoubleChannel                            Rotation[0x3];                                           // 0x0480(0x0348) NativeAccessSpecifierPrivate
 		struct FMovieSceneDoubleChannel                            Scale[0x3];                                              // 0x07C8(0x0348) NativeAccessSpecifierPrivate
@@ -201,7 +201,7 @@ namespace CG
 		class UMovieSceneSectionChannelOverrideRegistry*           OverrideRegistry;                                        // 0x0C20(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		class UMovieScene3DTransformSectionConstraints*            Constraints;                                             // 0x0C28(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		bool                                                       bUseQuaternionInterpolation;                             // 0x0C30(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_JYIL[0x7];                                   // 0x0C31(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_EL2G[0x7];                                   // 0x0C31(0x0007) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -235,7 +235,7 @@ namespace CG
 		float                                                      AudioStartTime;                                          // 0x0100(0x0004) ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		float                                                      AudioDilationFactor;                                     // 0x0104(0x0004) ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		float                                                      AudioVolume;                                             // 0x0108(0x0004) ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_3MO9[0x4];                                   // 0x010C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_QPRR[0x4];                                   // 0x010C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMovieSceneFloatChannel                             SoundVolume;                                             // 0x0110(0x0110) NativeAccessSpecifierPrivate
 		struct FMovieSceneFloatChannel                             PitchMultiplier;                                         // 0x0220(0x0110) NativeAccessSpecifierPrivate
 		TMap<class FName, struct FMovieSceneFloatChannel>          Inputs_Float;                                            // 0x0330(0x0050) NativeAccessSpecifierPrivate
@@ -247,7 +247,7 @@ namespace CG
 		bool                                                       bLooping;                                                // 0x05E0(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		bool                                                       bSuppressSubtitles;                                      // 0x05E1(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		bool                                                       bOverrideAttenuation;                                    // 0x05E2(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_ZDY6[0x5];                                   // 0x05E3(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_51KN[0x5];                                   // 0x05E3(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class USoundAttenuation*                                   AttenuationSettings;                                     // 0x05E8(0x0008) Edit, ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		class FScriptDelegate                                      OnQueueSubtitles;                                        // 0x05F0(0x0010) ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		class FScriptMulticastDelegate                             OnAudioFinished;                                         // 0x0600(0x0010) ZeroConstructor, InstancedReference, NativeAccessSpecifierPrivate
@@ -268,7 +268,7 @@ namespace CG
 	class UMovieSceneBaseCacheSection : public UMovieSceneSection
 	{
 	public:
-		unsigned char                                              UnknownData_Q926[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_6RGS[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -281,7 +281,7 @@ namespace CG
 	class UMovieSceneByteSection : public UMovieSceneSection
 	{
 	public:
-		unsigned char                                              UnknownData_PD4R[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_TPLQ[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMovieSceneByteChannel                              ByteCurve;                                               // 0x00F8(0x0108) NativeAccessSpecifierPublic
 
 	public:
@@ -295,15 +295,15 @@ namespace CG
 	class UMovieSceneCameraCutSection : public UMovieSceneSection
 	{
 	public:
-		unsigned char                                              UnknownData_SH7H[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_2DLO[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		bool                                                       bLockPreviousCamera;                                     // 0x00F8(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_Y6SE[0x3];                                   // 0x00F9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_SV6F[0x3];                                   // 0x00F9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FGuid                                               CameraGuid;                                              // 0x00FC(0x0010) ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		struct FMovieSceneObjectBindingID                          CameraBindingID;                                         // 0x010C(0x0018) Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_TNP6[0xC];                                   // 0x0124(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_4T58[0xC];                                   // 0x0124(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FTransform                                          InitialCameraCutTransform;                               // 0x0130(0x0060) IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		bool                                                       bHasInitialCameraCutTransform;                           // 0x0190(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_EHQ8[0xF];                                   // 0x0191(0x000F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_SR0P[0xF];                                   // 0x0191(0x000F) MISSED OFFSET (PADDING)
 
 	public:
 		void SetCameraBindingID(const struct FMovieSceneObjectBindingID& InCameraBindingID);
@@ -322,7 +322,7 @@ namespace CG
 		class UClass*                                              ShakeClass;                                              // 0x0118(0x0008) ZeroConstructor, Deprecated, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      PlayScale;                                               // 0x0120(0x0004) ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ECameraShakePlaySpace                                      PlaySpace;                                               // 0x0124(0x0001) ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_Z21K[0x3];                                   // 0x0125(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_LTML[0x3];                                   // 0x0125(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRotator                                            UserDefinedPlaySpace;                                    // 0x0128(0x0018) ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 
 	public:
@@ -378,7 +378,7 @@ namespace CG
 	class UMovieSceneColorSection : public UMovieSceneSection
 	{
 	public:
-		unsigned char                                              UnknownData_YDAS[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_TDHR[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMovieSceneFloatChannel                             RedCurve;                                                // 0x00F8(0x0110) NativeAccessSpecifierPrivate
 		struct FMovieSceneFloatChannel                             GreenCurve;                                              // 0x0208(0x0110) NativeAccessSpecifierPrivate
 		struct FMovieSceneFloatChannel                             BlueCurve;                                               // 0x0318(0x0110) NativeAccessSpecifierPrivate
@@ -405,7 +405,7 @@ namespace CG
 	class UMovieSceneCVarSection : public UMovieSceneSection
 	{
 	public:
-		unsigned char                                              UnknownData_FW7J[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_E8B4[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FMovieSceneConsoleVariableCollection>        ConsoleVariableCollections;                              // 0x00F8(0x0010) Edit, ZeroConstructor, NativeAccessSpecifierPublic
 		struct FMovieSceneCVarOverrides                            ConsoleVariables;                                        // 0x0108(0x0050) Edit, NativeAccessSpecifierPublic
 
@@ -422,13 +422,13 @@ namespace CG
 	class UMovieSceneDataLayerSection : public UMovieSceneSection
 	{
 	public:
-		unsigned char                                              UnknownData_YE9P[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ZU8Q[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FActorDataLayer>                             DataLayers;                                              // 0x00F8(0x0010) ZeroConstructor, NativeAccessSpecifierPrivate
 		TArray<class UDataLayerAsset*>                             DataLayerAssets;                                         // 0x0108(0x0010) Edit, ZeroConstructor, UObjectWrapper, NativeAccessSpecifierPrivate
 		EDataLayerRuntimeState                                     DesiredState;                                            // 0x0118(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		EDataLayerRuntimeState                                     PrerollState;                                            // 0x0119(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		bool                                                       bFlushOnUnload;                                          // 0x011A(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_DFUA[0x5];                                   // 0x011B(0x0005) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_HKXQ[0x5];                                   // 0x011B(0x0005) MISSED OFFSET (PADDING)
 
 	public:
 		void SetPrerollState(EDataLayerRuntimeState InPrerollState);
@@ -451,7 +451,7 @@ namespace CG
 	class UMovieSceneDoubleSection : public UMovieSceneSection
 	{
 	public:
-		unsigned char                                              UnknownData_OGQF[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_6SO6[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMovieSceneDoubleChannel                            DoubleCurve;                                             // 0x00F8(0x0118) Protected, NativeAccessSpecifierProtected
 
 	public:
@@ -465,7 +465,7 @@ namespace CG
 	class UMovieSceneEnumSection : public UMovieSceneSection
 	{
 	public:
-		unsigned char                                              UnknownData_5QWD[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_66Q9[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMovieSceneByteChannel                              EnumCurve;                                               // 0x00F8(0x0108) NativeAccessSpecifierPublic
 
 	public:
@@ -489,7 +489,7 @@ namespace CG
 	class UMovieSceneEventRepeaterSection : public UMovieSceneEventSectionBase
 	{
 	public:
-		unsigned char                                              UnknownData_BD26[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ZTYU[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMovieSceneEvent                                    Event;                                                   // 0x00F8(0x0028) Edit, NativeAccessSpecifierPublic
 
 	public:
@@ -517,7 +517,7 @@ namespace CG
 	class UMovieSceneEventTriggerSection : public UMovieSceneEventSectionBase
 	{
 	public:
-		unsigned char                                              UnknownData_1Q58[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_65J9[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMovieSceneEventChannel                             EventChannel;                                            // 0x00F8(0x00F8) NativeAccessSpecifierPublic
 
 	public:
@@ -531,11 +531,11 @@ namespace CG
 	class UMovieSceneFadeSection : public UMovieSceneSection
 	{
 	public:
-		unsigned char                                              UnknownData_ICPW[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_AQ16[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMovieSceneFloatChannel                             FloatCurve;                                              // 0x00F8(0x0110) NativeAccessSpecifierPublic
 		struct FLinearColor                                        FadeColor;                                               // 0x0208(0x0010) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bFadeAudio : 1;                                          // 0x0218(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_BZBC[0x7];                                   // 0x0219(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_MHX1[0x7];                                   // 0x0219(0x0007) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -548,7 +548,7 @@ namespace CG
 	class UMovieSceneFloatSection : public UMovieSceneSection
 	{
 	public:
-		unsigned char                                              UnknownData_4ECL[0x10];                                  // 0x00F0(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_1I3Q[0x10];                                  // 0x00F0(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMovieSceneFloatChannel                             FloatCurve;                                              // 0x0100(0x0110) Protected, NativeAccessSpecifierProtected
 		class UMovieSceneSectionChannelOverrideRegistry*           OverrideRegistry;                                        // 0x0210(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
 
@@ -563,7 +563,7 @@ namespace CG
 	class UMovieSceneIntegerSection : public UMovieSceneSection
 	{
 	public:
-		unsigned char                                              UnknownData_43TC[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_Z1KQ[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMovieSceneIntegerChannel                           IntegerCurve;                                            // 0x00F8(0x0100) NativeAccessSpecifierPrivate
 
 	public:
@@ -577,9 +577,9 @@ namespace CG
 	class UMovieSceneLevelVisibilitySection : public UMovieSceneSection
 	{
 	public:
-		unsigned char                                              UnknownData_6A84[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_YY8V[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		ELevelVisibility                                           Visibility;                                              // 0x00F8(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_ZFZJ[0x7];                                   // 0x00F9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_CA0Y[0x7];                                   // 0x00F9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class FName>                                        LevelNames;                                              // 0x0100(0x0010) Edit, ZeroConstructor, NativeAccessSpecifierPrivate
 
 	public:
@@ -620,7 +620,7 @@ namespace CG
 	class UMovieSceneParameterSection : public UMovieSceneSection
 	{
 	public:
-		unsigned char                                              UnknownData_OQ1L[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_LVY6[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<struct FBoolParameterNameAndCurve>                  BoolParameterNamesAndCurves;                             // 0x00F8(0x0010) ZeroConstructor, Protected, NativeAccessSpecifierProtected
 		TArray<struct FScalarParameterNameAndCurve>                ScalarParameterNamesAndCurves;                           // 0x0108(0x0010) ZeroConstructor, Protected, NativeAccessSpecifierProtected
 		TArray<struct FVector2DParameterNameAndCurves>             Vector2DParameterNamesAndCurves;                         // 0x0118(0x0010) ZeroConstructor, Protected, NativeAccessSpecifierProtected
@@ -665,7 +665,7 @@ namespace CG
 	class UMovieScenePrimitiveMaterialSection : public UMovieSceneSection
 	{
 	public:
-		unsigned char                                              UnknownData_Z2SP[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_H650[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMovieSceneObjectPathChannel                        MaterialChannel;                                         // 0x00F8(0x0138) NativeAccessSpecifierPublic
 
 	public:
@@ -679,7 +679,7 @@ namespace CG
 	class UMovieSceneSkeletalAnimationSection : public UMovieSceneSection
 	{
 	public:
-		unsigned char                                              UnknownData_R7BI[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_YE4S[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMovieSceneSkeletalAnimationParams                  Params;                                                  // 0x00F8(0x0150) Edit, BlueprintVisible, NativeAccessSpecifierPublic
 		class UAnimSequence*                                       AnimSequence;                                            // 0x0248(0x0008) ZeroConstructor, Deprecated, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		class UAnimSequenceBase*                                   Animation;                                               // 0x0250(0x0008) ZeroConstructor, Deprecated, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
@@ -687,14 +687,14 @@ namespace CG
 		float                                                      EndOffset;                                               // 0x025C(0x0004) ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		float                                                      PlayRate;                                                // 0x0260(0x0004) ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		bool                                                       bReverse : 1;                                            // 0x0264(0x0001) BIT_FIELD Deprecated, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_LDLY[0x3];                                   // 0x0265(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_BFKY[0x3];                                   // 0x0265(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FName                                                SlotName;                                                // 0x0268(0x0008) ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		struct FVector                                             StartLocationOffset;                                     // 0x0270(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRotator                                            StartRotationOffset;                                     // 0x0288(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 		bool                                                       bMatchWithPrevious;                                      // 0x02A0(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_KCN6[0x3];                                   // 0x02A1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_ZS5N[0x3];                                   // 0x02A1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FName                                                MatchedBoneName;                                         // 0x02A4(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_TJ1L[0x4];                                   // 0x02AC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_Y9Y4[0x4];                                   // 0x02AC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             MatchedLocationOffset;                                   // 0x02B0(0x0018) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRotator                                            MatchedRotationOffset;                                   // 0x02C8(0x0018) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 		bool                                                       bMatchTranslation;                                       // 0x02E0(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
@@ -702,7 +702,7 @@ namespace CG
 		bool                                                       bMatchRotationYaw;                                       // 0x02E2(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bMatchRotationPitch;                                     // 0x02E3(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bMatchRotationRoll;                                      // 0x02E4(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_CTW1[0x7B];                                  // 0x02E5(0x007B) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_GPA0[0x7B];                                  // 0x02E5(0x007B) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -741,10 +741,10 @@ namespace CG
 	class UMovieSceneFloatVectorSection : public UMovieSceneSection
 	{
 	public:
-		unsigned char                                              UnknownData_RNVR[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_BVIF[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMovieSceneFloatChannel                             Curves[0x4];                                             // 0x00F8(0x0440) NativeAccessSpecifierPrivate
 		int32_t                                                    ChannelsUsed;                                            // 0x0538(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_CU1T[0x4];                                   // 0x053C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_MFZI[0x4];                                   // 0x053C(0x0004) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -757,10 +757,10 @@ namespace CG
 	class UMovieSceneDoubleVectorSection : public UMovieSceneSection
 	{
 	public:
-		unsigned char                                              UnknownData_PM05[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_6JWD[0x8];                                   // 0x00F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMovieSceneDoubleChannel                            Curves[0x4];                                             // 0x00F8(0x0460) NativeAccessSpecifierPrivate
 		int32_t                                                    ChannelsUsed;                                            // 0x0558(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_05KB[0x4];                                   // 0x055C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_WUVM[0x4];                                   // 0x055C(0x0004) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -843,9 +843,9 @@ namespace CG
 	class UMovieScenePropertySystem : public UMovieSceneEntitySystem
 	{
 	public:
-		unsigned char                                              UnknownData_OYPE[0x8];                                   // 0x0040(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_SXFF[0x8];                                   // 0x0040(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UMovieScenePropertyInstantiatorSystem*               InstantiatorSystem;                                      // 0x0048(0x0008) ZeroConstructor, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_6R11[0x8];                                   // 0x0050(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_LRSC[0x8];                                   // 0x0050(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -918,7 +918,7 @@ namespace CG
 	class UMovieSceneComponentAttachmentSystem : public UMovieSceneEntityInstantiatorSystem
 	{
 	public:
-		unsigned char                                              UnknownData_ZBWP[0x190];                                 // 0x0040(0x0190) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_ZPOD[0x190];                                 // 0x0040(0x0190) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -931,7 +931,7 @@ namespace CG
 	class UMovieSceneComponentMaterialSystem : public UMovieSceneEntitySystem
 	{
 	public:
-		unsigned char                                              UnknownData_7JWJ[0x160];                                 // 0x0040(0x0160) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_VQNR[0x160];                                 // 0x0040(0x0160) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -944,7 +944,7 @@ namespace CG
 	class UMovieSceneComponentMobilitySystem : public UMovieSceneEntityInstantiatorSystem
 	{
 	public:
-		unsigned char                                              UnknownData_CA9R[0x1F0];                                 // 0x0040(0x01F0) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_PDHQ[0x1F0];                                 // 0x0040(0x01F0) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -967,7 +967,7 @@ namespace CG
 	class UMovieSceneConstraintSystem : public UMovieSceneEntitySystem
 	{
 	public:
-		unsigned char                                              UnknownData_ZM7S[0x10];                                  // 0x0040(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_TNVD[0x10];                                  // 0x0040(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -980,7 +980,7 @@ namespace CG
 	class UMovieSceneDataLayerSystem : public UMovieSceneEntitySystem
 	{
 	public:
-		unsigned char                                              UnknownData_J02U[0x90];                                  // 0x0040(0x0090) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_867J[0x90];                                  // 0x0040(0x0090) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -993,7 +993,7 @@ namespace CG
 	class UMovieSceneDeferredComponentMovementSystem : public UMovieSceneEntitySystem
 	{
 	public:
-		unsigned char                                              UnknownData_UBYD[0x18];                                  // 0x0040(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_JWLR[0x18];                                  // 0x0040(0x0018) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1036,7 +1036,7 @@ namespace CG
 	class UMovieSceneEventSystem : public UMovieSceneEntitySystem
 	{
 	public:
-		unsigned char                                              UnknownData_IURJ[0x50];                                  // 0x0040(0x0050) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_WD2T[0x50];                                  // 0x0040(0x0050) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1079,7 +1079,7 @@ namespace CG
 	class UMovieSceneFadeSystem : public UMovieSceneEntitySystem
 	{
 	public:
-		unsigned char                                              UnknownData_3QRQ[0x10];                                  // 0x0040(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_0FTA[0x10];                                  // 0x0040(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1132,7 +1132,7 @@ namespace CG
 	class UMovieSceneLevelVisibilitySystem : public UMovieSceneEntitySystem
 	{
 	public:
-		unsigned char                                              UnknownData_0VVR[0x168];                                 // 0x0040(0x0168) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_KZ9I[0x168];                                 // 0x0040(0x0168) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1145,7 +1145,7 @@ namespace CG
 	class UMovieSceneMaterialParameterCollectionSystem : public UMovieSceneEntitySystem
 	{
 	public:
-		unsigned char                                              UnknownData_UXT9[0x20];                                  // 0x0040(0x0020) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_NEEZ[0x20];                                  // 0x0040(0x0020) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1158,7 +1158,7 @@ namespace CG
 	class UMovieSceneMaterialParameterSystem : public UMovieSceneEntitySystem
 	{
 	public:
-		unsigned char                                              UnknownData_ZB5I[0x310];                                 // 0x0040(0x0310) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_HJMQ[0x310];                                 // 0x0040(0x0310) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UMovieScenePiecewiseDoubleBlenderSystem*             DoubleBlenderSystem;                                     // 0x0350(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 
 	public:
@@ -1172,7 +1172,7 @@ namespace CG
 	class UMovieSceneMotionVectorSimulationSystem : public UMovieSceneEntitySystem
 	{
 	public:
-		unsigned char                                              UnknownData_L9TH[0x58];                                  // 0x0040(0x0058) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_QAJL[0x58];                                  // 0x0040(0x0058) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1185,7 +1185,7 @@ namespace CG
 	class UMovieScenePiecewiseBoolBlenderSystem : public UMovieSceneBlenderSystem
 	{
 	public:
-		unsigned char                                              UnknownData_MDTD[0x28];                                  // 0x0068(0x0028) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_OX8L[0x28];                                  // 0x0068(0x0028) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1198,7 +1198,7 @@ namespace CG
 	class UMovieScenePiecewiseByteBlenderSystem : public UMovieSceneBlenderSystem
 	{
 	public:
-		unsigned char                                              UnknownData_1IGR[0x28];                                  // 0x0068(0x0028) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_UAGC[0x28];                                  // 0x0068(0x0028) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1211,7 +1211,7 @@ namespace CG
 	class UMovieScenePiecewiseDoubleBlenderSystem : public UMovieSceneBlenderSystem
 	{
 	public:
-		unsigned char                                              UnknownData_HB2X[0xC8];                                  // 0x0068(0x00C8) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_P3L3[0xC8];                                  // 0x0068(0x00C8) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1224,7 +1224,7 @@ namespace CG
 	class UMovieScenePiecewiseEnumBlenderSystem : public UMovieSceneBlenderSystem
 	{
 	public:
-		unsigned char                                              UnknownData_7AOT[0x28];                                  // 0x0068(0x0028) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_T5U8[0x28];                                  // 0x0068(0x0028) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1237,7 +1237,7 @@ namespace CG
 	class UMovieScenePiecewiseIntegerBlenderSystem : public UMovieSceneBlenderSystem
 	{
 	public:
-		unsigned char                                              UnknownData_8WV3[0x48];                                  // 0x0068(0x0048) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_YYTX[0x48];                                  // 0x0068(0x0048) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1252,10 +1252,10 @@ namespace CG
 	public:
 		class FScriptMulticastDelegate                             Result;                                                  // 0x0030(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
 		class FScriptMulticastDelegate                             Failure;                                                 // 0x0040(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_JCRE[0x10];                                  // 0x0050(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_UTHG[0x10];                                  // 0x0050(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UMovieSceneSequencePlayer*                           SequencePlayer;                                          // 0x0060(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		class USceneComponent*                                     SceneComponent;                                          // 0x0068(0x0008) ExportObject, ZeroConstructor, InstancedReference, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_2Q4V[0x10];                                  // 0x0070(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_OEH5[0x10];                                  // 0x0070(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		class UMovieSceneAsyncAction_SequencePrediction* STATIC_PredictWorldTransformAtTime(class UMovieSceneSequencePlayer* Player, class USceneComponent* TargetComponent, float TimeInSeconds);
@@ -1272,7 +1272,7 @@ namespace CG
 	class UMovieScenePredictionSystem : public UMovieSceneEntitySystem
 	{
 	public:
-		unsigned char                                              UnknownData_OZ06[0x90];                                  // 0x0040(0x0090) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_1EE1[0x90];                                  // 0x0040(0x0090) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class UMovieSceneAsyncAction_SequencePrediction*>   PendingPredictions;                                      // 0x00D0(0x0010) ZeroConstructor, UObjectWrapper, NativeAccessSpecifierPrivate
 		TArray<class UMovieSceneAsyncAction_SequencePrediction*>   ProcessingPredictions;                                   // 0x00E0(0x0010) ZeroConstructor, UObjectWrapper, NativeAccessSpecifierPrivate
 
@@ -1287,7 +1287,7 @@ namespace CG
 	class UMovieScenePropertyInstantiatorSystem : public UMovieSceneEntityInstantiatorSystem
 	{
 	public:
-		unsigned char                                              UnknownData_YMUQ[0x208];                                 // 0x0040(0x0208) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_8DC0[0x208];                                 // 0x0040(0x0208) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1300,7 +1300,7 @@ namespace CG
 	class UMovieSceneQuaternionBlenderSystem : public UMovieSceneBlenderSystem
 	{
 	public:
-		unsigned char                                              UnknownData_2V14[0x70];                                  // 0x0068(0x0070) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_YHV2[0x70];                                  // 0x0068(0x0070) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1323,7 +1323,7 @@ namespace CG
 	class UMovieSceneSkeletalAnimationSystem : public UMovieSceneEntitySystem
 	{
 	public:
-		unsigned char                                              UnknownData_2XDR[0xA0];                                  // 0x0040(0x00A0) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_BHRG[0xA0];                                  // 0x0040(0x00A0) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1346,7 +1346,7 @@ namespace CG
 	class UMovieSceneTransformOriginSystem : public UMovieSceneEntitySystem
 	{
 	public:
-		unsigned char                                              UnknownData_XENY[0x38];                                  // 0x0040(0x0038) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_CLGW[0x38];                                  // 0x0040(0x0038) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1389,7 +1389,7 @@ namespace CG
 	class UMovieSceneHierarchicalEasingInstantiatorSystem : public UMovieSceneEntityInstantiatorSystem
 	{
 	public:
-		unsigned char                                              UnknownData_L7ZN[0x38];                                  // 0x0040(0x0038) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_VWF2[0x38];                                  // 0x0040(0x0038) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UWeightAndEasingEvaluatorSystem*                     EvaluatorSystem;                                         // 0x0078(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 
 	public:
@@ -1403,7 +1403,7 @@ namespace CG
 	class UWeightAndEasingEvaluatorSystem : public UMovieSceneEntitySystem
 	{
 	public:
-		unsigned char                                              UnknownData_FVDY[0x10];                                  // 0x0040(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_DI7N[0x10];                                  // 0x0040(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1416,7 +1416,7 @@ namespace CG
 	class UMovieSceneCameraCutTrackInstance : public UMovieSceneTrackInstance
 	{
 	public:
-		unsigned char                                              UnknownData_5VTM[0x78];                                  // 0x0050(0x0078) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_QS75[0x78];                                  // 0x0050(0x0078) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1429,7 +1429,7 @@ namespace CG
 	class UMovieSceneCVarTrackInstance : public UMovieSceneTrackInstance
 	{
 	public:
-		unsigned char                                              UnknownData_XX09[0x50];                                  // 0x0050(0x0050) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_N7V1[0x50];                                  // 0x0050(0x0050) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1465,7 +1465,7 @@ namespace CG
 	class UMovieScene3DPathTrack : public UMovieScene3DConstraintTrack
 	{
 	public:
-		unsigned char                                              UnknownData_2N33[0x8];                                   // 0x00A8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_RWEF[0x8];                                   // 0x00A8(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1480,7 +1480,7 @@ namespace CG
 	public:
 		class UMovieSceneSection*                                  SectionToKey;                                            // 0x0098(0x0008) ExportObject, ZeroConstructor, InstancedReference, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		struct FMovieScenePropertyBinding                          PropertyBinding;                                         // 0x00A0(0x0014) NoDestructor, Protected, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_2XW4[0x4];                                   // 0x00B4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_IBOX[0x4];                                   // 0x00B4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class UMovieSceneSection*>                          Sections;                                                // 0x00B8(0x0010) ExportObject, ZeroConstructor, ContainsInstancedReference, Protected, UObjectWrapper, NativeAccessSpecifierProtected
 
 	public:
@@ -1494,7 +1494,7 @@ namespace CG
 	class UMovieScene3DTransformTrack : public UMovieScenePropertyTrack
 	{
 	public:
-		unsigned char                                              UnknownData_OTCH[0x8];                                   // 0x00C8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_NN4V[0x8];                                   // 0x00C8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UClass*                                              BlenderSystemClass;                                      // 0x00D0(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 
 	public:
@@ -1508,7 +1508,7 @@ namespace CG
 	class UMovieSceneActorReferenceTrack : public UMovieScenePropertyTrack
 	{
 	public:
-		unsigned char                                              UnknownData_474D[0x8];                                   // 0x00C8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_SR3Q[0x8];                                   // 0x00C8(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1521,7 +1521,7 @@ namespace CG
 	class UMovieSceneAudioTrack : public UMovieSceneNameableTrack
 	{
 	public:
-		unsigned char                                              UnknownData_GWUG[0x8];                                   // 0x0098(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_HX08[0x8];                                   // 0x0098(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class UMovieSceneSection*>                          AudioSections;                                           // 0x00A0(0x0010) ExportObject, ZeroConstructor, ContainsInstancedReference, UObjectWrapper, NativeAccessSpecifierPrivate
 
 	public:
@@ -1535,7 +1535,7 @@ namespace CG
 	class UMovieSceneBoolTrack : public UMovieScenePropertyTrack
 	{
 	public:
-		unsigned char                                              UnknownData_41RJ[0x8];                                   // 0x00C8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_28MP[0x8];                                   // 0x00C8(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1562,7 +1562,7 @@ namespace CG
 	{
 	public:
 		bool                                                       bCanBlend;                                               // 0x0098(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_T7HN[0x7];                                   // 0x0099(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_F0GU[0x7];                                   // 0x0099(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class UMovieSceneSection*>                          Sections;                                                // 0x00A0(0x0010) ExportObject, ZeroConstructor, ContainsInstancedReference, UObjectWrapper, NativeAccessSpecifierPrivate
 
 	public:
@@ -1576,7 +1576,7 @@ namespace CG
 	class UMovieSceneCameraShakeSourceShakeTrack : public UMovieSceneNameableTrack
 	{
 	public:
-		unsigned char                                              UnknownData_55PX[0x8];                                   // 0x0098(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_1FJ6[0x8];                                   // 0x0098(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class UMovieSceneSection*>                          CameraShakeSections;                                     // 0x00A0(0x0010) ExportObject, ZeroConstructor, ContainsInstancedReference, UObjectWrapper, NativeAccessSpecifierPrivate
 
 	public:
@@ -1590,7 +1590,7 @@ namespace CG
 	class UMovieSceneCameraShakeSourceTriggerTrack : public UMovieSceneTrack
 	{
 	public:
-		unsigned char                                              UnknownData_CAZ7[0x8];                                   // 0x0098(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_LMB3[0x8];                                   // 0x0098(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class UMovieSceneSection*>                          Sections;                                                // 0x00A0(0x0010) ExportObject, ZeroConstructor, ContainsInstancedReference, Protected, UObjectWrapper, NativeAccessSpecifierProtected
 
 	public:
@@ -1604,7 +1604,7 @@ namespace CG
 	class UMovieSceneCameraShakeTrack : public UMovieSceneNameableTrack
 	{
 	public:
-		unsigned char                                              UnknownData_24FV[0x8];                                   // 0x0098(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_2ML3[0x8];                                   // 0x0098(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class UMovieSceneSection*>                          CameraShakeSections;                                     // 0x00A0(0x0010) ExportObject, ZeroConstructor, ContainsInstancedReference, UObjectWrapper, NativeAccessSpecifierPrivate
 
 	public:
@@ -1629,7 +1629,7 @@ namespace CG
 	{
 	public:
 		bool                                                       bIsSlateColor;                                           // 0x00C8(0x0001) ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_H4K4[0x7];                                   // 0x00C9(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_KISD[0x7];                                   // 0x00C9(0x0007) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1701,12 +1701,12 @@ namespace CG
 	class UMovieSceneEventTrack : public UMovieSceneNameableTrack
 	{
 	public:
-		unsigned char                                              UnknownData_CLG7[0x10];                                  // 0x0098(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_4SUV[0x10];                                  // 0x0098(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		bool                                                       bFireEventsWhenForwards : 1;                             // 0x00A8(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bFireEventsWhenBackwards : 1;                            // 0x00A8(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_3XBL[0x3];                                   // 0x00A9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_J2QO[0x3];                                   // 0x00A9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		EFireEventsAtPosition                                      EventPosition;                                           // 0x00AC(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_74CK[0x3];                                   // 0x00AD(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_3F22[0x3];                                   // 0x00AD(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class UMovieSceneSection*>                          Sections;                                                // 0x00B0(0x0010) ExportObject, ZeroConstructor, ContainsInstancedReference, UObjectWrapper, NativeAccessSpecifierPrivate
 
 	public:
@@ -1776,7 +1776,7 @@ namespace CG
 	class UMovieSceneMaterialParameterCollectionTrack : public UMovieSceneMaterialTrack
 	{
 	public:
-		unsigned char                                              UnknownData_IQO4[0x10];                                  // 0x00A8(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_Q017[0x10];                                  // 0x00A8(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UMaterialParameterCollection*                        MPC;                                                     // 0x00B8(0x0008) Edit, ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 
 	public:
@@ -1790,9 +1790,9 @@ namespace CG
 	class UMovieSceneComponentMaterialTrack : public UMovieSceneMaterialTrack
 	{
 	public:
-		unsigned char                                              UnknownData_RTLZ[0x10];                                  // 0x00A8(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_G238[0x10];                                  // 0x00A8(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    MaterialIndex;                                           // 0x00B8(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_LCEN[0x4];                                   // 0x00BC(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_0SX4[0x4];                                   // 0x00BC(0x0004) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1805,7 +1805,7 @@ namespace CG
 	class UMovieSceneObjectPropertyTrack : public UMovieScenePropertyTrack
 	{
 	public:
-		unsigned char                                              UnknownData_CXPT[0x8];                                   // 0x00C8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_TXDC[0x8];                                   // 0x00C8(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UClass*                                              PropertyClass;                                           // 0x00D0(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 
 	public:
@@ -1819,7 +1819,7 @@ namespace CG
 	class UMovieSceneParticleParameterTrack : public UMovieSceneNameableTrack
 	{
 	public:
-		unsigned char                                              UnknownData_NF8S[0x8];                                   // 0x0098(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_DYIQ[0x8];                                   // 0x0098(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class UMovieSceneSection*>                          Sections;                                                // 0x00A0(0x0010) ExportObject, ZeroConstructor, ContainsInstancedReference, UObjectWrapper, NativeAccessSpecifierPrivate
 
 	public:
@@ -1833,7 +1833,7 @@ namespace CG
 	class UMovieSceneParticleTrack : public UMovieSceneNameableTrack
 	{
 	public:
-		unsigned char                                              UnknownData_JTT7[0x8];                                   // 0x0098(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_0ODN[0x8];                                   // 0x0098(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class UMovieSceneSection*>                          ParticleSections;                                        // 0x00A0(0x0010) ExportObject, ZeroConstructor, ContainsInstancedReference, UObjectWrapper, NativeAccessSpecifierPrivate
 
 	public:
@@ -1848,7 +1848,7 @@ namespace CG
 	{
 	public:
 		int32_t                                                    MaterialIndex;                                           // 0x00C8(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_THHZ[0x4];                                   // 0x00CC(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_4KH2[0x4];                                   // 0x00CC(0x0004) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1863,10 +1863,10 @@ namespace CG
 	public:
 		TArray<class UMovieSceneSection*>                          AnimationSections;                                       // 0x0098(0x0010) ExportObject, ZeroConstructor, ContainsInstancedReference, UObjectWrapper, NativeAccessSpecifierPublic
 		bool                                                       bUseLegacySectionIndexBlend;                             // 0x00A8(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8GK5[0x7];                                   // 0x00A9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_LCRU[0x7];                                   // 0x00A9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMovieSceneSkeletalAnimRootMotionTrackParams        RootMotionParams;                                        // 0x00B0(0x0080) NoDestructor, NativeAccessSpecifierPublic
 		bool                                                       bBlendFirstChildOfRoot;                                  // 0x0130(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_UEOZ[0xF];                                   // 0x0131(0x000F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_F80F[0xF];                                   // 0x0131(0x000F) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1879,7 +1879,7 @@ namespace CG
 	class UMovieSceneSlomoTrack : public UMovieSceneFloatTrack
 	{
 	public:
-		unsigned char                                              UnknownData_04SM[0x8];                                   // 0x00C8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_RTAL[0x8];                                   // 0x00C8(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1892,7 +1892,7 @@ namespace CG
 	class UMovieSceneStringTrack : public UMovieScenePropertyTrack
 	{
 	public:
-		unsigned char                                              UnknownData_NXMS[0x8];                                   // 0x00C8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_J41N[0x8];                                   // 0x00C8(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1916,7 +1916,7 @@ namespace CG
 	{
 	public:
 		int32_t                                                    NumChannelsUsed;                                         // 0x00C8(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_CN74[0x4];                                   // 0x00CC(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_ST1Y[0x4];                                   // 0x00CC(0x0004) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -1930,7 +1930,7 @@ namespace CG
 	{
 	public:
 		int32_t                                                    NumChannelsUsed;                                         // 0x00C8(0x0004) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_EJ5A[0x4];                                   // 0x00CC(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_RYMS[0x4];                                   // 0x00CC(0x0004) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();

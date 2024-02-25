@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B5FFD0
+	 * 		RVA    -> 0x6E79EFFD0
 	 * 		Name   -> Function ImgMedia.ImgMediaSource.SetTokenizedSequencePath
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -35,7 +35,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B5FF30
+	 * 		RVA    -> 0x6E79EFF30
 	 * 		Name   -> Function ImgMedia.ImgMediaSource.SetSequencePath
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -58,7 +58,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B5FEC0
+	 * 		RVA    -> 0x6E79EFEC0
 	 * 		Name   -> Function ImgMedia.ImgMediaSource.SetMipLevelDistance
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -81,7 +81,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B5FD30
+	 * 		RVA    -> 0x6E79EFD30
 	 * 		Name   -> Function ImgMedia.ImgMediaSource.RemoveTargetObject
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -104,7 +104,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B5FAF0
+	 * 		RVA    -> 0x6E79EFAF0
 	 * 		Name   -> Function ImgMedia.ImgMediaSource.RemoveGlobalCamera
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -127,7 +127,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B5FCC0
+	 * 		RVA    -> 0x6E79EFCC0
 	 * 		Name   -> Function ImgMedia.ImgMediaSource.GetSequencePath
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -149,7 +149,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B5FBF0
+	 * 		RVA    -> 0x6E79EFBF0
 	 * 		Name   -> Function ImgMedia.ImgMediaSource.GetProxies
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -174,7 +174,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B5FB60
+	 * 		RVA    -> 0x6E79EFB60
 	 * 		Name   -> Function ImgMedia.ImgMediaSource.AddTargetObject
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -197,7 +197,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x473B5FAF0
+	 * 		RVA    -> 0x6E79EFAF0
 	 * 		Name   -> Function ImgMedia.ImgMediaSource.AddGlobalCamera
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:

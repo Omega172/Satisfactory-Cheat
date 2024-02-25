@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -46,7 +46,7 @@ namespace CG
 	public:
 		class UTypedElementSelectionSet*                           SelectionSet;                                            // 0x0000(0x0008)  (Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 		struct FTypedElementSelectionNormalizationOptions          NormalizationOptions;                                    // 0x0008(0x0002)  (ConstParm, Parm, NoDestructor, NativeAccessSpecifierPublic)
-		unsigned char                                              UnknownData_OTQH[0x6];                                   // 0x000A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY) ()
+		unsigned char                                              UnknownData_2CUJ[0x6];                                   // 0x000A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY) ()
 		struct FScriptTypedElementListProxy                        ReturnValue;                                             // 0x0010(0x0010)  (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
 	};
 
@@ -59,7 +59,7 @@ namespace CG
 		class UTypedElementSelectionSet*                           SelectionSet;                                            // 0x0000(0x0008)  (Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 		struct FScriptTypedElementListProxy                        ElementList;                                             // 0x0008(0x0010)  (ConstParm, Parm, NativeAccessSpecifierPublic)
 		struct FTypedElementSelectionNormalizationOptions          NormalizationOptions;                                    // 0x0018(0x0002)  (ConstParm, Parm, NoDestructor, NativeAccessSpecifierPublic)
-		unsigned char                                              UnknownData_OSUP[0x6];                                   // 0x001A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY) ()
+		unsigned char                                              UnknownData_DHNJ[0x6];                                   // 0x001A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY) ()
 		struct FScriptTypedElementListProxy                        ReturnValue;                                             // 0x0020(0x0010)  (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
 	};
 
@@ -194,7 +194,7 @@ namespace CG
 	public:
 		struct FScriptTypedElementHandle                           InElementHandle;                                         // 0x0000(0x0008)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
 		ETypedElementSelectionMethod                               InSelectionMethod;                                       // 0x0008(0x0001)  (ConstParm, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-		unsigned char                                              UnknownData_RRP2[0x7];                                   // 0x0009(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY) ()
+		unsigned char                                              UnknownData_0TCV[0x7];                                   // 0x0009(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY) ()
 		struct FScriptTypedElementHandle                           ReturnValue;                                             // 0x0010(0x0008)  (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
 	};
 
@@ -348,7 +348,7 @@ namespace CG
 	public:
 		struct FScriptTypedElementHandle                           InElementHandle;                                         // 0x0000(0x0008)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
 		bool                                                       bAllowCreate;                                            // 0x0008(0x0001)  (ConstParm, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-		unsigned char                                              UnknownData_5PFH[0x7];                                   // 0x0009(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY) ()
+		unsigned char                                              UnknownData_EP8J[0x7];                                   // 0x0009(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY) ()
 		struct FScriptTypedElementHandle                           ReturnValue;                                             // 0x0010(0x0008)  (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
 	};
 
@@ -416,7 +416,7 @@ namespace CG
 		struct FScriptTypedElementHandle                           InElementHandle;                                         // 0x0000(0x0008)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
 		struct FScriptTypedElementListProxy                        InCurrentSelection;                                      // 0x0008(0x0010)  (ConstParm, Parm, NativeAccessSpecifierPublic)
 		ETypedElementSelectionMethod                               InSelectionMethod;                                       // 0x0018(0x0001)  (ConstParm, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-		unsigned char                                              UnknownData_DHAR[0x7];                                   // 0x0019(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY) ()
+		unsigned char                                              UnknownData_PRFG[0x7];                                   // 0x0019(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY) ()
 		struct FScriptTypedElementHandle                           ReturnValue;                                             // 0x0020(0x0008)  (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
 	};
 

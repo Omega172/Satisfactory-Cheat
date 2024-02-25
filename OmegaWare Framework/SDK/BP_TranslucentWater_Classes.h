@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -21,7 +21,7 @@ namespace CG
 	class ABP_TranslucentWater_C : public AActor
 	{
 	public:
-		unsigned char                                              UnknownData_JFX0[0x8];                                   // 0x02F8(0x0008) Fix Super Size
+		unsigned char                                              UnknownData_NMA0[0x8];                                   // 0x02F8(0x0008) Fix Super Size
 		class UStaticMeshComponent*                                WaterSurface;                                            // 0x0300(0x0008) BlueprintVisible, ZeroConstructor, InstancedReference, NonTransactional, NoDestructor, HasGetValueTypeHash
 		class UMaterialInterface*                                  OceanMaterial;                                           // 0x0308(0x0008) Edit, BlueprintVisible, ZeroConstructor, NoDestructor, HasGetValueTypeHash
 		double                                                     WaterScaleX;                                             // 0x0310(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash

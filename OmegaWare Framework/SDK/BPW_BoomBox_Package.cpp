@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BoomBox.BPW_BoomBox_C.SetPlayButtonStatus
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -34,7 +34,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BoomBox.BPW_BoomBox_C.TogglePlay
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -53,7 +53,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BoomBox.BPW_BoomBox_C.SetCurrentTape
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -75,7 +75,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BoomBox.BPW_BoomBox_C.Construct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 */
@@ -94,7 +94,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BoomBox.BPW_BoomBox_C.BndEvt__BPW_BoomBox_TapeSelect_K2Node_ComponentBoundEvent_0_OnTapeSelected__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -116,7 +116,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BoomBox.BPW_BoomBox_C.BndEvt__BPW_BoomBox_Player_K2Node_ComponentBoundEvent_1_OnChangeTapeClicked__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -135,7 +135,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BoomBox.BPW_BoomBox_C.BndEvt__BPW_BoomBox_Player_K2Node_ComponentBoundEvent_2_OnPlayClicked__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -154,7 +154,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BoomBox.BPW_BoomBox_C.BndEvt__BPW_BoomBox_Player_K2Node_ComponentBoundEvent_3_OnNextClicked__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -173,7 +173,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BoomBox.BPW_BoomBox_C.BndEvt__BPW_BoomBox_Player_K2Node_ComponentBoundEvent_4_OnPreviousClicked__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -192,7 +192,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BoomBox.BPW_BoomBox_C.BndEvt__BPW_BoomBox_Player_K2Node_ComponentBoundEvent_5_OnCloseClicked__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -211,7 +211,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BoomBox.BPW_BoomBox_C.CurrentSongChanged
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -235,7 +235,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BoomBox.BPW_BoomBox_C.CurrentTapeChanged
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -257,7 +257,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BoomBox.BPW_BoomBox_C.PlaybackPositionUpdate
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -281,7 +281,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BoomBox.BPW_BoomBox_C.PlaybackStateChanged
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -303,7 +303,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BoomBox.BPW_BoomBox_C.BndEvt__BPW_BoomBox_BPW_BoomBox_TapeSelect_K2Node_ComponentBoundEvent_6_OnBackToPlayerClicked__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -322,7 +322,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BoomBox.BPW_BoomBox_C.AudioVolumeChanged
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -344,7 +344,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BoomBox.BPW_BoomBox_C.BndEvt__BPW_BoomBox_BPW_BoomBox_Player_K2Node_ComponentBoundEvent_7_OnVolumeChanged__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -366,7 +366,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BoomBox.BPW_BoomBox_C.BndEvt__BPW_BoomBox_BPW_BoomBox_Player_K2Node_ComponentBoundEvent_8_OnPickupClicked__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -385,7 +385,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BoomBox.BPW_BoomBox_C.RepeatModeChanged
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -407,7 +407,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BoomBox.BPW_BoomBox_C.BndEvt__BPW_BoomBox_BPW_BoomBox_Player_K2Node_ComponentBoundEvent_9_OnLoopingChanged__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -429,7 +429,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BoomBox.BPW_BoomBox_C.BoomBoxModeChanged
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -451,7 +451,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> Function BPW_BoomBox.BPW_BoomBox_C.ExecuteUbergraph_BPW_BoomBox
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:

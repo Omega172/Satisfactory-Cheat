@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -105,7 +105,7 @@ namespace CG
 	class UTypedElementRegistry : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_7ZRA[0x950];                                 // 0x0028(0x0950) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_Q0WT[0x950];                                 // 0x0028(0x0950) MISSED OFFSET (PADDING)
 
 	public:
 		class UTypedElementRegistry* STATIC_GetInstance();
@@ -154,7 +154,7 @@ namespace CG
 	class UTestTypedElementInterfaceA_ImplTyped : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_JGOZ[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_UQHY[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -167,7 +167,7 @@ namespace CG
 	class UTestTypedElementInterfaceA_ImplUntyped : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_VZGV[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_KK7I[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -180,7 +180,7 @@ namespace CG
 	class UTestTypedElementInterfaceBAndC_Typed : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_LGMJ[0x10];                                  // 0x0028(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_9SN1[0x10];                                  // 0x0028(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();

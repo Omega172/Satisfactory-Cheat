@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -94,7 +94,7 @@ namespace CG
 		int32_t                                                    Flags;                                                   // 0x0008(0x0004)
 		int32_t                                                    ClusterIndex;                                            // 0x000C(0x0004)
 		int32_t                                                    SerialNumber;                                            // 0x0010(0x0004)
-		unsigned char                                              pad_PFL9CN69LQ[0x04];                                    // 0x0014(0x0004)
+		unsigned char                                              pad_11798AI1KX[0x04];                                    // 0x0014(0x0004)
 
 	public:
 		bool IsUnreachable() const;

@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -26,7 +26,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479015C00
+	 * 		RVA    -> 0x6EA395C00
 	 * 		Name   -> Function ApexDestruction.DestructibleComponent.SetDestructibleMesh
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -49,7 +49,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479015B90
+	 * 		RVA    -> 0x6EA395B90
 	 * 		Name   -> Function ApexDestruction.DestructibleComponent.GetDestructibleMesh
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -71,7 +71,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4790159C0
+	 * 		RVA    -> 0x6EA3959C0
 	 * 		Name   -> Function ApexDestruction.DestructibleComponent.ApplyRadiusDamage
 	 * 		Flags  -> (Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -102,7 +102,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x479015810
+	 * 		RVA    -> 0x6EA395810
 	 * 		Name   -> Function ApexDestruction.DestructibleComponent.ApplyDamage
 	 * 		Flags  -> (Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:

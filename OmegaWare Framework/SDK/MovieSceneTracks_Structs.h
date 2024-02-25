@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -71,10 +71,10 @@ namespace CG
 	{
 	public:
 		float                                                      Frequency;                                               // 0x0000(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_7KTP[0x4];                                   // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_9VQP[0x4];                                   // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		double                                                     Amplitude;                                               // 0x0008(0x0008) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      Offset;                                                  // 0x0010(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_NGI6[0x4];                                   // 0x0014(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_7MSN[0x4];                                   // 0x0014(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -143,7 +143,7 @@ namespace CG
 		TArray<class FString>                                      Values;                                                  // 0x0060(0x0010) ZeroConstructor, NativeAccessSpecifierPrivate
 		class FString                                              DefaultValue;                                            // 0x0070(0x0010) ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		bool                                                       bHasDefaultValue;                                        // 0x0080(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_4SVZ[0x7];                                   // 0x0081(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_MYRY[0x7];                                   // 0x0081(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FMovieSceneKeyHandleMap                             KeyHandles;                                              // 0x0088(0x0088) Transient, NativeAccessSpecifierPrivate
 	};
 
@@ -157,7 +157,7 @@ namespace CG
 		class UClass*                                              ShakeClass;                                              // 0x0000(0x0008) Edit, ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      PlayScale;                                               // 0x0008(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ECameraShakePlaySpace                                      PlaySpace;                                               // 0x000C(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_PAJ2[0x3];                                   // 0x000D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_8V18[0x3];                                   // 0x000D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRotator                                            UserDefinedPlaySpace;                                    // 0x0010(0x0018) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 	};
 
@@ -171,7 +171,7 @@ namespace CG
 		class UClass*                                              ShakeClass;                                              // 0x0000(0x0008) Edit, BlueprintVisible, ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      PlayScale;                                               // 0x0008(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ECameraShakePlaySpace                                      PlaySpace;                                               // 0x000C(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_HDBD[0x3];                                   // 0x000D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_1QAW[0x3];                                   // 0x000D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FRotator                                            UserDefinedPlaySpace;                                    // 0x0010(0x0018) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 	};
 
@@ -196,7 +196,7 @@ namespace CG
 	public:
 		unsigned char                                              Interface[0x10];                                         // 0x0000(0x0010) UNKNOWN PROPERTY: InterfaceProperty
 		bool                                                       bOnlyIncludeChecked;                                     // 0x0010(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_B5A5[0x7];                                   // 0x0011(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_DMSY[0x7];                                   // 0x0011(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -237,7 +237,7 @@ namespace CG
 	struct FMovieSceneEventParameters
 	{
 	public:
-		unsigned char                                              UnknownData_46SB[0x30];                                  // 0x0000(0x0030) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_H5XK[0x30];                                  // 0x0000(0x0030) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -369,18 +369,18 @@ namespace CG
 		struct FFrameNumber                                        EndFrameOffset;                                          // 0x0010(0x0004) Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      PlayRate;                                                // 0x0014(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bReverse : 1;                                            // 0x0018(0x0001) BIT_FIELD Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_OCM1[0x3];                                   // 0x0019(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_JQZG[0x3];                                   // 0x0019(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FName                                                SlotName;                                                // 0x001C(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_5EQW[0x4];                                   // 0x0024(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_G5B8[0x4];                                   // 0x0024(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UMirrorDataTable*                                    MirrorDataTable;                                         // 0x0028(0x0008) Edit, BlueprintVisible, ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FMovieSceneFloatChannel                             Weight;                                                  // 0x0030(0x0110) NativeAccessSpecifierPublic
 		bool                                                       bSkipAnimNotifiers;                                      // 0x0140(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bForceCustomMode;                                        // 0x0141(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		ESwapRootBone                                              SwapRootBone;                                            // 0x0142(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_5QOI[0x1];                                   // 0x0143(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_08WL[0x1];                                   // 0x0143(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      StartOffset;                                             // 0x0144(0x0004) ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      EndOffset;                                               // 0x0148(0x0004) ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_NSSF[0x4];                                   // 0x014C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_GHOZ[0x4];                                   // 0x014C(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -390,7 +390,7 @@ namespace CG
 	struct FMovieSceneSkeletalAnimRootMotionTrackParams
 	{
 	public:
-		unsigned char                                              UnknownData_P0EZ[0x80];                                  // 0x0000(0x0080) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_VZAE[0x80];                                  // 0x0000(0x0080) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -425,11 +425,11 @@ namespace CG
 		struct FMovieSceneFloatChannel                             TimingCurve;                                             // 0x0038(0x0110) NativeAccessSpecifierPublic
 		EMovieScene3DPathSection_Axis                              FrontAxisEnum;                                           // 0x0148(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EMovieScene3DPathSection_Axis                              UpAxisEnum;                                              // 0x0149(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_N8AY[0x2];                                   // 0x014A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_TMFV[0x2];                                   // 0x014A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		bool                                                       bFollow : 1;                                             // 0x014C(0x0001) BIT_FIELD NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bReverse : 1;                                            // 0x014C(0x0001) BIT_FIELD NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bForceUpright : 1;                                       // 0x014C(0x0001) BIT_FIELD NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_9CM9[0x3];                                   // 0x014D(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_FJ0A[0x3];                                   // 0x014D(0x0003) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -496,7 +496,7 @@ namespace CG
 	public:
 		struct FMovieSceneCameraShakeSectionData                   SourceData;                                              // 0x0020(0x0028) NoDestructor, NativeAccessSpecifierPrivate
 		struct FFrameNumber                                        SectionStartTime;                                        // 0x0048(0x0004) NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_JEKP[0x4];                                   // 0x004C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_HVW2[0x4];                                   // 0x004C(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -508,7 +508,7 @@ namespace CG
 	public:
 		struct FMovieSceneFloatChannel                             Curves[0x4];                                             // 0x0038(0x0440) NativeAccessSpecifierPublic
 		EMovieSceneBlendType                                       BlendType;                                               // 0x0478(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_0L1L[0x7];                                   // 0x0479(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_8FQ7[0x7];                                   // 0x0479(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -521,7 +521,7 @@ namespace CG
 		struct FMovieSceneEventSectionData                         EventData;                                               // 0x0020(0x00F8) NativeAccessSpecifierPublic
 		bool                                                       bFireEventsWhenForwards : 1;                             // 0x0118(0x0001) BIT_FIELD NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bFireEventsWhenBackwards : 1;                            // 0x0118(0x0001) BIT_FIELD NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_4Q79[0x7];                                   // 0x0119(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_9L9I[0x7];                                   // 0x0119(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -631,7 +631,7 @@ namespace CG
 	{
 	public:
 		class FName                                                ConstraintName;                                          // 0x0000(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_GX07[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_P73K[0x8];                                   // 0x0008(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -653,7 +653,7 @@ namespace CG
 	public:
 		struct FVector                                             Location;                                                // 0x0008(0x0018) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FFrameNumber                                        Time;                                                    // 0x0020(0x0004) Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_OEXF[0x1C];                                  // 0x0024(0x001C) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_5RR0[0x1C];                                  // 0x0024(0x001C) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -665,7 +665,7 @@ namespace CG
 	public:
 		struct FRotator                                            Rotation;                                                // 0x0008(0x0018) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 		struct FFrameNumber                                        Time;                                                    // 0x0020(0x0004) Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_PJVQ[0x1C];                                  // 0x0024(0x001C) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_T00L[0x1C];                                  // 0x0024(0x001C) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -677,7 +677,7 @@ namespace CG
 	public:
 		struct FVector3f                                           Scale;                                                   // 0x0008(0x000C) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FFrameNumber                                        Time;                                                    // 0x0014(0x0004) Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_72U2[0x18];                                  // 0x0018(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_NI13[0x18];                                  // 0x0018(0x0018) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -691,7 +691,7 @@ namespace CG
 		struct FRotator                                            Rotation;                                                // 0x0020(0x0018) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
 		struct FVector3f                                           Scale;                                                   // 0x0038(0x000C) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FFrameNumber                                        Time;                                                    // 0x0044(0x0004) Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_Z0PM[0x18];                                  // 0x0048(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_R581[0x18];                                  // 0x0048(0x0018) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -701,13 +701,13 @@ namespace CG
 	struct FMovieSceneBaseCacheParams
 	{
 	public:
-		unsigned char                                              UnknownData_J8T5[0x8];                                   // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_93WX[0x8];                                   // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FFrameNumber                                        FirstLoopStartFrameOffset;                               // 0x0008(0x0004) Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FFrameNumber                                        StartFrameOffset;                                        // 0x000C(0x0004) Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FFrameNumber                                        EndFrameOffset;                                          // 0x0010(0x0004) Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      PlayRate;                                                // 0x0014(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bReverse : 1;                                            // 0x0018(0x0001) BIT_FIELD Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_8PU4[0x7];                                   // 0x0019(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_73U4[0x7];                                   // 0x0019(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -719,7 +719,7 @@ namespace CG
 	public:
 		struct FLinearColor                                        Color;                                                   // 0x0008(0x0010) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FFrameNumber                                        Time;                                                    // 0x0018(0x0004) Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_7L3K[0x1C];                                  // 0x001C(0x001C) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_WMGB[0x1C];                                  // 0x001C(0x001C) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -730,7 +730,7 @@ namespace CG
 	{
 	public:
 		struct FFrameNumber                                        Time;                                                    // 0x0008(0x0004) Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_7P7T[0x1C];                                  // 0x000C(0x001C) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_9HWS[0x1C];                                  // 0x000C(0x001C) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -751,7 +751,7 @@ namespace CG
 	{
 	public:
 		struct FVector3f                                           Vector;                                                  // 0x0028(0x000C) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_VRFN[0x4];                                   // 0x0034(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_L12R[0x4];                                   // 0x0034(0x0004) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -761,7 +761,7 @@ namespace CG
 	struct FMovieSceneVector4fKeyStruct : public FMovieSceneFloatVectorKeyStructBase
 	{
 	public:
-		unsigned char                                              UnknownData_6VVX[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_7O0G[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector4f                                           Vector;                                                  // 0x0030(0x0010) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -773,7 +773,7 @@ namespace CG
 	{
 	public:
 		struct FFrameNumber                                        Time;                                                    // 0x0008(0x0004) Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_TOL9[0x1C];                                  // 0x000C(0x001C) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_BBZJ[0x1C];                                  // 0x000C(0x001C) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -803,7 +803,7 @@ namespace CG
 	struct FMovieSceneVector4dKeyStruct : public FMovieSceneDoubleVectorKeyStructBase
 	{
 	public:
-		unsigned char                                              UnknownData_EFV8[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_TQ30[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector4d                                           Vector;                                                  // 0x0030(0x0020) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 	};
 
@@ -816,7 +816,7 @@ namespace CG
 	public:
 		struct FMovieSceneEventPtrs                                Ptrs;                                                    // 0x0000(0x0028) NativeAccessSpecifierPublic
 		struct FGuid                                               ObjectBindingID;                                         // 0x0028(0x0010) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_XDRU[0x10];                                  // 0x0038(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_QOE7[0x10];                                  // 0x0038(0x0010) MISSED OFFSET (PADDING)
 	};
 
 }

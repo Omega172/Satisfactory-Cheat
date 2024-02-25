@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -194,7 +194,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47B28C3D0
+	 * 		RVA    -> 0x6F3E0C3D0
 	 * 		Name   -> Function TemplateSequence.TemplateSequenceActor.SetSequence
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -217,7 +217,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47B28C2F0
+	 * 		RVA    -> 0x6F3E0C2F0
 	 * 		Name   -> Function TemplateSequence.TemplateSequenceActor.SetBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -242,7 +242,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47B28C280
+	 * 		RVA    -> 0x6F3E0C280
 	 * 		Name   -> Function TemplateSequence.TemplateSequenceActor.LoadSequence
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -264,7 +264,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47B28C210
+	 * 		RVA    -> 0x6F3E0C210
 	 * 		Name   -> Function TemplateSequence.TemplateSequenceActor.GetSequencePlayer
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -286,7 +286,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47B28C1A0
+	 * 		RVA    -> 0x6F3E0C1A0
 	 * 		Name   -> Function TemplateSequence.TemplateSequenceActor.GetSequence
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -322,7 +322,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47B28BA40
+	 * 		RVA    -> 0x6F3E0BA40
 	 * 		Name   -> Function TemplateSequence.TemplateSequencePlayer.CreateTemplateSequencePlayer
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -369,7 +369,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47B28BF80
+	 * 		RVA    -> 0x6F3E0BF80
 	 * 		Name   -> Function TemplateSequence.SequenceCameraShakeTestUtil.GetPostProcessBlendCache
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -403,7 +403,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47B28BE90
+	 * 		RVA    -> 0x6F3E0BE90
 	 * 		Name   -> Function TemplateSequence.SequenceCameraShakeTestUtil.GetLastFrameCameraCachePOV
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -428,7 +428,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47B28BDA0
+	 * 		RVA    -> 0x6F3E0BDA0
 	 * 		Name   -> Function TemplateSequence.SequenceCameraShakeTestUtil.GetCameraCachePOV
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:

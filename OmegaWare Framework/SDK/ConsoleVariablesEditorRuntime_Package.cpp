@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4769836D0
+	 * 		RVA    -> 0x6E81536D0
 	 * 		Name   -> Function ConsoleVariablesEditorRuntime.ConsoleVariablesAsset.SetVariableCollectionDescription
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -35,7 +35,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4769835F0
+	 * 		RVA    -> 0x6E81535F0
 	 * 		Name   -> Function ConsoleVariablesEditorRuntime.ConsoleVariablesAsset.ReplaceSavedCommands
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -58,7 +58,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x476983530
+	 * 		RVA    -> 0x6E8153530
 	 * 		Name   -> Function ConsoleVariablesEditorRuntime.ConsoleVariablesAsset.RemoveConsoleVariable
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -83,7 +83,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4769834E0
+	 * 		RVA    -> 0x6E81534E0
 	 * 		Name   -> Function ConsoleVariablesEditorRuntime.ConsoleVariablesAsset.GetVariableCollectionDescription
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -105,7 +105,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4769834C0
+	 * 		RVA    -> 0x6E81534C0
 	 * 		Name   -> Function ConsoleVariablesEditorRuntime.ConsoleVariablesAsset.GetSavedCommandsCount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -127,7 +127,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x476983390
+	 * 		RVA    -> 0x6E8153390
 	 * 		Name   -> Function ConsoleVariablesEditorRuntime.ConsoleVariablesAsset.GetSavedCommandsAsStringArray
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -152,7 +152,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4769832D0
+	 * 		RVA    -> 0x6E81532D0
 	 * 		Name   -> Function ConsoleVariablesEditorRuntime.ConsoleVariablesAsset.GetSavedCommandsAsCommaSeparatedString
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -177,7 +177,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4769832A0
+	 * 		RVA    -> 0x6E81532A0
 	 * 		Name   -> Function ConsoleVariablesEditorRuntime.ConsoleVariablesAsset.GetSavedCommands
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -199,7 +199,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x476983100
+	 * 		RVA    -> 0x6E8153100
 	 * 		Name   -> Function ConsoleVariablesEditorRuntime.ConsoleVariablesAsset.FindSavedDataByCommandString
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -230,7 +230,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x476983020
+	 * 		RVA    -> 0x6E8153020
 	 * 		Name   -> Function ConsoleVariablesEditorRuntime.ConsoleVariablesAsset.ExecuteSavedCommands
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, Const)
 	 * Parameters:
@@ -255,7 +255,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x476982F60
+	 * 		RVA    -> 0x6E8152F60
 	 * 		Name   -> Function ConsoleVariablesEditorRuntime.ConsoleVariablesAsset.CopyFrom
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -278,7 +278,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x476982E90
+	 * 		RVA    -> 0x6E8152E90
 	 * 		Name   -> Function ConsoleVariablesEditorRuntime.ConsoleVariablesAsset.AddOrSetConsoleObjectSavedData
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:

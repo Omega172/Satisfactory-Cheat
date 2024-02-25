@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -34,7 +34,7 @@ namespace CG
 	public:
 		TArray<struct FRawInputDeviceConfiguration>                DeviceConfigurations;                                    // 0x0038(0x0010) Edit, ZeroConstructor, Config, NativeAccessSpecifierPublic
 		bool                                                       bRegisterDefaultDevice;                                  // 0x0048(0x0001) Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_C99Y[0x7];                                   // 0x0049(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_478B[0x7];                                   // 0x0049(0x0007) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();

@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -27,7 +27,7 @@ namespace CG
 		struct FStruct_TooltipText                                 mWarningTooltip;                                         // 0x02A0(0x0030) Edit, BlueprintVisible, ExposeOnSpawn, HasGetValueTypeHash
 		struct FStruct_TooltipText                                 mErrorTooltip;                                           // 0x02D0(0x0030) Edit, BlueprintVisible, ExposeOnSpawn, HasGetValueTypeHash
 		EInputTextWarningState                                     mState;                                                  // 0x0300(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash
-		unsigned char                                              UnknownData_APZE[0x7];                                   // 0x0301(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_L7ZQ[0x7];                                   // 0x0301(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UMaterialInstanceDynamic*                            mWarningMaterial;                                        // 0x0308(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
 
 	public:

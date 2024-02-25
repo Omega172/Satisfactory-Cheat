@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x472923C30
+	 * 		RVA    -> 0x6E6A63C30
 	 * 		Name   -> Function AudioCapture.AudioCapture.StopCapturingAudio
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -32,7 +32,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x472923BE0
+	 * 		RVA    -> 0x6E6A63BE0
 	 * 		Name   -> Function AudioCapture.AudioCapture.StartCapturingAudio
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -52,7 +52,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x472923BA0
+	 * 		RVA    -> 0x6E6A63BA0
 	 * 		Name   -> Function AudioCapture.AudioCapture.IsCapturingAudio
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -74,7 +74,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x472923A10
+	 * 		RVA    -> 0x6E6A63A10
 	 * 		Name   -> Function AudioCapture.AudioCapture.GetAudioCaptureDeviceInfo
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -115,7 +115,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4729239E0
+	 * 		RVA    -> 0x6E6A639E0
 	 * 		Name   -> Function AudioCapture.AudioCaptureFunctionLibrary.CreateAudioCapture
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 */
@@ -151,7 +151,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x472923AC0
+	 * 		RVA    -> 0x6E6A63AC0
 	 * 		Name   -> Function AudioCapture.AudioCaptureBlueprintLibrary.GetAvailableAudioInputDevices
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -176,7 +176,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4729238A0
+	 * 		RVA    -> 0x6E6A638A0
 	 * 		Name   -> Function AudioCapture.AudioCaptureBlueprintLibrary.Conv_AudioInputDeviceInfoToString
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:

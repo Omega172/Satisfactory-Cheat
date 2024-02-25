@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -36,10 +36,10 @@ namespace CG
 	class UTypedElementSelectionSet : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_T43P[0x800];                                 // 0x0028(0x0800) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_GCD3[0x800];                                 // 0x0028(0x0800) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FScriptMulticastDelegate                             OnPreSelectionChange;                                    // 0x0828(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
 		class FScriptMulticastDelegate                             OnSelectionChange;                                       // 0x0838(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_M0BK[0x50];                                  // 0x0848(0x0050) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_O2CR[0x50];                                  // 0x0848(0x0050) MISSED OFFSET (PADDING)
 
 	public:
 		bool SetSelection(TArray<struct FScriptTypedElementHandle> InElementHandles, const struct FTypedElementSelectionOptions& InSelectionOptions);

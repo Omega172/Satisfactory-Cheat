@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -23,7 +23,7 @@ namespace CG
 	public:
 		struct FPointerToUberGraphFrame                            UberGraphFrame;                                          // 0x0510(0x0008) ZeroConstructor, Transient, DuplicateTransient
 		struct UBPA_1pZipline_C_FAnimBlueprintGeneratedMutableData __AnimBlueprintMutables;                                 // 0x0518(0x000C) HasGetValueTypeHash
-		unsigned char                                              UnknownData_Q5EW[0x4];                                   // 0x0524(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_LEA6[0x4];                                   // 0x0524(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FAnimSubsystemInstance                              AnimBlueprintExtension_PropertyAccess;                   // 0x0528(0x0008)
 		struct FAnimSubsystemInstance                              AnimBlueprintExtension_Base;                             // 0x0530(0x0008)
 		struct FAnimNode_Root                                      AnimGraphNode_Root;                                      // 0x0538(0x0020)

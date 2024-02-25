@@ -5,31 +5,34 @@
 class PlayerMod : public Feature
 {
 private:
-	bool Initalized = false;
+	bool Initialized = false;
 
 	KeyBindToggle SpeedHackKey = KeyBindToggle(ImGuiKey_V);
-	bool bSettingSpeedHackKey = false;
 	float fSpeedHackFactor = 10.f;
 	bool bSpeedSwitch = false;
+
 	float fOldSprintSpeed = 0;
 	float fOldAcceleration = 0;
 
 	KeyBind TeleportKey = KeyBind(ImGuiKey_T);
-	bool bSettingTeleportKey = false;
 	int iTeleportOffset = 50;
 
 public:
-	PlayerMod() {};
+	PlayerMod() {}
 
-	bool Setup() override;
+	bool Setup();
 
-	void Destroy() override;
+	void Destroy();
 
-	virtual void HandleKeys() override { SpeedHackKey.HandleToggle(); };
+	void HandleKeys();
 
-	virtual void DrawMenuItems() override;
+	void PopulateMenu();
 
-	virtual void Render() override {};
+	void Render() {}
 
-	virtual void Run() override;
+	void Run() {}
+
+	void SaveConfig();
+
+	void LoadConfig();
 };

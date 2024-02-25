@@ -1,9 +1,15 @@
 #pragma once
 #include "imgui.h"
+#include "../Localization/LocaleStructs.h"
 
-inline ImFont* defaultFont;
-inline ImFont* tahomaFont;
-inline ImFont* tahomaFontESP;
+inline ImFont* CurrentFont;
+inline ImFont* CurrentFontESP;
+
+inline ImFont* TahomaFont;
+inline ImFont* TahomaFontESP; // A font with extra spacing for ESP
+
+inline ImFont* TahomaFontPolish;
+inline ImFont* TahomaFontPolishESP;
 
 inline void SetupStyle()
 {
@@ -94,16 +100,18 @@ inline void SetupStyle()
 	colors[ImGuiCol_NavWindowingHighlight] = ImVec4(1.00f, 1.00f, 1.00f, 0.70f);
 	colors[ImGuiCol_NavWindowingDimBg] = ImVec4(0.80f, 0.80f, 0.80f, 0.20f);
 	colors[ImGuiCol_ModalWindowDimBg] = ImVec4(0.80f, 0.80f, 0.80f, 0.35f);
-
 }
 
 inline void ImportFonts()
 {
 	ImGuiIO& io = ImGui::GetIO();
-	defaultFont = io.Fonts->AddFontDefault();
-	tahomaFont = io.Fonts->AddFontFromFileTTF("C:\\Windows\\Fonts\\Tahoma.ttf", 14.0f);
 
 	ImFontConfig Config;
 	Config.GlyphExtraSpacing.x = 1.f;
-	tahomaFontESP = io.Fonts->AddFontFromFileTTF("C:\\Windows\\Fonts\\Tahoma.ttf", 14.0f, &Config);
+
+	TahomaFont = io.Fonts->AddFontFromFileTTF("C:\\Windows\\Fonts\\Tahoma.ttf", 14.0f, NULL, io.Fonts->GetGlyphRangesDefault());
+	TahomaFontESP = io.Fonts->AddFontFromFileTTF("C:\\Windows\\Fonts\\Tahoma.ttf", 14.0f, &Config, io.Fonts->GetGlyphRangesDefault());
+
+	TahomaFontPolish = io.Fonts->AddFontFromFileTTF("C:\\Windows\\Fonts\\Tahoma.ttf", 14.0f, NULL, PolishRanges);
+	TahomaFontPolishESP = io.Fonts->AddFontFromFileTTF("C:\\Windows\\Fonts\\Tahoma.ttf", 14.0f, &Config, PolishRanges);
 }

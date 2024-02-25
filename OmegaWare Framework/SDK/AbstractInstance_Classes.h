@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -22,7 +22,7 @@ namespace CG
 	{
 	public:
 		class UAbstractInstanceDataObject*                         InstanceData;                                            // 0x02F8(0x0008) Edit, ExportObject, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, Protected, PersistentInstance, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_MBWS[0x10];                                  // 0x0300(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_Y1UV[0x10];                                  // 0x0300(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -50,10 +50,10 @@ namespace CG
 	{
 	public:
 		TMap<class FName, struct FInstanceComponentData>           InstanceMap;                                             // 0x02F8(0x0050) Edit, DisableEditOnTemplate, EditConst, ContainsInstancedReference, Protected, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_Y91B[0x30];                                  // 0x0348(0x0030) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_D2KO[0x30];                                  // 0x0348(0x0030) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class AActor*                                              LastResolvedLazyTaskActor;                               // 0x0378(0x0008) ZeroConstructor, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		unsigned char                                              DeferredMarkDirtySet[0x50];                              // 0x0380(0x0050) UNKNOWN PROPERTY: SetProperty
-		unsigned char                                              UnknownData_L1L7[0x8];                                   // 0x03D0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_V93B[0x8];                                   // 0x03D0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class AActor*                                              CachedPlayerCharacter;                                   // 0x03D8(0x0008) ZeroConstructor, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 
 	public:

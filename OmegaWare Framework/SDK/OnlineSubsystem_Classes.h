@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -23,7 +23,7 @@ namespace CG
 	public:
 		TArray<struct FNamedInterface>                             NamedInterfaces;                                         // 0x0028(0x0010) ZeroConstructor, NativeAccessSpecifierPrivate
 		TArray<struct FNamedInterfaceDef>                          NamedInterfaceDefs;                                      // 0x0038(0x0010) ZeroConstructor, Config, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_5KWA[0x18];                                  // 0x0048(0x0018) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_JWER[0x18];                                  // 0x0048(0x0018) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();

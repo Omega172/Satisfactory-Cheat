@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -59,9 +59,9 @@ namespace CG
 	struct FMetaSoundAsyncAssetDependencies
 	{
 	public:
-		unsigned char                                              UnknownData_VZUT[0x8];                                   // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_FBLG[0x8];                                   // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UObject*                                             Metasound;                                               // 0x0008(0x0008) ZeroConstructor, Transient, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_1P97[0x20];                                  // 0x0010(0x0020) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_NQUI[0x20];                                  // 0x0010(0x0020) MISSED OFFSET (PADDING)
 	};
 
 	/**

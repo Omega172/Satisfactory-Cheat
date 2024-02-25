@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -24,7 +24,7 @@ namespace CG
 		bool                                                       bUseLegacyProcessor : 1;                                 // 0x0038(0x0001) BIT_FIELD Edit, Config, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bUse32fLUT : 1;                                          // 0x0038(0x0001) BIT_FIELD Edit, Config, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bSupportInverseViewTransforms : 1;                       // 0x0038(0x0001) BIT_FIELD Edit, Config, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_81WN[0x7];                                   // 0x0039(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_DFRJ[0x7];                                   // 0x0039(0x0007) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -50,15 +50,15 @@ namespace CG
 	public:
 		class UOpenColorIOConfiguration*                           ConfigurationOwner;                                      // 0x0028(0x0008) ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bIsDisplayViewType;                                      // 0x0030(0x0001) Edit, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_KFLD[0x7];                                   // 0x0031(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_DMRL[0x7];                                   // 0x0031(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FString                                              SourceColorSpace;                                        // 0x0038(0x0010) Edit, ZeroConstructor, EditConst, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FString                                              DestinationColorSpace;                                   // 0x0048(0x0010) Edit, ZeroConstructor, EditConst, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FString                                              Display;                                                 // 0x0058(0x0010) Edit, ZeroConstructor, EditConst, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FString                                              View;                                                    // 0x0068(0x0010) Edit, ZeroConstructor, EditConst, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EOpenColorIOViewTransformDirection                         DisplayViewDirection;                                    // 0x0078(0x0001) Edit, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_LVAB[0x7];                                   // 0x0079(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_I80H[0x7];                                   // 0x0079(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TMap<int32_t, class UTexture*>                             Textures;                                                // 0x0080(0x0050) Transient, UObjectWrapper, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_PQ7L[0x98];                                  // 0x00D0(0x0098) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_GC50[0x98];                                  // 0x00D0(0x0098) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -75,7 +75,7 @@ namespace CG
 		TArray<struct FOpenColorIOColorSpace>                      DesiredColorSpaces;                                      // 0x0038(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		TArray<struct FOpenColorIODisplayView>                     DesiredDisplayViews;                                     // 0x0048(0x0010) Edit, BlueprintVisible, ZeroConstructor, NativeAccessSpecifierPublic
 		TArray<class UOpenColorIOColorTransform*>                  ColorTransforms;                                         // 0x0058(0x0010) ZeroConstructor, UObjectWrapper, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_5KXY[0x30];                                  // 0x0068(0x0030) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_EKNL[0x30];                                  // 0x0068(0x0030) MISSED OFFSET (PADDING)
 
 	public:
 		void ReloadExistingColorspaces();
@@ -89,7 +89,7 @@ namespace CG
 	class UOpenColorIODisplayExtensionWrapper : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_HX30[0x10];                                  // 0x0028(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_2FWA[0x10];                                  // 0x0028(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		void SetSceneExtensionIsActiveFunctions(TArray<struct FSceneViewExtensionIsActiveFunctor> IsActiveFunctions);

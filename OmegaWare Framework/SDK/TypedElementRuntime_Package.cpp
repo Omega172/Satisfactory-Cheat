@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD060AF0
+	 * 		RVA    -> 0x7A46C0AF0
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionSetLibrary.SetSelectionFromList
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -41,7 +41,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD060820
+	 * 		RVA    -> 0x7A46C0820
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionSetLibrary.SelectElementsFromList
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -70,7 +70,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05F660
+	 * 		RVA    -> 0x7A46BF660
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionSetLibrary.GetNormalizedSelection
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -97,7 +97,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05F500
+	 * 		RVA    -> 0x7A46BF500
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionSetLibrary.GetNormalizedElementList
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -126,7 +126,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05EDB0
+	 * 		RVA    -> 0x7A46BEDB0
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionSetLibrary.DeselectElementsFromList
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -169,7 +169,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD060960
+	 * 		RVA    -> 0x7A46C0960
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionSet.SetSelection
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -196,7 +196,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD0606E0
+	 * 		RVA    -> 0x7A46C06E0
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionSet.SelectElements
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -223,7 +223,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD060580
+	 * 		RVA    -> 0x7A46C0580
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionSet.SelectElement
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -250,7 +250,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD060320
+	 * 		RVA    -> 0x7A46C0320
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionSet.RestoreSelectionState
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -273,7 +273,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> DelegateFunction TypedElementRuntime.TypedElementSelectionSet.OnPreChangeDynamic__DelegateSignature
 	 * 		Flags  -> (MulticastDelegate, Public, Delegate)
 	 * Parameters:
@@ -295,7 +295,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4C54A63A0
+	 * 		RVA    -> 0x71B1A63A0
 	 * 		Name   -> DelegateFunction TypedElementRuntime.TypedElementSelectionSet.OnChangeDynamic__DelegateSignature
 	 * 		Flags  -> (MulticastDelegate, Public, Delegate)
 	 * Parameters:
@@ -317,7 +317,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD060240
+	 * 		RVA    -> 0x7A46C0240
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionSet.K2_GetSelectedElementHandles
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, Const)
 	 * Parameters:
@@ -342,7 +342,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD060140
+	 * 		RVA    -> 0x7A46C0140
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionSet.IsElementSelected
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -369,7 +369,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05FF20
+	 * 		RVA    -> 0x7A46BFF20
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionSet.HasSelectedObjects
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, Const)
 	 * Parameters:
@@ -394,7 +394,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05FE70
+	 * 		RVA    -> 0x7A46BFE70
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionSet.HasSelectedElements
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, Const)
 	 * Parameters:
@@ -419,7 +419,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05FDD0
+	 * 		RVA    -> 0x7A46BFDD0
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionSet.GetTopSelectedObject
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -444,7 +444,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05FCB0
+	 * 		RVA    -> 0x7A46BFCB0
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionSet.GetSelectionElement
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -471,7 +471,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05FA30
+	 * 		RVA    -> 0x7A46BFA30
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionSet.GetSelectedObjects
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, Const)
 	 * Parameters:
@@ -496,7 +496,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05F750
+	 * 		RVA    -> 0x7A46BF750
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionSet.GetNumSelectedElements
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -518,7 +518,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05F480
+	 * 		RVA    -> 0x7A46BF480
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionSet.GetCurrentSelectionState
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -540,7 +540,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05F250
+	 * 		RVA    -> 0x7A46BF250
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionSet.GetBottomSelectedObject
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -565,7 +565,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05EC20
+	 * 		RVA    -> 0x7A46BEC20
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionSet.DeselectElements
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -592,7 +592,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05EAC0
+	 * 		RVA    -> 0x7A46BEAC0
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionSet.DeselectElement
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -619,7 +619,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05E8A0
+	 * 		RVA    -> 0x7A46BE8A0
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionSet.CountSelectedObjects
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, Const)
 	 * Parameters:
@@ -644,7 +644,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05E7F0
+	 * 		RVA    -> 0x7A46BE7F0
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionSet.CountSelectedElements
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, Const)
 	 * Parameters:
@@ -669,7 +669,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05E740
+	 * 		RVA    -> 0x7A46BE740
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionSet.ClearSelection
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -694,7 +694,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05E630
+	 * 		RVA    -> 0x7A46BE630
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionSet.CanSelectElement
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -721,7 +721,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05E400
+	 * 		RVA    -> 0x7A46BE400
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionSet.CanDeselectElement
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -748,7 +748,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05E220
+	 * 		RVA    -> 0x7A46BE220
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionSet.AllowSelectionModifiers
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -787,7 +787,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05F070
+	 * 		RVA    -> 0x7A46BF070
 	 * 		Name   -> Function TypedElementRuntime.TypedElementAssetDataInterface.GetAssetData
 	 * 		Flags  -> (Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -812,7 +812,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05EEF0
+	 * 		RVA    -> 0x7A46BEEF0
 	 * 		Name   -> Function TypedElementRuntime.TypedElementAssetDataInterface.GetAllReferencedAssetDatas
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -851,7 +851,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05F920
+	 * 		RVA    -> 0x7A46BF920
 	 * 		Name   -> Function TypedElementRuntime.TypedElementHierarchyInterface.GetParentElement
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -878,7 +878,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05F2F0
+	 * 		RVA    -> 0x7A46BF2F0
 	 * 		Name   -> Function TypedElementRuntime.TypedElementHierarchyInterface.GetChildElements
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -921,7 +921,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05F860
+	 * 		RVA    -> 0x7A46BF860
 	 * 		Name   -> Function TypedElementRuntime.TypedElementObjectInterface.GetObjectClass
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -946,7 +946,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05F7A0
+	 * 		RVA    -> 0x7A46BF7A0
 	 * 		Name   -> Function TypedElementRuntime.TypedElementObjectInterface.GetObject
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -985,7 +985,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD060400
+	 * 		RVA    -> 0x7A46C0400
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionInterface.SelectElement
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1014,7 +1014,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05FFC0
+	 * 		RVA    -> 0x7A46BFFC0
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionInterface.IsElementSelected
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1043,7 +1043,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05FB10
+	 * 		RVA    -> 0x7A46BFB10
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionInterface.GetSelectionElement
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1072,7 +1072,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05E940
+	 * 		RVA    -> 0x7A46BE940
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionInterface.DeselectElement
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1101,7 +1101,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05E510
+	 * 		RVA    -> 0x7A46BE510
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionInterface.CanSelectElement
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1128,7 +1128,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05E2E0
+	 * 		RVA    -> 0x7A46BE2E0
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionInterface.CanDeselectElement
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1155,7 +1155,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4DD05E0F0
+	 * 		RVA    -> 0x7A46BE0F0
 	 * 		Name   -> Function TypedElementRuntime.TypedElementSelectionInterface.AllowSelectionModifiers
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:

@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47E1A17D0
+	 * 		RVA    -> 0x6F4FE17D0
 	 * 		Name   -> Function AndroidFileServer.AndroidFileServerBPLibrary.StopFileServer
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -39,7 +39,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47E1A16E0
+	 * 		RVA    -> 0x6F4FE16E0
 	 * 		Name   -> Function AndroidFileServer.AndroidFileServerBPLibrary.StartFileServer
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -68,7 +68,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47E1A16C0
+	 * 		RVA    -> 0x6F4FE16C0
 	 * 		Name   -> Function AndroidFileServer.AndroidFileServerBPLibrary.IsFileServerRunning
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 */

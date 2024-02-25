@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -100,7 +100,7 @@ namespace CG
 	class UAnimSequencerInstance : public UAnimInstance
 	{
 	public:
-		unsigned char                                              UnknownData_0WTJ[0x8];                                   // 0x0348(0x0008) Fix Super Size
+		unsigned char                                              UnknownData_TAVM[0x8];                                   // 0x0348(0x0008) Fix Super Size
 
 	public:
 		static UClass* StaticClass();
@@ -191,7 +191,7 @@ namespace CG
 		class FScriptMulticastDelegate                             OnInterrupted;                                           // 0x0048(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
 		class FScriptMulticastDelegate                             OnNotifyBegin;                                           // 0x0058(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
 		class FScriptMulticastDelegate                             OnNotifyEnd;                                             // 0x0068(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_UP15[0x30];                                  // 0x0078(0x0030) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_YV1V[0x30];                                  // 0x0078(0x0030) MISSED OFFSET (PADDING)
 
 	public:
 		void OnNotifyEndReceived(const class FName& NotifyName, const struct FBranchingPointNotifyPayload& BranchingPointNotifyPayload);

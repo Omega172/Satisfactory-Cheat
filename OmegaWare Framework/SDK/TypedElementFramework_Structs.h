@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -21,7 +21,7 @@ namespace CG
 	struct FScriptTypedElementHandle
 	{
 	public:
-		unsigned char                                              UnknownData_JILQ[0x8];                                   // 0x0000(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_YFLS[0x8];                                   // 0x0000(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -31,7 +31,7 @@ namespace CG
 	struct FTypedElementDataStorageColumn
 	{
 	public:
-		unsigned char                                              UnknownData_MSTC[0x1];                                   // 0x0000(0x0001) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_V1JG[0x1];                                   // 0x0000(0x0001) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -41,7 +41,7 @@ namespace CG
 	struct FTypedElementDataStorageTag
 	{
 	public:
-		unsigned char                                              UnknownData_EV66[0x1];                                   // 0x0000(0x0001) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_7BCP[0x1];                                   // 0x0000(0x0001) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -51,7 +51,7 @@ namespace CG
 	struct FTypedElementWidgetConstructor
 	{
 	public:
-		unsigned char                                              UnknownData_U9XJ[0x8];                                   // 0x0000(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_IBF8[0x8];                                   // 0x0000(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -61,7 +61,7 @@ namespace CG
 	struct FTypedElementLabelColumn : public FTypedElementDataStorageColumn
 	{
 	public:
-		unsigned char                                              UnknownData_9MVY[0xF];                                   // 0x0001(0x000F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_WRPZ[0xF];                                   // 0x0001(0x000F) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -71,7 +71,7 @@ namespace CG
 	struct FTypedElementLabelHashColumn : public FTypedElementDataStorageColumn
 	{
 	public:
-		unsigned char                                              UnknownData_JDU4[0x7];                                   // 0x0001(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_Y2QP[0x7];                                   // 0x0001(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -81,7 +81,7 @@ namespace CG
 	struct FScriptTypedElementListProxy
 	{
 	public:
-		unsigned char                                              UnknownData_0IF1[0x10];                                  // 0x0000(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_BMY3[0x10];                                  // 0x0000(0x0010) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -98,7 +98,7 @@ namespace CG
 	struct FTypedElementPackagePathColumn : public FTypedElementDataStorageColumn
 	{
 	public:
-		unsigned char                                              UnknownData_Y3XJ[0xF];                                   // 0x0001(0x000F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_PXEK[0xF];                                   // 0x0001(0x000F) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -108,7 +108,7 @@ namespace CG
 	struct FTypedElementPackageLoadedPathColumn : public FTypedElementDataStorageColumn
 	{
 	public:
-		unsigned char                                              UnknownData_6D9U[0xB];                                   // 0x0001(0x000B) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_3QKC[0xB];                                   // 0x0001(0x000B) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -118,7 +118,7 @@ namespace CG
 	struct FTypedElementSlateWidgetReferenceColumn : public FTypedElementDataStorageColumn
 	{
 	public:
-		unsigned char                                              UnknownData_32B6[0xF];                                   // 0x0001(0x000F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_GK9K[0xF];                                   // 0x0001(0x000F) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -135,7 +135,7 @@ namespace CG
 	struct FTypedElementLocalTransformColumn : public FTypedElementDataStorageColumn
 	{
 	public:
-		unsigned char                                              UnknownData_3ZQA[0x5F];                                  // 0x0001(0x005F) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_0RZ2[0x5F];                                  // 0x0001(0x005F) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -145,7 +145,7 @@ namespace CG
 	struct FTypedElementU32IntValueCacheColumn : public FTypedElementDataStorageColumn
 	{
 	public:
-		unsigned char                                              UnknownData_FFP1[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_OKP1[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -155,7 +155,7 @@ namespace CG
 	struct FTypedElementI32IntValueCacheColumn : public FTypedElementDataStorageColumn
 	{
 	public:
-		unsigned char                                              UnknownData_OH6A[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_YJPE[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -165,7 +165,7 @@ namespace CG
 	struct FTypedElementFloatValueCacheColumn : public FTypedElementDataStorageColumn
 	{
 	public:
-		unsigned char                                              UnknownData_08RJ[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_Z0SZ[0x3];                                   // 0x0001(0x0003) MISSED OFFSET (PADDING)
 	};
 
 }

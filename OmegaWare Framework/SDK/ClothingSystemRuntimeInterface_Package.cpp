@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -82,7 +82,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB029000
+	 * 		RVA    -> 0x7683F9000
 	 * 		Name   -> Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.SetNumSubsteps
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -105,7 +105,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB028F70
+	 * 		RVA    -> 0x7683F8F70
 	 * 		Name   -> Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.SetNumIterations
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -128,7 +128,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB028EE0
+	 * 		RVA    -> 0x7683F8EE0
 	 * 		Name   -> Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.SetMaxNumIterations
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -151,7 +151,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB028E50
+	 * 		RVA    -> 0x7683F8E50
 	 * 		Name   -> Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.SetAnimDriveSpringStiffness
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -174,7 +174,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB028E30
+	 * 		RVA    -> 0x7683F8E30
 	 * 		Name   -> Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.PhysicsAssetUpdated
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -194,7 +194,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB028E10
+	 * 		RVA    -> 0x7683F8E10
 	 * 		Name   -> Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.GetSimulationTime
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -216,7 +216,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB028DF0
+	 * 		RVA    -> 0x7683F8DF0
 	 * 		Name   -> Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.GetNumSubsteps
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -238,7 +238,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB028DD0
+	 * 		RVA    -> 0x7683F8DD0
 	 * 		Name   -> Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.GetNumKinematicParticles
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -260,7 +260,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB028DB0
+	 * 		RVA    -> 0x7683F8DB0
 	 * 		Name   -> Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.GetNumIterations
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -282,7 +282,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB028D90
+	 * 		RVA    -> 0x7683F8D90
 	 * 		Name   -> Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.GetNumDynamicParticles
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -304,7 +304,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB028D70
+	 * 		RVA    -> 0x7683F8D70
 	 * 		Name   -> Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.GetNumCloths
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -326,7 +326,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB028CC0
+	 * 		RVA    -> 0x7683F8CC0
 	 * 		Name   -> Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.GetClothingInteractor
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -351,7 +351,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB028C20
+	 * 		RVA    -> 0x7683F8C20
 	 * 		Name   -> Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.EnableGravityOverride
 	 * 		Flags  -> (Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -374,7 +374,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB028C00
+	 * 		RVA    -> 0x7683F8C00
 	 * 		Name   -> Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.DisableGravityOverride
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -394,7 +394,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x4CB028BE0
+	 * 		RVA    -> 0x7683F8BE0
 	 * 		Name   -> Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.ClothConfigUpdated
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */

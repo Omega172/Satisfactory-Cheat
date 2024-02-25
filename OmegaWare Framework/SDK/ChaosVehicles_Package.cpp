@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A59AD40
+	 * 		RVA    -> 0x6EBCBAD40
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.SetYawInput
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -35,7 +35,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A59ACB0
+	 * 		RVA    -> 0x6EBCBACB0
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.SetUseAutomaticGears
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -58,7 +58,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A59AC20
+	 * 		RVA    -> 0x6EBCBAC20
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.SetThrottleInput
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -81,7 +81,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A59AB50
+	 * 		RVA    -> 0x6EBCBAB50
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.SetTargetGear
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -106,7 +106,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A59AAC0
+	 * 		RVA    -> 0x6EBCBAAC0
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.SetSteeringInput
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -129,7 +129,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A59AA30
+	 * 		RVA    -> 0x6EBCBAA30
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.SetSleeping
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -152,7 +152,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A59A9A0
+	 * 		RVA    -> 0x6EBCBA9A0
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.SetRollInput
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -175,7 +175,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A59A910
+	 * 		RVA    -> 0x6EBCBA910
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.SetRequiresControllerForInputs
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -198,7 +198,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A59A880
+	 * 		RVA    -> 0x6EBCBA880
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.SetPitchInput
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -221,7 +221,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A59A7F0
+	 * 		RVA    -> 0x6EBCBA7F0
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.SetParked
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -244,7 +244,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A59A760
+	 * 		RVA    -> 0x6EBCBA760
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.SetHandbrakeInput
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -267,7 +267,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A59A6D0
+	 * 		RVA    -> 0x6EBCBA6D0
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.SetChangeUpInput
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -290,7 +290,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A59A640
+	 * 		RVA    -> 0x6EBCBA640
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.SetChangeDownInput
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -313,7 +313,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A59A5B0
+	 * 		RVA    -> 0x6EBCBA5B0
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.SetBrakeInput
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -336,7 +336,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A59A2B0
+	 * 		RVA    -> 0x6EBCBA2B0
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.ServerUpdateState
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer, NetValidate)
 	 * Parameters:
@@ -373,7 +373,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A59A290
+	 * 		RVA    -> 0x6EBCBA290
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.ResetVehicle
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -393,7 +393,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A59A260
+	 * 		RVA    -> 0x6EBCBA260
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.IsParked
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -415,7 +415,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A59A1A0
+	 * 		RVA    -> 0x6EBCBA1A0
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.IncreaseThrottleInput
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -438,7 +438,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A59A110
+	 * 		RVA    -> 0x6EBCBA110
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.GetUseAutoGears
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -460,7 +460,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A59A0F0
+	 * 		RVA    -> 0x6EBCBA0F0
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.GetThrottleInput
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -482,7 +482,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A59A0C0
+	 * 		RVA    -> 0x6EBCBA0C0
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.GetTargetGear
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -504,7 +504,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A59A030
+	 * 		RVA    -> 0x6EBCBA030
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.GetSteeringInput
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -526,7 +526,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A599F70
+	 * 		RVA    -> 0x6EBCB9F70
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.GetHandbrakeInput
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -548,7 +548,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A599F40
+	 * 		RVA    -> 0x6EBCB9F40
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.GetForwardSpeedMPH
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -570,7 +570,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A599F10
+	 * 		RVA    -> 0x6EBCB9F10
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.GetForwardSpeed
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -592,7 +592,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A599EE0
+	 * 		RVA    -> 0x6EBCB9EE0
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.GetCurrentGear
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -614,7 +614,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A599EC0
+	 * 		RVA    -> 0x6EBCB9EC0
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.GetBrakeInput
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -636,7 +636,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A599E00
+	 * 		RVA    -> 0x6EBCB9E00
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.EnableSelfRighting
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -659,7 +659,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A599D70
+	 * 		RVA    -> 0x6EBCB9D70
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleMovementComponent.DecreaseThrottleInput
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -696,7 +696,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A59A230
+	 * 		RVA    -> 0x6EBCBA230
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleWheel.IsInAir
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -718,7 +718,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A59A170
+	 * 		RVA    -> 0x6EBCBA170
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleWheel.GetWheelRadius
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -740,7 +740,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A59A140
+	 * 		RVA    -> 0x6EBCBA140
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleWheel.GetWheelAngularVelocity
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -762,7 +762,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A59A090
+	 * 		RVA    -> 0x6EBCBA090
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleWheel.GetSuspensionOffset
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -784,7 +784,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A59A050
+	 * 		RVA    -> 0x6EBCBA050
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleWheel.GetSuspensionAxis
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -806,7 +806,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A59A000
+	 * 		RVA    -> 0x6EBCBA000
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleWheel.GetSteerAngle
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -828,7 +828,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A599FD0
+	 * 		RVA    -> 0x6EBCB9FD0
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleWheel.GetRotationAngularVelocity
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -850,7 +850,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A599FA0
+	 * 		RVA    -> 0x6EBCB9FA0
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleWheel.GetRotationAngle
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -872,7 +872,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A599EA0
+	 * 		RVA    -> 0x6EBCB9EA0
 	 * 		Name   -> Function ChaosVehicles.ChaosVehicleWheel.GetAxleType
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -908,7 +908,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5B1DB0
+	 * 		RVA    -> 0x6EBCD1DB0
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.SetWheelSlipGraphMultiplier
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -933,7 +933,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5B1CD0
+	 * 		RVA    -> 0x6EBCD1CD0
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.SetWheelRadius
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -958,7 +958,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5B1BF0
+	 * 		RVA    -> 0x6EBCD1BF0
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.SetWheelMaxSteerAngle
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -983,7 +983,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5B1B10
+	 * 		RVA    -> 0x6EBCD1B10
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.SetWheelMaxBrakeTorque
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1008,7 +1008,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5B1A30
+	 * 		RVA    -> 0x6EBCD1A30
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.SetWheelHandbrakeTorque
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1033,7 +1033,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5B1950
+	 * 		RVA    -> 0x6EBCD1950
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.SetWheelFrictionMultiplier
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1058,7 +1058,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5B1880
+	 * 		RVA    -> 0x6EBCD1880
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.SetWheelClass
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1083,7 +1083,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5B17B0
+	 * 		RVA    -> 0x6EBCD17B0
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.SetTractionControlEnabled
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1108,7 +1108,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5B16E0
+	 * 		RVA    -> 0x6EBCD16E0
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.SetTorqueCombineMethod
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1133,7 +1133,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5B14E0
+	 * 		RVA    -> 0x6EBCD14E0
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.SetSuspensionParams
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1166,7 +1166,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5B1360
+	 * 		RVA    -> 0x6EBCD1360
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.SetSnapshot
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1189,7 +1189,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5B12D0
+	 * 		RVA    -> 0x6EBCD12D0
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.SetMaxEngineTorque
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1212,7 +1212,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5B11F0
+	 * 		RVA    -> 0x6EBCD11F0
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.SetDriveTorque
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1237,7 +1237,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5B1160
+	 * 		RVA    -> 0x6EBCD1160
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.SetDragCoefficient
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1260,7 +1260,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5B10D0
+	 * 		RVA    -> 0x6EBCD10D0
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.SetDownforceCoefficient
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1283,7 +1283,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5B1040
+	 * 		RVA    -> 0x6EBCD1040
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.SetDifferentialFrontRearSplit
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1306,7 +1306,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5B0F60
+	 * 		RVA    -> 0x6EBCD0F60
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.SetBrakeTorque
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1331,7 +1331,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5B0E90
+	 * 		RVA    -> 0x6EBCD0E90
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.SetAffectedBySteering
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1356,7 +1356,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5B0DC0
+	 * 		RVA    -> 0x6EBCD0DC0
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.SetAffectedByHandbrake
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1381,7 +1381,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5B0CF0
+	 * 		RVA    -> 0x6EBCD0CF0
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.SetAffectedByEngine
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1406,7 +1406,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5B0C20
+	 * 		RVA    -> 0x6EBCD0C20
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.SetAffectedByBrake
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1431,7 +1431,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5B0B50
+	 * 		RVA    -> 0x6EBCD0B50
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.SetABSEnabled
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1456,7 +1456,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5B0370
+	 * 		RVA    -> 0x6EBCD0370
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.MakeWheelStatus
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -1510,7 +1510,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5B01A0
+	 * 		RVA    -> 0x6EBCD01A0
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.MakeWheelSnapshot
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -1543,7 +1543,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5B0850
+	 * 		RVA    -> 0x6EBCD0850
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.MakeWheeledSnapshot
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -1578,7 +1578,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5B00A0
+	 * 		RVA    -> 0x6EBCD00A0
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.GetWheelState
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1603,7 +1603,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5AFFF0
+	 * 		RVA    -> 0x6EBCCFFF0
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.GetSnapshot
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1625,7 +1625,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5AFFD0
+	 * 		RVA    -> 0x6EBCCFFD0
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.GetNumWheels
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1647,7 +1647,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5AFFA0
+	 * 		RVA    -> 0x6EBCCFFA0
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.GetEngineRotationSpeed
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1669,7 +1669,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5AFF70
+	 * 		RVA    -> 0x6EBCCFF70
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.GetEngineMaxRotationSpeed
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1691,7 +1691,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5AFEE0
+	 * 		RVA    -> 0x6EBCCFEE0
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.EnableWheelFriction
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1714,7 +1714,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5AFE50
+	 * 		RVA    -> 0x6EBCCFE50
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.EnableSuspension
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1737,7 +1737,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5AFDC0
+	 * 		RVA    -> 0x6EBCCFDC0
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.EnableMechanicalSim
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1760,7 +1760,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5AF3B0
+	 * 		RVA    -> 0x6EBCCF3B0
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.BreakWheelStatus
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -1826,7 +1826,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5AF160
+	 * 		RVA    -> 0x6EBCCF160
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.BreakWheelSnapshot
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -1865,7 +1865,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5AF9C0
+	 * 		RVA    -> 0x6EBCCF9C0
 	 * 		Name   -> Function ChaosVehicles.ChaosWheeledVehicleMovementComponent.BreakWheeledSnapshot
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -1921,7 +1921,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x47A5B0070
+	 * 		RVA    -> 0x6EBCD0070
 	 * 		Name   -> Function ChaosVehicles.VehicleAnimationInstance.GetVehicle
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */

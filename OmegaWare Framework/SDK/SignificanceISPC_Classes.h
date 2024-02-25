@@ -2,7 +2,7 @@
 
 /**
  * Name: Satisfactory
- * Version: Early_Access_CL#264901
+ * Version: Early_Access_CL#273254
  */
 
 #ifdef _MSC_VER
@@ -21,9 +21,9 @@ namespace CG
 	class USignificanceManagerAccelerated : public USignificanceManager
 	{
 	public:
-		unsigned char                                              UnknownData_GNNE[0x50];                                  // 0x0150(0x0050) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_WH7M[0x50];                                  // 0x0150(0x0050) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		int32_t                                                    NumFramesForFullCycle;                                   // 0x01A0(0x0004) Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_QB38[0x4];                                   // 0x01A4(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_8N7F[0x4];                                   // 0x01A4(0x0004) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
